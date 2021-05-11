@@ -5,4 +5,13 @@ module.exports = function (eleventyConfig) {
   eleventyConfig.addPassthroughCopy('src/css');
   eleventyConfig.addPassthroughCopy('src/data');
   eleventyConfig.addPassthroughCopy('src/img');
+
+  return {
+    dir: {
+      output: 'build',
+      input: 'src',
+      data: 'data',
+      includes: 'partials_layouts',
+    },
+  };
 };
