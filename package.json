@@ -6,7 +6,9 @@
   "directories": {
     "doc": "docs"
   },
-  "scripts": {},
+  "scripts": {
+    "dev": "ELEVENTY_ENV=dev npx @11ty/eleventy --serve"
+  },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/cmcknight/central-supply-catalog.git"
