@@ -21,72 +21,149 @@ body {
 
 a {
   color: var(--red);
-}
-
-/*--------------------- Mobile-First Design ---------------------*/
-
-.nav-container {
-  padding: .5rem;
-  background-color: pink;
-  width: 100%;
-  background: #000;
-}
-
-.nav-container a {
   text-decoration: none;
 }
 
-.nav-container a h1 {
-  font-size: 1.5rem;
-  text-align: center;
+/*----------- Mobile-First Design ---------*/
+
+nav {
+  display: flex;
+  justify-content: center;
+  width: 100vw;
+  background-color: rgba(0, 0, 0, .8);
 }
 
-.nav-container ul {
+nav .container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  justify-items: center;
+  width: 100%;
+}
+
+.logo {
+  width: auto;
+  height: 2rem;
+  margin: .5rem;
+}
+
+.menubar {
   list-style: none;
-  text-align: center;
-  padding-top: .5rem;
+  padding-right: .5rem;
+  padding-bottom: .5rem;
 }
 
-.nav-container ul li {
+.menubar li {
   display: inline-block;
 }
 
-.nav-container ul li:nth-child(n+2)::before {
-  content: " | ";
-  color: var(--red);
+.menubar a {
+  font-size: .8rem;
+  padding: 0 .25rem;
 }
+
+/*-------------- Hero Section -------------*/
+
+.hero {
+  padding: 1rem 0;
+}
+
+.hero img {
+  display: block;
+  margin: 0 auto;
+  max-width: 90%;
+}
+
+@media screen and (min-width: 768px) {
+  .hero {
+    padding: 4rem 0;
+  }
+}
+
+main {
+  overflow: auto;
+  max-height: 80vh;
+}
+
+/*----------- Departments Section ----------*/
+
+.departments {
+  display: block;
+  width: 100%;
+  max-width: 100vw;
+}
+
+.departments .card {
+  max-width: 100%;
+}
+
+.departments .card img {
+  width: 100%;
+}
+
+@media screen and (min-width: 768px) {
+  .departments {
+    display: grid;
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+    grid-gap: 1rem;
+    padding: 0 1rem;
+  }
+}
+
+/*----------- Disclaimer Accordion ----------*/
+
+.disclaimer {
+  text-align: center;
+  background-color: rgba(0, 0, 0, .8);
+  font-size: .8rem;
+}
+
+@media screen and (min-height: 768px) {
+  .disclaimer {
+    position: fixed;
+    bottom: 50px;
+    left: 0;
+    width: 100vw;
+  }
+}
+
+/*----------- Disclaimer Accordion ----------*/
 
 footer {
-  position: fixed;
-  bottom: 0;
-  left: 0;
   width: 100vw;
-}
-
-footer .disclaimer {
-  text-align: center;
-}
-
-footer .disclaimer a {
-  text-decoration: none;
-  background: transparent;
+  background: rgba(0, 0, 0, .8);
+  padding: .5rem;
 }
 
 footer .cc-attrib {
   display: flex;
+  justify-content: space-between;
+  align-items: center;
   color: var(--red);
-  background: #000;
-  width: 100%;
-  padding: .5rem;
-  gap: .5rem;
   font-size: .8rem;
 }
 
-footer .cc-attrib .cc-attrib-img {
-  align-self: center;
+footer .cc-attrib .cc-attrib-link {
+  padding-left: 1rem;
 }
 
-footer .cc-attrib img {
-  width: 80%;
-  height: auto;
+@media screen and (min-height: 768px) {
+  footer {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+  }
+}
+
+@media screen and (min-width: 768px) {
+  footer .cc-attrib {
+    justify-content: center;
+    align-content: center;
+  }
+  footer .cc-attrib .cc-attrib-link {
+    max-width: 40%;
+    text-align: left;
+    padding-left: 1rem;
+  }
 }

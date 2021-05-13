@@ -1,18 +1,82 @@
 {% include '_head.njk' %}
-  <div class="container">
-    {% include '_site-header.njk' %}
 
-    <!-- category menu -->
-    {# <div class="category-menu"></div> #}
+  <header>
+      {% include '_navbar.njk' %}
+  </header>
 
-    {# <div class="mobile-category-menu"></div> #}
+  <main>
+    <!-- Hero Section -->
+    <section>
+      <div class="hero">
+        <img src="/img/hero-title.png" alt="Central Supply Catalog">
+      </div>
 
-    <!-- Slideshow section -->
-    {# {% include '_slideshow.njk' %} #}
+    </section>
 
-    <!-- Department Buttons -->
-    {# {% include '_departments.njk' %} #}
+    <!-- Departments -->
+    <section>
+      <div class="departments">
+        
+        <div class="card">
+          <a href="#">
+            <img src="/img/slide-1.jpg" alt="Electronics">
+          </a>
+        </div>
+
+        <div class="card">
+          <a href="#">
+            <img src="/img/slide-2.jpg" alt="Personal Equipment">
+          </a>
+        </div>
+
+        <div class="card">
+          <a href="#">
+            <img src="/img/slide-3.jpg" alt="Robots & Drones">
+          </a>
+          </div>
+
+        <div class="card">
+          <a href="#">
+            <img src="/img/slide-4.jpg" alt="Survival">
+          </a>
+        </div>
+
+        <div class="card">
+          <a href="#">
+            <img src="/img/slide-5.jpg" alt="Vehicles">
+          </a>
+        </div>
+
+        <div class="card">
+          <a href="#">
+            <img src="/img/slide-6.jpg" alt="Weapons">
+          </a>
+        </div>
+
+      </div>
+    </section>
+
+    <section>
+      <div class="disclaimer">
+        <a href="#">
+          <i class="fas fa-chevron-up"></i> Disclaimers
+        </a>
+      </div>
+    </section>
+  </main>
+
+  <footer>
+  <div class="cc-attrib">
+    <div class="cc-attrib-img">
+      <a rel="license" href="http://creativecommons.org/licenses/by-sa/4.0/"><img alt="Creative Commons License"
+       src="https://i.creativecommons.org/l/by-sa/4.0/88x31.png" /></a>
+    </div>
+
+    <div class="cc-attrib-link">This work is licensed under a <a rel="license" href="http://creativecommons.org/licenses/by-sa/4.0/">Creative Commons Attribution-ShareAlike
+    4.0 International License</a>.
+    </div>
+
   </div>
-    
-  {% include '_site-footer.njk' %}
-  {% include '_foot.njk' %}
+  </footer>
+
+{% include '_foot.njk' %}
