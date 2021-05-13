@@ -82,6 +82,10 @@ footer .cc-attrib {
   font-size: .8rem;
 }
 
+footer .cc-attrib .cc-attrib-img {
+  align-self: center;
+}
+
 footer .cc-attrib img {
   width: 80%;
   height: auto;
