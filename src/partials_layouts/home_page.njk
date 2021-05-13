@@ -58,25 +58,19 @@
 
     <section>
       <div class="disclaimer">
-        <a href="#">
-          <i class="fas fa-chevron-up"></i> Disclaimers
+        <div class="disclaimer-title">
+        <a href="#" id="disclaimer-toggle">
+          <i class="fas fa-chevron-up" id="disclaimer-toggle-icon"></i> Disclaimers
         </a>
+        </div>
+        <div class="disclaimer-content">
+          <p>“Cepheus Engine” and “Samardan Press” are the trademarks of Jason "Flynn" Kemp.</p>
+          <p>Pheonic is not associated with Samardan Press nor Jason “Flynn” Kemp.</p>
+          <p>You may view a complete copy of the Cepheus Engine SRD by clicking this <a href="https://thetrove.is/Books/Cepheus%20Engine/CE%20-%20Cepheus%20Engine%20SRD.pdf">link</a>.</p>
+          <p>"The Traveller game in all forms is owned by Far Future Enterprises. Copyright &copy; 1977 - 2008 Far Future Enterprises."</p>
       </div>
     </section>
   </main>
 
-  <footer>
-  <div class="cc-attrib">
-    <div class="cc-attrib-img">
-      <a rel="license" href="http://creativecommons.org/licenses/by-sa/4.0/"><img alt="Creative Commons License"
-       src="https://i.creativecommons.org/l/by-sa/4.0/88x31.png" /></a>
-    </div>
-
-    <div class="cc-attrib-link">This work is licensed under a <a rel="license" href="http://creativecommons.org/licenses/by-sa/4.0/">Creative Commons Attribution-ShareAlike
-    4.0 International License</a>.
-    </div>
-
-  </div>
-  </footer>
-
+  {% include '_site-footer.njk' %}
 {% include '_foot.njk' %}

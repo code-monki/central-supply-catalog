@@ -114,9 +114,31 @@ main {
 /*----------- Disclaimer Accordion ----------*/
 
 .disclaimer {
-  text-align: center;
   background-color: rgba(0, 0, 0, .8);
   font-size: .8rem;
+  width: 100vw;
+}
+
+.disclaimer .disclaimer-title {
+  color: var(--red);
+  text-align: center;
+  padding: .5rem 0;
+  width: 100vw;
+}
+
+.disclaimer .disclaimer-content {
+  color: #000;
+  background: #fff;
+  max-width: 95%;
+  max-height: 25vh;
+  line-height: 1.6;
+  margin: 0 auto;
+  display: none;
+  overflow: auto;
+}
+
+.disclaimer .disclaimer-content p {
+  padding: .5rem;
 }
 
 @media screen and (min-height: 768px) {
@@ -125,6 +147,12 @@ main {
     bottom: 50px;
     left: 0;
     width: 100vw;
+  }
+}
+
+@media screen and (min-width: 760px) {
+  .disclaimer .disclaimer-content {
+    max-width: 70%;
   }
 }
 
