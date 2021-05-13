@@ -11,149 +11,78 @@
 }
 
 body {
+  font-family: 'Roboto', sans-serif;
   background-image: url(/img/background.jpg);
   background-color: #000;
   background-position: center;
-  background-repeat: no-repeat;
   background-size: cover;
-  max-width: 100vw;
-  max-height: 100vh;
   width: 100vw;
-  height: 100vh;
 }
 
-/*----------------- Site Header ---------------------*/
-
-.container {
-  display: flex;
-  justify-content: center;
-  width: 100%;
-  background-color: #000;
-}
-
-.container .row {
-  display: block;
-  width: 100%;
-}
-
-.container .row header {
-  width: 100%;
-  margin: auto;
-}
-
-.container .row header {
-  font-family: 'Roboto', sans-serif;
-}
-
-.container .row header h1 {
-  font-style: italic;
-  text-align: center;
-  color: var(--red);
-  padding-top: .5rem;
-}
-
-.container .row .logo img {
-  display: block;
-  margin: auto;
-  max-width: 90%;
-  height: auto;
-  padding-top: .5rem;
-}
-
-.container .row header nav ul {
-  list-style: none;
-  text-align: center;
-  padding: 1rem 0;
-}
-
-.container .row header nav ul li {
-  display: inline;
+a {
   color: var(--red);
 }
 
-.container .row header nav ul li a {
-  color: var(--red);
+/*--------------------- Mobile-First Design ---------------------*/
+
+.nav-container {
+  padding: .5rem;
+  background-color: pink;
+  width: 100%;
+  background: #000;
+}
+
+.nav-container a {
   text-decoration: none;
 }
 
-.container .row header nav ul li:nth-child(n+2)::before {
-  content: ' | ';
+.nav-container a h1 {
+  font-size: 1.5rem;
+  text-align: center;
 }
 
-@media screen and (min-width: 1024px) {
-  .container .row header {
-    max-width: 960px;
-  }
-  .container .row .logo img {
-    max-height: 3rem;
-    width: auto;
-  }
+.nav-container ul {
+  list-style: none;
+  text-align: center;
+  padding-top: .5rem;
 }
 
-/*------------------- Hero Section --------------------*/
-
-.container .row .hero {
-  max-width: 100%;
-  background-image: url(/img/background.jpg);
-  background-color: #000;
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover;
+.nav-container ul li {
+  display: inline-block;
 }
 
-.container .row .hero img {
-  display: block;
-  margin: auto;
-  max-width: 90%;
-  max-height: auto;
+.nav-container ul li:nth-child(n+2)::before {
+  content: " | ";
+  color: var(--red);
 }
-
-/*---------------------- Footer ----------------------- */
 
 footer {
   position: fixed;
-  left: 0;
   bottom: 0;
+  left: 0;
   width: 100vw;
-  background-color: #000;
-  color: var(--red);
-  padding: .2rem;
-}
-
-footer a {
-  color: var(--red);
-  text-decoration: none;
 }
 
 footer .disclaimer {
-  padding: .5rem 0;
   text-align: center;
 }
 
+footer .disclaimer a {
+  text-decoration: none;
+  background: transparent;
+}
+
 footer .cc-attrib {
-  display: grid;
-  grid-template-columns: minmax(0, 1fr) minmax(0, 2fr);
-  justify-content: space-around;
+  display: flex;
+  color: var(--red);
+  background: #000;
+  width: 100%;
+  padding: .5rem;
+  gap: .5rem;
+  font-size: .8rem;
 }
 
-footer .cc-attrib .cc-attrib-img {
-  justify-self: center;
-  align-self: center;
-}
-
-@media screen and (min-width: 768px) {
-  footer .cc-attrib {
-    display: flex;
-  }
-}
-
-@media screen and (min-width: 1024px) {
-  footer .cc-attrib {
-    display: flex;
-    max-width: 768px;
-    margin: auto;
-  }
-  .footer .cc-attrib .cc-attrib-img {
-    justify-self: flex-end;
-  }
+footer .cc-attrib img {
+  width: 80%;
+  height: auto;
 }
