@@ -1,12 +1,65 @@
       <nav>
-        <div class=".container">
-        <img src="/img/logo.png" alt="Home" class="logo">
-        <ul class="menubar">
-          <li><a href="/">Home</a></li>
-          <li><a href="#">Shop</a></li>
-          <li><a href="#">Search</a></li>
-          <li><a href="about">About</a></li>
-          <li><a href="#"><i class="fa fa-shopping-cart"></i></a></li>
-        </ul>
+        <div class="controls-container">
+
+          <div class="brand-logo">
+            <a href="/">
+              <img src="/img/logo.png" alt="Home"></a>
+          </div>
+
+          <div class="custom-select">
+              <h4>Departments</h4>
+              <div class="form-control-group">
+              <!-- <p>Const. Matls</p>
+              <button><i class="fa fa-caret-down"></i></button> -->
+              <select name="departments" id="departments">
+                <option value="all">All</option>
+                <option value="aircraft">Aircraft</option>
+                <option value="ammunition">Ammunition</option>
+                <option value="armor">Armor</option>
+                <option value="automatons">Automatons</option>
+                <option value="beverages">Beverages</option>
+                <option value="cables">Cables</option>
+                <option value="clothing">Clothing</option>
+                <option value="communicators">Communicators</option>
+                <option value="computers">Computers</option>
+                <option value="construction-materials">Const. Mat'ls</option>
+                <option value="detectors">Detectors</option>
+                <option value="drones">Drones</option>
+                <option value="drugs">Drugs</option>
+                <option value="food">Food</option>
+                <option value="fuel">Fuel</option>
+                <option value="gases">Gases</option>
+                <option value="grav-vehicles">Grav Vehicles</option>
+                <option value="hydraulics">Hydraulics</option>
+                <option value="liquids">Liquids</option>
+                <option value="medical">Medical</option>
+                <option value="miscellaneous">Miscellaneous</option>
+                <option value="power">Power</option>
+                <option value="robots">Robots</option>
+                <option value="shelters">Shelters</option>
+                <option value="surface-gear">Surface Gear</option>
+                <option value="toolkits">Toolkits</option>
+                <option value="tracked">Tracked Vehicles</option>
+                <option value="wheeled-vehicles">Wheeled Vehicles</option>
+                <option value="watercraft">Watercraft</option>
+                <option value="weapons">Weapons</option>
+                <option value="weapon-accessories">Weapon Access.</option>
+              </select>
+            </div>
+          </div>
+
+          <div class="custom-search">
+            <h4>Search</h4>
+            <div class="form-control-group">
+            <input type="text" placeholder="Enter keywords" />
+            <button><i class="fa fa-search"></i></button>
+            </div>
+          </div>
+
+          <div class="shopping-cart">
+            <h4>Cart</h4>
+            <a href="#"><i class="fa fa-shopping-cart"></i></a>
+          </div> 
+
         </div>
       </nav>
