@@ -1,0 +1,16 @@
+.btn {
+  border: none;
+  border-radius: .3rem;
+  font-size: 1.4rem;
+  padding: 0 .5rem;
+}
+
+.btn-light {
+  background-color: #ccc;
+  color: $dark-color;
+}
+
+.btn-dark {
+  background-color: $dark-color;
+  color: $light-color;
+}

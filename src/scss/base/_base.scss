@@ -1,0 +1,31 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+html {
+  font-family: $roboto;
+  background: $dark-color $bg-image center center;
+  background-size: cover;
+  line-height: 1.6;
+  letter-spacing: 1px;
+}
+
+h1 {
+  font-size: 1.4rem;
+}
+
+.container {
+  display: flex;
+  justify-content: center;
+  width: 100vw;
+  height: 100vh;
+
+  .column {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    max-width: $max-width;
+  }
+}
