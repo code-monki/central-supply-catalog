@@ -4,3 +4,4 @@ package-lock.json
 _site/*
 build/*
 .DS_Store
+css/*
