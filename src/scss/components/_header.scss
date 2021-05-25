@@ -1,0 +1,92 @@
+header {
+  max-width: 100%;
+  background-color: $dark-color;
+  position: fixed;
+  top: 0;
+  left:0;
+  right: 0;
+  display: flex;
+  justify-content: center;
+  border-bottom: 1px solid $primary-color;
+
+   & .container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+    max-width: $max-width;
+    height: 5rem;
+    padding-top: .5rem;
+    background-color: $dark-color;
+    margin-bottom: .5rem;
+    
+    & .button-row {
+      display: flex;
+      justify-content: space-between;
+      width: 100%;
+      opacity: .8;
+      padding-bottom: .5rem;
+
+      & .menu-btn {
+        margin-left: .5rem;
+      }
+
+      & .logo {
+        flex: 1 1 auto;
+      }
+      & .logo h1 {
+        color: $primary-color;
+        text-align: center;
+      }
+      
+      &  .shopping-cart-btn {
+        margin-right: .5rem;
+      }
+    }
+    
+    & .form-row {
+      display: flex;
+      justify-content: center;
+      width: 100%;
+      background: $dark-color;
+      position: relative;
+
+      & .form-control-group {
+        width: 100vw;
+        max-width: $max-searchbar-width;
+        background: lightblue;
+        position: relative;
+        display: flex;
+
+        & .departments-btn {
+          font-size: .8rem;
+          background-color: lighten($dark-color, 80%);
+        }
+
+        & .departments-btn {
+          font-size: 1rem;
+        }
+        
+        & .search-txt {
+          // width: 100%;
+          flex: 1 1 auto;
+          font-size: 1rem;
+          padding-left: .2rem;
+          outline: none;
+        }
+
+        & .search-btn {
+          font-size: 1rem;
+          position: absolute;
+          top: 0;
+          right: 0;
+          bottom: 0;
+          padding: 0 .2rem;
+
+        }
+
+      }
+    }
+   }
+
+}
