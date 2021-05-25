@@ -1,6 +1,6 @@
 header {
   max-width: 100%;
-  background-color: $dark-color;
+  background-color: rgba($dark-color, .7);
   position: fixed;
   top: 0;
   left:0;
@@ -17,7 +17,6 @@ header {
     max-width: $max-width;
     height: 5rem;
     padding-top: .5rem;
-    background-color: $dark-color;
     margin-bottom: .5rem;
     
     & .button-row {
@@ -54,13 +53,13 @@ header {
       & .form-control-group {
         width: 100vw;
         max-width: $max-searchbar-width;
-        background: lightblue;
         position: relative;
         display: flex;
 
         & .departments-btn {
           font-size: .8rem;
           background-color: lighten($dark-color, 80%);
+          margin: 0 .125rem;
         }
 
         & .departments-btn {
