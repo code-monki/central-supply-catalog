@@ -5,3 +5,5 @@ _site/*
 build/*
 .DS_Store
 css/*
+ToDos.md
+src/css/*
