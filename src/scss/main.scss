@@ -1,9 +1,12 @@
 // initializations
 @import 'abstract/variables';
 @import 'abstract/utlities';
+@import 'abstract/mixins';
+
 @import 'base/base';
 
 // components
-@import 'components/header'
+@import 'components/header';
+@import 'components/footer';
 
 // layouts
