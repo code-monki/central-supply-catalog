@@ -1,91 +1,109 @@
 header {
-  max-width: 100%;
-  background-color: rgba($dark-color, .7);
+  width: 100%;
+  height: 80px;
   position: fixed;
   top: 0;
-  left:0;
+  left: 0;
   right: 0;
   display: flex;
   justify-content: center;
-  border-bottom: 1px solid $primary-color;
+  background-color: rgba(0,0,0,.8);
+  border-bottom: 1px solid red;
 
-   & .container {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: flex-start;
-    max-width: $max-width;
-    height: 5rem;
-    padding-top: .5rem;
-    margin-bottom: .5rem;
-    
-    & .button-row {
-      display: flex;
-      justify-content: space-between;
-      width: 100%;
-      opacity: .8;
-      padding-bottom: .5rem;
+  & .container {
+    display: grid;
+    grid-template-areas: 'menu-btn logo cart'
+                         'search-ctrls search-ctrls search-ctrls';
+    width: 100%;
+    max-width: 800px;
+    align-items: flex-start;
+    padding: .25rem;
 
-      & .menu-btn {
-        margin-left: .5rem;
-      }
+    & .menu-btn {
+      grid-area: menu-btn;
+      align-self: center;
 
-      & .logo {
-        flex: 1 1 auto;
-      }
-      & .logo h1 {
-        color: $primary-color;
-        text-align: center;
-      }
-      
-      &  .shopping-cart-btn {
-        margin-right: .5rem;
+      & button {
+        width: 1.8rem;
+        height: 1.8rem;
+        border-radius: .25rem;    
       }
     }
-    
-    & .form-row {
-      display: flex;
-      justify-content: center;
-      width: 100%;
-      background: $dark-color;
+
+    & .logo {
+      grid-area: logo;
+      text-align: center;
+      font-size: .6rem;
+      font-family:Arial, Helvetica, sans-serif;
+      align-self: center;
+      color: red;  
+    }
+
+    & .shopping-cart {
       position: relative;
+      grid-area: cart;
+      justify-self: flex-end;
+      align-self:center;
 
-      & .form-control-group {
-        width: 100vw;
-        max-width: $max-searchbar-width;
+      & a {
+        padding: 0 .25rem;
+        font-size: 1.5rem;
+        color: black;
+        background: #ccc;
+        border-radius: .25rem;    
+      }
+
+      & span {
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        color: red;
+        background: rgba(255,255,255, .8);
+        border-radius: 50%;
+        padding: 0 .25rem;
+        z-index: 100;
+        font-size: .6rem;    
+      }
+    }
+
+    & .search-ctrls {
+      grid-area: search-ctrls;
+      display: flex;
+      width: 100%;
+      max-width: 600px;
+      justify-self: center;
+
+      & .dept {
+
+        & button {
+          width: 6rem;
+          padding: .125rem;
+          border-radius: .25rem;
+        }
+      }
+
+      & .search {
+        width: 100%;
+        height: 100%;
         position: relative;
-        display: flex;
-
-        & .departments-btn {
-          font-size: .8rem;
-          background-color: lighten($dark-color, 80%);
-          margin: 0 .125rem;
-        }
-
-        & .departments-btn {
-          font-size: 1rem;
-        }
+        flex: 1 1 auto;
         
-        & .search-txt {
-          // width: 100%;
-          flex: 1 1 auto;
-          font-size: 1rem;
-          padding-left: .2rem;
+        & input {
+          width: 100%;
+          line-height: 1.5;
           outline: none;
         }
 
-        & .search-btn {
-          font-size: 1rem;
+        & button {
           position: absolute;
-          top: 0;
+          top: 1;
           right: 0;
           bottom: 0;
-          padding: 0 .2rem;
-
+          height: 1.4rem;
+          padding: .125rem;
         }
-
       }
     }
-   }
-
+  }
 }
