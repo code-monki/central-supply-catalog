@@ -60,6 +60,7 @@ The different types of goods are arbitrarily placed in "departments" to facilita
 
 - Communicators
 - Computers
+- Comp. Access.
 - Detectors
 
 **Personal Equipment**
@@ -102,7 +103,7 @@ The different types of goods are arbitrarily placed in "departments" to facilita
 
 **Weapons**
 
-- Wpn Accesories
+- Accesories
 - Ammunition
 - Weapons
 
@@ -173,6 +174,24 @@ The use case begins when the user chooses to modify the quantity of an item in t
 ### Remove Items from Cart
 
 The use begins when the user chooses to remove an item from the shopping cart. The user will click the trash can icon and the system will remove the item from the shopping cart. The use case ends when the item has been removed and the screen has been refreshed.
+
+
+## Department Filter Control - Deferred for future version
+
+The Department Filter button allows the user to limit the product search to a particular department. The button will initially have the label of "All Depts" to indicate that the search terms will be used to look across all of the products. The general flow is:
+
+- User clicks Departments Filter button
+- List of departments is displayed grouped by category
+- User clicks a department to select
+- Department list closes and label of Departments filter button is replaced with the selected department
+
+The user may also click the Departments Filter button while the list is displayed to close the list without selecting a new department. The presentation of the list is a single-column scrolling list of departments in alphabetical order. Each item in the list has a click event to detect a mouse click. Clicking outside of the list will close the list without changing the label of the button. Clicking on a department will close the list and change the label on the button.
+
+On screens less than 400px, the list will expand to cover the entire horizontal width. On screens greater than 400px, the list will expand to it's natural width.
+
+**NOTE:** This control should not be confused with the shop by category/department menu item.
+
+
 
 
 ----
