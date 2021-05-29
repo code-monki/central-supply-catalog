@@ -1,9 +1,11 @@
 const disclaimerToggle = document.getElementById('disclaimer-toggle')
+const disclaimer = document.querySelector('.disclaimer')
+const disclaimerContent = document.querySelector('.disclaimer-content')
 
 // toggle the disclaimer pane
 if (disclaimerToggle !== null) {
   disclaimerToggle.addEventListener('click', (e) => {
-    let disclaimerContent = document.querySelector('.disclaimer-content')
+    // let disclaimerContent = document.querySelector('.disclaimer-content')
 
     // show or hide the content pane
     if (disclaimerContent !== null) {
@@ -19,4 +21,9 @@ if (disclaimerToggle !== null) {
   })
 }
 
+// event handler to detect click outside of disclaimer
+disclaimer.addEventListener('blur', () => {
+  // hide the disclaimer content
+  disclaimerContent.style.display = 'none'
+}, true)
 
