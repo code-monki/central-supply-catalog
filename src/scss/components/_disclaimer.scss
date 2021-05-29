@@ -1,7 +1,10 @@
 .disclaimer {
+  position: fixed;
+  bottom: 64px;
   background-color: rgba(0, 0, 0, .8);
   font-size: .8rem;
   width: 100vw;
+  background: lightgoldenrodyellow;
 }
 
 .disclaimer .disclaimer-title {
@@ -25,24 +28,16 @@
   margin: 0 auto;
   display: none;
   overflow: auto;
+
+  @include response(md) {
+    max-width: 70%;
+  }
+
+  @include response-height(xs) {
+    max-height: 100%;
+  }
 }
 
 .disclaimer .disclaimer-content p {
   padding: .5rem;
 }
-
-@media screen and (min-height: 768px) {
-  .disclaimer {
-    position: fixed;
-    bottom: 64px;
-    left: 0;
-    width: 100vw;
-  }
-}
-
-@media screen and (min-width: 760px) {
-  .disclaimer .disclaimer-content {
-    max-width: 70%;
-  }
-}
-

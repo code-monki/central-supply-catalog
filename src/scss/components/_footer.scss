@@ -25,6 +25,7 @@ footer {
 
     & .cc-attrib {
       display: flex;
+      justify-content: center;
       gap: .5rem;
 
       @include response(md) {
@@ -32,12 +33,17 @@ footer {
         max-width: 75%;
       }
       @include response(lg) {
-        max-width: 45%;
+        max-width: 50%;
         font-size: 1rem;
       }
 
       & .cc-attrib-img {
         width: 10rem;
+        align-self: center;
+
+        @include response(md) {
+          width: 7rem;
+        }
         
         & img {
           width: 100%;
