@@ -8,6 +8,7 @@ footer {
   color: $light-color;
   width: 100vw;
   height: 3.5rem;
+  background-color: rgba($dark-color, .8);
   border-top: 1px solid $primary-color;
 
   @include response(md) {
