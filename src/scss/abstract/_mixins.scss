@@ -28,6 +28,12 @@
 
 @mixin response-height($breakpoint) {
   
+  @if($breakpoint == xs) {
+    @media screen and (min-height: 22rem) {
+      @content;
+    }
+  }
+  
   @if ($breakpoint == md) {
     @media screen and (min-height: 48rem) {
       @content;
