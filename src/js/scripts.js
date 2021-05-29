@@ -7,7 +7,6 @@ if (disclaimerToggle !== null) {
 
     // show or hide the content pane
     if (disclaimerContent !== null) {
-      // let displayType = (window.innerWidth < 400) ? 'block' : 'grid'
       let displayType = 'block'
       disclaimerContent.style.display = disclaimerContent.style.display === 'none' ? displayType : 'none'
     }
