@@ -6,6 +6,8 @@ module.exports = function (eleventyConfig) {
   eleventyConfig.addPassthroughCopy('src/data');
   eleventyConfig.addPassthroughCopy('src/img');
 
+  eleventyConfig.addWatchTarget('./src/scss');
+
   return {
     dir: {
       output: 'build',
@@ -13,5 +15,7 @@ module.exports = function (eleventyConfig) {
       data: 'data',
       includes: 'partials_layouts',
     },
+    templateFormats: ['njk', 'md', 'html', 'yml'],
+    htmlTemplateEngine: "njk"
   };
 };
