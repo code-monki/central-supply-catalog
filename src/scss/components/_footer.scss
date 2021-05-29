@@ -1,55 +1,69 @@
 footer {
-  position: absolute;
+  position: fixed;
+  display: flex;
+  align-items: center;
   bottom: 0;
   left: 0;
   right: 0;
-  background: rgba($dark-color, .8);
-  padding: .5rem;
+  color: $light-color;
+  width: 100vw;
+  height: 3.5rem;
   border-top: 1px solid $primary-color;
 
-  @include response-height(md) {
-    position: fixed;
-    left: 0;
-    bottom: 0;
-    right: 0;
+  @include response(md) {
+    height: 4rem;
   }
 
-  & .cc-attrib {
+  & .container {
+    width: 100%;
     display: flex;
-    justify-content: space-between;
+    justify-content: center;
     align-items: center;
-    color: var(--red);
-    font-size: .8rem;
+    text-align: center;
+    padding: .25rem;
 
-    @include response(md) {
-      justify-content: center;
-      align-items: center;
-    }
-  
+    & .cc-attrib {
+      display: flex;
+      gap: .5rem;
 
-    & .cc-attrib-link {
-      padding-left: 1rem;
-      color: $light-color;
+      @include response(md) {
+        font-size: .8rem;
+        max-width: 75%;
+      }
+      @include response(lg) {
+        max-width: 45%;
+        font-size: 1rem;
+      }
 
-      & a {
-        color: $light-color;
-        text-decoration: none;
-        font-style: italic;
-        cursor: pointer;
+      & .cc-attrib-img {
+        width: 10rem;
+        
+        & img {
+          width: 100%;
+          height: auto;
 
-        &:hover {
-          color: $secondary-color;
+        }
+
+        & a {
+          color: $light-color;
+          font-weight: 700;
         }
       }
 
-
-      @include response(md) {
-        max-width: 40%;
+      & .cc-attrib-link {
+        font-size: .6rem;
         text-align: left;
-        padding-left: 1rem;
+
+        @include response(md) {
+          font-size: 1rem;
+        }
+
+        & a {
+          text-decoration: none;
+          color: $light-color;
+          font-style: italic;
+        }
       }
     }
   }
-
-
 }
