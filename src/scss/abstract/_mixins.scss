@@ -1,0 +1,36 @@
+
+@mixin response($breakpoint) {
+
+  @if($breakpoint == lg) {
+    @media screen and (min-width: 64rem) {
+      @content;
+    }
+  }
+
+  @if($breakpoint == md) {
+    @media screen and (min-width: 48rem) {
+      @content;
+    }
+  }
+
+  @if($breakpoint == sm) {
+    @media screen and (min-width: 40rem) {
+      @content;
+    }
+  }
+
+  @if($breakpoint == xs) {
+    @media screen and (min-width: 20rem) {
+      @content;
+    }
+  }
+}
+
+@mixin response-height($breakpoint) {
+  
+  @if ($breakpoint == md) {
+    @media screen and (min-height: 48rem) {
+      @content;
+    }
+  }
+}

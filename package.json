@@ -7,7 +7,11 @@
     "doc": "docs"
   },
   "scripts": {
-    "dev": "ELEVENTY_ENV=dev npx @11ty/eleventy --serve"
+    "dev": "ELEVENTY_ENV=dev npx @11ty/eleventy --serve",
+    "sass": "sass src/scss:build/css",
+    "watch:sass": "npm run sass -- --watch",
+    "watch:eleventy": "npx @11ty/eleventy --serve",
+    "start": "npm-run-all sass --parallel watch:*"
   },
   "repository": {
     "type": "git",
@@ -22,6 +26,8 @@
   "homepage": "https://github.com/cmcknight/central-supply-catalog#readme",
   "dependencies": {
     "@11ty/eleventy": "^0.12.1",
-    "debug": "^4.3.2"
+    "debug": "^4.3.2",
+    "node-sass": "^6.0.0",
+    "npm-run-all": "^4.1.5"
   }
 }
