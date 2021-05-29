@@ -21,5 +21,6 @@ body {
     left: 0;
     right: 0;
     background-color: rgba($dark-color, .6);
+    z-index: -1;
   }
 }
