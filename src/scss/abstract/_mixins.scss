@@ -18,6 +18,12 @@
       @content;
     }
   }
+
+  @if($breakpoint == xs) {
+    @media screen and (min-width: 20rem) {
+      @content;
+    }
+  }
 }
 
 @mixin response-height($breakpoint) {
