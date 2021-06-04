@@ -40,8 +40,10 @@ const processHTML = () => {
 
 // create SEO sitemap
 const siteMap = () => {
-  return src("build/**/*.html", { read: false })
+  console.log('Running siteMap')
+  return src("./docs/**/*.html", { read: false })
     .pipe(save("before-sitemap"))
+    .pipe(sitemap({ siteUrl: "https://cmcknight.github.io/central-supply-catalog/"}))
     .pipe(removeEmptyLines())
     .pipe(dest("./docs"))
     .pipe(save.restore("before-sitemap"));
@@ -133,10 +135,10 @@ exports.default = series(
   // buildSiteIndex,
   // copyIndexFile,
   processHTML,
-  // siteMap,
   processSASS,
   processJavascript,
   optimizeImages,
+  siteMap,
   copyRobotsText,
   CopyFilesFolder
 );
@@ -147,12 +149,12 @@ exports.production = series(
   cleanDist,
   render_prod,
   processHTML,
-  // siteMap,
   processSASS,
   processJavascript,
   optimizeImages,
-  buildSiteIndex,
-  copyIndexFile,
+  siteMap,
+  // buildSiteIndex,
+  // copyIndexFile,
   copyRobotsText,
   CopyFilesFolder
 );
