@@ -2,7 +2,6 @@
 node_modules/*
 package-lock.json
 _site/*
-build/*
 .DS_Store
 scratch
 css/*
@@ -10,3 +9,5 @@ ToDos.md
 src/css/*
 src/partials_layouts/home_page-old.njk
 scratch
+build/*
+design/*
