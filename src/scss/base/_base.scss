@@ -5,22 +5,29 @@
 }
 
 body {
+  display: flex;
+  flex-direction: column;
   font-family: $roboto;
   background: $dark-color $bg-image center center;
   background-size: cover;
   line-height: 1.6;
   letter-spacing: 1px;
-  width: 100vw;
-  height: 100vh;
+  min-width: 100vw;
+  min-height: 100vh;
   position: relative;
 
   & .overlay {
+    background-color: rgba(0, 0, 0, .7);
     position: absolute;
     top: 0;
-    bottom: 0;
     left: 0;
     right: 0;
-    background-color: rgba($dark-color, .6);
+    bottom: 0;
     z-index: -1;
   }
+
+  main {
+    flex: 1 0 auto;
+  }
 }
+
