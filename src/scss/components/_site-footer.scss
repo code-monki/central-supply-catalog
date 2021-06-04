@@ -1,0 +1,33 @@
+footer {
+  padding-top: .5rem !important;
+
+
+  & .footer-copyright {
+    max-height: 1.3rem;
+    padding: 0 !important;
+    margin: 0 !important;
+
+
+    &  .copyright-info {
+        display: flex;
+        gap: 1rem;
+        justify-content: center;
+        font-size: .8rem;
+        text-align: left;
+    }
+
+    & .container .row {
+      
+      & p {
+      padding: 0 !important;
+      text-align: left;
+      margin: 0;
+      }
+
+      & img {
+        width: auto;
+        height: 80% !important;
+      }
+    }
+  }
+}

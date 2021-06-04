@@ -1,0 +1,172 @@
+.home-page-main {
+  flex: 1 0 auto;
+  overflow: auto;
+  position: relative;
+
+  & .sidenav {
+    width: 100% !important;
+    padding: 1rem;
+
+    @include response(md) {
+      width: 35% !important;
+    }
+
+    @include response(lg) {
+      width: 25% !important;
+    }
+
+    & li {
+      padding: 0;
+
+      &:first a {
+        float: right;
+      }
+
+      & a {
+        margin-left: 0;
+        margin-right: 0;
+        padding-right: 0;
+      }
+
+      & a:first {
+        max-width: 100% !important;
+        width: 100% !important;
+        text-align: right !important;
+        outline: pink 1px solid;
+      }
+    }
+
+  }
+
+  & .hero {
+    display: flex;
+    padding: 1rem 0;
+    margin-top: 3rem;
+    border: .3rem solid rgba(192, 192, 192, 1);
+    border-radius: 1.5rem;
+    background-color: rgba(0, 0, 0, .4);
+
+    @include response(md) {
+      display: flex;
+      justify-content: center;
+      padding: 2rem 1rem;
+      margin-top: 4.5rem;
+      margin-bottom: 1rem;
+      border-radius: 2rem;
+    }
+
+    & .hero-inner {
+      padding: 0 1rem;
+      max-width: 100%;
+
+      & img {
+        width: 100%;
+        height: 100%;
+      }
+    }
+  }
+
+  // end of hero div
+
+  .categories {
+    padding: 1rem;
+
+    & .row {
+      // max-height: 6rem;
+      padding: 0;
+      margin: 0;
+
+      & .big-button {
+        width: 100%;
+        height: 100%;
+        padding: 0;
+
+        & img {
+          object-fit: cover;
+          width: 100%;
+          height: 100%;
+        }
+      }
+
+      & .card-panel {
+        max-width: 100%;
+        margin: 0;
+        padding: 0;
+      }
+
+      & .card-panel img {
+        width: 100%;
+        height: auto;
+      }
+
+      & .card-modal ul li {
+        padding-left: 0 !important;
+      }
+
+      & .card-modal ul {
+        margin: 0;
+      }
+
+      & .card-modal ul li {
+        padding-left: 1rem !important;
+      }
+    }
+
+  }
+
+  & .card-modal {
+    min-width: 100%;
+    max-width: 20rem;
+
+    @include response(md) {
+      min-width: 0%;
+    }
+
+    & .modal-content {
+      & a {
+        color: black !important;
+      }
+
+      & ul {
+        margin: 0;
+
+        & li {
+          padding-left: 1rem !important;
+
+          & a,
+          & i {
+            color: black !important;
+          }
+        }
+      }
+
+      & .menu-lists {
+        display: block;
+
+        @include response(md) {
+          display: flex;
+          justify-content: space-between;
+
+        }
+      }
+    }
+  }
+
+  & .wide-modal {
+    width: 100% !important;
+    max-width: 100%;
+
+    @include response(md) {
+      width: 35rem !important;
+      max-width: 50rem;
+    }
+  }
+
+  & .disclaimers-btn {
+    display: flex;
+    justify-content: center;
+    position: absolute;
+    width: 100vw;
+    bottom: 0;
+  }
+}

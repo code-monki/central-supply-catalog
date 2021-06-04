@@ -1,13 +1,13 @@
 // initializations
 @import 'abstract/variables';
-@import 'abstract/utlities';
 @import 'abstract/mixins';
 
 @import 'base/base';
 
 // components
-@import 'components/header';
-@import 'components/disclaimer';
-@import 'components/footer';
+@import 'components/navbar';
+@import 'components/home-page-main';
+@import 'components/site-footer';
 
 // layouts
+// @import 'layout/home-page';  
