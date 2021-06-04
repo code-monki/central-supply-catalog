@@ -1,10 +1,14 @@
-{# {% extends '_base.njk' %} #}
 {% include '_head.njk' %}
 {% include '_site-header.njk' %}
 
 <main>
 {% include '_sidenav.njk'%}
-{% include '_home-page-body.njk' %}
+<div class="container">
+  <div class="content-body white darken-3">
+    <h1>{{ title }}</h1>
+    {{ content | safe }}
+  </div>
+</div>
 </main>
 
 {% include '_site-footer.njk' %}
