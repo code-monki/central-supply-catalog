@@ -1,0 +1,42 @@
+.content-body {
+  padding: .75rem 1rem;
+  border-radius: 1.5rem !important;
+  overflow: auto;
+
+  @include response(md) {
+    margin-top: 4rem !important;
+    // padding: 1rem;
+  }
+
+  & h1 {
+    font-size: 1.3rem;
+    font-weight: 700;
+
+    @include response(md) {
+      font-size: 1.6rem;
+    }
+  }
+
+  & h2 {
+    font-size: 1.2rem;
+    font-weight: 700;
+  }
+
+  ul {
+    padding: 0 1.25rem;
+
+    li {
+      padding-bottom: .5rem;
+
+      &::before {
+        content: '\2726';
+        padding-right: .5rem;
+      }
+    }
+  }
+
+  & p {
+    padding-bottom: .5rem;
+  }
+
+}

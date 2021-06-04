@@ -1,72 +1,6 @@
-.home-page-main {
-  flex: 1 0 auto;
-  overflow: auto;
-  position: relative;
-
-  & .sidenav {
-    width: 100% !important;
-    padding: 1rem;
-
-    @include response(md) {
-      width: 35% !important;
-    }
-
-    @include response(lg) {
-      width: 25% !important;
-    }
-
-    & li {
-      padding: 0;
-
-      &:first a {
-        float: right;
-      }
-
-      & a {
-        margin-left: 0;
-        margin-right: 0;
-        padding-right: 0;
-      }
-
-      & a:first {
-        max-width: 100% !important;
-        width: 100% !important;
-        text-align: right !important;
-        outline: pink 1px solid;
-      }
-    }
-
-  }
-
-  & .hero {
-    display: flex;
-    padding: 1rem 0;
-    margin-top: 3rem;
-    border: .3rem solid rgba(192, 192, 192, 1);
-    border-radius: 1.5rem;
-    background-color: rgba(0, 0, 0, .4);
-
-    @include response(md) {
-      display: flex;
-      justify-content: center;
-      padding: 2rem 1rem;
-      margin-top: 4.5rem;
-      margin-bottom: 1rem;
-      border-radius: 2rem;
-    }
-
-    & .hero-inner {
-      padding: 0 1rem;
-      max-width: 100%;
-
-      & img {
-        width: 100%;
-        height: 100%;
-      }
-    }
-  }
-
-  // end of hero div
+.home-page {
+  height: 100%;
+  max-height: 100%;
 
   .categories {
     padding: 1rem;
@@ -165,8 +99,13 @@
   & .disclaimers-btn {
     display: flex;
     justify-content: center;
-    position: absolute;
     width: 100vw;
-    bottom: 0;
+    margin: 1rem 0;
+    font-weight: 700;
+
+    @include response(md) {
+      position: absolute;
+      bottom: 2rem;
+    }
   }
 }

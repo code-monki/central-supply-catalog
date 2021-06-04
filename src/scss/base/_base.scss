@@ -10,11 +10,13 @@ body {
   font-family: $roboto;
   background: $dark-color $bg-image center center;
   background-size: cover;
+  background-position: center / cover;
   line-height: 1.6;
   letter-spacing: 1px;
-  min-width: 100vw;
+  width: 100vw;
   min-height: 100vh;
   position: relative;
+  word-break: break-normal;
 
   & .overlay {
     background-color: rgba(0, 0, 0, .7);
@@ -26,8 +28,11 @@ body {
     z-index: -1;
   }
 
-  main {
-    flex: 1 0 auto;
-  }
+}
+
+main {
+  flex: 1 0 auto;
+  flex-direction: column;
+  width: 100%;
 }
 
