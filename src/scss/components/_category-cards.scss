@@ -1,0 +1,44 @@
+.category-cards {
+  max-width: 100%;
+  margin-top: 1rem;
+
+
+  & .card-container {
+
+    & .category-card {
+      padding: 0;
+      height: 5rem;
+      max-height: 5rem;
+      border-radius: .75rem;
+
+      & .category-card-content {
+        display: table-cell;
+        vertical-align: middle;
+        height: 100%;
+        max-height: 5rem;
+
+        & a {
+          font-size: 1.8rem;
+          font-weight: 500;
+          font-variant-caps: small-caps;
+          padding: 1rem;
+          text-align: left;
+          height: 100%;
+          border-radius: .5rem;
+          border: 2px solid lightgrey;
+          text-transform: capitalize;
+
+          &:hover {
+            background: lightgoldenrodyellow !important;
+          }
+        }
+
+        & img {
+          max-width: 12%;
+          max-height: auto;
+          float: right;
+        }
+      }
+    }
+  }
+}
