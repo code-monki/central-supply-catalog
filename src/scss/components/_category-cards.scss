@@ -6,15 +6,18 @@
   & .card-container {
 
     & .category-card {
-      padding: 0;
+      display: flex;
+      align-items: center;
+      padding: .25rem;
       height: 5rem;
       max-height: 5rem;
       border-radius: .75rem;
 
       & .category-card-content {
-        display: table-cell;
-        vertical-align: middle;
+        display: flex;
+        justify-content: space-between;
         height: 100%;
+        width: 100%;
         max-height: 5rem;
 
         & a {
@@ -27,6 +30,12 @@
           border-radius: .5rem;
           border: 2px solid lightgrey;
           text-transform: capitalize;
+          width: 100%;
+          flex: 0 3 auto;
+
+          @include response(md) {
+            font-size: 2rem;
+          }
 
           &:hover {
             background: lightgoldenrodyellow !important;
@@ -34,8 +43,11 @@
         }
 
         & img {
-          max-width: 12%;
+          margin-left: 1rem;
+          width: 2rem;
           max-height: auto;
+          justify-self: right;
+          align-self: center;
           float: right;
         }
       }
