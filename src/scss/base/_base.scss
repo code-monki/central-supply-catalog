@@ -27,12 +27,12 @@ body {
     bottom: 0;
     z-index: -1;
   }
-
 }
 
 main {
   flex: 1 0 auto;
   flex-direction: column;
   width: 100%;
+  position: relative;
 }
 
