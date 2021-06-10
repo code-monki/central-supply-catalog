@@ -10,5 +10,5 @@ src/css/*
 src/partials_layouts/home_page-old.njk
 scratch
 build/*
-*.bak
-*.old
+*bak
+*old
