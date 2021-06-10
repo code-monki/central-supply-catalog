@@ -4,15 +4,16 @@
 
 @import 'base/base';
 
+// layouts
+@import 'layout/home-page';  
+@import 'layout/product-page';  
+
 // components
 @import 'components/navbar';
-@import 'components/home-page';
+// @import 'components/home-page';
 @import 'components/sidenav';
 @import 'components/hero';
 @import 'components/content-body';
 @import 'components/category-cards';
 @import 'components/site-footer';
 
-
-// layouts
-// @import 'layout/home-page';  
