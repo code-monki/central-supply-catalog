@@ -102,8 +102,7 @@ main {
         bottom: 2rem; } }
 
 .product-section {
-  overflow: scroll;
-  height: 130vh; }
+  overflow: scroll; }
   .product-section h6 {
     padding: .125rem 0 .125rem .25rem;
     font-weight: bold; }
@@ -174,7 +173,8 @@ main {
           width: 70%; } }
     .product-section .description-content .product-details {
       font-size: .8rem;
-      width: 60%; }
+      width: 60%;
+      margin-bottom: 1rem; }
       @media screen and (min-width: 48rem) {
         .product-section .description-content .product-details {
           width: 35%; } }
@@ -183,10 +183,14 @@ main {
           width: 25%; } }
   .product-section .product-accessories {
     margin-bottom: 1rem; }
-    .product-section .product-accessories .accessory-list .accessory-item {
+    .product-section .product-accessories .accessory-list {
       margin-bottom: 1rem; }
-      .product-section .product-accessories .accessory-list .accessory-item img {
-        max-height: 3rem; }
+      .product-section .product-accessories .accessory-list .accessory-item {
+        margin-bottom: 1rem; }
+        .product-section .product-accessories .accessory-list .accessory-item img {
+          max-height: 3rem; }
+  .product-section .product-source {
+    margin-bottom: 1rem; }
 
 .brand-logo {
   font-size: 1.1rem !important; }
@@ -347,11 +351,7 @@ main {
         float: right; }
 
 footer {
-  padding-top: .5rem !important;
-  position: fixed;
-  bottom: 0;
-  left: 0;
-  right: 0; }
+  padding-top: .5rem !important; }
   footer .footer-copyright {
     max-height: 1.3rem;
     padding: 0 !important;
