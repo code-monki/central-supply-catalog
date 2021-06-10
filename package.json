@@ -7,7 +7,7 @@
     "doc": "docs"
   },
   "scripts": {
-    "build": "npm-run-all sass --parallel",
+    "build": "npm run sass && npx @11ty/eleventy",
     "dev": "ELEVENTY_ENV=dev npx @11ty/eleventy",
     "sass": "sass src/scss:build/css",
     "watch:sass": "npm run sass -- --watch",
