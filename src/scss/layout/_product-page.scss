@@ -1,0 +1,146 @@
+.product-section {
+  overflow: scroll;
+  height: 130vh;
+
+
+  & h6 {
+    padding: .125rem 0 .125rem .25rem;
+    font-weight: bold;
+  }
+
+  & .product-main {
+
+    & h1 {
+      font-size: 1.6rem !important;
+      font-weight: bold;
+
+    }
+
+    & .product-main-content {
+      display: grid;
+      grid-template-areas: 'prod-img prod-ctrls'
+        'summary summary';
+      margin-bottom: 1rem;
+      row-gap: 1rem;
+
+      @include response(md) {
+        grid-gap: 1rem;
+        grid-template-areas: 'prod-img summary prod-ctrls';
+      }
+
+      & .product-image {
+        max-height: 10rem;
+        width: 10rem;
+        height: 10rem;
+        grid-area: prod-img;
+        border: 1px solid lightgrey;
+        box-shadow: 2px 2px grey;
+
+
+        & img {
+          height: 100%;
+          width: 100%;
+        }
+      }
+
+      & .product-controls {
+        justify-self: end;
+        // background: lightblue;
+        // text-align: center;
+        height: 10rem;
+
+        & h5 {
+          margin-bottom: 0;
+        }
+
+
+        & .quantity {
+          max-width: 3rem;
+          margin-bottom: 0 0 1rem 0 !important;
+          margin: auto;
+          font-size: 1rem !important;
+          text-align: center;
+
+          &::before {
+            content: 'Qty:';
+            position: absolute;
+            left: -2.5rem;
+            top: 1.4rem;
+            color: black;
+          }
+
+          & input {
+            border: 1px solid black;
+            padding: 0 .25rem;
+            height: 2rem;
+            margin-top: 1rem;
+          }
+        }
+
+        & .btn-small {
+          font-size: .8rem !important;
+          margin-top: .5rem;
+        }
+
+      }
+
+      & .summary {
+        grid-area: summary;
+
+      }
+    }
+  }
+
+  & .description-content {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 1.5rem;
+    border-bottom: 1px solid grey;
+
+    @include response(md) {
+      flex-direction: row;
+    }
+
+    & .product-description {
+      font-size: 1rem;
+
+      @include response(md) {
+        width: 65%;
+      }
+
+      @include response(lg) {
+        width: 70%;
+      }
+    }
+
+    & .product-details {
+      // margin: auto;
+      font-size: .8rem;
+      width: 60%;
+
+
+      @include response(md) {
+        width: 35%;
+      }
+
+      @include response(lg) {
+        width: 25%;
+      }
+
+    }
+  }
+
+  & .product-accessories {
+    margin-bottom: 1rem;
+    & .accessory-list {
+
+      & .accessory-item {
+        margin-bottom: 1rem;
+
+        img {
+          max-height: 3rem;
+        }
+      }
+    }
+  }
+}
