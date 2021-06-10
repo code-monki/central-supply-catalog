@@ -85,11 +85,26 @@ The optional version attribute contains the version (or versions) of Traveller t
 * Mongoose Traveller 2nd ed.
 
 
+## Data Store
+
+The data for the CSC shall be stored as a file in JSON format. This data shall provide the basis for generating the pages of the catalog as well as any subsequent indices that may be required.
+
+## Data Store Structure
+
+{
+  "lastUpdate" : "2021-June-08",
+  "products" : {
+    ...
+  }
+}
 
 ## Product Data Structure
 
+The product id shall be used to create the permalink to ensure that urls are unique.
+
 ```
-    "productId" : {
+    {
+      "productId" : number,
       "shortName": "Shotgun",
       "longName" : This is a really fun thing to go boom!",
       "categories": [
