@@ -92,7 +92,6 @@ The data for the CSC shall be stored as a file in JSON format. This data shall p
 ## Data Store Structure
 
 {
-  "lastUpdate" : "2021-June-08",
   "products" : {
     ...
   }
