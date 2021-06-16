@@ -9,6 +9,7 @@
   "scripts": {
     "build": "npm run sass && npx @11ty/eleventy",
     "dev": "ELEVENTY_ENV=dev npx @11ty/eleventy",
+    "prod": "ELEVENTY_ENV=prod npx @11ty/eleventy",
     "sass": "sass src/scss:build/css",
     "watch:sass": "npm run sass -- --watch",
     "watch:eleventy": "npx @11ty/eleventy --serve",
