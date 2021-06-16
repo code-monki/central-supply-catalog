@@ -2,7 +2,7 @@ const { text } = require("cheerio/lib/api/manipulation");
 const Path = require("path");
 const fs = require('fs')
 const mfrData = require('./src/_data/manufacturers.json')
-``
+ 
 const currentEnv = process.env.ELEVENTY_ENV;
 
 module.exports = function (eleventyConfig) {
@@ -10,7 +10,7 @@ module.exports = function (eleventyConfig) {
   eleventyConfig.addPassthroughCopy("src/css");
   // eleventyConfig.addPassthroughCopy("src/data");
   eleventyConfig.addPassthroughCopy("src/img");
-
+  
   eleventyConfig.addWatchTarget("./src/scss");
 
   eleventyConfig.addFilter("relative", function (url) {
@@ -70,12 +70,13 @@ module.exports = function (eleventyConfig) {
   })
 
   return {
+    pathPrefix: "/central-supply-catalog/",
     dir: {
       output: "build",
       input: "src",
       data: "_data",
       includes: "partials_layouts",
-    },
+    }
   };
 };
 
