@@ -2,7 +2,7 @@ const { text } = require("cheerio/lib/api/manipulation");
 const Path = require("path");
 const fs = require('fs')
 const mfrData = require('./src/_data/manufacturers.json')
-
+``
 const currentEnv = process.env.ELEVENTY_ENV;
 
 module.exports = function (eleventyConfig) {
