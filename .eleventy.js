@@ -37,6 +37,16 @@ module.exports = function (eleventyConfig) {
     return res;
   })
 
+  eleventyConfig.addFilter("setRootPath", (rootPath) => {
+    console.log(`currentEnv: [${currentEnv}]`)
+    console.log(`rootPath: [${rootPath}]`)
+    let path = rootPath
+    if (currentEnv === 'prod') {
+      path = (rootPath === '/') ? './' : `../${rootPath}`
+    }    console.log(`Returning path: [${path}]`)
+    return path
+  })
+
 
   eleventyConfig.addShortcode("getAccessory", function(products, sku) {
     let object = products.find(item => item.sku === sku)
