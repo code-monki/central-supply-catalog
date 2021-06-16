@@ -1,4 +1,4 @@
-{% set rootPath = "../" %}
+{# {% set rootPath = "../" | setRootPath %} #}
 {% include '_head.njk' %}
 {% include '_site-header.njk' %}
 
@@ -9,6 +9,7 @@
   <div class="container shopping-cart-container">
 
     <div class="cart-total-row row">
+      {# <button class="empty-cart">Empty Cart</button> #}
       <h6 class="right-align">
         Cart Total: <span id="cart-total" class="cart-total">1,675 Cr</span>
       </h6>

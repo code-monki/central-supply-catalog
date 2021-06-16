@@ -1,1 +1,0 @@
-"use strict";document.addEventListener("DOMContentLoaded",function(){var e=document.querySelector(".sidenav");M.Sidenav.init(e,{});e=document.querySelectorAll(".modal");M.Modal.init(e,{})});
