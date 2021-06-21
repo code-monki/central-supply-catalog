@@ -79,7 +79,8 @@
 
 </header>
 
-<main>
+
+<main class="white black-text">
   <ul id="slide-out" class="sidenav">
     <li class="right-align">
       <a href="#" class="white black-text sidenav-close">
@@ -103,37 +104,109 @@
               <li><a href="#!">Technology Level</a></li>
             </ul>
 -->
-<div class="container">
-  <div class="content-body white darken-3">
-    <h1>About the Central Supply Catalog</h1>
-    <p>The Central Supply Catalog draws on a wealth of information from the various versions of the Traveller Science Fiction Role-Playing Game (SFRPG) that was originally published by the Games Designers Workshop in the late 1970s. Over the years the game has continued to evolve and continues to provide enjoyment for players young and old. It is a testimony to the timelessness and appeal of adventuring in the far reaches of outer space and will hopefully continue to flourish for many years to come.</p>
-<p>The impetus for creating this application came from a desire to give something back to the community. It is the author's hope that it will provide a useful aid to referees and players alike.</p>
-<h2>Credits</h2>
-<p>This work would not have been made possible without the specific contributions of the following people:</p>
-<br>
-<ul>
-<li>Marc Miller, Far Future Enterprises, who approved of the project and made artwork available as well as providing valuable connections within the community. In many ways, Marc has been one of my gaming heroes for the last 40+ years.</li>
-<li>Robert Eagleston, who provided content and feedback during the development of the application.</li>
-<li>Thomas Jones-Low and the stewards of the Traveller Wiki, who graciously shared their content.</li>
-<li>Ade Steward and Robert Pearce for their feedback and invaluable insights.</li>
-<li>Moira McGinnis, my long-suffering insanely talented friend who reviewed the wireframes and improved the usability.</li>
-</ul>
-<p>A huge thanks and debt of gratitude also goes out to all of those friends and members of the community, both present and missing, who have made Traveller the success that it is.</p>
-<h2 id="disclaimers">Disclaimers</h2>
-<p>This application is released under the Creative Commons Attribution-ShareAlike 4.0 International License.l The author makes no claim for any of the content that is owned by others.</p>
-<h2>Cepheus Engine</h2>
-<p>Cepheus Engine” and “Samardan Press” are the trademarks of Jason &quot;Flynn&quot; Kemp. The author is not associated with Samardan Press nor Jason “Flynn” Kemp.</p>
-<p>You may view a complete copy of the Cepheus Engine SRD by clicking this <a href="https://thetrove.is/Books/Cepheus%20Engine/CE%20-%20Cepheus%20Engine%20SRD.pdf" target="_blank">link</a>.</p>
-<h2>Far Future Enterprises</h2>
-<p>The Traveller game in all forms is owned by <a href="https://farfuture.net" target="_blank">Far Future Enterprises</a>. Copyright 1977 - 2008 Far Future Enterprises. Traveller is a registered trademark of Far Future Enterprises. Far Future permits web sites and fanzines for this game, provided it contains this notice, that Far Future is notified, and subject to a withdrawal of permission on 90 days notice. The contents of this site are for personal, non-commercial use only.</p>
-<p>Any use of Far Future Enterprises's copyrighted material or trademarks anywhere on this web site and its files should not be viewed as a challenge to those copyrights or trademarks. In addition, any program/articles/file on this site cannot be republished or distributed without the consent of the author who contributed it.</p>
-<h2>Traveller Wiki</h2>
-<p>The stewards of the <a href="https://wiki.travellerrpg.com/" target="_blank">Traveller Wiki</a> have graciously agreed to share the wiki content with this application and the author of the application has agreed to reciprocate with any new content that augment the Traveller Wiki. This is wonderful resource for referees and players for any version of Traveller.</p>
-<h2>Open Gaming License</h2>
-<p>A portion of the content is governed by the <a href="https://www.d20srd.org/ogl.htm" target="_blank">Open Gaming License v1.0a.</a> As such the author has attempted to make a reasonable effort to ensure compliance with that license for those materials that fall under it.</p>
 
+  <div class="container shopping-cart-container">
+
+    <div class="cart-total-row row">
+      <button class="empty-cart left amber black-text">Empty Cart</button>
+      <h6 class="right-align">
+        Cart Total: <span id="cart-total" class="cart-total">1,675 Cr</span>
+      </h6>
+    </div>
+
+    <div class="product-row row">
+
+      <div class="prod-img col s3 m2">
+        <a href="#">
+          <img src="../img/products/001-00001.png" class="responsive-img">
+        </a>
+      </div>
+
+      <div class="prod-details col s6 m8">
+
+        <div class="prod-title">
+            <a href="#">AHS-7 Advanced Heavy Shotgun</a>
+        </div>
+
+        <div class="prod-qty">
+          <form>
+              <button><i class="fa fa-minus"></i></button>
+              <input type="number" id="prod-row-1-qty">
+              <button><i class="fa fa-plus"></i></button>
+              <button class="remove-item"><i class="fa fa-trash"></i></button>
+          </form>
+        </div>
+      </div>
+
+      <div class="prod-total col s3 m2 right-align">
+        1.6 KCr
+      </div>
+
+    </div>
+
+    <div class="product-row row">
+
+      <div class="prod-img col s3 m2">
+        <a href="#">
+          <img src="../img/products/001-00002.png" class="responsive-img">
+        </a>
+      </div>
+
+      <div class="prod-details col s6 m8">
+
+        <div class="prod-title">
+            <a href="#">156mm Shotgun Magazine (6-Round)</a>
+        </div>
+
+        <div class="prod-qty">
+          <form>
+              <button><i class="fa fa-minus"></i></button>
+              <input type="number" id="prod-row-1-qty">
+              <button><i class="fa fa-plus"></i></button>
+              <button class="remove-item"><i class="fa fa-trash"></i></button>
+          </form>
+        </div>
+      </div>
+
+      <div class="prod-total col s3 m2 right-align">
+        25 Cr
+      </div>
+
+    </div>
+
+    <div class="product-row row">
+
+      <div class="prod-img col s3 m2">
+        <a href="#">
+          <img src="../img/products/001-00003.png" class="responsive-img">
+        </a>
+      </div>
+
+      <div class="prod-details col s6 m8">
+
+        <div class="prod-title">
+            <a href="#">15mm Shotgun Double Magazine (12-Round)</a>
+        </div>
+
+        <div class="prod-qty">
+          <form>
+              <button><i class="fa fa-minus"></i></button>
+              <input type="number" id="prod-row-1-qty">
+              <button><i class="fa fa-plus"></i></button>
+              <button class="remove-item"><i class="fa fa-trash"></i></button>
+          </form>
+        </div>
+      </div>
+
+      <div class="prod-total col s3 m2 right-align">
+        50 Cr
+      </div>
+
+    </div>
+    
+
+    
   </div>
-</div>
 </main>
 
 <footer class="page-footer black">
