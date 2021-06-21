@@ -4,6 +4,7 @@ const fs = require('fs')
 const mfrData = require('./src/_data/manufacturers.json')
  
 const basePath = (process.env.ELEVENTY_ENV === 'prod') ? '/central-supply-catalog' : '/'
+const buildDest = (process.env.ELEVENTY_ENV === 'prod') ? 'docs' : "build" 
 
 module.exports = function (eleventyConfig) {
   eleventyConfig.addPassthroughCopy("src/js");
@@ -53,7 +54,7 @@ module.exports = function (eleventyConfig) {
   return {
     pathPrefix: basePath,
     dir: {
-      output: "build",
+      output: buildDest,
       input: "src",
       data: "_data",
       includes: "partials_layouts",
