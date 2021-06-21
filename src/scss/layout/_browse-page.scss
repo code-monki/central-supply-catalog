@@ -1,0 +1,130 @@
+.browse-page-container {
+  position: absolute;
+  left: 0;
+  right: 0;
+  top: 2.5rem;
+
+  & h3 {
+    font-size: 1.2rem;
+    margin-left: .5rem !important;
+  }
+
+  & .browse-product-row {
+    margin: 1rem 0 1rem;
+    padding-bottom: 1rem;
+    border-bottom: 1px lightgrey solid !important;
+
+    & .prod-img {
+      padding: 0;
+      margin: 0;
+      justify-self: flex-start;
+
+
+      & img {
+        display: block;
+        width: 4rem;
+        height: 4rem;
+        object-fit: contain;
+        margin: 0 auto;
+        margin: .5rem 0;
+        border: 1px solid lightgrey;
+        box-shadow: 2px 2px grey;
+        margin-left: .25rem;
+
+        @include response(md) {
+          margin: 1rem;
+          width: 4.5rem;
+          height: 4.5rem;
+        }
+      }
+    }
+
+    & .prod-info {
+      display: block;
+      line-height: 1;
+
+      & a {
+        font-size: 1rem;
+        font-weight: bold;
+        line-height: 1;
+
+        @include response(md) {
+          font-size: 1.2rem;
+        }
+
+        &:hover {
+          color: red;
+        }
+      }
+
+      & table {
+        @include response(md) {
+          max-width: 50%;
+        }
+      }
+
+      & tr {
+        border-style: none !important;
+      }
+
+      & td {
+        font-size: .8rem;
+        font-weight: bold;
+        vertical-align: top;
+
+        @include response(md) {
+          font-size: 1rem;
+        }
+
+        & a {
+          font-size: .8rem;
+
+          @include response(md) {
+            font-size: 1rem;
+          }
+        }
+      }
+    }
+
+    & .prod-price-controls {
+
+      & h6 {
+        font-size: 1rem;
+        font-weight: bold;
+      }
+
+      & label {
+        font-weight: bold !important;
+        color: black;
+      }
+
+      & input {
+        width: 2rem;
+        border: 1px solid grey;
+        line-height: 1rem;
+        max-height: 1rem;
+        text-align: center;
+        font-size: .8rem;
+
+        @include response(md) {
+          font-size: 1rem;
+          line-height: 1.2rem;
+          max-height: 1.2rem;
+
+        }
+      }
+
+      & .add-to-cart-btn {
+        padding: .25rem .5rem;
+        border-radius: .5rem;
+        font-size: .8rem;
+      }
+    }
+
+    & .product-summary {
+      font-size: .9rem;
+    }
+
+  }
+
+}

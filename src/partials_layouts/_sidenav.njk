@@ -2,11 +2,22 @@
     <li class="right-align">
       <a href="#" class="white black-text sidenav-close">
         <i class="material-icons right">close</i></a>
-      </a>
     </li>
+
     <li><a href="{{ '/' | url }}">Home</a></li>
-    <li><a href="#">Browse by Department</a></li>
-    <li><a href="#">Search Filters</a></li>
-    <li><a href="#">Shopping Cart</a></li>
-    <li><a href="{{ '/' | url }}about-the-central-supply-catalog/">About</a></li>
+    <li><a href="{{ '/shopping-cart' | url }}">Shopping Cart</a></li>
+
+    <li><a href="#!">Filters</a></li>
+
+    <li><a href="{{ '/about-the-central-supply-catalog/' | url }}">About</a></li>
+
   </ul>
+
+<!-- Note to self: Use modal dialogs for filters -->
+<!--
+            <ul>
+              <li><a href="#!">Department</a></li>
+              <li><a href="#!">Manufacturer</a></li>
+              <li><a href="#!">Technology Level</a></li>
+            </ul>
+-->
