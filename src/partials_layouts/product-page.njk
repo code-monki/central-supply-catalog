@@ -16,7 +16,7 @@
           {% if product.image %}
             <img src="{{product.image}}" alt="{{product.shortName}}">
           {% else %}
-            <img src="../img/products/no-image.png" alt="{{product.shortName}}">
+            <img src="/img/products/no-image.png" alt="{{product.shortName}}">
           {% endif %}
         </div>
 
@@ -36,7 +36,9 @@
 
         <div class="summary white col s12">
           <h6>Summary</h6>
-          <p>{{ product.summary }}</p>
+
+          {{ product.summary }}
+
         </div>
       </div>
     </div>
@@ -44,8 +46,10 @@
     <div class="description-content">
       <div class="product-description flow-text">
         <h6>Description</h6>
-        <p>{{ product.description }}</p>
-      </div>
+
+        {{ product.description | markdown | safe }} 
+        
+      </div> 
 
       <div class="product-details">
         <table>
@@ -60,8 +64,8 @@
               </td>
             </tr>
             <tr>
-              <td><strong>Mass:</td>
-              <td>{{ product.mass}}</td>
+              <td><strong>Mass:</strong></td>
+              <td>{{ product.mass }}</td>
             </tr>
           </tbody>
         </table>
@@ -83,7 +87,7 @@
     <div class="product-source">
       <hr>
       <strong>Source of Data</strong>
-      <p><a href="{{product.source.url}}">{{product.source.name}}</a></p>
+      <p><a href="{{product.source.url}}">{{product.source.name | safe }}</a></p>
     </div>
   </div>
 </main>

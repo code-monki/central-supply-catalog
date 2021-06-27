@@ -1,12 +1,15 @@
 const { text } = require("cheerio/lib/api/manipulation");
 const Path = require("path");
 const fs = require('fs')
+const markdownIt = require('markdown-it')
 const mfrData = require('./src/_data/manufacturers.json')
  
 const basePath = (process.env.ELEVENTY_ENV === 'prod') ? '/central-supply-catalog' : '/'
 const buildDest = (process.env.ELEVENTY_ENV === 'prod') ? 'docs' : "build" 
 
 module.exports = function (eleventyConfig) {
+  const md = new markdownIt({ html: true })
+  
   eleventyConfig.addPassthroughCopy("src/js");
   eleventyConfig.addPassthroughCopy("src/css");
   // eleventyConfig.addPassthroughCopy("src/data");
@@ -20,6 +23,11 @@ module.exports = function (eleventyConfig) {
     return value;
   })
 
+  eleventyConfig.addFilter("markdown", (content) => {
+    let text = md.render(content)
+    console.log(text)
+    return text
+  })
 
   eleventyConfig.addShortcode("getMfr", function(mfrId) {
     const mfr = mfrData.find(obj => obj.mfrId === mfrId)
@@ -42,7 +50,7 @@ module.exports = function (eleventyConfig) {
       text = `
                   <div class="accessory-item">
                     <a href="${pageURL}" class="black-text">
-                    <img src="${imgURL}">
+                    <img src="${imgURL}" alt="${shortName}">
                     ${shortName}
                     </a>
                   </div>
@@ -50,6 +58,7 @@ module.exports = function (eleventyConfig) {
     }
     return text
   })
+
 
   return {
     pathPrefix: basePath,

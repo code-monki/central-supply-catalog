@@ -8,21 +8,21 @@ This document contains the analyses of the various goods from the Traveller&trad
 
 The following table contains the minimum data required to support the catalog:
 
-| Attribute | Type | Description |
-| ---- | ---- | ---- |
-| id | integer | Unique identifier |
-| product name | string | Descriptive product name |
-| categories | string | Product categories |
-| manufacturer | string | Name of manufacturer |
-| tech level | integer | Minimum tech level |
-| summary | string | Brief summary of product |
-| description | string | Freeform text area for detailed description |
-| credits | double | Cost of the item in credits |
-| mass | double | Weight of item in kilograms |
-| dimensions | object | dimensions ( L x W x H ) in centimeters |
-| QREBS | string | Manufacturing quality basic parameters |
-| source | string | Source of content item (author, publication, etc.|
-| version | string | Version of Traveller |
+| Attribute    | Type             | Description                                       |
+| ------------ | ---------------- | ------------------------------------------------- |
+| id           | integer          | Unique identifier                                 |
+| product name | string           | Descriptive product name                          |
+| categories   | array of strings | Product categories                                |
+| manufacturer | string           | Name of manufacturer                              |
+| tech level   | integer          | Minimum tech level                                |
+| summary      | string           | Brief summary of product                          |
+| description  | string           | Freeform text area for detailed description       |
+| credits      | double           | Cost of the item in credits                       |
+| mass         | double           | Weight of item in kilograms                       |
+| dimensions   | object           | dimensions ( L x W x H ) in centimeters           |
+| QREBS        | string           | Manufacturing quality basic parameters            |
+| source       | string           | Source of content item (author, publication, etc. |
+| version      | string           | Version of Traveller                              |
 
 ### Product Name
 
@@ -70,20 +70,19 @@ The source attribute contains the attribution for the product and may contain on
 
 ### Version
 
-The optional version attribute contains the version (or versions) of Traveller that mention the product.  Currently the versions are:
+The optional version attribute contains the version (or versions) of Traveller that mention the product. Currently the versions are:
 
-* Classic Traveller
-* MegaTraveller
-* Traveller: The New Era
-* T4: Marc Miller's Traveller
-* Traveller 5
-* Traveller20
-* GURPS Traveller: Interstellar Wars
-* Traveller Hero
-* Mongoose Traveller
-* Traveller5
-* Mongoose Traveller 2nd ed.
-
+- Classic Traveller
+- MegaTraveller
+- Traveller: The New Era
+- T4: Marc Miller's Traveller
+- Traveller 5
+- Traveller20
+- GURPS Traveller: Interstellar Wars
+- Traveller Hero
+- Mongoose Traveller
+- Traveller5
+- Mongoose Traveller 2nd ed.
 
 ## Data Store
 
@@ -92,9 +91,9 @@ The data for the CSC shall be stored as a file in JSON format. This data shall p
 ## Data Store Structure
 
 {
-  "products" : {
-    ...
-  }
+"products" : {
+...
+}
 }
 
 ## Product Data Structure
@@ -103,12 +102,14 @@ The product id shall be used to create the permalink to ensure that urls are uni
 
 ```
     {
-      "productId" : number,
+      "productId" : 1,
+      "sku": "010-001-000001"    // 010 - department id; 001 - mfr id; 000001 - product id
       "shortName": "Shotgun",
       "longName" : This is a really fun thing to go boom!",
+      "department" : "010",
       "categories": [
-        "category 1",
-        "category 2",
+        "department 1",
+        "department 2",
         ...
       ],
       "manufacturer": "Delgado Trading",
@@ -137,3 +138,46 @@ The product id shall be used to create the permalink to ensure that urls are uni
       ]
     }
 ```
+
+### Categories
+
+Electronics
+Medical
+Personal Items
+Protections
+Robots
+Vechicles
+Weapons
+
+### Departments
+
+| Dept Code | Description            |
+| :-------: | ---------------------- |
+|    010    | Armor                  |
+|    020    | Breathing Apparatus    |
+|    030    | Communications Gear    |
+|    040    | Computers              |
+|    041    | Computer Accessories   |
+|    050    | Construction Materials |
+|    060    | Cyberware              |
+|    070    | Drugs                  |
+|    080    | Emitters               |
+|    090    | Explosives             |
+|    100    | Food & Drinks          |
+|    110    | Medical Goods          |
+|    120    | Power Supplies         |
+|    130    | Powered Armor          |
+|    140    | Programs               |
+|    150    | Protective Gear        |
+|    160    | Robots                 |
+|    171    | Automatons             |
+|    172    | Drones                 |
+|    173    | Strangeforms           |
+|    180    | Sensory Aids           |
+|    190    | Small Craft            |
+|    200    | Space Craft            |
+|    210    | Structures             |
+|    220    | Vehicles               |
+|    230    | Weapons                |
+|    231    | Ammunition             |
+|    232    | Weapon Accessories     |

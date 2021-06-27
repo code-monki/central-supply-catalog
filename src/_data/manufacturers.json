@@ -1,5 +1,10 @@
 [
   {
+    "mfrId": "000",
+    "name": "Generic",
+    "url": ""
+  },
+  {
     "mfrId" : "001",
     "name" : "Delgado Trading",
     "url" : "https://wiki.travellerrpg.com/Delgado_Trading"
