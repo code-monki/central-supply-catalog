@@ -1,0 +1,131 @@
+[
+  { 
+    "id": 0, 
+    "label": "Armor", 
+    "description": "Protective gear designed for the dangerous environment of combat."
+  },
+  { 
+    "id": 1, 
+    "label": "Automatons", 
+    "description": "Sophont-like machinesthat perform a specific function."
+  }, 
+  { 
+    "id": 2, 
+    "label": "Breathing Apparatus", 
+    "description": "Ensures a sophont has breathable air in different environments."
+  },
+  { 
+    "id": 3, 
+    "label": "Communications Gear", 
+    "description": "Provides the means for telecommunication." 
+  },
+  { 
+    "id": 4, 
+    "label": "Computers", 
+    "description": "Devices that provide the ability to store and process information."
+  },
+  { 
+    "id": 5, 
+    "label": "Construction Materials",
+    "description": "Construction materials for the creation of a variety of structures and equipment."
+  },
+  { 
+    "id": 6, 
+    "label": "Cyberware", 
+    "description": "Embeddable prosthetics." 
+  },
+  { 
+    "id": 7, 
+    "label": "Drones", 
+    "description": "Autonomous or semi-automonous vehicles."
+  },
+  { 
+    "id": 8, 
+    "label": "Drugs", 
+    "description": "Prescription pharmaceuticals."
+  },
+  { 
+    "id": 9, 
+    "label": "Emitters", 
+    "description": "Electronic devices capable of transmitting a signal." 
+  },
+  { 
+    "id": 10, 
+    "label": "Explosives", 
+    "description": "Reactive substances that can be made to explode."
+  },
+  { 
+    "id": 11, 
+    "label": "Food & Drinks", 
+    "description": "A variety of food and beverage items."
+  },
+  { 
+    "id": 12, 
+    "label": "Medical Goods", 
+    "description": "A collection of medical devices." 
+  },
+  { 
+    "id": 13, 
+    "label": "Power Supplies", 
+    "description": "Devices that provide power." 
+  },
+  { 
+    "id": 14, 
+    "label": "Powered Armor", 
+    "description": "Powered exoskeletal suits that augment the soldier's physical abilities."
+  },
+  { 
+    "id": 15, 
+    "label": "Programs", 
+    "description": "A collection of software applications." 
+  },
+  { 
+    "id": 16, 
+    "label": "Protective Gear", 
+    "description": "Non-combat equipment to provide protection against hostile environments"
+  },
+  { 
+    "id": 17, 
+    "label": "Robots", 
+    "description": "A collection of autonomous and semi-autonomous machines."
+  },
+  { 
+    "id": 18, 
+    "label": "Sensory Aids", 
+    "description": "A collection of equipment to enhance the user's senses." 
+  },
+  { 
+    "id": 19, 
+    "label": "Shelters", 
+    "description": "Temporary structures for individuals and small groups"
+  },
+  { 
+    "id": 20, 
+    "label": "Small Craft", 
+    "description": "All manner of small support craft."
+  },
+  { 
+    "id": 21, 
+    "label": "Space Craft", 
+    "description": "Space-going vessels." 
+  },
+  { "id": 22, 
+    "label": "Strangeforms", 
+    "description": "Oddly shaped automous and semi-autonomous machines." 
+  },
+  { 
+    "id": 23, 
+    "label": "Structures", 
+    "description": "Permanent structures." 
+  },
+  { 
+    "id": 24, 
+    "label": "Vehicles", 
+    "description": "Personal vehicles." 
+  },
+  { 
+    "id": 25, 
+    "label": "Weapons", 
+    "description": "Melee Weapons, Blades and Guns." 
+  }
+]
