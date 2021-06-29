@@ -1,0 +1,9 @@
+[
+  { "id": 0, "label": "Electronics", "departments": [3, 4, 9, 13, 15, 18] },
+  { "id": 1, "label": "Medical", "departments": [6, 12, 8] },
+  { "id": 2, "label": "Personal Items", "departments": [2, 11, 5, 23] },
+  { "id": 3, "label": "Protections", "departments": [0, 16, 5, 19] },
+  { "id": 4, "label": "Robots", "departments": [1, 7, 17, 22] },
+  { "id": 5, "label": "Vehicles", "departments": [24, 20, 21] },
+  { "id": 6, "label": "Weapons", "departments": [25, 10, 14] }
+]
