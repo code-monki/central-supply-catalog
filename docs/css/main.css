@@ -353,6 +353,41 @@ main {
     .browse-page-container .browse-product-row .product-summary {
       font-size: .9rem; }
 
+.departments-container {
+  top: 4rem;
+  height: 100vh;
+  overflow: scroll; }
+  .departments-container h1 {
+    color: red;
+    background-color: rgba(0, 0, 0, 0.8);
+    font-size: 1.6rem;
+    font-weight: bold;
+    text-align: center; }
+    @media screen and (min-width: 48rem) {
+      .departments-container h1 {
+        font-size: 2rem; } }
+  .departments-container .row .card {
+    margin: .5rem 0;
+    height: 10.5rem; }
+    @media screen and (min-width: 48rem) {
+      .departments-container .row .card {
+        margin: .5rem; } }
+    .departments-container .row .card .card-title {
+      background: rgba(0, 0, 0, 0.8); }
+      .departments-container .row .card .card-title h3 {
+        font-size: 1.2rem;
+        margin-top: .5rem;
+        padding: .25rem; }
+        @media screen and (min-width: 48rem) {
+          .departments-container .row .card .card-title h3 {
+            padding: .5rem; } }
+        .departments-container .row .card .card-title h3:hover {
+          color: lightgoldenrodyellow; }
+      .departments-container .row .card .card-title a {
+        font-size: 1.2rem;
+        color: red !important;
+        font-weight: bold; }
+
 .brand-logo {
   font-size: 1.1rem !important; }
 
