@@ -4,7 +4,9 @@
   {% include '_hero.njk'%}
 
   <!-- Category Cards -->
-  {% include '_category-cards.njk' %}
+  {# {% include '_category-cards.njk' %} #}
+
+  {% buildCategoryCards %}
 
   <div class="center disclaimers-btn">
     <a href="{{ 'about-the-central-supply-catalog#disclaimers' | url }}" class="red-text">
