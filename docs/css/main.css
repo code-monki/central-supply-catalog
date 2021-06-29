@@ -359,25 +359,30 @@ main {
   overflow: scroll; }
   .departments-container h1 {
     color: red;
-    background-color: rgba(0, 0, 0, 0.8);
+    background-color: black;
     font-size: 1.6rem;
     font-weight: bold;
     text-align: center; }
     @media screen and (min-width: 48rem) {
       .departments-container h1 {
         font-size: 2rem; } }
+  .departments-container .row:last-child {
+    margin-bottom: 4rem; }
   .departments-container .row .card {
-    margin: .5rem 0;
-    height: 10.5rem; }
+    height: 6rem;
+    border: 1px solid red;
+    border-radius: .5rem;
+    padding: 0; }
     @media screen and (min-width: 48rem) {
       .departments-container .row .card {
         margin: .5rem; } }
     .departments-container .row .card .card-title {
-      background: rgba(0, 0, 0, 0.8); }
+      background: black;
+      border-radius: .4rem .4rem 0 0; }
       .departments-container .row .card .card-title h3 {
         font-size: 1.2rem;
-        margin-top: .5rem;
-        padding: .25rem; }
+        padding: .25rem;
+        margin: 0; }
         @media screen and (min-width: 48rem) {
           .departments-container .row .card .card-title h3 {
             padding: .5rem; } }
@@ -387,6 +392,10 @@ main {
         font-size: 1.2rem;
         color: red !important;
         font-weight: bold; }
+    .departments-container .row .card .card-body {
+      padding: .25rem; }
+      .departments-container .row .card .card-body a {
+        color: black; }
 
 .brand-logo {
   font-size: 1.1rem !important; }
