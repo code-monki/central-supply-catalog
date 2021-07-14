@@ -1,0 +1,252 @@
+[
+  {
+    "sku": "020-000-00001",
+    "category": "communications",
+    "type": "comms",
+    "subtype": "",
+    "name": "Communicator",
+    "mfr": "000",
+    "cost": 1000,
+    "mass": 0.2,
+    "size": 2,
+    "techLevel": 8,
+    "qrebs": "N/A",
+    "image": "",
+    "description": "<!-- Summary Start -->The standard communicator is a 0.2L handheld device with a 1000 km range (R=8.3)<!-- Summary End -->",
+    "accessories": [],
+    "sources": [{
+      "publication": "Traveller 5.10 Core Rules Book 3 : Worlds and Adventures",
+      "authors": ["Miller, Marc"],
+      "publisher": {
+        "name": "Far Future Enterprises",
+        "url": "https://farfuture.net"
+      }
+    }],
+    "tags": ["products", "communications"]
+  },
+  {
+    "sku": "020-000-00002",
+    "category": "communications",
+    "type": "comms",
+    "subtype": "",
+    "name": "Communicator (Modified)",
+    "mfr": "000",
+    "cost": 500,
+    "mass": 0.2,
+    "size": 2,
+    "techLevel": 10,
+    "qrebs": "Q+1 R+1 E+1",
+    "image": "",
+    "description": "<!-- Summary Start -->A higher-tech version of the standard comm.<!-- Summary End -->",
+    "accessories": [],
+    "sources": [{
+      "publication": "Traveller 5.10 Core Rules Book 3 : Worlds and Adventures",
+      "authors": ["Miller, Marc"],
+      "publisher": {
+        "name": "Far Future Enterprises",
+        "url": "https://farfuture.net"
+      }
+    }],
+    "tags": ["products", "communications"]
+  },
+  {
+    "sku": "020-000-00003",
+    "category": "communications",
+    "type": "comms",
+    "subtype": "",
+    "name": "Communicator (Advanced)",
+    "mfr": "000",
+    "cost": 500,
+    "mass": 0.2,
+    "size": 2,
+    "techLevel": 15,
+    "qrebs": "N/A",
+    "image": "",
+    "description": "<!-- Summary Start -->The best-quality communicator fabricated in the Imperium.<!-- Summary End --> Engineered to the same basic requirements as the standard model, this version is built to see years of heavy and rough use. Its \"unfailing\"-grade electronics are nestlend within an unparalleled ergonomic case that conforms to the owner's hand by way of a mutable smar-surface. The case is tamper-proof, and its PowerCell has emergency internal breakers which will prevent shorting out under any circumstance which would not also kill the bearer.",
+    "accessories": [],
+    "sources": [{
+      "publication": "Traveller 5.10 Core Rules Book 3 : Worlds and Adventures",
+      "authors": ["Miller, Marc"],
+      "publisher": {
+        "name": "Far Future Enterprises",
+        "url": "https://farfuture.net"
+      }
+    }],
+    "tags": ["products", "communications"]
+  },
+  {
+    "sku": "020-000-00004",
+    "category": "communications",
+    "type": "comms",
+    "subtype": "",
+    "name": "Communications Installation",
+    "mfr": "000",
+    "cost": 1500000,
+    "mass": -1,
+    "size": 6,
+    "techLevel": 8,
+    "qrebs": "R+4 S+9",
+    "image": "",
+    "description": "<!-- Summary Start -->Large communications array with an interplanetary range.<!-- Summary End -->",
+    "accessories": [],
+    "sources": [{
+      "publication": "Traveller 5.10 Core Rules Book 3 : Worlds and Adventures",
+      "authors": ["Miller, Marc"],
+      "publisher": {
+        "name": "Far Future Enterprises",
+        "url": "https://farfuture.net"
+      }
+    }],
+    "tags": ["products", "communications"]
+  },
+  {
+    "sku": "020-000-00005",
+    "category": "communications",
+    "type": "comms",
+    "subtype": "",
+    "name": "Communicator (Long Range)",
+    "mfr": "000",
+    "cost": 5000,
+    "mass": 0.2,
+    "size": 2,
+    "techLevel": 13,
+    "qrebs": "Q+1 R+3 E+3 B-3 S+3",
+    "image": "",
+    "description": "<!-- Summary Start -->Superior version of the portable comm.<!-- Summary End -->",
+    "accessories": [],
+    "sources": [{
+      "publication": "Traveller 5.10 Core Rules Book 3 : Worlds and Adventures",
+      "authors": ["Miller, Marc"],
+      "publisher": {
+        "name": "Far Future Enterprises",
+        "url": "https://farfuture.net"
+      }
+    }],
+    "tags": ["products", "communications"]
+  },
+  {
+    "sku": "020-000-00006",
+    "category": "communications",
+    "type": "comms",
+    "subtype": "",
+    "name": "Communicator (Luxury)",
+    "mfr": "000",
+    "cost": 5000,
+    "mass": 0.175,
+    "size": 2,
+    "techLevel": 11,
+    "qrebs": "Q+6 R+2 E+5 B-3 S+2",
+    "image": "",
+    "description": "<!-- Summary Start -->This Comm has exceptional quality. It uses premier Naasirka electronics and software allowing the user an unparalleled productivity. An example of such a luxury item is the Naasirka CX-5700. The CX-5700 is known for its reliable hardware and excellent safety features.<!-- Summary End --> The luxury Comm is amazingly light, shaving just over 25 grams off the mass of the standard Communicator, and it feels lighter by far. Comms of this level show extreme amounts of customization such as natural materials and personalized agent software. Also included are custom security features such as sophisticated anti-intrusion programs and satellite locator functions.",
+    "accessories": [],
+    "sources": [{
+      "publication": "Traveller 5.10 Core Rules Book 3 : Worlds and Adventures",
+      "authors": ["Miller, Marc"],
+      "publisher": {
+        "name": "Far Future Enterprises",
+        "url": "https://farfuture.net"
+      }
+    }],
+    "tags": ["products", "communications"]
+  },
+  {
+    "sku": "020-000-00007",
+    "category": "communications",
+    "type": "comms",
+    "subtype": "",
+    "name": "Communicator (Ruggedized)",
+    "mfr": "000",
+    "cost": 1750,
+    "mass": 0.24,
+    "size": 2,
+    "techLevel": 10,
+    "qrebs": "Q+4 R+5 E=0 B+1 S+5",
+    "image": "",
+    "description": "<!-- Summary Start -->The typical Ruggedized Comm is designed with hazardous duty in mind. They can endure judicious amounts of punishment and are expected to take a 10 meter fall and still function.<!-- Summary End --> They usually have excellent ambient noise cancellation and glare reduction and other optic hardening for any built in video or still cameras installed. Comms such as the T-Del C10r are often rated for brief exposure to vacuum as well as corrosive and insidious atmospheres.",
+    "accessories": [],
+    "sources": [{
+      "publication": "Traveller 5.10 Core Rules Book 3 : Worlds and Adventures",
+      "authors": ["Miller, Marc"],
+      "publisher": {
+        "name": "Far Future Enterprises",
+        "url": "https://farfuture.net"
+      }
+    }],
+    "tags": ["products", "communications"]
+  },
+  {
+    "sku": "020-000-00008",
+    "category": "communications",
+    "type": "comms",
+    "subtype": "",
+    "name": "Communicator (Vehicle)",
+    "mfr": "000",
+    "cost": 50000,
+    "mass": 50,
+    "size": 5,
+    "techLevel": 8,
+    "qrebs": "N/A",
+    "image": "",
+    "description": "<!-- Summary Start -->Vehicle-installed with an orbital range<!-- Summary End -->",
+    "accessories": [],
+    "sources": [{
+      "publication": "Traveller 5.10 Core Rules Book 3 : Worlds and Adventures",
+      "authors": ["Miller, Marc"],
+      "publisher": {
+        "name": "Far Future Enterprises",
+        "url": "https://farfuture.net"
+      }
+    }],
+    "tags": ["products", "communications"]
+  },
+  {
+    "sku": "020-000-00009",
+    "category": "communications",
+    "type": "comms",
+    "subtype": "",
+    "name": "Radio",
+    "mfr": "000",
+    "cost": 100,
+    "mass": 1.5,
+    "size": 2,
+    "techLevel": 7,
+    "qrebs": "N/A",
+    "image": "",
+    "description": "<!-- Summary Start -->1.5L walkie-talkie or cell-based broadcast communicator with a 5km range (R=6). Incapable of beamcast mode.<!-- Summary End -->",
+    "accessories": [],
+    "sources": [{
+      "publication": "Traveller 5.10 Core Rules Book 3 : Worlds and Adventures",
+      "authors": ["Miller, Marc"],
+      "publisher": {
+        "name": "Far Future Enterprises",
+        "url": "https://farfuture.net"
+      }
+    }],
+    "tags": ["products", "communications"]
+  },
+  {
+    "sku": "020-000-00010",
+    "category": "communications",
+    "type": "comms",
+    "subtype": "",
+    "name": "Radio (Experimental)",
+    "mfr": "000",
+    "cost": 1000,
+    "mass": 15,
+    "size": 4,
+    "techLevel": 4,
+    "qrebs": "N/A",
+    "image": "",
+    "description": "<!-- Summary Start -->SCR-300 experimental man-portable broadcast communicator (15L) with a 5km range (R=6). Incapable of beamcast mode.<!-- Summary End -->",
+    "accessories": [],
+    "sources": [{
+      "publication": "Traveller 5.10 Core Rules Book 3 : Worlds and Adventures",
+      "authors": ["Miller, Marc"],
+      "publisher": {
+        "name": "Far Future Enterprises",
+        "url": "https://farfuture.net"
+      }
+    }],
+    "tags": ["products", "communications"]
+  }  
+]

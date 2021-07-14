@@ -1,0 +1,121 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<project name="Central-Supply-Catalog" id="Project_aa1" database="Sqlite" >
+	<comment><![CDATA[Data model for Central Supply Catalog]]></comment>
+	<schema name="Default" >
+		<table name="Categories" prior="Tbl" >
+			<column name="id" type="integer" jt="4" mandatory="y" >
+				<comment><![CDATA[Category Id]]></comment>
+			</column>
+			<column name="label" type="text" jt="-1" >
+				<comment><![CDATA[Category label]]></comment>
+			</column>
+			<index name="Pk_Categories_id" unique="PRIMARY_KEY" >
+				<column name="id" />
+			</index>
+		</table>
+		<table name="Departments" prior="Tbl" >
+			<column name="id" type="integer" jt="4" mandatory="y" >
+				<comment><![CDATA[Department id (three characters)]]></comment>
+			</column>
+			<column name="deptName" prior="label" type="text" jt="-1" />
+			<index name="Pk_Departments_id" unique="PRIMARY_KEY" >
+				<column name="id" />
+			</index>
+		</table>
+		<table name="Manufacturers" prior="Tbl" >
+			<column name="id" type="integer" jt="4" mandatory="y" >
+				<comment><![CDATA[Manufacturer ID]]></comment>
+			</column>
+			<column name="name" type="text" length="100" jt="-1" >
+				<comment><![CDATA[Name of the manufacturer]]></comment>
+			</column>
+			<column name="url" type="text" jt="-1" />
+			<index name="Pk_Manufacturers_id" unique="PRIMARY_KEY" >
+				<column name="id" />
+			</index>
+		</table>
+		<table name="Product_Categories" prior="Product" >
+			<comment><![CDATA[Intersection table for products and categories]]></comment>
+			<column name="productId" prior="product_id" type="integer" jt="4" />
+			<column name="categoryId" type="integer" jt="4" />
+			<fk name="fk_product_categories_products" to_schema="Default" to_table="Products" >
+				<fk_column name="productId" pk="id" />
+			</fk>
+			<fk name="fk_product_categories" to_schema="Default" to_table="Categories" >
+				<fk_column name="categoryId" pk="id" />
+			</fk>
+		</table>
+		<table name="Products" prior="Product" >
+			<comment><![CDATA[Displacement volume in metric tons. (Vehicles only)]]></comment>
+			<column name="id" type="integer" jt="4" mandatory="y" >
+				<comment><![CDATA[Product id]]></comment>
+			</column>
+			<column name="productName" prior="fullName" type="text" length="100" jt="-1" >
+				<comment><![CDATA[Full name of product]]></comment>
+			</column>
+			<column name="techLevel" type="integer" jt="4" >
+				<comment><![CDATA[Minimum technology level]]></comment>
+			</column>
+			<column name="cost" prior="costInCredits" type="integer" jt="4" >
+				<comment><![CDATA[Cost of the item in Imperial credits]]></comment>
+			</column>
+			<column name="mass" prior="massInKg" type="integer" jt="4" >
+				<comment><![CDATA[Mass of the product in kilograms]]></comment>
+			</column>
+			<column name="height" prior="heightInCm" type="real" length="10" decimal="3" jt="8" >
+				<comment><![CDATA[Height in centimeters]]></comment>
+			</column>
+			<column name="width" prior="widthInCm" type="real" length="10" decimal="3" jt="8" >
+				<comment><![CDATA[Width in centimeters]]></comment>
+			</column>
+			<column name="tonnage" prior="volumeTonnage" type="real" length="10" decimal="3" jt="8" />
+			<column name="length" prior="lengthInCm" type="real" length="10" decimal="3" jt="8" >
+				<comment><![CDATA[Length in centimeters]]></comment>
+			</column>
+			<column name="summary" type="text" jt="-1" >
+				<comment><![CDATA[Short summary for search results page]]></comment>
+			</column>
+			<column name="description" type="text" jt="-1" >
+				<comment><![CDATA[Complete product description]]></comment>
+			</column>
+			<column name="source" type="text" jt="-1" >
+				<comment><![CDATA[Cite the source of the product (author, publication, web site, etc.)]]></comment>
+			</column>
+			<column name="QREBS" prior="quality" type="text" jt="-1" >
+				<comment><![CDATA[Quality of the item (QREBS)]]></comment>
+			</column>
+			<index name="Pk_Product_id" unique="PRIMARY_KEY" >
+				<column name="id" />
+			</index>
+		</table>
+		<table name="Tbl" />
+		<table name="sku" prior="Tbl_0" >
+			<comment><![CDATA[Interesect of department id, manufacturer id, product id]]></comment>
+			<column name="deptId" type="integer" jt="4" >
+				<comment><![CDATA[Department id from depart]]></comment>
+			</column>
+			<column name="mfrId" type="integer" jt="4" >
+				<comment><![CDATA[Manufacturer id]]></comment>
+			</column>
+			<column name="productId" type="integer" jt="4" />
+			<fk name="fk_sku_departments" to_schema="Default" to_table="Departments" >
+				<fk_column name="deptId" pk="id" />
+			</fk>
+			<fk name="fk_sku_manufacturers" to_schema="Default" to_table="Manufacturers" >
+				<fk_column name="mfrId" pk="id" />
+			</fk>
+			<fk name="fk_sku_products" to_schema="Default" to_table="Products" >
+				<fk_column name="productId" pk="id" />
+			</fk>
+		</table>
+	</schema>
+	<layout name="Default Layout" id="Layout_1d32" joined_routing="y" show_relation="columns" >
+		<comment><![CDATA[Central-Supply-Catalog]]></comment>
+		<entity schema="Default" name="Categories" color="C1D8EE" x="784" y="560" />
+		<entity schema="Default" name="Departments" color="C1D8EE" x="48" y="448" />
+		<entity schema="Default" name="Manufacturers" color="C1D8EE" x="192" y="48" />
+		<entity schema="Default" name="Product_Categories" color="C1D8EE" x="784" y="320" />
+		<entity schema="Default" name="Products" color="C1D8EE" x="464" y="480" />
+		<entity schema="Default" name="sku" color="C1D8EE" x="192" y="192" />
+	</layout>
+</project>

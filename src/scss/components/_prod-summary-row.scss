@@ -1,0 +1,124 @@
+.product-summary-container {
+  margin-bottom: 2rem !important;
+
+  & h1 {
+    color: $primary-color;
+    font-weight: 500;
+    font-size: 2.5rem;
+  }
+
+  & .container {
+    height: 95vh;
+    overflow-y: auto !important;
+    top: 4rem;
+
+    & .prod-summary-row {
+      padding: .5rem 0 .5rem .5rem;
+      border-radius: .5rem;
+
+      @include response(lg) {
+        max-height: 12rem;
+      }
+
+      & .prod-img {
+        justify-self: flex-start;
+
+        & img {
+          height: 5rem;
+          width: 5rem;
+          ;
+          object-fit: contain;
+          border: 1px solid black;
+          margin: 1rem 0;
+
+          @include response(md) {
+            height: 6rem;
+            width: 6rem;
+          }
+        }
+      }
+
+      & .product-summary {
+
+        & h5 {
+          font-size: 1rem !important;
+          font-weight: bold;
+          margin-bottom: 0;
+
+          @include response(md) {
+            font-size: 1.2rem !important;
+          }
+        }
+
+        & h6 {
+          font-size: 1rem;
+          font-weight: 600;
+
+          @include response(md) {
+            font-size: 1.4rem !important;
+          }
+        }
+
+        & p {
+          font-size: .8rem !important;
+
+          @include response(md) {
+            font-size: 1rem !important;
+          }
+        }
+      }
+
+      & .product-controls {
+        max-height: 10rem;
+
+
+        & .quantity {
+          max-width: 3rem;
+          margin-bottom: 0 0 1rem 0 !important;
+          margin: auto;
+          font-size: 1rem !important;
+
+          &::before {
+            content: 'Qty:';
+            position: absolute;
+            left: -2.5rem;
+            top: 1.4rem;
+            color: black;
+          }
+
+          & input {
+            border: 1px solid black;
+            padding: 0 .25rem;
+            height: 2rem;
+            margin-top: 1rem;
+            padding-right: 1rem;
+          }
+        }
+
+        & .btn-small {
+          font-size: .8rem !important;
+          margin-top: .5rem;
+          width: 6rem;
+          font-weight: 600;
+        }
+      }
+    }
+
+    & .pagenav {
+      margin: 0 !important;
+      line-height: 1.6rem;
+      height: 1.6rem;
+
+      & ul {
+        margin: 0 auto !important;
+
+        & li {
+
+          & a {
+            color: $primary-color;
+          }
+        }
+      }
+    }
+  }
+}

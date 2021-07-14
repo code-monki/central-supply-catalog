@@ -1,4 +1,3 @@
-{% set rootPath = "../" %}
 {% include '_head.njk' %}
 {% include '_site-header.njk' %}
 
@@ -12,12 +11,12 @@
       <h1>{{ product.shortName }}</h1>
 
       <div class="product-main-content">
-        <div class="product-image col s5">
+        <div class="product-image col s5 blue">
           
           {% if product.image %}
             <img src="{{product.image}}" alt="{{product.shortName}}">
           {% else %}
-            <img src="../img/products/no-image.png" alt="{{product.shortName}}">
+            <img src="/img/products/no-image.png" alt="{{product.shortName}}">
           {% endif %}
         </div>
 
@@ -35,9 +34,8 @@
           </form>
         </div>
 
-        <div class="summary white col s12">
-          <h6>Summary</h6>
-          <p>{{ product.summary }}</p>
+        <div class="prod-name col s12">
+          <h5>{{product.name }}</h5>
         </div>
       </div>
     </div>
@@ -45,8 +43,10 @@
     <div class="description-content">
       <div class="product-description flow-text">
         <h6>Description</h6>
-        <p>{{ product.description }}</p>
-      </div>
+
+        {{ product.description | markdown | safe }} 
+        
+      </div> 
 
       <div class="product-details">
         <table>
@@ -61,30 +61,57 @@
               </td>
             </tr>
             <tr>
-              <td><strong>Mass:</td>
-              <td>{{ product.mass}}</td>
+              <td><strong>TL:</td>
+              <td>{{product.techLevel }}</td>
+            </tr>
+            <tr>
+              <td><strong>Mass:</strong></td>
+              <td>{{ product.mass }}</td>
+            </tr>
+            <tr>
+              <td><strong>Size:</strong></td>
+              <td>{{ product.size }}</td>
+            </tr>
+            <tr>
+              <td><strong>QREBS:</strong></td>
+              <td>{{ product.qrebs }}</td>
             </tr>
           </tbody>
         </table>
       </div>
     </div>
 
-    <div class="product-accessories">
-      <h6>Accessories</h6>
-      <div class="accessory-list white black-text">
-        {% set accLength = product.accessories | length %}
-        {% if accLength > 0 %}
-          {% for item in product.accessories %}
-            {% getAccessory products, item %}
-          {% endfor %}
-        {% endif %}
+    {% if product.accessories | length > 0 %}
+      <div class="product-accessories">
+        <h6>Accessories</h6>
+        <div class="accessory-list white black-text">
+          {% set accLength = product.accessories | length %}
+          {% if accLength > 0 %}
+            {% for item in product.accessories %}
+              {% getAccessory products, item %}
+            {% endfor %}
+          {% endif %}
+        </div>
       </div>
-    </div>
+    {% endif %}
 
     <div class="product-source">
       <hr>
-      <strong>Source of Data</strong>
-      <p><a href="{{product.source.url}}">{{product.source.name}}</a></p>
+      
+      <p><strong>Source of Data</strong><br></p>
+
+      {% if product.sources %}
+        {% for src in product.sources %}
+        <p class="source">
+        &ldquo;<em>{{ src.publication | safe}}</em>&rdquo;, 
+        {% set comma = joiner() %}
+        {% for author in src.authors %}
+          {{ comma() }}{{author | safe }}
+        {% endfor %}
+        , <a href="{{ src.publisher.url | url }}" target="_blank">{{ src.publisher.name}}</a>
+        </p>
+        {% endfor %}
+      {% endif %}
     </div>
   </div>
 </main>

@@ -9,6 +9,7 @@
   "scripts": {
     "build": "npm run sass && npx @11ty/eleventy",
     "dev": "ELEVENTY_ENV=dev npx @11ty/eleventy",
+    "prod": "ELEVENTY_ENV=prod npx @11ty/eleventy",
     "sass": "sass src/scss:build/css",
     "watch:sass": "npm run sass -- --watch",
     "watch:eleventy": "npx @11ty/eleventy --serve",
@@ -48,9 +49,12 @@
     "gulp-sitemap": "^8.0.0",
     "gulp-uglify": "^3.0.2",
     "markdown-it": "^10.0.0",
+    "marked": "^2.1.2",
     "node-sass": "^6.0.0",
     "npm-run-all": "^4.1.5",
     "nunjucks": "^3.2.3",
+    "nunjucks-markdown": "^2.0.1",
+    "slugify": "^1.5.3",
     "update": "^0.7.4"
   }
 }
