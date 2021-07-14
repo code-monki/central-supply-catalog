@@ -13,7 +13,7 @@
     <div class="prod-summary-row row white">
       <div class="prod-img col s3 m2">
         {%- if product.image -%}
-          <img src="{{product.image}}" alt="{{product.shortName}}">
+          <img src="{{product.image | url}}" alt="{{product.shortName}}">
         {%- else -%}
           <img src="{{'/img/products/no-image.png | url'}}" alt="{{product.shortName}}">
         {%- endif -%}
