@@ -29,7 +29,8 @@
   <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet" crossorigin="anonymous">
 
   <!-- Materialize CSS -->
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css" crossorigin="anonymous">
+  
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@materializecss/materialize@1.1.0-alpha/dist/css/materialize.min.css">
   
   <link href="/central-supply-catalog/css/main.css" rel="stylesheet" type="text/css">
   <title>Central Supply Catalog</title>
@@ -77,48 +78,140 @@
     </nav>
   </div>
 
+      <ul id="slide-out" class="sidenav">
+    <li class="right-align">
+      <a href="#" class="white black-text sidenav-close">
+        <i class="material-icons right">close</i></a>
+    </li>
+
+    <li><a href="/central-supply-catalog/">Home</a></li>
+    <li><a href="/central-supply-catalog/departments">Departments</a></li>
+    <li><a href="/central-supply-catalog/shopping-cart">Shopping Cart</a></li>
+
+    <li><a href="#!">Filters</a></li>
+
+    <li><a href="/central-supply-catalog/about-the-central-supply-catalog/">About</a></li>
+
+  </ul>
+
+
 </header>
 
-<main>
-  <div class="container browse-page-container white">
-    <h3>Search results for: "Shotgun"</h3>
 
-    <div class="row browse-product-row">
+<main class="white black-text product-section">
+  <ul id="slide-out" class="sidenav">
+    <li class="right-align">
+      <a href="#" class="white black-text sidenav-close">
+        <i class="material-icons right">close</i></a>
+    </li>
 
-          <div class="prod-img col s2 m2">
-            <img src="../img/products/001-00001.png" alt="AHS-7 Advanced Heavy Shotgun">
-          </div>
+    <li><a href="/central-supply-catalog/">Home</a></li>
+    <li><a href="/central-supply-catalog/departments">Departments</a></li>
+    <li><a href="/central-supply-catalog/shopping-cart">Shopping Cart</a></li>
 
-          <div class="prod-info col s6 m8">
-            <a href="#"><h6>AHS-7 Advanced Heavy Shotgun</h6></a>
-            <table>
-              <tbody>
-                <tr><td>Mfr:</td><td><a href="#">Delgado Trading</a></td></tr>
-              </tbody>
-            </table>
-          </div>
+    <li><a href="#!">Filters</a></li>
 
-          <div class="prod-price-controls col s4 m2 right-align">
-            <h6>9.925 KCr</h6>
-            <form>
-              <div class="form-controls">
-              <label>Qty:</label>
-              <input type="number" min=0 max=999>
+    <li><a href="/central-supply-catalog/about-the-central-supply-catalog/">About</a></li>
+
+  </ul>
+
+
+
+    <div class="container">
+
+    <div class="product-main">
+      <h1></h1>
+
+      <div class="product-main-content">
+        <div class="product-image col s5 blue">
+          
+          
+            <img src="/img/products/no-image.png" alt="">
+          
+        </div>
+
+        <div class="product-controls">
+          <form>
+              <h5 class="right-align">100 Cr</h5>
+
+              <div class="input-field quantity center">
+                <input type="number" name="qty" id="qty" min="0" max="999" value="0">
               </div>
-            </form>
-            <button class="add-to-cart-btn amber black-text">Add to Cart</button>
-          </div>
 
-          <div class="product-summary col s12">
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Explicabo suscipit ad magni voluptatem alias et vero non.
-          </div>
+              <div class="add-products-btn">
+                <button type="submit" class="btn-small amber black-text ">Add to Cart</button>
+              </div>
+          </form>
+        </div>
 
+        <div class="prod-name col s12">
+          <h5>Survey Data</h5>
+        </div>
+      </div>
     </div>
 
+    <div class="description-content">
+      <div class="product-description flow-text">
+        <h6>Description</h6>
 
-  </div>
+        <!-- Summary Start -->A data container (essentially a re-purposed memclip) for carrying detailed survey information for one star system.<!-- Summary End --> 
+        
+      </div> 
+
+      <div class="product-details">
+        <table>
+          <thead>
+            <tr><th colspan="2" class="center">Product Details</th></tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td><strong>Manufacturer:</strong></td>
+              <td>
+                N/A
+              </td>
+            </tr>
+            <tr>
+              <td><strong>TL:</td>
+              <td>12</td>
+            </tr>
+            <tr>
+              <td><strong>Mass:</strong></td>
+              <td>0</td>
+            </tr>
+            <tr>
+              <td><strong>Size:</strong></td>
+              <td>1</td>
+            </tr>
+            <tr>
+              <td><strong>QREBS:</strong></td>
+              <td>N/A</td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+    </div>
+
+    
+
+    <div class="product-source">
+      <hr>
       
+      <p><strong>Source of Data</strong><br></p>
 
+      
+        
+        <p class="source">
+        &ldquo;<em>Traveller 5.10 Core Rules Book 3 : Worlds and Adventures</em>&rdquo;, 
+        
+        
+          Miller, Marc
+        
+        , <a href="https://farfuture.net" target="_blank">Far Future Enterprises</a>
+        </p>
+        
+      
+    </div>
+  </div>
 </main>
 
 <footer class="page-footer black">
@@ -141,7 +234,9 @@
 </footer>
 
   <script src="https://kit.fontawesome.com/98c924c274.js" crossorigin="anonymous"></script>
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js" crossorigin="anonymous"></script>
+  
+  <script src="https://cdn.jsdelivr.net/npm/@materializecss/materialize@1.1.0-alpha/dist/js/materialize.min.js"></script>
+
   <script src="/central-supply-catalog/js/scripts.js"></script>
 </body>
 

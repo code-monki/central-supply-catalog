@@ -96,14 +96,15 @@ main {
     width: 100vw;
     margin: 1rem 0;
     font-weight: 700;
-    margin-bottom: 2rem; }
+    margin-bottom: 3rem; }
     @media screen and (min-width: 48rem) {
       .home-page .disclaimers-btn {
         position: absolute;
         bottom: 0; } }
 
 .product-section {
-  overflow: scroll; }
+  overflow: auto;
+  height: 130vh; }
   .product-section h6 {
     padding: .125rem 0 .125rem .25rem;
     font-weight: bold; }
@@ -112,13 +113,13 @@ main {
     font-weight: bold; }
   .product-section .product-main .product-main-content {
     display: grid;
-    grid-template-areas: 'prod-img prod-ctrls' 'summary summary';
+    grid-template-areas: 'prod-img prod-ctrls' 'prod-name prod-name';
     margin-bottom: 1rem;
     row-gap: 1rem; }
     @media screen and (min-width: 48rem) {
       .product-section .product-main .product-main-content {
         grid-gap: 1rem;
-        grid-template-areas: 'prod-img summary prod-ctrls'; } }
+        grid-template-areas: 'prod-img prod-name prod-name prod-name prod-name prod-name prod-name prod-name prod-name prod-name prod-name prod-ctrls'; } }
     .product-section .product-main .product-main-content .product-image {
       max-height: 10rem;
       width: 10rem;
@@ -154,13 +155,18 @@ main {
       .product-section .product-main .product-main-content .product-controls .btn-small {
         font-size: .8rem !important;
         margin-top: .5rem; }
-    .product-section .product-main .product-main-content .summary {
-      grid-area: summary; }
+    .product-section .product-main .product-main-content .prod-name {
+      grid-area: prod-name;
+      justify-self: flex-start;
+      width: 100%; }
+      .product-section .product-main .product-main-content .prod-name h5 {
+        font-size: 1.4rem;
+        font-weight: bold;
+        padding: 0 1rem; }
   .product-section .description-content {
     display: flex;
     flex-direction: column;
-    margin-bottom: 1.5rem;
-    border-bottom: 1px solid grey; }
+    margin-bottom: 1.5rem; }
     @media screen and (min-width: 48rem) {
       .product-section .description-content {
         flex-direction: row; } }
@@ -168,7 +174,9 @@ main {
       font-size: 1rem; }
       @media screen and (min-width: 48rem) {
         .product-section .description-content .product-description {
-          width: 65%; } }
+          width: 65%;
+          margin-right: 2rem;
+          margin-left: 1rem; } }
       @media screen and (min-width: 64rem) {
         .product-section .description-content .product-description {
           width: 70%; } }
@@ -178,7 +186,8 @@ main {
       margin-bottom: 1rem; }
       @media screen and (min-width: 48rem) {
         .product-section .description-content .product-details {
-          width: 35%; } }
+          width: 35%;
+          justify-self: flex-end; } }
       @media screen and (min-width: 64rem) {
         .product-section .description-content .product-details {
           width: 25%; } }
@@ -192,6 +201,10 @@ main {
           max-height: 3rem; }
   .product-section .product-source {
     margin-bottom: 1rem; }
+    .product-section .product-source p:nth-child(n+2) {
+      padding-top: .5rem; }
+    .product-section .product-source .source {
+      margin-left: 1rem; }
 
 .shopping-cart-container {
   overflow: scroll;
@@ -310,7 +323,7 @@ main {
           .browse-page-container .browse-product-row .prod-info a {
             font-size: 1.2rem; } }
         .browse-page-container .browse-product-row .prod-info a:hover {
-          color: red; }
+          color: #e60000; }
       @media screen and (min-width: 48rem) {
         .browse-page-container .browse-product-row .prod-info table {
           max-width: 50%; } }
@@ -358,10 +371,10 @@ main {
   height: 100vh;
   overflow: scroll; }
   .departments-container h1 {
-    color: red;
+    color: #e60000;
     background-color: black;
     font-size: 1.6rem;
-    font-weight: bold;
+    font-weight: 300;
     text-align: center; }
     @media screen and (min-width: 48rem) {
       .departments-container h1 {
@@ -390,12 +403,16 @@ main {
           color: lightgoldenrodyellow; }
       .departments-container .row .card .card-title a {
         font-size: 1.2rem;
-        color: red !important;
+        color: #e60000 !important;
         font-weight: bold; }
     .departments-container .row .card .card-body {
       padding: .25rem; }
       .departments-container .row .card .card-body a {
         color: black; }
+
+.bottom-page-nav {
+  display: flex  !important;
+  justify-content: center !important; }
 
 .brand-logo {
   font-size: 1.1rem !important; }
@@ -555,9 +572,89 @@ main {
         align-self: center;
         float: right; }
 
+.product-summary-container {
+  margin-bottom: 2rem !important; }
+  .product-summary-container h1 {
+    color: #e60000;
+    font-weight: 500;
+    font-size: 2.5rem; }
+  .product-summary-container .container {
+    height: 95vh;
+    overflow-y: auto !important;
+    top: 4rem; }
+    .product-summary-container .container .prod-summary-row {
+      padding: .5rem 0 .5rem .5rem;
+      border-radius: .5rem; }
+      @media screen and (min-width: 64rem) {
+        .product-summary-container .container .prod-summary-row {
+          max-height: 12rem; } }
+      .product-summary-container .container .prod-summary-row .prod-img {
+        justify-self: flex-start; }
+        .product-summary-container .container .prod-summary-row .prod-img img {
+          height: 5rem;
+          width: 5rem;
+          -o-object-fit: contain;
+             object-fit: contain;
+          border: 1px solid black;
+          margin: 1rem 0; }
+          @media screen and (min-width: 48rem) {
+            .product-summary-container .container .prod-summary-row .prod-img img {
+              height: 6rem;
+              width: 6rem; } }
+      .product-summary-container .container .prod-summary-row .product-summary h5 {
+        font-size: 1rem !important;
+        font-weight: bold;
+        margin-bottom: 0; }
+        @media screen and (min-width: 48rem) {
+          .product-summary-container .container .prod-summary-row .product-summary h5 {
+            font-size: 1.2rem !important; } }
+      .product-summary-container .container .prod-summary-row .product-summary h6 {
+        font-size: 1rem;
+        font-weight: 600; }
+        @media screen and (min-width: 48rem) {
+          .product-summary-container .container .prod-summary-row .product-summary h6 {
+            font-size: 1.4rem !important; } }
+      .product-summary-container .container .prod-summary-row .product-summary p {
+        font-size: .8rem !important; }
+        @media screen and (min-width: 48rem) {
+          .product-summary-container .container .prod-summary-row .product-summary p {
+            font-size: 1rem !important; } }
+      .product-summary-container .container .prod-summary-row .product-controls {
+        max-height: 10rem; }
+        .product-summary-container .container .prod-summary-row .product-controls .quantity {
+          max-width: 3rem;
+          margin-bottom: 0 0 1rem 0 !important;
+          margin: auto;
+          font-size: 1rem !important; }
+          .product-summary-container .container .prod-summary-row .product-controls .quantity::before {
+            content: 'Qty:';
+            position: absolute;
+            left: -2.5rem;
+            top: 1.4rem;
+            color: black; }
+          .product-summary-container .container .prod-summary-row .product-controls .quantity input {
+            border: 1px solid black;
+            padding: 0 .25rem;
+            height: 2rem;
+            margin-top: 1rem;
+            padding-right: 1rem; }
+        .product-summary-container .container .prod-summary-row .product-controls .btn-small {
+          font-size: .8rem !important;
+          margin-top: .5rem;
+          width: 6rem;
+          font-weight: 600; }
+    .product-summary-container .container .pagenav {
+      margin: 0 !important;
+      line-height: 1.6rem;
+      height: 1.6rem; }
+      .product-summary-container .container .pagenav ul {
+        margin: 0 auto !important; }
+        .product-summary-container .container .pagenav ul li a {
+          color: #e60000; }
+
 footer {
   padding-top: .5rem !important;
-  position: absolute;
+  position: fixed;
   bottom: 0;
   left: 0;
   right: 0; }
