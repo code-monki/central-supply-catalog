@@ -4,10 +4,10 @@
   overflow: scroll;
 
   & h1 {
-    color: red;
+    color: $primary-color;
     background-color: black;
     font-size: 1.6rem;
-    font-weight: bold;
+    font-weight: 300;
     text-align: center;
 
     @include response(md) {
@@ -50,7 +50,7 @@
 
         & a {
           font-size: 1.2rem;
-          color: red !important;
+          color: $primary-color !important;
           font-weight: bold;
 
         }
