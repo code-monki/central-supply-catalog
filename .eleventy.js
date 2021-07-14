@@ -149,7 +149,7 @@ const buildCategoryCard = (category) => {
     let o = departmentsData.find((m) => m.id === dept);
 
     if (o !== undefined) {
-      text += `                      <li><a href="${basePath}departments/${urlSafe(o.label)
+      text += `                      <li><a href="${basePath}/departments/${urlSafe(o.label)
         .toLowerCase()
         .replace(" ", "-")}/">${o.label}</a></li>`;
     } else {
