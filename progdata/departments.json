@@ -1,31 +1,21 @@
 [
   {
     "id": "010-000",
-    "label": "Accessories",
-    "description": "Accessory collections",
-    "subDept": ["010-001", "010-002", "010-003"]
-  },
-  {
-    "id": "010-001",
-    "label": "Ammunition",
-    "description": "Ordnance for projectile weapons"
-  },
-  {
-    "id": "010-003",
-    "label": "Weapon Accessories",
-    "description": "Clips, slings, optics, and more..."
-  },
-  {
-    "id": "020-000",
     "label": "Breathing Apparatus",
     "description": "Equipment to ensure a sophont has breathable air in different environments.",
     "subDept": []
   },
   {
-    "id": "030-000",
+    "id": "020-000",
     "label": "Comms",
     "description": "Equipment used for telecommunication.",
     "subDept": ["030-001"]
+  },
+  {
+    "id": "030-000",
+    "label": "Computers",
+    "description": "Devices that provide the ability to store and process information.",
+    "subDept": []
   },
   {
     "id": "030-001",
@@ -34,191 +24,197 @@
   },
   {
     "id": "040-000",
-    "label": "Computers",
-    "description": "Devices that provide the ability to store and process information.",
-    "subDept": []
-  },
-  {
-    "id": "050-000",
     "label": "Construction",
     "description": "Tools & Materials used for construction",
     "subDept": ["050-001"]
   },
   {
-    "id": "050-001",
+    "id": "040-001",
     "label": "Construction Materials",
     "description": "Construction materials for the creation of a variety of structures and equipment."
   },
   {
-    "id": "060-000",
+    "id": "050-000",
     "label": "Drugs, Medical",
     "description": "Prescription pharmaceuticals, Medical equipment."
   },
   {
-    "id": "070-000",
+    "id": "060-000",
     "label": "Emitters",
     "description": "Electronic devices capable of transmitting a signal."
   },
   {
-    "id": "080-000",
+    "id": "070-000",
     "label": "Explosives",
     "description": "Reactive substances that can be made to explode."
   },
   {
-    "id": "090-000",
+    "id": "080-000",
     "label": "Food & Drinks",
     "description": "A variety of food and beverage items."
   },
   {
-    "id": "100-000",
+    "id": "090-000",
     "label": "Power Supplies",
     "description": "Devices that provide power."
   },
   {
-    "id": "110-000",
+    "id": "100-000",
     "label": "Protections",
     "description": "Equipment to provide protection against hostile environments",
     "subDept": ["110-001", "110-002", "110-003", "110-004", "110-005"]
   },
   {
-    "id": "110-001",
+    "id": "100-001",
     "label": "Armor",
     "description": "Protective gear designed for the dangerous environment of combat.",
     "subDept": []
   },
   {
-    "id": "110-002",
+    "id": "100-002",
     "label": "Dress",
     "description": "A collection of powered military-style armor"
   },
   {
-    "id": "110-003",
+    "id": "100-003",
     "label": "Suits",
     "description": "A collection of unpowered morphic coverings."
   },
   {
-    "id": "110-004",
+    "id": "100-004",
     "label": "Units",
     "description": "A collection  of non-morphic protections."
   },
   {
-    "id": "110-005",
+    "id": "100-005",
     "label": "Cyberware",
     "description": "Embeddable prosthetics."
   },
   {
-    "id": "110-006",
+    "id": "100-006",
     "label": "Powered Armor",
     "description": "Powered exoskeletal suits that augment the soldier's physical abilities and protection."
   },
   {
-    "id": "120-000",
+    "id": "110-000",
     "label": "Robots",
     "description": "A collection of autonomous and semi-autonomous machines.",
     "subDept": ["120-001", "120-002", "120-003"]
   },
   {
-    "id": "120-001",
+    "id": "110-001",
     "label": "Automatons",
     "description": "Sophont-like machinesthat perform a specific function."
   },
   {
-    "id": "120-002",
+    "id": "110-002",
     "label": "Drones",
     "description": "Autonomous or semi-automonous vehicles."
   },
-  { "id": "120-003", "label": "Strangeforms", "description": "Oddly shaped automous and semi-autonomous machines." },
+  { "id": "110-003", "label": "Strangeforms", "description": "Oddly shaped automous and semi-autonomous machines." },
   {
-    "id": "130-000",
+    "id": "120-000",
     "label": "Sensory Aids",
     "description": "A collection of equipment to enhance the sophont's senses."
   },
   {
-    "id": "140-000",
+    "id": "130-000",
     "label": "Structures, Shelters",
     "description": "Permanent and temporary structures"
   },
   {
-    "id": "150-000",
+    "id": "140-000",
     "label": "Vehicles",
     "description": "A collection of personal vehicles.",
     "subDept": ["150-001", "150-002"]
   },
   {
-    "id": "150-001",
+    "id": "140-001",
     "label": "Small Craft",
     "description": "All manner of small support craft."
   },
   {
-    "id": "150-002",
+    "id": "140-002",
     "label": "Space Craft",
     "description": "Space-going vessels."
   },
   {
-    "id": "160-000",
+    "id": "150-000",
     "label": "Weapons",
     "description": "Melee Weapons, Blades and Guns.",
     "subDept": [
-      "160-001",
-      "160-002",
-      "160-003",
-      "160-004",
-      "160-005",
-      "160-006",
-      "160-007",
-      "160-008",
-      "160-009",
-      "160-010"
+      "150-001",
+      "150-002",
+      "150-003",
+      "150-004",
+      "150-005",
+      "150-006",
+      "150-007",
+      "150-008",
+      "150-009",
+      "150-010",
+      "150-011",
+      "150-012"
     ]
   },
   {
-    "id": "160-001",
+    "id": "150-001",
     "label": "Melee Weapons",
     "description": "A collection of clubs and other miscellaneous melee weapons"
   },
   {
-    "id": "160-002",
+    "id": "150-002",
     "label": "Blades",
     "description": "A collection of bladed weapons"
   },
   {
-    "id": "160-003",
+    "id": "150-003",
     "label": "Pistols, Revolvers",
     "description": "A collection of pistols and revolvers"
   },
   {
-    "id": "160-004",
+    "id": "150-004",
     "label": "Shotguns",
     "description": "A collection of shotguns"
   },
   {
-    "id": "160-005",
+    "id": "150-005",
     "label": "Machineguns",
     "description": "A collection of automatic rifles"
   },
   {
-    "id": "160-006",
+    "id": "150-006",
     "label": "Rifles, Carbines",
     "description": "A collection of rifles and carbines"
   },
   {
-    "id": "160-007",
+    "id": "150-007",
     "label": "Heavy Weapons",
     "description": "A collection of cannons, autocannons, gatling guns, and guns"
   },
   {
-    "id": "160-008",
+    "id": "150-008",
     "label": "Launchers",
     "description": "A collection of launchers"
   },
   {
-    "id": "160-009",
+    "id": "150-009",
     "label": "Projectors",
     "description": "A collection of launchers"
   },
   {
-    "id": "160-010",
+    "id": "150-010",
     "label": "Designators",
     "description": "A collection of target designators"
+  },
+  {
+    "id": "150-011",
+    "label": "Ammunition",
+    "description": "Ammunition/ordnance for projectile weapons"
+  },
+  {
+    "id": "150-012",
+    "label": "Weapon Accessories",
+    "description": "Accessories, optics, etc."
   }
 ]
