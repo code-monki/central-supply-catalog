@@ -20,7 +20,8 @@
       </div>
 
       <div class="product-summary col s9 m10">
-        <a href="/products/comms/{{product.sku}}.html"><h6>{{ product.name }}</h6></a>
+        {% set prodlink = "/products/comms" + product.sku + '.html' %}
+        <a href="{{ prodlink | url}}"><h6>{{ product.name }}</h6></a>
         <p>{%- summary product.description -%}</p>
         <h5>{{ product.cost | costLabel }}</h5>
       </div>
