@@ -84,6 +84,7 @@ module.exports = function (eleventyConfig) {
     return text;
   });
 
+  // Build Department cards
   eleventyConfig.addShortcode("buildDepartmentCards", () => {
     let text = "";
     departmentsData.forEach((dept) => {
@@ -91,12 +92,12 @@ module.exports = function (eleventyConfig) {
         text += `
         <div class="card col s12 m5 offset-m1 push-m1">
           <div class="card-title">
-            <a href="/departments/${urlSafe(dept.label)}/">
+            <a href="${basePath}/departments/${urlSafe(dept.label)}/">
               <h3>${dept.label}</h3>
             </a>
           </div>
           <div class="card-body">
-            <a href="/departments/${urlSafe(dept.label)}/">
+            <a href="${basePath}/departments/${urlSafe(dept.label)}/">
               ${dept.description}
             </a>
           </div>
