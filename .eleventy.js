@@ -5,6 +5,7 @@ const markdownIt = require("markdown-it");
 const mfrData = require("./progdata/manufacturers.json");
 const categoriesData = require("./progdata/categories.json");
 const departmentsData = require("./progdata/departments.json");
+const slugify = require('slugify')
 
 const basePath = process.env.ELEVENTY_ENV === "prod" ? "/central-supply-catalog" : "/";
 const buildDest = process.env.ELEVENTY_ENV === "prod" ? "docs" : "build";
@@ -28,6 +29,9 @@ module.exports = function (eleventyConfig) {
     let text = md.render(content);
     return text;
   });
+
+  // create shortcode to extract summary
+  eleventyConfig.addShortcode("summary", (article) => extractSummary(article));
 
   eleventyConfig.addShortcode("getCategories", function () {
     let text = "<div><ul>";
@@ -57,7 +61,7 @@ module.exports = function (eleventyConfig) {
       let shortName = object.shortName;
       text = `
                   <div class="accessory-item">
-                    <a href="${pageURL}" class="black-text">
+                    <a href="${urlSafe(pageURL)}" class="black-text">
                     <img src="${imgURL}" alt="${shortName}">
                     ${shortName}
                     </a>
@@ -81,28 +85,29 @@ module.exports = function (eleventyConfig) {
   });
 
   eleventyConfig.addShortcode("buildDepartmentCards", () => {
-    let text =''
-    departmentsData.forEach(dept => {
-
-      text += `
-      <div class="card col s12 m5 offset-m1 push-m1">
-        <div class="card-title">
-          <a href="/departments/${urlSafe(dept.label)}/">
-            <h3>${dept.label}</h3>
-          </a>
+    let text = "";
+    departmentsData.forEach((dept) => {
+      if (dept.id.substr(-3) === "000") {
+        text += `
+        <div class="card col s12 m5 offset-m1 push-m1">
+          <div class="card-title">
+            <a href="/departments/${urlSafe(dept.label)}/">
+              <h3>${dept.label}</h3>
+            </a>
+          </div>
+          <div class="card-body">
+            <a href="/departments/${urlSafe(dept.label)}/">
+              ${dept.description}
+            </a>
+          </div>
         </div>
-        <div class="card-body">
-          <a href="/departments/${urlSafe(dept.label)}/">
-            ${dept.description}
-          </a>
-        </div>
-      </div>
-    
-    `
-    })
+      
+      `;
+      }
+    });
 
-    return text
-  })
+    return text;
+  });
 
   return {
     pathPrefix: basePath,
@@ -138,23 +143,60 @@ const buildCategoryCard = (category) => {
                 
                 <div class="menu-lists">
                   <div>
-                    <ul>`
-  
-  category.departments.forEach(dept => {
-    let deptLabel = departmentsData[dept].label
-    text += `                      <li><a href="/departments/${deptLabel.toLowerCase().replace(' ','-')}/">${deptLabel}</a></li>`
-  })
+                    <ul>`;
+
+  category.departments.forEach((dept) => {
+    let o = departmentsData.find((m) => m.id === dept);
+
+    if (o !== undefined) {
+      text += `                      <li><a href="/departments/${urlSafe(o.label)
+        .toLowerCase()
+        .replace(" ", "-")}/">${o.label}</a></li>`;
+    } else {
+      console.log(`Undefined: ${dept}`);
+    }
+  });
 
   text += `         </ul>
                   </div>
                 </div>
         
               </div>
-            </div>`
+            </div>`;
 
-  return text
-}
+  return text;
+};
 
 const urlSafe = (text) => {
-  return text.toLowerCase().replace(' ', '-')
+  let txt = text.replace(/[\,\"\.\*\@\!\?\<\>\&\^\%\$\#\~\`]/g, "")
+                .replace(" ", "-")
+                .toLowerCase()
+  
+  return txt;
+};
+
+function extractSummary(text) {
+  let summary = null;
+
+  // The start and end separators to try and match to extract the summary
+  const separatorsList = [
+    { start: "<!-- Summary Start -->", end: "<!-- Summary End -->" },
+    { start: "<p>", end: "</p>" },
+  ];
+
+  separatorsList.some((separators) => {
+    const startPosition = text.indexOf(separators.start);
+
+    // This end position could use "lastIndexOf" to return all
+    // the paragraphs rather than just the first paragraph when
+    // matching is on "<p>" and "</p>".
+    const endPosition = text.indexOf(separators.end);
+
+    if (startPosition !== -1 && endPosition !== -1) {
+      summary = text.substring(startPosition + separators.start.length, endPosition).trim();
+      return true;
+    }
+  });
+
+  return summary;
 }
