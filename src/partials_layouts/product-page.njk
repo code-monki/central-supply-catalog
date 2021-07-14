@@ -14,7 +14,7 @@
         <div class="product-image col s5 blue">
           
           {% if product.image %}
-            <img src="{{product.image}}" alt="{{product.shortName}}">
+            <img src="{{product.image | url}}" alt="{{product.shortName}}">
           {% else %}
             <img src="{{'/img/products/no-image.png' | url}}" alt="{{product.shortName}}">
           {% endif %}
