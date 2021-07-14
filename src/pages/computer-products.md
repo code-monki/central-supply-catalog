@@ -4,5 +4,5 @@ pagination:
   data: "computer-products"
   size: 1
   alias: product
-permalink: "/products/computers/{{product.sku}}.html"
+permalink: "/products/{{product.sku}}.html"
 ---
