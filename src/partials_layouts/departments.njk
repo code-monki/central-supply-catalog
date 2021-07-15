@@ -1,15 +1,12 @@
 {% include '_head.njk' %}
 {% include '_site-header.njk' %}
 
-<div class="container departments-container">
+<div class="departments-container">
   <h1>Departments</h1>
 
-  <div class="row">
-
-    {% buildDepartmentCards %}
-
+  <div class="container">
+    <div class="row">{% buildDepartmentCards %}</div>
   </div>
-
 </div>
 {% include '_site-footer.njk' %}
 {% include '_foot.njk' %}

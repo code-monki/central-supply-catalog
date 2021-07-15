@@ -1,7 +1,6 @@
 .departments-container {
   top: 4rem;
-  height: 200vh;
-  overflow: auto;
+
 
   & h1 {
     color: $primary-color;
@@ -15,55 +14,60 @@
     }
   }
 
-  & .row {
+  & .container {
+    height: 75vh;
+    overflow-y: auto;
 
-    &:last-child {
-      margin-bottom: 4rem;
-    }
-    & .card {
-      height: 6rem;
-      border: 1px solid red;
-      border-radius: .5rem;
-      padding: 0;
+    & .row {
 
-      @include response(md) {
-        margin: .5rem;
+      &:last-child {
+        margin-bottom: 4rem;
       }
 
-      & .card-title {
-        background:black;
-        border-radius: .4rem .4rem 0 0;
+      & .card {
+        height: 6rem;
+        border: 1px solid red;
+        border-radius: .5rem;
+        padding: 0;
 
-        & h3 {
-          font-size: 1.2rem;
+        @include response(md) {
+          margin: .5rem;
+        }
+
+        & .card-title {
+          background: black;
+          border-radius: .4rem .4rem 0 0;
+
+          & h3 {
+            font-size: 1.2rem;
+            padding: .25rem;
+            margin: 0;
+
+            @include response(md) {
+              padding: .5rem;
+            }
+
+            &:hover {
+              color: lightgoldenrodyellow;
+            }
+          }
+
+          & a {
+            font-size: 1.2rem;
+            color: $primary-color !important;
+            font-weight: bold;
+
+          }
+        }
+
+        & .card-body {
           padding: .25rem;
-          margin: 0;
 
-          @include response(md) {
-            padding: .5rem;
+          & a {
+            color: black;
           }
-
-          &:hover {
-            color: lightgoldenrodyellow;
-          }
-        }
-
-        & a {
-          font-size: 1.2rem;
-          color: $primary-color !important;
-          font-weight: bold;
-
-        }
-      }
-
-      & .card-body {
-        padding: .25rem;
-
-        & a {
-          color: black;
         }
       }
     }
-
   }
 }
