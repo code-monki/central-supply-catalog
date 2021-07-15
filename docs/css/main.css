@@ -410,8 +410,13 @@ main {
       .departments-container .row .card .card-body a {
         color: black; }
 
-.bottom-page-nav {
-  display: flex  !important;
+.product-summary-container .container {
+  height: 100vh;
+  width: 100%;
+  overflow: auto; }
+
+.product-summary-container .bottom-page-nav {
+  display: flex !important;
   justify-content: center !important; }
 
 .brand-logo {

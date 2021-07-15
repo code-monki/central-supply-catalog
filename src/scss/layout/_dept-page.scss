@@ -1,4 +1,14 @@
-.bottom-page-nav {
-  display: flex  !important; 
-  justify-content: center !important;
+.product-summary-container {
+
+  & .container {
+    height: 100vh;
+    width: 100%;
+    overflow: auto;
+  }
+
+  & .bottom-page-nav {
+    display: flex !important;
+    justify-content: center !important;
+  }
+
 }
