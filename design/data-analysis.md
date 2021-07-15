@@ -184,15 +184,12 @@ Weapons
 
 ### Categories
 
-|  Code   | Description            |
-| :-----: | ---------------------- |
-| 000-000 | Accessories            |
-| 000-001 | Ammunition             |
-| 000-003 | Weapon Accessories     |
-| 010-000 | Breathing Apparatus    |
-| 020-000 | Communications Gear    |
-| 030-000 | Computers              |
-| 030-001 | Computer Accessories   |
+|  Code   | Description            | Status |
+| :-----: | ---------------------- | ---- |
+| 010-000 | Breathing Apparatus    | X |
+| 020-000 | Communications Gear    | X |
+| 030-000 | Computers              | X |
+| 030-001 | Computer Accessories   | X |
 | 040-000 | Construction           |
 | 040-001 | Construction Materials |
 | 050-000 | Drugs, Medical         |

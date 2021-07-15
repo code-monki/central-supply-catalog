@@ -21,6 +21,7 @@
 
       <div class="product-summary col s9 m10">
         {% set prodlink = "/products/" + product.sku + '.html' %}
+        {{ prodlink | log }}
         <a href="{{ prodlink | url}}"><h6>{{ product.name }}</h6></a>
         <p>{%- summary product.description -%}</p>
         <h5>{{ product.cost | costLabel }}</h5>
