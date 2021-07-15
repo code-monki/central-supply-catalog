@@ -5,8 +5,8 @@
 
 <div class=" product-summary-container">
 
-  <div><h1 class="center">{{ title }}</h1>å</div>
-  
+  <h1 class="center">{{ title }}</h1>
+
   <div class="container">
 
     {%- for product in products -%}
@@ -21,6 +21,7 @@
 
       <div class="product-summary col s9 m10">
         {% set prodlink = "/products/" + product.sku + '.html' %}
+        {{ prodlink | log }}
         <a href="{{ prodlink | url}}"><h6>{{ product.name }}</h6></a>
         <p>{%- summary product.description -%}</p>
         <h5>{{ product.cost | costLabel }}</h5>
@@ -28,22 +29,22 @@
 
     </div>
     {%- endfor -%}
-
-     {# {{pagination.pages[0][0].type  | log}} #}
-    {# Navigation #}
-    <nav class="pagenav transparent" aria-labelledby="pages-nav">
-      <div class="bottom-page-nav">
-        <div>
-          <ul class="pagination">
-            {%- for page in pagination.pages -%}
-            <li><a href="{{ pagination.hrefs[ loop.index0 ] | url }}"{%- if page.url == pagination.hrefs[ loop.index0 ] -%} aria-current="page"{%- endif -%}>{{ loop.index }}</a></li>
-            {% endfor %}
-          </ul>
-        </div>
-      </div>
-    </nav>
-
   </div>
+
+
+  {# Navigation #}
+  <nav class="pagenav transparent" aria-labelledby="pages-nav">
+    <div class="bottom-page-nav">
+      <div>
+        <ul class="pagination">
+          {%- for page in pagination.pages -%}
+          <li><a href="{{ pagination.hrefs[ loop.index0 ] | url }}"{%- if page.url == pagination.hrefs[ loop.index0 ] -%} aria-current="page"{%- endif -%}>{{ loop.index }}</a></li>
+          {% endfor %}
+        </ul>
+      </div>
+    </div>
+  </nav>
+
 </div>
 
 {% include "_site-footer.njk" %}

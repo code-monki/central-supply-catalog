@@ -1,4 +1,38 @@
-.bottom-page-nav {
-  display: flex  !important; 
-  justify-content: center !important;
+.product-summary-container {
+  overflow: none;
+
+  & h1 {
+    color: $primary-color;
+    background-color: black;
+    font-size: 1.4rem !important;
+    font-weight: 300;
+    text-align: center;
+
+    @include response(md) {
+      font-size: 2rem !important;
+    }
+  }
+
+  & .container {
+    height: 65vh !important;
+    overflow-y: auto;
+
+    @include response(md) {
+      height: 70vh !important;
+    }
+
+    @include response(lg) {
+      height: 75vh !important;
+    }
+  }
+
+  & .bottom-page-nav {
+    display: flex !important;
+    justify-content: center !important;
+
+    & a {
+      color: $primary-color;
+    }
+  }
+
 }

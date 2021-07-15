@@ -184,48 +184,47 @@ Weapons
 
 ### Categories
 
-|  Code   | Description            |
-| :-----: | ---------------------- |
-| 000-000 | Accessories            |
-| 000-001 | Ammunition             |
-| 000-003 | Weapon Accessories     |
-| 010-000 | Breathing Apparatus    |
-| 020-000 | Communications Gear    |
-| 030-000 | Computers              |
-| 030-001 | Computer Accessories   |
+|  Code   | Description            | Status |
+| :-----: | ---------------------- | ---- |
+| 010-000 | Breathing Apparatus    | X |
+| 020-000 | Communications Gear    | X |
+| 030-000 | Computers              | X |
+| 030-001 | Computer Accessories   | X |
 | 040-000 | Construction           |
-| 050-001 | Construction Materials |
-| 060-000 | Drugs, Medical         |
-| 070-000 | Emitters               |
-| 080-000 | Explosives             |
-| 090-000 | Food & Drinks          |
-| 100-000 | Power Supplies         |
-| 110-000 | Protections            |
-| 110-001 | Armor                  |
-| 110-002 | Dress                  |
-| 110-003 | Suits                  |
-| 110-004 | Units                  |
-| 110-005 | Cyberware              |
-| 120-000 | Robots                 |
-| 120-001 | Automatons             |
-| 120-002 | Drones                 |
-| 120-003 | Strangeforms           |
-| 130-000 | Sensory Aids           |
-| 140-000 | Structures, Shelters   |
-| 150-000 | Vehicles               |
-| 150-001 | Small Craft            |
-| 150-002 | Space Craft            |
-| 160-000 | Weapons                |
-| 160-001 | Melee                  |
-| 160-002 | Blades                 |
-| 160-003 | Pistols, Revolvers     |
-| 160-004 | Shotguns               |
-| 160-005 | Machineguns            |
-| 160-006 | Rifles, Carbines       |
-| 160-007 | Heavy Weapons          |
-| 160-008 | Launchers              |
-| 160-009 | Projectors             |
-| 160-010 | Designators            |
+| 040-001 | Construction Materials |
+| 050-000 | Drugs, Medical         |
+| 060-000 | Emitters               |
+| 070-000 | Explosives             |
+| 080-000 | Food & Drinks          |
+| 090-000 | Power Supplies         |
+| 100-000 | Protections            |
+| 100-001 | Armor                  |
+| 100-002 | Dress                  |
+| 100-003 | Suits                  |
+| 100-004 | Units                  |
+| 100-005 | Cyberware              |
+| 110-000 | Robots                 |
+| 110-001 | Automatons             |
+| 110-002 | Drones                 |
+| 110-003 | Strangeforms           |
+| 120-000 | Sensory Aids           |
+| 130-000 | Structures, Shelters   |
+| 140-000 | Vehicles               |
+| 140-001 | Small Craft            |
+| 140-002 | Space Craft            |
+| 150-000 | Weapons                |
+| 150-001 | Melee                  |
+| 150-002 | Blades                 |
+| 150-003 | Pistols, Revolvers     |
+| 150-004 | Shotguns               |
+| 150-005 | Machineguns            |
+| 150-006 | Rifles, Carbines       |
+| 150-007 | Heavy Weapons          |
+| 150-008 | Launchers              |
+| 150-009 | Projectors             |
+| 150-010 | Designators            |
+| 150-011 | Ammunition             |
+| 150-012 | Weapon Accessories     |
 
 \* Software apparently does not have prices
 

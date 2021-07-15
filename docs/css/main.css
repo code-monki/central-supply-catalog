@@ -367,9 +367,7 @@ main {
       font-size: .9rem; }
 
 .departments-container {
-  top: 4rem;
-  height: 100vh;
-  overflow: scroll; }
+  top: 4rem; }
   .departments-container h1 {
     color: #e60000;
     background-color: black;
@@ -379,40 +377,59 @@ main {
     @media screen and (min-width: 48rem) {
       .departments-container h1 {
         font-size: 2rem; } }
-  .departments-container .row:last-child {
-    margin-bottom: 4rem; }
-  .departments-container .row .card {
-    height: 6rem;
-    border: 1px solid red;
-    border-radius: .5rem;
-    padding: 0; }
-    @media screen and (min-width: 48rem) {
-      .departments-container .row .card {
-        margin: .5rem; } }
-    .departments-container .row .card .card-title {
-      background: black;
-      border-radius: .4rem .4rem 0 0; }
-      .departments-container .row .card .card-title h3 {
-        font-size: 1.2rem;
-        padding: .25rem;
-        margin: 0; }
-        @media screen and (min-width: 48rem) {
-          .departments-container .row .card .card-title h3 {
-            padding: .5rem; } }
-        .departments-container .row .card .card-title h3:hover {
-          color: lightgoldenrodyellow; }
-      .departments-container .row .card .card-title a {
-        font-size: 1.2rem;
-        color: #e60000 !important;
-        font-weight: bold; }
-    .departments-container .row .card .card-body {
-      padding: .25rem; }
-      .departments-container .row .card .card-body a {
-        color: black; }
+  .departments-container .container {
+    height: 75vh;
+    overflow-y: auto; }
+    .departments-container .container .row:last-child {
+      margin-bottom: 4rem; }
+    .departments-container .container .row .card {
+      height: 6rem;
+      border: 1px solid red;
+      border-radius: .5rem;
+      padding: 0; }
+      @media screen and (min-width: 48rem) {
+        .departments-container .container .row .card {
+          margin: .5rem; } }
+      .departments-container .container .row .card .card-title {
+        background: black;
+        border-radius: .4rem .4rem 0 0; }
+        .departments-container .container .row .card .card-title h3 {
+          font-size: 1.2rem;
+          padding: .25rem;
+          margin: 0; }
+          @media screen and (min-width: 48rem) {
+            .departments-container .container .row .card .card-title h3 {
+              padding: .5rem; } }
+          .departments-container .container .row .card .card-title h3:hover {
+            color: lightgoldenrodyellow; }
+        .departments-container .container .row .card .card-title a {
+          font-size: 1.2rem;
+          color: #e60000 !important;
+          font-weight: bold; }
+      .departments-container .container .row .card .card-body {
+        padding: .25rem; }
+        .departments-container .container .row .card .card-body a {
+          color: black; }
 
-.bottom-page-nav {
-  display: flex  !important;
-  justify-content: center !important; }
+.product-summary-container {
+  overflow: none; }
+  .product-summary-container h1 {
+    color: #e60000;
+    background-color: black;
+    font-size: 1.4rem !important;
+    font-weight: 300;
+    text-align: center; }
+    @media screen and (min-width: 48rem) {
+      .product-summary-container h1 {
+        font-size: 2rem !important; } }
+  .product-summary-container .container {
+    height: 65vh !important;
+    overflow-y: auto; }
+  .product-summary-container .bottom-page-nav {
+    display: flex !important;
+    justify-content: center !important; }
+    .product-summary-container .bottom-page-nav a {
+      color: #e60000; }
 
 .brand-logo {
   font-size: 1.1rem !important; }
