@@ -1,7 +1,7 @@
 .departments-container {
   top: 4rem;
   height: 150vh;
-  overflow: scroll;
+  overflow: auto;
 
   & h1 {
     color: $primary-color;
