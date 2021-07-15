@@ -90,17 +90,17 @@ main {
       .home-page .wide-modal {
         width: 35rem !important;
         max-width: 50rem; } }
-  .home-page .disclaimers-btn {
+  .home-page .disclaimers {
     display: flex;
     justify-content: center;
     width: 100vw;
     margin: 1rem 0;
     font-weight: 700;
-    margin-bottom: 3rem; }
+    position: absolute;
+    bottom: 1.5rem; }
     @media screen and (min-width: 48rem) {
-      .home-page .disclaimers-btn {
-        position: absolute;
-        bottom: 0; } }
+      .home-page .disclaimers {
+        bottom: 2rem; } }
 
 .product-section {
   overflow: auto;
@@ -425,6 +425,12 @@ main {
   .product-summary-container .container {
     height: 65vh !important;
     overflow-y: auto; }
+    @media screen and (min-width: 48rem) {
+      .product-summary-container .container {
+        height: 70vh !important; } }
+    @media screen and (min-width: 64rem) {
+      .product-summary-container .container {
+        height: 75vh !important; } }
   .product-summary-container .bottom-page-nav {
     display: flex !important;
     justify-content: center !important; }
@@ -550,7 +556,9 @@ main {
 
 .category-cards {
   max-width: 100%;
-  margin-top: 1rem; }
+  margin-top: 1rem;
+  height: 50vh;
+  overflow-y: auto; }
   .category-cards .card-container .category-card {
     display: flex;
     align-items: center;

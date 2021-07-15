@@ -96,17 +96,18 @@
     }
   }
 
-  & .disclaimers-btn {
+  & .disclaimers {
     display: flex;
     justify-content: center;
     width: 100vw;
     margin: 1rem 0;
     font-weight: 700;
-    margin-bottom: 3rem;
+    // margin-bottom: 2rem;
+    position: absolute;
+    bottom: 1.5rem;
 
     @include response(md) {
-      position: absolute;
-      bottom: 0;
+      bottom: 2rem;
     }
   }
 }
