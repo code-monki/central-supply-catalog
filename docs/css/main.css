@@ -411,15 +411,25 @@ main {
         .departments-container .container .row .card .card-body a {
           color: black; }
 
-.product-summary-container .container {
-  height: 50vh;
-  width: 100%;
-  overflow: auto;
-  margin-top: 0; }
-
-.product-summary-container .bottom-page-nav {
-  display: flex !important;
-  justify-content: center !important; }
+.product-summary-container {
+  overflow: none; }
+  .product-summary-container h1 {
+    color: #e60000;
+    background-color: black;
+    font-size: 1.4rem !important;
+    font-weight: 300;
+    text-align: center; }
+    @media screen and (min-width: 48rem) {
+      .product-summary-container h1 {
+        font-size: 2rem !important; } }
+  .product-summary-container .container {
+    height: 70vh !important;
+    overflow-y: auto; }
+  .product-summary-container .bottom-page-nav {
+    display: flex !important;
+    justify-content: center !important; }
+    .product-summary-container .bottom-page-nav a {
+      color: #e60000; }
 
 .brand-logo {
   font-size: 1.1rem !important; }

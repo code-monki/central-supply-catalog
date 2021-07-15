@@ -1,15 +1,30 @@
 .product-summary-container {
+  overflow: none;
+
+  & h1 {
+    color: $primary-color;
+    background-color: black;
+    font-size: 1.4rem !important;
+    font-weight: 300;
+    text-align: center;
+
+    @include response(md) {
+      font-size: 2rem !important;
+    }
+  }
 
   & .container {
-    height: 50vh;
-    width: 100%;
-    overflow: auto;
-    margin-top: 0;
+    height: 70vh !important;
+    overflow-y: auto;
   }
 
   & .bottom-page-nav {
     display: flex !important;
     justify-content: center !important;
+
+    & a {
+      color: $primary-color;
+    }
   }
 
 }
