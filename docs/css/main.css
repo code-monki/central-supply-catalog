@@ -18,7 +18,7 @@ body {
   line-height: 1.6;
   letter-spacing: 1px;
   width: 100%;
-  height: 100vw;
+  height: 100%;
   position: relative;
   word-break: break-normal; }
   body .overlay {
@@ -94,17 +94,6 @@ main {
       .home-page .wide-modal {
         width: 35rem !important;
         max-width: 50rem; } }
-  .home-page .disclaimers {
-    display: flex;
-    justify-content: center;
-    width: 100vw;
-    margin: 1rem 0;
-    font-weight: 700;
-    position: absolute;
-    bottom: 1.5rem; }
-    @media screen and (min-width: 48rem) {
-      .home-page .disclaimers {
-        bottom: 2rem; } }
 
 .product-section {
   overflow: auto;
@@ -561,7 +550,7 @@ main {
 .category-cards {
   max-width: 100%;
   margin-top: 1rem;
-  height: 35vh;
+  height: 40vh;
   overflow-y: auto; }
   .category-cards .card-container .category-card {
     display: flex;
