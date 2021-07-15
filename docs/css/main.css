@@ -368,8 +368,8 @@ main {
 
 .departments-container {
   top: 4rem;
-  height: 100vh;
-  overflow: scroll; }
+  height: 150vh;
+  overflow: auto; }
   .departments-container h1 {
     color: #e60000;
     background-color: black;
