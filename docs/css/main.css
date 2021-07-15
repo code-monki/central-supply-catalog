@@ -423,7 +423,7 @@ main {
       .product-summary-container h1 {
         font-size: 2rem !important; } }
   .product-summary-container .container {
-    height: 70vh !important;
+    height: 60vh !important;
     overflow-y: auto; }
   .product-summary-container .bottom-page-nav {
     display: flex !important;
