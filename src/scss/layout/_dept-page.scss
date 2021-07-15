@@ -16,6 +16,14 @@
   & .container {
     height: 65vh !important;
     overflow-y: auto;
+
+    @include response(md) {
+      height: 70vh !important;
+    }
+
+    @include response(lg) {
+      height: 75vh !important;
+    }
   }
 
   & .bottom-page-nav {
