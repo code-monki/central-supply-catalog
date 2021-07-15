@@ -368,7 +368,7 @@ main {
 
 .departments-container {
   top: 4rem;
-  height: 150vh;
+  height: 200vh;
   overflow: auto; }
   .departments-container h1 {
     color: #e60000;
@@ -654,7 +654,7 @@ main {
 
 footer {
   padding-top: .5rem !important;
-  position: fixed;
+  position: sticky;
   bottom: 0;
   left: 0;
   right: 0; }
