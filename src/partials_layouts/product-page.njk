@@ -3,55 +3,48 @@
 
 
 <main class="white black-text product-section">
-{% include '_sidenav.njk'%}
 
-    <div class="container">
+  <div class="product-main container">
 
-    <div class="product-main">
-      <h1>{{ product.shortName }}</h1>
+    <h1>{{ product.name }}</h1>
 
-      <div class="product-main-content">
-        <div class="product-image col s5 blue">
-          
-          {% if product.image %}
-            <img src="{{product.image | url}}" alt="{{product.shortName}}">
-          {% else %}
-            <img src="{{'/img/products/no-image.png' | url}}" alt="{{product.shortName}}">
-          {% endif %}
-        </div>
+    <div class="product-main-content row">
 
-        <div class="product-controls">
-          <form>
-              <h5 class="right-align">{{ product.cost | costLabel }}</h5>
-
-              <div class="input-field quantity center">
-                <input type="number" name="qty" id="qty" min="0" max="999" value="0">
-              </div>
-
-              <div class="add-products-btn">
-                <button type="submit" class="btn-small amber black-text ">Add to Cart</button>
-              </div>
-          </form>
-        </div>
-
-        <div class="prod-name col s12">
-          <h5>{{product.name }}</h5>
-        </div>
+      <div class="product-image col s4 m4 l3">
+        {% if product.image %}
+        <img src="{{product.image | url}}" alt="{{product.name}}" class="responsive-img">
+        {% else %}
+        <img src="{{'/img/products/no-image.png' | url}}" alt="{{product.name}}">
+        {% endif %}
       </div>
-    </div>
 
-    <div class="description-content">
-      <div class="product-description flow-text">
-        <h6>Description</h6>
+      <div class="product-controls col s5 offset-s3 m3 offset-m5 l2 offset-l">
+        <form>
+          <h5 class="right-align">{{ product.cost | costLabel }}</h5>
 
-        {{ product.description | markdown | safe }} 
-        
-      </div> 
+          <div class="input-field quantity right">
+            <input type="number" name="qty" id="qty" min="0" max="999" value="0">
+          </div>
 
-      <div class="product-details">
+          <div class="add-products-btn right s6 m3 l3">
+            <button type="submit" class="btn-small amber black-text ">Add to Cart</button>
+          </div>
+        </form>
+      </div>
+    </div> {# row #}
+
+    <div class="product-description row">
+      <div class="description-content col s12 m7 l8 flow-text">
+          <h5>Description</h5>
+          {{ product.description | markdown | safe }}
+      </div>
+
+      <div class="product-details col s12 m5 l4">
         <table>
           <thead>
-            <tr><th colspan="2" class="center">Product Details</th></tr>
+            <tr>
+              <th colspan="2" class="center">Product Details</th>
+            </tr>
           </thead>
           <tbody>
             <tr>
@@ -79,42 +72,42 @@
           </tbody>
         </table>
       </div>
-    </div>
+      </div> {# row #}
 
-    {% if product.accessories | length > 0 %}
-      <div class="product-accessories">
+      {% if product.accessories | length > 0 %}
+      <div class="product-accessories row col s12">
         <h6>Accessories</h6>
         <div class="accessory-list white black-text">
           {% set accLength = product.accessories | length %}
           {% if accLength > 0 %}
-            {% for item in product.accessories %}
-              {% getAccessory products, item %}
-            {% endfor %}
+          {% for sku in product.accessories %}
+          {% getAccessory sku %}
+          {% endfor %}
           {% endif %}
         </div>
-      </div>
-    {% endif %}
+      </div> {# row #}
+      {% endif %}
 
-    <div class="product-source">
-      <hr>
-      
-      <p><strong>Source of Data</strong><br></p>
+      <div class="product-source row" style="border-top: 1px solid grey !important;">
 
-      {% if product.sources %}
+        <p><strong>Source of Data</strong><br></p>
+
+        {% if product.sources %}
         {% for src in product.sources %}
         <p class="source">
-        &ldquo;<em>{{ src.publication | safe}}</em>&rdquo;, 
-        {% set comma = joiner() %}
-        {% for author in src.authors %}
+          &ldquo;<em>{{ src.publication | safe}}</em>&rdquo;,
+          {% set comma = joiner() %}
+          {% for author in src.authors %}
           {{ comma() }}{{author | safe }}
-        {% endfor %}
-        , <a href="{{ src.publisher.url | url }}" target="_blank">{{ src.publisher.name}}</a>
+          {% endfor %}
+          , <a href="{{ src.publisher.url | url }}" target="_blank">{{ src.publisher.name}}</a>
         </p>
         {% endfor %}
-      {% endif %}
-    </div>
-  </div>
-</main>
+        {% endif %}
+      </div> {# source of data row #}
+
+    </div> {# product main container #}
+</main> {# product section #}
 
 {% include '_site-footer.njk' %}
 {% include '_foot.njk'%}

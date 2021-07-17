@@ -36,7 +36,7 @@
     "techLevel": 9,
     "qrebs": "N/A",
     "image": "",
-    "description": "<!-- Summary Start -->The tablet computer is a personal computing device capable of basic computer activity. It functions as a Hand Controller and enables various tasks for a user.<!-- Summary End --><br>It contains a PowerCell with a duration of about 1 day and has a data communications range of 50 meters.",
+    "description": "<!-- Summary Start -->The tablet computer is a personal computing device capable of basic computer activity. It functions as a Hand Controller and enables various tasks for a user.<!-- Summary End -->\n\nIt contains a PowerCell with a duration of about 1 day and has a data communications range of 50 meters.",
     "sources": [{
       "publication": "Traveller 5.10 Core Rules Book 3 : Worlds and Adventures",
       "authors": ["Miller, Marc"],
@@ -48,7 +48,7 @@
     "tags": ["products", "computers"]
   },
   {
-    "sku": "030-000-000003",
+    "sku": "030-000-00003",
     "category": "computers",
     "type": "computers",
     "subtype": "",
@@ -60,7 +60,7 @@
     "techLevel": 9,
     "qrebs": "N/A",
     "image": "",
-    "description": "<!-- Summary Start -->A specialized control console used for a single research purpose.<!-- Summary End --> A group of research consoles installed in a dedicated volume is a Laboratory, functioning in the manner of an auxiliary ACS Bridge.<br>Reseaarch consoles are available at multiple technology levels and the mass varies with the technology level.",
+    "description": "<!-- Summary Start -->A specialized control console used for a single research purpose.<!-- Summary End --> A group of research consoles installed in a dedicated volume is a Laboratory, functioning in the manner of an auxiliary ACS Bridge.\n\nReseaarch consoles are available at multiple technology levels and the mass varies with the technology level.",
     "sources": [{
       "publication": "Traveller 5.10 Core Rules Book 3 : Worlds and Adventures",
       "authors": ["Miller, Marc"],
@@ -181,7 +181,7 @@
     "techLevel": 11,
     "qrebs": "N/A",
     "image": "",
-    "description": "<!-- Summary Start -->This represents not only the Imperial ID, but also identity or membership cards given out by various organizations such as TAS.<!-- Summary End --><br>The front carries a hologram of both seal or logo of the issuing Ministry, agency or organization and of the sophont to whom it was issued. In addition an unique identity number and the bearer's name, rank, titles, offices, etc., are found on the front. The back will, on official Imperial ID, show a still photograph, a signature, and some stern legal print.<br>On the inside is a dedicated, hardened, Datalink which holds all of the sophont's vital statistics, medical history, financial information and travel history. The card itself contains sophisticated anti-tampering hard, soft and possibly wetwares. Cracking an Imperial ID is a major crime and is Beyond Impossible (Uncertain) to actually achieve safely and without alerting the authorities. Altering the ImpID once it is cracked is a high Imperial crime by itself and carries hefty penalties. For the brave and fool- ish, the Task is Staggering (Uncertain) if attempted with the correct tools.",
+    "description": "<!-- Summary Start -->This represents not only the Imperial ID, but also identity or membership cards given out by various organizations such as TAS.<!-- Summary End -->\n\nThe front carries a hologram of both seal or logo of the issuing Ministry, agency or organization and of the sophont to whom it was issued. In addition an unique identity number and the bearer's name, rank, titles, offices, etc., are found on the front. The back will, on official Imperial ID, show a still photograph, a signature, and some stern legal print.\n\nOn the inside is a dedicated, hardened, Datalink which holds all of the sophont's vital statistics, medical history, financial information and travel history. The card itself contains sophisticated anti-tampering hard, soft and possibly wetwares. Cracking an Imperial ID is a major crime and is Beyond Impossible (Uncertain) to actually achieve safely and without alerting the authorities. Altering the ImpID once it is cracked is a high Imperial crime by itself and carries hefty penalties. For the brave and fool- ish, the Task is Staggering (Uncertain) if attempted with the correct tools.",
     "sources": [{
       "publication": "Traveller 5.10 Core Rules Book 3 : Worlds and Adventures",
       "authors": ["Miller, Marc"],
@@ -205,7 +205,7 @@
     "techLevel": 9,
     "qrebs": "N/A",
     "image": "",
-    "description": "<!-- Summary Start -->An enclosed reel (or corresponding solid-, holo-, or crystalline-state device) containing specific jump coordinates within a set of given systems.<!-- Summary End --><br>The Jump Tape is slotted into a special reader found on the Astrogator's Console. This Console is connected to the Jump Drive, Power Plant, and Main Computer. The Jump Tape runs a calibration routine on the Coils (and Grid if installed), tests the Jump matrix three times against the results. It then compares the Jump solution if any offered by the Astroga- tor, if they match or the Astrogator merely lets the Computer run the Tape, it will then commence running the Jump Cycle culminating with the transition to Jumpspace and about one week later transition back to Normalspace.<br>A Jump Tape can only be safely used one time as they are charted on large computer arrays using the most current data.",
+    "description": "<!-- Summary Start -->An enclosed reel (or corresponding solid-, holo-, or crystalline-state device) containing specific jump coordinates within a set of given systems.<!-- Summary End -->\n\nThe Jump Tape is slotted into a special reader found on the Astrogator's Console. This Console is connected to the Jump Drive, Power Plant, and Main Computer. The Jump Tape runs a calibration routine on the Coils (and Grid if installed), tests the Jump matrix three times against the results. It then compares the Jump solution if any offered by the Astroga- tor, if they match or the Astrogator merely lets the Computer run the Tape, it will then commence running the Jump Cycle culminating with the transition to Jumpspace and about one week later transition back to Normalspace.\n\nA Jump Tape can only be safely used one time as they are charted on large computer arrays using the most current data.",
     "sources": [{
       "publication": "Traveller 5.10 Core Rules Book 3 : Worlds and Adventures",
       "authors": ["Miller, Marc"],
@@ -229,7 +229,7 @@
     "techLevel": 11,
     "qrebs": "N/A",
     "image": "",
-    "description": "<!-- Summary Start -->The map box is a compact storage system for computer generated maps of a world.<!-- Summary End --> The map scale may be adjusted.<br>The device measures 250mm x 250mm x 10mm closed and expands to 1000mm x 1000mm x 10mm when open.",
+    "description": "<!-- Summary Start -->The map box is a compact storage system for computer generated maps of a world.<!-- Summary End --> The map scale may be adjusted.\n\nThe device measures 250mm x 250mm x 10mm closed and expands to 1000mm x 1000mm x 10mm when open.",
     "sources": [{
       "publication": "Traveller 5.10 Core Rules Book 3 : Worlds and Adventures",
       "authors": ["Miller, Marc"],

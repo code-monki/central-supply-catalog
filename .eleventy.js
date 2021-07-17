@@ -17,12 +17,24 @@ module.exports = function (eleventyConfig) {
   eleventyConfig.addPassthroughCopy("src/css");
   // eleventyConfig.addPassthroughCopy("src/data");
   eleventyConfig.addPassthroughCopy("src/img");
-
+  eleventyConfig.setQuietMode(true);
   eleventyConfig.addWatchTarget("./src/scss");
 
   eleventyConfig.addFilter("costLabel", (cost) => {
-    let value = cost > 999999 ? `${cost / 1000000} MCr` : `${cost} Cr`;
-    return value;
+    let value = ''
+
+    if (cost > 999999999999) {
+      value = `${cost / 10**12} TCr`
+    } else if (cost > 999999999) {
+      value = `${cost / 10**9} BCr`
+    } else if (cost > 999999) {
+      value = `${cost / 10**6} MCr`
+    } else if (cost > 999) {
+      value = `${cost / 10**3} KCr`
+    } else {
+      value = `${cost} Cr`
+    }
+   return value;
   });
 
   eleventyConfig.addFilter("markdown", (content) => {
@@ -51,23 +63,40 @@ module.exports = function (eleventyConfig) {
     return res;
   });
 
-  eleventyConfig.addShortcode("getAccessory", function (products, sku) {
-    let object = products.find((item) => item.sku === sku);
+  // Get Accessory
+  eleventyConfig.addShortcode("getAccessory", function (sku) {
+    // get the parent department
+    let key = sku.slice(0, 3) + "-000"
+
+    // get the name of the data file
+    let dataSrc = departmentsData.find((item) => 
+      ( item.id === key) ? item.data : ''
+    )
+
+    let object = null;
+
+    // read the data file
+    if (dataSrc !== '') {
+      let typeProducts = JSON.parse(fs.readFileSync(dataSrc.data))
+      object = typeProducts.find((item) => item.sku === sku)
+    }
+
     let text = `<p>No accessories available</p>`;
 
     if (object !== undefined && object !== null) {
-      let imgURL = `../img/products/${sku}.png`;
-      let pageURL = `../products/${sku}.html`;
-      let shortName = object.shortName;
+      let imgURL = (object.image === '' || object.image === null) ? `/${basePath}img/products/no-image.png` : `/${basePath}src/img/products/${sku}.png`;
+      let pageURL = `../products/${sku}/`;
+      
       text = `
                   <div class="accessory-item">
-                    <a href="${urlSafe(pageURL)}" class="black-text">
-                    <img src="${imgURL}" alt="${shortName}">
-                    ${shortName}
-                    </a>
+                    <a href="${urlSafe(pageURL)}" class="col s4 black-text">
+                    <img src="${imgURL}" alt="${object.name}" class="responsive-img"></a>
+                    <a href="${urlSafe(pageURL)}" class="col s8 black-text">
+                    ${object.name}</a>
                   </div>
                 `;
     }
+
     return text;
   });
 
@@ -154,7 +183,8 @@ const buildCategoryCard = (category) => {
         .toLowerCase()
         .replace(" ", "-")}/">${o.label}</a></li>`;
     } else {
-      console.log(`Undefined: ${dept}`);
+      // FIXME
+      // console.log(`Undefined: ${dept}`);
     }
   });
 

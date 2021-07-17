@@ -13,14 +13,14 @@
     <div class="prod-summary-row row white">
       <div class="prod-img col s3 m2">
         {%- if product.image -%}
-          <img src="{{product.image | url}}" alt="{{product.shortName}}">
+          <img src="{{product.image | url}}" alt="{{product.name}}">
         {%- else -%}
-          <img src="{{'/img/products/no-image.png' | url}}" alt="{{product.shortName}}">
+          <img src="{{'/img/products/no-image.png' | url}}" alt="{{product.name}}">
         {%- endif -%}
       </div>
 
       <div class="product-summary col s9 m10">
-        {% set prodlink = "/products/" + product.sku + '.html' %}
+        {% set prodlink = "/products/" + product.sku %}
         {{ prodlink | log }}
         <a href="{{ prodlink | url}}"><h6>{{ product.name }}</h6></a>
         <p>{%- summary product.description -%}</p>

@@ -11,7 +11,7 @@
     "techLevel": 5,
     "qrebs": "N/A",
     "image": "",
-    "description": "<!-- Summary Start -->A complete set of air reservoirs and the appropriate breathing mask to allow independent breathing in smoke, dust, gas, or exotic atmospheres.<!-- Summary End --><br>The tanks are filled with 2 hours of the appropriate breathing gases (for example, Air-4, Air-8) for the user. This apparatus can be used underwater. Also enables compressed-air-driven tool usage. Storage unit is typically coded to the air stored; for example, Air-6 for standard O-CO2-N human-breathable air, Air-9 for sophonts who breathe dense, tainted air, and so on. The size and composition of the storage medium depends largely on the tech level: lower tech levels store air in glass or metallic bottles, while higher tech levels may store it in more compact ceramic sponges, and so on.",
+    "description": "<!-- Summary Start -->A complete set of air reservoirs and the appropriate breathing mask to allow independent breathing in smoke, dust, gas, or exotic atmospheres.<!-- Summary End -->\n\nThe tanks are filled with 2 hours of the appropriate breathing gases (for example, Air-4, Air-8) for the user. This apparatus can be used underwater. Also enables compressed-air-driven tool usage. Storage unit is typically coded to the air stored; for example, Air-6 for standard O-CO2-N human-breathable air, Air-9 for sophonts who breathe dense, tainted air, and so on. The size and composition of the storage medium depends largely on the tech level: lower tech levels store air in glass or metallic bottles, while higher tech levels may store it in more compact ceramic sponges, and so on.",
     "sources": [{
       "publication": "Traveller 5.10 Core Rules Book 3 : Worlds and Adventures",
       "authors": ["Miller, Marc"],
@@ -35,7 +35,7 @@
     "techLevel": 9,
     "qrebs": "N/A",
     "image": "",
-    "description": "<!-- Summary Start -->A complete set of air reservoirs and the appropriate breathing mask to allow independent breathing in smoke, dust, gas, or exotic atmospheres.<!-- Summary End --><br>The tanks are filled with 2 hours of the appropriate breathing gases (for example, Air-4, Air-8) for the user. This apparatus can be used underwater. Also enables compressed-air-driven tool usage. Storage unit is typically coded to the air stored; for example, Air-6 for standard O-CO2-N human-breathable air, Air-9 for sophonts who breathe dense, tainted air, and so on. The size and composition of the storage medium depends largely on the tech level: lower tech levels store air in glass or metallic bottles, while higher tech levels may store it in more compact ceramic sponges, and so on.",
+    "description": "<!-- Summary Start -->A complete set of air reservoirs and the appropriate breathing mask to allow independent breathing in smoke, dust, gas, or exotic atmospheres.<!-- Summary End -->\n\nThe tanks are filled with 2 hours of the appropriate breathing gases (for example, Air-4, Air-8) for the user. This apparatus can be used underwater. Also enables compressed-air-driven tool usage. Storage unit is typically coded to the air stored; for example, Air-6 for standard O-CO2-N human-breathable air, Air-9 for sophonts who breathe dense, tainted air, and so on. The size and composition of the storage medium depends largely on the tech level: lower tech levels store air in glass or metallic bottles, while higher tech levels may store it in more compact ceramic sponges, and so on.",
     "sources": [{
       "publication": "Traveller 5.10 Core Rules Book 3 : Worlds and Adventures",
       "authors": ["Miller, Marc"],
@@ -58,7 +58,7 @@
     "techLevel": 12,
     "qrebs": "N/A",
     "image": "",
-    "description": "<!-- Summary Start -->A complete set of air reservoirs and the appropriate breathing mask to allow independent breathing in smoke, dust, gas, or exotic atmospheres.<!-- Summary End --><br>The tanks are filled with 2 hours of the appropriate breathing gases (for example, Air-4, Air-8) for the user. This apparatus can be used underwater. Also enables compressed-air-driven tool usage. Storage unit is typically coded to the air stored; for example, Air-6 for standard O-CO2-N human-breathable air, Air-9 for sophonts who breathe dense, tainted air, and so on. The size and composition of the storage medium depends largely on the tech level: lower tech levels store air in glass or metallic bottles, while higher tech levels may store it in more compact ceramic sponges, and so on.",
+    "description": "<!-- Summary Start -->A complete set of air reservoirs and the appropriate breathing mask to allow independent breathing in smoke, dust, gas, or exotic atmospheres.<!-- Summary End -->\n\nThe tanks are filled with 2 hours of the appropriate breathing gases (for example, Air-4, Air-8) for the user. This apparatus can be used underwater. Also enables compressed-air-driven tool usage. Storage unit is typically coded to the air stored; for example, Air-6 for standard O-CO2-N human-breathable air, Air-9 for sophonts who breathe dense, tainted air, and so on. The size and composition of the storage medium depends largely on the tech level: lower tech levels store air in glass or metallic bottles, while higher tech levels may store it in more compact ceramic sponges, and so on.",
     "sources": [{
       "publication": "Traveller 5.10 Core Rules Book 3 : Worlds and Adventures",
       "authors": ["Miller, Marc"],
@@ -71,7 +71,7 @@
     "tags": ["products", "breathing-apparatus"]
   },
   {
-    "sku": "010-000-0004",
+    "sku": "010-000-00004",
     "category": "breathing-apparatus",
     "type": "storage",
     "subtype": "",
@@ -82,7 +82,7 @@
     "techLevel": 7,
     "qrebs": "N/A",
     "image": "",
-    "description": "<!-- Summary Start -->Stainless steel air receiver tank with carbon steel support.<!-- Summary End --><br>The tanks are filled with 100 hours of the appropriate breathing gases (for example, Air-4, Air-8) for the user. This apparatus can be used underwa- ter. Also enables compressed-air-driven tool usage. Storage unit is typically coded to the air stored; for example, Air-6 for standard O-CO2-N human-breathable air, Air-9 for sophonts who breathe dense, tainted air, and so on. The size and composition of the storage medium depends largely on the tech level: lower tech levels store air in glass or metallic bottles, while higher tech levels may store it in more compact ceramic sponges, and so on.",
+    "description": "<!-- Summary Start -->Stainless steel air receiver tank with carbon steel support.<!-- Summary End -->\n\nThe tanks are filled with 100 hours of the appropriate breathing gases (for example, Air-4, Air-8) for the user. This apparatus can be used underwa- ter. Also enables compressed-air-driven tool usage. Storage unit is typically coded to the air stored; for example, Air-6 for standard O-CO2-N human-breathable air, Air-9 for sophonts who breathe dense, tainted air, and so on. The size and composition of the storage medium depends largely on the tech level: lower tech levels store air in glass or metallic bottles, while higher tech levels may store it in more compact ceramic sponges, and so on.",
     "sources": [{
       "publication": "Traveller 5.10 Core Rules Book 3 : Worlds and Adventures",
       "authors": ["Miller, Marc"],
@@ -105,7 +105,7 @@
     "techLevel": 17,
     "qrebs": "N/A",
     "image": "",
-    "description": "<!-- Summary Start -->The Atmospheric Sponge is a typical TL H life support component.Primarily sold on the starship and space station market, it also can be used in the housing, vehicle and terraforming industry.<!-- Summary End --><br>The Atmospheric Sponge contains a nanofoam that scrubs the atmosphere of irritants, bacteria, most viruses, and harmful gases. The Atmospheric Sponge can be powered by any source of electrical energy. When connected to on board power they can run with only minimal expense. Each Sponge can support up 100 tons of Life Support needs for one year before needing maintenance.",
+    "description": "<!-- Summary Start -->The Atmospheric Sponge is a typical TL H life support component.Primarily sold on the starship and space station market, it also can be used in the housing, vehicle and terraforming industry.<!-- Summary End -->\n\nThe Atmospheric Sponge contains a nanofoam that scrubs the atmosphere of irritants, bacteria, most viruses, and harmful gases. The Atmospheric Sponge can be powered by any source of electrical energy. When connected to on board power they can run with only minimal expense. Each Sponge can support up 100 tons of Life Support needs for one year before needing maintenance.",
     "sources": [{
       "publication": "Traveller 5.10 Core Rules Book 3 : Worlds and Adventures",
       "authors": ["Miller, Marc"],
