@@ -3,19 +3,22 @@
     "id": "010-000",
     "label": "Breathing Apparatus",
     "description": "Equipment to ensure a sophont has breathable air in different environments.",
-    "subDept": []
+    "subDept": [],
+    "data": "./src/_data/breathing-apparatus-products.json"
   },
   {
     "id": "020-000",
     "label": "Comms",
     "description": "Equipment used for telecommunication.",
-    "subDept": ["030-001"]
+    "subDept": ["030-001"],
+    "data": "./src/_data/comm-products.json"
   },
   {
     "id": "030-000",
     "label": "Computers",
     "description": "Devices that provide the ability to store and process information.",
-    "subDept": []
+    "subDept": [],
+    "data": "./src/_data/computer-products.json"
   },
   {
     "id": "030-001",
@@ -26,7 +29,8 @@
     "id": "040-000",
     "label": "Construction",
     "description": "Tools & Materials used for construction",
-    "subDept": ["050-001"]
+    "subDept": ["050-001"],
+    "data": "./src/_data/construction-products.json"
   },
   {
     "id": "040-001",
@@ -36,17 +40,20 @@
   {
     "id": "050-000",
     "label": "Drugs, Medical",
-    "description": "Prescription pharmaceuticals, Medical equipment."
+    "description": "Prescription pharmaceuticals, Medical equipment.",
+    "data": "./src/_data/drugs-medical-products.json"
   },
   {
     "id": "060-000",
     "label": "Emitters",
-    "description": "Electronic devices capable of transmitting a signal."
+    "description": "Electronic devices capable of transmitting a signal.",
+    "data": "./src/_data/emitters-products.json"
   },
   {
     "id": "070-000",
     "label": "Explosives",
-    "description": "Reactive substances that can be made to explode."
+    "description": "Reactive substances that can be made to explode.",
+    "data": "./src/_data/explosives-products.json"
   },
   {
     "id": "080-000",
@@ -62,7 +69,8 @@
     "id": "100-000",
     "label": "Protections",
     "description": "Equipment to provide protection against hostile environments",
-    "subDept": ["110-001", "110-002", "110-003", "110-004", "110-005"]
+    "subDept": ["110-001", "110-002", "110-003", "110-004", "110-005"],
+    "data": "./src/_data/protections-products.json"
   },
   {
     "id": "100-001",
@@ -99,7 +107,8 @@
     "id": "110-000",
     "label": "Robots",
     "description": "A collection of autonomous and semi-autonomous machines.",
-    "subDept": ["120-001", "120-002", "120-003"]
+    "subDept": ["120-001", "120-002", "120-003"],
+    "data": "./src/_data/robots-products.json"
   },
   {
     "id": "110-001",
@@ -115,18 +124,21 @@
   {
     "id": "120-000",
     "label": "Sensory Aids",
-    "description": "A collection of equipment to enhance the sophont's senses."
+    "description": "A collection of equipment to enhance the sophont's senses.",
+    "data": "./src/_data/sensory-aids-products.json"
   },
   {
     "id": "130-000",
     "label": "Structures, Shelters",
-    "description": "Permanent and temporary structures"
+    "description": "Permanent and temporary structures",
+    "data": "./src/_data/structures-shelters-products.json"
   },
   {
     "id": "140-000",
     "label": "Vehicles",
     "description": "A collection of personal vehicles.",
-    "subDept": ["150-001", "150-002"]
+    "subDept": ["150-001", "150-002"],
+    "data": "./src/_data/vehicles-products.json"
   },
   {
     "id": "140-001",
@@ -155,7 +167,8 @@
       "150-010",
       "150-011",
       "150-012"
-    ]
+    ],
+    "data": "./src/_data/weapons-products.json"
   },
   {
     "id": "150-001",

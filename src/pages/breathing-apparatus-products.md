@@ -4,5 +4,5 @@ pagination:
   data: "breathing-apparatus-products"
   size: 1
   alias: product
-permalink: "/products/{{product.sku}}.html"
+permalink: "/products/{{product.sku}}/"
 ---
