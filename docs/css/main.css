@@ -96,7 +96,7 @@ main {
         max-width: 50rem; } }
 
 .product-section .product-main {
-  height: 85vh;
+  height: 70vh;
   overflow-y: auto; }
   .product-section .product-main h1 {
     font-size: 1.6rem !important;
