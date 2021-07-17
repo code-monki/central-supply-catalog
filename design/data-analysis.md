@@ -111,7 +111,6 @@ The product id shall be used to create the permalink to ensure that urls are uni
 
 ```
     {
-      "productId" : 1,
       "sku": "010-001-000001"    // 010 - department id; 001 - mfr id; 000001 - product id
       "shortName": "Shotgun",
       "longName" : This is a really fun thing to go boom!",
@@ -139,9 +138,8 @@ The product id shall be used to create the permalink to ensure that urls are uni
         "burden": 3,
         "safety": 4
       },
-      "summary": "Insert a short summary here",
       "description": "Insert a longer description here...",
-      "source": "Cite the source of the product data here...",
+      "source": [{}],
       "version": [
         "All"
       ]
