@@ -1,9 +1,7 @@
 {% include "_head.njk" %}
 {% include "_site-header.njk" %}
 
-
-
-<div class=" product-summary-container">
+<main class=" product-summary-section">
 
   <h1 class="center">{{ title }}</h1>
 
@@ -13,9 +11,9 @@
     <div class="prod-summary-row row white">
       <div class="prod-img col s3 m2">
         {%- if product.image -%}
-          <img src="{{product.image | url}}" alt="{{product.name}}">
+          <img src="{{product.image | url}}" alt="{{product.name}}" class="responsive-img">
         {%- else -%}
-          <img src="{{'/img/products/no-image.png' | url}}" alt="{{product.name}}">
+          <img src="{{'/img/products/no-image.png' | url}}" alt="{{product.name}}" class="responsive-img">
         {%- endif -%}
       </div>
 
@@ -24,27 +22,25 @@
         {{ prodlink | log }}
         <a href="{{ prodlink | url}}"><h6>{{ product.name }}</h6></a>
         <p>{%- summary product.description -%}</p>
-        <h5>{{ product.cost | costLabel }}</h5>
+        <h5 class="right-align">{{ product.cost | costLabel }}</h5>
       </div>
 
     </div>
     {%- endfor -%}
   </div>
+</main>
 
-
-  {# Navigation #}
-  <nav class="pagenav transparent" aria-labelledby="pages-nav">
-    <div class="bottom-page-nav">
-      <div>
-        <ul class="pagination">
-          {%- for page in pagination.pages -%}
-          <li><a href="{{ pagination.hrefs[ loop.index0 ] | url }}"{%- if page.url == pagination.hrefs[ loop.index0 ] -%} aria-current="page"{%- endif -%}>{{ loop.index }}</a></li>
-          {% endfor %}
-        </ul>
-      </div>
+{# Navigation #}
+<div class="collection-nav collection">
+  <div class="row">
+    <div class="col s12">
+    <ul class="pagination center-align">
+      {%- for page in pagination.pages -%}
+      <li><a href="{{ pagination.hrefs[ loop.index0 ] | url }}"{%- if page.url == pagination.hrefs[ loop.index0 ] -%} aria-current="page"{%- endif -%} class="red-text">{{ loop.index }}</a></li>
+      {% endfor %}
+    </ul>
     </div>
-  </nav>
-
+  </div>
 </div>
 
 {% include "_site-footer.njk" %}

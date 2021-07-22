@@ -1,21 +1,35 @@
 .product-section {
-  & .product-main {
-    height: 70vh;
+  position: absolute;
+  top: 7rem;
+  bottom: 4rem;
+  left: 0;
+  right: 0;
+  padding-top: 1rem;
+
+  & .product-main.container {
+    height: 100%;
     overflow-y: auto;
 
-    & h1 {
-      font-size: 1.6rem !important;
-      font-weight: bold;
-      padding-left: 1rem;
-      padding-top: 0.5rem;
-      margin-bottom: 1rem;
-    }
-
     & .product-main-content {
+
+      & h1 {
+        font-size: 1.6rem !important;
+        font-weight: bold;
+        padding-left: 1rem;
+        padding-top: 0.5rem;
+        margin-bottom: 0.5rem;
+        margin-top: 0;
+      }
+
       & .product-image {
+        margin: 0 !important;
+        padding: 0 !important;
+        height: 7.5rem !important;
+        width: 7.5rem !important;
+
         & img {
-          max-height: 9rem;
-          max-width: 9rem;
+          height: 100%;
+          width: 100%;
           object-fit: contain;
           box-shadow: 1px 1px 1px grey;
           border: 1px solid grey;
@@ -25,9 +39,9 @@
       & .product-controls {
 
         & form {
-          
+
           & h5 {
-            font-size: 1.4rem !important;
+            font-size: 1.2rem !important;
             margin-bottom: 0;
           }
 
@@ -37,7 +51,8 @@
 
           & .quantity {
             max-width: 3rem !important;
-            margin-bottom: 0 0 1rem 0 !important;
+            margin-bottom: 0 !important;
+            margin-right: .5rem !important;
             font-size: 1rem !important;
 
             &::before {
@@ -58,32 +73,8 @@
 
           & .btn-small {
             font-size: 0.7rem !important;
-            margin-top: 0.5rem;
-            
-          }
-        }
-      }
-
-      & .product-accessories {
-        margin-bottom: 1rem;
-
-        & .accessory-list {
-          margin-bottom: 1rem;
-
-          & .accessory-item {
-            margin-bottom: 1rem;
-
-            & a {
-              background: lightblue !important;
-
-              & img {
-                height: 3rem;
-                width: 3rem;
-                object-fit: contain;
-                border: 1px solid grey;
-                box-shadow: 1px 1px 1px grey;
-              }
-            }
+            margin-top: 0.5rem !important;
+            height: 2rem !important;
           }
         }
       }
@@ -102,23 +93,51 @@
       }
     }
 
-    // product-main-content
-  }
+    & .product-description {
+      & .description-content {
+        & h5 {
+          font-size: 1.4rem !important;
+          font-weight: bold !important;
+        }
 
-  // product-main
-}
-
-// product-section
-
-.product-description {
-  & .description-content {
-    & h5 {
-      font-size: 1.4rem !important;
-      font-weight: bold !important;
+        & p {
+          padding-bottom: 1rem !important;
+        }
+      }
     }
 
-    & p {
-      padding-bottom: 1rem !important;
+    & .product-accessories {
+
+      & h6 {
+        font-weight: bold;
+        margin: .67rem 0;
+      }
+
+      & .accessory-row {
+        padding-top: 1.25rem;
+
+        & img {
+          border: 1px solid grey;
+          box-shadow: 1px 1px 1px grey;
+        }
+      }
+    }
+
+    & .product-source {
+      margin-bottom: 1rem;
+
+      & h6 {
+        font-weight: bold;
+        margin: .67rem 0;
+      }
+
+      & p:nth-child(n + 2) {
+        padding-top: 0.5rem;
+      }
+
+      & .source {
+        margin-left: 1rem;
+      }
     }
   }
 }

@@ -88,13 +88,21 @@ module.exports = function (eleventyConfig) {
       let pageURL = `../products/${sku}/`;
       
       text = `
-                  <div class="accessory-item">
-                    <a href="${urlSafe(pageURL)}" class="col s4 black-text">
-                    <img src="${imgURL}" alt="${object.name}" class="responsive-img"></a>
-                    <a href="${urlSafe(pageURL)}" class="col s8 black-text">
-                    ${object.name}</a>
-                  </div>
-                `;
+      <div class="row accessory-row">
+        <div class="col s3 m2 l1 accessory-item-img">
+          <a href="${urlSafe(pageURL)}">
+            <img src="${imgURL}" alt="${object.name}" class="responsive-img">
+          </a>
+        </div>
+
+        <div class="col s9 m10 l11">
+          <a href="${urlSafe(pageURL)}">${object.name} - Test</a>
+        </div>
+
+      </div>
+      <div class="divider"></div>
+
+      `
     }
 
     return text;

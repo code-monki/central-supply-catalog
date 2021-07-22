@@ -1,5 +1,5 @@
-.product-summary-container {
-  overflow: none;
+.product-summary-section {
+  position: relative;
 
   & h1 {
     color: $primary-color;
@@ -14,25 +14,28 @@
   }
 
   & .container {
-    height: 65vh !important;
+    position: absolute;
+    top: 6rem;
+    bottom: 8rem;
+    left: 0;
+    right: 0;
     overflow-y: auto;
 
-    @include response(md) {
-      height: 70vh !important;
-    }
-
-    @include response(lg) {
-      height: 75vh !important;
+    & h5 {
+      font-size: 1.1rem;
     }
   }
 
-  & .bottom-page-nav {
-    display: flex !important;
-    justify-content: center !important;
+}
 
-    & a {
-      color: $primary-color;
-    }
+.collection-nav {
+  position: absolute;
+  bottom: 4rem;
+  height: 2rem;
+  width: 100%;
+  border: transparent;
+
+  & ul li a {
+    font-weight: 700;
   }
-
 }

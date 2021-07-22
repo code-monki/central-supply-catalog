@@ -107,7 +107,7 @@
     "id": "110-000",
     "label": "Robots",
     "description": "A collection of autonomous and semi-autonomous machines.",
-    "subDept": ["120-001", "120-002", "120-003"],
+    "subDept": ["110-001", "110-002", "110-003"],
     "data": "./src/_data/robots-products.json"
   },
   {
