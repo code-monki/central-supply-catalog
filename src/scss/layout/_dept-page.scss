@@ -2,7 +2,7 @@
   position: relative;
 
   & h1 {
-    color: $primary-color;
+    color: $primary-color !important;
     background-color: black;
     font-size: 1.4rem !important;
     font-weight: 300;

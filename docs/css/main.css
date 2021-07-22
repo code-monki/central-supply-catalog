@@ -392,7 +392,7 @@ main {
 .product-summary-section {
   position: relative; }
   .product-summary-section h1 {
-    color: #e60000;
+    color: #e60000 !important;
     background-color: black;
     font-size: 1.4rem !important;
     font-weight: 300;
