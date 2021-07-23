@@ -145,7 +145,7 @@
     "tags": ["products", "computers"]
   },
   {
-    "sku": "030-001-0004",
+    "sku": "030-001-00004",
     "category": "computers",
     "type": "computers",
     "subtype": "accessory",
