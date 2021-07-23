@@ -110,7 +110,9 @@
         
         <a href="/central-supply-catalog/products/030-001-00008"><h6>Map Box Insert</h6></a>
         <p>An insert for a map box that contains the data for a single world.</p>
-        <h5 class="right-align">150 Cr</h5>
+        <div class="valign-wrapper">
+          <h5 class="right-align">150 Cr</h5>
+        </div>
       </div>
 
     </div><div class="prod-summary-row row white">
@@ -121,7 +123,9 @@
         
         <a href="/central-supply-catalog/products/030-001-00009"><h6>Map Box Insert</h6></a>
         <p>A blank insert for a map box that can contain the data for a single world.</p>
-        <h5 class="right-align">30 Cr</h5>
+        <div class="valign-wrapper">
+          <h5 class="right-align">30 Cr</h5>
+        </div>
       </div>
 
     </div><div class="prod-summary-row row white">
@@ -132,7 +136,9 @@
         
         <a href="/central-supply-catalog/products/030-001-00010"><h6>Memclip (1 Language)</h6></a>
         <p>The memclip stores an app for managing one language. Pre-programmed memclips exist for most known languages, such as Anglic, Darrian, Gvegh, Oynprith, Trokh, Vilani, and Zho- dani.</p>
-        <h5 class="right-align">100 Cr</h5>
+        <div class="valign-wrapper">
+          <h5 class="right-align">100 Cr</h5>
+        </div>
       </div>
 
     </div><div class="prod-summary-row row white">
@@ -143,7 +149,9 @@
         
         <a href="/central-supply-catalog/products/030-001-00011"><h6>Starchart</h6></a>
         <p>undefined</p>
-        <h5 class="right-align">1 KCr</h5>
+        <div class="valign-wrapper">
+          <h5 class="right-align">1 KCr</h5>
+        </div>
       </div>
 
     </div><div class="prod-summary-row row white">
@@ -154,7 +162,9 @@
         
         <a href="/central-supply-catalog/products/030-001-00012"><h6>Survey Data</h6></a>
         <p>A data container (essentially a re-purposed memclip) for carrying detailed survey information for one star system.</p>
-        <h5 class="right-align">100 Cr</h5>
+        <div class="valign-wrapper">
+          <h5 class="right-align">100 Cr</h5>
+        </div>
       </div>
 
     </div><div class="prod-summary-row row white">
@@ -165,7 +175,9 @@
         
         <a href="/central-supply-catalog/products/030-001-00013"><h6>Wafer Jack</h6></a>
         <p>A Wafer Jack is an implant allowing use of skill or personality wafers and direct access to computer systems.</p>
-        <h5 class="right-align">10 KCr</h5>
+        <div class="valign-wrapper">
+          <h5 class="right-align">10 KCr</h5>
+        </div>
       </div>
 
     </div><div class="prod-summary-row row white">
@@ -176,7 +188,9 @@
         
         <a href="/central-supply-catalog/products/030-001-00014"><h6>Xmail Wafer</h6></a>
         <p>A data container for carrying a single transaction or application across interstellar distances.</p>
-        <h5 class="right-align">10 Cr</h5>
+        <div class="valign-wrapper">
+          <h5 class="right-align">10 Cr</h5>
+        </div>
       </div>
 
     </div></div>
