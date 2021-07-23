@@ -637,8 +637,8 @@ footer {
         .departments-container .container .row .card {
           margin: .5rem; } }
       .departments-container .container .row .card .card-title {
-        background: black;
-        border-radius: .4rem .4rem 0 0; }
+        border-radius: .4rem .4rem 0 0;
+        padding: .25rem; }
         .departments-container .container .row .card .card-title h3 {
           font-size: 1.2rem;
           padding: .25rem;
@@ -650,12 +650,9 @@ footer {
             color: lightgoldenrodyellow; }
         .departments-container .container .row .card .card-title a {
           font-size: 1.2rem;
-          color: #e60000 !important;
           font-weight: bold; }
       .departments-container .container .row .card .card-body {
         padding: .25rem; }
-        .departments-container .container .row .card .card-body a {
-          color: black; }
 
 .product-summary-section {
   position: relative; }
