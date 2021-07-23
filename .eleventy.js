@@ -185,7 +185,7 @@ module.exports = function (eleventyConfig) {
 // Construct one category card
 //-------------------------------------------------------------
 const buildCategoryCard = (category) => {
-  let text = `<div class="cat-btn col s12 m4 l3 offset-l0 xl4">
+  let text = `<div class="cat-btn col s6 m4 l3 offset-l0 xl4">
                 <a href="#${urlSafe(category.label)}-modal" class="modal-trigger btn big-button black red-text flow-text">
                   <img src="img/${urlSafe(category.label)}.svg" alt="${category.label}"><br>${category.label}
                 </a>
