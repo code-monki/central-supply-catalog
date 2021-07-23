@@ -2,7 +2,9 @@
 {% include '_site-header.njk' %}
 
 <main>
-{% include '_home-page-body.njk' %}
+  <div class="home-page">
+    {% buildCategoryCards %}
+  </div>
 </main>
 
 {% include '_site-footer.njk' %}
