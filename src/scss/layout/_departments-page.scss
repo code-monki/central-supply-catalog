@@ -30,7 +30,7 @@
       }
 
       & .card {
-        height: 6rem;
+        height: 6.25rem;
         border: 1px solid red;
         border-radius: .5rem;
         padding: 0;
@@ -66,10 +66,12 @@
         }
 
         & .card-body {
-          padding: .25rem;
+          margin: .25rem .25rem .5rem .25rem;
 
           & a {
-            // color: black;
+            padding-left: .5rem;
+            padding-right: .5rem;
+            padding-bottom: .25rem;
           }
         }
       }
