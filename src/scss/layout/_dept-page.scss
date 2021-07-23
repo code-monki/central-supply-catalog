@@ -11,6 +11,7 @@
     @include response(md) {
       font-size: 2rem !important;
     }
+
   }
 
   & .container {
@@ -21,8 +22,23 @@
     right: 0;
     overflow-y: auto;
 
+    & img {
+      border: 1px solid grey;
+      box-shadow: 1px 1px 1px grey;
+      width: 80%;
+      height: 80%;
+      margin-top: 1rem;
+      margin-bottom: .5rem;
+    }
+
     & h5 {
       font-size: 1.1rem;
+    }
+
+    & h6 {
+      @include response(lg) {
+        font-size: 1.5rem;
+      }
     }
   }
 
