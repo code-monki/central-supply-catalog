@@ -22,7 +22,9 @@
         {{ prodlink | log }}
         <a href="{{ prodlink | url}}"><h6>{{ product.name }}</h6></a>
         <p>{%- summary product.description -%}</p>
-        <h5 class="right-align">{{ product.cost | costLabel }}</h5>
+        <div class="valign-wrapper">
+          <h5 class="right-align">{{ product.cost | costLabel }}</h5>
+        </div>
       </div>
 
     </div>
