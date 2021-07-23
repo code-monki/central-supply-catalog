@@ -40,8 +40,9 @@
         }
 
         & .card-title {
-          background: black;
+          // background: black;
           border-radius: .4rem .4rem 0 0;
+          padding: .25rem;
 
           & h3 {
             font-size: 1.2rem;
@@ -59,9 +60,8 @@
 
           & a {
             font-size: 1.2rem;
-            color: $primary-color !important;
+            // color: $primary-color !important;
             font-weight: bold;
-
           }
         }
 
@@ -69,7 +69,7 @@
           padding: .25rem;
 
           & a {
-            color: black;
+            // color: black;
           }
         }
       }
