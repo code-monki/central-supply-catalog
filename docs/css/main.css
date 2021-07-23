@@ -629,7 +629,7 @@ footer {
     .departments-container .container .row:last-child {
       margin-bottom: 4rem; }
     .departments-container .container .row .card {
-      height: 6rem;
+      height: 6.25rem;
       border: 1px solid red;
       border-radius: .5rem;
       padding: 0; }
@@ -652,7 +652,11 @@ footer {
           font-size: 1.2rem;
           font-weight: bold; }
       .departments-container .container .row .card .card-body {
-        padding: .25rem; }
+        margin: .25rem .25rem .5rem .25rem; }
+        .departments-container .container .row .card .card-body a {
+          padding-left: .5rem;
+          padding-right: .5rem;
+          padding-bottom: .25rem; }
 
 .product-summary-section {
   position: relative; }
