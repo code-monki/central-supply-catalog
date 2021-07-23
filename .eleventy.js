@@ -150,14 +150,14 @@ module.exports = function (eleventyConfig) {
     departmentsData.forEach((dept) => {
       if (dept.id.substr(-3) === "000") {
         text += `
-        <div class="card col s12 m5 offset-m1 push-m1">
-          <div class="card-title">
-            <a href="${basePath}/departments/${urlSafe(dept.label)}/">
+        <div class="card col s12 m5 offset-m1 push-m1 grey lighten-1">
+          <div class="card-title black">
+            <a href="${basePath}/departments/${urlSafe(dept.label)}/" class="red-text">
               <h3>${dept.label}</h3>
             </a>
           </div>
           <div class="card-body">
-            <a href="${basePath}/departments/${urlSafe(dept.label)}/">
+            <a href="${basePath}/departments/${urlSafe(dept.label)}/" class="black-text">
               ${dept.description}
             </a>
           </div>
