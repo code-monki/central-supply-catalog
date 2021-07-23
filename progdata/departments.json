@@ -2,14 +2,14 @@
   {
     "id": "010-000",
     "label": "Breathing Apparatus",
-    "description": "Equipment to ensure a sophont has breathable air in different environments.",
+    "description": "Filter masks, rebreathers, air tanks.",
     "subDept": [],
     "data": "./src/_data/breathing-apparatus-products.json"
   },
   {
     "id": "020-000",
     "label": "Comms",
-    "description": "Equipment used for telecommunication.",
+    "description": "Telecommunication equipment.",
     "subDept": ["030-001"],
     "data": "./src/_data/comm-products.json"
   },
