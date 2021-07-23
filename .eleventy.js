@@ -99,9 +99,9 @@ module.exports = function (eleventyConfig) {
 
     if (object !== undefined && object !== null) {
       let imgURL =
-        object.image === "" || object.image === null
-          ? `/${basePath}img/products/no-image.png`
-          : `/${basePath}src/img/products/${sku}.png`;
+        (object.image === "" || object.image === null)
+          ? `${basePath}/img/products/no-image.png`
+          : `${basePath}../src/img/products/${sku}.png`;
       let pageURL = `../products/${sku}/`;
 
       text = `
