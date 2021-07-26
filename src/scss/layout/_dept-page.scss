@@ -1,5 +1,9 @@
 .product-summary-section {
-  position: relative;
+  position: fixed;
+  top: 4rem;
+  left: 0;
+  right: 0;
+  bottom: 3rem;
 
   & h1 {
     color: $primary-color !important;
@@ -17,7 +21,7 @@
   & .container {
     position: absolute;
     top: 6rem;
-    bottom: 8rem;
+    bottom: 0;
     left: 0;
     right: 0;
     overflow-y: auto;

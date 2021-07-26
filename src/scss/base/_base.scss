@@ -4,16 +4,12 @@
   padding: 0;
 }
 
-html {
-  height: 100vh;
-  width: 100vw;
-}
 
 body {
-  display: flex;
-  flex-direction: column;
+  // display: flex;
+  // flex-direction: column;
   font-family: $roboto;
-  background: $dark-color $bg-image center center;
+  background: black $bg-image center center;
   background-size: cover;
   background-position: center / cover;
   line-height: 1.6;
@@ -21,22 +17,22 @@ body {
   width: 100%;
   height: 100%;
   position: relative;
-  word-break: break-normal;
+  word-break: normal;
 
-  & .overlay {
-    background-color: rgba(0, 0, 0, .7);
-    position: absolute;
-    top: 0;
-    left: 0;
-    right: 0;
-    bottom: 0;
-    z-index: -1;
-  }
+  // & .overlay {
+  //   background-color: rgba(0, 0, 0, .7);
+  //   position: absolute;
+  //   top: 0;
+  //   left: 0;
+  //   right: 0;
+  //   bottom: 0;
+  //   z-index: -1;
+  // }
 }
 
 main {
-  flex: 1 0 auto;
-  flex-direction: column;
+  // flex: 1 0 auto;
+  // flex-direction: column;
   width: 100%;
   position: relative;
 }

@@ -3,7 +3,13 @@
 
 <main>
   <div class="home-page">
-    {% buildCategoryCards %}
+    <div class="departments-container">
+      <h1 class="red-text center">Departments</h1>
+
+      <div class="container">
+        <div class="row">{% buildDepartmentCards %}</div>
+      </div>
+    </div>
   </div>
 </main>
 
