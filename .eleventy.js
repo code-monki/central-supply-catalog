@@ -153,7 +153,7 @@ module.exports = function (eleventyConfig) {
         
         text += `
           <a href="${basePath}/departments/${urlSafe(dept.label)}/" class="red-text">
-          <img src="${dept.icon}" alt="${dept.label}"><br>${dept.label}
+          <img src="${basePath}${dept.icon}" alt="${dept.label}"><br>${dept.label}
         </a>
       </div>
       `   
