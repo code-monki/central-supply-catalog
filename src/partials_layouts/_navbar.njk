@@ -1,37 +1,41 @@
-  <div class="navbar-fixed">
-    <nav class="nav-extended black">
-      <div class="nav-wrapper">
-        <a href="{{ '/' | url }}" class="brand-logo center red-text">Central Supply Catalog</a>
+<div class="black site-header">
+  <!-- top menu row -->
+  <div class="row">
+    <div class="valign-wrapper">
 
-        <!-- Menu Button -->
-        <ul class="left">
-          <li><a href="#" id="menu-button"><i
-                class="material-icons grey-text text-lighten-4 sidenav-trigger show-on-large show-on-extra-large"
-                data-target="slide-out">menu</i></a>
-          </li>
-        </ul>
+    <!-- Menu Button -->
+    <div class="col s2 menu-btn left-align">
+      <ul>
+        <li>
+          <a href="#" id="menu-button">
+            <i class="fa fa-bars grey-text text-lighten-2 sidenav-trigger show-on-large show-on-extra-large flow-text" data-target="slide-out"></i>
+            {# <i class="material-icons grey-text text-lighten-4 sidenav-trigger show-on-large show-on-extra-large red-text" data-target="slide-out">menu</i> #}
+          </a>
+        </li>
+      </ul>
+    </div>
 
-        <!-- Shopping Cart -->
-        <ul class="right">
-          <li>
-            <a href="{{ '/shopping-cart' | url}}">
-              <div class="shopping-cart">
-                <i class="material-icons grey-text lighten-4">shopping_cart</i>
-                <span class="badge red cart-count" id="cart-count"></span>
-              </div>
-            </a>
-          </li>
-        </ul>
-      </div>
+    <!-- Site Title -->
+    <div class="col s8 center site-title">
+      <a href="{{ '/' | url }}" class="red-text flow-text">Central Supply Catalog</a>
+    </div>
 
-      <!-- Search Bar -->
-      <div class="nav-content container">
-        <form class="row">
-          <div class="input-field col s12 m8 offset-m2">
-            <input id="search" type="search" class="grey lighten-2">
-            <label class="label-icon grey" for="search"><i class="material-icons black-text">search</i></label>
-          </div>
-        </form>
-      </div>
-    </nav>
+    <!-- Shopping Cart -->
+    <div class="col s2 right-align">
+      <ul>
+        <li>
+          <a href="{{ '/shopping-cart' | url}}">
+            <div class="shopping-cart">
+              <i class="fa fa-shopping-cart grey-text lighten-4 flow-text"></i>
+              {# <i class="material-icons grey-text lighten-4 right-align">shopping_cart</i> #}
+            </div>
+          </a>
+        </li>
+      </ul>
+    </div>
+
   </div>
+  </div>
+
+  {% include '_column-ruler.njk' %}
+</div>

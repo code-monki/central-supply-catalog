@@ -1,109 +1,113 @@
 header {
-  width: 100%;
-  height: 80px;
-  position: fixed;
-  top: 0;
-  left: 0;
-  right: 0;
-  display: flex;
-  justify-content: center;
-  background-color: rgba(0,0,0,.8);
-  border-bottom: 1px solid $primary-color;
-
-  & .container {
-    display: grid;
-    grid-template-areas: 'menu-btn logo cart'
-                         'search-ctrls search-ctrls search-ctrls';
-    width: 100%;
-    max-width: 800px;
-    align-items: flex-start;
-
-    & .menu-btn {
-      grid-area: menu-btn;
-      align-self: center;
-      padding-left: .25rem;
-
-      & button {
-        width: 1.8rem;
-        height: 1.8rem;
-        border-radius: .25rem;    
-      }
-    }
-
-    & .logo {
-      grid-area: logo;
-      text-align: center;
-      font-size: .6rem;
-      font-family:Arial, Helvetica, sans-serif;
-      align-self: center;
-      color: $primary-color;
-      padding-top: .25rem;
-    }
-
-    & .shopping-cart {
-      position: relative;
-      grid-area: cart;
-      justify-self: flex-end;
-      align-self:center;
-      padding-right: .25rem;
-
-      & a {
-        padding: 0 .25rem;
-        font-size: 1.5rem;
-        color: $ctrl-fg-color;
-        background: $ctrl-bg-color;
-        border-radius: .25rem;    
-      }
-
-      & span {
-        position: absolute;
-        top: 50%;
-        left: 50%;
-        transform: translate(-50%, -50%);
-        color: $light-color;
-        background: $primary-color;
-        border-radius: 50%;
-        padding: 0 .25rem;
-        z-index: 100;
-        font-size: .6rem;    
-      }
-    }
-
-    & .search-ctrls {
-      grid-area: search-ctrls;
-      display: flex;
-      width: 100%;
-      max-width: 600px;
-      justify-self: center;
-
-
-      & .search {
-        width: 100%;
-        height: 100%;
-        position: relative;
-        flex: 1 1 auto;
-        margin: 0 .25rem;
-
-        @include response(md) {
-          margin: 0;
-        }
-        
-        & input {
-          width: 100%;
-          line-height: 1.5;
-          outline: none;
-          padding-left: .125rem;
-        }
-
-        & button {
-          position: absolute;
-          top: 1;
-          right: 0;
-          bottom: 0;
-          height: 1.4rem;
-          padding: .125rem;
-        }
-      }
-    }
+  
+  & div.row {
+    position: fixed;
+    top: 0;
+    right: 0;
+    left: 0;
+    margin-bottom: 0 !important;
+    padding-top: .5rem;
   }
 }
+
+// display: flex;
+// justify-content: center;
+// background-color: rgba(0,0,0,.8);
+// border-bottom: 1px solid $primary-color;
+
+// & .container {
+//   display: grid;
+//   grid-template-areas: 'menu-btn logo cart'
+//                        'search-ctrls search-ctrls search-ctrls';
+//   width: 100%;
+//   max-width: 800px;
+//   align-items: flex-start;
+
+//   & .menu-btn {
+//     grid-area: menu-btn;
+//     align-self: center;
+//     padding-left: .25rem;
+
+//     & button {
+//       width: 1.8rem;
+//       height: 1.8rem;
+//       border-radius: .25rem;    
+//     }
+//   }
+
+//     & .logo {
+//       grid-area: logo;
+//       text-align: center;
+//       font-size: .6rem;
+//       font-family:Arial, Helvetica, sans-serif;
+//       align-self: center;
+//       color: $primary-color;
+//       padding-top: .25rem;
+//     }
+
+//     & .shopping-cart {
+//       position: relative;
+//       grid-area: cart;
+//       justify-self: flex-end;
+//       align-self:center;
+//       padding-right: .25rem;
+
+//       & a {
+//         padding: 0 .25rem;
+//         font-size: 1.5rem;
+//         color: $ctrl-fg-color;
+//         background: $ctrl-bg-color;
+//         border-radius: .25rem;    
+//       }
+
+//       & span {
+//         position: absolute;
+//         top: 50%;
+//         left: 50%;
+//         transform: translate(-50%, -50%);
+//         color: $light-color;
+//         background: $primary-color;
+//         border-radius: 50%;
+//         padding: 0 .25rem;
+//         // z-index: 100;
+//         font-size: .6rem;    
+//       }
+//     }
+
+//     & .search-ctrls {
+//       grid-area: search-ctrls;
+//       display: flex;
+//       width: 100%;
+//       max-width: 600px;
+//       justify-self: center;
+
+
+//       & .search {
+//         width: 100%;
+//         height: 100%;
+//         position: relative;
+//         flex: 1 1 auto;
+//         margin: 0 .25rem;
+
+//         @include response(md) {
+//           margin: 0;
+//         }
+
+//         & input {
+//           width: 100%;
+//           line-height: 1.5;
+//           outline: none;
+//           padding-left: .125rem;
+//         }
+
+//         & button {
+//           position: absolute;
+//           top: 1;
+//           right: 0;
+//           bottom: 0;
+//           height: 1.4rem;
+//           padding: .125rem;
+//         }
+//       }
+//     }
+//   }
