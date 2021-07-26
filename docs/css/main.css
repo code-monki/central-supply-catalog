@@ -16,13 +16,14 @@ body {
   position: relative;
   word-break: normal; }
   body .overlay {
-    background-color: rgba(0, 0, 0, 0.7);
+    background-color: rgba(0, 0, 0, 0.8);
     position: absolute;
     top: 0;
     left: 0;
     right: 0;
     bottom: 0;
-    z-index: -1; }
+    width: 100%;
+    height: 100%; }
 
 main {
   width: 100%;
@@ -241,6 +242,9 @@ footer {
   left: 0rem;
   right: 0rem;
   bottom: 3rem; }
+  @media screen and (min-width: 64rem) {
+    .home-page {
+      top: 8rem; } }
   .home-page h1 {
     margin-top: .25rem;
     font-size: 1.8rem; }
@@ -251,6 +255,9 @@ footer {
     top: 9rem;
     bottom: 0;
     overflow-y: auto; }
+    @media screen and (min-width: 64rem) {
+      .home-page .container {
+        top: 12rem; } }
     .home-page .container .row:last-child {
       margin-bottom: 4rem; }
     .home-page .container .row .dept-btn {
@@ -526,22 +533,29 @@ footer {
   left: 0;
   right: 0;
   bottom: 3rem; }
+  @media screen and (min-width: 64rem) {
+    .product-summary-section {
+      top: 6rem; } }
   .product-summary-section h1 {
     color: #e60000 !important;
-    background-color: black;
     font-size: 1.2rem !important;
     font-weight: 300;
-    text-align: center; }
+    text-align: center;
+    padding: 1rem 0 !important;
+    border: 1px solid red; }
     @media screen and (min-width: 48rem) {
       .product-summary-section h1 {
         font-size: 2rem !important; } }
   .product-summary-section .container {
     position: absolute;
-    top: 6rem;
-    bottom: 0;
+    top: 8rem;
+    bottom: 4rem;
     left: 0;
     right: 0;
     overflow-y: auto; }
+    @media screen and (min-width: 64rem) {
+      .product-summary-section .container {
+        bottom: 6rem; } }
     .product-summary-section .container img {
       border: 1px solid grey;
       box-shadow: 1px 1px 1px grey;
@@ -556,8 +570,8 @@ footer {
         font-size: 1.5rem; } }
 
 .collection-nav {
-  position: absolute;
-  bottom: 4rem;
+  position: fixed;
+  bottom: 3rem;
   height: 2rem;
   width: 100%;
   border: transparent; }
