@@ -17,7 +17,7 @@ This work would not have been made possible without the specific contributions o
 <br>
 
 - Marc Miller, Far Future Enterprises, who approved of the project and made artwork available as well as providing valuable connections within the community. In many ways, Marc has been one of my gaming heroes for the last 40+ years.
-- Robert Eagleston, who provided content and feedback during the development of the application.
+- Robert Eaglestone, who provided content and feedback during the development of the application.
 - Thomas Jones-Low and the stewards of the Traveller Wiki, who graciously shared their content.
 - Ade Steward and Robert Pearce for their feedback and invaluable insights.
 - Moira McGinnis, my long-suffering insanely talented friend who reviewed the wireframes and improved the usability.
