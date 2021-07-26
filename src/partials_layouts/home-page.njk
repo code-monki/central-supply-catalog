@@ -2,7 +2,15 @@
 {% include '_site-header.njk' %}
 
 <main>
-{% include '_home-page-body.njk' %}
+  <div class="home-page">
+    <div class="departments-container">
+      <h1 class="red-text center">Departments</h1>
+
+      <div class="container">
+        <div class="row">{% buildDepartmentCards %}</div>
+      </div>
+    </div>
+  </div>
 </main>
 
 {% include '_site-footer.njk' %}

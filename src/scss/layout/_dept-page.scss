@@ -1,36 +1,65 @@
 .product-summary-section {
-  position: relative;
+  position: fixed;
+  top: 4rem;
+  left: 0;
+  right: 0;
+  bottom: 3rem;
+
+  @include response(lg) {
+    top: 6rem;
+  }
 
   & h1 {
-    color: $primary-color;
-    background-color: black;
-    font-size: 1.4rem !important;
+    color: $primary-color !important;
+    font-size: 1.2rem !important;
     font-weight: 300;
     text-align: center;
+    padding: 1rem 0 !important;
+    border: 1px solid red;
 
     @include response(md) {
       font-size: 2rem !important;
     }
+
   }
 
   & .container {
     position: absolute;
-    top: 6rem;
-    bottom: 8rem;
+    top: 8rem;
+    bottom: 4rem;
     left: 0;
     right: 0;
     overflow-y: auto;
 
+    @include response(lg) {
+      bottom: 6rem;
+    }
+
+    & img {
+      border: 1px solid grey;
+      box-shadow: 1px 1px 1px grey;
+      width: 80%;
+      height: 80%;
+      margin-top: 1rem;
+      margin-bottom: .5rem;
+    }
+
     & h5 {
       font-size: 1.1rem;
+    }
+
+    & h6 {
+      @include response(lg) {
+        font-size: 1.5rem;
+      }
     }
   }
 
 }
 
 .collection-nav {
-  position: absolute;
-  bottom: 4rem;
+  position: fixed;
+  bottom: 3rem;
   height: 2rem;
   width: 100%;
   border: transparent;

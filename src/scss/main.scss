@@ -1,24 +1,22 @@
-// initializations
+// abstracts
 @import 'abstract/variables';
 @import 'abstract/mixins';
 
+// base definitions
 @import 'base/base';
+
+// components
+@import 'components/site-header';
+@import 'components/sidenav';
+@import 'components/content-body';
+@import 'components/category-cards';
+@import 'components/prod-summary-row';
+@import 'components/site-footer';
 
 // layouts
 @import 'layout/home-page';  
 @import 'layout/product-page';  
 @import 'layout/shopping-cart';
 @import 'layout/browse-page';
-@import 'layout/departments-page';
 @import 'layout/dept-page';
-
-// components
-@import 'components/navbar';
-// @import 'components/home-page';
-@import 'components/sidenav';
-@import 'components/hero';
-@import 'components/content-body';
-@import 'components/category-cards';
-@import 'components/prod-summary-row';
-@import 'components/site-footer';
 

@@ -3,7 +3,9 @@
 
 <main class=" product-summary-section">
 
-  <h1 class="center">{{ title }}</h1>
+  <div class="row">
+  <h1 class="center black col s8 offset-s2">{{ title }}</h1>
+  </div>
 
   <div class="container">
 
@@ -22,7 +24,9 @@
         {{ prodlink | log }}
         <a href="{{ prodlink | url}}"><h6>{{ product.name }}</h6></a>
         <p>{%- summary product.description -%}</p>
-        <h5 class="right-align">{{ product.cost | costLabel }}</h5>
+        <div class="valign-wrapper">
+          <h5 class="right-align">{{ product.cost | costLabel }}</h5>
+        </div>
       </div>
 
     </div>
