@@ -99,7 +99,7 @@ module.exports = function (eleventyConfig) {
 
     if (object !== undefined && object !== null) {
       let imgURL =
-        (object.image === "" || object.image === null)
+        object.image === "" || object.image === null
           ? `${basePath}/img/products/no-image.png`
           : `${basePath}../src/img/products/${sku}.png`;
       let pageURL = `../products/${sku}/`;
@@ -149,21 +149,14 @@ module.exports = function (eleventyConfig) {
     let text = "";
     departmentsData.forEach((dept) => {
       if (dept.id.substr(-3) === "000") {
+          text += `<div class="dept-btn col s6 m3 l3 xl2 center">`;
+        
         text += `
-        <div class="card col s12 m5 offset-m1 push-m1 grey lighten-1">
-          <div class="card-title black">
-            <a href="${basePath}/departments/${urlSafe(dept.label)}/" class="red-text">
-              <h3>${dept.label}</h3>
-            </a>
-          </div>
-          <div class="card-body">
-            <a href="${basePath}/departments/${urlSafe(dept.label)}/" class="black-text">
-              ${dept.description}
-            </a>
-          </div>
-        </div>
-      
-      `;
+          <a href="${basePath}/departments/${urlSafe(dept.label)}/" class="red-text">
+          <img src="${dept.icon}" alt="${dept.label}"><br>${dept.label}
+        </a>
+      </div>
+      `   
       }
     });
 
@@ -186,7 +179,9 @@ module.exports = function (eleventyConfig) {
 //-------------------------------------------------------------
 const buildCategoryCard = (category) => {
   let text = `<div class="cat-btn col s6 m4 l3 offset-l0 xl4">
-                <a href="#${urlSafe(category.label)}-modal" class="modal-trigger btn big-button black red-text flow-text">
+                <a href="#${urlSafe(
+                  category.label
+                )}-modal" class="modal-trigger btn big-button black red-text flow-text">
                   <img src="img/${urlSafe(category.label)}.svg" alt="${category.label}"><br>${category.label}
                 </a>
               </div>
@@ -204,20 +199,21 @@ const buildCategoryCard = (category) => {
     let o = departmentsData.find((m) => m.id === dept);
 
     if (o !== undefined) {
-      text += `<li><a href="${basePath}/departments/${urlSafe(o.label)
-        .toLowerCase().replace(" ", "-")}/">${o.label}</a></li>`
+      text += `<li><a href="${basePath}/departments/${urlSafe(o.label).toLowerCase().replace(" ", "-")}/">${
+        o.label
+      }</a></li>`;
     } else {
       // FIXME
       // console.log(`Undefined department: ${dept}`)
     }
-  })
+  });
 
   text += `</ul>
   </div>
   </div>
   
   </div>
-  </div>`
+  </div>`;
 
   return text;
 };
@@ -261,4 +257,4 @@ const extractSummary = (text) => {
   });
 
   return summary;
-}
+};
