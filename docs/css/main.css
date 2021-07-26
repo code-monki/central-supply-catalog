@@ -415,7 +415,7 @@ footer {
           @media screen and (min-width: 48rem) {
             .shopping-cart-container .product-row .prod-details .prod-qty input {
               font-size: 1rem;
-              line-heoght: 1.2rem;
+              line-height: 1.2rem;
               max-height: 1.2rem; } }
         .shopping-cart-container .product-row .prod-details .prod-qty .remove-item {
           margin-left: 2rem; }
