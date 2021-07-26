@@ -1,0 +1,5 @@
+{
+  "todomd.autoArchiveTasks": true,
+  "todomd.webview.completedStrikeThrough": true,
+  "todomd.webview.scrollbarOverflow": true
+}
