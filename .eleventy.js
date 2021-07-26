@@ -149,7 +149,7 @@ module.exports = function (eleventyConfig) {
     let text = "";
     departmentsData.forEach((dept) => {
       if (dept.id.substr(-3) === "000") {
-          text += `<div class="dept-btn col s6 m3 l3 xl2 center">`;
+          text += `<div class="dept-btn col s6 m3 l3 center">`;
         
         text += `
           <a href="${basePath}/departments/${urlSafe(dept.label)}/" class="red-text">
