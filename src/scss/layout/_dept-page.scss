@@ -5,12 +5,17 @@
   right: 0;
   bottom: 3rem;
 
+  @include response(lg) {
+    top: 6rem;
+  }
+
   & h1 {
     color: $primary-color !important;
-    background-color: black;
     font-size: 1.2rem !important;
     font-weight: 300;
     text-align: center;
+    padding: 1rem 0 !important;
+    border: 1px solid red;
 
     @include response(md) {
       font-size: 2rem !important;
@@ -20,8 +25,8 @@
 
   & .container {
     position: absolute;
-    top: 6rem;
-    bottom: 0;
+    top: 8rem;
+    bottom: 4rem;
     left: 0;
     right: 0;
     overflow-y: auto;
@@ -49,8 +54,8 @@
 }
 
 .collection-nav {
-  position: absolute;
-  bottom: 4rem;
+  position: fixed;
+  bottom: 3rem;
   height: 2rem;
   width: 100%;
   border: transparent;

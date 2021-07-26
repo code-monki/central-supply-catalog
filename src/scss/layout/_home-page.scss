@@ -7,6 +7,10 @@
   right: 0rem;
   bottom: 3rem;
 
+  @include response(lg) {
+    top: 8rem;
+  }
+
   & h1 {
     margin-top: .25rem;
     font-size: 1.8rem;
@@ -18,8 +22,11 @@
     right: 0;
     top: 9rem;
     bottom: 0;
-    // height: 90%;
     overflow-y: auto;
+
+    @include response(lg) {
+      top: 12rem;
+    }
 
     & .row {
 
