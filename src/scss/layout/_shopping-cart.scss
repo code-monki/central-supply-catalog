@@ -19,7 +19,6 @@
     }
 
     & .total-row {
-      background-color: lightblue !important;
 
       & h6 {
         font-size: 1.2rem !important;
@@ -45,7 +44,7 @@
       padding-bottom: .5rem;
       // background-color: pink !important;
 
-      & .prod-row-img {
+      & .prod-img {
         margin-left: .5rem;
 
         & img {
@@ -81,17 +80,17 @@
           }
 
           & .remove-item {
-            margin-left: 2rem;
+            margin-left: 1rem;
           }
         }
       }
 
-      & .prod-row-total {
+      & .prod-total {
         font-size: 1rem;
         font-weight: bold;
 
         @include response(md) {
-          font-size: 1.2rem;
+          font-size: 1.2rem !important;
         }
       }
     }

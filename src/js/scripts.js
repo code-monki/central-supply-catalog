@@ -1,9 +1,6 @@
 const hostName = (document.location.hostname === 'localhost')
   ? "" : "https://cmcknight.github.io/central-supply-catalog"
 
-console.log(hostName);
-
-
 // ----- Shopping Cart-related functionality -----
 const cartKey = 'csc-cart'    // key for localStorage shopping cart
 
@@ -112,35 +109,35 @@ const updateCartUI = () => {
             </div>`;
   } else {
     let total = 0
-    console.log(`Cart has ${cart.length} items`);
+    // console.log(`Cart has ${cart.length} items`);
     let counter = 1;
     cart.forEach(item => {
       text += `
       <div class="row product-row">
-        <div class="prod-img col s3 m2">
+        <div class="prod-img col s3 m2 l2">
           <a href="#">
             <img src="${item.image}" class="responsive-img" alt="${item.name}">
           </a>
         </div>
 
-        <div class="prod-details col s6 m8">
+        <div class="prod-details col s5 m7 l7">
 
           <div class="prod-title">
-              <a href="{{ ../products/${item.name} | url }}">${item.name}</a>
+              <a href="{{ ../products/${item.name} | url }}" data-sku="${item.sku}" class="item-name">${item.name}</a>
           </div>
 
           <div class="prod-qty">
             <form>
                 <button><i class="fa fa-minus subtract-btn"></i></button>
-                <input type="number" id="prod-row-${counter}-qty" value="${item.qty}">
+                <input type="number" class="qty" value="${item.qty}">
                 <button><i class="fa fa-plus add-btn"></i></button>
                 <button class="remove-item"><i class="fa fa-trash"></i></button>
             </form>
           </div>
         </div>
 
-      <div class="prod-total col s3 m2 right-align">
-        ${item.qty * item.unitPrice}
+      <div class="prod-total col s3 m2 l2 right-align right">
+        ${setUnitLabel(item.qty * item.unitPrice)}
       </div>
 
       </div>
@@ -155,6 +152,44 @@ const updateCartUI = () => {
 
   itemContainer.innerHTML = text;
 };
+
+// set up listener for click events on cart items
+const cartItemsList = document.querySelector('.cart-items-container')
+if (cartItemsList !== null && cartItemsList !== undefined) {
+
+  cartItemsList.addEventListener('change', (e) => {
+    e.preventDefault
+    if (e.target.className === 'qty') {
+      let qtyNode = e.target.parentNode.parentNode.querySelector('.qty')
+      let qty = Number(qtyNode.value)
+      let sku = e.target.parentNode.parentNode.parentNode.parentNode.querySelector('.item-name').dataset.sku
+      updateItemQty(sku, qty)
+    }
+  })
+
+  cartItemsList.addEventListener('click', (e) => {
+    e.preventDefault
+
+    let qtyNode = e.target.parentNode.parentNode.querySelector('.qty')
+    let qty = Number(qtyNode.value)
+    let sku = e.target.parentNode.parentNode.parentNode.parentNode.querySelector('.item-name').dataset.sku
+    
+    if (e.target.className.includes('fa-minus')) {
+      // update the cart
+      updateItemQty(sku, qty-1)
+    } else if (e.target.className.includes('fa-plus')) {
+      // update the cart
+      updateItemQty(sku, qty+1)
+    } else if (e.target.className.includes('fa-trash')) {
+      removeItem(sku)
+    }
+
+
+  })
+}
+
+
+
 // ---- End of Shopping Cart-related Functionality -----
 
 
