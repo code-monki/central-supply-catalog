@@ -157,6 +157,7 @@ const updateCartUI = () => {
 const cartItemsList = document.querySelector('.cart-items-container')
 if (cartItemsList !== null && cartItemsList !== undefined) {
 
+  // event for manually changing quantity
   cartItemsList.addEventListener('change', (e) => {
     e.preventDefault
     if (e.target.className === 'qty') {
@@ -167,6 +168,7 @@ if (cartItemsList !== null && cartItemsList !== undefined) {
     }
   })
 
+  // event for handling button clicks
   cartItemsList.addEventListener('click', (e) => {
     e.preventDefault
 
@@ -183,12 +185,17 @@ if (cartItemsList !== null && cartItemsList !== undefined) {
     } else if (e.target.className.includes('fa-trash')) {
       removeItem(sku)
     }
-
-
   })
 }
 
-
+// Remove all items from cart
+const removeAllItemsBtn = document.getElementById('empty-cart')
+if (removeAllItemsBtn !== null && removeAllItemsBtn !== undefined) {
+  removeAllItemsBtn.addEventListener('click', () => {
+    localStorage.setItem(cartKey, JSON.stringify([]))
+    updateCartUI()
+  })
+}
 
 // ---- End of Shopping Cart-related Functionality -----
 
