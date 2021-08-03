@@ -69,8 +69,11 @@ const addItem = () => {
     return 0
   })
 
-  // // save cart to localStorage
+  // save cart to localStorage
   localStorage.setItem(cartKey, JSON.stringify(cart));
+
+  // update shopping cart badge
+  updateCartBadge()
 };
 
 // remove item from cart
@@ -79,6 +82,7 @@ const removeItem = (sku) => {
   cart = cart.filter((item) => item.sku !== sku);
   localStorage.setItem(cartKey, JSON.stringify(cart));
   updateCartUI();
+  updateCartBadge();
 };
 
 // modify quantity of item
@@ -194,13 +198,31 @@ if (removeAllItemsBtn !== null && removeAllItemsBtn !== undefined) {
   removeAllItemsBtn.addEventListener('click', () => {
     localStorage.setItem(cartKey, JSON.stringify([]))
     updateCartUI()
+    updateCartBadge()
   })
 }
 
-// ---- End of Shopping Cart-related Functionality -----
+// ---- End of Shopping Cart-related Functionality --------
+
+// ---------- Manage Cart Count Badge ---------------------
+
+const updateCartBadge = () => {
+  const cartCountSpan = document.getElementById('cart-badge')
+  let cartCount = JSON.parse(localStorage.getItem(cartKey)).length
+
+  console.log(`cartCount: ${cartCount}`)
+  console.log(`cartCountSpan.display: ${cartCountSpan}`)
+  
+  if (cartCount === 0) {
+    cartCountSpan.style.display = 'none'
+  } else {
+    cartCountSpan.textContent = cartCount
+    cartCountSpan.style.display = 'block'
+  }
+}
 
 
-// initialize MaterializeCSS components
+// --------- initialize MaterializeCSS components ---------
 document.addEventListener('DOMContentLoaded', function () {
   // sidenav
   const sideNav = document.querySelector('.sidenav')
@@ -215,6 +237,9 @@ document.addEventListener('DOMContentLoaded', function () {
   if (addItemBtn !== null && addItemBtn !== undefined) {
     addItemBtn.addEventListener('click', addItem)
   }
+
+  // update the cart badge
+  updateCartBadge()
 
   // update shopping cart ui if on shopping cart page
   if (window.location.href.includes('shopping-cart')) {
