@@ -1,12 +1,10 @@
-const hostName = (document.location.hostname === 'localhost')
-  ? "" : "https://cmcknight.github.io/central-supply-catalog"
+const hostName = document.location.hostname === "localhost" ? "" : "https://cmcknight.github.io/central-supply-catalog";
 
 // ----- Shopping Cart-related functionality -----
-const cartKey = 'csc-cart'    // key for localStorage shopping cart
+const cartKey = "csc-cart"; // key for localStorage shopping cart
 
 // powers of 10 multipliers
-const unitMultiplier = { Cr: 0, KCr: 3, MCr: 6, BCr: 9, TCr: 12}
-
+const unitMultiplier = { Cr: 0, KCr: 3, MCr: 6, BCr: 9, TCr: 12 };
 
 // Apply units to values
 const setUnitLabel = (value) => {
@@ -32,22 +30,21 @@ const addItem = () => {
   let cart = localStorage.getItem(cartKey);
 
   // get image src attribute
-  const productImage = document.getElementById('prod-img').src
+  const productImage = document.getElementById("prod-img").src;
 
   // get the price and units
-  const [price, units] = document.getElementById('unit-price').textContent.split(' ')
-  const unitPrice = parseInt(price) * 10**unitMultiplier[units]
+  const [price, units] = document.getElementById("unit-price").textContent.split(" ");
+  const unitPrice = parseInt(price) * 10 ** unitMultiplier[units];
 
   // get the product name
-  const productName = document.getElementById('product-name').textContent
-  console.log(productName);
+  const productName = document.getElementById("product-name").textContent;
 
   // get the quantity
-  const productQty = parseInt(document.getElementById('product-qty').value)
+  const productQty = parseInt(document.getElementById("product-qty").value);
 
   // get the sku
-  const productSku = document.getElementById('product-name').getAttribute('data-sku')
-  
+  const productSku = document.getElementById("product-name").getAttribute("data-sku");
+
   cart = cart === null || cart === undefined ? (cart = []) : (cart = JSON.parse(cart));
 
   // attempt to get the item from the cart
@@ -55,25 +52,25 @@ const addItem = () => {
 
   if (cartProd === null || cartProd === undefined) {
     // product not in cart, add to cart
-    cart.push({ sku: productSku, qty: productQty, name: productName, unitPrice: unitPrice, image: productImage});
+    cart.push({ sku: productSku, qty: productQty, name: productName, unitPrice: unitPrice, image: productImage });
   } else {
     // product is already in cart, update quantity
     cartProd.qty += productQty;
   }
 
   cart = cart.sort((a, b) => {
-    if (a.name < b.name) return -1
-    if (a.name > b.name) return 1
-    return 0
-  })
+    if (a.name < b.name) return -1;
+    if (a.name > b.name) return 1;
+    return 0;
+  });
 
   // save cart to localStorage
   localStorage.setItem(cartKey, JSON.stringify(cart));
 
   // update shopping cart badge
-  updateCartBadge()
+  updateCartBadge();
 
-  M.toast({html: 'Item added to cart', displayLength: 8000 })
+  M.toast({ html: "Item added to cart", displayLength: 8000 });
 };
 
 // ----------------- remove item from cart ----------------------
@@ -103,9 +100,9 @@ const updateItemQty = (sku, qty) => {
 const updateCartUI = () => {
   let cart = JSON.parse(localStorage.getItem(cartKey));
   let itemContainer = document.querySelector(".cart-items-container");
-  let cartTotal = document.querySelector(".cart-total")
+  let cartTotal = document.querySelector(".cart-total");
   let text = "";
-  let total = 0
+  let total = 0;
 
   if (cart === null || cart === undefined || cart.length === 0) {
     console.log("No items in cart");
@@ -113,8 +110,7 @@ const updateCartUI = () => {
               <h5 class="center">No items in cart</h5>
             </div>`;
   } else {
-    // console.log(`Cart has ${cart.length} items`);
-    cart.forEach(item => {
+    cart.forEach((item) => {
       text += `
       <div class="row product-row">
         <div class="prod-img col s3 m2 l2">
@@ -144,65 +140,65 @@ const updateCartUI = () => {
       </div>
 
       </div>
-      `
-      total += item.unitPrice * item.qty
-    })
-
+      `;
+      total += item.unitPrice * item.qty;
+    });
   }
 
   if (cart.length === 0) {
-    cartTotal.innerHTML = ''
+    // cart is empty, no display
+    cartTotal.innerHTML = "";
   } else {
-    cartTotal.innerHTML = `Total: ${setUnitLabel(total)}`
+    // set cart total
+    cartTotal.innerHTML = `Total: ${setUnitLabel(total)}`;
   }
 
   itemContainer.innerHTML = text;
 };
 
 // --------- set up listener for click events on cart items --------------
-const cartItemsList = document.querySelector('.cart-items-container')
+const cartItemsList = document.querySelector(".cart-items-container");
 if (cartItemsList !== null && cartItemsList !== undefined) {
-
   // event for manually changing quantity
-  cartItemsList.addEventListener('change', (e) => {
-    e.preventDefault
-    if (e.target.className === 'qty') {
-      let qtyNode = e.target.parentNode.parentNode.querySelector('.qty')
-      let qty = Number(qtyNode.value)
-      let sku = e.target.parentNode.parentNode.parentNode.parentNode.querySelector('.item-name').dataset.sku
-      updateItemQty(sku, qty)
+  cartItemsList.addEventListener("change", (e) => {
+    e.preventDefault;
+    if (e.target.className === "qty") {
+      let qtyNode = e.target.parentNode.parentNode.querySelector(".qty");
+      let qty = Number(qtyNode.value);
+      let sku = e.target.parentNode.parentNode.parentNode.parentNode.querySelector(".item-name").dataset.sku;
+      updateItemQty(sku, qty);
     }
-  })
+  });
 
   // event for handling button clicks
-  cartItemsList.addEventListener('click', (e) => {
-    e.preventDefault
+  cartItemsList.addEventListener("click", (e) => {
+    e.preventDefault;
 
-    let qtyNode = e.target.parentNode.parentNode.querySelector('.qty')
-    let qty = Number(qtyNode.value)
-    let sku = e.target.parentNode.parentNode.parentNode.parentNode.querySelector('.item-name').dataset.sku
-    
-    if (e.target.className.includes('fa-minus')) {
+    let qtyNode = e.target.parentNode.parentNode.querySelector(".qty");
+    let qty = Number(qtyNode.value);
+    let sku = e.target.parentNode.parentNode.parentNode.parentNode.querySelector(".item-name").dataset.sku;
+
+    if (e.target.className.includes("fa-minus")) {
       // update the cart
-      updateItemQty(sku, qty-1)
-    } else if (e.target.className.includes('fa-plus')) {
+      updateItemQty(sku, qty - 1);
+    } else if (e.target.className.includes("fa-plus")) {
       // update the cart
-      updateItemQty(sku, qty+1)
-    } else if (e.target.className.includes('fa-trash')) {
-      removeItem(sku)
+      updateItemQty(sku, qty + 1);
+    } else if (e.target.className.includes("fa-trash")) {
+      removeItem(sku);
     }
-  })
+  });
 }
 
 // ------------------ Remove all items from cart ----------------------
-const removeAllItemsBtn = document.getElementById('empty-cart')
+const removeAllItemsBtn = document.getElementById("empty-cart");
 if (removeAllItemsBtn !== null && removeAllItemsBtn !== undefined) {
-  removeAllItemsBtn.addEventListener('click', () => {
-    localStorage.setItem(cartKey, JSON.stringify([]))
-    document.querySelector(".cart-total").textContent = ""
-    updateCartUI()
-    updateCartBadge()
-  })
+  removeAllItemsBtn.addEventListener("click", () => {
+    localStorage.setItem(cartKey, JSON.stringify([]));
+    document.querySelector(".cart-total").textContent = "";
+    updateCartUI();
+    updateCartBadge();
+  });
 }
 
 // ---- End of Shopping Cart-related Functionality --------
@@ -210,45 +206,38 @@ if (removeAllItemsBtn !== null && removeAllItemsBtn !== undefined) {
 // ---------- Manage Cart Count Badge ---------------------
 
 const updateCartBadge = () => {
-  const cartCountSpan = document.getElementById('cart-badge')
-  let cartCount = JSON.parse(localStorage.getItem(cartKey)).length
+  const cartCountSpan = document.getElementById("cart-badge");
+  let cartCount = JSON.parse(localStorage.getItem(cartKey)).length;
 
-  console.log(`cartCount: ${cartCount}`)
-  console.log(`cartCountSpan.display: ${cartCountSpan}`)
-  
   if (cartCount === 0) {
-    cartCountSpan.style.display = 'none'
+    cartCountSpan.style.display = "none";
   } else {
-    cartCountSpan.textContent = cartCount
-    cartCountSpan.style.display = 'block'
+    cartCountSpan.textContent = cartCount;
+    cartCountSpan.style.display = "block";
   }
-}
-
+};
 
 // --------- initialize MaterializeCSS components ---------
-document.addEventListener('DOMContentLoaded', function () {
+document.addEventListener("DOMContentLoaded", function () {
   // sidenav
-  const sideNav = document.querySelector('.sidenav')
-  M.Sidenav.init(sideNav, {})
+  const sideNav = document.querySelector(".sidenav");
+  M.Sidenav.init(sideNav, {});
 
   // modal cards
-  const modals = document.querySelectorAll('.modal')
-  M.Modal.init(modals, {})
+  const modals = document.querySelectorAll(".modal");
+  M.Modal.init(modals, {});
 
   // set listener on product page add button
-  const  addItemBtn = document.getElementById('add-to-cart')
+  const addItemBtn = document.getElementById("add-to-cart");
   if (addItemBtn !== null && addItemBtn !== undefined) {
-    addItemBtn.addEventListener('click', addItem)
+    addItemBtn.addEventListener("click", addItem);
   }
 
   // update the cart badge
-  updateCartBadge()
+  updateCartBadge();
 
   // update shopping cart ui if on shopping cart page
-  if (window.location.href.includes('shopping-cart')) {
-    updateCartUI()
+  if (window.location.href.includes("shopping-cart")) {
+    updateCartUI();
   }
-  
-
-})
-
+});
