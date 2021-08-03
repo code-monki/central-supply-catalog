@@ -55,10 +55,10 @@
     </div>
 
     <!-- shopping cart -->
-    <div class="col s2">
-      <a href="/central-supply-catalog/shopping-cart">
-        <i class="material-icons white-text right">shopping_cart</i>
-      </a>
+    <div class="col s2 shopping-cart">
+        <a href="/central-supply-catalog/shopping-cart">
+          <i class="material-icons white-text right cart-icon">shopping_cart</i><small class="badge" id="cart-badge">10</small>
+        </a>
     </div>
 
     <!-- search bar -->
@@ -120,7 +120,7 @@
       <div class="total-row row">
         <div class="valign-wrapper">
           <div class="col s4 left ">
-            <button class="empty-cart left amber black-text">Empty Cart</button>
+            <button class="empty-cart left amber black-text" id="empty-cart">Empty Cart</button>
           </div>
           <div class="col s8 right">
             <h6 class="right"><span id="cart-total" class="cart-total"></span></h6>
