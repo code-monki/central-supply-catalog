@@ -26,7 +26,7 @@ const setUnitLabel = (value) => {
   return text;
 };
 
-// add item to cart
+// ----------------- add item to cart -----------------
 const addItem = () => {
   // retrieve the cart from localStorage
   let cart = localStorage.getItem(cartKey);
@@ -61,8 +61,6 @@ const addItem = () => {
     cartProd.qty += productQty;
   }
 
-
-
   cart = cart.sort((a, b) => {
     if (a.name < b.name) return -1
     if (a.name > b.name) return 1
@@ -74,9 +72,11 @@ const addItem = () => {
 
   // update shopping cart badge
   updateCartBadge()
+
+  M.toast({html: 'Item added to cart', displayLength: 8000 })
 };
 
-// remove item from cart
+// ----------------- remove item from cart ----------------------
 const removeItem = (sku) => {
   let cart = JSON.parse(localStorage.getItem(cartKey));
   cart = cart.filter((item) => item.sku !== sku);
@@ -85,7 +85,7 @@ const removeItem = (sku) => {
   updateCartBadge();
 };
 
-// modify quantity of item
+// ---------------- modify quantity of item ----------------------
 const updateItemQty = (sku, qty) => {
   let cart = JSON.parse(localStorage.getItem(cartKey));
   let item = cart.find((s) => s.sku === sku);
@@ -99,12 +99,13 @@ const updateItemQty = (sku, qty) => {
   updateCartUI();
 };
 
-// update the cart ui
+// -------------------- update the cart ui -------------------------
 const updateCartUI = () => {
   let cart = JSON.parse(localStorage.getItem(cartKey));
   let itemContainer = document.querySelector(".cart-items-container");
   let cartTotal = document.querySelector(".cart-total")
   let text = "";
+  let total = 0
 
   if (cart === null || cart === undefined || cart.length === 0) {
     console.log("No items in cart");
@@ -112,9 +113,7 @@ const updateCartUI = () => {
               <h5 class="center">No items in cart</h5>
             </div>`;
   } else {
-    let total = 0
     // console.log(`Cart has ${cart.length} items`);
-    let counter = 1;
     cart.forEach(item => {
       text += `
       <div class="row product-row">
@@ -149,15 +148,18 @@ const updateCartUI = () => {
       total += item.unitPrice * item.qty
     })
 
-      cartTotal.innerHTML = `Total: ${setUnitLabel(total)}`
+  }
 
-
+  if (cart.length === 0) {
+    cartTotal.innerHTML = ''
+  } else {
+    cartTotal.innerHTML = `Total: ${setUnitLabel(total)}`
   }
 
   itemContainer.innerHTML = text;
 };
 
-// set up listener for click events on cart items
+// --------- set up listener for click events on cart items --------------
 const cartItemsList = document.querySelector('.cart-items-container')
 if (cartItemsList !== null && cartItemsList !== undefined) {
 
@@ -192,11 +194,12 @@ if (cartItemsList !== null && cartItemsList !== undefined) {
   })
 }
 
-// Remove all items from cart
+// ------------------ Remove all items from cart ----------------------
 const removeAllItemsBtn = document.getElementById('empty-cart')
 if (removeAllItemsBtn !== null && removeAllItemsBtn !== undefined) {
   removeAllItemsBtn.addEventListener('click', () => {
     localStorage.setItem(cartKey, JSON.stringify([]))
+    document.querySelector(".cart-total").textContent = ""
     updateCartUI()
     updateCartBadge()
   })
