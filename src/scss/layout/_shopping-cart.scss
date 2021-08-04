@@ -1,9 +1,9 @@
 .cart-div {
   position: fixed;
-  top: 7rem;
+  top: 8rem;
   left: 0;
   right: 0;
-  bottom: 3rem;
+  bottom: 5rem;
   background-color: white !important;
   overflow-y: auto;
 
@@ -11,6 +11,7 @@
     position: sticky;
     top: 0;
     z-index: 5;
+    width: 100%;
 
     & h1 {
       font-size: 1.6rem;
@@ -37,6 +38,7 @@
   & .cart-items-container {
     position: relative;
     overflow-y: auto;
+    width: 100%;
 
     & .product-row {
       border-bottom: 1px solid grey;
