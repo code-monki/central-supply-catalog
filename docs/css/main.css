@@ -6,7 +6,7 @@
 
 body {
   font-family: "Roboto", sans-serif;
-  background: black url(../img/background.jpg) center center;
+  background: rgba(0, 0, 0, 0.5) url(../img/background.jpg) center center;
   background-size: cover;
   background-position: center / cover;
   line-height: 1.6;
@@ -16,18 +16,20 @@ body {
   position: relative;
   word-break: normal; }
   body .overlay {
-    background-color: rgba(0, 0, 0, 0.8);
+    background-color: rgba(0, 0, 0, 0.6);
     position: absolute;
     top: 0;
     left: 0;
     right: 0;
     bottom: 0;
-    width: 100%;
-    height: 100%; }
+    width: 100vw;
+    height: 100vh;
+    z-index: -1; }
 
 main {
   width: 100%;
-  position: relative; }
+  position: relative;
+  z-index: 2; }
 
 header div.row {
   position: fixed;
@@ -35,7 +37,8 @@ header div.row {
   right: 0;
   left: 0;
   margin-bottom: 0 !important;
-  padding-top: .5rem; }
+  padding-top: .5rem;
+  border-bottom: 1px grey solid; }
   header div.row .shopping-cart {
     position: relative; }
     header div.row .shopping-cart small {
@@ -44,9 +47,12 @@ header div.row {
       background: red;
       color: white !important;
       right: .25rem;
-      top: 0;
+      top: .5rem;
       border-radius: 50%;
-      padding: .125rem .25rem; }
+      padding: .15rem 0;
+      min-width: 1.4rem;
+      min-height: 1.4rem;
+      text-align: center; }
 
 .sidenav {
   width: 100% !important;
@@ -226,7 +232,8 @@ footer {
   position: fixed;
   bottom: 0;
   left: 0;
-  right: 0; }
+  right: 0;
+  border-top: 1px grey solid; }
   footer .footer-copyright {
     max-height: 1.3rem;
     padding: 0 !important;
@@ -294,10 +301,10 @@ footer {
 
 .product-main {
   position: fixed;
-  top: 7rem;
+  top: 8rem;
   left: 0;
   right: 0;
-  bottom: 4rem; }
+  bottom: 5rem; }
   .product-main .container {
     width: 100%;
     height: 100%;
@@ -375,16 +382,17 @@ footer {
 
 .cart-div {
   position: fixed;
-  top: 7rem;
+  top: 8rem;
   left: 0;
   right: 0;
-  bottom: 3rem;
+  bottom: 5rem;
   background-color: white !important;
   overflow-y: auto; }
   .cart-div .sticky {
     position: sticky;
     top: 0;
-    z-index: 5; }
+    z-index: 5;
+    width: 100%; }
     .cart-div .sticky h1 {
       font-size: 1.6rem;
       font-weight: bold;
@@ -397,7 +405,8 @@ footer {
       padding: .25rem; }
   .cart-div .cart-items-container {
     position: relative;
-    overflow-y: auto; }
+    overflow-y: auto;
+    width: 100%; }
     .cart-div .cart-items-container .product-row {
       border-bottom: 1px solid grey;
       margin-bottom: 1rem;
