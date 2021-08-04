@@ -90,7 +90,7 @@ const updateItemQty = (sku, qty) => {
   if ((item === null) | (item === undefined)) {
     console.log(`Sku: ${sku} is not in cart`);
   } else {
-    item.qty = qty;
+    item.qty = (qty < 0) ? 0 : qty
   }
   localStorage.setItem(cartKey, JSON.stringify(cart));
   updateCartUI();
