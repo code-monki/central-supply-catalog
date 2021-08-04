@@ -86,11 +86,12 @@ const removeItem = (sku) => {
 const updateItemQty = (sku, qty) => {
   let cart = JSON.parse(localStorage.getItem(cartKey));
   let item = cart.find((s) => s.sku === sku);
-
+  if (qty < 0) qty = 0
+  
   if ((item === null) | (item === undefined)) {
     console.log(`Sku: ${sku} is not in cart`);
   } else {
-    item.qty = (qty < 0) ? 0 : qty
+    item.qty = qty
   }
   localStorage.setItem(cartKey, JSON.stringify(cart));
   updateCartUI();
