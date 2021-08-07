@@ -40,7 +40,10 @@
     <div class="col s12">
     <ul class="pagination center-align">
       {%- for page in pagination.pages -%}
-      <li><a href="{{ pagination.hrefs[ loop.index0 ] | url }}"{%- if page.url == pagination.hrefs[ loop.index0 ] -%} aria-current="page"{%- endif -%} class="red-text">{{ loop.index }}</a></li>
+      {{ loop.index | log}}
+      {{ pagination.hrefs[ loop.index] | log }}
+      <li>
+        <a href="{{ pagination.hrefs[ loop.index - 1 ] | url }}" class="red-text" {%- if pagination.hrefs[ loop.index - 0] == page.url -%}aria-current="page"{% endif -%}>{{ loop.index }}</a></li>
       {% endfor %}
     </ul>
     </div>
