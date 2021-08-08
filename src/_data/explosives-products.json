@@ -13,6 +13,7 @@
     "qrebs": "N/A",
     "image": "",
     "description": "Breaching Charges are shaped charges of plastic explosive designed to blow man sized holes in walls. The charge is the size of a thick notebook; it has a self-adhesive panel on one side and an adjustable chemical time fuse on the other.",
+    "accessories": ["070-000-00004"],
     "sources": [
       {
         "publication": "Traveller Wiki: Breaching Charge",
@@ -79,6 +80,7 @@
     "qrebs": "N/A",
     "image": "",
     "description": "A chemical explosive in the form of a stiff putty, C-8 requires a blasting charge to detonate. It is are otherwise inert and won't detonate with shock or fire.",
+    "accessories": ["070-000-00004"],
     "sources": [
       {
         "publication": "Traveller Wiki: C-8",
@@ -112,7 +114,7 @@
     "techLevel": 6,
     "qrebs": "N/A",
     "image": "",
-    "description": "Detonating cord (also called detonation cord, detacord, det. cord, detcord, primer cord, Primercord, or sun cord) is a thin, flexible plastic tube filled with explosive. Any common length of detonation cord appears to explode instantaneously. It is a high-speed fuse which explodes, rather than burns, and is suitable for detonating high explosives.",
+    "description": "<!-- Summary Start -->Detonating cord (also called detonation cord, detacord, det. cord, detcord, primer cord, Primercord, or sun cord) is a thin, flexible plastic tube filled with explosive.<!-- Summary End --> Any common length of detonation cord appears to explode instantaneously. It is a high-speed fuse which explodes, rather than burns, and is suitable for detonating high explosives.",
     "sources": [
       {
         "publication": "Traveller Wiki: Detonating cord",
@@ -181,6 +183,7 @@
     "qrebs": "N/A",
     "image": "",
     "description": "Dynamite is one of the most common explosives in use. It is used by civil engineers for demolitions, it is relatively easy to manufacture. It has also found military uses. Dynamite is sold in cases of 100 quarter-kilo sticks.",
+    "accessories": ["070-000-00004"],
     "sources": [
       {
         "publication": "Traveller Wiki: Goods/Explosives",
@@ -248,7 +251,7 @@
     "techLevel": 10,
     "qrebs": "N/A",
     "image": "",
-    "description": "Linear Burning Rope is an explosive device. Each rope is packaged in 8-meter long coils, with a rope diameter of 3cm; within the vacuum-sealed plastic packs they are further wrapped in a cellophane-like red and yellow-striped covering, which peels off to reveal a bright yellow putty-like substance, akin to plastic explosives. Each package also contains two piezo-electric initiator plugs.\n\nThe manufacturer of the rope recommends in the literature that an insulating blanket of some kind be affixed to affected surfaces to prevent burn injuries after penetration (they recommend a product they manufacture, as it happens).",
+    "description": "<!-- Summary Start -->Linear Burning Rope is an explosive device.<!-- Summary End --> Each rope is packaged in 8-meter long coils, with a rope diameter of 3cm; within the vacuum-sealed plastic packs they are further wrapped in a cellophane-like red and yellow-striped covering, which peels off to reveal a bright yellow putty-like substance, akin to plastic explosives. Each package also contains two piezo-electric initiator plugs.\n\nThe manufacturer of the rope recommends in the literature that an insulating blanket of some kind be affixed to affected surfaces to prevent burn injuries after penetration (they recommend a product they manufacture, as it happens).",
     "sources": [
       {
         "publication": "Traveller Wiki: Linear Burning Rope",
@@ -274,7 +277,8 @@
     "techLevel": 8,
     "qrebs": "N/A",
     "image": "",
-    "description": "",
+    "description": "<!-- Summary Start -->Linear Shaped Charge (LSC) is a v-shaped armoured polymer strip packed with blasting putty.<!-- Summary End --> When detonated whilst in contact with a solid object, LSC will cut cleanly through the object, following the principles of the shaped charge theory.",
+    "accessories": ["070-000-00004"],
     "sources": [
       {
         "publication": "Traveller Wiki: Goods/Explosives",
@@ -301,6 +305,7 @@
     "qrebs": "N/A",
     "image": "",
     "description": "Pamex-20 is an explosive compound with extensive industrial and military uses.",
+    "accessories": ["070-000-00004"],
     "sources": [
       {
         "publication": "Traveller Wiki: Pamex-20",
@@ -326,7 +331,8 @@
     "techLevel": 11,
     "qrebs": "N/A",
     "image": "",
-    "description": "Plastic explosive can be molded to any desired shape and will adhere to nearly any surface. It does not explode when burned and can only be detonated by another explosion usually provided by a blasting cap. Proper use of the explosive requires the correct skills.",
+    "description": "<!-- Summary Start -->Plastic explosive can be molded to any desired shape and will adhere to nearly any surface.<!-- Summary End --> It does not explode when burned and can only be detonated by another explosion usually provided by a blasting cap. Proper use of the explosive requires the correct skills.",
+    "accessories": ["070-000-00004"],
     "sources": [
       {
         "publication": "Traveller Wiki: Plastic Explosive",
@@ -368,7 +374,7 @@
     "techLevel": 6,
     "qrebs": "N/A",
     "image": "",
-    "description": "Siderote-7 are the processed seed pods, often made into a variety of paper products such as writing paper, card, cigarette papers, and the like. The detonation level of Siderote-7 is 110°C. The explosive effect of ignition is on par with most high explosives.",
+    "description": "<!-- Summary Start -->Siderote-7 are the processed seed pods, often made into a variety of paper products such as writing paper, card, cigarette papers, and the like.<!-- Summary End --> The detonation level of Siderote-7 is 110°C. The explosive effect of ignition is on par with most high explosives.",
     "sources": [
       {
         "publication": "Traveller Wiki: Siderote-7",
@@ -402,7 +408,8 @@
     "techLevel": 9,
     "qrebs": "N/A",
     "image": "",
-    "description": "TDX is a specialized explosive which functions perpendicular to force of gravity. When detonated, the major force is directed in the horizontal plane. As a result, it is extremely efficient in its blast effects.\n\nCommonly TDX is shipped in 2.5kg bricks, a standard for explosive charges.",
+    "description": "<!-- Summary Start -->TDX is a specialized explosive which functions perpendicular to force of gravity.<!-- Summary End --> When detonated, the major force is directed in the horizontal plane. As a result, it is extremely efficient in its blast effects.\n\nCommonly TDX is shipped in 2.5kg bricks, a standard for explosive charges.",
+    "accessories": ["070-000-00004"],
     "sources": [
       {
         "publication": "Traveller Wiki: TDX",
@@ -444,7 +451,7 @@
     "techLevel": 10,
     "qrebs": "N/A",
     "image": "",
-    "description": "Thermeld comes in 15cm long x 5cm wide x 3 cm deep strips of mildly flexible bright pink putty-like material, wrapped in yellow and black striped cellophane-like material, with a pull-strip on the base to expose a mildly adhesive base. Each strip is further wrapped in a vacuum-sealed transparent wrapping that also contains two piezo-electric initiator plugs.\n\nThermeld Strips operate in much the same way that Linear burning ropes do, but welding surfaces together in an emergency, rather than cutting them. Thermeld is not a substitute for conventional welding equipment but is a handy emergency substitute.",
+    "description": "<!-- Summary Start -->Thermeld comes in 15cm long x 5cm wide x 3 cm deep strips of mildly flexible bright pink putty-like material.<!-- Summary End --> It is wrapped in yellow and black striped cellophane-like material and comes with a pull-strip on the base to expose a mildly adhesive base. Each strip is further wrapped in a vacuum-sealed transparent wrapping that also contains two piezo-electric initiator plugs.\n\nThermeld Strips operate in much the same way that Linear burning ropes do, but welding surfaces together in an emergency, rather than cutting them. Thermeld is not a substitute for conventional welding equipment but is a handy emergency substitute.",
     "sources": [
       {
         "publication": "Traveller Wiki: Thermeld Strip",
@@ -470,7 +477,7 @@
     "techLevel": 8,
     "qrebs": "N/A",
     "image": "",
-    "description": "",
+    "description": "<!-- Summary Start -->A small coin sized charge of Thermite, designed to open locks by burning them into uselessness.<!-- Summary End --> Thin enough to slide between a door and the jam to cut the locking bolt, or simply attached to the lock itself. Ignition is a simple press of a button on the side, and equipped with a safety to prevent accidental discharge. Counts as an explosive device and restricted or banned on most worlds.",
     "sources": [
       {
         "publication": "Traveller Wiki: Thermite Lock Pick",
