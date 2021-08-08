@@ -233,7 +233,8 @@ footer {
   bottom: 0;
   left: 0;
   right: 0;
-  border-top: 1px grey solid; }
+  border-top: 1px grey solid;
+  z-index: 2; }
   footer .footer-copyright {
     max-height: 1.3rem;
     padding: 0 !important;
