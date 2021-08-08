@@ -573,9 +573,10 @@ footer {
 
 .collection-nav {
   position: fixed;
-  bottom: 3rem;
+  bottom: 3.25rem;
   height: 2rem;
   width: 100%;
-  border: transparent; }
+  border: transparent;
+  z-index: 2; }
   .collection-nav ul li a {
     font-weight: 700; }
