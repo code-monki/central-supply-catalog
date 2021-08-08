@@ -55,10 +55,10 @@
     </div>
 
     <!-- shopping cart -->
-    <div class="col s2">
-      <a href="/central-supply-catalog/shopping-cart">
-        <i class="material-icons white-text right">shopping_cart</i>
-      </a>
+    <div class="col s2 shopping-cart">
+        <a href="/central-supply-catalog/shopping-cart">
+          <i class="material-icons white-text right cart-icon">shopping_cart</i><small class="badge" id="cart-badge">10</small>
+        </a>
     </div>
 
     <!-- search bar -->
@@ -95,48 +95,46 @@
 
 </header>
 
-<main class="white black-text product-section">
+<main class="product-main">
+  <div class="container white black-text">
 
-  <div class="product-main container">
+    <div class="row product-header">
 
-    <div class="row product-main-content">
-
-      
-      <div class="col s12 m6 push-m3 l7 push-l2 xl8 push-xl2"><h1>Communicator (Advanced)</h1></div>
+      <div class="col s12 m6 push-m3 l7 push-l2 xl8 push-xl2">
+        <h1 id="product-name" data-sku="020-000-00003">Communicator (Advanced)</h1>
+      </div>
 
       <div class="product-image col s4 m3 pull-m6 l2 pull-l7 xl2 pull-xl8">
         
-        <img src="/central-supply-catalog/img/products/no-image.png" alt="Communicator (Advanced)">
+        <img src="/central-supply-catalog/img/products/no-image.png" alt="Communicator (Advanced)" id="prod-img">
         
       </div>
 
-      <div class="product-controls col s5 offset-s3 m3 l3 xl2 right valign-wrapper">
+      <div class="product-controls col s3 offset-s3 m3 l3 xl2 right">
         <div class="right">
-        <form>
-          <h5 class="right-align">500 Cr</h5>
+          <form>
+            <h5 class="right-align" id="unit-price">500 Cr</h5>
 
-          <div class="input-field quantity right">
-            <input type="number" name="qty" id="qty" min="0" max="999" value="0">
-          </div>
-          <p><br></p>
-          <div class="add-products-btn right">
-            <button type="submit" class="btn-small amber black-text" id="add-to-cart">Add</button>
-          </div>
-        </form>
+            <div class="input-field quantity right valign-wrapper">
+              <input type="number" name="qty" id="product-qty" min="0" max="999" value="1">
+            </div>
+            <p><br></p>
+            <div class="add-products-btn right">
+              <button type="submit" class="btn-small amber black-text add-to-cart" id="add-to-cart">Add</button>
+            </div>
+          </form>
         </div>
       </div>
 
-    </div> <!-- end of product-main-content row -->
-
+    </div>
     <div class="divider"></div>
-    
-    <div class="row product-description">
 
+    <div class="row product-description">
       <div class="description-content col s12 m9">
         <h5>Product Description</h5>
         <!-- Summary Start -->The best-quality communicator fabricated in the Imperium.<!-- Summary End --> Engineered to the same basic requirements as the standard model, this version is built to see years of heavy and rough use. Its "unfailing"-grade electronics are nestlend within an unparalleled ergonomic case that conforms to the owner's hand by way of a mutable smar-surface. The case is tamper-proof, and its PowerCell has emergency internal breakers which will prevent shorting out under any circumstance which would not also kill the bearer.
       </div>
-    
+
       <div class="product-details col s12 m3">
         <table>
           <thead>
@@ -176,7 +174,6 @@
     <div class="divider"></div>
 
     
-    <div class="divider"></div>
 
     <div class="row product-source">
       <h6>Sources</h6>
@@ -194,8 +191,12 @@
       
     </div>
 
-  </div> <!-- product main container -->
+  </div>
+
+
 </main>
+
+
 
 <footer class="page-footer black">
   <div class="footer-copyright">

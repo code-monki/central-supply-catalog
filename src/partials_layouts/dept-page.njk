@@ -23,7 +23,7 @@
         {% set prodlink = "/products/" + product.sku %}
         {{ prodlink | log }}
         <a href="{{ prodlink | url}}"><h6>{{ product.name }}</h6></a>
-        <p>{%- summary product.description -%}</p>
+        <p>{%- summary product.description | markdown  -%}</p>
         <div class="valign-wrapper">
           <h5 class="right-align">{{ product.cost | costLabel }}</h5>
         </div>
