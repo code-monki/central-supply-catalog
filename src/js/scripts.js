@@ -86,12 +86,12 @@ const removeItem = (sku) => {
 const updateItemQty = (sku, qty) => {
   let cart = JSON.parse(localStorage.getItem(cartKey));
   let item = cart.find((s) => s.sku === sku);
-  if (qty < 0) qty = 0
-  
+  if (qty < 0) qty = 0;
+
   if ((item === null) | (item === undefined)) {
     console.log(`Sku: ${sku} is not in cart`);
   } else {
-    item.qty = qty
+    item.qty = qty;
   }
   localStorage.setItem(cartKey, JSON.stringify(cart));
   updateCartUI();
@@ -114,31 +114,39 @@ const updateCartUI = () => {
     cart.forEach((item) => {
       text += `
       <div class="row product-row">
+
         <div class="prod-img col s3 m2 l2">
           <a href="#">
             <img src="${item.image}" class="responsive-img" alt="${item.name}">
           </a>
         </div>
 
-        <div class="prod-details col s5 m7 l7">
+        <div class="col s9 m10">
+          <div class="row">
 
-          <div class="prod-title">
-              <a href="{{ ../products/${item.name} | url }}" data-sku="${item.sku}" class="item-name">${item.name}</a>
+            <div class="prod-title col s8">
+                <a href="{{ ../products/${item.name} | url }}" data-sku="${item.sku}" class="item-name">${item.name}</a>
+            </div>
+
+            <div class="prod-total col s4 right-align right">
+              ${setUnitLabel(item.qty * item.unitPrice)}
+            </div>
+
           </div>
 
-          <div class="prod-qty">
-            <form>
-                <button><i class="fa fa-minus subtract-btn"></i></button>
-                <input type="number" class="qty" value="${item.qty}">
-                <button><i class="fa fa-plus add-btn"></i></button>
-                <button class="remove-item"><i class="fa fa-trash"></i></button>
-            </form>
+          <div class="row">
+            <div class="col s12 prod-qty">
+              <form>
+                  <button><i class="fa fa-minus subtract-btn"></i></button>
+                  <input type="number" class="qty" value="${item.qty}">
+                  <button><i class="fa fa-plus add-btn"></i></button>
+                  <button class="remove-item"><i class="fa fa-trash"></i></button>
+              </form>
+            </div>
           </div>
         </div>
 
-      <div class="prod-total col s3 m2 l2 right-align right">
-        ${setUnitLabel(item.qty * item.unitPrice)}
-      </div>
+        </div>
 
       </div>
       `;
