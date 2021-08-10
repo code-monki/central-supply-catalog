@@ -136,12 +136,10 @@ const updateCartUI = () => {
 
           <div class="row">
             <div class="col s12 prod-qty">
-              <form>
                   <button><i class="fa fa-minus subtract-btn"></i></button>
                   <input type="number" class="qty" value="${item.qty}">
                   <button><i class="fa fa-plus add-btn"></i></button>
                   <button class="remove-item"><i class="fa fa-trash"></i></button>
-              </form>
             </div>
           </div>
         </div>
@@ -174,18 +172,20 @@ if (cartItemsList !== null && cartItemsList !== undefined) {
     if (e.target.className === "qty") {
       let qtyNode = e.target.parentNode.parentNode.querySelector(".qty");
       let qty = Number(qtyNode.value);
-      let sku = e.target.parentNode.parentNode.parentNode.parentNode.querySelector(".item-name").dataset.sku;
-      updateItemQty(sku, qty);
+      // let sku = e.target.parentNode.parentNode.parentNode.querySelector(".item-name").dataset.sku;
+      // updateItemQty(sku, qty);
     }
   });
 
   // event for handling button clicks
   cartItemsList.addEventListener("click", (e) => {
     e.preventDefault;
+    // console.log(e.target.parentNode.parentNode.parentNode.parentNode.parentNode.querySelector('.item-name').dataset.sku)
 
     let qtyNode = e.target.parentNode.parentNode.querySelector(".qty");
     let qty = Number(qtyNode.value);
-    let sku = e.target.parentNode.parentNode.parentNode.parentNode.querySelector(".item-name").dataset.sku;
+
+    let sku = e.target.parentNode.parentNode.parentNode.parentNode.parentNode.querySelector(".item-name").dataset.sku;
 
     if (e.target.className.includes("fa-minus")) {
       // update the cart

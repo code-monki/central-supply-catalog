@@ -6,6 +6,7 @@
   bottom: 5rem;
   background-color: white !important;
   overflow-y: auto;
+  z-index: 2;
 
   & .sticky {
     position: sticky;
@@ -80,7 +81,7 @@
           }
         }  
 
-        & form {
+        & .prod-qty {
           display: inline;
 
           & button {
