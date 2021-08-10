@@ -388,7 +388,8 @@ footer {
   right: 0;
   bottom: 5rem;
   background-color: white !important;
-  overflow-y: auto; }
+  overflow-y: auto;
+  z-index: 2; }
   .cart-div .sticky {
     position: sticky;
     top: 0;
@@ -419,6 +420,7 @@ footer {
         height: 5rem;
         -o-object-fit: contain;
            object-fit: contain;
+        border: 1px solid #ccc;
         box-shadow: 1px 1px 1px grey; }
       .cart-div .cart-items-container .product-row .row .prod-title {
         font-size: 1rem;
@@ -432,26 +434,26 @@ footer {
         @media screen and (min-width: 48rem) {
           .cart-div .cart-items-container .product-row .row .prod-total {
             font-size: 1.2rem !important; } }
-      .cart-div .cart-items-container .product-row .row form {
+      .cart-div .cart-items-container .product-row .row .prod-qty {
         display: inline; }
-        .cart-div .cart-items-container .product-row .row form button {
+        .cart-div .cart-items-container .product-row .row .prod-qty button {
           padding: 0;
           font-size: .75rem !important; }
           @media screen and (min-width: 48rem) {
-            .cart-div .cart-items-container .product-row .row form button {
+            .cart-div .cart-items-container .product-row .row .prod-qty button {
               font-size: 1rem !important;
               padding: .2rem; } }
-        .cart-div .cart-items-container .product-row .row form input {
+        .cart-div .cart-items-container .product-row .row .prod-qty input {
           max-width: 1.5rem;
           border: 1px solid grey;
           height: 1.2rem;
           padding-left: .5rem;
           font-size: .8rem; }
           @media screen and (min-width: 48rem) {
-            .cart-div .cart-items-container .product-row .row form input {
+            .cart-div .cart-items-container .product-row .row .prod-qty input {
               font-size: 1rem;
               height: 1.6rem; } }
-        .cart-div .cart-items-container .product-row .row form .remove-item {
+        .cart-div .cart-items-container .product-row .row .prod-qty .remove-item {
           margin-left: 1rem; }
 
 .browse-page-container {
