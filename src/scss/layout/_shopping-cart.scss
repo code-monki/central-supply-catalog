@@ -72,13 +72,17 @@
         & form {
           display: inline;
 
+          & button {
+            padding: 0 .2rem;
+          }
+
+
           & input {
             max-width: 2rem;
             border: 1px solid grey;
             height: 1.2rem;
             padding-left: .5rem;
             font-size: .8rem;
-
           }
 
           & .remove-item {

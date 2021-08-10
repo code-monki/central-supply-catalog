@@ -21,7 +21,6 @@
 
       <div class="product-summary col s9 m10">
         {% set prodlink = "/products/" + product.sku %}
-        {{ prodlink | log }}
         <a href="{{ prodlink | url}}"><h6>{{ product.name }}</h6></a>
         <p>{%- summary product.description | markdown  -%}</p>
         <div class="valign-wrapper">
@@ -40,8 +39,6 @@
     <div class="col s12">
     <ul class="pagination center-align">
       {%- for page in pagination.pages -%}
-      {{ loop.index | log}}
-      {{ pagination.hrefs[ loop.index] | log }}
       <li>
         <a href="{{ pagination.hrefs[ loop.index - 1 ] | url }}" class="red-text" {%- if pagination.hrefs[ loop.index - 0] == page.url -%}aria-current="page"{% endif -%}>{{ loop.index }}</a></li>
       {% endfor %}
