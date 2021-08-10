@@ -444,7 +444,7 @@ footer {
               font-size: 1rem !important;
               padding: .2rem; } }
         .cart-div .cart-items-container .product-row .row .prod-qty input {
-          max-width: 1.5rem;
+          max-width: 2rem;
           border: 1px solid grey;
           height: 1.2rem;
           padding-left: .5rem;

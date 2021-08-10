@@ -172,8 +172,8 @@ if (cartItemsList !== null && cartItemsList !== undefined) {
     if (e.target.className === "qty") {
       let qtyNode = e.target.parentNode.parentNode.querySelector(".qty");
       let qty = Number(qtyNode.value);
-      // let sku = e.target.parentNode.parentNode.parentNode.querySelector(".item-name").dataset.sku;
-      // updateItemQty(sku, qty);
+      let sku = e.target.parentNode.parentNode.parentNode.querySelector(".item-name").dataset.sku;
+      updateItemQty(sku, qty);
     }
   });
 
