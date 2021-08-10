@@ -430,7 +430,12 @@ footer {
       .cart-div .cart-items-container .product-row .prod-details form {
         display: inline; }
         .cart-div .cart-items-container .product-row .prod-details form button {
-          padding: 0 .2rem; }
+          padding: 0;
+          font-size: .75rem !important; }
+          @media screen and (min-width: 48rem) {
+            .cart-div .cart-items-container .product-row .prod-details form button {
+              font-size: 1rem !important;
+              padding: .2rem; } }
         .cart-div .cart-items-container .product-row .prod-details form input {
           max-width: 2rem;
           border: 1px solid grey;

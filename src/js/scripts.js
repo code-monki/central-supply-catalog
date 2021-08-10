@@ -128,10 +128,10 @@ const updateCartUI = () => {
 
           <div class="prod-qty">
             <form>
-                <button><i class="fa fa-minus fa-xs subtract-btn"></i></button>
+                <button><i class="fa fa-minus subtract-btn"></i></button>
                 <input type="number" class="qty" value="${item.qty}">
-                <button><i class="fa fa-plus fa-xs add-btn"></i></button>
-                <button class="remove-item"><i class="fa fa-trash fa-xs"></i></button>
+                <button><i class="fa fa-plus add-btn"></i></button>
+                <button class="remove-item"><i class="fa fa-trash"></i></button>
             </form>
           </div>
         </div>
