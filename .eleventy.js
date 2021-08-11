@@ -1,4 +1,3 @@
-const { text } = require("cheerio/lib/api/manipulation");
 const Path = require("path");
 const fs = require("fs");
 const markdownIt = require("markdown-it");
@@ -6,6 +5,7 @@ const mfrData = require("./progdata/manufacturers.json");
 const categoriesData = require("./progdata/categories.json");
 const departmentsData = require("./progdata/departments.json");
 const slugify = require("slugify");
+
 
 const basePath = process.env.ELEVENTY_ENV === "prod" ? "/central-supply-catalog" : "";
 const buildDest = process.env.ELEVENTY_ENV === "prod" ? "docs" : "build";
