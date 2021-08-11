@@ -257,7 +257,7 @@ footer {
   height: 100%;
   max-height: 100%;
   position: fixed;
-  top: 6rem;
+  top: 2rem;
   left: 0rem;
   right: 0rem;
   bottom: 3rem; }
@@ -271,12 +271,12 @@ footer {
     position: fixed;
     left: 0;
     right: 0;
-    top: 9rem;
+    top: 11rem;
     bottom: 0;
     overflow-y: auto; }
     @media screen and (min-width: 64rem) {
       .home-page .container {
-        top: 12rem; } }
+        top: 14rem; } }
     .home-page .container .row:last-child {
       margin-bottom: 4rem; }
     .home-page .container .row .dept-btn {
