@@ -362,6 +362,10 @@ footer {
       @media screen and (min-width: 48rem) {
         .product-main .container .product-description .description-content p {
           padding-right: 1rem; } }
+    .product-main .container .product-description .description-content ul li {
+      margin-left: 1rem;
+      list-style-type: disc;
+      list-style-position: inside; }
     .product-main .container .product-accessories h6 {
       font-weight: bold;
       margin: .67rem; }
