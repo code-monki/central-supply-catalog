@@ -261,7 +261,7 @@ footer {
   left: 0rem;
   right: 0rem;
   bottom: 3rem; }
-  @media screen and (min-width: 64rem) {
+  @media screen and (min-width: 48rem) {
     .home-page {
       top: 8rem; } }
   .home-page h1 {
