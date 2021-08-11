@@ -31,7 +31,6 @@
     "@babel/preset-env": "^7.14.4",
     "babel-cli": "^6.26.0",
     "browser-sync": "^2.26.14",
-    "cheerio": "^1.0.0-rc.9",
     "debug": "^4.3.2",
     "del": "^2.2.2",
     "fs": "^0.0.1-security",
