@@ -224,7 +224,7 @@ const buildCategoryCard = (category) => {
 const urlSafe = (text) => {
   let txt = text
     .replace(/[\,\"\.\*\@\!\?\<\>\&\^\%\$\#\~\`]/g, "")
-    .replace(" ", "-")
+    .replace(/\s+/, "-")
     .toLowerCase();
 
   return txt;
