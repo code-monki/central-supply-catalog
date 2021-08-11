@@ -7,7 +7,7 @@
   right: 0rem;
   bottom: 3rem;
 
-  @include response(lg) {
+  @include response(md) {
     top: 8rem;
   }
 
