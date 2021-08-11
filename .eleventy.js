@@ -147,6 +147,7 @@ module.exports = function (eleventyConfig) {
   //-------------------------------------------------------------
   eleventyConfig.addShortcode("buildDepartmentCards", () => {
     let text = "";
+    console.log(`Using ${basePath} for links`);
     departmentsData.forEach((dept) => {
       if (dept.id.substr(-3) === "000") {
           text += `<div class="dept-btn col s6 m3 l3 center">`;
@@ -160,6 +161,7 @@ module.exports = function (eleventyConfig) {
       }
     });
 
+    console.log(text);
     return text;
   });
 
