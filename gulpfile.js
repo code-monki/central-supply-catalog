@@ -1,5 +1,5 @@
 const { src, dest, series, parallel, watch } = require("gulp");
-
+const path = require("path");
 const cp = require("child_process");
 const sass = require("gulp-sass");
 const cssnano = require("gulp-cssnano");
@@ -15,18 +15,24 @@ const babel = require("gulp-babel");
 const browserSync = require("browser-sync").create();
 const glob = require("glob");
 const fs = require("fs");
-const cheerio = require("cheerio");
 const del = require("del");
+const miniSearch = require("minisearch");
 
 // determine whether the operating system is Windows or a Unix variant
 const platform = process.platform;
 
+// set output directory
+let OUTPUT_DIR = "";
+
 // Use Eleventy to build the site in the 'build' folder
 const render = () => {
+  OUTPUT_DIR = process.env.ELEVENTY_ENV = "./build/_data";
+
   return cp.spawn("npx", ["eleventy", "--quiet"], { shell: true, stdio: "inherit" });
 };
 
 const render_prod = () => {
+  OUTPUT_DIR = process.env.ELEVENTY_ENV = "./docs/_data";
   let platformScript = platform === "win32" || platform === "win64" ? "win-prod" : "prod";
   return cp.spawn("npm", ["run", platformScript, "--quiet"], { shell: true, stdio: "inherit" });
 };
@@ -40,10 +46,10 @@ const processHTML = () => {
 
 // create SEO sitemap
 const siteMap = () => {
-  console.log('Running siteMap')
+  console.log("Running siteMap");
   return src("./docs/**/*.html", { read: false })
     .pipe(save("before-sitemap"))
-    .pipe(sitemap({ siteUrl: "https://cmcknight.github.io/central-supply-catalog/"}))
+    .pipe(sitemap({ siteUrl: "https://cmcknight.github.io/central-supply-catalog/" }))
     .pipe(removeEmptyLines())
     .pipe(dest("./docs"))
     .pipe(save.restore("before-sitemap"));
@@ -52,12 +58,12 @@ const siteMap = () => {
 // process SASS files (autoprefix for cross-browser compatibility, minify)
 const processSASS = () => {
   return src("./src/scss/*.scss")
-         .pipe(sass())
-         .pipe(autoprefixer())
-         .pipe(dest('./docs/css'))
-         .pipe(rename({suffix: '.min'}))
-         .pipe(cssnano())
-         .pipe(dest("./docs/css"));
+    .pipe(sass())
+    .pipe(autoprefixer())
+    .pipe(dest("./docs/css"))
+    .pipe(rename({ suffix: ".min" }))
+    .pipe(cssnano())
+    .pipe(dest("./docs/css"));
 };
 
 // process Javascript files (babel for cross-browser compatiblity, minify)
@@ -87,7 +93,7 @@ const optimizeImages = () => {
 
 // build the site search index
 const buildSiteIndex = async () => {
-  await buildIndex();
+  buildIndex();
 };
 
 // copy the search index
@@ -106,7 +112,7 @@ const CopyFilesFolder = () => {
 };
 
 // clean the dist folder
-const cleanDist = () => {
+const cleanDocs = () => {
   return del("./docs/**/*");
 };
 
@@ -130,10 +136,8 @@ const monitor = () => {
 // build the dist folder contents for localhost
 exports.default = series(
   cleanBuild,
-  cleanDist,
   render,
-  // buildSiteIndex,
-  // copyIndexFile,
+  buildSiteIndex,
   processHTML,
   processSASS,
   processJavascript,
@@ -143,18 +147,16 @@ exports.default = series(
   CopyFilesFolder
 );
 
-// build the dist folder contents for localhost
+// build the dist folder contents for production
 exports.production = series(
-  cleanBuild,
-  cleanDist,
+  cleanDocs,
   render_prod,
   processHTML,
   processSASS,
   processJavascript,
   optimizeImages,
   siteMap,
-  // buildSiteIndex,
-  // copyIndexFile,
+  buildSiteIndex,
   copyRobotsText,
   CopyFilesFolder
 );
@@ -166,61 +168,45 @@ exports.monitor = monitor;
 exports.clean_build = cleanBuild;
 
 // clear the contents of the dist folder
-exports.clean_dist = cleanDist;
+exports.clean_dist = cleanDocs;
 
 // clear the contents of the build and dist folders
-exports.clean_all = parallel(cleanBuild, cleanDist);
+exports.clean_all = parallel(cleanBuild, cleanDocs);
+
+exports.build_index = buildSiteIndex;
 
 // Build the site index from the HTML files
 const buildIndex = () => {
-  const jsonDocs = [];
-  const EXCLUDES = [
-    "**/node_modules/**",
-    "**/categories/**",
-    "**/tags/**",
-    "**/docs/**",
-    "**/articles/**",
-    "**/authors/**",
-  ];
-  const OUTPUT_DIR = "src/data";
-  const INCLUDE_PATTERN = "dist/**/*.html";
+  const inputFiles = JSON.parse(fs.readFileSync("src/_data/manifest.json"));
 
-  const myList = glob.sync(INCLUDE_PATTERN, { ignore: EXCLUDES });
+  console.log("In buildSiteIndex");
 
-  // convert HTML documents into JSON documents for array
-  for (let i = 0; i < myList.length; i++) {
-    let indexObj = {};
+  let idCounter = 0;
 
-    // load the file into a string
-    let htmldoc = fs.readFileSync(myList[i], "utf8");
-    let $ = cheerio.load(htmldoc);
+  let ms = new miniSearch({
+    fields: ["name", "type", "subtype", "description"],
+    storeFields: ["sku", "name", "description", "cost"],
+  });
 
-    // build the JSON document
-    indexObj.id = i;
-    indexObj.ref = myList[i].replace("dist", "");
+  inputFiles.forEach((file) => {
+    // get the products from the file
+    let products = JSON.parse(fs.readFileSync(`src/_data/${file}.json`));
 
-    let title = $("title");
-    indexObj.title = $("title").text();
-    indexObj.text = " ";
-
-    // Concatenate the text from the paragraph tags
-    $("p").each(function (i, e) {
-      let str = $(this).text().trim().replace(/\s+/g, " ");
-
-      if (str.length > 0) {
-        indexObj.text += str + " ";
-      }
+    // build search index object and add to search index
+    products.forEach((product) => {
+      product.id = idCounter++;
+      ms.add(product);
     });
+  });
 
-    indexObj.text = indexObj.text.trim();
+  // create the output directory
+  fs.mkdir(OUTPUT_DIR, (err) => {
+    if (err && err.code != "EEXIST") throw "up";
 
-    // add the object to the array of JSON docs
-    jsonDocs.push(indexObj);
-  }
-
-  // save the index to disk
-  fs.writeFile(OUTPUT_DIR + "/searchIndex.idx", JSON.stringify(jsonDocs), function (err) {
-    if (err) throw err;
-    console.log("Index saved.");
+    // write the index
+    fs.writeFile(path.join(OUTPUT_DIR, "searchindex.idx"), JSON.stringify(ms), function (err) {
+      if (err) console.error(err);
+      console.log("Index saved.");
+    });
   });
 };
