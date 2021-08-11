@@ -112,7 +112,7 @@ const CopyFilesFolder = () => {
 };
 
 // clean the dist folder
-const cleanDocs = () => {
+const cleanProd = () => {
   return del("./docs/**/*");
 };
 
@@ -149,7 +149,7 @@ exports.default = series(
 
 // build the dist folder contents for production
 exports.production = series(
-  cleanDocs,
+  cleanProd,
   render_prod,
   processHTML,
   processSASS,
@@ -168,16 +168,16 @@ exports.monitor = monitor;
 exports.clean_build = cleanBuild;
 
 // clear the contents of the dist folder
-exports.clean_dist = cleanDocs;
+exports.clean_prod = cleanProd;
 
 // clear the contents of the build and dist folders
-exports.clean_all = parallel(cleanBuild, cleanDocs);
+exports.clean_all = parallel(cleanBuild, cleanProd);
 
 exports.build_index = buildSiteIndex;
 
 // Build the site index from the HTML files
 const buildIndex = () => {
-  const inputFiles = JSON.parse(fs.readFileSync("src/_data/manifest.json"));
+  const inputFiles = JSON.parse(fs.readFileSync("src/_data/products-manifest.json"));
 
   console.log("In buildSiteIndex");
 
