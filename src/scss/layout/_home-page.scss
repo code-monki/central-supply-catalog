@@ -2,12 +2,12 @@
   height: 100%;
   max-height: 100%;
   position: fixed;
-  top: 6rem;
+  top: 8rem;
   left: 0rem;
   right: 0rem;
   bottom: 3rem;
 
-  @include response(lg) {
+  @include response(md) {
     top: 8rem;
   }
 
@@ -20,12 +20,12 @@
     position: fixed;
     left: 0;
     right: 0;
-    top: 9rem;
+    top: 11rem;
     bottom: 0;
     overflow-y: auto;
 
     @include response(lg) {
-      top: 12rem;
+      top: 14rem;
     }
 
     & .row {

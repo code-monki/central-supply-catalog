@@ -257,11 +257,11 @@ footer {
   height: 100%;
   max-height: 100%;
   position: fixed;
-  top: 6rem;
+  top: 8rem;
   left: 0rem;
   right: 0rem;
   bottom: 3rem; }
-  @media screen and (min-width: 64rem) {
+  @media screen and (min-width: 48rem) {
     .home-page {
       top: 8rem; } }
   .home-page h1 {
@@ -271,12 +271,12 @@ footer {
     position: fixed;
     left: 0;
     right: 0;
-    top: 9rem;
+    top: 11rem;
     bottom: 0;
     overflow-y: auto; }
     @media screen and (min-width: 64rem) {
       .home-page .container {
-        top: 12rem; } }
+        top: 14rem; } }
     .home-page .container .row:last-child {
       margin-bottom: 4rem; }
     .home-page .container .row .dept-btn {
@@ -362,6 +362,10 @@ footer {
       @media screen and (min-width: 48rem) {
         .product-main .container .product-description .description-content p {
           padding-right: 1rem; } }
+    .product-main .container .product-description .description-content ul li {
+      margin-left: 1rem;
+      list-style-type: disc;
+      list-style-position: inside; }
     .product-main .container .product-accessories h6 {
       font-weight: bold;
       margin: .67rem; }

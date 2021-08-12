@@ -5,15 +5,15 @@
     "description": "Filter masks, rebreathers, air tanks.",
     "subDept": [],
     "data": "./src/_data/breathing-apparatus-products.json",
-    "icon": "/img/breathing-apparatus.svg"
+    "icon": "breathing-apparatus.svg"
   },
   {
     "id": "020-000",
     "label": "Comms",
     "description": "Telecommunication equipment.",
     "subDept": ["030-001"],
-    "data": "./src/_data/comm-products.json",
-    "icon": "/img/comms.svg"
+    "data": ". src/_data/comm-products.json",
+    "icon": "comms.svg"
   },
   {
     "id": "030-000",
@@ -21,7 +21,7 @@
     "description": "Devices that provide the ability to store and process information.",
     "subDept": [],
     "data": "./src/_data/computer-products.json",
-    "icon": "/img/computers.svg"
+    "icon": "computers.svg"
   },
   {
     "id": "030-001",
@@ -34,7 +34,7 @@
     "description": "Tools & Materials used for construction",
     "subDept": ["050-001"],
     "data": "./src/_data/construction-products.json",
-    "icon": "/img/construction.svg"
+    "icon": "construction.svg"
   },
   {
     "id": "040-001",
@@ -46,33 +46,33 @@
     "label": "Drugs, Medical",
     "description": "Prescription pharmaceuticals, Medical equipment.",
     "data": "./src/_data/drugs-medical-products.json",
-    "icon": "/img/medical.svg"
+    "icon": "medical.svg"
   },
   {
     "id": "060-000",
     "label": "Emitters",
     "description": "Electronic devices capable of transmitting a signal.",
     "data": "./src/_data/emitters-products.json",
-    "icon": "/img/emitters.svg"
+    "icon": "emitters.svg"
   },
   {
     "id": "070-000",
     "label": "Explosives",
     "description": "Reactive substances that can be made to explode.",
     "data": "./src/_data/explosives-products.json",
-    "icon": "/img/explosives.svg"
+    "icon": "explosives.svg"
   },
   {
     "id": "080-000",
     "label": "Food & Drinks",
     "description": "A variety of food and beverage items.",
-    "icon": "/img/food-drinks.svg"
+    "icon": "food-drinks.svg"
   },
   {
     "id": "090-000",
     "label": "Power Supplies",
     "description": "Devices that provide power.",
-    "icon": "/img/power-supplies.svg"
+    "icon": "power-supplies.svg"
   },
   {
     "id": "100-000",
@@ -80,7 +80,7 @@
     "description": "Equipment to provide protection against hostile environments",
     "subDept": ["110-001", "110-002", "110-003", "110-004", "110-005"],
     "data": "./src/_data/protections-products.json",
-    "icon": "/img/protections.svg"
+    "icon": "protections.svg"
   },
   {
     "id": "100-001",
@@ -119,7 +119,7 @@
     "description": "A collection of autonomous and semi-autonomous machines.",
     "subDept": ["110-001", "110-002", "110-003"],
     "data": "./src/_data/robots-products.json",
-    "icon": "/img/robots.svg"
+    "icon": "robots.svg"
   },
   {
     "id": "110-001",
@@ -141,21 +141,21 @@
     "label": "Sensory Aids",
     "description": "A collection of equipment to enhance the sophont's senses.",
     "data": "./src/_data/sensory-aids-products.json",
-    "icon": "/img/sensory-aids.svg"
+    "icon": "sensory-aids.svg"
   },
   {
     "id": "130-000",
     "label": "Structures, Shelters",
     "description": "Permanent and temporary structures",
     "data": "./src/_data/structures-shelters-products.json",
-    "icon": "/img/structures-shelters.svg"
+    "icon": "structures-shelters.svg"
   },
   {
     "id": "140-000",
     "label": "Tools & Toolkits",
     "description": "A collection of tools and toolkits.",
     "data": "./src/tools-toolkits.json",
-    "icon": "/img/toolkits.svg"
+    "icon": "toolkits.svg"
   },
   {
     "id": "150-000",
@@ -163,7 +163,7 @@
     "description": "A collection of personal vehicles.",
     "subDept": ["150-001", "150-002"],
     "data": "./src/_data/vehicles-products.json",
-    "icon": "/img/vehicles.svg"
+    "icon": "vehicles.svg"
   },
   {
     "id": "150-001",
@@ -194,7 +194,7 @@
       "160-012"
     ],
     "data": "./src/_data/weapons-products.json",
-    "icon": "/img/weapons.svg"
+    "icon": "weapons.svg"
   },
   {
     "id": "160-001",
