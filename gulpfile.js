@@ -18,29 +18,43 @@ const fs = require("fs");
 const del = require("del");
 const miniSearch = require("minisearch");
 
+
 // determine whether the operating system is Windows or a Unix variant
 const platform = process.platform;
 
 // set output directory
-let OUTPUT_DIR = "";
+let INDEX_OUTPUT_DIRECTORY = "";
+
+// set build type
 
 // Use Eleventy to build the site in the 'build' folder
-const render = () => {
-  OUTPUT_DIR = process.env.ELEVENTY_ENV = "./build/_data";
-
-  return cp.spawn("npx", ["eleventy", "--quiet"], { shell: true, stdio: "inherit" });
+const render = (cb) => {
+  process.env.ELEVENTY_DEST = './build'
+  process.env.ELEVENTY_PREFIX=''
+  INDEX_OUTPUT_DIRECTORY = "./build/_data";
+  // return cp.spawn("npx", ["eleventy", "--quiet"], { shell: true, stdio: "inherit"});
+  cb()
 };
 
-const render_prod = () => {
-  OUTPUT_DIR = process.env.ELEVENTY_ENV = "./docs/_data";
-  // let platformScript = platform === "win32" || platform === "win64" ? "win-prod" : "prod";
-  let platformScript = "prod"
-  return cp.spawn("npm", ["run", platformScript, "--quiet"], { shell: true, stdio: "inherit" });
+const render_prod = (cb) => {
+  INDEX_OUTPUT_DIRECTORY = "./docs/_data";
+  let buildType = "prod"
+  cp.execSync('npm run prod')
+  cb()
+  // return cp.spawn("npm", ["run", buildType, "--quiet"], {
+  //   shell: true,
+  //   stdio: "inherit",
+  //   env: Object.assign({}, process.env, {
+  //     ELEVENTY_DEST: "./docs",
+  //     ELEVENTY_PREFIX: "/central-supply-catalog",
+  //   })
+  // });
+  cb()
 };
 
 // process HTML files (minify)
 const processHTML = () => {
-  return src("build/**/*.html")
+  return src("docs/**/*.html")
     .pipe(htmlmin({ collapseWhitespace: true }))
     .pipe(dest("./docs"));
 };
@@ -136,28 +150,14 @@ const monitor = () => {
 
 // build the dist folder contents for localhost
 exports.default = series(
-  cleanBuild,
-  render,
-  buildSiteIndex,
-  processHTML,
-  processSASS,
-  processJavascript,
-  optimizeImages,
-  siteMap,
-  copyRobotsText,
-  CopyFilesFolder
-);
-
-// build the dist folder contents for production
-exports.production = series(
   cleanProd,
   render_prod,
+  buildSiteIndex,
   processHTML,
   processSASS,
   processJavascript,
   optimizeImages,
   siteMap,
-  buildSiteIndex,
   copyRobotsText,
   CopyFilesFolder
 );
@@ -165,16 +165,8 @@ exports.production = series(
 // Monitor the site in the dist folder
 exports.monitor = monitor;
 
-// clear the contents of the build folder
-exports.clean_build = cleanBuild;
-
 // clear the contents of the dist folder
 exports.clean_prod = cleanProd;
-
-// clear the contents of the build and dist folders
-exports.clean_all = parallel(cleanBuild, cleanProd);
-
-exports.build_index = buildSiteIndex;
 
 // Build the site index from the HTML files
 const buildIndex = () => {
@@ -201,11 +193,11 @@ const buildIndex = () => {
   });
 
   // create the output directory
-  fs.mkdir(OUTPUT_DIR, (err) => {
+  fs.mkdir(INDEX_OUTPUT_DIRECTORY, (err) => {
     if (err && err.code != "EEXIST") throw "up";
 
     // write the index
-    fs.writeFile(path.join(OUTPUT_DIR, "searchindex.idx"), JSON.stringify(ms), function (err) {
+    fs.writeFile(path.join(INDEX_OUTPUT_DIRECTORY, "searchindex.idx"), JSON.stringify(ms), function (err) {
       if (err) console.error(err);
       console.log("Index saved.");
     });
