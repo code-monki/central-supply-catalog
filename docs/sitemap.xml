@@ -5,11 +5,11 @@
         <lastmod>2021-08-11T22:59:29.000Z</lastmod>
     </url>
     <url>
-        <loc>https://cmcknight.github.io/central-supply-catalog/about-the-central-supply-catalog/</loc>
+        <loc>https://cmcknight.github.io/central-supply-catalog/shopping-cart/</loc>
         <lastmod>2021-08-11T22:59:29.000Z</lastmod>
     </url>
     <url>
-        <loc>https://cmcknight.github.io/central-supply-catalog/shopping-cart/</loc>
+        <loc>https://cmcknight.github.io/central-supply-catalog/about-the-central-supply-catalog/</loc>
         <lastmod>2021-08-11T22:59:29.000Z</lastmod>
     </url>
     <url>
@@ -21,11 +21,7 @@
         <lastmod>2021-08-11T22:59:29.000Z</lastmod>
     </url>
     <url>
-        <loc>https://cmcknight.github.io/central-supply-catalog/departments/construction/</loc>
-        <lastmod>2021-08-11T22:59:29.000Z</lastmod>
-    </url>
-    <url>
-        <loc>https://cmcknight.github.io/central-supply-catalog/departments/drugs-medical/</loc>
+        <loc>https://cmcknight.github.io/central-supply-catalog/departments/emitters/</loc>
         <lastmod>2021-08-11T22:59:29.000Z</lastmod>
     </url>
     <url>
@@ -33,7 +29,11 @@
         <lastmod>2021-08-11T22:59:29.000Z</lastmod>
     </url>
     <url>
-        <loc>https://cmcknight.github.io/central-supply-catalog/departments/emitters/</loc>
+        <loc>https://cmcknight.github.io/central-supply-catalog/departments/construction/</loc>
+        <lastmod>2021-08-11T22:59:29.000Z</lastmod>
+    </url>
+    <url>
+        <loc>https://cmcknight.github.io/central-supply-catalog/departments/drugs-medical/</loc>
         <lastmod>2021-08-11T22:59:29.000Z</lastmod>
     </url>
     <url>
@@ -57,15 +57,11 @@
         <lastmod>2021-08-11T22:59:29.000Z</lastmod>
     </url>
     <url>
-        <loc>https://cmcknight.github.io/central-supply-catalog/products/010-000-00004/</loc>
-        <lastmod>2021-08-11T22:59:29.000Z</lastmod>
-    </url>
-    <url>
         <loc>https://cmcknight.github.io/central-supply-catalog/products/010-000-00005/</loc>
         <lastmod>2021-08-11T22:59:29.000Z</lastmod>
     </url>
     <url>
-        <loc>https://cmcknight.github.io/central-supply-catalog/products/010-000-00007/</loc>
+        <loc>https://cmcknight.github.io/central-supply-catalog/products/010-000-00004/</loc>
         <lastmod>2021-08-11T22:59:29.000Z</lastmod>
     </url>
     <url>
@@ -73,7 +69,15 @@
         <lastmod>2021-08-11T22:59:29.000Z</lastmod>
     </url>
     <url>
+        <loc>https://cmcknight.github.io/central-supply-catalog/products/010-000-00007/</loc>
+        <lastmod>2021-08-11T22:59:29.000Z</lastmod>
+    </url>
+    <url>
         <loc>https://cmcknight.github.io/central-supply-catalog/products/010-000-00008/</loc>
+        <lastmod>2021-08-11T22:59:29.000Z</lastmod>
+    </url>
+    <url>
+        <loc>https://cmcknight.github.io/central-supply-catalog/products/010-000-00009/</loc>
         <lastmod>2021-08-11T22:59:29.000Z</lastmod>
     </url>
     <url>
@@ -86,10 +90,6 @@
     </url>
     <url>
         <loc>https://cmcknight.github.io/central-supply-catalog/products/010-000-00012/</loc>
-        <lastmod>2021-08-11T22:59:29.000Z</lastmod>
-    </url>
-    <url>
-        <loc>https://cmcknight.github.io/central-supply-catalog/products/010-000-00009/</loc>
         <lastmod>2021-08-11T22:59:29.000Z</lastmod>
     </url>
     <url>
@@ -109,7 +109,7 @@
         <lastmod>2021-08-11T22:59:29.000Z</lastmod>
     </url>
     <url>
-        <loc>https://cmcknight.github.io/central-supply-catalog/products/010-000-00020/</loc>
+        <loc>https://cmcknight.github.io/central-supply-catalog/products/010-000-00017/</loc>
         <lastmod>2021-08-11T22:59:29.000Z</lastmod>
     </url>
     <url>
@@ -121,7 +121,7 @@
         <lastmod>2021-08-11T22:59:29.000Z</lastmod>
     </url>
     <url>
-        <loc>https://cmcknight.github.io/central-supply-catalog/products/010-000-00017/</loc>
+        <loc>https://cmcknight.github.io/central-supply-catalog/products/010-000-00020/</loc>
         <lastmod>2021-08-11T22:59:29.000Z</lastmod>
     </url>
     <url>
@@ -133,15 +133,15 @@
         <lastmod>2021-08-11T22:59:29.000Z</lastmod>
     </url>
     <url>
-        <loc>https://cmcknight.github.io/central-supply-catalog/products/020-000-00003/</loc>
-        <lastmod>2021-08-11T22:59:29.000Z</lastmod>
-    </url>
-    <url>
         <loc>https://cmcknight.github.io/central-supply-catalog/products/020-000-00004/</loc>
         <lastmod>2021-08-11T22:59:29.000Z</lastmod>
     </url>
     <url>
         <loc>https://cmcknight.github.io/central-supply-catalog/products/020-000-00005/</loc>
+        <lastmod>2021-08-11T22:59:29.000Z</lastmod>
+    </url>
+    <url>
+        <loc>https://cmcknight.github.io/central-supply-catalog/products/020-000-00003/</loc>
         <lastmod>2021-08-11T22:59:29.000Z</lastmod>
     </url>
     <url>
@@ -229,11 +229,11 @@
         <lastmod>2021-08-11T22:59:29.000Z</lastmod>
     </url>
     <url>
-        <loc>https://cmcknight.github.io/central-supply-catalog/products/040-000-00001/</loc>
+        <loc>https://cmcknight.github.io/central-supply-catalog/products/030-001-00014/</loc>
         <lastmod>2021-08-11T22:59:29.000Z</lastmod>
     </url>
     <url>
-        <loc>https://cmcknight.github.io/central-supply-catalog/products/030-001-00014/</loc>
+        <loc>https://cmcknight.github.io/central-supply-catalog/products/040-000-00001/</loc>
         <lastmod>2021-08-11T22:59:29.000Z</lastmod>
     </url>
     <url>
@@ -289,11 +289,11 @@
         <lastmod>2021-08-11T22:59:29.000Z</lastmod>
     </url>
     <url>
-        <loc>https://cmcknight.github.io/central-supply-catalog/products/040-000-00016/</loc>
+        <loc>https://cmcknight.github.io/central-supply-catalog/products/040-000-00015/</loc>
         <lastmod>2021-08-11T22:59:29.000Z</lastmod>
     </url>
     <url>
-        <loc>https://cmcknight.github.io/central-supply-catalog/products/040-000-00015/</loc>
+        <loc>https://cmcknight.github.io/central-supply-catalog/products/040-000-00016/</loc>
         <lastmod>2021-08-11T22:59:29.000Z</lastmod>
     </url>
     <url>
@@ -305,7 +305,7 @@
         <lastmod>2021-08-11T22:59:29.000Z</lastmod>
     </url>
     <url>
-        <loc>https://cmcknight.github.io/central-supply-catalog/products/040-000-00019/</loc>
+        <loc>https://cmcknight.github.io/central-supply-catalog/products/040-000-00021/</loc>
         <lastmod>2021-08-11T22:59:29.000Z</lastmod>
     </url>
     <url>
@@ -313,7 +313,7 @@
         <lastmod>2021-08-11T22:59:29.000Z</lastmod>
     </url>
     <url>
-        <loc>https://cmcknight.github.io/central-supply-catalog/products/040-000-00021/</loc>
+        <loc>https://cmcknight.github.io/central-supply-catalog/products/040-000-00019/</loc>
         <lastmod>2021-08-11T22:59:29.000Z</lastmod>
     </url>
     <url>
@@ -321,19 +321,15 @@
         <lastmod>2021-08-11T22:59:29.000Z</lastmod>
     </url>
     <url>
-        <loc>https://cmcknight.github.io/central-supply-catalog/products/040-001-00002/</loc>
-        <lastmod>2021-08-11T22:59:29.000Z</lastmod>
-    </url>
-    <url>
         <loc>https://cmcknight.github.io/central-supply-catalog/products/040-001-00003/</loc>
         <lastmod>2021-08-11T22:59:29.000Z</lastmod>
     </url>
     <url>
-        <loc>https://cmcknight.github.io/central-supply-catalog/products/040-001-00004/</loc>
+        <loc>https://cmcknight.github.io/central-supply-catalog/products/040-001-00002/</loc>
         <lastmod>2021-08-11T22:59:29.000Z</lastmod>
     </url>
     <url>
-        <loc>https://cmcknight.github.io/central-supply-catalog/products/040-001-00005/</loc>
+        <loc>https://cmcknight.github.io/central-supply-catalog/products/040-001-00004/</loc>
         <lastmod>2021-08-11T22:59:29.000Z</lastmod>
     </url>
     <url>
@@ -345,11 +341,15 @@
         <lastmod>2021-08-11T22:59:29.000Z</lastmod>
     </url>
     <url>
-        <loc>https://cmcknight.github.io/central-supply-catalog/products/040-001-00008/</loc>
+        <loc>https://cmcknight.github.io/central-supply-catalog/products/040-001-00005/</loc>
         <lastmod>2021-08-11T22:59:29.000Z</lastmod>
     </url>
     <url>
         <loc>https://cmcknight.github.io/central-supply-catalog/products/040-001-00009/</loc>
+        <lastmod>2021-08-11T22:59:29.000Z</lastmod>
+    </url>
+    <url>
+        <loc>https://cmcknight.github.io/central-supply-catalog/products/040-001-00008/</loc>
         <lastmod>2021-08-11T22:59:29.000Z</lastmod>
     </url>
     <url>
@@ -365,11 +365,11 @@
         <lastmod>2021-08-11T22:59:29.000Z</lastmod>
     </url>
     <url>
-        <loc>https://cmcknight.github.io/central-supply-catalog/products/040-001-00014/</loc>
+        <loc>https://cmcknight.github.io/central-supply-catalog/products/040-001-00013/</loc>
         <lastmod>2021-08-11T22:59:29.000Z</lastmod>
     </url>
     <url>
-        <loc>https://cmcknight.github.io/central-supply-catalog/products/040-001-00013/</loc>
+        <loc>https://cmcknight.github.io/central-supply-catalog/products/040-001-00014/</loc>
         <lastmod>2021-08-11T22:59:29.000Z</lastmod>
     </url>
     <url>
@@ -381,11 +381,11 @@
         <lastmod>2021-08-11T22:59:29.000Z</lastmod>
     </url>
     <url>
-        <loc>https://cmcknight.github.io/central-supply-catalog/products/040-001-00017/</loc>
+        <loc>https://cmcknight.github.io/central-supply-catalog/products/050-000-00001/</loc>
         <lastmod>2021-08-11T22:59:29.000Z</lastmod>
     </url>
     <url>
-        <loc>https://cmcknight.github.io/central-supply-catalog/products/050-000-00001/</loc>
+        <loc>https://cmcknight.github.io/central-supply-catalog/products/040-001-00017/</loc>
         <lastmod>2021-08-11T22:59:29.000Z</lastmod>
     </url>
     <url>
@@ -405,11 +405,11 @@
         <lastmod>2021-08-11T22:59:29.000Z</lastmod>
     </url>
     <url>
-        <loc>https://cmcknight.github.io/central-supply-catalog/products/050-000-00005/</loc>
+        <loc>https://cmcknight.github.io/central-supply-catalog/products/050-000-00006/</loc>
         <lastmod>2021-08-11T22:59:29.000Z</lastmod>
     </url>
     <url>
-        <loc>https://cmcknight.github.io/central-supply-catalog/products/050-000-00006/</loc>
+        <loc>https://cmcknight.github.io/central-supply-catalog/products/050-000-00005/</loc>
         <lastmod>2021-08-11T22:59:29.000Z</lastmod>
     </url>
     <url>
@@ -421,11 +421,11 @@
         <lastmod>2021-08-11T22:59:29.000Z</lastmod>
     </url>
     <url>
-        <loc>https://cmcknight.github.io/central-supply-catalog/products/050-000-00010/</loc>
+        <loc>https://cmcknight.github.io/central-supply-catalog/products/050-000-00009/</loc>
         <lastmod>2021-08-11T22:59:29.000Z</lastmod>
     </url>
     <url>
-        <loc>https://cmcknight.github.io/central-supply-catalog/products/050-000-00014/</loc>
+        <loc>https://cmcknight.github.io/central-supply-catalog/products/050-000-00010/</loc>
         <lastmod>2021-08-11T22:59:29.000Z</lastmod>
     </url>
     <url>
@@ -437,7 +437,7 @@
         <lastmod>2021-08-11T22:59:29.000Z</lastmod>
     </url>
     <url>
-        <loc>https://cmcknight.github.io/central-supply-catalog/products/050-000-00009/</loc>
+        <loc>https://cmcknight.github.io/central-supply-catalog/products/050-000-00014/</loc>
         <lastmod>2021-08-11T22:59:29.000Z</lastmod>
     </url>
     <url>
@@ -465,10 +465,6 @@
         <lastmod>2021-08-11T22:59:29.000Z</lastmod>
     </url>
     <url>
-        <loc>https://cmcknight.github.io/central-supply-catalog/products/050-000-00021/</loc>
-        <lastmod>2021-08-11T22:59:29.000Z</lastmod>
-    </url>
-    <url>
         <loc>https://cmcknight.github.io/central-supply-catalog/products/050-000-00022/</loc>
         <lastmod>2021-08-11T22:59:29.000Z</lastmod>
     </url>
@@ -478,6 +474,10 @@
     </url>
     <url>
         <loc>https://cmcknight.github.io/central-supply-catalog/products/050-000-00024/</loc>
+        <lastmod>2021-08-11T22:59:29.000Z</lastmod>
+    </url>
+    <url>
+        <loc>https://cmcknight.github.io/central-supply-catalog/products/050-000-00021/</loc>
         <lastmod>2021-08-11T22:59:29.000Z</lastmod>
     </url>
     <url>
@@ -509,6 +509,10 @@
         <lastmod>2021-08-11T22:59:29.000Z</lastmod>
     </url>
     <url>
+        <loc>https://cmcknight.github.io/central-supply-catalog/products/050-000-00035/</loc>
+        <lastmod>2021-08-11T22:59:29.000Z</lastmod>
+    </url>
+    <url>
         <loc>https://cmcknight.github.io/central-supply-catalog/products/050-000-00032/</loc>
         <lastmod>2021-08-11T22:59:29.000Z</lastmod>
     </url>
@@ -518,10 +522,6 @@
     </url>
     <url>
         <loc>https://cmcknight.github.io/central-supply-catalog/products/050-000-00034/</loc>
-        <lastmod>2021-08-11T22:59:29.000Z</lastmod>
-    </url>
-    <url>
-        <loc>https://cmcknight.github.io/central-supply-catalog/products/050-000-00035/</loc>
         <lastmod>2021-08-11T22:59:29.000Z</lastmod>
     </url>
     <url>
@@ -697,11 +697,11 @@
         <lastmod>2021-08-11T22:59:29.000Z</lastmod>
     </url>
     <url>
-        <loc>https://cmcknight.github.io/central-supply-catalog/products/080-000-00007/</loc>
+        <loc>https://cmcknight.github.io/central-supply-catalog/products/080-000-00008/</loc>
         <lastmod>2021-08-11T22:59:29.000Z</lastmod>
     </url>
     <url>
-        <loc>https://cmcknight.github.io/central-supply-catalog/products/080-000-00008/</loc>
+        <loc>https://cmcknight.github.io/central-supply-catalog/products/080-000-00007/</loc>
         <lastmod>2021-08-11T22:59:29.000Z</lastmod>
     </url>
     <url>
@@ -725,7 +725,7 @@
         <lastmod>2021-08-11T22:59:29.000Z</lastmod>
     </url>
     <url>
-        <loc>https://cmcknight.github.io/central-supply-catalog/departments/construction/4/</loc>
+        <loc>https://cmcknight.github.io/central-supply-catalog/departments/emitters/2/</loc>
         <lastmod>2021-08-11T22:59:29.000Z</lastmod>
     </url>
     <url>
@@ -734,6 +734,10 @@
     </url>
     <url>
         <loc>https://cmcknight.github.io/central-supply-catalog/departments/construction/3/</loc>
+        <lastmod>2021-08-11T22:59:29.000Z</lastmod>
+    </url>
+    <url>
+        <loc>https://cmcknight.github.io/central-supply-catalog/departments/construction/4/</loc>
         <lastmod>2021-08-11T22:59:29.000Z</lastmod>
     </url>
     <url>
@@ -746,10 +750,6 @@
     </url>
     <url>
         <loc>https://cmcknight.github.io/central-supply-catalog/departments/drugs-medical/4/</loc>
-        <lastmod>2021-08-11T22:59:29.000Z</lastmod>
-    </url>
-    <url>
-        <loc>https://cmcknight.github.io/central-supply-catalog/departments/emitters/2/</loc>
         <lastmod>2021-08-11T22:59:29.000Z</lastmod>
     </url>
     <url>
