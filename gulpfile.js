@@ -33,7 +33,8 @@ const render = () => {
 
 const render_prod = () => {
   OUTPUT_DIR = process.env.ELEVENTY_ENV = "./docs/_data";
-  let platformScript = platform === "win32" || platform === "win64" ? "win-prod" : "prod";
+  // let platformScript = platform === "win32" || platform === "win64" ? "win-prod" : "prod";
+  let platformScript = "prod"
   return cp.spawn("npm", ["run", platformScript, "--quiet"], { shell: true, stdio: "inherit" });
 };
 
