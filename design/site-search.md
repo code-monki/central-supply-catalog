@@ -87,7 +87,7 @@ Should the CDN link fail at some point in the future, the libraries will be inst
 
 The resulting search index will be stored in the \_data folder as an uncompressed text file containing a JSON array. The file is not be compressed as the underlying assumption is that the Github Pages web server has compression turned on.
 
-The input data for the index is stored in a collection of files in the \_data directory that will not be copied to the production \_data folder. The _manifest.json_ file contains a list of the data files for the indexer to use as its input.
+The input data for the index is stored in a collection of files in the \_data directory that will not be copied to the production \_data folder. The _products-manifest.json_ file contains a list of the data files for the indexer to use as its input.
 
 The search results will be overlaid on the home page in place of the departments container.
 
