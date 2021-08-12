@@ -6,6 +6,7 @@ const categoriesData = require("./progdata/categories.json");
 const departmentsData = require("./progdata/departments.json");
 const slugify = require("slugify");
 
+console.log(`build type: ${process.env.ELEVENTY_ENV}`)
 
 const basePath = process.env.ELEVENTY_ENV === "prod" ? "/central-supply-catalog" : "";
 const buildDest = process.env.ELEVENTY_ENV === "prod" ? "docs" : "build";
@@ -150,11 +151,14 @@ module.exports = function (eleventyConfig) {
     console.log(`Using ${basePath} for links`);
     departmentsData.forEach((dept) => {
       if (dept.id.substr(-3) === "000") {
-          text += `<div class="dept-btn col s6 m3 l3 center">`;
+        text += `<div class="dept-btn col s6 m3 l3 center">`;
         
+        let pageLink = `${basePath}/departments/${urlSafe(dept.label)}`
+        let imgLink = `${basePath}/img/${dept.icon}`
+
         text += `
-          <a href="${basePath}/departments/${urlSafe(dept.label)}/" class="red-text">
-          <img src="${basePath}${dept.icon}" alt="${dept.label}"><br>${dept.label}
+          <a href="${pageLink}/" class="red-text">
+          <img src="${imgLink}" alt="${dept.label}"><br>${dept.label}
         </a>
       </div>
       `   
