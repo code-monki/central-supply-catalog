@@ -6,14 +6,8 @@ const categoriesData = require("./progdata/categories.json");
 const departmentsData = require("./progdata/departments.json");
 const slugify = require("slugify");
 
-// let buildEnv = process.env.ELEVENTY_PREFIX
-// const basePath = buildEnv === "prod" ? "/central-supply-catalog" : ""
-// const buildDest = (buildEnv === "" || buildEnv === undefined) ? "build": "docs"
 const basePath = process.env.ELEVENTY_ENV === "dev" ? "" : process.env.ELEVENTY_PREFIX;
-
 const buildDest = process.env.ELEVENTY_DEST;
-
-// console.log(`build type: ${(buildEnv) ? buildEnv : "dev"}`)
 
 module.exports = function (eleventyConfig) {
   const md = new markdownIt({ html: true });
@@ -24,8 +18,6 @@ module.exports = function (eleventyConfig) {
   eleventyConfig.addPassthroughCopy("src/img");
   eleventyConfig.setQuietMode(true);
   eleventyConfig.addWatchTarget("./src/scss");
-
-  console.log(`basePath: ${basePath}`);
 
   //-------------------------------------------------------------
   // Create the cost label with the appropriate units
@@ -154,7 +146,6 @@ module.exports = function (eleventyConfig) {
   //-------------------------------------------------------------
   eleventyConfig.addShortcode("buildDepartmentCards", () => {
     let text = "";
-    console.log(`buildDepartmentCards basePath: ${basePath} for links`);
     departmentsData.forEach((dept) => {
       if (dept.id.substr(-3) === "000") {
         text += `<div class="dept-btn col s6 m3 l3 center">`;
@@ -174,11 +165,9 @@ module.exports = function (eleventyConfig) {
     return text;
   });
 
-  console.log(buildDest);
   return {
     dir: {
       input: "src",
-      // output: (process.env.ELEVENTY_ENV === 'dev') ? "build" : "prod",
       data: "_data",
       includes: "partials_layouts",
     },
