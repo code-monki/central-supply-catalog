@@ -105,7 +105,11 @@
           {% for author in src.authors %}
           {{ comma() }}{{ author | safe }}
           {% endfor %}
-          , <a href="{{ src.publisher.url | url }}" target="_blank">{{ src.publisher.name }}</a>
+          , {% if src.publisher.url == "" %}
+            {{ src.publisher.name }}
+            {% else %}
+            <a href="{{ src.publisher.url | url }}" target="_blank">{{ src.publisher.name }}</a>
+            {% endif %}
         </p>
         {% endfor %}
       {% endif %}
