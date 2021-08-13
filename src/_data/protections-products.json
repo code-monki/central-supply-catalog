@@ -1,0 +1,302 @@
+[
+  {
+    "sku": "100-000-00001",
+    "category": "protections",
+    "type": "armor",
+    "subtype": "",
+    "name": "Ablat",
+    "mfr": "000",
+    "cost": 375,
+    "mass": 3.0,
+    "size": 5,
+    "techLevel": 9,
+    "qrebs": "B+3",
+    "image": "",
+    "description": "<!-- Summary Start -->Ablat is a material which ablates (vaporizes) when hit by laser fire. The vaporized material carries away the energy of the laser, protecting the user. Ablat has a basic protective value against attacks and is doubled against K (Burn) attacks. Ar 12<!-- Summary End -->",
+    "accessories": [],
+    "sources": [{
+      "publication": "Traveller 5.10 Core Rules Book 3 : Worlds and Adventures",
+      "authors": ["Miller, Marc"],
+      "publisher": {
+        "name": "Far Future Enterprises",
+        "url": "https://farfuture.net"
+      }
+    }],
+    "tags": ["products", "protections"]
+  },
+  {
+    "sku": "100-000-00002",
+    "category": "protections",
+    "type": "armor",
+    "subtype": "",
+    "name": "Assault Armor, Heavy",
+    "mfr": "000",
+    "cost": 240000,
+    "mass": 46.0,
+    "size": 5,
+    "techLevel": 16,
+    "qrebs": "N/A",
+    "image": "",
+    "description": "<!-- Summary Start -->Darrian pre-Maghiz suit of combat armor. Ar 32 (MgT 16).<!-- Summary End -->",
+    "accessories": [],
+    "sources": [{
+      "publication": "Traveller 5.10 Core Rules Book 3 : Worlds and Adventures",
+      "authors": ["Miller, Marc"],
+      "publisher": {
+        "name": "Far Future Enterprises",
+        "url": "https://farfuture.net"
+      }
+    }],
+    "tags": ["products", "protections"]
+  },
+  {
+    "sku": "100-000-00003",
+    "category": "protections",
+    "type": "armor",
+    "subtype": "",
+    "name": "Battledress",
+    "mfr": "000",
+    "cost": 200000,
+    "mass": 100.0,
+    "size": 5,
+    "techLevel": 13,
+    "qrebs": "N/A",
+    "image": "",
+    "description": "<!-- Summary Start --> Ar 45 (MgT 18)<!-- Summary End -->",
+    "accessories": [],
+    "sources": [{
+      "publication": "Traveller 5.10 Core Rules Book 3 : Worlds and Adventures",
+      "authors": ["Miller, Marc"],
+      "publisher": {
+        "name": "Far Future Enterprises",
+        "url": "https://farfuture.net"
+      }
+    }],
+    "tags": ["products", "protections"]
+  },
+  {
+    "sku": "100-000-00004",
+    "category": "protections",
+    "type": "armor",
+    "subtype": "",
+    "name": "Boarding Armor",
+    "mfr": "000",
+    "cost": 80000,
+    "mass": 36.0,
+    "size": 5,
+    "techLevel": 11,
+    "qrebs": "N/A",
+    "image": "",
+    "description": "<!-- Summary Start -->AV 28 (MgT 15)<!-- Summary End -->",
+    "accessories": [],
+    "sources": [{
+      "publication": "Traveller 5.10 Core Rules Book 3 : Worlds and Adventures",
+      "authors": ["Miller, Marc"],
+      "publisher": {
+        "name": "Far Future Enterprises",
+        "url": "https://farfuture.net"
+      }
+    }],
+    "tags": ["products", "protections"]
+  },
+  {
+    "sku": "100-000-00005",
+    "category": "protections",
+    "type": "armor",
+    "subtype": "",
+    "name": "Coat",
+    "mfr": "000",
+    "cost": 100,
+    "mass": 2.0,
+    "size": 5,
+    "techLevel": 1,
+    "qrebs": "N/A",
+    "image": "",
+    "description": "<!-- Summary Start -->A basic cold weather clothing unit.<!-- Summary End -->",
+    "accessories": [],
+    "sources": [{
+      "publication": "Traveller 5.10 Core Rules Book 3 : Worlds and Adventures",
+      "authors": ["Miller, Marc"],
+      "publisher": {
+        "name": "Far Future Enterprises",
+        "url": "https://farfuture.net"
+      }
+    }],
+    "tags": ["products", "protections"]
+  },
+  {
+    "sku": "100-000-00006",
+    "category": "protections",
+    "type": "armor",
+    "subtype": "",
+    "name": "Cloth Armor",
+    "mfr": "000",
+    "cost": 250,
+    "mass": 1.0,
+    "size": 5,
+    "techLevel": 8,
+    "qrebs": "N/A",
+    "image": "",
+    "description": "<!-- Summary Start -->A heavy duty body suit tailored from ballistic cloth. Ar 14 (MgT 12)<!-- Summary End -->",
+    "accessories": [],
+    "sources": [{
+      "publication": "Traveller 5.10 Core Rules Book 3 : Worlds and Adventures",
+      "authors": ["Miller, Marc"],
+      "publisher": {
+        "name": "Far Future Enterprises",
+        "url": "https://farfuture.net"
+      }
+    }],
+    "tags": ["products", "protections"]
+  },
+  {
+    "sku": "100-000-00007",
+    "category": "protections",
+    "type": "armor",
+    "subtype": "",
+    "name": "Combat Armor",
+    "mfr": "000",
+    "cost": 80000,
+    "mass": 60.0,
+    "size": 5,
+    "techLevel": 11,
+    "qrebs": "N/A",
+    "image": "",
+    "description": "<!-- Summary Start -->Ar 28 (MgT 15).<!-- Summary End -->",
+    "accessories": [],
+    "sources": [{
+      "publication": "Traveller 5.10 Core Rules Book 3 : Worlds and Adventures",
+      "authors": ["Miller, Marc"],
+      "publisher": {
+        "name": "Far Future Enterprises",
+        "url": "https://farfuture.net"
+      }
+    }],
+    "tags": ["products", "protections"]
+  },
+  {
+    "sku": "100-000-00008",
+    "category": "protections",
+    "type": "armor",
+    "subtype": "",
+    "name": "Desert Cloak",
+    "mfr": "000",
+    "cost": 200,
+    "mass": 1.0,
+    "size": 5,
+    "techLevel": 3,
+    "qrebs": "N/A",
+    "image": "",
+    "description": "<!-- Summary Start -->A basic fabric article of clothing which provides a degree of protection against the desert environment. Ar 1.<!-- Summary End -->",
+    "accessories": [],
+    "sources": [{
+      "publication": "Traveller 5.10 Core Rules Book 3 : Worlds and Adventures",
+      "authors": ["Miller, Marc"],
+      "publisher": {
+        "name": "Far Future Enterprises",
+        "url": "https://farfuture.net"
+      }
+    }],
+    "tags": ["products", "protections"]
+  },
+  {
+    "sku": "100-000-00009",
+    "category": "protections",
+    "type": "armor",
+    "subtype": "",
+    "name": "Hostile Environment Suit",
+    "mfr": "000",
+    "cost": 8000,
+    "mass": 12.0,
+    "size": 5,
+    "techLevel": 6,
+    "qrebs": "N/A",
+    "image": "",
+    "description": "<!-- Summary Start -->Ar 16 (MgT 13).<!-- Summary End -->",
+    "accessories": [],
+    "sources": [{
+      "publication": "Traveller 5.10 Core Rules Book 3 : Worlds and Adventures",
+      "authors": ["Miller, Marc"],
+      "publisher": {
+        "name": "Far Future Enterprises",
+        "url": "https://farfuture.net"
+      }
+    }],
+    "tags": ["products", "protections"]
+  },
+  {
+    "sku": "100-000-00010",
+    "category": "protections",
+    "type": "armor",
+    "subtype": "",
+    "name": "Jack",
+    "mfr": "000",
+    "cost": 50,
+    "mass": 1,
+    "size": 5,
+    "techLevel": 1,
+    "qrebs": "N/A",
+    "image": "",
+    "description": "<!-- Summary Start -->A natural or synthetic leather jacket or body suit covering the torso and upper arms and legs. Jack is somewhat better than ordinary clothing in providing basic protection. Ar 5<!-- Summary End -->",
+    "accessories": [],
+    "sources": [{
+      "publication": "Traveller 5.10 Core Rules Book 3 : Worlds and Adventures",
+      "authors": ["Miller, Marc"],
+      "publisher": {
+        "name": "Far Future Enterprises",
+        "url": "https://farfuture.net"
+      }
+    }],
+    "tags": ["products", "protections"]
+  },
+  {
+    "sku": "100-000-00012",
+    "category": "protections",
+    "type": "armor",
+    "subtype": "",
+    "name": "Mesh",
+    "mfr": "000",
+    "cost": 150,
+    "mass": 1,
+    "size": 5,
+    "techLevel": 7,
+    "qrebs": "N/A",
+    "image": "",
+    "description": "<!-- Summary Start -->A jacket or body suit made of natural or synthetic leather and reinforced with a lining of flexible metal mesh, similar to chain mail but lighter and stronger. Ar 10<!-- Summary End -->",
+    "accessories": [],
+    "sources": [{
+      "publication": "Traveller 5.10 Core Rules Book 3 : Worlds and Adventures",
+      "authors": ["Miller, Marc"],
+      "publisher": {
+        "name": "Far Future Enterprises",
+        "url": "https://farfuture.net"
+      }
+    }],
+    "tags": ["products", "protections"]
+  },
+  {
+    "sku": "100-000-00014",
+    "category": "protections",
+    "type": "armor",
+    "subtype": "",
+    "name": "Quilted Armor",
+    "mfr": "000",
+    "cost": 600,
+    "mass": 1,
+    "size": 5,
+    "techLevel": 9,
+    "qrebs": "N/A",
+    "image": "",
+    "description": "<!-- Summary Start -->Improved ballistic cloth. Ar 18 (MgT 13)<!-- Summary End -->",
+    "accessories": [],
+    "sources": [{
+      "publication": "Traveller 5.10 Core Rules Book 3 : Worlds and Adventures",
+      "authors": ["Miller, Marc"],
+      "publisher": {
+        "name": "Far Future Enterprises",
+        "url": "https://farfuture.net"
+      }
+    }],
+    "tags": ["products", "protections"]
+  }  
+]
