@@ -315,7 +315,7 @@ footer {
       font-weight: bold;
       padding-top: .5rem;
       margin-bottom: 0.5rem;
-      margin-top: 0; }
+      margin-top: 0.5rem; }
     .product-main .container .product-header .product-image {
       margin: 1rem !important;
       padding: 0 !important;
@@ -330,6 +330,7 @@ footer {
         border: 1px solid grey; }
     .product-main .container .product-header .product-controls form h5 {
       font-size: 1.2rem !important;
+      font-weight: bold;
       margin-bottom: 0; }
     .product-main .container .product-header .product-controls form .input-field {
       width: 100%; }
