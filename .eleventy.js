@@ -112,7 +112,7 @@ module.exports = function (eleventyConfig) {
         </div>
 
         <div class="col s9 m10 l11">
-          <a href="${urlSafe(pageURL)}">${object.name} - Test</a>
+          <a href="${urlSafe(pageURL)}">${object.name}</a>
         </div>
 
       </div>
