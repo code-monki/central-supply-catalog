@@ -104,7 +104,7 @@
     "tags": ["products", "food-nutrients"]
   },
   {
-    "sku": "080-000-000045",
+    "sku": "080-000-00005",
     "category": "food-nutrients",
     "type": "food-nutrients",
     "subtype": "beverage",
@@ -234,7 +234,7 @@
     "tags": ["products", "food-nutrients"]
   },
   {
-    "sku": "080-000-000010",
+    "sku": "080-000-00010",
     "category": "food-nutrients",
     "type": "food-nutrients",
     "subtype": "beverage",
