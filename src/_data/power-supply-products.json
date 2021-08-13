@@ -55,6 +55,84 @@
     "sku": "090-000-00003",
     "category": "power-supplies",
     "type": "power supplies",
+    "subtype": "",
+    "name": "Ambient Panel (Solar)",
+    "mfr": "",
+    "cost": 8000,
+    "mass": 4,
+    "size": 3,
+    "techLevel": 10,
+    "qrebs": "N/A",
+    "image": "",
+    "description": "The panel absorbs solar energy and converts it to electricity. Capable of powering and charging the equivalent of one Size 4 device, carried on one's person.",
+    "sources": [
+      {
+        "publication": "Traveller 5.10 Core Rules Book 3 : Worlds and Adventures",
+        "authors": ["Miller, Marc"],
+        "publisher": {
+        "name": "Far Future Enterprises",
+        "url": "https://farfuture.net"
+        }
+      }
+    ],
+    "tags": ["products", "power-supplies"]
+  },
+  {
+    "sku": "090-000-00004",
+    "category": "power-supplies",
+    "type": "power supplies",
+    "subtype": "",
+    "name": "Ambient Panel (Thermal)",
+    "mfr": "",
+    "cost": 8000,
+    "mass": 4,
+    "size": 3,
+    "techLevel": 10,
+    "qrebs": "N/A",
+    "image": "",
+    "description": "The panel absorbs thermal energy and converts it to electricity. Capable of powering and charging the equivalent of one Size 4 device, carried on one's person.",
+    "sources": [
+      {
+        "publication": "Traveller 5.10 Core Rules Book 3 : Worlds and Adventures",
+        "authors": ["Miller, Marc"],
+        "publisher": {
+        "name": "Far Future Enterprises",
+        "url": "https://farfuture.net"
+        }
+      }
+    ],
+    "tags": ["products", "power-supplies"]
+  },
+  {
+    "sku": "090-000-00005",
+    "category": "power-supplies",
+    "type": "power supplies",
+    "subtype": "",
+    "name": "Ambient Panel (Starlight)",
+    "mfr": "",
+    "cost": 8000,
+    "mass": 4,
+    "size": 3,
+    "techLevel": 10,
+    "qrebs": "N/A",
+    "image": "",
+    "description": "The panel absorbs stellar energy and converts it to electricity. Capable of powering and charging the equivalent of one Size 4 device, carried on one's person.",
+    "sources": [
+      {
+        "publication": "Traveller 5.10 Core Rules Book 3 : Worlds and Adventures",
+        "authors": ["Miller, Marc"],
+        "publisher": {
+        "name": "Far Future Enterprises",
+        "url": "https://farfuture.net"
+        }
+      }
+    ],
+    "tags": ["products", "power-supplies"]
+  },
+  {
+    "sku": "090-000-00006",
+    "category": "power-supplies",
+    "type": "power supplies",
     "subtype": "artifact",
     "name": "Antimatter Battery",
     "mfr": "",
@@ -78,7 +156,7 @@
     "tags": ["products", "power-supplies"]
   },
   {
-    "sku": "090-000-0004",
+    "sku": "090-000-00007",
     "category": "power-supplies",
     "type": "power supplies",
     "subtype": "",
@@ -104,7 +182,7 @@
     "tags": ["products", "power-supplies"]
   },
   {
-    "sku": "090-000-000005",
+    "sku": "090-000-00008",
     "category": "power-supplies",
     "type": "power supplies",
     "subtype": "",
@@ -130,7 +208,7 @@
     "tags": ["products", "power-supplies"]
   },
   {
-    "sku": "090-000-000006",
+    "sku": "090-000-00009",
     "category": "power-supplies",
     "type": "power supplies",
     "subtype": "",
@@ -156,7 +234,7 @@
     "tags": ["products", "power-supplies"]
   },
   {
-    "sku": "090-000-000007",
+    "sku": "090-000-00010",
     "category": "power-supplies",
     "type": "power supplies",
     "subtype": "",
@@ -182,7 +260,7 @@
     "tags": ["products", "power-supplies"]
   },
   {
-    "sku": "090-000- 00008",
+    "sku": "090-000-00011",
     "category": "power-supplies",
     "type": "power supplies",
     "subtype": "",
@@ -208,7 +286,7 @@
     "tags": ["products", "power-supplies"]
   },
   {
-    "sku": "090-000- 00009",
+    "sku": "090-000-00012",
     "category": "power-supplies",
     "type": "power supplies",
     "subtype": "",
@@ -234,7 +312,7 @@
     "tags": ["products", "power-supplies"]
   },
   {
-    "sku": "090-000- 00010",
+    "sku": "090-000-00013",
     "category": "power-supplies",
     "type": "power supplies",
     "subtype": "",
@@ -260,7 +338,7 @@
     "tags": ["products", "power-supplies"]
   },
   {
-    "sku": "090-000- 00011",
+    "sku": "090-000-00014",
     "category": "power-supplies",
     "type": "power supplies",
     "subtype": "",
@@ -286,7 +364,7 @@
     "tags": ["products", "power-supplies"]
   },
   {
-    "sku": "090-000- 00012",
+    "sku": "090-000-00015",
     "category": "power-supplies",
     "type": "power supplies",
     "subtype": "",
