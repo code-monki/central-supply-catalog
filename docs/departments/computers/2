@@ -50,8 +50,8 @@
     </div>
 
     <!-- logo -->
-    <div class="col s8 center">
-      <a href="/central-supply-catalog/" class="red-text flow-text logo">Central Supply Catalog</a>
+    <div class="col s8 center site-logo">
+      <a href="/central-supply-catalog/" class="red-text flow-text">Central Supply Catalog</a>
     </div>
 
     <!-- shopping cart -->
