@@ -84,17 +84,20 @@ const removeItem = (sku) => {
 
 // ---------------- modify quantity of item ----------------------
 const updateItemQty = (sku, qty) => {
-  let cart = JSON.parse(localStorage.getItem(cartKey));
-  let item = cart.find((s) => s.sku === sku);
-  if (qty < 0) qty = 0;
+  let cartContents = localStorage.getItem(cartKey)
+  if (cartContents !== null && cartContents !== undefined) {
+    let cart = JSON.parse(cartContents);
+    let item = cart.find((s) => s.sku === sku);
+    if (qty < 0) qty = 0;
 
-  if ((item === null) | (item === undefined)) {
-    console.log(`Sku: ${sku} is not in cart`);
-  } else {
-    item.qty = qty;
+    if ((item === null) | (item === undefined)) {
+      console.log(`Sku: ${sku} is not in cart`);
+    } else {
+      item.qty = qty;
+    }
+    localStorage.setItem(cartKey, JSON.stringify(cart));
+    updateCartUI();
   }
-  localStorage.setItem(cartKey, JSON.stringify(cart));
-  updateCartUI();
 };
 
 // -------------------- update the cart ui -------------------------
@@ -180,7 +183,6 @@ if (cartItemsList !== null && cartItemsList !== undefined) {
   // event for handling button clicks
   cartItemsList.addEventListener("click", (e) => {
     e.preventDefault;
-    // console.log(e.target.parentNode.parentNode.parentNode.parentNode.parentNode.querySelector('.item-name').dataset.sku)
 
     let qtyNode = e.target.parentNode.parentNode.querySelector(".qty");
     let qty = Number(qtyNode.value);
@@ -210,8 +212,6 @@ if (removeAllItemsBtn !== null && removeAllItemsBtn !== undefined) {
   });
 }
 
-// ---- End of Shopping Cart-related Functionality --------
-
 // ---------- Manage Cart Count Badge ---------------------
 
 const updateCartBadge = () => {
@@ -225,6 +225,27 @@ const updateCartBadge = () => {
     cartCountSpan.style.display = "block";
   }
 };
+// ---- End of Shopping Cart-related Functionality --------
+
+// ------------ Search-related Functionality ---------------
+const searchField = document.getElementById('search')
+const clearSearch = document.getElementById('search-close')
+const searchBar = document.querySelector('.saerch-bar')
+
+if (searchBar !== null && searchBar !== undefined) {
+  searchBar.addEventListener("input", (e) => {
+    e.preventDefault()
+    console.log(e);
+  })
+}
+
+// if (searchField !== null && searchField !== undefined) {
+//   searchField.addEventListener('input', (e) => {
+//     e.preventDefault()
+//     console.log('Enter in search field');
+//   })
+// }
+// ---------- End of Search-related Functionality ----------
 
 // --------- initialize MaterializeCSS components ---------
 document.addEventListener("DOMContentLoaded", function () {
