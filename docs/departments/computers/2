@@ -29,8 +29,8 @@
   <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet" crossorigin="anonymous">
 
   <!-- Materialize CSS -->
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css" crossorigin="anonymous">
-  
+
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@materializecss/materialize@1.1.0-alpha/dist/css/materialize.min.css">
   
   <link href="/central-supply-catalog/css/main.css" rel="stylesheet" type="text/css">
   <title>Central Supply Catalog</title>
@@ -51,7 +51,7 @@
 
     <!-- logo -->
     <div class="col s8 center">
-      <a href="/central-supply-catalog/" class="red-text flow-text">Central Supply Catalog</a>
+      <a href="/central-supply-catalog/" class="red-text flow-text logo">Central Supply Catalog</a>
     </div>
 
     <!-- shopping cart -->
@@ -62,13 +62,13 @@
     </div>
 
     <!-- search bar -->
-    <div class="col s12 m8 offset-m2">
+    <div class="col s12 m8 offset-m2 search-bar">
       <div class="nav-wrapper">
         <form>
           <div class="input-field">
             <input id="search" type="search" class="white">
             <label class="label-icon black-text" for="search"><i class="material-icons">search</i></label>
-            <i class="material-icons">close</i>
+            <i class="material-icons" id="search-close">close</i>
           </div>
         </form>
       </div>
@@ -222,8 +222,8 @@
 </footer>
 
   <script src="https://kit.fontawesome.com/98c924c274.js" crossorigin="anonymous"></script>
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js" crossorigin="anonymous"></script>
   
+  <script src="https://cdn.jsdelivr.net/npm/@materializecss/materialize@1.1.0-alpha/dist/js/materialize.min.js"></script>
 
   <script src="/central-supply-catalog/js/scripts.js"></script>
 </body>
