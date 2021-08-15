@@ -53,6 +53,10 @@ header div.row {
       min-width: 1.4rem;
       min-height: 1.4rem;
       text-align: center; }
+  header div.row .logo {
+    border: .25rem solid grey;
+    padding: .25rem .5rem;
+    border-radius: 1rem; }
 
 .sidenav {
   width: 100% !important;
