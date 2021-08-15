@@ -53,10 +53,15 @@ header div.row {
       min-width: 1.4rem;
       min-height: 1.4rem;
       text-align: center; }
-  header div.row .logo {
-    border: .25rem solid grey;
+  header div.row .site-logo a {
+    border: .125rem solid grey;
     padding: .25rem .5rem;
     border-radius: 1rem; }
+    @media screen and (min-width: 64rem) {
+      header div.row .site-logo a {
+        border: .25rem solid grey; } }
+    header div.row .site-logo a:hover {
+      background: lightgoldenrodyellow; }
 
 .sidenav {
   width: 100% !important;
