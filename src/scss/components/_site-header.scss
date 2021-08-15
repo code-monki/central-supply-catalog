@@ -27,10 +27,23 @@ header {
       }
     }
 
-    & .logo {
-      border: .25rem solid grey;
-      padding: .25rem .5rem;
-      border-radius: 1rem;;
+    & .site-logo {
+      
+      & a {
+        border: .125rem solid grey;
+        padding: .25rem .5rem;
+        border-radius: 1rem;
+
+        @include response(lg) {
+          border: .25rem solid grey;
+        }
+
+        &:hover {
+          background: lightgoldenrodyellow;
+        }
+      }
+
+
     }
   }
 }
