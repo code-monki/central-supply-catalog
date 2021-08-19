@@ -1,3 +1,5 @@
+const swLocation = (window.location.hostname.has('localhost')) ? 'http://localhost:8080' : 'https://cmcknight.github.io/central-supply-catalog'
+
 const APP = {
   SW: null,
   init() {
@@ -5,7 +7,7 @@ const APP = {
     APP.registerSW();
   },
   registerSW() {
-    const swName = `${window.location.protocol}//${window.location.hostname}:${window.location.port}/sw.js`
+    const swName = `${swLocation}}/sw.js`
     console.log(swName);
     if ("serviceWorker" in navigator) {
       // register the service worker hosted at the root of the site
