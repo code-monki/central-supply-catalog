@@ -51,6 +51,7 @@ The fields that should be indexed are:
 
 - description
 - name
+- category (department)
 - subtype
 - type
 - image
@@ -68,7 +69,6 @@ Fields that need to be in the index for filtering purposes are:
 Fields that can be excluded from the index are:
 
 - accessories
-- category
 - tags
 
 Minisearch relies upon a unique _id_ element. This element can apparently be anything so long as it is unique. The majority of the site functionality uses the sku as the unique identifier, but for the purposes of the search index, it is more reasonable to inject an artifical numeric id. The rationale is that the search index is generated to a JSON object and persisted to disk on the site. In turn the browser application must download the search index so it is desireable to minimize the size of the search index as much as possible.

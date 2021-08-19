@@ -49,10 +49,6 @@ The manufacturer attribute for generic products will likely be empty for the mos
 
 The minimum tech level for the product.
 
-### Summary
-
-The summary is a short description that appears on the products search page and may be an excerpt of the full description.
-
 ### Description
 
 The description provides more information about the product and is a free-form text area. Care should be taken to avoid putting game mechanics in the description.
