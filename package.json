@@ -8,6 +8,7 @@
   },
   "scripts": {
     "dev": "ELEVENTY_ENV=dev npx @11ty/eleventy --output=build --pathprefix=; sass src/scss:build/css",
+    "prod": "ELEVENTY_ENV=prod ELEVENTY_PREFIX=/central-supply-catalog npx @11ty/eleventy --pathprefix=central-supply-catalog --output=docs; sass src/scss:docs/css",
     "sass": "sass src/scss:build/css",
     "gen-search-index": "node ./src/util/search.js  ",
     "watch:sass": "npm run sass -- --watch",
