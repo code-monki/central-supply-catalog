@@ -1,4 +1,4 @@
-const swLocation = (window.location.hostname.has('localhost')) ? 'http://localhost:8080' : 'https://cmcknight.github.io/central-supply-catalog'
+const SW_LOCATION = `${location.pathname.match("((?:/central-supply-catalog/)?)")[0]}sw.js`;
 
 const APP = {
   SW: null,
@@ -7,8 +7,7 @@ const APP = {
     APP.registerSW();
   },
   registerSW() {
-    const swName = `${swLocation}}/sw.js`
-    console.log(swName);
+    const swName = `${SW_LOCATION}}/sw.js`
     if ("serviceWorker" in navigator) {
       // register the service worker hosted at the root of the site
       navigator.serviceWorker.register(swName).then(
