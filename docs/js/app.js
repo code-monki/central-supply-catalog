@@ -1,1 +1,1 @@
-"use strict";
+"use strict";var APP={SW:null,init:function(){APP.registerSW()},registerSW:function(){var o="".concat(window.location.protocol,"//").concat(window.location.hostname,":").concat(window.location.port,"/sw.js");console.log(o),"serviceWorker"in navigator?navigator.serviceWorker.register(o).then(function(o){APP.SW=o.installing||o.waiting||o.active},function(o){console.log("Service worker registration failed")}):console.log("Service workers are not supported.")}};document.addEventListener("DOMContentLoaded",APP.init);
