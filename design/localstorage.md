@@ -59,3 +59,7 @@ The shopping cart requires the use of localstorage to persist the selected items
 * image - url of image associated with the item
 
 These attributes can be retrieved from the product page when the add to cart button is clicked. When the shopping cart page is displayed, it will self-populate from the shopping cart in localstorage. If the empty cart button is clicked, the shopping cart object in localstorage will be removed.
+
+## UPDATE
+
+Revising caching approach to use a service worker to control caching.
