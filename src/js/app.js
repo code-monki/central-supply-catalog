@@ -1,5 +1,5 @@
 const SW_LOCATION = `${location.pathname.match("((?:/central-supply-catalog/)?)")[0]}/sw.js`;
-console.log(swName)
+console.log(SW_LOCATION)
 
 const APP = {
   SW: null,
