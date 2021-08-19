@@ -1,5 +1,5 @@
 const SW_LOCATION = `${location.pathname.match("((?:/central-supply-catalog/)?)")[0]}/sw.js`;
-console.log(SW_LOCATION)
+console.log(`SW_LOCATION: ${SW_LOCATION}`)
 
 const APP = {
   SW: null,
@@ -8,7 +8,8 @@ const APP = {
     APP.registerSW();
   },
   registerSW() {
-    const swName = `${SW_LOCATION}`
+    const swName = `${SW_LOCATION}`;
+    console.log(`swName: ${swName}`);
         
     if ("serviceWorker" in navigator) {
       // register the service worker hosted at the root of the site
