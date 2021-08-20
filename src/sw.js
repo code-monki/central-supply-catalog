@@ -5,14 +5,18 @@ console.log(`indexFilename: ${indexFilename}`);
 
 self.addEventListener("install", (ev) => {
   console.log(`Version ${cacheName} installed`);
-  ev.waitUntil(
-    caches.open(cacheName).then((cache) => {
-      cache.add(indexFilename)
-        .then(() => console.log(`${cacheName} has been updated`)),
-        (err) => {
-          console.warn(`Failed to update ${cacheName}`);
-        };
-    })
+  ev.waitUntil( () => {
+    const cache = caches.open(cacheName);
+    cache.add(indexFilename);
+  }
+
+    // caches.open(cacheName).then((cache) => {
+    //   cache.add(indexFilename)
+    //     .then(() => console.log(`${cacheName} has been updated`)),
+    //     (err) => {
+    //       console.warn(`Failed to update ${cacheName}`);
+    //     };
+    // })
   );
 });
 
