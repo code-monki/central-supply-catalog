@@ -1,8 +1,8 @@
 const version = 2;
 const cacheName = `csc-cache-v${version}`;
-// const indexFilename = `/${location.pathname.match("((?:/central-supply-catalog/)?)")[0]}data/searchindex.idx`;
-// console.log(`indexFilename: ${indexFilename}`);
-const preCache = ['/_data/searchindex.idx']
+const indexFilename = `/${location.pathname.match("((?:/central-supply-catalog/)?)")[0]}_data/searchindex.idx`;
+console.log(`indexFilename: ${indexFilename}`);
+const preCache = [indexFilename]
 
 this.addEventListener('install', function(ev) {
   ev.waitUntil(
