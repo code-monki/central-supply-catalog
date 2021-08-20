@@ -1,6 +1,6 @@
 const version = 2;
 const cacheName = `csc-cache-v${version}`;
-const indexFilename = `${location.pathname.match("((?:/central-supply-catalog/)?)")[0]}_data/searchindex.idx`;
+const indexFilename = `${location.pathname.match("((?:/central-supply-catalog/)?)")[0]}_data/searchindex.json`;
 console.log(`indexFilename: ${indexFilename}`);
 
 self.addEventListener("install", (ev) => {
@@ -17,12 +17,12 @@ self.addEventListener("install", (ev) => {
 });
 
 self.addEventListener("activate", (ev) => {
-  console.log(`Version ${cacheName} activated`);
   ev.waitUntil(
     caches.keys().then((keys) => {
       return Promise.all(keys.filter((key) => key != cacheName).map((key) => caches.delete(key)));
     })
   );
+  console.log(`Version ${cacheName} activated`);
 });
 
 const BS_MARKER = "/browser-sync/";
