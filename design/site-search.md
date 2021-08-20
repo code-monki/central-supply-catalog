@@ -85,9 +85,9 @@ The minisearch library will be included into the web application by using the fo
 
 Should the CDN link fail at some point in the future, the libraries will be installed locally in the _src/js_ directory.
 
-The resulting search index will be stored in the \_data folder as an uncompressed text file containing a JSON array. The file is not be compressed as the underlying assumption is that the Github Pages web server has compression turned on.
+The resulting search index will be stored in the \data folder as an uncompressed text file containing a JSON array. The file is not be compressed as the underlying assumption is that the Github Pages web server has compression turned on.
 
-The input data for the index is stored in a collection of files in the \_data directory that will not be copied to the production \_data folder. The _products-manifest.json_ file contains a list of the data files for the indexer to use as its input.
+The input data for the index is stored in a collection of files in the \data directory that will not be copied to the production \data folder. The _products-manifest.json_ file contains a list of the data files for the indexer to use as its input.
 
 The search results will be overlaid on the home page in place of the departments container.
 
@@ -100,7 +100,7 @@ Each product result will have the same layout that is used by the product displa
 
 The search results will provide a pagination feature should the number of results exceed 10. The results will be organized into groups of 10.
 
-To support the "auto-update" feature, a sentinel file with a version number will be created in the \_data directory. The version number will be persisted in local storage so that it can be used to determine whether or not a new version of the index has been generated. The version object will have the following data:
+To support the "auto-update" feature, a sentinel file with a version number will be created in the \data directory. The version number will be persisted in local storage so that it can be used to determine whether or not a new version of the index has been generated. The version object will have the following data:
 
 | Data    | Description                            |
 | ------- | -------------------------------------- |
