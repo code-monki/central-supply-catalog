@@ -31,13 +31,13 @@ let INDEX_OUTPUT_DIRECTORY = "";
 const render = (cb) => {
   process.env.ELEVENTY_DEST = './build'
   process.env.ELEVENTY_PREFIX=''
-  INDEX_OUTPUT_DIRECTORY = "./build/_data";
+  INDEX_OUTPUT_DIRECTORY = "./build/data";
   // return cp.spawn("npx", ["eleventy", "--quiet"], { shell: true, stdio: "inherit"});
   cb()
 };
 
 const render_prod = (cb) => {
-  INDEX_OUTPUT_DIRECTORY = "./docs/_data";
+  INDEX_OUTPUT_DIRECTORY = "./docs/data";
   let buildType = "prod"
   cp.execSync('npm run prod')
   cb()
@@ -113,7 +113,7 @@ const buildSiteIndex = async () => {
 
 // copy the search index
 const copyIndexFile = () => {
-  return src(["./src/data/**/*"]).pipe(dest("./docs/data"));
+  return src(["./src/_data/**/*"]).pipe(dest("./docs/data"));
 };
 
 // Move the robots.txt files
@@ -197,7 +197,7 @@ const buildIndex = () => {
     if (err && err.code != "EEXIST") throw "up";
 
     // write the index
-    fs.writeFile(path.join(INDEX_OUTPUT_DIRECTORY, "searchindex.json"), JSON.stringify(ms), function (err) {
+    fs.writeFile(path.join(INDEX_OUTPUT_DIRECTORY, "searchindex.idx"), JSON.stringify(ms), function (err) {
       if (err) console.error(err);
       console.log("Index saved.");
     });

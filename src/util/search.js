@@ -23,5 +23,5 @@ inputFiles.forEach(file => {
 let searchTerm = 'gas and torch cutting'
 let options = (searchTerm.includes(' and ')) ? { combineWith: 'AND'} : {}
 
-fs.writeFileSync('src/_data/searchindex.json', JSON.stringify(ms))
+fs.writeFileSync('src/_data/searchindex.idx', JSON.stringify(ms))
 console.log(ms.search(searchTerm, options ));
