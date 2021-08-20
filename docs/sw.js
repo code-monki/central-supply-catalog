@@ -1,12 +1,14 @@
 const version = 2;
 const cacheName = `csc-cache-v${version}`;
-const indexFilename = `_data/searchindex.idx`;
+const indexFilename = `${location.pathname.match("((?:/central-supply-catalog/)?)")[0]}_data/searchindex.idx`;
+console.log(`indexFilename: ${indexFilename}`);
 
 self.addEventListener("install", (ev) => {
   console.log(`Version ${cacheName} installed`);
   ev.waitUntil(
     caches.open(cacheName).then((cache) => {
-      cache.add(indexFilename).then(() => console.log(`${cacheName} has been updated`)),
+      cache.add(indexFilename)
+        .then(() => console.log(`${cacheName} has been updated`)),
         (err) => {
           console.warn(`Failed to update ${cacheName}`);
         };
