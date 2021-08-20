@@ -3,7 +3,7 @@ const cacheName = `csc-cache-v${version}`;
 
 console.log(location.pathname);
 const indexFilename = (location.pathname.match("/central-supply-catalog/"))
-  ? `${location.pathname[0]}_data/searchindex.idx`
+  ? `/central-supply-catalog/_data/searchindex.idx`
   : `/_data/searchindex.idx`
 // const indexFilename = `${
 //   (location.pathname.match("((?:/central-supply-catalog/)?)")[0]) 
