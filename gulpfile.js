@@ -197,7 +197,7 @@ const buildIndex = () => {
     if (err && err.code != "EEXIST") throw "up";
 
     // write the index
-    fs.writeFile(path.join(INDEX_OUTPUT_DIRECTORY, "searchindex.idx"), JSON.stringify(ms), function (err) {
+    fs.writeFile(path.join(INDEX_OUTPUT_DIRECTORY, "searchindex.json"), JSON.stringify(ms), function (err) {
       if (err) console.error(err);
       console.log("Index saved.");
     });
