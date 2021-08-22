@@ -6,7 +6,8 @@ const categoriesData = require("./progdata/categories.json");
 const departmentsData = require("./progdata/departments.json");
 const slugify = require("slugify");
 
-const basePath = process.env.ELEVENTY_ENV === "dev" ? "" : process.env.ELEVENTY_PREFIX;
+// const basePath = process.env.ELEVENTY_ENV === "dev" ? "" : process.env.ELEVENTY_PREFIX;
+const basePath = "";
 const buildDest = process.env.ELEVENTY_DEST;
 
 module.exports = function (eleventyConfig) {
