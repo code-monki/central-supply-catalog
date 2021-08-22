@@ -216,7 +216,8 @@ if (removeAllItemsBtn !== null && removeAllItemsBtn !== undefined) {
 
 const updateCartBadge = () => {
   const cartCountSpan = document.getElementById("cart-badge");
-  let cartCount = JSON.parse(localStorage.getItem(cartKey)).length;
+  let cart = JSON.parse(localStorage.getItem(cartKey));
+  let cartCount = (cart === null || cart === undefined) ? 0 : cart.length;
 
   if (cartCount === 0) {
     cartCountSpan.style.display = "none";

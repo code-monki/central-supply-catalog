@@ -8,7 +8,7 @@
   },
   "scripts": {
     "dev": "ELEVENTY_ENV=dev npx @11ty/eleventy --output=build --pathprefix=; sass src/scss:build/css",
-    "prod": "ELEVENTY_ENV=prod ELEVENTY_PREFIX=/central-supply-catalog npx @11ty/eleventy --pathprefix=central-supply-catalog --output=docs; sass src/scss:docs/css",
+    "prod": "ELEVENTY_ENV=prod npx @11ty/eleventy --output=docs; sass src/scss:docs/css",
     "sass": "sass src/scss:build/css",
     "gen-search-index": "node ./src/util/search.js  ",
     "watch:sass": "npm run sass -- --watch",
@@ -31,6 +31,7 @@
     "@babel/preset-env": "^7.14.4",
     "babel-cli": "^6.26.0",
     "browser-sync": "^2.26.14",
+    "core-js": "^3.16.2",
     "debug": "^4.3.2",
     "del": "^2.2.2",
     "fs": "^0.0.1-security",
