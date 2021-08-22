@@ -1,4 +1,4 @@
-const SW_LOCATION = `${location.pathname.match("((?:/central-supply-catalog/)?)")[0]}sw.js`;
+const SW_LOCATION = `/sw.js`;
 
 const APP = {
   SW: null,
