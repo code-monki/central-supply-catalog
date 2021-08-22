@@ -64,7 +64,7 @@ const siteMap = () => {
   console.log("Running siteMap");
   return src("./docs/**/*.html", { read: false })
     .pipe(save("before-sitemap"))
-    .pipe(sitemap({ siteUrl: "https://cmcknight.github.io/central-supply-catalog/" }))
+    // .pipe(sitemap({ siteUrl: "https://cmcknight.github.io/central-supply-catalog/" }))
     .pipe(removeEmptyLines())
     .pipe(dest("./docs"))
     .pipe(save.restore("before-sitemap"));
