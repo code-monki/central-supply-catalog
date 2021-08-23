@@ -129,19 +129,19 @@ module.exports = function (eleventyConfig) {
   //-------------------------------------------------------------
   // build category cards for home page
   //-------------------------------------------------------------
-  eleventyConfig.addShortcode("buildCategoryCards", () => {
-    let text = `<div class="categories-container container">
-                  <div class="row">`;
-    categoriesData.forEach((category) => {
-      text += buildCategoryCard(category);
-    });
+  // eleventyConfig.addShortcode("buildCategoryCards", () => {
+  //   let text = `<div class="categories-container container">
+  //                 <div class="row">`;
+  //   categoriesData.forEach((category) => {
+  //     text += buildCategoryCard(category);
+  //   });
 
-    text += `
-      </div>
-    </div>`;
+  //   text += `
+  //     </div>
+  //   </div>`;
 
-    return text;
-  });
+  //   return text;
+  // });
 
   //-------------------------------------------------------------
   // Build Department cards
@@ -182,46 +182,46 @@ module.exports = function (eleventyConfig) {
 //-------------------------------------------------------------
 // Construct one category card
 //-------------------------------------------------------------
-const buildCategoryCard = (category) => {
-  let text = `<div class="cat-btn col s6 m4 l3 offset-l0 xl4">
-                <a href="#${urlSafe(
-                  category.label
-                )}-modal" class="modal-trigger btn big-button black red-text flow-text">
-                  <img src="img/${urlSafe(category.label)}.svg" alt="${category.label}"><br>${category.label}
-                </a>
-              </div>
+// const buildCategoryCard = (category) => {
+//   let text = `<div class="cat-btn col s6 m4 l3 offset-l0 xl4">
+//                 <a href="#${urlSafe(
+//                   category.label
+//                 )}-modal" class="modal-trigger btn big-button black red-text flow-text">
+//                   <img src="img/${urlSafe(category.label)}.svg" alt="${category.label}"><br>${category.label}
+//                 </a>
+//               </div>
               
-              <div id="${urlSafe(category.label)}-modal" class="modal card-modal">
-                <div class="modal-content">
-                  <a class="modal-close"><i class="material-icons right">close</i></a>
+//               <div id="${urlSafe(category.label)}-modal" class="modal card-modal">
+//                 <div class="modal-content">
+//                   <a class="modal-close"><i class="material-icons right">close</i></a>
                   
-                  <h6>${category.label}</h6>
+//                   <h6>${category.label}</h6>
                   
-                  <div class="menu-lists">
-                    <div>
-                      <ul>`;
-  category.departments.forEach((dept) => {
-    let o = departmentsData.find((m) => m.id === dept);
+//                   <div class="menu-lists">
+//                     <div>
+//                       <ul>`;
+//   category.departments.forEach((dept) => {
+//     let o = departmentsData.find((m) => m.id === dept);
 
-    if (o !== undefined) {
-      text += `<li><a href="${basePath}/departments/${urlSafe(o.label).toLowerCase().replace(" ", "-")}/">${
-        o.label
-      }</a></li>`;
-    } else {
-      // FIXME
-      // console.log(`Undefined department: ${dept}`)
-    }
-  });
+//     if (o !== undefined) {
+//       text += `<li><a href="${basePath}/departments/${urlSafe(o.label).toLowerCase().replace(" ", "-")}/">${
+//         o.label
+//       }</a></li>`;
+//     } else {
+//       // FIXME
+//       // console.log(`Undefined department: ${dept}`)
+//     }
+//   });
 
-  text += `</ul>
-  </div>
-  </div>
+//   text += `</ul>
+//   </div>
+//   </div>
   
-  </div>
-  </div>`;
+//   </div>
+//   </div>`;
 
-  return text;
-};
+//   return text;
+// };
 
 //-------------------------------------------------------------
 // Strip out any special characters from the URL
