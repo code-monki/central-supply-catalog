@@ -37,7 +37,7 @@ const render = (cb) => {
 };
 
 const render_prod = (cb) => {
-  INDEX_OUTPUT_DIRECTORY = "./docs/data";
+  INDEX_OUTPUT_DIRECTORY = "./dist/data";
   let buildType = "prod"
   cp.execSync('npm run prod')
   cb()
@@ -49,24 +49,24 @@ const render_prod = (cb) => {
   //     ELEVENTY_PREFIX: "/central-supply-catalog",
   //   })
   // });
-  cb()
+  // cb()
 };
 
 // process HTML files (minify)
 const processHTML = () => {
-  return src("docs/**/*.html")
+  return src("dist/**/*.html")
     .pipe(htmlmin({ collapseWhitespace: true }))
-    .pipe(dest("./docs"));
+    .pipe(dest("./dist"));
 };
 
 // create SEO sitemap
 const siteMap = () => {
   console.log("Running siteMap");
-  return src("./docs/**/*.html", { read: false })
+  return src("./dist/**/*.html", { read: false })
     .pipe(save("before-sitemap"))
     // .pipe(sitemap({ siteUrl: "https://cmcknight.github.io/central-supply-catalog/" }))
     .pipe(removeEmptyLines())
-    .pipe(dest("./docs"))
+    .pipe(dest("./dist"))
     .pipe(save.restore("before-sitemap"));
 };
 
@@ -75,10 +75,10 @@ const processSASS = () => {
   return src("./src/scss/*.scss")
     .pipe(sass())
     .pipe(autoprefixer())
-    .pipe(dest("./docs/css"))
+    .pipe(dest("./dist/css"))
     .pipe(rename({ suffix: ".min" }))
     .pipe(cssnano())
-    .pipe(dest("./docs/css"));
+    .pipe(dest("./dist/css"));
 };
 
 // process Javascript files (babel for cross-browser compatiblity, minify)
@@ -87,7 +87,7 @@ const processJavascript = () => {
     .pipe(babel({ presets: ["@babel/env"] }))
     .pipe(uglify())
     .pipe(rename({ sufix: ".min" }))
-    .pipe(dest("./docs/js"));
+    .pipe(dest("./dist/js"));
 };
 
 // optimize images (reduce image sizes)
@@ -103,7 +103,7 @@ const optimizeImages = () => {
         }),
       ])
     )
-    .pipe(dest("./docs/img"));
+    .pipe(dest("./dist/img"));
 };
 
 // build the site search index
@@ -113,22 +113,22 @@ const buildSiteIndex = async () => {
 
 // copy the search index
 const copyIndexFile = () => {
-  return src(["./src/_data/**/*"]).pipe(dest("./docs/data"));
+  return src(["./src/_data/**/*"]).pipe(dest("./dist/data"));
 };
 
 // Move the robots.txt files
 const copyRobotsText = () => {
-  return src(["./src/robots*.txt"]).pipe(dest("./docs"));
+  return src(["./src/robots*.txt"]).pipe(dest("./dist"));
 };
 
 // Copy the files folder
 const CopyFilesFolder = () => {
-  return src(["./src/files/**/*"]).pipe(dest("./docs/files"));
+  return src(["./src/files/**/*"]).pipe(dest("./dist/files"));
 };
 
 // clean the dist folder
 const cleanProd = () => {
-  return del("./docs/**/*");
+  return del("./dist/**/*");
 };
 
 // clean the build folder
@@ -139,11 +139,11 @@ const cleanBuild = () => {
 // watch for changes to files
 const monitor = () => {
   browserSync.init({
-    server: "docs",
+    server: "dist",
     browser: "Google Chrome",
   });
 
-  watch(["./docs/**/*"]);
+  watch(["./dist/**/*"]);
 };
 
 // define Gulp Tasks
