@@ -1,9 +1,8 @@
 [
   {
     "sku": "100-000-00001",
-    "category": "protections",
     "type": "armor",
-    "subtype": "",
+    "subtype": "ablative",
     "name": "Ablat",
     "mfr": "000",
     "cost": 375,
@@ -14,21 +13,23 @@
     "image": "",
     "description": "<!-- Summary Start -->Ablat is a material which ablates (vaporizes) when hit by laser fire. The vaporized material carries away the energy of the laser, protecting the user. Ablat has a basic protective value against attacks and is doubled against K (Burn) attacks. Ar 12<!-- Summary End -->",
     "accessories": [],
-    "sources": [{
-      "publication": "Traveller 5.10 Core Rules Book 3 : Worlds and Adventures",
-      "authors": ["Miller, Marc"],
-      "publisher": {
-        "name": "Far Future Enterprises",
-        "url": "https://farfuture.net"
+    "categories": ["protections", "armor"],
+    "sources": [
+      {
+        "publication": "Traveller 5.10 Core Rules Book 3 : Worlds and Adventures",
+        "authors": ["Miller, Marc"],
+        "publisher": {
+          "name": "Far Future Enterprises",
+          "url": "https://farfuture.net"
+        }
       }
-    }],
+    ],
     "tags": ["products", "protections"]
   },
   {
     "sku": "100-000-00002",
-    "category": "protections",
     "type": "armor",
-    "subtype": "",
+    "subtype": "assault",
     "name": "Assault Armor, Heavy",
     "mfr": "000",
     "cost": 240000,
@@ -39,21 +40,23 @@
     "image": "",
     "description": "<!-- Summary Start -->Darrian pre-Maghiz suit of combat armor. Ar 32 (MgT 16).<!-- Summary End --> Assault armor is a relatively lightweight system intended for short-term (hours) operations against an enemy force.",
     "accessories": [],
-    "sources": [{
-      "publication": "Traveller 5.10 Core Rules Book 3 : Worlds and Adventures",
-      "authors": ["Miller, Marc"],
-      "publisher": {
-        "name": "Far Future Enterprises",
-        "url": "https://farfuture.net"
+    "categories": ["protections", "armor"],
+    "sources": [
+      {
+        "publication": "Traveller 5.10 Core Rules Book 3 : Worlds and Adventures",
+        "authors": ["Miller, Marc"],
+        "publisher": {
+          "name": "Far Future Enterprises",
+          "url": "https://farfuture.net"
+        }
       }
-    }],
+    ],
     "tags": ["products", "protections"]
   },
   {
-    "sku": "100-000-00003",
-    "category": "protections",
+    "sku": "100-002-00003",
     "type": "armor",
-    "subtype": "",
+    "subtype": "dress",
     "name": "Battledress",
     "mfr": "000",
     "cost": 200000,
@@ -64,21 +67,23 @@
     "image": "",
     "description": "<!-- Summary Start -->Heavy powered personal armor Ar 45 (MgT 18)<!-- Summary End -->Battledress is a standard combat uniform worn by soldiers. Over time, the Dress element has become the term for the ultimate in military powered armor.\n\nThe significant element of Dress is that it is braced against high recoil.",
     "accessories": [],
-    "sources": [{
-      "publication": "Traveller 5.10 Core Rules Book 3 : Worlds and Adventures",
-      "authors": ["Miller, Marc"],
-      "publisher": {
-        "name": "Far Future Enterprises",
-        "url": "https://farfuture.net"
+    "categories": ["protections", "dress"],
+    "sources": [
+      {
+        "publication": "Traveller 5.10 Core Rules Book 3 : Worlds and Adventures",
+        "authors": ["Miller, Marc"],
+        "publisher": {
+          "name": "Far Future Enterprises",
+          "url": "https://farfuture.net"
+        }
       }
-    }],
+    ],
     "tags": ["products", "protections"]
   },
   {
     "sku": "100-000-00004",
-    "category": "protections",
     "type": "armor",
-    "subtype": "",
+    "subtype": "boarding",
     "name": "Boarding Armor",
     "mfr": "000",
     "cost": 80000,
@@ -89,19 +94,21 @@
     "image": "",
     "description": "<!-- Summary Start -->Boarding armor for use in zero-G operations against interplanetary and interstellar vessels. AV 28 (MgT 15)<!-- Summary End -->",
     "accessories": [],
-    "sources": [{
-      "publication": "Traveller 5.10 Core Rules Book 3 : Worlds and Adventures",
-      "authors": ["Miller, Marc"],
-      "publisher": {
-        "name": "Far Future Enterprises",
-        "url": "https://farfuture.net"
+    "categories": ["protections", "armor"],
+    "sources": [
+      {
+        "publication": "Traveller 5.10 Core Rules Book 3 : Worlds and Adventures",
+        "authors": ["Miller, Marc"],
+        "publisher": {
+          "name": "Far Future Enterprises",
+          "url": "https://farfuture.net"
+        }
       }
-    }],
+    ],
     "tags": ["products", "protections"]
   },
   {
     "sku": "100-000-00005",
-    "category": "protections",
     "type": "armor",
     "subtype": "",
     "name": "Coat",
@@ -114,21 +121,23 @@
     "image": "",
     "description": "<!-- Summary Start -->A basic cold weather clothing unit.<!-- Summary End -->",
     "accessories": [],
-    "sources": [{
-      "publication": "Traveller 5.10 Core Rules Book 3 : Worlds and Adventures",
-      "authors": ["Miller, Marc"],
-      "publisher": {
-        "name": "Far Future Enterprises",
-        "url": "https://farfuture.net"
+    "categories": ["protections", "armor"],
+    "sources": [
+      {
+        "publication": "Traveller 5.10 Core Rules Book 3 : Worlds and Adventures",
+        "authors": ["Miller, Marc"],
+        "publisher": {
+          "name": "Far Future Enterprises",
+          "url": "https://farfuture.net"
+        }
       }
-    }],
+    ],
     "tags": ["products", "protections"]
   },
   {
     "sku": "100-000-00006",
-    "category": "protections",
     "type": "armor",
-    "subtype": "",
+    "subtype": "cloth",
     "name": "Cloth Armor",
     "mfr": "000",
     "cost": 250,
@@ -139,21 +148,23 @@
     "image": "",
     "description": "<!-- Summary Start -->A heavy duty body suit tailored from ballistic cloth. Ar 14 (MgT 12)<!-- Summary End -->",
     "accessories": [],
-    "sources": [{
-      "publication": "Traveller 5.10 Core Rules Book 3 : Worlds and Adventures",
-      "authors": ["Miller, Marc"],
-      "publisher": {
-        "name": "Far Future Enterprises",
-        "url": "https://farfuture.net"
+    "categories": ["protections", "armor"],
+    "sources": [
+      {
+        "publication": "Traveller 5.10 Core Rules Book 3 : Worlds and Adventures",
+        "authors": ["Miller, Marc"],
+        "publisher": {
+          "name": "Far Future Enterprises",
+          "url": "https://farfuture.net"
+        }
       }
-    }],
+    ],
     "tags": ["products", "protections"]
   },
   {
     "sku": "100-000-00007",
-    "category": "protections",
     "type": "armor",
-    "subtype": "",
+    "subtype": "combat",
     "name": "Combat Armor",
     "mfr": "000",
     "cost": 80000,
@@ -164,21 +175,23 @@
     "image": "",
     "description": "<!-- Summary Start -->Combat Armor is intended for medium-term operations (days) against an enemy force. Ar 28 (MgT 15).<!-- Summary End -->",
     "accessories": [],
-    "sources": [{
-      "publication": "Traveller 5.10 Core Rules Book 3 : Worlds and Adventures",
-      "authors": ["Miller, Marc"],
-      "publisher": {
-        "name": "Far Future Enterprises",
-        "url": "https://farfuture.net"
+    "categories": ["protections", "armor"],
+    "sources": [
+      {
+        "publication": "Traveller 5.10 Core Rules Book 3 : Worlds and Adventures",
+        "authors": ["Miller, Marc"],
+        "publisher": {
+          "name": "Far Future Enterprises",
+          "url": "https://farfuture.net"
+        }
       }
-    }],
+    ],
     "tags": ["products", "protections"]
   },
   {
     "sku": "100-000-00008",
-    "category": "protections",
     "type": "armor",
-    "subtype": "",
+    "subtype": "environment",
     "name": "Desert Cloak",
     "mfr": "000",
     "cost": 200,
@@ -189,21 +202,23 @@
     "image": "",
     "description": "<!-- Summary Start -->A basic fabric article of clothing which provides a degree of protection against the desert environment. Ar 1.<!-- Summary End -->",
     "accessories": [],
-    "sources": [{
-      "publication": "Traveller 5.10 Core Rules Book 3 : Worlds and Adventures",
-      "authors": ["Miller, Marc"],
-      "publisher": {
-        "name": "Far Future Enterprises",
-        "url": "https://farfuture.net"
+    "categories": ["protections", "armor"],
+    "sources": [
+      {
+        "publication": "Traveller 5.10 Core Rules Book 3 : Worlds and Adventures",
+        "authors": ["Miller, Marc"],
+        "publisher": {
+          "name": "Far Future Enterprises",
+          "url": "https://farfuture.net"
+        }
       }
-    }],
+    ],
     "tags": ["products", "protections"]
   },
   {
     "sku": "100-000-00009",
-    "category": "protections",
     "type": "armor",
-    "subtype": "",
+    "subtype": "hostile environment",
     "name": "Hostile Environment Suit",
     "mfr": "000",
     "cost": 8000,
@@ -214,21 +229,23 @@
     "image": "",
     "description": "<!-- Summary Start -->The hostile environment suit includes a variety of protections against extreme envronmental conditions. Ar 16 (MgT 13).<!-- Summary End -->",
     "accessories": [],
-    "sources": [{
-      "publication": "Traveller 5.10 Core Rules Book 3 : Worlds and Adventures",
-      "authors": ["Miller, Marc"],
-      "publisher": {
-        "name": "Far Future Enterprises",
-        "url": "https://farfuture.net"
+    "categories": ["protections", "armor"],
+    "sources": [
+      {
+        "publication": "Traveller 5.10 Core Rules Book 3 : Worlds and Adventures",
+        "authors": ["Miller, Marc"],
+        "publisher": {
+          "name": "Far Future Enterprises",
+          "url": "https://farfuture.net"
+        }
       }
-    }],
+    ],
     "tags": ["products", "protections"]
   },
   {
     "sku": "100-000-00010",
-    "category": "protections",
     "type": "armor",
-    "subtype": "",
+    "subtype": "jack",
     "name": "Jack",
     "mfr": "000",
     "cost": 50,
@@ -239,21 +256,23 @@
     "image": "",
     "description": "<!-- Summary Start -->A natural or synthetic leather jacket or body suit covering the torso and upper arms and legs. Jack is somewhat better than ordinary clothing in providing basic protection. Ar 5<!-- Summary End -->",
     "accessories": [],
-    "sources": [{
-      "publication": "Traveller 5.10 Core Rules Book 3 : Worlds and Adventures",
-      "authors": ["Miller, Marc"],
-      "publisher": {
-        "name": "Far Future Enterprises",
-        "url": "https://farfuture.net"
+    "categories": ["protections", "armor"],
+    "sources": [
+      {
+        "publication": "Traveller 5.10 Core Rules Book 3 : Worlds and Adventures",
+        "authors": ["Miller, Marc"],
+        "publisher": {
+          "name": "Far Future Enterprises",
+          "url": "https://farfuture.net"
+        }
       }
-    }],
+    ],
     "tags": ["products", "protections"]
   },
   {
     "sku": "100-000-00012",
-    "category": "protections",
     "type": "armor",
-    "subtype": "",
+    "subtype": "mesh",
     "name": "Mesh",
     "mfr": "000",
     "cost": 150,
@@ -264,21 +283,23 @@
     "image": "",
     "description": "<!-- Summary Start -->A jacket or body suit made of natural or synthetic leather and reinforced with a lining of flexible metal mesh, similar to chain mail but lighter and stronger. Ar 10<!-- Summary End -->",
     "accessories": [],
-    "sources": [{
-      "publication": "Traveller 5.10 Core Rules Book 3 : Worlds and Adventures",
-      "authors": ["Miller, Marc"],
-      "publisher": {
-        "name": "Far Future Enterprises",
-        "url": "https://farfuture.net"
+    "categories": ["protections", "armor"],
+    "sources": [
+      {
+        "publication": "Traveller 5.10 Core Rules Book 3 : Worlds and Adventures",
+        "authors": ["Miller, Marc"],
+        "publisher": {
+          "name": "Far Future Enterprises",
+          "url": "https://farfuture.net"
+        }
       }
-    }],
+    ],
     "tags": ["products", "protections"]
   },
   {
     "sku": "100-000-00014",
-    "category": "protections",
     "type": "armor",
-    "subtype": "",
+    "subtype": "quilted",
     "name": "Quilted Armor",
     "mfr": "000",
     "cost": 600,
@@ -289,14 +310,1427 @@
     "image": "",
     "description": "<!-- Summary Start -->Improved ballistic cloth. Ar 18 (MgT 13)<!-- Summary End -->",
     "accessories": [],
+    "categories": ["protections", "armor"],
+    "sources": [
+      {
+        "publication": "Traveller 5.10 Core Rules Book 3 : Worlds and Adventures",
+        "authors": ["Miller, Marc"],
+        "publisher": {
+          "name": "Far Future Enterprises",
+          "url": "https://farfuture.net"
+        }
+      }
+    ],
+    "tags": ["products", "protections"]
+  },
+  {
+    "sku": "100-001-00015",
+    "type": "armor",
+    "subtype": "hostile environment",
+    "name": "Hostile Environ Armor, Experimental Medium (XMHEA-7)",
+    "mfr": "000",
+    "cost": 640000,
+    "mass": 72,
+    "techLevel": 7,
+    "qrebs": "N/A",
+    "image": "",
+    "description": "<!-- Summary Start -->Hostile environment armor includes a variety of protections against extreme envronmental conditions. Ar 16 (MgT 13).<!-- Summary End -->",
+    "accessories": [],
+    "categories": ["protections", "armor"],
+    "sources": [
+      {
+        "publication": "Traveller 5.10 Core Rules Book 1 : Characters and Combat",
+        "authors": ["Miller, Marc"],
+        "publisher": {
+          "name": "Far Future Enterprises",
+          "url": "https://farfuture.net"
+        }
+      }
+    ],
+    "tags": ["products", "protections", "armor"]
+  },
+  {
+    "sku": "100-001-00016",
+    "type": "armor",
+    "subtype": "hazmat",
+    "name": "Hazmat Armor, Prototype (PHazA-7)",
+    "mfr": "000",
+    "cost": 540000,
+    "mass": 74,
+    "techLevel": 7,
+    "qrebs": "N/A",
+    "image": "",
+    "description": "<!-- Summary Start -->HazMat armor includes a variety of protections against hazardous materials in the environment.<!-- Summary End -->",
+    "accessories": [],
+    "categories": ["protections", "armor"],
+    "sources": [
+      {
+        "publication": "Traveller 5.10 Core Rules Book 1 : Characters and Combat",
+        "authors": ["Miller, Marc"],
+        "publisher": {
+          "name": "Far Future Enterprises",
+          "url": "https://farfuture.net"
+        }
+      }
+    ],
+    "tags": ["products", "protections", "armor"]
+  },
+  {
+    "sku": "100-001-00017",
+    "type": "armor",
+    "subtype": "police",
+    "name": "Police Armor, Basic (BPA-8)",
+    "mfr": "000",
+    "cost": 23800,
+    "mass": 23,
+    "techLevel": 8,
+    "qrebs": "N/A",
+    "image": "",
+    "description": "<!-- Summary Start -->HazMat armor includes a variety of protections against hazards in the law enforcement environment.<!-- Summary End -->",
+    "accessories": [],
+    "categories": ["protections", "armor"],
+    "sources": [
+      {
+        "publication": "Traveller 5.10 Core Rules Book 1 : Characters and Combat",
+        "authors": ["Miller, Marc"],
+        "publisher": {
+          "name": "Far Future Enterprises",
+          "url": "https://farfuture.net"
+        }
+      }
+    ],
+    "tags": ["products", "protections", "armor"]
+  },
+  {
+    "sku": "100-001-00018",
+    "type": "armor",
+    "subtype": "hostile environment",
+    "name": "Environ Armor, Early (EEnvA-9)",
+    "mfr": "000",
+    "cost": 36000,
+    "mass": 25,
+    "techLevel": 9,
+    "qrebs": "N/A",
+    "image": "",
+    "description": "<!-- Summary Start -->Hostile environment armor includes a variety of protections against extreme envronmental conditions. Ar 16 (MgT 13).<!-- Summary End -->",
+    "accessories": [],
+    "categories": ["protections", "armor"],
+    "sources": [
+      {
+        "publication": "Traveller 5.10 Core Rules Book 1 : Characters and Combat",
+        "authors": ["Miller, Marc"],
+        "publisher": {
+          "name": "Far Future Enterprises",
+          "url": "https://farfuture.net"
+        }
+      }
+    ],
+    "tags": ["products", "protections", "armor"]
+  },
+  {
+    "sku": "100-001-00019",
+    "type": "armor",
+    "subtype": "boarding",
+    "name": "Boarding Armor, Experimental Light (XLtBdA-9)",
+    "mfr": "000",
+    "cost": 352000,
+    "mass": 50,
+    "techLevel": 9,
+    "qrebs": "N/A",
+    "image": "",
+    "description": "<!-- Summary Start -->Boarding armor for use in zero-G operations against interplanetary and interstellar vessels. AV 28 (MgT 15)<!-- Summary End -->",
+    "accessories": [],
+    "categories": ["protections", "armor"],
+    "sources": [
+      {
+        "publication": "Traveller 5.10 Core Rules Book 1 : Characters and Combat",
+        "authors": ["Miller, Marc"],
+        "publisher": {
+          "name": "Far Future Enterprises",
+          "url": "https://farfuture.net"
+        }
+      }
+    ],
+    "tags": ["products", "protections", "armor"]
+  },
+  {
+    "sku": "100-001-00020",
+    "type": "armor",
+    "subtype": "hazmat",
+    "name": "Hazmat Armor, Heavy (HHazA-9)",
+    "mfr": "000",
+    "cost": 360000,
+    "mass": 50,
+    "techLevel": 9,
+    "qrebs": "N/A",
+    "image": "",
+    "description": "<!-- Summary Start -->HazMat armor includes a variety of protections against hazardous materials in the environment.<!-- Summary End -->",
+    "accessories": [],
+    "categories": ["protections", "armor"],
+    "sources": [
+      {
+        "publication": "Traveller 5.10 Core Rules Book 1 : Characters and Combat",
+        "authors": ["Miller, Marc"],
+        "publisher": {
+          "name": "Far Future Enterprises",
+          "url": "https://farfuture.net"
+        }
+      }
+    ],
+    "tags": ["products", "protections", "armor"]
+  },
+  {
+    "sku": "100-001-00021",
+    "type": "armor",
+    "subtype": "hostile environment",
+    "name": "Hostile Environ Armor (HEA-9)",
+    "mfr": "000",
+    "cost": 160000,
+    "mass": 36,
+    "techLevel": 9,
+    "qrebs": "N/A",
+    "image": "",
+    "description": "<!-- Summary Start -->Hostile environment armor includes a variety of protections against extreme envronmental conditions. Ar 16 (MgT 13).<!-- Summary End -->",
+    "accessories": [],
+    "categories": ["protections", "armor"],
+    "sources": [
+      {
+        "publication": "Traveller 5.10 Core Rules Book 1 : Characters and Combat",
+        "authors": ["Miller, Marc"],
+        "publisher": {
+          "name": "Far Future Enterprises",
+          "url": "https://farfuture.net"
+        }
+      }
+    ],
+    "tags": ["products", "protections", "armor"]
+  },
+  {
+    "sku": "100-001-00022",
+    "type": "armor",
+    "subtype": "hazmat",
+    "name": "Hazmat Armor, Improved (ImHazA-9)",
+    "mfr": "000",
+    "cost": 198000,
+    "mass": 39,
+    "techLevel": 9,
+    "qrebs": "N/A",
+    "image": "",
+    "description": "<!-- Summary Start -->HazMat armor includes a variety of protections against hazardous materials in the environment.<!-- Summary End -->",
+    "accessories": [],
+    "categories": ["protections", "armor"],
+    "sources": [
+      {
+        "publication": "Traveller 5.10 Core Rules Book 1 : Characters and Combat",
+        "authors": ["Miller, Marc"],
+        "publisher": {
+          "name": "Far Future Enterprises",
+          "url": "https://farfuture.net"
+        }
+      }
+    ],
+    "tags": ["products", "protections", "armor"]
+  },
+  {
+    "sku": "100-001-00023",
+    "type": "armor",
+    "subtype": "hostile environment",
+    "name": "Hostile Environ Armor, Medium (MHEA-9)",
+    "mfr": "000",
+    "cost": 160000,
+    "mass": 36,
+    "techLevel": 9,
+    "qrebs": "N/A",
+    "image": "",
+    "description": "<!-- Summary Start -->Hostile environment armor includes a variety of protections against extreme envronmental conditions. Ar 16 (MgT 13).<!-- Summary End -->",
+    "accessories": [],
+    "categories": ["protections", "armor"],
+    "sources": [
+      {
+        "publication": "Traveller 5.10 Core Rules Book 1 : Characters and Combat",
+        "authors": ["Miller, Marc"],
+        "publisher": {
+          "name": "Far Future Enterprises",
+          "url": "https://farfuture.net"
+        }
+      }
+    ],
+    "tags": ["products", "protections", "armor"]
+  },
+  {
+    "sku": "100-001-00024",
+    "type": "armor",
+    "subtype": "hazmat",
+    "name": "Hazmat Armor, Standard (StHazA-9)",
+    "mfr": "000",
+    "cost": 180000,
+    "mass": 39,
+    "techLevel": 9,
+    "qrebs": "N/A",
+    "image": "",
+    "description": "<!-- Summary Start -->HazMat armor includes a variety of protections against hazardous materials in the environment.<!-- Summary End -->",
+    "accessories": [],
+    "categories": ["protections", "armor"],
+    "sources": [
+      {
+        "publication": "Traveller 5.10 Core Rules Book 1 : Characters and Combat",
+        "authors": ["Miller, Marc"],
+        "publisher": {
+          "name": "Far Future Enterprises",
+          "url": "https://farfuture.net"
+        }
+      }
+    ],
+    "tags": ["products", "protections", "armor"]
+  },
+  {
+    "sku": "100-001-00025",
+    "type": "armor",
+    "subtype": "drop",
+    "name": "Drop Armor (DA-10)",
+    "mfr": "000",
+    "cost": 60000,
+    "mass": 90,
+    "techLevel": 10,
+    "qrebs": "N/A",
+    "image": "",
+    "description": "<!-- Summary Start -->Drop armor is structured to protect against extreme temperatures during orbital reentry.<!-- Summary End -->",
+    "accessories": [],
+    "categories": ["protections", "armor"],
+    "sources": [
+      {
+        "publication": "Traveller 5.10 Core Rules Book 1 : Characters and Combat",
+        "authors": ["Miller, Marc"],
+        "publisher": {
+          "name": "Far Future Enterprises",
+          "url": "https://farfuture.net"
+        }
+      }
+    ],
+    "tags": ["products", "protections", "armor"]
+  },
+  {
+    "sku": "100-001-00026",
+    "type": "armor",
+    "subtype": "hostile environment",
+    "name": "Hostile Environ Armor, Enahanced Medium (EnMHEA-10)",
+    "mfr": "000",
+    "cost": 640000,
+    "mass": 72,
+    "techLevel": 10,
+    "qrebs": "N/A",
+    "image": "",
+    "description": "<!-- Summary Start -->Hostile environment armor includes a variety of protections against extreme envronmental conditions. Ar 16 (MgT 13).<!-- Summary End -->",
+    "accessories": [],
+    "categories": ["protections", "armor"],
+    "sources": [
+      {
+        "publication": "Traveller 5.10 Core Rules Book 1 : Characters and Combat",
+        "authors": ["Miller, Marc"],
+        "publisher": {
+          "name": "Far Future Enterprises",
+          "url": "https://farfuture.net"
+        }
+      }
+    ],
+    "tags": ["products", "protections", "armor"]
+  },
+  {
+    "sku": "100-001-00027",
+    "type": "armor",
+    "subtype": "environment",
+    "name": "Environ Armor (EnvA-10)",
+    "mfr": "000",
+    "cost": 30000,
+    "mass": 15,
+    "techLevel": 10,
+    "qrebs": "N/A",
+    "image": "",
+    "description": "<!-- Summary Start -->Environment armor includes a variety of protections against extreme envronmental conditions.<!-- Summary End -->",
+    "accessories": [],
+    "categories": ["protections", "armor"],
+    "sources": [
+      {
+        "publication": "Traveller 5.10 Core Rules Book 1 : Characters and Combat",
+        "authors": ["Miller, Marc"],
+        "publisher": {
+          "name": "Far Future Enterprises",
+          "url": "https://farfuture.net"
+        }
+      }
+    ],
+    "tags": ["products", "protections", "armor"]
+  },
+  {
+    "sku": "100-001-00028",
+    "type": "armor",
+    "subtype": "hazmat",
+    "name": "Police Armor, Improved Heavy (ImHPA-10)",
+    "mfr": "000",
+    "cost": 74800,
+    "mass": 23,
+    "techLevel": 10,
+    "qrebs": "N/A",
+    "image": "",
+    "description": "<!-- Summary Start -->HazMat armor includes a variety of protections against hazards in the law enforcement environment.<!-- Summary End -->",
+    "accessories": [],
+    "categories": ["protections", "armor"],
+    "sources": [
+      {
+        "publication": "Traveller 5.10 Core Rules Book 1 : Characters and Combat",
+        "authors": ["Miller, Marc"],
+        "publisher": {
+          "name": "Far Future Enterprises",
+          "url": "https://farfuture.net"
+        }
+      }
+    ],
+    "tags": ["products", "protections", "armor"]
+  },
+  {
+    "sku": "100-001-00029",
+    "type": "armor",
+    "subtype": "environment",
+    "name": "Environ Armor, Medium (MEnvA-10)",
+    "mfr": "000",
+    "cost": 30000,
+    "mass": 15,
+    "techLevel": 10,
+    "qrebs": "N/A",
+    "image": "",
+    "description": "<!-- Summary Start -->Environment armor includes a variety of protections against extreme envronmental conditions.<!-- Summary End -->",
+    "accessories": [],
+    "categories": ["protections", "armor"],
+    "sources": [
+      {
+        "publication": "Traveller 5.10 Core Rules Book 1 : Characters and Combat",
+        "authors": ["Miller, Marc"],
+        "publisher": {
+          "name": "Far Future Enterprises",
+          "url": "https://farfuture.net"
+        }
+      }
+    ],
+    "tags": ["products", "protections", "armor"]
+  },
+  {
+    "sku": "100-001-00030",
+    "type": "armor",
+    "subtype": "sapper",
+    "name": "Sapper Armor, Medium (MSA-10)",
+    "mfr": "000",
+    "cost": 140000,
+    "mass": 36,
+    "techLevel": 10,
+    "qrebs": "N/A",
+    "image": "",
+    "description": "<!-- Summary Start -->Sapper armor adds combat engineer functions to combat environ capabilities.<!-- Summary End -->",
+    "accessories": [],
+    "categories": ["protections", "armor"],
+    "sources": [
+      {
+        "publication": "Traveller 5.10 Core Rules Book 1 : Characters and Combat",
+        "authors": ["Miller, Marc"],
+        "publisher": {
+          "name": "Far Future Enterprises",
+          "url": "https://farfuture.net"
+        }
+      }
+    ],
+    "tags": ["products", "protections", "armor"]
+  },
+  {
+    "sku": "100-001-00031",
+    "type": "armor",
+    "subtype": "sapper",
+    "name": "Sapper Armor (SA-10)",
+    "mfr": "000",
+    "cost": 140000,
+    "mass": 36,
+    "techLevel": 10,
+    "qrebs": "N/A",
+    "image": "",
+    "description": "<!-- Summary Start -->Sapper armor adds combat engineer functions to combat environ capabilities.<!-- Summary End -->",
+    "accessories": [],
+    "categories": ["protections", "armor"],
+    "sources": [
+      {
+        "publication": "Traveller 5.10 Core Rules Book 1 : Characters and Combat",
+        "authors": ["Miller, Marc"],
+        "publisher": {
+          "name": "Far Future Enterprises",
+          "url": "https://farfuture.net"
+        }
+      }
+    ],
+    "tags": ["products", "protections", "armor"]
+  },
+  {
+    "sku": "100-001-00032",
+    "type": "armor",
+    "subtype": "battle",
+    "name": "Battle Armor, Basic (BBA-11)",
+    "mfr": "000",
+    "cost": 70000,
+    "mass": 97,
+    "techLevel": 11,
+    "qrebs": "N/A",
+    "image": "",
+    "description": "Battle armor incorporates protections against most dangers, attacks, and threats on the battlefield.",
+    "accessories": [],
+    "categories": ["protections", "armor"],
+    "sources": [
+      {
+        "publication": "Traveller 5.10 Core Rules Book 1 : Characters and Combat",
+        "authors": ["Miller, Marc"],
+        "publisher": {
+          "name": "Far Future Enterprises",
+          "url": "https://farfuture.net"
+        }
+      }
+    ],
+    "tags": ["products", "protections", "armor"]
+  },
+  {
+    "sku": "100-001-00033",
+    "type": "armor",
+    "subtype": "battle",
+    "name": "Battle Armor (BA-11)",
+    "mfr": "000",
+    "cost": 100000,
+    "mass": 75,
+    "techLevel": 11,
+    "qrebs": "N/A",
+    "image": "",
+    "description": "Battle armor incorporates protections against most dangers, attacks, and threats on the battlefield.",
+    "accessories": [],
+    "categories": ["protections", "armor"],
+    "sources": [
+      {
+        "publication": "Traveller 5.10 Core Rules Book 1 : Characters and Combat",
+        "authors": ["Miller, Marc"],
+        "publisher": {
+          "name": "Far Future Enterprises",
+          "url": "https://farfuture.net"
+        }
+      }
+    ],
+    "tags": ["products", "protections", "armor"]
+  },
+  {
+    "sku": "100-001-00034",
+    "type": "armor",
+    "subtype": "boarding",
+    "name": "Boarding Armor (BdA-11)",
+    "mfr": "000",
+    "cost": 80000,
+    "mass": 36,
+    "techLevel": 11,
+    "qrebs": "N/A",
+    "image": "",
+    "description": "<!-- Summary Start -->Boarding armor for use in zero-G operations against interplanetary and interstellar vessels. AV 28 (MgT 15)<!-- Summary End -->",
+    "accessories": [],
+    "categories": ["protections", "armor"],
+    "sources": [
+      {
+        "publication": "Traveller 5.10 Core Rules Book 1 : Characters and Combat",
+        "authors": ["Miller, Marc"],
+        "publisher": {
+          "name": "Far Future Enterprises",
+          "url": "https://farfuture.net"
+        }
+      }
+    ],
+    "tags": ["products", "protections", "armor"]
+  },
+  {
+    "sku": "100-001-00035",
+    "type": "armor",
+    "subtype": "combat",
+    "name": "Combat Armor (CbtA-11)",
+    "mfr": "000",
+    "cost": 80000,
+    "mass": 60,
+    "techLevel": 11,
+    "qrebs": "N/A",
+    "image": "",
+    "description": "<!-- Summary Start -->Combat armor is intended for medium-term operations (days) against an enemy force.<!-- Summary End -->",
+    "accessories": [],
+    "categories": ["protections", "armor"],
+    "sources": [
+      {
+        "publication": "Traveller 5.10 Core Rules Book 1 : Characters and Combat",
+        "authors": ["Miller, Marc"],
+        "publisher": {
+          "name": "Far Future Enterprises",
+          "url": "https://farfuture.net"
+        }
+      }
+    ],
+    "tags": ["products", "protections", "armor"]
+  },
+  {
+    "sku": "100-001-00036",
+    "type": "armor",
+    "subtype": "drop",
+    "name": "Drop Armor, Improved (ImDA-11)",
+    "mfr": "000",
+    "cost": 66000,
+    "mass": 90,
+    "techLevel": 11,
+    "qrebs": "N/A",
+    "image": "",
+    "description": "<!-- Summary Start -->Drop armor is structured to protect against extreme temperatures during orbital reentry.<!-- Summary End -->",
+    "accessories": [],
+    "categories": ["protections", "armor"],
     "sources": [{
-      "publication": "Traveller 5.10 Core Rules Book 3 : Worlds and Adventures",
+      "publication": "Traveller 5.10 Core Rules Book 1 : Characters and Combat",
       "authors": ["Miller, Marc"],
       "publisher": {
         "name": "Far Future Enterprises",
         "url": "https://farfuture.net"
       }
     }],
-    "tags": ["products", "protections"]
-  }  
+    "tags": ["products", "protections", "armor"]
+  },
+  {
+    "sku": "100-001-00037",
+    "type": "armor",
+    "subtype": "environment",
+    "name": "Environ Armor, Improved (ImEnvA-11)",
+    "mfr": "000",
+    "cost": 33000,
+    "mass": 15,
+    "techLevel": 11,
+    "qrebs": "N/A",
+    "image": "",
+    "description": "<!-- Summary Start -->Environment armor includes a variety of protections against normal envronmental conditions.<!-- Summary End -->",
+    "accessories": [],
+    "categories": ["protections", "armor"],
+    "sources": [{
+      "publication": "Traveller 5.10 Core Rules Book 1 : Characters and Combat",
+      "authors": ["Miller, Marc"],
+      "publisher": {
+        "name": "Far Future Enterprises",
+        "url": "https://farfuture.net"
+      }
+    }],
+    "tags": ["products", "protections", "armor"]
+  },
+  {
+    "sku": "100-001-00038",
+    "type": "armor",
+    "subtype": "sapper",
+    "name": "Sapper Armor, Medium (ImMSA-11 Improved)",
+    "mfr": "000",
+    "cost": 154000,
+    "mass": 36,
+    "techLevel": 11,
+    "qrebs": "N/A",
+    "image": "",
+    "description": "<!-- Summary Start -->Sapper armor adds combat engineer functions to combat environ capabilities.<!-- Summary End -->",
+    "accessories": [],
+    "categories": ["protections", "armor"],
+    "sources": [{
+      "publication": "Traveller 5.10 Core Rules Book 1 : Characters and Combat",
+      "authors": ["Miller, Marc"],
+      "publisher": {
+        "name": "Far Future Enterprises",
+        "url": "https://farfuture.net"
+      }
+    }],
+    "tags": ["products", "protections", "armor"]
+  },
+  {
+    "sku": "100-001-00039",
+    "type": "armor",
+    "subtype": "sapper",
+    "name": "Sapper Armor, Oversize (OsSA-11)",
+    "mfr": "000",
+    "cost": 140000,
+    "mass": 288,
+    "techLevel": 11,
+    "qrebs": "N/A",
+    "image": "",
+    "description": "<!-- Summary Start -->Sapper armor adds combat engineer functions to combat environ capabilities.<!-- Summary End -->",
+    "accessories": [],
+    "categories": ["protections", "armor"],
+    "sources": [{
+      "publication": "Traveller 5.10 Core Rules Book 1 : Characters and Combat",
+      "authors": ["Miller, Marc"],
+      "publisher": {
+        "name": "Far Future Enterprises",
+        "url": "https://farfuture.net"
+      }
+    }],
+    "tags": ["products", "protections", "armor"]
+  },
+  {
+    "sku": "100-001-00040",
+    "type": "armor",
+    "subtype": "boarding",
+    "name": "Boarding Armor, Prototype Vlight (PVlBdA-11)",
+    "mfr": "000",
+    "cost": 480000,
+    "mass": 41,
+    "techLevel": 11,
+    "qrebs": "N/A",
+    "image": "",
+    "description": "<!-- Summary Start -->Boarding armor for use in zero-G operations against interplanetary and interstellar vessels. AV 28 (MgT 15)<!-- Summary End -->",
+    "accessories": [],
+    "categories": ["protections", "armor"],
+    "sources": [{
+      "publication": "Traveller 5.10 Core Rules Book 1 : Characters and Combat",
+      "authors": ["Miller, Marc"],
+      "publisher": {
+        "name": "Far Future Enterprises",
+        "url": "https://farfuture.net"
+      }
+    }],
+    "tags": ["products", "protections", "armor"]
+  },
+  {
+    "sku": "100-001-00041",
+    "type": "armor",
+    "subtype": "hazmat",
+    "name": "Hazmat Armor, Titan (THazA-11)",
+    "mfr": "000",
+    "cost": 5400000,
+    "mass": 1000,
+    "techLevel": 11,
+    "qrebs": "N/A",
+    "image": "",
+    "description": "<!-- Summary Start -->HazMat armor includes a variety of protections against hazardous materials in the environment.<!-- Summary End -->",
+    "accessories": [],
+    "categories": ["protections", "armor"],
+    "sources": [{
+      "publication": "Traveller 5.10 Core Rules Book 1 : Characters and Combat",
+      "authors": ["Miller, Marc"],
+      "publisher": {
+        "name": "Far Future Enterprises",
+        "url": "https://farfuture.net"
+      }
+    }],
+    "tags": ["products", "protections", "armor"]
+  },
+  {
+    "sku": "100-001-00042",
+    "type": "armor",
+    "subtype": "assault",
+    "name": "Assault Armor, Early Vlight (EVlAA-12)",
+    "mfr": "000",
+    "cost": 144000,
+    "mass": 45,
+    "techLevel": 12,
+    "qrebs": "N/A",
+    "image": "",
+    "description": "Assault armor is a (relatively) lightweight system is intended for short-term (hours) operations against an enemy force.",
+    "accessories": [],
+    "categories": ["protections", "armor"],
+    "sources": [{
+      "publication": "Traveller 5.10 Core Rules Book 1 : Characters and Combat",
+      "authors": ["Miller, Marc"],
+      "publisher": {
+        "name": "Far Future Enterprises",
+        "url": "https://farfuture.net"
+      }
+    }],
+    "tags": ["products", "protections", "armor"]
+  },
+  {
+    "sku": "100-001-00043",
+    "type": "armor",
+    "subtype": "battle",
+    "name": "Battle Armor, Enhanced (EnBA-12)",
+    "mfr": "000",
+    "cost": 400000,
+    "mass": 150,
+    "techLevel": 12,
+    "qrebs": "N/A",
+    "image": "",
+    "description": "Battle armor incorporates protections against most dangers, attacks, and threats on the battlefield.",
+    "accessories": [],
+    "categories": ["protections", "armor"],
+    "sources": [{
+      "publication": "Traveller 5.10 Core Rules Book 1 : Characters and Combat",
+      "authors": ["Miller, Marc"],
+      "publisher": {
+        "name": "Far Future Enterprises",
+        "url": "https://farfuture.net"
+      }
+    }],
+    "tags": ["products", "protections", "armor"]
+  },
+  {
+    "sku": "100-001-00044",
+    "type": "armor",
+    "subtype": "combat",
+    "name": "Combat Armor, Oversize (OsCbtA-12)",
+    "mfr": "000",
+    "cost": 800000,
+    "mass": 480,
+    "techLevel": 12,
+    "qrebs": "N/A",
+    "image": "",
+    "description": "<!-- Summary Start -->Combat armor is intended for medium-term operations (days) against an enemy force.<!-- Summary End -->",
+    "accessories": [],
+    "categories": ["protections", "armor"],
+    "sources": [{
+      "publication": "Traveller 5.10 Core Rules Book 1 : Characters and Combat",
+      "authors": ["Miller, Marc"],
+      "publisher": {
+        "name": "Far Future Enterprises",
+        "url": "https://farfuture.net"
+      }
+    }],
+    "tags": ["products", "protections", "armor"]
+  },
+  {
+    "sku": "100-001-00045",
+    "type": "armor",
+    "subtype": "assault",
+    "name": "Assault Armor, Small (SAA-12)",
+    "mfr": "000",
+    "cost": 30000,
+    "mass": 22,
+    "techLevel": 12,
+    "qrebs": "N/A",
+    "image": "",
+    "description": "Assault armor is a (relatively) lightweight system is intended for short-term (hours) operations against an enemy force.",
+    "accessories": [],
+    "categories": ["protections", "armor"],
+    "sources": [{
+      "publication": "Traveller 5.10 Core Rules Book 1 : Characters and Combat",
+      "authors": ["Miller, Marc"],
+      "publisher": {
+        "name": "Far Future Enterprises",
+        "url": "https://farfuture.net"
+      }
+    }],
+    "tags": ["products", "protections", "armor"]
+  },
+  {
+    "sku": "100-001-00046",
+    "type": "armor",
+    "subtype": "drop",
+    "name": "Drop Armor, Advanced (ADA-13)",
+    "cost": 120000,
+    "mfr": "000",
+    "mass": 72,
+    "techLevel": 13,
+    "qrebs": "N/A",
+    "image": "",
+    "description": "<!-- Summary Start -->Drop armor is structured to protect against extreme temperatures during orbital reentry.<!-- Summary End -->",
+    "accessories": [],
+    "categories": ["protections", "armor"],
+    "sources": [{
+      "publication": "Traveller 5.10 Core Rules Book 1 : Characters and Combat",
+      "authors": ["Miller, Marc"],
+      "publisher": {
+        "name": "Far Future Enterprises",
+        "url": "https://farfuture.net"
+      }
+    }],
+    "tags": ["products", "protections", "armor"]
+  },
+  {
+    "sku": "100-001-00047",
+    "type": "armor",
+    "subtype": "environment",
+    "name": "Environ Armor, Advanced (AEnvA-13)",
+    "cost": 6000,
+    "mfr": "000",
+    "mass": 12,
+    "techLevel": 13,
+    "qrebs": "N/A",
+    "image": "",
+    "description": "<!-- Summary Start -->Environment armor includes a variety of protections against extreme envronmental conditions.<!-- Summary End -->",
+    "accessories": [],
+    "categories": ["protections", "armor"],
+    "sources": [{
+      "publication": "Traveller 5.10 Core Rules Book 1 : Characters and Combat",
+      "authors": ["Miller, Marc"],
+      "publisher": {
+        "name": "Far Future Enterprises",
+        "url": "https://farfuture.net"
+      }
+    }],
+    "tags": ["products", "protections", "armor"]
+  },
+  {
+    "sku": "100-001-00048",
+    "type": "armor",
+    "subtype": "combat",
+    "name": "Combat Armor, Enhanced Vlight (EnVlCbtA-13)",
+    "mfr": "000",
+    "cost": 640000,
+    "mass": 72,
+    "techLevel": 13,
+    "qrebs": "N/A",
+    "image": "",
+    "description": "<!-- Summary Start -->Combat armor is intended for medium-term operations (days) against an enemy force.<!-- Summary End -->",
+    "accessories": [],
+    "categories": ["protections", "armor"],
+    "sources": [{
+      "publication": "Traveller 5.10 Core Rules Book 1 : Characters and Combat",
+      "authors": ["Miller, Marc"],
+      "publisher": {
+        "name": "Far Future Enterprises",
+        "url": "https://farfuture.net"
+      }
+    }],
+    "tags": ["products", "protections", "armor"]
+  },
+  {
+    "sku": "100-001-00049",
+    "type": "armor",
+    "subtype": "assault",
+    "name": "Assault Armor, Improved (ImAA-13)",
+    "mfr": "000",
+    "cost": 66000,
+    "mass": 45,
+    "techLevel": 13,
+    "qrebs": "N/A",
+    "image": "",
+    "description": "Assault armor is a (relatively) lightweight system is intended for short-term (hours) operations against an enemy force.",
+    "accessories": [],
+    "categories": ["protections", "armor"],
+    "sources": [{
+      "publication": "Traveller 5.10 Core Rules Book 1 : Characters and Combat",
+      "authors": ["Miller, Marc"],
+      "publisher": {
+        "name": "Far Future Enterprises",
+        "url": "https://farfuture.net"
+      }
+    }],
+    "tags": ["products", "protections", "armor"]
+  },
+  {
+    "sku": "100-001-00050",
+    "type": "armor",
+    "subtype": "combat",
+    "name": "Combat Armor, Improved Vlight (ImVlCbtA-13)",
+    "mfr": "000",
+    "cost": 176000,
+    "mass": 36,
+    "techLevel": 13,
+    "qrebs": "N/A",
+    "image": "",
+    "description": "<!-- Summary Start -->Combat armor is intended for medium-term operations (days) against an enemy force.<!-- Summary End -->",
+    "accessories": [],
+    "categories": ["protections", "armor"],
+    "sources": [{
+      "publication": "Traveller 5.10 Core Rules Book 1 : Characters and Combat",
+      "authors": ["Miller, Marc"],
+      "publisher": {
+        "name": "Far Future Enterprises",
+        "url": "https://farfuture.net"
+      }
+    }],
+    "tags": ["products", "protections", "armor"]
+  },
+  {
+    "sku": "100-001-00051",
+    "type": "armor",
+    "subtype": "boarding",
+    "name": "Boarding Armor, Modified (ModBdA-13)",
+    "mfr": "000",
+    "cost": 96000,
+    "mass": 32,
+    "techLevel": 13,
+    "qrebs": "N/A",
+    "image": "",
+    "description": "<!-- Summary Start -->Boarding armor for use in zero-G operations against interplanetary and interstellar vessels. AV 28 (MgT 15)<!-- Summary End -->",
+    "accessories": [],
+    "categories": ["protections", "armor"],
+    "sources": [{
+      "publication": "Traveller 5.10 Core Rules Book 1 : Characters and Combat",
+      "authors": ["Miller, Marc"],
+      "publisher": {
+        "name": "Far Future Enterprises",
+        "url": "https://farfuture.net"
+      }
+    }],
+    "tags": ["products", "protections", "armor"]
+  },
+  {
+    "sku": "100-001-00052",
+    "type": "armor",
+    "subtype": "drop",
+    "name": "Drop Armor, Modified Vlight (ModVlDA-13)",
+    "mfr": "000",
+    "cost": 144000,
+    "mass": 48,
+    "techLevel": 13,
+    "qrebs": "N/A",
+    "image": "",
+    "description": "<!-- Summary Start -->Drop armor is structured to protect against extreme temperatures during orbital reentry.<!-- Summary End -->",
+    "accessories": [],
+    "sources": [{
+      "publication": "Traveller 5.10 Core Rules Book 1 : Characters and Combat",
+      "authors": ["Miller, Marc"],
+      "publisher": {
+        "name": "Far Future Enterprises",
+        "url": "https://farfuture.net"
+      }
+    }],
+    "categories": ["protections", "armor"],
+    "tags": ["products", "protections", "armor"]
+  },
+  {
+    "sku": "100-001-00053",
+    "type": "armor",
+    "subtype": "battle",
+    "name": "Battle Armor, Prototype Disposable (PDBA-13)",
+    "mfr": "000",
+    "cost": 150000,
+    "mass": 128,
+    "techLevel": 13,
+    "qrebs": "N/A",
+    "image": "",
+    "description": "Battle armor incorporates protections against most dangers, attacks, and threats on the battlefield.",
+    "accessories": [],
+    "categories": ["protections", "armor"],
+    "sources": [{
+      "publication": "Traveller 5.10 Core Rules Book 1 : Characters and Combat",
+      "authors": ["Miller, Marc"],
+      "publisher": {
+        "name": "Far Future Enterprises",
+        "url": "https://farfuture.net"
+      }
+    }],
+    "tags": ["products", "protections", "armor"]
+  },
+  {
+    "sku": "100-001-00054",
+    "type": "armor",
+    "subtype": "battle",
+    "name": "Battle Armor, Disposable (DBA-14)",
+    "mfr": "000",
+    "cost": 50000,
+    "mass": 67,
+    "techLevel": 14,
+    "qrebs": "N/A",
+    "image": "",
+    "description": "Battle armor incorporates protections against most dangers, attacks, and threats on the battlefield.",
+    "accessories": [],
+    "categories": ["protections", "armor"],
+    "sources": [{
+      "publication": "Traveller 5.10 Core Rules Book 1 : Characters and Combat",
+      "authors": ["Miller, Marc"],
+      "publisher": {
+        "name": "Far Future Enterprises",
+        "url": "https://farfuture.net"
+      }
+    }],
+    "tags": ["products", "protections", "armor"]
+  },
+  {
+    "sku": "100-001-00055",
+    "type": "armor",
+    "subtype": "battle",
+    "name": "Battle Armor, Titan (TBA-14)",
+    "mfr": "000",
+    "cost": 3000000,
+    "mass": 2000,
+    "techLevel": 14,
+    "qrebs": "N/A",
+    "image": "",
+    "description": "Battle armor incorporates protections against most dangers, attacks, and threats on the battlefield.",
+    "accessories": [],
+    "categories": ["protections", "armor"],
+    "sources": [{
+      "publication": "Traveller 5.10 Core Rules Book 1 : Characters and Combat",
+      "authors": ["Miller, Marc"],
+      "publisher": {
+        "name": "Far Future Enterprises",
+        "url": "https://farfuture.net"
+      }
+    }],
+    "tags": ["products", "protections", "armor"]
+  },
+  {
+    "sku": "100-001-00056",
+    "type": "armor",
+    "subtype": "boarding",
+    "name": "Boarding Armor, Titan (TBdA-14)",
+    "mfr": "000",
+    "cost": 2400000,
+    "mass": 972,
+    "techLevel": 14,
+    "qrebs": "N/A",
+    "image": "",
+    "description": "<!-- Summary Start -->Boarding armor for use in zero-G operations against interplanetary and interstellar vessels. AV 28 (MgT 15)<!-- Summary End -->",
+    "accessories": [],
+    "categories": ["protections", "armor"],
+    "sources": [{
+      "publication": "Traveller 5.10 Core Rules Book 1 : Characters and Combat",
+      "authors": ["Miller, Marc"],
+      "publisher": {
+        "name": "Far Future Enterprises",
+        "url": "https://farfuture.net"
+      }
+    }],
+    "tags": ["products", "protections", "armor"]
+  },
+  {
+    "sku": "100-001-00057",
+    "type": "armor",
+    "subtype": "assault",
+    "name": "Assault Armor, Advanced (AAA-15)",
+    "mfr": "000",
+    "cost": 120000,
+    "mass": 36,
+    "techLevel": 15,
+    "qrebs": "N/A",
+    "image": "",
+    "description": "Assault armor is a (relatively) lightweight system is intended for short-term (hours) operations against an enemy force.",
+    "accessories": [],
+    "categories": ["protections", "armor"],
+    "sources": [{
+      "publication": "Traveller 5.10 Core Rules Book 1 : Characters and Combat",
+      "authors": ["Miller, Marc"],
+      "publisher": {
+        "name": "Far Future Enterprises",
+        "url": "https://farfuture.net"
+      }
+    }],
+    "tags": ["products", "protections", "armor"]
+  },
+  {
+    "sku": "100-001-00058",
+    "type": "armor",
+    "subtype": "protected",
+    "name": "Protected Armor, Light (LtPrA-15)",
+    "mfr": "000",
+    "cost": 22000,
+    "mass": 6,
+    "techLevel": 15,
+    "qrebs": "N/A",
+    "image": "",
+    "description": "Protected armor protects the wearer from most environmental threats.",
+    "accessories": [],
+    "categories": ["protections", "armor"],
+    "sources": [{
+      "publication": "Traveller 5.10 Core Rules Book 1 : Characters and Combat",
+      "authors": ["Miller, Marc"],
+      "publisher": {
+        "name": "Far Future Enterprises",
+        "url": "https://farfuture.net"
+      }
+    }],
+    "tags": ["products", "protections", "armor"]
+  },
+  {
+    "sku": "100-001-00059",
+    "type": "armor",
+    "subtype": "boarding",
+    "name": "Boarding Armor, Obsolete (ObBdA-15)",
+    "mfr": "000",
+    "cost": 40000,
+    "mass": 25,
+    "techLevel": 15,
+    "qrebs": "N/A",
+    "image": "",
+    "description": "<!-- Summary Start -->Boarding armor for use in zero-G operations against interplanetary and interstellar vessels. AV 28 (MgT 15)<!-- Summary End -->",
+    "accessories": [],
+    "categories": ["protections", "armor"],
+    "sources": [{
+      "publication": "Traveller 5.10 Core Rules Book 1 : Characters and Combat",
+      "authors": ["Miller, Marc"],
+      "publisher": {
+        "name": "Far Future Enterprises",
+        "url": "https://farfuture.net"
+      }
+    }],
+    "tags": ["products", "protections", "armor"]
+  },
+  {
+    "sku": "100-001-00060",
+    "type": "armor",
+    "subtype": "protected",
+    "name": "Protected Armor (PrA-15)",
+    "mfr": "000",
+    "cost": 20000,
+    "mass": 9,
+    "techLevel": 15,
+    "qrebs": "N/A",
+    "image": "",
+    "description": "Protected armor protects the wearer from most environmental threats.",
+    "accessories": [],
+    "categories": ["protections", "armor"],
+    "sources": [{
+      "publication": "Traveller 5.10 Core Rules Book 1 : Characters and Combat",
+      "authors": ["Miller, Marc"],
+      "publisher": {
+        "name": "Far Future Enterprises",
+        "url": "https://farfuture.net"
+      }
+    }],
+    "tags": ["products", "protections", "armor"]
+  },
+  {
+    "sku": "100-001-00061",
+    "type": "armor",
+    "subtype": "assault",
+    "name": "Assault Armor, Enhanced Titan (EnTAA-16)",
+    "mfr": "000",
+    "cost": 7200000,
+    "mass": 2000,
+    "techLevel": 16,
+    "qrebs": "N/A",
+    "image": "",
+    "description": "Assault armor is a (relatively) lightweight system is intended for short-term (hours) operations against an enemy force.",
+    "accessories": [],
+    "categories": ["protections", "armor"],
+    "sources": [{
+      "publication": "Traveller 5.10 Core Rules Book 1 : Characters and Combat",
+      "authors": ["Miller, Marc"],
+      "publisher": {
+        "name": "Far Future Enterprises",
+        "url": "https://farfuture.net"
+      }
+    }],
+    "tags": ["products", "protections", "armor"]
+  },
+  {
+    "sku": "100-001-00062",
+    "type": "armor",
+    "subtype": "protected",
+    "name": "Protected Armor, Improved (ImPrA-16)",
+    "mfr": "000",
+    "cost": 22000,
+    "mass": 9,
+    "techLevel": 16,
+    "qrebs": "N/A",
+    "image": "",
+    "description": "Protected armor protects the wearer from most environmental threats.",
+    "accessories": [],
+    "categories": ["protections", "armor"],
+    "sources": [{
+      "publication": "Traveller 5.10 Core Rules Book 1 : Characters and Combat",
+      "authors": ["Miller, Marc"],
+      "publisher": {
+        "name": "Far Future Enterprises",
+        "url": "https://farfuture.net"
+      }
+    }],
+    "tags": ["products", "protections", "armor"]
+  },
+  {
+    "sku": "100-001-00063",
+    "type": "armor",
+    "subtype": "assault",
+    "name": "Assault Armor, Obsolete (ObAA-16)",
+    "mfr": "000",
+    "cost": 30000,
+    "mass": 31,
+    "techLevel": 16,
+    "qrebs": "N/A",
+    "image": "",
+    "description": "Assault armor is a (relatively) lightweight system is intended for short-term (hours) operations against an enemy force.",
+    "accessories": [],
+    "categories": ["protections", "armor"],
+    "sources": [{
+      "publication": "Traveller 5.10 Core Rules Book 1 : Characters and Combat",
+      "authors": ["Miller, Marc"],
+      "publisher": {
+        "name": "Far Future Enterprises",
+        "url": "https://farfuture.net"
+      }
+    }],
+    "tags": ["products", "protections", "armor"]
+  },
+  {
+    "sku": "100-001-00064",
+    "type": "armor",
+    "subtype": "protected",
+    "name": "Protected Armor, Oversize (OsPrA-16)",
+    "mfr": "000",
+    "cost": 200000,
+    "mass": 72,
+    "techLevel": 16,
+    "qrebs": "N/A",
+    "image": "",
+    "description": "Protected armor protects the wearer from most environmental threats.",
+    "accessories": [],
+    "categories": ["protections", "armor"],
+    "sources": [{
+      "publication": "Traveller 5.10 Core Rules Book 1 : Characters and Combat",
+      "authors": ["Miller, Marc"],
+      "publisher": {
+        "name": "Far Future Enterprises",
+        "url": "https://farfuture.net"
+      }
+    }],
+    "tags": ["products", "protections", "armor"]
+  },
+  {
+    "sku": "100-001-00065",
+    "type": "armor",
+    "subtype": "protected",
+    "name": "Protected Armor, Standard (StPrA-16)",
+    "mfr": "000",
+    "cost": 20000,
+    "mass": 9,
+    "techLevel": 16,
+    "qrebs": "N/A",
+    "image": "",
+    "description": "Protected armor protects the wearer from most environmental threats.",
+    "accessories": [],
+    "categories": ["protections", "armor"],
+    "sources": [{
+      "publication": "Traveller 5.10 Core Rules Book 1 : Characters and Combat",
+      "authors": ["Miller, Marc"],
+      "publisher": {
+        "name": "Far Future Enterprises",
+        "url": "https://farfuture.net"
+      }
+    }],
+    "tags": ["products", "protections", "armor"]
+  },
+  {
+    "sku": "100-001-00066",
+    "type": "armor",
+    "subtype": "protected",
+    "name": "Protected Armor, Vlight (VlPrA-16)",
+    "mfr": "000",
+    "cost": 40000,
+    "mass": 5,
+    "techLevel": 16,
+    "qrebs": "N/A",
+    "image": "",
+    "description": "Protected armor protects the wearer from most environmental threats.",
+    "accessories": [],
+    "categories": ["protections", "armor"],
+    "sources": [{
+      "publication": "Traveller 5.10 Core Rules Book 1 : Characters and Combat",
+      "authors": ["Miller, Marc"],
+      "publisher": {
+        "name": "Far Future Enterprises",
+        "url": "https://farfuture.net"
+      }
+    }],
+    "tags": ["products", "protections", "armor"]
+  },
+  {
+    "sku": "100-001-00067",
+    "type": "armor",
+    "subtype": "protected",
+    "name": "Protected Armor, Enhanced Oversise (EnOsPrA-17)",
+    "mfr": "000",
+    "cost": 800000,
+    "mass": 144,
+    "techLevel": 17,
+    "qrebs": "N/A",
+    "image": "",
+    "description": "Protected armor protects the wearer from most environmental threats.",
+    "accessories": [],
+    "categories": ["protections", "armor"],
+    "sources": [{
+      "publication": "Traveller 5.10 Core Rules Book 1 : Characters and Combat",
+      "authors": ["Miller, Marc"],
+      "publisher": {
+        "name": "Far Future Enterprises",
+        "url": "https://farfuture.net"
+      }
+    }],
+    "tags": ["products", "protections", "armor"]
+  },
+  {
+    "sku": "100-001-00068",
+    "type": "armor",
+    "subtype": "protected",
+    "name": "Protected Armor, Enhanced Vlight (EnVlPrA-17)",
+    "mfr": "000",
+    "cost": 160000,
+    "mass": 10,
+    "techLevel": 17,
+    "qrebs": "N/A",
+    "image": "",
+    "description": "Protected armor protects the wearer from most environmental threats.",
+    "accessories": [],
+    "categories": ["protections", "armor"],
+    "sources": [{
+      "publication": "Traveller 5.10 Core Rules Book 1 : Characters and Combat",
+      "authors": ["Miller, Marc"],
+      "publisher": {
+        "name": "Far Future Enterprises",
+        "url": "https://farfuture.net"
+      }
+    }],
+    "tags": ["products", "protections", "armor"]
+  },
+  {
+    "sku": "100-001-00069",
+    "type": "armor",
+    "subtype": "protected",
+    "name": "Protected Armor, Advanced (APrA-18)",
+    "mfr": "000",
+    "cost": 40000,
+    "mass": 7,
+    "techLevel": 18,
+    "qrebs": "N/A",
+    "image": "",
+    "description": "Protected armor protects the wearer from most environmental threats.",
+    "accessories": [],
+    "categories": ["protections", "armor"],
+    "sources": [{
+      "publication": "Traveller 5.10 Core Rules Book 1 : Characters and Combat",
+      "authors": ["Miller, Marc"],
+      "publisher": {
+        "name": "Far Future Enterprises",
+        "url": "https://farfuture.net"
+      }
+    }],
+    "tags": ["products", "protections", "armor"]
+  },
+  {
+    "sku": "100-001-00070",
+    "type": "armor",
+    "subtype": "protected",
+    "name": "Protected Armor, Modified Vlight (ModVlPrA-18)",
+    "mfr": "000",
+    "cost": 48000,
+    "mass": 4,
+    "techLevel": 18,
+    "qrebs": "N/A",
+    "image": "",
+    "description": "Protected armor protects the wearer from most environmental threats.",
+    "accessories": [],
+    "categories": ["protections", "armor"],
+    "sources": [{
+      "publication": "Traveller 5.10 Core Rules Book 1 : Characters and Combat",
+      "authors": ["Miller, Marc"],
+      "publisher": {
+        "name": "Far Future Enterprises",
+        "url": "https://farfuture.net"
+      }
+    }],
+    "tags": ["products", "protections", "armor"]
+  },
+  {
+    "sku": "100-001-00071",
+    "type": "armor",
+    "subtype": "assault",
+    "name": "Assault Armor, Heavy",
+    "mfr": "000",
+    "cost": 240000,
+    "mass": 46,
+    "techLevel": 9,
+    "qrebs": "N/A",
+    "image": "",
+    "description": "Assault armor is a (relatively) lightweight system is intended for short-term (hours) operations against an enemy force.",
+    "accessories": [],
+    "categories": ["protections", "armor"],
+    "sources": [{
+      "publication": "Traveller 5.10 Core Rules Book 1 : Characters and Combat",
+      "authors": ["Miller, Marc"],
+      "publisher": {
+        "name": "Far Future Enterprises",
+        "url": "https://farfuture.net"
+      }
+    }],
+    "tags": ["products", "protections", "armor"]
+  }
 ]
