@@ -51,12 +51,14 @@
             </tr>
           </thead>
           <tbody>
+            {% if product.mfrId %}
             <tr>
               <td><strong>Mfr:</strong></td>
               <td>
                 {% getMfr product.mfrId %}
               </td>
             </tr>
+            {% endif %}
             <tr>
               <td><strong>TL:</td>
               <td>{{product.techLevel }}</td>
@@ -65,14 +67,18 @@
               <td><strong>Mass (Kg):</strong></td>
               <td>{{ product.mass }}</td>
             </tr>
+            {% if product.size %}
             <tr>
               <td><strong>Size:</strong></td>
               <td>{{ product.size }}</td>
             </tr>
+            {% endif %}
+            {% if product.qrebs %}
             <tr>
               <td><strong>QREBS:</strong></td>
               <td>{{ product.qrebs }}</td>
             </tr>
+            {% endif %}
           </tbody>
         </table>
       </div>
