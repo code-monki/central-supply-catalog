@@ -13,7 +13,8 @@
     "gen-search-index": "node ./src/util/search.js  ",
     "watch:sass": "npm run sass -- --watch",
     "watch:eleventy": "npx @11ty/eleventy --serve --output=build",
-    "start": "ELEVENTY_ENV=dev npm-run-all sass --parallel watch:*"
+    "start-no-sass": "ELEVENTY_ENV=dev npm-run-all sass --parallel watch:*",
+    "start": "ELEVENTY ENV=dev npx eleventy --serve"
   },
   "repository": {
     "type": "git",
