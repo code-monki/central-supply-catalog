@@ -1,14 +1,26 @@
-const Path = require("path");
+const path = require("path");
 const fs = require("fs");
 const markdownIt = require("markdown-it");
 const mfrData = require("./progdata/manufacturers.json");
 const categoriesData = require("./progdata/categories.json");
 const departmentsData = require("./progdata/departments.json");
 const slugify = require("slugify");
+const { config } = require("process");
 
 // const basePath = process.env.ELEVENTY_ENV === "dev" ? "" : process.env.ELEVENTY_PREFIX;
 const basePath = "";
 const buildDest = process.env.ELEVENTY_DEST;
+
+// // Pre-build product arrays
+// const preBuildProducts = () => {
+//   const inputBase = path.join(__dirname, 'progdata', products);
+//   const outputBase = path.join(__dirname, 'progdata', 'src', '_data');
+
+//   console.log(inputbase);
+//   // get list of product department directories
+//   // const prodDirs = fs.readdirSync()
+// }
+
 
 module.exports = function (eleventyConfig) {
   const md = new markdownIt({ html: true });
@@ -18,7 +30,7 @@ module.exports = function (eleventyConfig) {
   eleventyConfig.addPassthroughCopy("src/_data/*.idx");
   eleventyConfig.addPassthroughCopy("src/sw.js");
   eleventyConfig.addPassthroughCopy("src/img");
-  eleventyConfig.setQuietMode(true);
+  // eleventyConfig.setQuietMode(true);
   eleventyConfig.addWatchTarget("./src/scss");
 
   //-------------------------------------------------------------
@@ -40,6 +52,25 @@ module.exports = function (eleventyConfig) {
     }
     return value;
   });
+
+
+  //-------------------------------------------------------------
+  // Add custom collections
+  //-------------------------------------------------------------
+  eleventyConfig.addCollection('protectionsProducts', (collectionApi) => {
+    let base = path.join(__dirname, 'src', '_data', 'protections');
+
+    const files = fs.readdirSync(base).filter(file => path.extname(file) === '.json');
+    console.log(files);
+    const protections = files.flatMap((file) => JSON.parse(fs.readFileSync(path.join(base, file))));
+    // console.log(`protections pre-sort ${protections}`);
+    protections.sort((a,b) => (a.name < b.name) ? 1 : (a.name > b.name) ? 1 : 0);
+    // console.log(object);
+
+    // fs.writeFileSync(JSON.stringify('collText.json', protections))
+    // console.log(`protections post-sort ${protections}`);
+    return protections;
+  })
 
   //-------------------------------------------------------------
   // Render the incoming content Markdown fragment as HTML
