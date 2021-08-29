@@ -2,5 +2,6 @@
   "todomd.autoArchiveTasks": true,
   "todomd.webview.completedStrikeThrough": true,
   "todomd.webview.scrollbarOverflow": true,
-  "terminal.explorerKind": "external"
+  "terminal.explorerKind": "external",
+  "compile-hero.disable-compile-files-on-did-save-code": false
 }
