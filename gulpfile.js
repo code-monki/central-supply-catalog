@@ -177,7 +177,20 @@ const buildIndex = () => {
   let idCounter = 0;
 
   let ms = new miniSearch({
-    fields: ["name", "type", "subtype", "description"],
+    fields: [
+      'sku',
+      'category',
+      'type', 
+      'subtype', 
+      'name', 
+      'description',
+      'cost',
+      'mass',
+      'size',
+      'techLevel',
+      'qrebs',
+      'tags'
+      ],
     storeFields: ["sku", "name", "description", "cost"],
   });
 
