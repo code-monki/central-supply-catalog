@@ -1,0 +1,1512 @@
+[
+  {
+    "sku": "100-002-00001",
+    "type": "protections",
+    "subtype": "dress",
+    "name": "Battle Dress",
+    "mfr": "000",
+    "cost": 200000,
+    "mass": 100.0,
+    "size": 5,
+    "techLevel": 13,
+    "qrebs": "N/A",
+    "image": "",
+    "description": "<!-- Summary Start -->Heavy powered personal armor Ar 45 (MgT 18)<!-- Summary End -->Battledress is a standard combat uniform worn by soldiers. Over time, the Dress element has become the term for the ultimate in military powered armor.\n\nThe significant element of Dress is that it is braced against high recoil.",
+    "accessories": [],
+    "categories": ["protections", "dress"],
+    "sources": [
+      {
+        "publication": "Traveller 5.10 Core Rules Book 3 : Worlds and Adventures",
+        "authors": ["Miller, Marc"],
+        "publisher": {
+          "name": "Far Future Enterprises",
+          "url": "https://farfuture.net"
+        }
+      }
+    ],
+    "tags": ["products", "protections", "dress"]
+  },
+  {
+    "sku": "100-002-00002",
+    "type": "protections",
+    "subtype": "dress",
+    "name": "Police Dress, Experimental (XPD-8)",
+    "mfr": "000",
+    "cost": 272000,
+    "mass": 48,
+    "techLevel": 8,
+    "qrebs": "N/A",
+    "image": "",
+    "description": "Police dress incorporates protections against the hazards encountered in a law enforcement environment.",
+    "accessories": [],
+    "sources": [
+      {
+        "publication": "Traveller 5.10 Core Rules Book 1 : Characters and Combat",
+        "authors": ["Miller, Marc"],
+        "publisher": {
+          "name": "Far Future Enterprises",
+          "url": "https://farfuture.net"
+        }
+      }
+    ],
+    "categories": ["protections", "dress"],
+    "tags": ["products", "protections", "dress"]
+  },
+  {
+    "sku": "100-002-00003",
+    "type": "protections",
+    "subtype": "dress",
+    "name": "Police Dress, Early (EPD-9)",
+    "mfr": "000",
+    "cost": 81600,
+    "mass": 40,
+    "techLevel": 9,
+    "qrebs": "N/A",
+    "image": "",
+    "description": "Police dress incorporates protections against the hazards encountered in a law enforcement environment.",
+    "accessories": [],
+    "categories": ["protections", "dress"],
+    "sources": [
+      {
+        "publication": "Traveller 5.10 Core Rules Book 1 : Characters and Combat",
+        "authors": ["Miller, Marc"],
+        "publisher": {
+          "name": "Far Future Enterprises",
+          "url": "https://farfuture.net"
+        }
+      }
+    ],
+    "tags": ["products", "protections", "dress"]
+  },
+  {
+    "sku": "100-002-00004",
+    "type": "protections",
+    "subtype": "dress",
+    "name": "Drop Dress, Experimental (XDD-10)",
+    "mfr": "000",
+    "cost": 480000,
+    "mass": 240,
+    "techLevel": 10,
+    "qrebs": "N/A",
+    "image": "",
+    "description": "Drop dress is structured to protect against the extreme temperatures of orbital reentry.",
+    "accessories": [],
+    "categories": ["protections", "dress"],
+    "sources": [
+      {
+        "publication": "Traveller 5.10 Core Rules Book 1 : Characters and Combat",
+        "authors": ["Miller, Marc"],
+        "publisher": {
+          "name": "Far Future Enterprises",
+          "url": "https://farfuture.net"
+        }
+      }
+    ],
+    "tags": ["products", "protections", "dress"]
+  },
+  {
+    "sku": "100-002-00005",
+    "type": "protections",
+    "subtype": "dress",
+    "name": "Police Dress, Light (LtPD-10)",
+    "mfr": "000",
+    "cost": 74800,
+    "mass": 16,
+    "techLevel": 10,
+    "qrebs": "N/A",
+    "image": "",
+    "description": "Police dress incorporates protections against the hazards encountered in a law enforcement environment.",
+    "accessories": [],
+    "categories": ["protections", "dress"],
+    "sources": [
+      {
+        "publication": "Traveller 5.10 Core Rules Book 1 : Characters and Combat",
+        "authors": ["Miller, Marc"],
+        "publisher": {
+          "name": "Far Future Enterprises",
+          "url": "https://farfuture.net"
+        }
+      }
+    ],
+    "tags": ["products", "protections", "dress"]
+  },
+  {
+    "sku": "100-002-00006",
+    "type": "protections",
+    "subtype": "dress",
+    "name": "Police Dress, Medium (MPD-10)",
+    "mfr": "000",
+    "cost": 68000,
+    "mass": 24,
+    "techLevel": 10,
+    "qrebs": "N/A",
+    "image": "",
+    "description": "Police dress incorporates protections against the hazards encountered in a law enforcement environment.",
+    "accessories": [],
+    "categories": ["protections", "dress"],
+    "sources": [
+      {
+        "publication": "Traveller 5.10 Core Rules Book 1 : Characters and Combat",
+        "authors": ["Miller, Marc"],
+        "publisher": {
+          "name": "Far Future Enterprises",
+          "url": "https://farfuture.net"
+        }
+      }
+    ],
+    "tags": ["products", "protections", "dress"]
+  },
+  {
+    "sku": "100-002-10007",
+    "type": "protections",
+    "subtype": "dress",
+    "name": "Police Dress, (PD-10)",
+    "mfr": "000",
+    "cost": 68000,
+    "mass": 24,
+    "techLevel": 10,
+    "qrebs": "N/A",
+    "image": "",
+    "description": "Police dress incorporates protections against the hazards encountered in a law enforcement environment.",
+    "accessories": [],
+    "categories": ["protections", "dress"],
+    "sources": [
+      {
+        "publication": "Traveller 5.10 Core Rules Book 1 : Characters and Combat",
+        "authors": ["Miller, Marc"],
+        "publisher": {
+          "name": "Far Future Enterprises",
+          "url": "https://farfuture.net"
+        }
+      }
+    ],
+    "tags": ["products", "protections", "dress"]
+  },
+  {
+    "sku": "100-002-10008",
+    "type": "protections",
+    "subtype": "dress",
+    "name": "Police Dress, Alternate (AltPD-11)",
+    "mfr": "000",
+    "cost": 74800,
+    "mass": 26,
+    "techLevel": 11,
+    "qrebs": "N/A",
+    "image": "",
+    "description": "Police dress incorporates protections against the hazards encountered in a law enforcement environment.",
+    "accessories": [],
+    "categories": ["protections", "dress"],
+    "sources": [
+      {
+        "publication": "Traveller 5.10 Core Rules Book 1 : Characters and Combat",
+        "authors": ["Miller, Marc"],
+        "publisher": {
+          "name": "Far Future Enterprises",
+          "url": "https://farfuture.net"
+        }
+      }
+    ],
+    "tags": ["products", "protections", "dress"]
+  },
+  {
+    "sku": "100-002-10009",
+    "type": "protections",
+    "subtype": "dress",
+    "name": "Police Dress, Basic Oversize (BOsPD-11)",
+    "mfr": "000",
+    "cost": 476000,
+    "mass": 249,
+    "techLevel": 11,
+    "qrebs": "N/A",
+    "image": "",
+    "description": "Police dress incorporates protections against the hazards encountered in a law enforcement environment.",
+    "accessories": [],
+    "categories": ["protections", "dress"],
+    "sources": [
+      {
+        "publication": "Traveller 5.10 Core Rules Book 1 : Characters and Combat",
+        "authors": ["Miller, Marc"],
+        "publisher": {
+          "name": "Far Future Enterprises",
+          "url": "https://farfuture.net"
+        }
+      }
+    ],
+    "tags": ["products", "protections", "dress"]
+  },
+  {
+    "sku": "100-002-10010",
+    "type": "protections",
+    "subtype": "dress",
+    "name": "Police Dress, Enhanced (EnPD-11)",
+    "mfr": "000",
+    "cost": 272000,
+    "mass": 48,
+    "techLevel": 11,
+    "qrebs": "N/A",
+    "image": "",
+    "description": "Police dress incorporates protections against the hazards encountered in a law enforcement environment.",
+    "accessories": [],
+    "categories": ["protections", "dress"],
+    "sources": [
+      {
+        "publication": "Traveller 5.10 Core Rules Book 1 : Characters and Combat",
+        "authors": ["Miller, Marc"],
+        "publisher": {
+          "name": "Far Future Enterprises",
+          "url": "https://farfuture.net"
+        }
+      }
+    ],
+    "tags": ["products", "protections", "dress"]
+  },
+  {
+    "sku": "100-002-10011",
+    "type": "protections",
+    "subtype": "dress",
+    "name": "Battle Dress, Experimental (XBD-11)",
+    "mfr": "000",
+    "cost": 800000,
+    "mass": 200,
+    "techLevel": 11,
+    "qrebs": "N/A",
+    "image": "",
+    "description": "Battle dress incorporates protections against most dangers, attacks, and threats on the battlefield.",
+    "accessories": [],
+    "categories": ["protections", "dress"],
+    "sources": [
+      {
+        "publication": "Traveller 5.10 Core Rules Book 1 : Characters and Combat",
+        "authors": ["Miller, Marc"],
+        "publisher": {
+          "name": "Far Future Enterprises",
+          "url": "https://farfuture.net"
+        }
+      }
+    ],
+    "tags": ["products", "protections", "dress"]
+  },
+  {
+    "sku": "100-002-10012",
+    "type": "protections",
+    "subtype": "dress",
+    "name": "Boarding Dress, Experimental Light (XLtBdD-11)",
+    "mfr": "000",
+    "cost": 704000,
+    "mass": 67,
+    "techLevel": 11,
+    "qrebs": "N/A",
+    "image": "",
+    "description": "Boarding dress is tailored for zero-G operations against interplanetary and interstellar vessels.",
+    "accessories": [],
+    "categories": ["protections", "dress"],
+    "sources": [
+      {
+        "publication": "Traveller 5.10 Core Rules Book 1 : Characters and Combat",
+        "authors": ["Miller, Marc"],
+        "publisher": {
+          "name": "Far Future Enterprises",
+          "url": "https://farfuture.net"
+        }
+      }
+    ],
+    "tags": ["products", "protections", "dress"]
+  },
+  {
+    "sku": "100-002-10013",
+    "type": "protections",
+    "subtype": "dress",
+    "name": "Police Dress, Heavy (HPD-11)",
+    "mfr": "000",
+    "cost": 136000,
+    "mass": 31,
+    "techLevel": 11,
+    "qrebs": "N/A",
+    "image": "",
+    "description": "Police dress incorporates protections against the hazards encountered in a law enforcement environment.",
+    "accessories": [],
+    "categories": ["protections", "dress"],
+    "sources": [
+      {
+        "publication": "Traveller 5.10 Core Rules Book 1 : Characters and Combat",
+        "authors": ["Miller, Marc"],
+        "publisher": {
+          "name": "Far Future Enterprises",
+          "url": "https://farfuture.net"
+        }
+      }
+    ],
+    "tags": ["products", "protections", "dress"]
+  },
+  {
+    "sku": "100-002-10014",
+    "type": "protections",
+    "subtype": "dress",
+    "name": "Police Dress, Oversize (OsPD-11)",
+    "mfr": "000",
+    "cost": 680000,
+    "mass": 24,
+    "techLevel": 11,
+    "qrebs": "N/A",
+    "image": "",
+    "description": "Police dress incorporates protections against the hazards encountered in a law enforcement environment.",
+    "accessories": [],
+    "categories": ["protections", "dress"],
+    "sources": [
+      {
+        "publication": "Traveller 5.10 Core Rules Book 1 : Characters and Combat",
+        "authors": ["Miller, Marc"],
+        "publisher": {
+          "name": "Far Future Enterprises",
+          "url": "https://farfuture.net"
+        }
+      }
+    ],
+    "tags": ["products", "protections", "dress"]
+  },
+  {
+    "sku": "100-002-10015",
+    "type": "protections",
+    "subtype": "dress",
+    "name": "Police Dress, Standard Medium (StMPD-11)",
+    "mfr": "000",
+    "cost": 68000,
+    "mass": 24,
+    "techLevel": 11,
+    "qrebs": "N/A",
+    "image": "",
+    "description": "Police dress incorporates protections against the hazards encountered in a law enforcement environment.",
+    "accessories": [],
+    "categories": ["protections", "dress"],
+    "sources": [
+      {
+        "publication": "Traveller 5.10 Core Rules Book 1 : Characters and Combat",
+        "authors": ["Miller, Marc"],
+        "publisher": {
+          "name": "Far Future Enterprises",
+          "url": "https://farfuture.net"
+        }
+      }
+    ],
+    "tags": ["products", "protections", "dress"]
+  },
+  {
+    "sku": "100-002-10016",
+    "type": "protections",
+    "subtype": "dress",
+    "name": "Police Dress, Standard (StPD-11)",
+    "mfr": "000",
+    "cost": 68000,
+    "mass": 24,
+    "techLevel": 11,
+    "qrebs": "N/A",
+    "image": "",
+    "description": "Police dress incorporates protections against the hazards encountered in a law enforcement environment.",
+    "accessories": [],
+    "categories": ["protections", "dress"],
+    "sources": [
+      {
+        "publication": "Traveller 5.10 Core Rules Book 1 : Characters and Combat",
+        "authors": ["Miller, Marc"],
+        "publisher": {
+          "name": "Far Future Enterprises",
+          "url": "https://farfuture.net"
+        }
+      }
+    ],
+    "tags": ["products", "protections", "dress"]
+  },
+  {
+    "sku": "100-002-10017",
+    "type": "protections",
+    "subtype": "dress",
+    "name": "Police Dress, Vlight (VlPD-11)",
+    "cost": 136000,
+    "mfr": "000",
+    "mass": 14,
+    "techLevel": 11,
+    "qrebs": "N/A",
+    "image": "",
+    "description": "Police dress incorporates protections against the hazards encountered in a law enforcement environment.",
+    "accessories": [],
+    "categories": ["protections", "dress"],
+    "sources": [
+      {
+        "publication": "Traveller 5.10 Core Rules Book 1 : Characters and Combat",
+        "authors": ["Miller, Marc"],
+        "publisher": {
+          "name": "Far Future Enterprises",
+          "url": "https://farfuture.net"
+        }
+      }
+    ],
+    "tags": ["products", "protections", "dress"]
+  },
+  {
+    "sku": "100-002-10018",
+    "type": "protections",
+    "subtype": "dress",
+    "name": "Drop Dress, Basic (BDD-12)",
+    "mfr": "000",
+    "cost": 84000,
+    "mass": 156,
+    "techLevel": 12,
+    "qrebs": "N/A",
+    "image": "",
+    "description": "Drop dress is structured to protect against the extreme temperatures of orbital reentry.",
+    "accessories": [],
+    "categories": ["protections", "dress"],
+    "sources": [
+      {
+        "publication": "Traveller 5.10 Core Rules Book 1 : Characters and Combat",
+        "authors": ["Miller, Marc"],
+        "publisher": {
+          "name": "Far Future Enterprises",
+          "url": "https://farfuture.net"
+        }
+      }
+    ],
+    "tags": ["products", "protections", "dress"]
+  },
+  {
+    "sku": "100-002-10019",
+    "type": "protections",
+    "subtype": "dress",
+    "name": "Drop Dress (DD-12)",
+    "mfr": "000",
+    "cost": 120000,
+    "mass": 120,
+    "techLevel": 12,
+    "qrebs": "N/A",
+    "image": "",
+    "description": "Drop dress is structured to protect against the extreme temperatures of orbital reentry.",
+    "accessories": [],
+    "categories": ["protections", "dress"],
+    "sources": [
+      {
+        "publication": "Traveller 5.10 Core Rules Book 1 : Characters and Combat",
+        "authors": ["Miller, Marc"],
+        "publisher": {
+          "name": "Far Future Enterprises",
+          "url": "https://farfuture.net"
+        }
+      }
+    ],
+    "tags": ["products", "protections", "dress"]
+  },
+  {
+    "sku": "100-002-10020",
+    "type": "protections",
+    "subtype": "dress",
+    "name": "Combat Dress, Early (ECbtD-12)",
+    "mfr": "000",
+    "cost": 192000,
+    "mass": 136,
+    "techLevel": 12,
+    "qrebs": "N/A",
+    "image": "",
+    "description": "Combat dress is intended for medium-term opreations (days) against an enemy force.",
+    "accessories": [],
+    "categories": ["protections", "dress"],
+    "sources": [
+      {
+        "publication": "Traveller 5.10 Core Rules Book 1 : Characters and Combat",
+        "authors": ["Miller, Marc"],
+        "publisher": {
+          "name": "Far Future Enterprises",
+          "url": "https://farfuture.net"
+        }
+      }
+    ],
+    "tags": ["products", "protections", "dress"]
+  },
+  {
+    "sku": "100-002-10021",
+    "type": "protections",
+    "subtype": "dress",
+    "name": "Combat Dress, Early Medium (EMCbtD-12)",
+    "cost": 192000,
+    "mfr": "000",
+    "mass": 136,
+    "techLevel": 12,
+    "qrebs": "N/A",
+    "image": "",
+    "description": "Combat dress is intended for medium-term opreations (days) against an enemy force.",
+    "accessories": [],
+    "categories": ["protections", "dress"],
+    "sources": [
+      {
+        "publication": "Traveller 5.10 Core Rules Book 1 : Characters and Combat",
+        "authors": ["Miller, Marc"],
+        "publisher": {
+          "name": "Far Future Enterprises",
+          "url": "https://farfuture.net"
+        }
+      }
+    ],
+    "tags": ["products", "protections", "dress"]
+  },
+  {
+    "sku": "100-002-10022",
+    "type": "protections",
+    "subtype": "dress",
+    "name": "Police Dress, Enhanced Vlight (EnVlPD-12)",
+    "mfr": "000",
+    "cost": 544000,
+    "mass": 28,
+    "techLevel": 12,
+    "qrebs": "N/A",
+    "image": "",
+    "description": "Police dress incorporates protections against the hazards encountered in a law enforcement environment.",
+    "accessories": [],
+    "categories": ["protections", "dress"],
+    "sources": [
+      {
+        "publication": "Traveller 5.10 Core Rules Book 1 : Characters and Combat",
+        "authors": ["Miller, Marc"],
+        "publisher": {
+          "name": "Far Future Enterprises",
+          "url": "https://farfuture.net"
+        }
+      }
+    ],
+    "tags": ["products", "protections", "dress"]
+  },
+  {
+    "sku": "100-002-10023",
+    "type": "protections",
+    "subtype": "dress",
+    "name": "Police Dress, Advanced (APD-13)",
+    "mfr": "000",
+    "cost": 136000,
+    "mass": 19,
+    "techLevel": 13,
+    "qrebs": "N/A",
+    "image": "",
+    "description": "Police dress incorporates protections against the hazards encountered in a law enforcement environment.",
+    "accessories": [],
+    "categories": ["protections", "dress"],
+    "sources": [
+      {
+        "publication": "Traveller 5.10 Core Rules Book 1 : Characters and Combat",
+        "authors": ["Miller, Marc"],
+        "publisher": {
+          "name": "Far Future Enterprises",
+          "url": "https://farfuture.net"
+        }
+      }
+    ],
+    "tags": ["products", "protections", "dress"]
+  },
+  {
+    "sku": "100-002-10024",
+    "type": "protections",
+    "subtype": "dress",
+    "name": "Battle Dress, Basic (BBD-13)",
+    "mfr": "000",
+    "cost": 140000,
+    "mass": 130,
+    "techLevel": 13,
+    "qrebs": "N/A",
+    "image": "",
+    "description": "Battle dress incorporates protections against most dangers, attacks, and threats on the battlefield.",
+    "accessories": [],
+    "categories": ["protections", "dress"],
+    "sources": [
+      {
+        "publication": "Traveller 5.10 Core Rules Book 1 : Characters and Combat",
+        "authors": ["Miller, Marc"],
+        "publisher": {
+          "name": "Far Future Enterprises",
+          "url": "https://farfuture.net"
+        }
+      }
+    ],
+    "tags": ["products", "protections", "dress"]
+  },
+  {
+    "sku": "100-002-10025",
+    "type": "protections",
+    "subtype": "dress",
+    "name": "Boarding Dress, Basic (BBdB-13)",
+    "mfr": "000",
+    "cost": 112000,
+    "mass": 62,
+    "techLevel": 13,
+    "qrebs": "N/A",
+    "image": "",
+    "description": "Boarding dress is tailored for zero-G operations against interplanetary and interstellar vessels.",
+    "accessories": [],
+    "categories": ["protections", "dress"],
+    "sources": [
+      {
+        "publication": "Traveller 5.10 Core Rules Book 1 : Characters and Combat",
+        "authors": ["Miller, Marc"],
+        "publisher": {
+          "name": "Far Future Enterprises",
+          "url": "https://farfuture.net"
+        }
+      }
+    ],
+    "tags": ["products", "protections", "dress"]
+  },
+  {
+    "sku": "100-002-10026",
+    "type": "protections",
+    "subtype": "dress",
+    "name": "Battle Dress (BD-13)",
+    "mfr": "000",
+    "cost": 200000,
+    "mass": 100,
+    "techLevel": 13,
+    "qrebs": "N/A",
+    "image": "",
+    "description": "Battle dress incorporates protections against most dangers, attacks, and threats on the battlefield.",
+    "accessories": [],
+    "categories": ["protections", "dress"],
+    "sources": [
+      {
+        "publication": "Traveller 5.10 Core Rules Book 1 : Characters and Combat",
+        "authors": ["Miller, Marc"],
+        "publisher": {
+          "name": "Far Future Enterprises",
+          "url": "https://farfuture.net"
+        }
+      }
+    ],
+    "tags": ["products", "protections", "dress"]
+  },
+  {
+    "sku": "100-002-10027",
+    "type": "protections",
+    "subtype": "dress",
+    "name": "Boarding Dress (BdD-13)",
+    "mfr": "000",
+    "cost": 160000,
+    "mass": 48,
+    "techLevel": 13,
+    "qrebs": "N/A",
+    "image": "",
+    "description": "Boarding dress is tailored for zero-G operations against interplanetary and interstellar vessels.",
+    "accessories": [],
+    "categories": ["protections", "dress"],
+    "sources": [
+      {
+        "publication": "Traveller 5.10 Core Rules Book 1 : Characters and Combat",
+        "authors": ["Miller, Marc"],
+        "publisher": {
+          "name": "Far Future Enterprises",
+          "url": "https://farfuture.net"
+        }
+      }
+    ],
+    "tags": ["products", "protections", "dress"]
+  },
+  {
+    "sku": "100-002-10028",
+    "type": "protections",
+    "subtype": "dress",
+    "name": "Combat Dress (CbtD-13)",
+    "mfr": "000",
+    "cost": 160000,
+    "mass": 80,
+    "techLevel": 13,
+    "qrebs": "N/A",
+    "image": "",
+    "description": "Combat dress is intended for medium-term opreations (days) against an enemy force.",
+    "accessories": [],
+    "categories": ["protections", "dress"],
+    "sources": [
+      {
+        "publication": "Traveller 5.10 Core Rules Book 1 : Characters and Combat",
+        "authors": ["Miller, Marc"],
+        "publisher": {
+          "name": "Far Future Enterprises",
+          "url": "https://farfuture.net"
+        }
+      }
+    ],
+    "tags": ["products", "protections", "dress"]
+  },
+  {
+    "sku": "100-002-10029",
+    "type": "protections",
+    "subtype": "dress",
+    "name": "Police Dress, Disposable (DPD-13)",
+    "mfr": "000",
+    "cost": 34000,
+    "mass": 21,
+    "techLevel": 13,
+    "qrebs": "N/A",
+    "image": "",
+    "description": "Police dress incorporates protections against the hazards encountered in a law enforcement environment.",
+    "accessories": [],
+    "categories": ["protections", "dress"],
+    "sources": [
+      {
+        "publication": "Traveller 5.10 Core Rules Book 1 : Characters and Combat",
+        "authors": ["Miller, Marc"],
+        "publisher": {
+          "name": "Far Future Enterprises",
+          "url": "https://farfuture.net"
+        }
+      }
+    ],
+    "tags": ["products", "protections", "dress"]
+  },
+  {
+    "sku": "100-002-10030",
+    "type": "protections",
+    "subtype": "dress",
+    "name": "Drop Dress, Enhanced (EnDD-13)",
+    "mfr": "000",
+    "cost": 480000,
+    "mass": 240,
+    "techLevel": 13,
+    "qrebs": "N/A",
+    "image": "",
+    "description": "Drop dress is structured to protect against the extreme temperatures of orbital reentry.",
+    "accessories": [],
+    "categories": ["protections", "dress"],
+    "sources": [
+      {
+        "publication": "Traveller 5.10 Core Rules Book 1 : Characters and Combat",
+        "authors": ["Miller, Marc"],
+        "publisher": {
+          "name": "Far Future Enterprises",
+          "url": "https://farfuture.net"
+        }
+      }
+    ],
+    "tags": ["products", "protections", "dress"]
+  },
+  {
+    "sku": "100-002-10031",
+    "type": "protections",
+    "subtype": "dress",
+    "name": "Combat Dress, Light (LtCbtD-13)",
+    "mfr": "000",
+    "cost": 176000,
+    "mass": 56,
+    "techLevel": 13,
+    "qrebs": "N/A",
+    "image": "",
+    "description": "Combat dress is intended for medium-term opreations (days) against an enemy force.",
+    "accessories": [],
+    "categories": ["protections", "dress"],
+    "sources": [
+      {
+        "publication": "Traveller 5.10 Core Rules Book 1 : Characters and Combat",
+        "authors": ["Miller, Marc"],
+        "publisher": {
+          "name": "Far Future Enterprises",
+          "url": "https://farfuture.net"
+        }
+      }
+    ],
+    "tags": ["products", "protections", "dress"]
+  },
+  {
+    "sku": "100-002-10032",
+    "type": "protections",
+    "subtype": "dress",
+    "name": "Boarding Dress, Medium (MBdD-13)",
+    "mfr": "000",
+    "cost": 160000,
+    "mass": 48,
+    "techLevel": 13,
+    "qrebs": "N/A",
+    "image": "",
+    "description": "Boarding dress is tailored for zero-G operations against interplanetary and interstellar vessels.",
+    "accessories": [],
+    "categories": ["protections", "dress"],
+    "sources": [
+      {
+        "publication": "Traveller 5.10 Core Rules Book 1 : Characters and Combat",
+        "authors": ["Miller, Marc"],
+        "publisher": {
+          "name": "Far Future Enterprises",
+          "url": "https://farfuture.net"
+        }
+      }
+    ],
+    "tags": ["products", "protections", "dress"]
+  },
+  {
+    "sku": "100-002-10033",
+    "type": "protections",
+    "subtype": "dress",
+    "name": "Drop Dress, Standard (StDD-13)",
+    "mfr": "000",
+    "cost": 120000,
+    "mass": 120,
+    "techLevel": 13,
+    "qrebs": "N/A",
+    "image": "",
+    "description": "Drop dress is structured to protect against the extreme temperatures of orbital reentry.",
+    "accessories": [],
+    "categories": ["protections", "dress"],
+    "sources": [
+      {
+        "publication": "Traveller 5.10 Core Rules Book 1 : Characters and Combat",
+        "authors": ["Miller, Marc"],
+        "publisher": {
+          "name": "Far Future Enterprises",
+          "url": "https://farfuture.net"
+        }
+      }
+    ],
+    "tags": ["products", "protections", "dress"]
+  },
+  {
+    "sku": "100-002-10034",
+    "type": "protections",
+    "subtype": "dress",
+    "name": "Drop Dress, Vlight (VlDD-13)",
+    "mfr": "000",
+    "cost": 240000,
+    "mass": 72,
+    "techLevel": 13,
+    "qrebs": "N/A",
+    "image": "",
+    "description": "Drop dress is structured to protect against the extreme temperatures of orbital reentry.",
+    "accessories": [],
+    "categories": ["protections", "dress"],
+    "sources": [
+      {
+        "publication": "Traveller 5.10 Core Rules Book 1 : Characters and Combat",
+        "authors": ["Miller, Marc"],
+        "publisher": {
+          "name": "Far Future Enterprises",
+          "url": "https://farfuture.net"
+        }
+      }
+    ],
+    "tags": ["products", "protections", "dress"]
+  },
+  {
+    "sku": "100-002-10035",
+    "type": "protections",
+    "subtype": "dress",
+    "name": "Combat Dress, Alternate (AltCbtD-14)",
+    "mfr": "000",
+    "cost": 176000,
+    "mass": 88,
+    "techLevel": 14,
+    "qrebs": "N/A",
+    "image": "",
+    "description": "Combat dress is intended for medium-term opreations (days) against an enemy force.",
+    "accessories": [],
+    "categories": ["protections", "dress"],
+    "sources": [
+      {
+        "publication": "Traveller 5.10 Core Rules Book 1 : Characters and Combat",
+        "authors": ["Miller, Marc"],
+        "publisher": {
+          "name": "Far Future Enterprises",
+          "url": "https://farfuture.net"
+        }
+      }
+    ],
+    "tags": ["products", "protections", "dress"]
+  },
+  {
+    "sku": "100-002-10036",
+    "type": "protections",
+    "subtype": "dress",
+    "name": "Assault Dress (AD-14)",
+    "mfr": "000",
+    "cost": 120000,
+    "mass": 60,
+    "techLevel": 14,
+    "qrebs": "N/A",
+    "image": "",
+    "description": "Assault dress is a (relatively) lightweight system intended for short-term (hours) operations against an enemy force.",
+    "accessories": [],
+    "categories": ["protections", "dress"],
+    "sources": [
+      {
+        "publication": "Traveller 5.10 Core Rules Book 1 : Characters and Combat",
+        "authors": ["Miller, Marc"],
+        "publisher": {
+          "name": "Far Future Enterprises",
+          "url": "https://farfuture.net"
+        }
+      }
+    ],
+    "tags": ["products", "protections", "dress"]
+  },
+  {
+    "sku": "100-002-10037",
+    "type": "protections",
+    "subtype": "dress",
+    "name": "Battle Dress, Heavy (HBD-14)",
+    "mfr": "000",
+    "cost": 400000,
+    "mass": 130,
+    "techLevel": 14,
+    "qrebs": "N/A",
+    "image": "",
+    "description": "Battle dress incorporates protections against most dangers, attacks, and threats on the battlefield.",
+    "accessories": [],
+    "categories": ["protections", "dress"],
+    "sources": [
+      {
+        "publication": "Traveller 5.10 Core Rules Book 1 : Characters and Combat",
+        "authors": ["Miller, Marc"],
+        "publisher": {
+          "name": "Far Future Enterprises",
+          "url": "https://farfuture.net"
+        }
+      }
+    ],
+    "tags": ["products", "protections", "dress"]
+  },
+  {
+    "sku": "100-002-10038",
+    "type": "protections",
+    "subtype": "dress",
+    "name": "Boarding Dress, Heavy (HBdD-14)",
+    "mfr": "000",
+    "cost": 320000,
+    "mass": 62,
+    "techLevel": 14,
+    "qrebs": "N/A",
+    "image": "",
+    "description": "Boarding dress is tailored for zero-G operations against interplanetary and interstellar vessels.",
+    "accessories": [],
+    "categories": ["protections", "dress"],
+    "sources": [
+      {
+        "publication": "Traveller 5.10 Core Rules Book 1 : Characters and Combat",
+        "authors": ["Miller, Marc"],
+        "publisher": {
+          "name": "Far Future Enterprises",
+          "url": "https://farfuture.net"
+        }
+      }
+    ],
+    "tags": ["products", "protections", "dress"]
+  },
+  {
+    "sku": "100-002-10039",
+    "type": "protections",
+    "subtype": "dress",
+    "name": "Combat Dress, Heavy (HCbtD-14)",
+    "mfr": "000",
+    "cost": 320000,
+    "mass": 104,
+    "techLevel": 14,
+    "qrebs": "N/A",
+    "image": "",
+    "description": "Combat dress is intended for medium-term opreations (days) against an enemy force.",
+    "accessories": [],
+    "categories": ["protections", "dress"],
+    "sources": [
+      {
+        "publication": "Traveller 5.10 Core Rules Book 1 : Characters and Combat",
+        "authors": ["Miller, Marc"],
+        "publisher": {
+          "name": "Far Future Enterprises",
+          "url": "https://farfuture.net"
+        }
+      }
+    ],
+    "tags": ["products", "protections", "dress"]
+  },
+  {
+    "sku": "100-002-10040",
+    "type": "protections",
+    "subtype": "dress",
+    "name": "Combat Dress, Improved (ImCbtD-14)",
+    "mfr": "000",
+    "cost": 176000,
+    "mass": 80,
+    "techLevel": 14,
+    "qrebs": "N/A",
+    "image": "",
+    "description": "Combat dress is intended for medium-term opreations (days) against an enemy force.",
+    "accessories": [],
+    "categories": ["protections", "dress"],
+    "sources": [
+      {
+        "publication": "Traveller 5.10 Core Rules Book 1 : Characters and Combat",
+        "authors": ["Miller, Marc"],
+        "publisher": {
+          "name": "Far Future Enterprises",
+          "url": "https://farfuture.net"
+        }
+      }
+    ],
+    "tags": ["products", "protections", "dress"]
+  },
+  {
+    "sku": "100-002-10041",
+    "type": "protections",
+    "subtype": "dress",
+    "name": "Drop Dress, Modified (ModDD-14)",
+    "mfr": "000",
+    "cost": 144000,
+    "mass": 108,
+    "techLevel": 14,
+    "qrebs": "N/A",
+    "image": "",
+    "description": "Drop dress is structured to protect against the extreme temperatures of orbital reentry.",
+    "accessories": [],
+    "categories": ["protections", "dress"],
+    "sources": [
+      {
+        "publication": "Traveller 5.10 Core Rules Book 1 : Characters and Combat",
+        "authors": ["Miller, Marc"],
+        "publisher": {
+          "name": "Far Future Enterprises",
+          "url": "https://farfuture.net"
+        }
+      }
+    ],
+    "tags": ["products", "protections", "dress"]
+  },
+  {
+    "sku": "100-002-10042",
+    "type": "protections",
+    "subtype": "dress",
+    "name": "Battle Dress, Oversize (OsBD-14)",
+    "mfr": "000",
+    "cost": 2000000,
+    "mass": 800,
+    "techLevel": 14,
+    "qrebs": "N/A",
+    "image": "",
+    "description": "Battle dress incorporates protections against most dangers, attacks, and threats on the battlefield.",
+    "accessories": [],
+    "categories": ["protections", "dress"],
+    "sources": [
+      {
+        "publication": "Traveller 5.10 Core Rules Book 1 : Characters and Combat",
+        "authors": ["Miller, Marc"],
+        "publisher": {
+          "name": "Far Future Enterprises",
+          "url": "https://farfuture.net"
+        }
+      }
+    ],
+    "tags": ["products", "protections", "dress"]
+  },
+  {
+    "sku": "100-002-10043",
+    "type": "protections",
+    "subtype": "dress",
+    "name": "Boarding Dress, Oversize (OsBdD-14)",
+    "mfr": "000",
+    "cost": 1600000,
+    "mass": 384,
+    "techLevel": 14,
+    "qrebs": "N/A",
+    "image": "",
+    "description": "Boarding dress is tailored for zero-G operations against interplanetary and interstellar vessels.",
+    "accessories": [],
+    "categories": ["protections", "dress"],
+    "sources": [
+      {
+        "publication": "Traveller 5.10 Core Rules Book 1 : Characters and Combat",
+        "authors": ["Miller, Marc"],
+        "publisher": {
+          "name": "Far Future Enterprises",
+          "url": "https://farfuture.net"
+        }
+      }
+    ],
+    "tags": ["products","protections", "dress"]
+  },
+  {
+    "sku": "100-002-10044",
+    "type": "protections",
+    "subtype": "dress",
+    "name": "Assault Dress, Prototype Heavy (PHAD-14)",
+    "mfr": "000",
+    "cost": 720000,
+    "mass": 418,
+    "techLevel": 14,
+    "qrebs": "N/A",
+    "image": "",
+    "description": "Assault dress is a (relatively) lightweight system intended for short-term (hours) operations against an enemy force.",
+    "accessories": [],
+    "categories": ["protections", "dress"],
+    "sources": [
+      {
+        "publication": "Traveller 5.10 Core Rules Book 1 : Characters and Combat",
+        "authors": ["Miller, Marc"],
+        "publisher": {
+          "name": "Far Future Enterprises",
+          "url": "https://farfuture.net"
+        }
+      }
+    ],
+    "tags": ["products","protections", "dress"]
+  },
+  {
+    "sku": "100-002-10045",
+    "type": "protections",
+    "subtype": "dress",
+    "name": "Assault Dress, Alternate (AltAD-15)",
+    "mfr": "000",
+    "cost": 132000,
+    "mass": 66,
+    "techLevel": 15,
+    "qrebs": "N/A",
+    "image": "",
+    "description": "Assault dress is a (relatively) lightweight system intended for short-term (hours) operations against an enemy force.",
+    "accessories": [],
+    "categories": ["protections", "dress"],
+    "sources": [
+      {
+        "publication": "Traveller 5.10 Core Rules Book 1 : Characters and Combat",
+        "authors": ["Miller, Marc"],
+        "publisher": {
+          "name": "Far Future Enterprises",
+          "url": "https://farfuture.net"
+        }
+      }
+    ],
+    "tags": ["products","protections", "dress"]
+  },
+  {
+    "sku": "100-002-10046",
+    "type": "protections",
+    "subtype": "dress",
+    "name": "Assault Dress, Enhanced (EnAD-15)",
+    "mfr": "000",
+    "cost": 480000,
+    "mass": 120,
+    "techLevel": 15,
+    "qrebs": "N/A",
+    "image": "",
+    "description": "Assault dress is a (relatively) lightweight system intended for short-term (hours) operations against an enemy force.",
+    "accessories": [],
+    "categories": ["protections", "dress"],
+    "sources": [
+      {
+        "publication": "Traveller 5.10 Core Rules Book 1 : Characters and Combat",
+        "authors": ["Miller, Marc"],
+        "publisher": {
+          "name": "Far Future Enterprises",
+          "url": "https://farfuture.net"
+        }
+      }
+    ],
+    "tags": ["products","protections", "dress"]
+  },
+  {
+    "sku": "100-002-10047",
+    "type": "protections",
+    "subtype": "dress",
+    "name": "Assault Dress, Heavy (HAD-15)",
+    "mfr": "000",
+    "cost": 240000,
+    "mass": 78,
+    "techLevel": 15,
+    "qrebs": "N/A",
+    "image": "",
+    "description": "Assault dress is a (relatively) lightweight system intended for short-term (hours) operations against an enemy force.",
+    "accessories": [],
+    "categories": ["protections", "dress"],
+    "sources": [
+      {
+        "publication": "Traveller 5.10 Core Rules Book 1 : Characters and Combat",
+        "authors": ["Miller, Marc"],
+        "publisher": {
+          "name": "Far Future Enterprises",
+          "url": "https://farfuture.net"
+        }
+      }
+    ],
+    "tags": ["products","protections", "dress"]
+  },
+  {
+    "sku": "100-002-10048",
+    "type": "protections",
+    "subtype": "dress",
+    "name": "Battle Dress, Modified (ModBD-15)",
+    "mfr": "000",
+    "cost": 240000,
+    "mass": 90,
+    "techLevel": 15,
+    "qrebs": "N/A",
+    "image": "",
+    "description": "Battle dress incorporates protections against most dangers, attacks, and threats on the battlefield.",
+    "accessories": [],
+    "categories": ["protections", "dress"],
+    "sources": [
+      {
+        "publication": "Traveller 5.10 Core Rules Book 1 : Characters and Combat",
+        "authors": ["Miller, Marc"],
+        "publisher": {
+          "name": "Far Future Enterprises",
+          "url": "https://farfuture.net"
+        }
+      }
+    ],
+    "tags": ["products","protections", "dress"]
+  },
+  {
+    "sku": "100-002-10049",
+    "type": "protections",
+    "subtype": "dress",
+    "name": "Boarding Dress, Modified (ModBdD-15)",
+    "mfr": "000",
+    "cost": 192000,
+    "mass": 43,
+    "techLevel": 15,
+    "qrebs": "N/A",
+    "image": "",
+    "description": "Boarding dress is tailored for zero-G operations against interplanetary and interstellar vessels.",
+    "accessories": [],
+    "categories": ["protections", "dress"],
+    "sources": [
+      {
+        "publication": "Traveller 5.10 Core Rules Book 1 : Characters and Combat",
+        "authors": ["Miller, Marc"],
+        "publisher": {
+          "name": "Far Future Enterprises",
+          "url": "https://farfuture.net"
+        }
+      }
+    ],
+    "tags": ["products","protections", "dress"]
+  },
+  {
+    "sku": "100-002-10050",
+    "type": "protections",
+    "subtype": "dress",
+    "name": "Police Dress, Advanced Titan (ATPD-16)",
+    "mfr": "000",
+    "cost": 4080000,
+    "mass": 518,
+    "techLevel": 16,
+    "qrebs": "N/A",
+    "image": "",
+    "description": "Police dress incorporates protections against the hazards encountered in a law enforcement environment.",
+    "accessories": [],
+    "categories": ["protections", "dress"],
+    "sources": [
+      {
+        "publication": "Traveller 5.10 Core Rules Book 1 : Characters and Combat",
+        "authors": ["Miller, Marc"],
+        "publisher": {
+          "name": "Far Future Enterprises",
+          "url": "https://farfuture.net"
+        }
+      }
+    ],
+    "tags": ["products","protections", "dress"]
+  },
+  {
+    "sku": "100-002-10051",
+    "type": "protections",
+    "subtype": "dress",
+    "name": "Drop Dress, Advanced Vlight (AVlDD-16)",
+    "mfr": "000",
+    "cost": 480000,
+    "mass": 57,
+    "techLevel": 16,
+    "qrebs": "N/A",
+    "image": "",
+    "description": "Drop dress is structured to protect against the extreme temperatures of orbital reentry.",
+    "accessories": [],
+    "categories": ["protections", "dress"],
+    "sources": [
+      {
+        "publication": "Traveller 5.10 Core Rules Book 1 : Characters and Combat",
+        "authors": ["Miller, Marc"],
+        "publisher": {
+          "name": "Far Future Enterprises",
+          "url": "https://farfuture.net"
+        }
+      }
+    ],
+    "tags": ["products","protections", "dress"]
+  },
+  {
+    "sku": "100-002-10052",
+    "type": "protections",
+    "subtype": "dress",
+    "name": "Boarding Dress, Basic Disposable (BDBdD-16)",
+    "mfr": "000",
+    "cost": 56000,
+    "mass": 56,
+    "techLevel": 16,
+    "qrebs": "N/A",
+    "image": "",
+    "description": "Boarding dress is tailored for zero-G operations against interplanetary and interstellar vessels.",
+    "accessories": [],
+    "categories": ["protections", "dress"],
+    "sources": [
+      {
+        "publication": "Traveller 5.10 Core Rules Book 1 : Characters and Combat",
+        "authors": ["Miller, Marc"],
+        "publisher": {
+          "name": "Far Future Enterprises",
+          "url": "https://farfuture.net"
+        }
+      }
+    ],
+    "tags": ["products","protections", "dress"]
+  },
+  {
+    "sku": "100-002-10053",
+    "type": "protections",
+    "subtype": "dress",
+    "name": "Boarding Dress, Disposable (DBdB-16)",
+    "mfr": "000",
+    "cost": 80000,
+    "mass": 43,
+    "techLevel": 16,
+    "qrebs": "N/A",
+    "image": "",
+    "description": "Boarding dress is tailored for zero-G operations against interplanetary and interstellar vessels.",
+    "accessories": [],
+    "categories": ["protections", "dress"],
+    "sources": [
+      {
+        "publication": "Traveller 5.10 Core Rules Book 1 : Characters and Combat",
+        "authors": ["Miller, Marc"],
+        "publisher": {
+          "name": "Far Future Enterprises",
+          "url": "https://farfuture.net"
+        }
+      }
+    ],
+    "tags": ["products","protections", "dress"]
+  },
+  {
+    "sku": "100-002-10054",
+    "type": "protections",
+    "subtype": "dress",
+    "name": "Drop Dress, Obsolete Light (ObLtDD-16)",
+    "mfr": "000",
+    "cost": 66000,
+    "mass": 58,
+    "techLevel": 16,
+    "qrebs": "N/A",
+    "image": "",
+    "description": "Drop dress is structured to protect against the extreme temperatures of orbital reentry.",
+    "accessories": [],
+    "categories": ["protections", "dress"],
+    "sources": [
+      {
+        "publication": "Traveller 5.10 Core Rules Book 1 : Characters and Combat",
+        "authors": ["Miller, Marc"],
+        "publisher": {
+          "name": "Far Future Enterprises",
+          "url": "https://farfuture.net"
+        }
+      }
+    ],
+    "tags": ["products","protections", "dress"]
+  },
+  {
+    "sku": "100-002-10055",
+    "type": "protections",
+    "subtype": "dress",
+    "name": "Battle Dress, Titan (TBD-16)",
+    "mfr": "000",
+    "cost": 6000000,
+    "mass": 2000,
+    "techLevel": 16,
+    "qrebs": "N/A",
+    "image": "",
+    "description": "Battle dress incorporates protections against most dangers, attacks, and threats on the battlefield.",
+    "accessories": [],
+    "categories": ["protections", "dress"],
+    "sources": [
+      {
+        "publication": "Traveller 5.10 Core Rules Book 1 : Characters and Combat",
+        "authors": ["Miller, Marc"],
+        "publisher": {
+          "name": "Far Future Enterprises",
+          "url": "https://farfuture.net"
+        }
+      }
+    ],
+    "tags": ["products","protections", "dress"]
+  },
+  {
+    "sku": "100-002-10056",
+    "type": "protections",
+    "subtype": "dress",
+    "name": "Battle Dress, Obsolete (ObBD-17)",
+    "mfr": "000",
+    "cost": 100000,
+    "mass": 70,
+    "techLevel": 17,
+    "qrebs": "N/A",
+    "image": "",
+    "description": "Battle dress incorporates protections against most dangers, attacks, and threats on the battlefield.",
+    "accessories": [],
+    "categories": ["protections", "dress"],
+    "sources": [
+      {
+        "publication": "Traveller 5.10 Core Rules Book 1 : Characters and Combat",
+        "authors": ["Miller, Marc"],
+        "publisher": {
+          "name": "Far Future Enterprises",
+          "url": "https://farfuture.net"
+        }
+      }
+    ],
+    "tags": ["products","protections", "dress"]
+  },
+  {
+    "sku": "100-002-10057",
+    "type": "protections",
+    "subtype": "dress",
+    "name": "Assault Dress, Obsolete Titan (ObTAD-21)",
+    "mfr": "000",
+    "cost": 1800000,
+    "mass": 1000,
+    "techLevel": 21,
+    "qrebs": "N/A",
+    "image": "",
+    "description": "Assault dress is a (relatively) lightweight system intended for short-term (hours) operations against an enemy force.",
+    "accessories": [],
+    "categories": ["protections", "dress"],
+    "sources": [
+      {
+        "publication": "Traveller 5.10 Core Rules Book 1 : Characters and Combat",
+        "authors": ["Miller, Marc"],
+        "publisher": {
+          "name": "Far Future Enterprises",
+          "url": "https://farfuture.net"
+        }
+      }
+    ],
+    "tags": ["products","protections", "dress"]
+  },
+  {
+    "sku": "100-002-10059",
+    "type": "protections",
+    "subtype": "drss",
+    "name": "Battle Dress, Heavy",
+    "mfr": "000",
+    "cost": 440000,
+    "mass": 143,
+    "size": 5,
+    "techLevel": 15,
+    "qrebs": "N/A",
+    "image": "",
+    "description": "Battle dress incorporates protections against most dangers, attacks, and threats on the battlefield.",
+    "accessories": [],
+    "categories": ["protections", "dress"],
+    "sources": [
+      {
+        "publication": "Traveller 5.10 Core Rules Book 3 : Worlds and Adventures",
+        "authors": ["Miller, Marc"],
+        "publisher": {
+          "name": "Far Future Enterprises",
+          "url": "https://farfuture.net"
+        }
+      }
+    ],
+    "tags": ["products","protections", "dress"]
+  }
+]

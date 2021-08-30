@@ -11,3 +11,4 @@ Add Help page to sidebar menu
 Add search instructions to help page
 Add support contact instructions to help page
 Recheck search index generator
+Rework all search scripts to support new file structure

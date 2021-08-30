@@ -1,7 +1,7 @@
 const { src, dest, series, parallel, watch } = require("gulp");
+var sass = require('gulp-sass')(require('node-sass'));
 const path = require("path");
 const cp = require("child_process");
-const sass = require("gulp-sass");
 const cssnano = require("gulp-cssnano");
 const uglify = require("gulp-uglify");
 const rename = require("gulp-rename");
@@ -79,6 +79,7 @@ const processSASS = () => {
     .pipe(rename({ suffix: ".min" }))
     .pipe(cssnano())
     .pipe(dest("./dist/css"));
+    cb();
 };
 
 // process Javascript files (babel for cross-browser compatiblity, minify)
@@ -177,7 +178,20 @@ const buildIndex = () => {
   let idCounter = 0;
 
   let ms = new miniSearch({
-    fields: ["name", "type", "subtype", "description"],
+    fields: [
+      'sku',
+      'category',
+      'type', 
+      'subtype', 
+      'name', 
+      'description',
+      'cost',
+      'mass',
+      'size',
+      'techLevel',
+      'qrebs',
+      'tags'
+      ],
     storeFields: ["sku", "name", "description", "cost"],
   });
 

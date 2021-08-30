@@ -195,4 +195,4 @@ On screens less than 400px, the list will expand to cover the entire horizontal 
 
 
 ----
-<sup>1</sup> [Bootstrap Breakpoints](https://getbootstrap.com/docs/5.0/layout/breakpoints/)
+<sup>1</sup> [Bootstrap Breakpoints](https://getbootstrap.com/dist/5.0/layout/breakpoints/)
