@@ -13,4 +13,4 @@ build/*
 *bak
 *old
 hold/*
-dist/*
+dist/
