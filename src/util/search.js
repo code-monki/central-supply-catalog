@@ -1,11 +1,24 @@
 const miniSearch = require('minisearch')
 const fs = require('fs')
-const inputFiles = JSON.parse(fs.readFileSync("src/_data/products-manifest.json"))
+const inputFiles = JSON.parse(fs.readFileSync("progdata/products/products-manifest.json"))
 
 let idCounter = 0
 
 let ms = new miniSearch({
-  fields: ['name', 'type', 'subtype', 'description'],
+  fields: [
+    'sku',
+    'category',
+    'type', 
+    'subtype', 
+    'name', 
+    'description',
+    'cost',
+    'mass',
+    'size',
+    'techLevel',
+    'qrebs',
+    'tags'
+  ],
   storeFields: ['sku', 'name', 'description', 'cost']
 })
 
