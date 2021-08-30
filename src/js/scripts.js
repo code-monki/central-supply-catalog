@@ -237,7 +237,7 @@ if (searchField !== null && searchField !== undefined) {
   searchField.addEventListener('search', (e) => {
     e.preventDefault()
     console.log(`${window.location.origin}/?s=${e.target.value}`)
-    window.location.href = `${window.location.origin}/?s=${e.target.value.replace(/\s+/g, '+')}`
+    window.location.href = `${window.location.origin}/?q=${e.target.value.replace(/\s+/g, '+')}`
   })
 }
 
@@ -245,39 +245,14 @@ if (searchField !== null && searchField !== undefined) {
 window.addEventListener('load', (event) => {
   const params = new URLSearchParams(window.location.search)
 
-  if  (params.has('s')) {
+  if  (params.has('q=')) {
     // collection search parameters
-    const searchParams = params.get('s')
+    const searchParams = params.get('q')
     // perform search
     performSiteSearch(searchParams)
   }
 })
 
-// load / refresh search index
-const loadSearchIndex = () => {
-  let indexObj = localStorage.getItem('csc-version')
-  // check to see if index is stored in localStorage
-  if (indexObj === null) {
-    // No index data - load version, index from remote
-
-  } else {
-    // determine if the index needs to be reloaded
-    let { version, expiry} = JSON.parse(indexObj)
-    let reload = false
-
-    // check expiry
-    if (expiry !== null && expiry !== undefined && expiry < Date.now()) {
-      // retrieve version from remote
-
-      if (version < remoteVersion) {
-        reload = true
-      } else {
-        expiry += 3600000   // bump expiry by one hour
-        localStorage.setItem(JSON.stringify({ "version": version, "expiry": expiry}))
-      }
-    }
-  }
-}
 
 // ---------- End of Search-related Functionality ----------
 
@@ -305,6 +280,4 @@ document.addEventListener("DOMContentLoaded", function () {
     updateCartUI();
   }
 
-  // load / refresh search index
-  loadSearchIndex()
 });

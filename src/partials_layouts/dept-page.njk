@@ -8,7 +8,6 @@
   </div>
 
   <div class="container">
-
     {%- for product in products -%}
     <div class="prod-summary-row row white">
       <div class="prod-img col s3 m2">
@@ -40,7 +39,8 @@
     <ul class="pagination center-align">
       {%- for page in pagination.pages -%}
       <li>
-        <a href="{{ pagination.hrefs[ loop.index - 1 ] | url }}" class="red-text" {%- if pagination.hrefs[ loop.index - 0] == page.url -%}aria-current="page"{% endif -%}>{{ loop.index }}</a></li>
+        <a href="{{ pagination.hrefs[ loop.index - 1 ] | url }}" 
+           class="red-text" {%- if pagination.hrefs[ loop.index - 0] == page.url -%}aria-current="page"{% endif -%}>{{ loop.index }}</a></li>
       {% endfor %}
     </ul>
     </div>
