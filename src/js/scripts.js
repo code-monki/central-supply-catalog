@@ -245,13 +245,18 @@ if (searchField !== null && searchField !== undefined) {
 window.addEventListener('load', (event) => {
   const params = new URLSearchParams(window.location.search)
 
-  if  (params.has('q=')) {
-    // collection search parameters
-    const searchParams = params.get('q')
+  if  (params.has('q')) {
     // perform search
-    performSiteSearch(searchParams)
+    performSiteSearch(params)
   }
 })
+
+// --------------------------------------------------------
+// Perform the search
+// --------------------------------------------------------
+const performSearch = (params) => {
+
+}
 
 
 // ---------- End of Search-related Functionality ----------
