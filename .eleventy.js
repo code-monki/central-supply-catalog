@@ -40,13 +40,13 @@ module.exports = function (eleventyConfig) {
     let value = "";
 
     if (cost > 999999999999) {
-      value = `${cost / 10 ** 12} TCr`;
+      value = `${(cost / 10 ** 12).toFixed(3)} TCr`;
     } else if (cost > 999999999) {
-      value = `${cost / 10 ** 9} BCr`;
+      value = `${(cost / 10 ** 9).toFixed(3)} BCr`;
     } else if (cost > 999999) {
-      value = `${cost / 10 ** 6} MCr`;
+      value = `${(cost / 10 ** 6).toFixed(3)} MCr`;
     } else if (cost > 999) {
-      value = `${cost / 10 ** 3} KCr`;
+      value = `${(cost / 10 ** 3).toFixed(3)} KCr`;
     } else {
       value = `${cost} Cr`;
     }

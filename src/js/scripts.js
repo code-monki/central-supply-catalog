@@ -10,14 +10,16 @@ const unitMultiplier = { Cr: 0, KCr: 3, MCr: 6, BCr: 9, TCr: 12 };
 const setUnitLabel = (value) => {
   let text = "";
 
+  console.log(`value: ${value}`)
+
   if (value > 999999999999) {
-    text = `${value / 10 ** 12} TCr`;
+    text = `${(value / 10 ** 12).toFixed(3)} TCr`;
   } else if (value > 999999999) {
-    text = `${value / 10 ** 9} BCr`;
+    text = `${(value / 10 ** 9).toFixed(3)} BCr`;
   } else if (value > 999999) {
-    text = `${value / 10 ** 6} MCr`;
+    text = `${(value / 10 ** 6).toFixed(3)} MCr`;
   } else if (value > 999) {
-    text = `${value / 10 ** 3} KCr`;
+    text = `${(value / 10 ** 3).toFixed(3)} KCr`;
   } else {
     text = `${value} Cr`;
   }
@@ -34,7 +36,7 @@ const addItem = () => {
 
   // get the price and units
   const [price, units] = document.getElementById("unit-price").textContent.split(" ");
-  const unitPrice = parseInt(price) * 10 ** unitMultiplier[units];
+  const unitPrice = Number(price) * 10 ** unitMultiplier[units];
 
   // get the product name
   const productName = document.getElementById("product-name").textContent;
@@ -76,10 +78,12 @@ const addItem = () => {
 // ----------------- remove item from cart ----------------------
 const removeItem = (sku) => {
   let cart = JSON.parse(localStorage.getItem(cartKey));
+  if (cart !== null && cart !== undefined) {
   cart = cart.filter((item) => item.sku !== sku);
   localStorage.setItem(cartKey, JSON.stringify(cart));
   updateCartUI();
   updateCartBadge();
+  }
 };
 
 // ---------------- modify quantity of item ----------------------
