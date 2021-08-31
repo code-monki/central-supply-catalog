@@ -17,11 +17,10 @@
         <img src="{{'/img/products/no-image.png' | url}}" alt="{{product.name}}" id="prod-img">
         {% endif %}
       </div>
-
       <div class="product-controls col s4 offset-s3 m3 l3 xl2 right">
         <div class="right">
           <form>
-            <h5 class="right-align" id="unit-price">{{ product.cost | costLabel }}</h5>
+            <h5 class="right-align" id="unit-price" data-unitprice="{{product.cost}}">{{ product.cost | costLabel }}</h5>
 
             <div class="input-field quantity center">
               <input type="number" name="qty" id="product-qty" min="0" max="999" value="1">

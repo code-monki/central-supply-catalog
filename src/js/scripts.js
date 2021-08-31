@@ -7,19 +7,19 @@ const cartKey = "csc-cart"; // key for localStorage shopping cart
 const unitMultiplier = { Cr: 0, KCr: 3, MCr: 6, BCr: 9, TCr: 12 };
 
 // Apply units to values
-const setUnitLabel = (value) => {
+const setUnitLabel = (value, shorten) => {
   let text = "";
 
   console.log(`value: ${value}`)
 
   if (value > 999999999999) {
-    text = `${(value / 10 ** 12).toFixed(3)} TCr`;
+    text = (shorten === false) ? `${(value / 10 ** 12)} TCr` : `${(value / 10 ** 12).toFixed(3)} TCr`;
   } else if (value > 999999999) {
-    text = `${(value / 10 ** 9).toFixed(3)} BCr`;
+    text = (shorten === false ) ? `${(value / 10 ** 9)} BCr` : `${(value / 10 ** 9).toFixed(3)} BCr`;
   } else if (value > 999999) {
-    text = `${(value / 10 ** 6).toFixed(3)} MCr`;
+    text = (shorten === false) ? `${(value / 10 ** 6)} MCr` : `${(value / 10 ** 6).toFixed(3)} MCr`;
   } else if (value > 999) {
-    text = `${(value / 10 ** 3).toFixed(3)} KCr`;
+    text = (shorten === false) ? `${(value / 10 ** 3)} KCr` : `${(value / 10 ** 3).toFixed(3)} KCr`;
   } else {
     text = `${value} Cr`;
   }
@@ -35,9 +35,8 @@ const addItem = () => {
   const productImage = document.getElementById("prod-img").src;
 
   // get the price and units
-  const [price, units] = document.getElementById("unit-price").textContent.split(" ");
-  const unitPrice = Number(price) * 10 ** unitMultiplier[units];
-
+  const unitPrice = document.getElementById('unit-price').dataset.unitprice;
+  
   // get the product name
   const productName = document.getElementById("product-name").textContent;
 
@@ -136,7 +135,7 @@ const updateCartUI = () => {
             </div>
 
             <div class="prod-total col s4 right-align right">
-              ${setUnitLabel(item.qty * item.unitPrice)}
+              ${setUnitLabel(item.qty * item.unitPrice, false)}
             </div>
 
           </div>
@@ -164,7 +163,7 @@ const updateCartUI = () => {
     cartTotal.innerHTML = "";
   } else {
     // set cart total
-    cartTotal.innerHTML = `Total: ${setUnitLabel(total)}`;
+    cartTotal.innerHTML = `Total: ${setUnitLabel(total, false)}`;
   }
 
   itemContainer.innerHTML = text;
