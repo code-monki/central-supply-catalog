@@ -6,6 +6,7 @@ const categoriesData = require("./progdata/categories.json");
 const departmentsData = require("./progdata/departments.json");
 const slugify = require("slugify");
 const { config } = require("process");
+const { parse } = require("path");
 
 // const basePath = process.env.ELEVENTY_ENV === "dev" ? "" : process.env.ELEVENTY_PREFIX;
 const basePath = "";
@@ -30,7 +31,7 @@ module.exports = function (eleventyConfig) {
   eleventyConfig.addPassthroughCopy("src/_data/*.idx");
   eleventyConfig.addPassthroughCopy("src/sw.js");
   eleventyConfig.addPassthroughCopy("src/img");
-  // eleventyConfig.setQuietMode(true);
+  eleventyConfig.setQuietMode(true);
   eleventyConfig.addWatchTarget("./src/scss");
 
   //-------------------------------------------------------------
@@ -38,19 +39,27 @@ module.exports = function (eleventyConfig) {
   //-------------------------------------------------------------
   eleventyConfig.addFilter("costLabel", (cost) => {
     let value = "";
+    let unitLabel = "Cr"
+    let modValue = 0.0;
 
     if (cost > 999999999999) {
-      value = `${(cost / 10 ** 12).toFixed(3)} TCr`;
+      modValue = cost / 10 ** 12;
+      unitLabel = `TCr`;
     } else if (cost > 999999999) {
-      value = `${(cost / 10 ** 9).toFixed(3)} BCr`;
+      modValue = cost / 10 ** 9;
+      unitLabel = `BCr`;
     } else if (cost > 999999) {
-      value = `${(cost / 10 ** 6).toFixed(3)} MCr`;
+      modValue = cost / 10 ** 6;
+      unitLabel = `MCr`;
     } else if (cost > 999) {
-      value = `${(cost / 10 ** 3).toFixed(3)} KCr`;
+      modValue = cost / 10 ** 3;
+      unitLabel = `KCr`;
     } else {
-      value = `${cost} Cr`;
+      unitLabel = `Cr`;
     }
-    return value;
+
+    displayValue = (cost - Math.floor(cost) !== 0) ? modValue.toFixed(3) : Math.trunc(modValue)
+    return `${displayValue} ${unitLabel}`;
   });
 
 
@@ -61,7 +70,7 @@ module.exports = function (eleventyConfig) {
     let base = path.join(__dirname, 'src', '_data', 'protections');
 
     const files = fs.readdirSync(base).filter(file => path.extname(file) === '.json');
-    console.log(files);
+    // console.log(files);
     const protections = files.flatMap((file) => JSON.parse(fs.readFileSync(path.join(base, file))));
     // console.log(`protections pre-sort ${protections}`);
     protections.sort((a,b) => (a.name < b.name) ? 1 : (a.name > b.name) ? 1 : 0);
@@ -106,6 +115,7 @@ module.exports = function (eleventyConfig) {
     if (mfr !== undefined) {
       res = `<a href="${mfr.url}" target="_blank">${mfr.name}</a>`;
     }
+    console.log(`Manufacturer: [${mfrId} : ${mfr.name}`);
     return res;
   });
 
