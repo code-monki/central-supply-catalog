@@ -49,11 +49,11 @@
             </tr>
           </thead>
           <tbody>
-            {% if product.mfrId %}
+            {% if product.mfr %}
             <tr>
               <td><strong>Mfr:</strong></td>
               <td>
-                {% getMfr product.mfrId %}
+                {% getMfr product.mfr %}
               </td>
             </tr>
             {% endif %}
@@ -106,8 +106,8 @@
         <p class="source">
           &ldquo;<em>{{ src.publication | safe }}</em>&rdquo;,
           {% set comma = joiner() %}
-          {% for author in src.authors %}
-          {{ comma() }}{{ author | safe }}
+          {%- for author in src.authors -%}
+          {{- comma() }} {{ author | safe -}}
           {% endfor %}
           , {% if src.publisher.url == "" %}
             {{ src.publisher.name }}
