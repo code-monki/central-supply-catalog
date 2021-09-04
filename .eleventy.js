@@ -58,7 +58,7 @@ module.exports = function (eleventyConfig) {
       unitLabel = `Cr`;
     }
 
-    displayValue = (cost - Math.floor(cost) !== 0) ? Math.trunc(modValue) : modValue.toFixed(3)
+    displayValue = (modValue - Math.floor(modValue) !== 0) ? modValue.toFixed(3) : Math.trunc(modValue)
     return `${displayValue} ${unitLabel}`;
   });
 
