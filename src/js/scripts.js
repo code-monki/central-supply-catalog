@@ -9,8 +9,7 @@ const unitMultiplier = { Cr: 0, KCr: 3, MCr: 6, BCr: 9, TCr: 12 };
 // Apply units to values
 const setUnitLabel = (value, shorten) => {
   let text = "";
-
-  console.log(`value: ${value}`)
+  
 
   if (value > 999999999999) {
     text = (shorten === false) ? `${(value / 10 ** 12)} TCr` : `${(value / 10 ** 12).toFixed(3)} TCr`;
