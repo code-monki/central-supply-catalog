@@ -40,7 +40,7 @@ module.exports = function (eleventyConfig) {
   eleventyConfig.addFilter("costLabel", (cost) => {
     let value = "";
     let unitLabel = "Cr"
-    let modValue = 0.0;
+    let modValue = cost;
 
     if (cost > 999999999999) {
       modValue = cost / 10 ** 12;
@@ -58,7 +58,7 @@ module.exports = function (eleventyConfig) {
       unitLabel = `Cr`;
     }
 
-    displayValue = (cost - Math.floor(cost) !== 0) ? modValue.toFixed(3) : Math.trunc(modValue)
+    displayValue = (cost - Math.floor(cost) !== 0) ? Math.trunc(modValue) : modValue.toFixed(3)
     return `${displayValue} ${unitLabel}`;
   });
 
@@ -115,7 +115,7 @@ module.exports = function (eleventyConfig) {
     if (mfr !== undefined) {
       res = `<a href="${mfr.url}" target="_blank">${mfr.name}</a>`;
     }
-    console.log(`Manufacturer: [${mfrId} : ${mfr.name}`);
+    
     return res;
   });
 
@@ -124,7 +124,7 @@ module.exports = function (eleventyConfig) {
   //-------------------------------------------------------------
   eleventyConfig.addShortcode("getAccessory", function (sku) {
     // get the parent department
-    let key = sku.slice(0, 3) + "-000";
+    let key = sku.slice(0, 7);
 
     // get the name of the data file
     let dataSrc = departmentsData.find((item) => (item.id === key ? item.data : ""));
