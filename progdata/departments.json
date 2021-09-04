@@ -3,7 +3,6 @@
     "id": "010-000",
     "label": "Breathing Apparatus",
     "description": "Filter masks, rebreathers, air tanks.",
-    "subDept": [],
     "data": "./src/_data/breathing-apparatus-products.json",
     "icon": "breathing-apparatus.svg"
   },
@@ -11,7 +10,6 @@
     "id": "020-000",
     "label": "Comms",
     "description": "Telecommunication equipment.",
-    "subDept": ["030-001"],
     "data": ". src/_data/comm-products.json",
     "icon": "comms.svg"
   },
@@ -19,26 +17,26 @@
     "id": "030-000",
     "label": "Computers",
     "description": "Devices that provide the ability to store and process information.",
-    "subDept": [],
     "data": "./src/_data/computer-products.json",
     "icon": "computers.svg"
   },
   {
     "id": "030-001",
     "label": "Computer Accessories",
+    "data": "./src/_data/computer-products.json",
     "description": "A collection of computer accessories."
   },
   {
     "id": "040-000",
     "label": "Construction",
     "description": "Tools & Materials used for construction",
-    "subDept": ["050-001"],
     "data": "./src/_data/construction-products.json",
     "icon": "construction.svg"
   },
   {
     "id": "040-001",
     "label": "Construction Materials",
+    "data": "./src/_data/construction-products.json",
     "description": "Construction materials for the creation of a variety of structures and equipment."
   },
   {
@@ -66,19 +64,20 @@
     "id": "080-000",
     "label": "Food & Drinks",
     "description": "A variety of food and beverage items.",
+    "data": "./src/_data/food-drink-products.json",
     "icon": "food-drinks.svg"
   },
   {
     "id": "090-000",
     "label": "Power Supplies",
     "description": "Devices that provide power.",
+    "data": "./src/_data/power-supply-products.json",
     "icon": "power-supplies.svg"
   },
   {
     "id": "100-000",
     "label": "Protections",
     "description": "Equipment to provide protection against hostile environments",
-    "subDept": ["110-001", "110-002", "110-003", "110-004", "110-005"],
     "data": "./src/_data/protections-products.json",
     "icon": "protections.svg"
   },
@@ -86,21 +85,24 @@
     "id": "100-001",
     "label": "Armor",
     "description": "Protective gear designed for the dangerous environment of combat.",
-    "subDept": []
+    "data": "./src/_data/protections/armor.json"
   },
   {
     "id": "100-002",
     "label": "Dress",
+    "data": "./src/_data/protections/dress-products.json",
     "description": "A collection of powered military-style armor"
   },
   {
     "id": "100-003",
     "label": "Suits",
+    "data": "./src/_data/protections/suits.json",
     "description": "A collection of unpowered morphic coverings."
   },
   {
     "id": "100-004",
     "label": "Units",
+    "data": "./src/_data/protections/units.json",
     "description": "A collection  of non-morphic protections."
   },
   {
@@ -117,23 +119,25 @@
     "id": "110-000",
     "label": "Robots",
     "description": "A collection of autonomous and semi-autonomous machines.",
-    "subDept": ["110-001", "110-002", "110-003"],
     "data": "./src/_data/robots-products.json",
     "icon": "robots.svg"
   },
   {
     "id": "110-001",
     "label": "Automatons",
+    "data": "./src/_data/robots-products.json",
     "description": "Sophont-like machinesthat perform a specific function."
   },
   {
     "id": "110-002",
     "label": "Drones",
+    "data": "./src/_data/robots-products.json",
     "description": "Autonomous or semi-automonous vehicles."
   },
   {
     "id": "110-003",
     "label": "Strangeforms",
+    "data": "./src/_data/robots-products.json",
     "description": "Oddly shaped automous and semi-autonomous machines."
   },
   {
@@ -161,7 +165,6 @@
     "id": "150-000",
     "label": "Vehicles",
     "description": "A collection of personal vehicles.",
-    "subDept": ["150-001", "150-002"],
     "data": "./src/_data/vehicles-products.json",
     "icon": "vehicles.svg"
   },
@@ -179,20 +182,6 @@
     "id": "160-000",
     "label": "Weapons",
     "description": "Melee Weapons, Blades and Guns.",
-    "subDept": [
-      "160-001",
-      "160-002",
-      "160-003",
-      "160-004",
-      "160-005",
-      "160-006",
-      "160-007",
-      "160-008",
-      "160-009",
-      "160-010",
-      "160-011",
-      "160-012"
-    ],
     "data": "./src/_data/weapons-products.json",
     "icon": "weapons.svg"
   },
