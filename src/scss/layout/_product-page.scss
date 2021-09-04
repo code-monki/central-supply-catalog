@@ -93,14 +93,21 @@
           padding-top: 1rem !important;
 
           @include response(md) {
+            font-size: 1.1rem;
             padding-right: 1rem;
           }
         }
 
-        & ul li {
-          margin-left: 1rem;
-          list-style-type: disc;
-          list-style-position: inside;
+        & ul {
+          & li {
+            margin-left: 1rem;
+            list-style-type: disc;
+            list-style-position: inside;
+
+            @include response(md) {
+            font-size: 1.1rem;
+            }
+          }
         }
       }
     }
