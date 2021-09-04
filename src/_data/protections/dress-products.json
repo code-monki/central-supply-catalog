@@ -11,7 +11,7 @@
     "techLevel": 13,
     "qrebs": "N/A",
     "image": "",
-    "description": "<!-- Summary Start -->Heavy powered personal armor Ar 45 (MgT 18)<!-- Summary End -->Battledress is a standard combat uniform worn by soldiers. Over time, the Dress element has become the term for the ultimate in military powered armor.\n\nThe significant element of Dress is that it is braced against high recoil.",
+    "description": "<p><!-- Summary Start -->Heavy powered personal armor<!-- Summary End -->Battledress is a standard combat uniform worn by soldiers. Over time, the Dress element has become the term for the ultimate in military powered armor. The significant element of Dress is that it is braced against high recoil. AR 45 (MgT 18)</p>",
     "accessories": [],
     "categories": ["protections", "dress"],
     "sources": [
@@ -37,7 +37,7 @@
     "techLevel": 8,
     "qrebs": "N/A",
     "image": "",
-    "description": "Police dress incorporates protections against the hazards encountered in a law enforcement environment.",
+    "description": "<p><!-- Summary Start -->Police dress incorporates protections against the hazards encountered in a law enforcement environment.<!-- Summary End --></p>",
     "accessories": [],
     "sources": [
       {
@@ -63,7 +63,7 @@
     "techLevel": 9,
     "qrebs": "N/A",
     "image": "",
-    "description": "Police dress incorporates protections against the hazards encountered in a law enforcement environment.",
+    "description": "<p><!-- Summary Start -->Police dress incorporates protections against the hazards encountered in a law enforcement environment.<!-- Summary End --></p>",
     "accessories": [],
     "categories": ["protections", "dress"],
     "sources": [
@@ -89,7 +89,7 @@
     "techLevel": 10,
     "qrebs": "N/A",
     "image": "",
-    "description": "Drop dress is structured to protect against the extreme temperatures of orbital reentry.",
+    "description": "<p><!-- Summary Start -->Drop dress is structured to protect against the extreme temperatures of orbital reentry.<!-- Summary End --></p>",
     "accessories": [],
     "categories": ["protections", "dress"],
     "sources": [
@@ -115,7 +115,7 @@
     "techLevel": 10,
     "qrebs": "N/A",
     "image": "",
-    "description": "Police dress incorporates protections against the hazards encountered in a law enforcement environment.",
+    "description": "<p><!-- Summary Start -->Police dress incorporates protections against the hazards encountered in a law enforcement environment.<!-- Summary End --></p>",
     "accessories": [],
     "categories": ["protections", "dress"],
     "sources": [
@@ -141,7 +141,7 @@
     "techLevel": 10,
     "qrebs": "N/A",
     "image": "",
-    "description": "Police dress incorporates protections against the hazards encountered in a law enforcement environment.",
+    "description": "<p><!-- Summary Start -->Police dress incorporates protections against the hazards encountered in a law enforcement environment.<!-- Summary End --></p>",
     "accessories": [],
     "categories": ["protections", "dress"],
     "sources": [
@@ -167,7 +167,7 @@
     "techLevel": 10,
     "qrebs": "N/A",
     "image": "",
-    "description": "Police dress incorporates protections against the hazards encountered in a law enforcement environment.",
+    "description": "<p><!-- Summary Start -->Police dress incorporates protections against the hazards encountered in a law enforcement environment.<!-- Summary End --></p>",
     "accessories": [],
     "categories": ["protections", "dress"],
     "sources": [
@@ -193,7 +193,7 @@
     "techLevel": 11,
     "qrebs": "N/A",
     "image": "",
-    "description": "Police dress incorporates protections against the hazards encountered in a law enforcement environment.",
+    "description": "<p><!-- Summary Start -->Police dress incorporates protections against the hazards encountered in a law enforcement environment.<!-- Summary End --></p>",
     "accessories": [],
     "categories": ["protections", "dress"],
     "sources": [
@@ -219,7 +219,7 @@
     "techLevel": 11,
     "qrebs": "N/A",
     "image": "",
-    "description": "Police dress incorporates protections against the hazards encountered in a law enforcement environment.",
+    "description": "<p><!-- Summary Start -->Police dress incorporates protections against the hazards encountered in a law enforcement environment.<!-- Summary End --></p>",
     "accessories": [],
     "categories": ["protections", "dress"],
     "sources": [
@@ -245,7 +245,7 @@
     "techLevel": 11,
     "qrebs": "N/A",
     "image": "",
-    "description": "Police dress incorporates protections against the hazards encountered in a law enforcement environment.",
+    "description": "<p><!-- Summary Start -->Police dress incorporates protections against the hazards encountered in a law enforcement environment.<!-- Summary End --></p>",
     "accessories": [],
     "categories": ["protections", "dress"],
     "sources": [
@@ -271,7 +271,7 @@
     "techLevel": 11,
     "qrebs": "N/A",
     "image": "",
-    "description": "Battle dress incorporates protections against most dangers, attacks, and threats on the battlefield.",
+    "description": "<p><!-- Summary Start -->Battle dress incorporates protections against most dangers, attacks, and threats on the battlefield.<!-- Summary End --></p>",
     "accessories": [],
     "categories": ["protections", "dress"],
     "sources": [
@@ -297,7 +297,7 @@
     "techLevel": 11,
     "qrebs": "N/A",
     "image": "",
-    "description": "Boarding dress is tailored for zero-G operations against interplanetary and interstellar vessels.",
+    "description": "<p><!-- Summary Start -->Boarding dress is tailored for zero-G operations against interplanetary and interstellar vessels.<!-- Summary End --></p>",
     "accessories": [],
     "categories": ["protections", "dress"],
     "sources": [
@@ -323,7 +323,7 @@
     "techLevel": 11,
     "qrebs": "N/A",
     "image": "",
-    "description": "Police dress incorporates protections against the hazards encountered in a law enforcement environment.",
+    "description": "<p><!-- Summary Start -->Police dress incorporates protections against the hazards encountered in a law enforcement environment.<!-- Summary End --></p>",
     "accessories": [],
     "categories": ["protections", "dress"],
     "sources": [
@@ -349,7 +349,7 @@
     "techLevel": 11,
     "qrebs": "N/A",
     "image": "",
-    "description": "Police dress incorporates protections against the hazards encountered in a law enforcement environment.",
+    "description": "<p><!-- Summary Start -->Police dress incorporates protections against the hazards encountered in a law enforcement environment.<!-- Summary End --></p>",
     "accessories": [],
     "categories": ["protections", "dress"],
     "sources": [
@@ -375,7 +375,7 @@
     "techLevel": 11,
     "qrebs": "N/A",
     "image": "",
-    "description": "Police dress incorporates protections against the hazards encountered in a law enforcement environment.",
+    "description": "<p><!-- Summary Start -->Police dress incorporates protections against the hazards encountered in a law enforcement environment.<!-- Summary End --></p>",
     "accessories": [],
     "categories": ["protections", "dress"],
     "sources": [
@@ -401,7 +401,7 @@
     "techLevel": 11,
     "qrebs": "N/A",
     "image": "",
-    "description": "Police dress incorporates protections against the hazards encountered in a law enforcement environment.",
+    "description": "<p><!-- Summary Start -->Police dress incorporates protections against the hazards encountered in a law enforcement environment.<!-- Summary End --></p>",
     "accessories": [],
     "categories": ["protections", "dress"],
     "sources": [
@@ -427,7 +427,7 @@
     "techLevel": 11,
     "qrebs": "N/A",
     "image": "",
-    "description": "Police dress incorporates protections against the hazards encountered in a law enforcement environment.",
+    "description": "<p><!-- Summary Start -->Police dress incorporates protections against the hazards encountered in a law enforcement environment.<!-- Summary End --></p>",
     "accessories": [],
     "categories": ["protections", "dress"],
     "sources": [
@@ -453,7 +453,7 @@
     "techLevel": 12,
     "qrebs": "N/A",
     "image": "",
-    "description": "Drop dress is structured to protect against the extreme temperatures of orbital reentry.",
+    "description": "<p><!-- Summary Start -->Drop dress is structured to protect against the extreme temperatures of orbital reentry.<!-- Summary End --></p>",
     "accessories": [],
     "categories": ["protections", "dress"],
     "sources": [
@@ -479,7 +479,7 @@
     "techLevel": 12,
     "qrebs": "N/A",
     "image": "",
-    "description": "Drop dress is structured to protect against the extreme temperatures of orbital reentry.",
+    "description": "<p><!-- Summary Start -->Drop dress is structured to protect against the extreme temperatures of orbital reentry.<!-- Summary End --></p>",
     "accessories": [],
     "categories": ["protections", "dress"],
     "sources": [
@@ -505,7 +505,7 @@
     "techLevel": 12,
     "qrebs": "N/A",
     "image": "",
-    "description": "Combat dress is intended for medium-term opreations (days) against an enemy force.",
+    "description": "<p><!-- Summary Start -->Combat dress is intended for medium-term opreations (days) against an enemy force.<!-- Summary End --></p>",
     "accessories": [],
     "categories": ["protections", "dress"],
     "sources": [
@@ -531,7 +531,7 @@
     "techLevel": 12,
     "qrebs": "N/A",
     "image": "",
-    "description": "Combat dress is intended for medium-term opreations (days) against an enemy force.",
+    "description": "<p><!-- Summary Start -->Combat dress is intended for medium-term opreations (days) against an enemy force.<!-- Summary End --></p>",
     "accessories": [],
     "categories": ["protections", "dress"],
     "sources": [
@@ -557,7 +557,7 @@
     "techLevel": 12,
     "qrebs": "N/A",
     "image": "",
-    "description": "Police dress incorporates protections against the hazards encountered in a law enforcement environment.",
+    "description": "<p><!-- Summary Start -->Police dress incorporates protections against the hazards encountered in a law enforcement environment.<!-- Summary End --></p>",
     "accessories": [],
     "categories": ["protections", "dress"],
     "sources": [
@@ -583,7 +583,7 @@
     "techLevel": 13,
     "qrebs": "N/A",
     "image": "",
-    "description": "Police dress incorporates protections against the hazards encountered in a law enforcement environment.",
+    "description": "<p><!-- Summary Start -->Police dress incorporates protections against the hazards encountered in a law enforcement environment.<!-- Summary End --></p>",
     "accessories": [],
     "categories": ["protections", "dress"],
     "sources": [
@@ -609,7 +609,7 @@
     "techLevel": 13,
     "qrebs": "N/A",
     "image": "",
-    "description": "Battle dress incorporates protections against most dangers, attacks, and threats on the battlefield.",
+    "description": "<p><!-- Summary Start -->Battle dress incorporates protections against most dangers, attacks, and threats on the battlefield.<!-- Summary End --></p>",
     "accessories": [],
     "categories": ["protections", "dress"],
     "sources": [
@@ -635,7 +635,7 @@
     "techLevel": 13,
     "qrebs": "N/A",
     "image": "",
-    "description": "Boarding dress is tailored for zero-G operations against interplanetary and interstellar vessels.",
+    "description": "<p><!-- Summary Start -->Boarding dress is tailored for zero-G operations against interplanetary and interstellar vessels.<!-- Summary End --></p>",
     "accessories": [],
     "categories": ["protections", "dress"],
     "sources": [
@@ -661,7 +661,7 @@
     "techLevel": 13,
     "qrebs": "N/A",
     "image": "",
-    "description": "Battle dress incorporates protections against most dangers, attacks, and threats on the battlefield.",
+    "description": "<p><!-- Summary Start -->Battle dress incorporates protections against most dangers, attacks, and threats on the battlefield.<!-- Summary End --></p>",
     "accessories": [],
     "categories": ["protections", "dress"],
     "sources": [
@@ -687,7 +687,7 @@
     "techLevel": 13,
     "qrebs": "N/A",
     "image": "",
-    "description": "Boarding dress is tailored for zero-G operations against interplanetary and interstellar vessels.",
+    "description": "<p><!-- Summary Start -->Boarding dress is tailored for zero-G operations against interplanetary and interstellar vessels.<!-- Summary End --></p>",
     "accessories": [],
     "categories": ["protections", "dress"],
     "sources": [
@@ -713,7 +713,7 @@
     "techLevel": 13,
     "qrebs": "N/A",
     "image": "",
-    "description": "Combat dress is intended for medium-term opreations (days) against an enemy force.",
+    "description": "<p><!-- Summary Start -->Combat dress is intended for medium-term opreations (days) against an enemy force.<!-- Summary End --></p>",
     "accessories": [],
     "categories": ["protections", "dress"],
     "sources": [
@@ -739,7 +739,7 @@
     "techLevel": 13,
     "qrebs": "N/A",
     "image": "",
-    "description": "Police dress incorporates protections against the hazards encountered in a law enforcement environment.",
+    "description": "<p><!-- Summary Start -->Police dress incorporates protections against the hazards encountered in a law enforcement environment.<!-- Summary End --></p>",
     "accessories": [],
     "categories": ["protections", "dress"],
     "sources": [
@@ -765,7 +765,7 @@
     "techLevel": 13,
     "qrebs": "N/A",
     "image": "",
-    "description": "Drop dress is structured to protect against the extreme temperatures of orbital reentry.",
+    "description": "<p><!-- Summary Start -->Drop dress is structured to protect against the extreme temperatures of orbital reentry.<!-- Summary End --></p>",
     "accessories": [],
     "categories": ["protections", "dress"],
     "sources": [
@@ -791,7 +791,7 @@
     "techLevel": 13,
     "qrebs": "N/A",
     "image": "",
-    "description": "Combat dress is intended for medium-term opreations (days) against an enemy force.",
+    "description": "<p><!-- Summary Start -->Combat dress is intended for medium-term opreations (days) against an enemy force.<!-- Summary End --></p>",
     "accessories": [],
     "categories": ["protections", "dress"],
     "sources": [
@@ -817,7 +817,7 @@
     "techLevel": 13,
     "qrebs": "N/A",
     "image": "",
-    "description": "Boarding dress is tailored for zero-G operations against interplanetary and interstellar vessels.",
+    "description": "<p><!-- Summary Start -->Boarding dress is tailored for zero-G operations against interplanetary and interstellar vessels.<!-- Summary End --></p>",
     "accessories": [],
     "categories": ["protections", "dress"],
     "sources": [
@@ -843,7 +843,7 @@
     "techLevel": 13,
     "qrebs": "N/A",
     "image": "",
-    "description": "Drop dress is structured to protect against the extreme temperatures of orbital reentry.",
+    "description": "<p><!-- Summary Start -->Drop dress is structured to protect against the extreme temperatures of orbital reentry.<!-- Summary End --></p>",
     "accessories": [],
     "categories": ["protections", "dress"],
     "sources": [
@@ -869,7 +869,7 @@
     "techLevel": 13,
     "qrebs": "N/A",
     "image": "",
-    "description": "Drop dress is structured to protect against the extreme temperatures of orbital reentry.",
+    "description": "<p><!-- Summary Start -->Drop dress is structured to protect against the extreme temperatures of orbital reentry.<!-- Summary End --></p>",
     "accessories": [],
     "categories": ["protections", "dress"],
     "sources": [
@@ -895,7 +895,7 @@
     "techLevel": 14,
     "qrebs": "N/A",
     "image": "",
-    "description": "Combat dress is intended for medium-term opreations (days) against an enemy force.",
+    "description": "<p><!-- Summary Start -->Combat dress is intended for medium-term opreations (days) against an enemy force.<!-- Summary End --></p>",
     "accessories": [],
     "categories": ["protections", "dress"],
     "sources": [
@@ -921,7 +921,7 @@
     "techLevel": 14,
     "qrebs": "N/A",
     "image": "",
-    "description": "Assault dress is a (relatively) lightweight system intended for short-term (hours) operations against an enemy force.",
+    "description": "<p><!-- Summary Start -->Assault dress is a (relatively) lightweight system intended for short-term (hours) operations against an enemy force.<!-- Summary End --></p>",
     "accessories": [],
     "categories": ["protections", "dress"],
     "sources": [
@@ -947,7 +947,7 @@
     "techLevel": 14,
     "qrebs": "N/A",
     "image": "",
-    "description": "Battle dress incorporates protections against most dangers, attacks, and threats on the battlefield.",
+    "description": "<p><!-- Summary Start -->Battle dress incorporates protections against most dangers, attacks, and threats on the battlefield.<!-- Summary End --><p>",
     "accessories": [],
     "categories": ["protections", "dress"],
     "sources": [
@@ -973,7 +973,7 @@
     "techLevel": 14,
     "qrebs": "N/A",
     "image": "",
-    "description": "Boarding dress is tailored for zero-G operations against interplanetary and interstellar vessels.",
+    "description": "<p><!-- Summary Start -->Boarding dress is tailored for zero-G operations against interplanetary and interstellar vessels.<!-- Summary End --></p>",
     "accessories": [],
     "categories": ["protections", "dress"],
     "sources": [
@@ -999,7 +999,7 @@
     "techLevel": 14,
     "qrebs": "N/A",
     "image": "",
-    "description": "Combat dress is intended for medium-term opreations (days) against an enemy force.",
+    "description": "<p><!-- Summary Start -->Combat dress is intended for medium-term opreations (days) against an enemy force.<!-- Summary End --></p>",
     "accessories": [],
     "categories": ["protections", "dress"],
     "sources": [
@@ -1025,7 +1025,7 @@
     "techLevel": 14,
     "qrebs": "N/A",
     "image": "",
-    "description": "Combat dress is intended for medium-term opreations (days) against an enemy force.",
+    "description": "<p><!-- Summary Start -->Combat dress is intended for medium-term opreations (days) against an enemy force.<!-- Summary End --></p>",
     "accessories": [],
     "categories": ["protections", "dress"],
     "sources": [
@@ -1051,7 +1051,7 @@
     "techLevel": 14,
     "qrebs": "N/A",
     "image": "",
-    "description": "Drop dress is structured to protect against the extreme temperatures of orbital reentry.",
+    "description": "<p><!-- Summary Start -->Drop dress is structured to protect against the extreme temperatures of orbital reentry.<!-- Summary End --></p>",
     "accessories": [],
     "categories": ["protections", "dress"],
     "sources": [
@@ -1077,7 +1077,7 @@
     "techLevel": 14,
     "qrebs": "N/A",
     "image": "",
-    "description": "Battle dress incorporates protections against most dangers, attacks, and threats on the battlefield.",
+    "description": "<p><!-- Summary Start -->Battle dress incorporates protections against most dangers, attacks, and threats on the battlefield.<!-- Summary End --></p>",
     "accessories": [],
     "categories": ["protections", "dress"],
     "sources": [
@@ -1103,7 +1103,7 @@
     "techLevel": 14,
     "qrebs": "N/A",
     "image": "",
-    "description": "Boarding dress is tailored for zero-G operations against interplanetary and interstellar vessels.",
+    "description": "<p><!-- Summary Start -->Boarding dress is tailored for zero-G operations against interplanetary and interstellar vessels.<!-- Summary End --></p>",
     "accessories": [],
     "categories": ["protections", "dress"],
     "sources": [
@@ -1129,7 +1129,7 @@
     "techLevel": 14,
     "qrebs": "N/A",
     "image": "",
-    "description": "Assault dress is a (relatively) lightweight system intended for short-term (hours) operations against an enemy force.",
+    "description": "<p><!-- Summary Start -->Assault dress is a (relatively) lightweight system intended for short-term (hours) operations against an enemy force.<!-- Summary End --></p>",
     "accessories": [],
     "categories": ["protections", "dress"],
     "sources": [
@@ -1155,7 +1155,7 @@
     "techLevel": 15,
     "qrebs": "N/A",
     "image": "",
-    "description": "Assault dress is a (relatively) lightweight system intended for short-term (hours) operations against an enemy force.",
+    "description": "<p><!-- Summary Start -->Assault dress is a (relatively) lightweight system intended for short-term (hours) operations against an enemy force.<!-- Summary End --></p>",
     "accessories": [],
     "categories": ["protections", "dress"],
     "sources": [
@@ -1181,7 +1181,7 @@
     "techLevel": 15,
     "qrebs": "N/A",
     "image": "",
-    "description": "Assault dress is a (relatively) lightweight system intended for short-term (hours) operations against an enemy force.",
+    "description": "<p><!-- Summary Start -->Assault dress is a (relatively) lightweight system intended for short-term (hours) operations against an enemy force.<!-- Summary End --></p>",
     "accessories": [],
     "categories": ["protections", "dress"],
     "sources": [
@@ -1207,7 +1207,7 @@
     "techLevel": 15,
     "qrebs": "N/A",
     "image": "",
-    "description": "Assault dress is a (relatively) lightweight system intended for short-term (hours) operations against an enemy force.",
+    "description": "<p><!-- Summary Start -->Assault dress is a (relatively) lightweight system intended for short-term (hours) operations against an enemy force.<!-- Summary End --></p>",
     "accessories": [],
     "categories": ["protections", "dress"],
     "sources": [
@@ -1233,7 +1233,7 @@
     "techLevel": 15,
     "qrebs": "N/A",
     "image": "",
-    "description": "Battle dress incorporates protections against most dangers, attacks, and threats on the battlefield.",
+    "description": "<p><!-- Summary Start -->Battle dress incorporates protections against most dangers, attacks, and threats on the battlefield.<!-- Summary End --></p>",
     "accessories": [],
     "categories": ["protections", "dress"],
     "sources": [
@@ -1259,7 +1259,7 @@
     "techLevel": 15,
     "qrebs": "N/A",
     "image": "",
-    "description": "Boarding dress is tailored for zero-G operations against interplanetary and interstellar vessels.",
+    "description": "<p><!-- Summary Start -->Boarding dress is tailored for zero-G operations against interplanetary and interstellar vessels.<!-- Summary End --></p>",
     "accessories": [],
     "categories": ["protections", "dress"],
     "sources": [
@@ -1285,7 +1285,7 @@
     "techLevel": 16,
     "qrebs": "N/A",
     "image": "",
-    "description": "Police dress incorporates protections against the hazards encountered in a law enforcement environment.",
+    "description": "<p><!-- Summary Start -->Police dress incorporates protections against the hazards encountered in a law enforcement environment.<!-- Summary End --></p>",
     "accessories": [],
     "categories": ["protections", "dress"],
     "sources": [
@@ -1311,7 +1311,7 @@
     "techLevel": 16,
     "qrebs": "N/A",
     "image": "",
-    "description": "Drop dress is structured to protect against the extreme temperatures of orbital reentry.",
+    "description": "<p><!-- Summary Start -->Drop dress is structured to protect against the extreme temperatures of orbital reentry.<!-- Summary End --></p>",
     "accessories": [],
     "categories": ["protections", "dress"],
     "sources": [
@@ -1337,7 +1337,7 @@
     "techLevel": 16,
     "qrebs": "N/A",
     "image": "",
-    "description": "Boarding dress is tailored for zero-G operations against interplanetary and interstellar vessels.",
+    "description": "<p><!-- Summary Start -->Boarding dress is tailored for zero-G operations against interplanetary and interstellar vessels.<!-- Summary End --></p>",
     "accessories": [],
     "categories": ["protections", "dress"],
     "sources": [
@@ -1363,7 +1363,7 @@
     "techLevel": 16,
     "qrebs": "N/A",
     "image": "",
-    "description": "Boarding dress is tailored for zero-G operations against interplanetary and interstellar vessels.",
+    "description": "<p><!-- Summary Start -->Boarding dress is tailored for zero-G operations against interplanetary and interstellar vessels.<!-- Summary End --></p>",
     "accessories": [],
     "categories": ["protections", "dress"],
     "sources": [
@@ -1389,7 +1389,7 @@
     "techLevel": 16,
     "qrebs": "N/A",
     "image": "",
-    "description": "Drop dress is structured to protect against the extreme temperatures of orbital reentry.",
+    "description": "<p><!-- Summary Start -->Drop dress is structured to protect against the extreme temperatures of orbital reentry.<!-- Summary End --></p>",
     "accessories": [],
     "categories": ["protections", "dress"],
     "sources": [
@@ -1415,7 +1415,7 @@
     "techLevel": 16,
     "qrebs": "N/A",
     "image": "",
-    "description": "Battle dress incorporates protections against most dangers, attacks, and threats on the battlefield.",
+    "description": "<p><!-- Summary Start -->Battle dress incorporates protections against most dangers, attacks, and threats on the battlefield.<!-- Summary End --></p>",
     "accessories": [],
     "categories": ["protections", "dress"],
     "sources": [
@@ -1441,7 +1441,7 @@
     "techLevel": 17,
     "qrebs": "N/A",
     "image": "",
-    "description": "Battle dress incorporates protections against most dangers, attacks, and threats on the battlefield.",
+    "description": "<p><!-- Summary Start -->Battle dress incorporates protections against most dangers, attacks, and threats on the battlefield.<!-- Summary End --></p>",
     "accessories": [],
     "categories": ["protections", "dress"],
     "sources": [
@@ -1467,7 +1467,7 @@
     "techLevel": 21,
     "qrebs": "N/A",
     "image": "",
-    "description": "Assault dress is a (relatively) lightweight system intended for short-term (hours) operations against an enemy force.",
+    "description": "<p><!-- Summary Start -->Assault dress is a (relatively) lightweight system intended for short-term (hours) operations against an enemy force.<!-- Summary End --></p>",
     "accessories": [],
     "categories": ["protections", "dress"],
     "sources": [
@@ -1494,7 +1494,7 @@
     "techLevel": 15,
     "qrebs": "N/A",
     "image": "",
-    "description": "Battle dress incorporates protections against most dangers, attacks, and threats on the battlefield.",
+    "description": "<p><!-- Summary Start -->Battle dress incorporates protections against most dangers, attacks, and threats on the battlefield.<!-- Summary End --></p>",
     "accessories": [],
     "categories": ["protections", "dress"],
     "sources": [

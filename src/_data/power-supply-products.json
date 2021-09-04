@@ -11,7 +11,7 @@
     "techLevel": 11,
     "qrebs": "N/A",
     "image": "",
-    "description": "Large array of Ambient Panels that produce enough energy during the day to power a Size 5 item.",
+    "description": "<p><!-- Summary Start -->Large array of Ambient Panels that produce enough energy during the day to power a Size 5 item.<!-- Summary End --></p>",
     "category": ["power-supplies"],
     "sources": [
       {
@@ -37,7 +37,7 @@
     "techLevel": 10,
     "qrebs": "N/A",
     "image": "",
-    "description": "A portable ambient Panel with short-range (R=0, contact) power transmission. Capable of powering and charging the equivalent of one Size 4 device, carried on one's person.",
+    "description": "<p><!-- Summary Start -->A portable ambient Panel with short-range (R=0, contact) power transmission.<!-- Summary End --> Capable of powering and charging the equivalent of one Size 4 device, carried on one's person.</p>",
     "category": ["power-supplies"],
     "sources": [
       {
@@ -63,7 +63,7 @@
     "techLevel": 10,
     "qrebs": "N/A",
     "image": "",
-    "description": "The panel absorbs solar energy and converts it to electricity. Capable of powering and charging the equivalent of one Size 4 device, carried on one's person.",
+    "description": "<p><!-- Summary Start -->The ambient panel absorbs solar energy and converts it to electricity.<!-- Summary End --> Capable of powering and charging the equivalent of one Size 4 device, carried on one's person.</p>",
     "category": ["power-supplies"],
     "sources": [
       {
@@ -89,7 +89,7 @@
     "techLevel": 10,
     "qrebs": "N/A",
     "image": "",
-    "description": "The panel absorbs thermal energy and converts it to electricity. Capable of powering and charging the equivalent of one Size 4 device, carried on one's person.",
+    "description": "<p><!-- Summary Start -->The ambient panel absorbs thermal energy and converts it to electricity.<!-- Summary End --> Capable of powering and charging the equivalent of one Size 4 device, carried on one's person.</p>",
     "category": ["power-supplies"],
     "sources": [
       {
@@ -115,7 +115,7 @@
     "techLevel": 10,
     "qrebs": "N/A",
     "image": "",
-    "description": "The panel absorbs stellar energy and converts it to electricity. Capable of powering and charging the equivalent of one Size 4 device, carried on one's person.",
+    "description": "<p><!-- Summary Start -->The ambient panel absorbs stellar energy and converts it to electricity.<!-- Summary End --> Capable of powering and charging the equivalent of one Size 4 device, carried on one's person.</p>",
     "category": ["power-supplies"],
     "sources": [
       {
@@ -141,7 +141,7 @@
     "techLevel": 14,
     "qrebs": "N/A",
     "image": "",
-    "description": "<!-- Summary Start -->The antimatter battery is a small box finished in grey metal, with two gold colored contacts on its upper surface. It operates by a controlled flow of antimatter against an ordinary matter core. Flow is metered in response to demand, and very high levels of current are available.<!-- Summary End --> Its two contacts will provide the output of an ACS Power Plant-1 for up to 10 years.\n\nAntimatter batteries are quite resistant to damage, but are not impervious. They have an Armor Value equal to their TL (for a standard antimatter battery, this is AV 25). Penetrating armor will fracture battery casing and release energy.\n\nAntimatter batteries are constructed to bleed energy slowly if broken or cracked. In such a case, the battery will flash brightly for up to one space combat turn (20 minutes) with very bright light and intense heat. Anyone at close range (5m) is subject to Burn-1 per combat round, and Burn-3 at Contact range.\n\nAntimatter batteries may be linked together to gener- ate correspondingly greater power: nine batteries chained together provides the output of an ACS Power Plant-9.",
+    "description": "<!-- Summary Start -->The antimatter battery is a small box finished in grey metal, with two gold colored contacts on its upper surface. It operates by a controlled flow of antimatter against an ordinary matter core. Flow is metered in response to demand, and very high levels of current are available.<!-- Summary End --> Its two contacts will provide the output of an ACS Power Plant-1 for up to 10 years.\n\nAntimatter batteries are quite resistant to damage, but are not impervious. They have an Armor Value equal to their TL (for a standard antimatter battery, this is AV 25). Penetrating armor will fracture battery casing and release energy.</p><p>Antimatter batteries are constructed to bleed energy slowly if broken or cracked. In such a case, the battery will flash brightly for up to one space combat turn (20 minutes) with very bright light and intense heat. Anyone at close range (5m) is subject to Burn-1 per combat round, and Burn-3 at Contact range.</p><p>Antimatter batteries may be linked together to gener- ate correspondingly greater power: nine batteries chained together provides the output of an ACS Power Plant-9.</p>",
     "category": ["power-supplies"],
     "sources": [
       {
@@ -167,7 +167,7 @@
     "techLevel": 14,
     "qrebs": "N/A",
     "image": "",
-    "description": "<!-- Summary Start -->17 liter sealed energy unit, with a 1-year internal fuel supply.<!-- Summary End --> Powers a Size 6 item for one year, or up to 3 Size 5 items for one year, or up to 10 Size 4 items for one year.",
+    "description": "<!-- Summary Start -->17 liter sealed energy unit, with a 1-year internal fuel supply.<!-- Summary End --> Powers a Size 6 item for one year, or up to 3 Size 5 items for one year, or up to 10 Size 4 items for one year.</p>",
     "category": ["power-supplies"],
     "sources": [
       {
@@ -193,7 +193,7 @@
     "techLevel": 7,
     "qrebs": "N/A",
     "image": "",
-    "description": "Low-tech power plant with a 1-day internal fuel supply. Powers one Size 5 item, or two Size 4 items, or four Size 3 items.  TL 7 and below have few or no digital elements, and produce tainted air as a by-product. ",
+    "description": "<p><!-- Summary Start -->Low-tech power plant with a 1-day internal fuel supply.<!-- Summary End --> Powers one Size 5 item, or two Size 4 items, or four Size 3 items.  TL 7 and below have few or no digital elements, and produce tainted air as a by-product.</p>",
     "category": ["power-supplies"],
     "sources": [
       {
@@ -219,7 +219,7 @@
     "techLevel": 8,
     "qrebs": "N/A",
     "image": "",
-    "description": "Low-tech power plant with a 1-day internal fuel supply. Powers one Size 5 item, or two Size 4 items, or four Size 3 items.",
+    "description": "<p><!-- Summary Start -->Low-tech power plant with a 1-day internal fuel supply.<!-- Summary End --> Powers one Size 5 item, or two Size 4 items, or four Size 3 items.</p>",
     "category": ["power-supplies"],
     "sources": [
       {
@@ -245,7 +245,7 @@
     "techLevel": 9,
     "qrebs": "N/A",
     "image": "",
-    "description": "Low-tech power plant with a 1-day internal fuel supply. Powers one Size 5 item, or two Size 4 items, or four Size 3 items. Digital control panel and uses superior engineered fuels that produce less air pollution.",
+    "description": "<p><!-- Summary Start -->Low-tech power plant with a 1-day internal fuel supply.<!-- Summary End --> Powers one Size 5 item, or two Size 4 items, or four Size 3 items. Digital control panel and uses superior engineered fuels that produce less air pollution.</p>",
     "category": ["power-supplies"],
     "sources": [
       {
@@ -271,7 +271,7 @@
     "techLevel": 10,
     "qrebs": "N/A",
     "image": "",
-    "description": "<!-- Summary Start -->The #0 Power Cell is a 5mm pellet that can power a Size 1 device.<!-- Summary End --> The PowerCell is a storage battery for operating devices independently. Typyically, a PowerCell is one size smaller than the device it powers, lasts for 24 hours (or about-a-day) of continual use, and has negligible discharge during non-use. Cells support micro-induction power transfer, and are capable of powering items without direct connections. The quality of the cell deteremines its operational life.",
+    "description": "<!-- Summary Start -->The #0 Power Cell is a 5mm pellet that can power a Size 1 device.<!-- Summary End --> The PowerCell is a storage battery for operating devices independently. Typyically, a PowerCell is one size smaller than the device it powers, lasts for 24 hours (or about-a-day) of continual use, and has negligible discharge during non-use. Cells support micro-induction power transfer, and are capable of powering items without direct connections. The quality of the cell deteremines its operational life.</p>",
     "category": ["power-supplies"],
     "sources": [
       {
@@ -297,7 +297,7 @@
     "techLevel": 10,
     "qrebs": "N/A",
     "image": "",
-    "description": "<!-- Summary Start -->The #1 Power Cell is a 1cm x 5mm x 5mm slab that can power a Size 2 device.<!-- Summary End --> The PowerCell is a storage battery for operating devices independently. Typyically, a PowerCell is one size smaller than the device it powers, lasts for 24 hours (or about-a-day) of continual use, and has negligible discharge during non-use. Cells support micro-induction power transfer, and are capable of powering items without direct connections. The quality of the cell deteremines its operational life.",
+    "description": "<!-- Summary Start -->The #1 Power Cell is a 1cm x 5mm x 5mm slab that can power a Size 2 device.<!-- Summary End --> The PowerCell is a storage battery for operating devices independently. Typyically, a PowerCell is one size smaller than the device it powers, lasts for 24 hours (or about-a-day) of continual use, and has negligible discharge during non-use. Cells support micro-induction power transfer, and are capable of powering items without direct connections. The quality of the cell deteremines its operational life.</p>",
     "category": ["power-supplies"],
     "sources": [
       {
@@ -323,7 +323,7 @@
     "techLevel": 10,
     "qrebs": "N/A",
     "image": "",
-    "description": "<!-- Summary Start -->The #2 Power Cell is a 9cm x 4mm x 4mm cylinder that can power a Size 3 device.<!-- Summary End --> The PowerCell is a storage battery for operating devices independently. Typyically, a PowerCell is one size smaller than the device it powers, lasts for 24 hours (or about-a-day) of continual use, and has negligible discharge during non-use. Cells support micro-induction power transfer, and are capable of powering items without direct connections. The quality of the cell deteremines its operational life.",
+    "description": "<!-- Summary Start -->The #2 Power Cell is a 9cm x 4mm x 4mm cylinder that can power a Size 3 device.<!-- Summary End --> The PowerCell is a storage battery for operating devices independently. Typyically, a PowerCell is one size smaller than the device it powers, lasts for 24 hours (or about-a-day) of continual use, and has negligible discharge during non-use. Cells support micro-induction power transfer, and are capable of powering items without direct connections. The quality of the cell deteremines its operational life.</p>",
     "category": ["power-supplies"],
     "sources": [
       {
@@ -349,7 +349,7 @@
     "techLevel": 10,
     "qrebs": "N/A",
     "image": "",
-    "description": "<!-- Summary Start -->The #3 Power Cell is a 25cm x 12cm x 12cm cylinder that can power a Size 4 device.<!-- Summary End --> The PowerCell is a storage battery for operating devices independently. Typyically, a PowerCell is one size smaller than the device it powers, lasts for 24 hours (or about-a-day) of continual use, and has negligible discharge during non-use. Cells support micro-induction power transfer, and are capable of powering items without direct connections. The quality of the cell deteremines its operational life.",
+    "description": "<!-- Summary Start -->The #3 Power Cell is a 25cm x 12cm x 12cm cylinder that can power a Size 4 device.<!-- Summary End --> The PowerCell is a storage battery for operating devices independently. Typyically, a PowerCell is one size smaller than the device it powers, lasts for 24 hours (or about-a-day) of continual use, and has negligible discharge during non-use. Cells support micro-induction power transfer, and are capable of powering items without direct connections. The quality of the cell deteremines its operational life.</p>",
     "category": ["power-supplies"],
     "sources": [
       {
@@ -375,7 +375,7 @@
     "techLevel": 10,
     "qrebs": "N/A",
     "image": "",
-    "description": "<!-- Summary Start -->The #4 Power Cell is a 80cm x 50cm x 25cm (100 liters) brick that can power a Size 5 device.<!-- Summary End --> The PowerCell is a storage battery for operating devices independently. Typyically, a PowerCell is one size smaller than the device it powers, lasts for 24 hours (or about-a-day) of continual use, and has negligible discharge during non-use. Cells support micro-induction power transfer, and are capable of powering items without direct connections. The quality of the cell deteremines its operational life.",
+    "description": "<!-- Summary Start -->The #4 Power Cell is a 80cm x 50cm x 25cm (100 liters) brick that can power a Size 5 device.<!-- Summary End --> The PowerCell is a storage battery for operating devices independently. Typyically, a PowerCell is one size smaller than the device it powers, lasts for 24 hours (or about-a-day) of continual use, and has negligible discharge during non-use. Cells support micro-induction power transfer, and are capable of powering items without direct connections. The quality of the cell deteremines its operational life.</p>",
     "category": ["power-supplies"],
     "sources": [
       {

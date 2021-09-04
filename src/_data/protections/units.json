@@ -9,7 +9,7 @@
     "techLevel": 7,
     "qrebs": "N/A",
     "image": "",
-    "description": "<!-- Summary Start -->HazMat units include a variety of protections against hazardous materials in the environment.<!-- Summary End -->",
+    "description": "<p><!-- Summary Start -->HazMat units include a variety of protections against hazardous materials in the environment.<!-- Summary End --></p>",
     "accessories": [],
     "categories": ["protections", "units"],
     "sources": [
@@ -34,7 +34,7 @@
     "techLevel": 8,
     "qrebs": "N/A",
     "image": "",
-    "description": "<!-- Summary Start -->Labor units provide protection against environmental hazards in environments requring manual labor.<!-- Summary End -->",
+    "description": "<p><!-- Summary Start -->Labor units provide protection against environmental hazards in environments requring manual labor.<!-- Summary End --></p>",
     "accessories": [],
     "categories": ["protections", "units"],
     "sources": [
@@ -59,7 +59,7 @@
     "techLevel": 8,
     "qrebs": "N/A",
     "image": "",
-    "description": "<!-- Summary Start -->Labor units provide protection against environmental hazards in environments requring manual labor.<!-- Summary End -->",
+    "description": "<p><!-- Summary Start -->Labor units provide protection against environmental hazards in environments requring manual labor.<!-- Summary End --></p>",
     "accessories": [],
     "categories": ["protections", "units"],
     "sources": [
@@ -84,7 +84,7 @@
     "techLevel": 9,
     "qrebs": "N/A",
     "image": "",
-    "description": "<!-- Summary Start -->HazMat units include a variety of protections against hazardous materials in the environment.<!-- Summary End -->",
+    "description": "<p><!-- Summary Start -->HazMat units include a variety of protections against hazardous materials in the environment.<!-- Summary End --></p>",
     "accessories": [],
     "categories": ["protections", "units"],
     "sources": [
@@ -109,7 +109,7 @@
     "techLevel": 9,
     "qrebs": "N/A",
     "image": "",
-    "description": "<!-- Summary Start -->HazMat units include a variety of protections against hazardous materials in the environment.<!-- Summary End -->",
+    "description": "<p><!-- Summary Start -->HazMat units include a variety of protections against hazardous materials in the environment.<!-- Summary End --></p>",
     "accessories": [],
     "categories": ["protections", "units"],
     "sources": [
@@ -134,7 +134,7 @@
     "techLevel": 9,
     "qrebs": "N/A",
     "image": "",
-    "description": "<!-- Summary Start -->Labor units provide protection against environmental hazards in environments requring manual labor.<!-- Summary End -->",
+    "description": "<p><!-- Summary Start -->Labor units provide protection against environmental hazards in environments requring manual labor.<!-- Summary End --></p>",
     "accessories": [],
     "categories": ["protections", "units"],
     "sources": [
@@ -159,7 +159,7 @@
     "techLevel": 9,
     "qrebs": "N/A",
     "image": "",
-    "description": "Police units incorporate protections against the hazards encountered in a law enforcement environment.",
+    "description": "<p><!-- Summary Start -->Police units incorporate protections against the hazards encountered in a law enforcement environment.<!-- Summary End --></p>",
     "accessories": [],
     "categories": ["protections", "units"],
     "sources": [
@@ -184,7 +184,7 @@
     "techLevel": 10,
     "qrebs": "N/A",
     "image": "",
-    "description": "Carrier units are designed as a weapon carrier, typically integral to, or mounted on, the system.",
+    "description": "<p><!-- Summary Start -->Carrier units are designed as a weapon carrier, typically integral to, or mounted on, the system.<!-- Summary End --></p>",
     "accessories": [],
     "categories": ["protections", "units"],
     "sources": [
@@ -209,7 +209,7 @@
     "techLevel": 10,
     "qrebs": "N/A",
     "image": "",
-    "description": "Exploration units are designed designed for long-term (multiple days) use while providing protection against typical and ordinary world surface environmental threats: temperature, vacuum, light.",
+    "description": "<p><!-- Summary Start -->Exploration units are designed designed for long-term (multiple days) use while providing protection against typical and ordinary world surface environmental threats: temperature, vacuum, light.<!-- Summary End --></p>",
     "accessories": [],
     "categories": ["protections", "units"],
     "sources": [
@@ -234,7 +234,7 @@
     "techLevel": 10,
     "qrebs": "N/A",
     "image": "",
-    "description": "<!-- Summary Start -->Hostile environment units include a variety of protections against extreme envronmental conditions..<!-- Summary End -->",
+    "description": "<p><!-- Summary Start -->Hostile environment units include a variety of protections against extreme envronmental conditions..<!-- Summary End --></p>",
     "accessories": [],
     "categories": ["protections", "units"],
     "sources": [
@@ -259,7 +259,7 @@
     "techLevel": 10,
     "qrebs": "N/A",
     "image": "",
-    "description": "The hot environment unit protects against extreme high temperature conditions.",
+    "description": "<p><!-- Summary Start -->The hot environment unit protects against extreme high temperature conditions.<!-- Summary End --></p>",
     "accessories": [],
     "categories": ["protections", "units"],
     "sources": [
@@ -284,7 +284,7 @@
     "techLevel": 10,
     "qrebs": "N/A",
     "image": "",
-    "description": "Police units incorporate protections against the hazards encountered in a law enforcement environment.",
+    "description": "<p><!-- Summary Start -->Police units incorporate protections against the hazards encountered in a law enforcement environment.<!-- Summary End --></p>",
     "accessories": [],
     "categories": ["protections", "units"],
     "sources": [
@@ -309,7 +309,7 @@
     "techLevel": 11,
     "qrebs": "N/A",
     "image": "",
-    "description": "The hot environment unit protects against extreme high temperature conditions.",
+    "description": "<p><!-- Summary Start -->The hot environment unit protects against extreme high temperature conditions.<!-- Summary End --></p>",
     "accessories": [],
     "categories": ["protections", "units"],
     "sources": [
@@ -334,7 +334,7 @@
     "techLevel": 11,
     "qrebs": "N/A",
     "image": "",
-    "description": "The cold environment unit protects against extreme low environmental temperature.",
+    "description": "<p><!-- Summary Start -->The cold environment unit protects against extreme low environmental temperature.<!-- Summary End --></p>",
     "accessories": [],
     "categories": ["protections", "units"],
     "sources": [
@@ -359,7 +359,7 @@
     "techLevel": 11,
     "qrebs": "N/A",
     "image": "",
-    "description": "Drop units are structured to protect against the extreme temperatures of orbital reentry.",
+    "description": "<p><!-- Summary Start -->Drop units are structured to protect against the extreme temperatures of orbital reentry.<!-- Summary End --></p>",
     "accessories": [],
     "categories": ["protections", "units"],
     "sources": [
@@ -384,7 +384,7 @@
     "techLevel": 11,
     "qrebs": "N/A",
     "image": "",
-    "description": "Exploration units are designed designed for long-term (multiple days) use while providing protection against typical and ordinary world surface environmental threats: temperature, vacuum, light.",
+    "description": "<p><!-- Summary Start -->Exploration units are designed designed for long-term (multiple days) use while providing protection against typical and ordinary world surface environmental threats: temperature, vacuum, light.<!-- Summary End --></p>",
     "accessories": [],
     "categories": ["protections", "units"],
     "sources": [
@@ -409,7 +409,7 @@
     "techLevel": 11,
     "qrebs": "N/A",
     "image": "",
-    "description": "Environ units provide protections against typical and ordinary world surface environmental threats: temperature, vacuum, light.",
+    "description": "<p><!-- Summary Start -->Environ units provide protections against typical and ordinary world surface environmental threats: temperature, vacuum, light.<!-- Summary End --></p>",
     "accessories": [],
     "categories": ["protections", "units"],
     "sources": [
@@ -434,7 +434,7 @@
     "techLevel": 11,
     "qrebs": "N/A",
     "image": "",
-    "description": "<!-- Summary Start -->Hostile environment units include a variety of protections against extreme envronmental conditions..<!-- Summary End -->",
+    "description": "<p><!-- Summary Start -->Hostile environment units include a variety of protections against extreme envronmental conditions..<!-- Summary End --></p>",
     "accessories": [],
     "categories": ["protections", "units"],
     "sources": [
@@ -459,7 +459,7 @@
     "techLevel": 11,
     "qrebs": "N/A",
     "image": "",
-    "description": "Environ units provide protections against typical and ordinary world surface environmental threats: temperature, vacuum, light.",
+    "description": "<p><!-- Summary Start -->Environ units provide protections against typical and ordinary world surface environmental threats: temperature, vacuum, light.<!-- Summary End --></p>",
     "accessories": [],
     "categories": ["protections", "units"],
     "sources": [
@@ -484,7 +484,7 @@
     "techLevel": 11,
     "qrebs": "N/A",
     "image": "",
-    "description": "The cold environment unit protects against extreme low environmental temperature.",
+    "description": "<p><!-- Summary Start -->The cold environment unit protects against extreme low environmental temperature.<!-- Summary End --></p>",
     "accessories": [],
     "categories": ["protections", "units"],
     "sources": [
@@ -509,7 +509,7 @@
     "techLevel": 11,
     "qrebs": "N/A",
     "image": "",
-    "description": "Drop units are structured to protect against the extreme temperatures of orbital reentry.",
+    "description": "<p><!-- Summary Start -->Drop units are structured to protect against the extreme temperatures of orbital reentry.<!-- Summary End --></p>",
     "accessories": [],
     "categories": ["protections", "units"],
     "sources": [
@@ -534,7 +534,7 @@
     "techLevel": 11,
     "qrebs": "N/A",
     "image": "",
-    "description": "Sapper units are combat units that add combat engineer functions to combat environ capabilities.",
+    "description": "<p><!-- Summary Start -->Sapper units are combat units that add combat engineer functions to combat environ capabilities.<!-- Summary End --></p>",
     "accessories": [],
     "categories": ["protections", "units"],
     "sources": [
@@ -559,7 +559,7 @@
     "techLevel": 11,
     "qrebs": "N/A",
     "image": "",
-    "description": "The prospsector unit is a modified hostile environment unit that adds survey and search tools to a hostile environ capability.",
+    "description": "<p><!-- Summary Start -->The prospsector unit is a modified hostile environment unit that adds survey and search tools to a hostile environ capability.<!-- Summary End --></p>",
     "accessories": [],
     "categories": ["protections", "units"],
     "sources": [
@@ -584,7 +584,7 @@
     "techLevel": 11,
     "qrebs": "N/A",
     "image": "",
-    "description": "Sapper units are combat units that add combat engineer functions to combat environ capabilities.",
+    "description": "<p><!-- Summary Start -->Sapper units are combat units that add combat engineer functions to combat environ capabilities.<!-- Summary End --></p>",
     "accessories": [],
     "categories": ["protections", "units"],
     "sources": [
@@ -609,7 +609,7 @@
     "techLevel": 11,
     "qrebs": "N/A",
     "image": "",
-    "description": "The hot environment unit protects against extreme high temperature conditions.",
+    "description": "<p><!-- Summary Start -->The hot environment unit protects against extreme high temperature conditions.<!-- Summary End --></p>",
     "accessories": [],
     "categories": ["protections", "units"],
     "sources": [
@@ -634,7 +634,7 @@
     "techLevel": 11,
     "qrebs": "N/A",
     "image": "",
-    "description": "Carrier units are designed as a weapon carrier, typically integral to, or mounted on, the system.",
+    "description": "<p><!-- Summary Start -->Carrier units are designed as a weapon carrier, typically integral to, or mounted on, the system.<!-- Summary End --></p>",
     "accessories": [],
     "categories": ["protections", "units"],
     "sources": [
@@ -659,7 +659,7 @@
     "techLevel": 11,
     "qrebs": "N/A",
     "image": "",
-    "description": "The hot environment unit protects against extreme high temperature conditions.",
+    "description": "<p><!-- Summary Start -->The hot environment unit protects against extreme high temperature conditions.<!-- Summary End --></p>",
     "accessories": [],
     "categories": ["protections", "units"],
     "sources": [
@@ -684,7 +684,7 @@
     "techLevel": 12,
     "qrebs": "N/A",
     "image": "",
-    "description": "Battle units incorporate protections against most dangers, attacks, and threats on the battlefield.",
+    "description": "<p><!-- Summary Start -->Battle units incorporate protections against most dangers, attacks, and threats on the battlefield.<!-- Summary End --></p>",
     "accessories": [],
     "categories": ["protections", "units"],
     "sources": [
@@ -709,7 +709,7 @@
     "techLevel": 12,
     "qrebs": "N/A",
     "image": "",
-    "description": "Boarding units are tailored for zero-G operations against interplanetary and interstellar vessels.",
+    "description": "<p><!-- Summary Start -->Boarding units are tailored for zero-G operations against interplanetary and interstellar vessels.<!-- Summary End --></p>",
     "accessories": [],
     "categories": ["protections", "units"],
     "sources": [
@@ -734,7 +734,7 @@
     "techLevel": 12,
     "qrebs": "N/A",
     "image": "",
-    "description": "Combat units are intended for medium-term opreations (days) against an enemy force.",
+    "description": "<p><!-- Summary Start -->Combat units are intended for medium-term opreations (days) against an enemy force.<!-- Summary End --></p>",
     "accessories": [],
     "categories": ["protections", "units"],
     "sources": [
@@ -759,7 +759,7 @@
     "techLevel": 12,
     "qrebs": "N/A",
     "image": "",
-    "description": "The cold environment unit protects against extreme low environmental temperature.",
+    "description": "<p><!-- Summary Start -->The cold environment unit protects against extreme low environmental temperature.<!-- Summary End --></p>",
     "accessories": [],
     "categories": ["protections", "units"],
     "sources": [
@@ -784,7 +784,7 @@
     "techLevel": 12,
     "qrebs": "N/A",
     "image": "",
-    "description": "Drop units are structured to protect against the extreme temperatures of orbital reentry.",
+    "description": "<p><!-- Summary Start -->Drop units are structured to protect against the extreme temperatures of orbital reentry.<!-- Summary End --></p>",
     "accessories": [],
     "categories": ["protections", "units"],
     "sources": [
@@ -809,7 +809,7 @@
     "techLevel": 12,
     "qrebs": "N/A",
     "image": "",
-    "description": "Environ units provide protections against typical and ordinary world surface environmental threats: temperature, vacuum, light.",
+    "description": "<p><!-- Summary Start -->Environ units provide protections against typical and ordinary world surface environmental threats: temperature, vacuum, light.<!-- Summary End --></p>",
     "accessories": [],
     "categories": ["protections", "units"],
     "sources": [
@@ -834,7 +834,7 @@
     "techLevel": 12,
     "qrebs": "N/A",
     "image": "",
-    "description": "The prospsector unit is a modified hostile environment unit that adds survey and search tools to a hostile environ capability.",
+    "description": "<p><!-- Summary Start -->The prospsector unit is a modified hostile environment unit that adds survey and search tools to a hostile environ capability.<!-- Summary End --></p>",
     "accessories": [],
     "categories": ["protections", "units"],
     "sources": [
@@ -859,7 +859,7 @@
     "techLevel": 12,
     "qrebs": "N/A",
     "image": "",
-    "description": "Battle units incorporate protections against most dangers, attacks, and threats on the battlefield.",
+    "description": "<p><!-- Summary Start -->Battle units incorporate protections against most dangers, attacks, and threats on the battlefield.<!-- Summary End --></p>",
     "accessories": [],
     "categories": ["protections", "units"],
     "sources": [
@@ -884,7 +884,7 @@
     "techLevel": 13,
     "qrebs": "N/A",
     "image": "",
-    "description": "Environ units provide protections against typical and ordinary world surface environmental threats: temperature, vacuum, light.",
+    "description": "<p><!-- Summary Start -->Environ units provide protections against typical and ordinary world surface environmental threats: temperature, vacuum, light.<!-- Summary End --></p>",
     "accessories": [],
     "categories": ["protections", "units"],
     "sources": [
@@ -909,7 +909,7 @@
     "techLevel": 13,
     "qrebs": "N/A",
     "image": "",
-    "description": "Assault units are relatively) lightweight systems is intended for short-term (hours) operations against an enemy force.",
+    "description": "<p><!-- Summary Start -->Assault units are relatively) lightweight systems is intended for short-term (hours) operations against an enemy force.<!-- Summary End --></p>",
     "accessories": [],
     "categories": ["protections", "units"],
     "sources": [
@@ -934,7 +934,7 @@
     "techLevel": 13,
     "qrebs": "N/A",
     "image": "",
-    "description": "Sapper units are combat units that add combat engineer functions to combat environ capabilities.",
+    "description": "<p><!-- Summary Start -->Sapper units are combat units that add combat engineer functions to combat environ capabilities.<!-- Summary End --></p>",
     "accessories": [],
     "categories": ["protections", "units"],
     "sources": [
@@ -959,7 +959,7 @@
     "techLevel": 13,
     "qrebs": "N/A",
     "image": "",
-    "description": "Battle units incorporate protections against most dangers, attacks, and threats on the battlefield.",
+    "description": "<p><!-- Summary Start -->Battle units incorporate protections against most dangers, attacks, and threats on the battlefield.<!-- Summary End --></p>",
     "accessories": [],
     "categories": ["protections", "units"],
     "sources": [
@@ -984,7 +984,7 @@
     "techLevel": 13,
     "qrebs": "N/A",
     "image": "",
-    "description": "Battle units incorporate protections against most dangers, attacks, and threats on the battlefield.",
+    "description": "<p><!-- Summary Start -->Battle units incorporate protections against most dangers, attacks, and threats on the battlefield.<!-- Summary End --></p>",
     "accessories": [],
     "categories": ["protections", "units"],
     "sources": [
@@ -1009,7 +1009,7 @@
     "techLevel": 13,
     "qrebs": "N/A",
     "image": "",
-    "description": "The cold environment unit protects against extreme low environmental temperature.",
+    "description": "<p><!-- Summary Start -->The cold environment unit protects against extreme low environmental temperature.<!-- Summary End --></p>",
     "accessories": [],
     "categories": ["protections", "units"],
     "sources": [
@@ -1034,7 +1034,7 @@
     "techLevel": 540,
     "qrebs": "N/A",
     "image": "",
-    "description": "Drop units are structured to protect against the extreme temperatures of orbital reentry.",
+    "description": "<p><!-- Summary Start -->Drop units are structured to protect against the extreme temperatures of orbital reentry.<!-- Summary End --></p>",
     "accessories": [],
     "categories": ["protections", "units"],
     "sources": [
@@ -1059,7 +1059,7 @@
     "techLevel": 13,
     "qrebs": "N/A",
     "image": "",
-    "description": "The cold environment unit protects against extreme low environmental temperature.",
+    "description": "<p><!-- Summary Start -->The cold environment unit protects against extreme low environmental temperature.<!-- Summary End --></p>",
     "accessories": [],
     "categories": ["protections", "units"],
     "sources": [
@@ -1084,7 +1084,7 @@
     "techLevel": 13,
     "qrebs": "N/A",
     "image": "",
-    "description": "Carrier units are designed as a weapon carrier, typically integral to, or mounted on, the system.",
+    "description": "<p><!-- Summary Start -->Carrier units are designed as a weapon carrier, typically integral to, or mounted on, the system.<!-- Summary End --></p>",
     "accessories": [],
     "categories": ["protections", "units"],
     "sources": [
@@ -1109,7 +1109,7 @@
     "techLevel": 13,
     "qrebs": "N/A",
     "image": "",
-    "description": "<!-- Summary Start -->Hostile environment units include a variety of protections against extreme envronmental conditions..<!-- Summary End -->",
+    "description": "<p><!-- Summary Start -->Hostile environment units include a variety of protections against extreme envronmental conditions..<!-- Summary End --></p>",
     "accessories": [],
     "categories": ["protections", "units"],
     "sources": [
@@ -1134,7 +1134,7 @@
     "techLevel": 13,
     "qrebs": "N/A",
     "image": "",
-    "description": "Boarding units are tailored for zero-G operations against interplanetary and interstellar vessels.",
+    "description": "<p><!-- Summary Start -->Boarding units are tailored for zero-G operations against interplanetary and interstellar vessels.<!-- Summary End --></p>",
     "accessories": [],
     "categories": ["protections", "units"],
     "sources": [
@@ -1159,7 +1159,7 @@
     "techLevel": 14,
     "qrebs": "N/A",
     "image": "",
-    "description": "Boarding units are tailored for zero-G operations against interplanetary and interstellar vessels.",
+    "description": "<p><!-- Summary Start -->Boarding units are tailored for zero-G operations against interplanetary and interstellar vessels.<!-- Summary End --></p>",
     "accessories": [],
     "categories": ["protections", "units"],
     "sources": [
@@ -1184,7 +1184,7 @@
     "techLevel": 14,
     "qrebs": "N/A",
     "image": "",
-    "description": "Battle units incorporate protections against most dangers, attacks, and threats on the battlefield.",
+    "description": "<p><!-- Summary Start -->Battle units incorporate protections against most dangers, attacks, and threats on the battlefield.<!-- Summary End --></p>",
     "accessories": [],
     "categories": ["protections", "units"],
     "sources": [
@@ -1209,7 +1209,7 @@
     "techLevel": 14,
     "qrebs": "N/A",
     "image": "",
-    "description": "Environ units provide protections against typical and ordinary world surface environmental threats: temperature, vacuum, light.",
+    "description": "<p><!-- Summary Start -->Environ units provide protections against typical and ordinary world surface environmental threats: temperature, vacuum, light.<!-- Summary End --></p>",
     "accessories": [],
     "categories": ["protections", "units"],
     "sources": [
@@ -1234,7 +1234,7 @@
     "techLevel": 14,
     "qrebs": "N/A",
     "image": "",
-    "description": "Sapper units are combat units that add combat engineer functions to combat environ capabilities.",
+    "description": "<p><!-- Summary Start -->Sapper units are combat units that add combat engineer functions to combat environ capabilities.<!-- Summary End --></p>",
     "accessories": [],
     "categories": ["protections", "units"],
     "sources": [
@@ -1259,7 +1259,7 @@
     "techLevel": 15,
     "qrebs": "N/A",
     "image": "",
-    "description": "Battle units incorporate protections against most dangers, attacks, and threats on the battlefield.",
+    "description": "<p><!-- Summary Start -->Battle units incorporate protections against most dangers, attacks, and threats on the battlefield.<!-- Summary End --></p>",
     "accessories": [],
     "categories": ["protections", "units"],
     "sources": [
@@ -1284,7 +1284,7 @@
     "techLevel": 15,
     "qrebs": "N/A",
     "image": "",
-    "description": "The cold environment unit protects against extreme low environmental temperature.",
+    "description": "<p><!-- Summary Start -->The cold environment unit protects against extreme low environmental temperature.<!-- Summary End --></p>",
     "accessories": [],
     "categories": ["protections", "units"],
     "sources": [
@@ -1309,7 +1309,7 @@
     "techLevel": 16,
     "qrebs": "N/A",
     "image": "",
-    "description": "Assault units are relatively) lightweight systems is intended for short-term (hours) operations against an enemy force.",
+    "description": "<p><!-- Summary Start -->Assault units are relatively) lightweight systems is intended for short-term (hours) operations against an enemy force.<!-- Summary End --></p>",
     "accessories": [],
     "categories": ["protections", "units"],
     "sources": [
@@ -1334,7 +1334,7 @@
     "techLevel": 16,
     "qrebs": "N/A",
     "image": "",
-    "description": "Battle units incorporate protections against most dangers, attacks, and threats on the battlefield.",
+    "description": "<p><!-- Summary Start -->Battle units incorporate protections against most dangers, attacks, and threats on the battlefield.<!-- Summary End --></p>",
     "accessories": [],
     "categories": ["protections", "units"],
     "sources": [
@@ -1359,7 +1359,7 @@
     "techLevel": 16,
     "qrebs": "N/A",
     "image": "",
-    "description": "Boarding units are tailored for zero-G operations against interplanetary and interstellar vessels.",
+    "description": "<p><!-- Summary Start -->Boarding units are tailored for zero-G operations against interplanetary and interstellar vessels.<!-- Summary End --></p>",
     "accessories": [],
     "categories": ["protections", "units"],
     "sources": [
@@ -1384,7 +1384,7 @@
     "techLevel": 17,
     "qrebs": "N/A",
     "image": "",
-    "description": "Assault units are (relatively) lightweight systems is intended for short-term (hours) operations against an enemy force.",
+    "description": "<p><!-- Summary Start -->Assault units are (relatively) lightweight systems is intended for short-term (hours) operations against an enemy force.<!-- Summary End --></p>",
     "accessories": [],
     "categories": ["protections", "units"],
     "sources": [
