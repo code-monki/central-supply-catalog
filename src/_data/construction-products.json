@@ -11,7 +11,7 @@
     "techLevel": 8,
     "qrebs": "N/A",
     "image": "",
-    "description": "<!-- Summary Start -->Ruggedly-built laser metal cutter designed to work on TL 8 materials or lower.<!-- Summary End --> Good for cutting holes in hulls and performing major repairs. The typical cutting torch power supply provides one day of operation.",
+    "description": "<p><!-- Summary Start -->Ruggedly-built laser metal cutter designed to work on TL 8 materials or lower.<!-- Summary End --> Good for cutting holes in hulls and performing major repairs. The typical cutting torch power supply provides one day of operation.</p>",
     "categories": ["products", "construction"],
     "sources": [{
       "publication": "Traveller 5.10 Core Rules Book 3 : Worlds and Adventures",
@@ -35,7 +35,7 @@
     "techLevel": 25,
     "qrebs": "N/A",
     "image": "",
-    "description": "<!-- Summary Start -->Descended from the Molecular Dissembler, the ECM is a specialized molecular fabrication unit which requires administrative access to the ship's computer.<!-- Summary End --> It performs three functions:\n\n<br><strong>Installation</strong>. When installed, it studies the ship's systems from the ship's computer, using molecular analysis to record a genetic redundancy circuit for the ship's configuration.\n\n<strong>Scan</strong>. Periodically scans the ship's systems for changes in state. New components are added to the overall configuration.\n\n<strong>Restore</strong>. When a system is damaged, it uses the delta generated from the genetic circuit to gradually restore it to its original state, or as close as possible, via molecular fabrication.\n\nRestoration time is measured by Quality, which maps to the number of damage levels the module can repair in a 1-ton (or less) item in one day.\n\nThe ECM displaces one ton and requires access to raw materials for its operation.",
+    "description": "<p><!-- Summary Start -->Descended from the Molecular Dissembler, the Eternity Circuit Module (ECM) is a specialized molecular fabrication unit which requires administrative access to the ship's computer.<!-- Summary End --></p><p>It performs three functions:</p></p><ul><li><strong>Installation</strong>. When installed, it studies the ship's systems from the ship's computer, using molecular analysis to record a genetic redundancy circuit for the ship's configuration.</li><li><strong>Scan</strong>. Periodically scans the ship's systems for changes in state. New components are added to the overall configuration.</li><li><strong>Restore</strong>. When a system is damaged, it uses the delta generated from the genetic circuit to gradually restore it to its original state, or as close as possible, via molecular fabrication.</li></ul></p><p>Restoration time is measured by Quality, which maps to the number of damage levels the module can repair in a 1-ton (or less) item in one day. The ECM displaces one ton and requires access to raw materials for its operation.</p>",
     "categories": ["products", "construction", "artifact"],
     "sources": [{
       "publication": "Traveller 5.10 Core Rules Book 3 : Worlds and Adventures",
@@ -59,7 +59,7 @@
     "techLevel": 7,
     "qrebs": "N/A",
     "image": "",
-    "description": "<!-- Summary Start -->Hatches protect the interior against positive pressure.<!-- Summary End --> Its design allows it to open only when the interior pressure is equal to or greater than the exterior pressure.",
+    "description": "<p><!-- Summary Start -->Hatches protect the interior against positive pressure.<!-- Summary End --> Its design allows it to open only when the interior pressure is equal to or greater than the exterior pressure.</p>",
     "categories": ["products", "construction"],
     "sources": [{
       "publication": "Traveller 5.10 Core Rules Book 3 : Worlds and Adventures",
@@ -83,7 +83,7 @@
     "techLevel": 8,
     "qrebs": "N/A",
     "image": "",
-    "description": "<!-- Summary Start -->A hoist is used to haul heavy weights up sheer surfaces.<!-- Summary End --> Typical hoist capacity is 1000Kg. Note that hoists below TL 4 rely on beastpower (brute force) to operate.",
+    "description": "<p><!-- Summary Start -->A hoist is used to haul heavy weights up sheer surfaces.<!-- Summary End --> Typical hoist capacity is 1000Kg. Note that hoists below TL 4 rely on beastpower (brute force) to operate.</p>",
     "categories": ["products", "construction"],
     "sources": [{
       "publication": "Traveller 5.10 Core Rules Book 3 : Worlds and Adventures",
@@ -107,7 +107,7 @@
     "techLevel": 8,
     "qrebs": "N/A",
     "image": "",
-    "description": "<!-- Summary Start -->Iris valves control the discharge of atmosphere from a pressurized cabin.<!-- Summary End --> Its design allows it to close (and open) regardless of positive or negative pressure difference between both sides.",
+    "description": "<p><!-- Summary Start -->Iris valves control the discharge of atmosphere from a pressurized cabin.<!-- Summary End --> Its design allows it to close (and open) regardless of positive or negative pressure difference between both sides.</p>",
     "categories": ["products", "construction"],
     "sources": [{
       "publication": "Traveller 5.10 Core Rules Book 3 : Worlds and Adventures",
@@ -131,7 +131,7 @@
     "techLevel": 6,
     "qrebs": "N/A",
     "image": "",
-    "description": "<!-- Summary Start -->A plastic or polymer temporary air lock transported to location and assembled.<!-- Summary End -->",
+    "description": "<p><!-- Summary Start -->A plastic or polymer temporary air lock transported to location and assembled.<!-- Summary End --></p>",
     "categories": ["products", "construction"],
     "sources": [{
       "publication": "Traveller 5.10 Core Rules Book 3 : Worlds and Adventures",
@@ -155,7 +155,7 @@
     "techLevel": 21,
     "qrebs": "N/A",
     "image": "",
-    "description": "<!-- Summary Start -->The Matter Transporter is an artifact that transports matter from one point to another.<!-- Summary End --> This artifact looks like a large, deep blue seashell of some sort and has an opening in one side. Extending vertically below the opening is a black, rubbery strip. You can push into the rubbery surface of the band with your finger. Seen from above, the object has a teardrop-like shape.\n\nAny object placed into the opening will be transported within a few seconds out to the range and direction set by the operator.\n\nThe black rubber strip is used to set the transportation range the first push sets the range, and the second push sets the distance above or below the level of the device. The point of the teardrop is pointed in the transportation direction desired. After about 15 minutes, if the device has not been used, the settings revert to their default minimums (10 me- ters range and zero distance above or below the device - that is, on its same level).\n\nObjects must be able to be completely placed inside the compartment for a transport to take place. If any part of an object extends outside of the compartment, it will not be transported.\n\nThis device is a transporter; rather than a teleporter. The object is converted to energy and transmitted to the desired location, where it is converted back to raw matter: a raw dust of element granules.\n\nSome have reported success in making the device operate as a teleporter.",
+    "description": "<p><!-- Summary Start -->The Matter Transporter is an artifact that transports matter from one point to another.<!-- Summary End --> This artifact looks like a large, deep blue seashell of some sort and has an opening in one side. Extending vertically below the opening is a black, rubbery strip. You can push into the rubbery surface of the band with your finger. Seen from above, the object has a teardrop-like shape.</p><p>Any object placed into the opening will be transported within a few seconds out to the range and direction set by the operator.</p><p>The black rubber strip is used to set the transportation range the first push sets the range, and the second push sets the distance above or below the level of the device. The point of the teardrop is pointed in the transportation direction desired. After about 15 minutes, if the device has not been used, the settings revert to their default minimums (10 me- ters range and zero distance above or below the device - that is, on its same level).</p><p>Objects must be able to be completely placed inside the compartment for a transport to take place. If any part of an object extends outside of the compartment, it will not be transported.</p><p>This device is a transporter; rather than a teleporter. The object is converted to energy and transmitted to the desired location, where it is converted back to raw matter: a raw dust of element granules.</p><p>Some have reported success in making the device operate as a teleporter.</p>",
     "categories": ["products", "construction", "artifact"],
     "sources": [{
       "publication": "Traveller 5.10 Core Rules Book 3 : Worlds and Adventures",
@@ -179,7 +179,7 @@
     "techLevel": 23,
     "qrebs": "N/A",
     "image": "",
-    "description": "<!-- Summary Start -->The Molecular Disassembler is a piece of construction equipment which also serves as a combat piece.<!-- Summary End --> This item creates a field of grey goo within the targeted range of the selected volume.\n\nThe basic Molecular Disassembler is a self-contained unit capable of dissembling, assembling or a combination of both up to a Size 6+ object depending on various factors.\n\nIt is composed of a 0.25 ton infrastructure which contains the Control Console with a user friendly interface to program the system. The user, with the assistance of an on-board Ultimate Model/4phoNN-21 Computer driven by an Improved AI-21 OS and extensive package of standard De/Construction Apps, sets parameters or selects a pre-set template with the desired result. (Note: Weaponized versions carry a variety of Apps with exotic methods for offensive use.) Power for the system is provided by an Early AM Battery-23 (a 10 cm cube providing the equivalent of ACS EP 100) allowing for almost unlimited storage of the system.\n\nThe second part of the system is 0.70 ton of programmable De/Constructor Units held in suspension by the 0.05 ton containment vessel. Once the Molecular Disassembler is powered up and programmed the EAMB-23 charges the D/C Units with enough power to begin executing the task they were given (such as convert this broken down Air/Raft into a small shelter). After initialization the EAMB-23 is expended and is used along with the rest of the infrastructure as starting materials by the D/C Units.\n\nIf power for the containment vessel falls below acceptable levels the Computer will engage the failsafe rendering the system completely inert. Once the failsafe protocol has completed the system is basically usable only as raw materials for another Molecular Dissembler.",
+    "description": "<p><!-- Summary Start -->The Molecular Disassembler is a piece of construction equipment which also serves as a combat piece.<!-- Summary End --> This item creates a field of grey goo within the targeted range of the selected volume.</p><p>The basic Molecular Disassembler is a self-contained unit capable of dissembling, assembling or a combination of both up to a Size 6+ object depending on various factors.</p><p>It is composed of a 0.25 ton infrastructure which contains the Control Console with a user friendly interface to program the system. The user, with the assistance of an on-board Ultimate Model/4phoNN-21 Computer driven by an Improved AI-21 OS and extensive package of standard De/Construction Apps, sets parameters or selects a pre-set template with the desired result. (Note: Weaponized versions carry a variety of Apps with exotic methods for offensive use.) Power for the system is provided by an Early AM Battery-23 (a 10 cm cube providing the equivalent of ACS EP 100) allowing for almost unlimited storage of the system.</p><p>The second part of the system is 0.70 ton of programmable De/Constructor Units held in suspension by the 0.05 ton containment vessel. Once the Molecular Disassembler is powered up and programmed the EAMB-23 charges the D/C Units with enough power to begin executing the task they were given (such as convert this broken down Air/Raft into a small shelter). After initialization the EAMB-23 is expended and is used along with the rest of the infrastructure as starting materials by the D/C Units.</p><p>If power for the containment vessel falls below acceptable levels the Computer will engage the failsafe rendering the system completely inert. Once the failsafe protocol has completed the system is basically usable only as raw materials for another Molecular Dissembler.",
     "categories": ["products", "construction", "artifact"],
     "sources": [{
       "publication": "Traveller 5.10 Core Rules Book 3 : Worlds and Adventures",
@@ -253,7 +253,7 @@
     "techLevel": 24,
     "qrebs": "N/A",
     "image": "",
-    "description": "<!-- Summary Start -->A 10m, 5 ton displacement device linked to a portal generator.<!-- Summary End -->\n\nA portal appears to be a shimmering disk ranging from 2 to 200 meters in diameter that is linked to a portal generator in a pocket universe. A portal is capable of transporting a person to a mated portal up to 36 light-minutes away.Thoughtfully-designed portals are easy to configure, while more functional versions will have a low Ease of Use index, with confusing or badly-placed controls.",
+    "description": "<p><!-- Summary Start -->A 10m, 5 ton displacement device linked to a portal generator.<!-- Summary End --> A portal appears to be a shimmering disk ranging from 2 to 200 meters in diameter that is linked to a portal generator in a pocket universe. A portal is capable of transporting a person to a mated portal up to 36 light-minutes away.Thoughtfully-designed portals are easy to configure, while more functional versions will have a low Ease of Use index, with confusing or badly-placed controls.</p>",
     "categories": ["products", "construction", "artifact"],
     "sources": [{
       "publication": "Traveller 5.10 Core Rules Book 3 : Worlds and Adventures",
@@ -277,7 +277,7 @@
     "techLevel": 24,
     "qrebs": "N/A",
     "image": "",
-    "description": "<!-- Summary Start -->A 12m, 1 ton displacement device linked to a portal generator.<!-- Summary End -->\n\nA portal appears to be a shimmering disk ranging from 2 to 200 meters in diameter that is linked to a portal generator in a pocket universe. A portal is capable of transporting a person to a mated portal up to 36 light-minutes away.Thoughtfully-designed portals are easy to configure, while more functional versions will have a low Ease of Use index, with confusing or badly-placed controls.",
+    "description": "<p><!-- Summary Start -->A 12m, 1 ton displacement device linked to a portal generator.<!-- Summary End --> A portal appears to be a shimmering disk ranging from 2 to 200 meters in diameter that is linked to a portal generator in a pocket universe. A portal is capable of transporting a person to a mated portal up to 36 light-minutes away.Thoughtfully-designed portals are easy to configure, while more functional versions will have a low Ease of Use index, with confusing or badly-placed controls.</p>",
     "categories": ["products", "construction", "artifact"],
     "sources": [{
       "publication": "Traveller 5.10 Core Rules Book 3 : Worlds and Adventures",
@@ -301,7 +301,7 @@
     "techLevel": 24,
     "qrebs": "N/A",
     "image": "",
-    "description": "<!-- Summary Start -->A 200m, 100 ton displacement device linked to a portal generator.<!-- Summary End -->\n\nA portal appears to be a shimmering disk ranging from 2 to 200 meters in diameter that is linked to a portal generator in a pocket universe. A portal is capable of transporting a person to a mated portal up to 36 light-minutes away.Thoughtfully-designed portals are easy to configure, while more functional versions will have a low Ease of Use index, with confusing or badly-placed controls.",
+    "description": "<p><!-- Summary Start -->A 200m, 100 ton displacement device linked to a portal generator.<!-- Summary End --> A portal appears to be a shimmering disk ranging from 2 to 200 meters in diameter that is linked to a portal generator in a pocket universe. A portal is capable of transporting a person to a mated portal up to 36 light-minutes away.Thoughtfully-designed portals are easy to configure, while more functional versions will have a low Ease of Use index, with confusing or badly-placed controls.</p>",
     "categories": ["products", "construction", "artifact"],
     "sources": [{
       "publication": "Traveller 5.10 Core Rules Book 3 : Worlds and Adventures",
@@ -325,7 +325,7 @@
     "techLevel": 24,
     "qrebs": "N/A",
     "image": "",
-    "description": "<!-- Summary Start -->A portal generator acts as a hub that connects one or more portals.<!-- Summary End -->",
+    "description": "<p><!-- Summary Start -->A portal generator acts as a hub that connects one or more portals.<!-- Summary End --></p>",
     "categories": ["products", "construction", "artifact"],
     "sources": [{
       "publication": "Traveller 5.10 Core Rules Book 3 : Worlds and Adventures",
@@ -349,7 +349,7 @@
     "techLevel": 26,
     "qrebs": "N/A",
     "image": "",
-    "description": "",
+    "description": "<p><!-- Summary Start -->The star energy tap is the stellar-scale analog of the planetary core tap, though its construction and materials are completely different.  A star tap provides vast amounts of energy to an entire solar system, and any companion systems as well.<!-- Summary End --></p>",
     "categories": ["products", "construction", "artifact"],
     "sources": [{
       "publication": "Traveller 5.10 Core Rules Book 3 : Worlds and Adventures",
@@ -373,7 +373,7 @@
     "techLevel": 7,
     "qrebs": "N/A",
     "image": "",
-    "description": "<!-- Summary Start -->Electrical, Pressure-Sensitive (Duct)<!-- Summary End -->",
+    "description": "<p><!-- Summary Start -->Electrical, Pressure-Sensitive (Duct)<!-- Summary End --></p>",
     "categories": ["products", "construction"],
     "sources": [{
       "publication": "Traveller 5.10 Core Rules Book 3 : Worlds and Adventures",
@@ -397,7 +397,7 @@
     "techLevel": 23,
     "qrebs": "E = -1",
     "image": "",
-    "description": "<!-- Summary Start -->A pair of self-powered, metallic, grav platforms.<!-- Summary End --> Each has four handles around its circular rim and floats at a height of about 50 centimeters. They can be controlled by pulling or pushing and will carry up to 600 kilograms without effort (they resist gravity; inertia still resists to movement).",
+    "description": "<p><!-- Summary Start -->A pair of self-powered, metallic, grav platforms.<!-- Summary End --> Each has four handles around its circular rim and floats at a height of about 50 centimeters. They can be controlled by pulling or pushing and will carry up to 600 kilograms without effort (they resist gravity; inertia still resists to movement).</p>",
     "categories": ["products", "construction", "artifact"],
     "sources": [{
       "publication": "Traveller 5.10 Core Rules Book 3 : Worlds and Adventures",
@@ -421,7 +421,7 @@
     "techLevel": 25,
     "qrebs": "QREBS = 0",
     "image": "",
-    "description": "<!-- Summary Start -->A pair of self-powered, metallic, grav platforms.<!-- Summary End --> Each has four handles around its circular rim and floats at a height of about 50 centimeters. They can be controlled by pulling or pushing and will carry up to 600 kilograms without effort (they resist gravity; inertia still resists to movement).",
+    "description": "<p><!-- Summary Start -->A pair of self-powered, metallic, grav platforms.<!-- Summary End --> Each has four handles around its circular rim and floats at a height of about 50 centimeters. They can be controlled by pulling or pushing and will carry up to 600 kilograms without effort (they resist gravity; inertia still resists to movement).</p>",
     "categories": ["products", "construction", "artifact"],
     "sources": [{
       "publication": "Traveller 5.10 Core Rules Book 3 : Worlds and Adventures",
@@ -445,7 +445,7 @@
     "techLevel": 27,
     "qrebs": "QREBS = 0",
     "image": "",
-    "description": "<!-- Summary Start -->A pair of self-powered, metallic, grav platforms.<!-- Summary End --> Each has four handles around its circular rim and floats at a height of about 50 centimeters. They can be controlled by pulling or pushing and will carry up to 600 kilograms without effort (they resist gravity; inertia still resists to movement).",
+    "description": "<p><!-- Summary Start -->A pair of self-powered, metallic, grav platforms.<!-- Summary End --> Each has four handles around its circular rim and floats at a height of about 50 centimeters. They can be controlled by pulling or pushing and will carry up to 600 kilograms without effort (they resist gravity; inertia still resists to movement).</p>",
     "categories": ["products", "construction", "artifact"],
     "sources": [{
       "publication": "Traveller 5.10 Core Rules Book 3 : Worlds and Adventures",
@@ -469,7 +469,7 @@
     "techLevel": 5,
     "qrebs": "N/A",
     "image": "",
-    "description": "<!-- Summary Start -->A 300 mm long torch good for small repair jobs and spot welding.<!-- Summary End --> The acetylene welding torch is fueled by a tank set that contains a fuel tank and an oxygen tank. The torch can be used continuously for approximately 20 minutes depending on the density setting.",
+    "description": "<p><!-- Summary Start -->A 300 mm long torch good for small repair jobs and spot welding.<!-- Summary End --> The acetylene welding torch is fueled by a tank set that contains a fuel tank and an oxygen tank. The torch can be used continuously for approximately 20 minutes depending on the density setting.</p>",
     "categories": ["products", "construction"],
     "sources": [{
       "publication": "Traveller 5.10 Core Rules Book 3 : Worlds and Adventures",
@@ -494,7 +494,7 @@
     "techLevel": 8,
     "qrebs": "N/A",
     "image": "",
-    "description": "<!-- Summary Start -->A 300 mm long torch good for small repair jobs and spot welding.<!-- Summary End --> The torch can be used continuously for approximately 20 minutes depending on the density setting.",
+    "description": "<p><!-- Summary Start -->A 300 mm long torch good for small repair jobs and spot welding.<!-- Summary End --> The torch can be used continuously for approximately 20 minutes depending on the density setting.</p>",
     "categories": ["products", "construction"],
     "sources": [{
       "publication": "Traveller 5.10 Core Rules Book 3 : Worlds and Adventures",
@@ -518,7 +518,7 @@
     "techLevel": 8,
     "qrebs": "N/A",
     "image": "",
-    "description": "<!-- Summary Start -->A 300 mm long torch good for small repair jobs and spot welding.<!-- Summary End --> The torch can be used continuously for approximately 20 minutes depending on the density setting.",
+    "description": "<p><!-- Summary Start -->A 300 mm long torch good for small repair jobs and spot welding.<!-- Summary End --> The torch can be used continuously for approximately 20 minutes depending on the density setting.</p>",
     "categories": ["products", "construction"],
     "sources": [{
       "publication": "Traveller 5.10 Core Rules Book 3 : Worlds and Adventures",
@@ -542,7 +542,7 @@
     "techLevel": 5,
     "qrebs": "N/A",
     "image": "",
-    "description": "<!-- Summary Start -->A complete refill of the fuel and oxidizer tanks for a gas-powered torch.<!-- Summary End -->",
+    "description": "<p><!-- Summary Start -->A complete refill of the fuel and oxidizer tanks for a gas-powered torch.<!-- Summary End --></p>",
     "categories": ["products", "construction", "supplies"],
     "sources": [{
       "publication": "Traveller 5.10 Core Rules Book 3 : Worlds and Adventures",
@@ -566,7 +566,7 @@
     "techLevel": 3,
     "qrebs": "N/A",
     "image": "",
-    "description": "<!-- Summary Start -->A pallet of leather hides.<!-- Summary End -->",
+    "description": "<p><!-- Summary Start -->A pallet of leather hides.<!-- Summary End --></p>",
     "categories": ["products", "construction", "materials"],
     "sources": [{
       "publication": "Traveller 5.10 Core Rules Book 3 : Worlds and Adventures",
@@ -590,7 +590,7 @@
     "techLevel": 3,
     "qrebs": "N/A",
     "image": "",
-    "description": "<!-- Summary Start -->A pallet of bones.<!-- Summary End -->",
+    "description": "<p><!-- Summary Start -->A pallet of bones.<!-- Summary End --></p>",
     "categories": ["products", "construction", "materials"],
     "sources": [{
       "publication": "Traveller 5.10 Core Rules Book 3 : Worlds and Adventures",
@@ -614,7 +614,7 @@
     "techLevel": 3,
     "qrebs": "N/A",
     "image": "",
-    "description": "<!-- Summary Start -->A pallet of wooden beams.<!-- Summary End -->",
+    "description": "<p><!-- Summary Start -->A pallet of wooden beams.<!-- Summary End --></p>",
     "categories": ["products", "construction", "materials"],
     "sources": [{
       "publication": "Traveller 5.10 Core Rules Book 3 : Worlds and Adventures",
@@ -638,7 +638,7 @@
     "techLevel": 3,
     "qrebs": "N/A",
     "image": "",
-    "description": "<!-- Summary Start -->A pallet of wooden planks.<!-- Summary End -->",
+    "description": "<p><!-- Summary Start -->A pallet of wooden planks.<!-- Summary End --></p>",
     "categories": ["products", "construction", "materials"],
     "sources": [{
       "publication": "Traveller 5.10 Core Rules Book 3 : Worlds and Adventures",
@@ -662,7 +662,7 @@
     "techLevel": 3,
     "qrebs": "N/A",
     "image": "",
-    "description": "<!-- Summary Start -->A pallet of wooden sheets.<!-- Summary End -->",
+    "description": "<p><!-- Summary Start -->A pallet of wooden sheets.<!-- Summary End --></p>",
     "categories": ["products", "construction", "materials"],
     "sources": [{
       "publication": "Traveller 5.10 Core Rules Book 3 : Worlds and Adventures",
@@ -686,7 +686,7 @@
     "techLevel": 7,
     "qrebs": "N/A",
     "image": "",
-    "description": "<!-- Summary Start -->A pallet of fiberglass sheets.<!-- Summary End -->",
+    "description": "<p><!-- Summary Start -->A pallet of fiberglass sheets.<!-- Summary End --></p>",
     "categories": ["products", "construction", "materials"],
     "sources": [{
       "publication": "Traveller 5.10 Core Rules Book 3 : Worlds and Adventures",
@@ -710,7 +710,7 @@
     "techLevel": 3,
     "qrebs": "N/A",
     "image": "",
-    "description": "<!-- Summary Start -->A pallet of stone blocks.<!-- Summary End -->",
+    "description": "<p><!-- Summary Start -->A pallet of stone blocks.<!-- Summary End --></p>",
     "categories": ["products", "construction", "materials"],
     "sources": [{
       "publication": "Traveller 5.10 Core Rules Book 3 : Worlds and Adventures",
@@ -734,7 +734,7 @@
     "techLevel": 11,
     "qrebs": "N/A",
     "image": "",
-    "description": "<!-- Summary Start -->A pallet of ceramic blocks.<!-- Summary End -->",
+    "description": "<p><!-- Summary Start -->A pallet of ceramic blocks.<!-- Summary End --></p>",
     "categories": ["products", "construction", "materials"],
     "sources": [{
       "publication": "Traveller 5.10 Core Rules Book 3 : Worlds and Adventures",
@@ -758,7 +758,7 @@
     "techLevel": 8,
     "qrebs": "N/A",
     "image": "",
-    "description": "<!-- Summary Start -->A pallet of aluminum sheets.<!-- Summary End -->",
+    "description": "<p><!-- Summary Start -->A pallet of aluminum sheets.<!-- Summary End --></p>",
     "categories": ["products", "construction", "materials"],
     "sources": [{
       "publication": "Traveller 5.10 Core Rules Book 3 : Worlds and Adventures",
@@ -782,7 +782,7 @@
     "techLevel": 3,
     "qrebs": "N/A",
     "image": "",
-    "description": "<!-- Summary Start -->A pallet of copper sheets.<!-- Summary End -->",
+    "description": "<p><!-- Summary Start -->A pallet of copper sheets.<!-- Summary End --></p>",
     "categories": ["products", "construction", "materials"],
     "sources": [{
       "publication": "Traveller 5.10 Core Rules Book 3 : Worlds and Adventures",
@@ -806,7 +806,7 @@
     "techLevel": 3.5,
     "qrebs": "N/A",
     "image": "",
-    "description": "<!-- Summary Start -->A pallet of bronze sheets.<!-- Summary End -->",
+    "description": "<p><!-- Summary Start -->A pallet of bronze sheets.<!-- Summary End --></p>",
     "categories": ["products", "construction", "materials"],
     "sources": [{
       "publication": "Traveller 5.10 Core Rules Book 3 : Worlds and Adventures",
@@ -830,7 +830,7 @@
     "techLevel": 4,
     "qrebs": "N/A",
     "image": "",
-    "description": "<!-- Summary Start -->A pallet of iron sheets.<!-- Summary End -->",
+    "description": "<p><!-- Summary Start -->A pallet of iron sheets.<!-- Summary End --></p>",
     "categories": ["products", "construction", "materials"],
     "sources": [{
       "publication": "Traveller 5.10 Core Rules Book 3 : Worlds and Adventures",
@@ -854,7 +854,7 @@
     "techLevel": 15,
     "qrebs": "N/A",
     "image": "",
-    "description": "<!-- Summary Start -->A pallet of self-healing structural polymer.<!-- Summary End -->",
+    "description": "<p><!-- Summary Start -->A pallet of self-healing structural polymer.<!-- Summary End --></p>",
     "categories": ["products", "construction", "materials"],
     "sources": [{
       "publication": "Traveller 5.10 Core Rules Book 3 : Worlds and Adventures",
@@ -878,7 +878,7 @@
     "techLevel": 12,
     "qrebs": "N/A",
     "image": "",
-    "description": "<!-- Summary Start -->A pallet of structural metals.<!-- Summary End -->",
+    "description": "<p><!-- Summary Start -->A pallet of structural metals.<!-- Summary End --></p>",
     "categories": [ "products", "construction", "materials"],
     "sources": [{
       "publication": "Traveller 5.10 Core Rules Book 3 : Worlds and Adventures",
@@ -902,7 +902,7 @@
     "techLevel": 8,
     "qrebs": "N/A",
     "image": "",
-    "description": "<!-- Summary Start -->A pallet of steel sheets.<!-- Summary End -->",
+    "description": "<p><!-- Summary Start -->A pallet of steel sheets.<!-- Summary End --></p> ",
     "categories": [ "products", "construction", "materials"],
     "sources": [{
       "publication": "Traveller 5.10 Core Rules Book 3 : Worlds and Adventures",
@@ -926,7 +926,7 @@
     "techLevel": 9,
     "qrebs": "N/A",
     "image": "",
-    "description": "<!-- Summary Start -->A pallet of titanium sheets.<!-- Summary End -->",
+    "description": "<p><!-- Summary Start -->A pallet of titanium sheets.<!-- Summary End --></p>",
     "categories": [ "products", "construction", "materials"],
     "sources": [{
       "publication": "Traveller 5.10 Core Rules Book 3 : Worlds and Adventures",

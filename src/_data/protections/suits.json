@@ -11,7 +11,7 @@
     "techLevel": 6,
     "qrebs": "N/A",
     "image": "",
-    "description": "<!-- Summary Start -->The hostile environment suit includes a variety of protections against extreme envronmental conditions. Ar 16 (MgT 13).<!-- Summary End -->",
+    "description": "<p><!-- Summary Start -->The hostile environment suit includes a variety of protections against extreme envronmental conditions. Ar 16 (MgT 13).<!-- Summary End --></p>",
     "accessories": [],
     "categories": ["protections", "suit"],
     "sources": [
@@ -36,7 +36,7 @@
     "techLevel": 4,
     "qrebs": "N/A",
     "image": "",
-    "description": "HazMat suits include a variety of protections against hazardous materials in the environment.",
+    "description": "<p><!-- Summary Start -->HazMat suits include a variety of protections against hazardous materials in the environment.<!-- Summary End --></p>",
     "accessories": [],
     "categories": ["protections", "suits"],
     "sources": [
@@ -61,7 +61,7 @@
     "techLevel": 4,
     "qrebs": "N/A",
     "image": "",
-    "description": "Police suits incorporate protections against the hazards encountered in a law enforcement environment.",
+    "description": "<p><!-- Summary Start -->Police suits incorporate protections against the hazards encountered in a law enforcement environment.<!-- Summary End --></p>",
     "accessories": [],
     "categories": ["protections", "suits"],
     "sources": [
@@ -86,7 +86,7 @@
     "techLevel": 5,
     "qrebs": "N/A",
     "image": "",
-    "description": "Police suits incorporate protections against the hazards encountered in a law enforcement environment.",
+    "description": "<p><!-- Summary Start -->Police suits incorporate protections against the hazards encountered in a law enforcement environment.<!-- Summary End --></p>",
     "accessories": [],
     "categories": ["protections", "suits"],
     "sources": [
@@ -111,7 +111,7 @@
     "techLevel": 6,
     "qrebs": "N/A",
     "image": "",
-    "description": "HazMat suits include a variety of protections against hazardous materials in the environment.",
+    "description": "<p><!-- Summary Start -->HazMat suits include a variety of protections against hazardous materials in the environment.<!-- Summary End --></p>",
     "accessories": [],
     "categories": ["protections", "suits"],
     "sources": [
@@ -136,7 +136,7 @@
     "techLevel": 6,
     "qrebs": "N/A",
     "image": "",
-    "description": "Police suits incorporate protections against the hazards encountered in a law enforcement environment.",
+    "description": "<p><!-- Summary Start -->Police suits incorporate protections against the hazards encountered in a law enforcement environment.<!-- Summary End --></p>",
     "accessories": [],
     "categories": ["protections", "suits"],
     "sources": [
@@ -161,7 +161,7 @@
     "techLevel": 6,
     "qrebs": "N/A",
     "image": "",
-    "description": "The exploration suit includes a variety of protections against extreme envronmental conditions.",
+    "description": "<p><!-- Summary Start -->The exploration suit includes a variety of protections against extreme envronmental conditions.<!-- Summary End --></p>",
     "accessories": [],
     "categories": ["protections", "suits"],
     "sources": [
@@ -186,7 +186,7 @@
     "techLevel": 6,
     "qrebs": "N/A",
     "image": "",
-    "description": "HazMat suits include a variety of protections against hazardous materials in the environment.",
+    "description": "<p><!-- Summary Start -->HazMat suits include a variety of protections against hazardous materials in the environment.<!-- Summary End --></p>",
     "accessories": [],
     "categories": ["protections", "suits"],
     "sources": [
@@ -211,7 +211,7 @@
     "techLevel": 6,
     "qrebs": "N/A",
     "image": "",
-    "description": "The hot environment suit protects against extreme high temperature conditions.",
+    "description": "<p><!-- Summary Start -->The hot environment suit protects against extreme high temperature conditions.<!-- Summary End --></p>",
     "accessories": [],
     "categories": ["protections", "suits"],
     "sources": [
@@ -236,7 +236,7 @@
     "techLevel": 6,
     "qrebs": "N/A",
     "image": "",
-    "description": "HazMat suits include a variety of protections against hazardous materials in the environment.",
+    "description": "<p><!-- Summary Start -->HazMat suits include a variety of protections against hazardous materials in the environment.<!-- Summary End --></p>",
     "accessories": [],
     "categories": ["protections", "suits"],
     "sources": [
@@ -261,7 +261,7 @@
     "techLevel": 6,
     "qrebs": "N/A",
     "image": "",
-    "description": "The exploration suit includes a variety of protections against extreme envronmental conditions.",
+    "description": "<p><!-- Summary Start -->The exploration suit includes a variety of protections against extreme envronmental conditions.<!-- Summary End --></p>",
     "accessories": [],
     "categories": ["protections", "suits"],
     "sources": [
@@ -286,7 +286,7 @@
     "techLevel": 6,
     "qrebs": "N/A",
     "image": "",
-    "description": "HazMat suits include a variety of protections against hazardous materials in the environment.",
+    "description": "<p><!-- Summary Start -->HazMat suits include a variety of protections against hazardous materials in the environment.<!-- Summary End --></p>",
     "accessories": [],
     "categories": ["protections", "suits"],
     "sources": [
@@ -311,7 +311,7 @@
     "techLevel": 7,
     "qrebs": "N/A",
     "image": "",
-    "description": "The exploration suit includes a variety of protections against extreme envronmental conditions.",
+    "description": "<p><!-- Summary Start -->The exploration suit includes a variety of protections against extreme envronmental conditions.<!-- Summary End --></p>",
     "accessories": [],
     "categories": ["protections", "suits"],
     "sources": [
@@ -336,7 +336,7 @@
     "techLevel": 7,
     "qrebs": "N/A",
     "image": "",
-    "description": "Cold suits provide protection against low environmental temperatures.",
+    "description": "<p><!-- Summary Start -->Cold suits provide protection against low environmental temperatures.<!-- Summary End --></p>",
     "accessories": [],
     "categories": ["protections", "suits"],
     "sources": [
@@ -361,7 +361,7 @@
     "techLevel": 7,
     "qrebs": "N/A",
     "image": "",
-    "description": "Drop suits are structured to protect against the extreme temperatures of orbital reentry.",
+    "description": "<p><!-- Summary Start -->Drop suits are structured to protect against the extreme temperatures of orbital reentry.<!-- Summary End --></p>",
     "accessories": [],
     "categories": ["protections", "suits"],
     "sources": [
@@ -386,7 +386,7 @@
     "techLevel": 7,
     "qrebs": "N/A",
     "image": "",
-    "description": "Boarding suits are tailored for zero-G operations against interplanetary and interstellar vessels.",
+    "description": "<p><!-- Summary Start -->Boarding suits are tailored for zero-G operations against interplanetary and interstellar vessels.<!-- Summary End --></p>",
     "accessories": [],
     "categories": ["protections", "suits"],
     "sources": [
@@ -411,7 +411,7 @@
     "techLevel": 7,
     "qrebs": "N/A",
     "image": "",
-    "description": "Environ suits provide protections against typical and ordinary world surface environmental threats: temperature, vacuum, light.",
+    "description": "<p><!-- Summary Start -->Environ suits provide protections against typical and ordinary world surface environmental threats: temperature, vacuum, light.<!-- Summary End --></p>",
     "accessories": [],
     "categories": ["protections", "suits"],
     "sources": [
@@ -436,7 +436,7 @@
     "techLevel": 7,
     "qrebs": "N/A",
     "image": "",
-    "description": "<!-- Summary Start -->Combat suits are intended for medium-term operations (days) against an enemy force.<!-- Summary End -->",
+    "description": "<p><!-- Summary Start -->Combat suits are intended for medium-term operations (days) against an enemy force.<!-- Summary End --></p>",
     "accessories": [],
     "categories": ["protections", "suits"],
     "sources": [
@@ -461,7 +461,7 @@
     "techLevel": 7,
     "qrebs": "N/A",
     "image": "",
-    "description": "The exploration suit includes a variety of protections against extreme envronmental conditions.",
+    "description": "<p><!-- Summary Start -->The exploration suit includes a variety of protections against extreme envronmental conditions.<!-- Summary End --></p>",
     "accessories": [],
     "categories": ["protections", "suits"],
     "sources": [
@@ -486,7 +486,7 @@
     "techLevel": 7,
     "qrebs": "N/A",
     "image": "",
-    "description": "The hostile environment suit includes a variety of protections against extreme envronmental conditions.",
+    "description": "<p><!-- Summary Start -->The hostile environment suit includes a variety of protections against extreme envronmental conditions.<!-- Summary End --></p>",
     "accessories": [],
     "categories": ["protections", "suits"],
     "sources": [
@@ -511,7 +511,7 @@
     "techLevel": 7,
     "qrebs": "N/A",
     "image": "",
-    "description": "Drop suits are structured to protect against the extreme temperatures of orbital reentry.",
+    "description": "<p><!-- Summary Start -->Drop suits are structured to protect against the extreme temperatures of orbital reentry.<!-- Summary End --></p>",
     "accessories": [],
     "categories": ["protections", "suits"],
     "sources": [
@@ -536,7 +536,7 @@
     "techLevel": 7,
     "qrebs": "N/A",
     "image": "",
-    "description": "Police suits incorporate protections against the hazards encountered in a law enforcement environment.",
+    "description": "<p><!-- Summary Start -->Police suits incorporate protections against the hazards encountered in a law enforcement environment.<!-- Summary End --></p>",
     "accessories": [],
     "categories": ["protections", "suits"],
     "sources": [
@@ -552,7 +552,7 @@
     "tags": ["products", "protections", "suits"]
   },
   {
-    "sku": "100-03-10023",
+    "sku": "100-003-10023",
     "type": "protections",
     "subtype": "suits",
     "name": "Prospector Suit (ProS-7)",
@@ -561,7 +561,7 @@
     "techLevel": 7,
     "qrebs": "N/A",
     "image": "",
-    "description": "The prospector suit is a modified hostile environment suit that adds survey and search tools to a hostile environ capability.",
+    "description": "<p><!-- Summary Start -->The prospector suit is a modified hostile environment suit that adds survey and search tools to a hostile environ capability.<!-- Summary End --></p>",
     "accessories": [],
     "categories": ["protections", "suits"],
     "sources": [
@@ -586,7 +586,7 @@
     "techLevel": 7,
     "qrebs": "N/A",
     "image": "",
-    "description": "Battle suits incorporate protections against most dangers, attacks, and threats on the battlefield.",
+    "description": "<p><!-- Summary Start -->Battle suits incorporate protections against most dangers, attacks, and threats on the battlefield.<!-- Summary End --></p>",
     "accessories": [],
     "categories": ["protections", "suits"],
     "sources": [
@@ -611,7 +611,7 @@
     "techLevel": 7,
     "qrebs": "N/A",
     "image": "",
-    "description": "Sapper suits are combat suits that add combat engineer functions to combat environ capabilities.",
+    "description": "<p><!-- Summary Start -->Sapper suits are combat suits that add combat engineer functions to combat environ capabilities.<!-- Summary End --></p>",
     "accessories": [],
     "categories": ["protections", "suits"],
     "sources": [
@@ -627,7 +627,7 @@
     "tags": ["products", "protections", "suits"]
   },
   {
-    "sku": "100-03-10026",
+    "sku": "100-003-10026",
     "type": "protections",
     "subtype": "suits",
     "name": "Prospector Suit, Small (SProS-7)",
@@ -636,7 +636,7 @@
     "techLevel": 7,
     "qrebs": "N/A",
     "image": "",
-    "description": "The prospector suit is a modified hostile environment suit that adds survey and search tools to a hostile environ capability.",
+    "description": "<p><!-- Summary Start -->The prospector suit is a modified hostile environment suit that adds survey and search tools to a hostile environ capability.<!-- Summary End --></p>",
     "accessories": [],
     "categories": ["protections", "suits"],
     "sources": [
@@ -661,7 +661,7 @@
     "techLevel": 7,
     "qrebs": "N/A",
     "image": "",
-    "description": "Cold suits provide protection against low environmental temperatures.",
+    "description": "<p><!-- Summary Start -->Cold suits provide protection against low environmental temperatures.<!-- Summary End --></p>",
     "accessories": [],
     "categories": ["protections", "suits"],
     "sources": [
@@ -686,7 +686,7 @@
     "techLevel": 8,
     "qrebs": "N/A",
     "image": "",
-    "description": "Battle suits incorporate protections against most dangers, attacks, and threats on the battlefield.",
+    "description": "<p><!-- Summary Start -->Battle suits incorporate protections against most dangers, attacks, and threats on the battlefield.<!-- Summary End -->",
     "accessories": [],
     "categories": ["protections", "suits"],
     "sources": [
@@ -711,7 +711,7 @@
     "techLevel": 8,
     "qrebs": "N/A",
     "image": "",
-    "description": "Boarding suits are tailored for zero-G operations against interplanetary and interstellar vessels.",
+    "description": "<p><!-- Summary Start -->Boarding suits are tailored for zero-G operations against interplanetary and interstellar vessels.<!-- Summary End --></p>",
     "accessories": [],
     "categories": ["protections", "suits"],
     "sources": [
@@ -736,7 +736,7 @@
     "techLevel": 8,
     "qrebs": "N/A",
     "image": "",
-    "description": "<!-- Summary Start -->Combat suits are intended for medium-term operations (days) against an enemy force.<!-- Summary End -->",
+    "description": "<p><!-- Summary Start -->Combat suits are intended for medium-term operations (days) against an enemy force.<!-- Summary End --></p>",
     "accessories": [],
     "categories": ["protections", "suits"],
     "sources": [
@@ -761,7 +761,7 @@
     "techLevel": 8,
     "qrebs": "N/A",
     "image": "",
-    "description": "The exploration suit includes a variety of protections against extreme envronmental conditions.",
+    "description": "<p><!-- Summary Start -->The exploration suit includes a variety of protections against extreme envronmental conditions.<!-- Summary End --></p>",
     "accessories": [],
     "categories": ["protections", "suits"],
     "sources": [
@@ -786,7 +786,7 @@
     "techLevel": 8,
     "qrebs": "N/A",
     "image": "",
-    "description": "The hostile environment suit includes a variety of protections against extreme envronmental conditions.",
+    "description": "<p><!-- Summary Start -->The hostile environment suit includes a variety of protections against extreme envronmental conditions.<!-- Summary End --></p>",
     "accessories": [],
     "categories": ["protections", "suits"],
     "sources": [
@@ -811,7 +811,7 @@
     "techLevel": 8,
     "qrebs": "N/A",
     "image": "",
-    "description": "Cold suits provide protection against low environmental temperatures.",
+    "description": "<p><!-- Summary Start -->Cold suits provide protection against low environmental temperatures.<!-- Summary End --></p>",
     "accessories": [],
     "categories": ["protections", "suits"],
     "sources": [
@@ -836,7 +836,7 @@
     "techLevel": 8,
     "qrebs": "N/A",
     "image": "",
-    "description": "Sapper suits are combat suits that add combat engineer functions to combat environ capabilities.",
+    "description": "<p><!-- Summary Start -->Sapper suits are combat suits that add combat engineer functions to combat environ capabilities.<!-- Summary End --></p>",
     "accessories": [],
     "categories": ["protections", "suits"],
     "sources": [
@@ -861,7 +861,7 @@
     "techLevel": 9,
     "qrebs": "N/A",
     "image": "",
-    "description": "Assault suits are relatively) lightweight systems is intended for short-term (hours) operations against an enemy force.",
+    "description": "<p><!-- Summary Start -->Assault suits are relatively) lightweight systems is intended for short-term (hours) operations against an enemy force.<!-- Summary End --></p>",
     "accessories": [],
     "categories": ["protections", "suits"],
     "sources": [
@@ -886,7 +886,7 @@
     "techLevel": 9,
     "qrebs": "N/A",
     "image": "",
-    "description": "Vacc suits provides functionality in a zero-G environment with protection from vacuum.",
+    "description": "<p><!-- Summary Start -->Vacc suits provides functionality in a zero-G environment with protection from vacuum.<!-- Summary End --></p>",
     "accessories": [],
     "categories": ["protections", "suits"],
     "sources": [
@@ -911,7 +911,7 @@
     "techLevel": 9,
     "qrebs": "N/A",
     "image": "",
-    "description": "Boarding suits are tailored for zero-G operations against interplanetary and interstellar vessels.",
+    "description": "<p><!-- Summary Start -->Boarding suits are tailored for zero-G operations against interplanetary and interstellar vessels.<!-- Summary End --></p>",
     "accessories": [],
     "categories": ["protections", "suits"],
     "sources": [
@@ -936,7 +936,7 @@
     "techLevel": 9,
     "qrebs": "N/A",
     "image": "",
-    "description": "The prospector suit is a modified hostile environment suit that adds survey and search tools to a hostile environ capability.",
+    "description": "<p><!-- Summary Start -->The prospector suit is a modified hostile environment suit that adds survey and search tools to a hostile environ capability.<!-- Summary End --></p>",
     "accessories": [],
     "categories": ["protections", "suits"],
     "sources": [
@@ -961,7 +961,7 @@
     "techLevel": 9,
     "qrebs": "N/A",
     "image": "",
-    "description": "Battle suits incorporate protections against most dangers, attacks, and threats on the battlefield.",
+    "description": "<p><!-- Summary Start -->Battle suits incorporate protections against most dangers, attacks, and threats on the battlefield.<!-- Summary End --></p>",
     "accessories": [],
     "categories": ["protections", "suits"],
     "sources": [
@@ -986,7 +986,7 @@
     "techLevel": 9,
     "qrebs": "N/A",
     "image": "",
-    "description": "Sapper suits are combat suits that add combat engineer functions to combat environ capabilities.",
+    "description": "<p><!-- Summary Start -->Sapper suits are combat suits that add combat engineer functions to combat environ capabilities.<!-- Summary End --></p>",
     "accessories": [],
     "categories": ["protections", "suits"],
     "sources": [
@@ -1011,7 +1011,7 @@
     "techLevel": 9,
     "qrebs": "N/A",
     "image": "",
-    "description": "Drop suits are structured to protect against the extreme temperatures of orbital reentry.",
+    "description": "<p><!-- Summary Start -->Drop suits are structured to protect against the extreme temperatures of orbital reentry.<!-- Summary End --></p>",
     "accessories": [],
     "categories": ["protections", "suits"],
     "sources": [
@@ -1036,7 +1036,7 @@
     "techLevel": 9,
     "qrebs": "N/A",
     "image": "",
-    "description": "The hostile environment suit includes a variety of protections against extreme envronmental conditions.",
+    "description": "<p><!-- Summary Start -->The hostile environment suit includes a variety of protections against extreme envronmental conditions.<!-- Summary End --></p>",
     "accessories": [],
     "categories": ["protections", "suits"],
     "sources": [
@@ -1061,7 +1061,7 @@
     "techLevel": 10,
     "qrebs": "N/A",
     "image": "",
-    "description": "Cold suits provide protection against low environmental temperatures.",
+    "description": "<p><!-- Summary Start -->Cold suits provide protection against low environmental temperatures.<!-- Summary End --></p>",
     "accessories": [],
     "categories": ["protections", "suits"],
     "sources": [
@@ -1086,7 +1086,7 @@
     "techLevel": 10,
     "qrebs": "N/A",
     "image": "",
-    "description": "Sapper suits are combat suits that add combat engineer functions to combat environ capabilities.",
+    "description": "<p><!-- Summary Start -->Sapper suits are combat suits that add combat engineer functions to combat environ capabilities.<!-- Summary End --></p>",
     "accessories": [],
     "categories": ["protections", "suits"],
     "sources": [
@@ -1111,7 +1111,7 @@
     "techLevel": 10,
     "qrebs": "N/A",
     "image": "",
-    "description": "Environ suits provide protections against typical and ordinary world surface environmental threats: temperature, vacuum, light.",
+    "description": "<p><!-- Summary Start -->Environ suits provide protections against typical and ordinary world surface environmental threats: temperature, vacuum, light.<!-- Summary End --></p>",
     "accessories": [],
     "categories": ["protections", "suits"],
     "sources": [
@@ -1136,7 +1136,7 @@
     "techLevel": 10,
     "qrebs": "N/A",
     "image": "",
-    "description": "Boarding suits are tailored for zero-G operations against interplanetary and interstellar vessels.",
+    "description": "<p><!-- Summary Start -->Boarding suits are tailored for zero-G operations against interplanetary and interstellar vessels.<!-- Summary End --></p>",
     "accessories": [],
     "categories": ["protections", "suits"],
     "sources": [
@@ -1161,7 +1161,7 @@
     "techLevel": 10,
     "qrebs": "N/A",
     "image": "",
-    "description": "Assault suits are relatively) lightweight systems is intended for short-term (hours) operations against an enemy force.",
+    "description": "<p><!-- Summary Start -->Assault suits are relatively) lightweight systems is intended for short-term (hours) operations against an enemy force.<!-- Summary End --></p>",
     "accessories": [],
     "categories": ["protections", "suits"],
     "sources": [
@@ -1187,7 +1187,7 @@
     "techLevel": 10,
     "qrebs": "N/A",
     "image": "",
-    "description": "HazMat suits include a variety of protections against hazardous materials in the environment.",
+    "description": "<p><!-- Summary Start -->HazMat suits include a variety of protections against hazardous materials in the environment.<!-- Summary End --></p>",
     "accessories": [],
     "categories": ["protections", "suits"],
     "sources": [
@@ -1212,7 +1212,7 @@
     "techLevel": 10,
     "qrebs": "N/A",
     "image": "",
-    "description": "Vacc suits provides functionality in a zero-G environment with protection from vacuum.",
+    "description": "<p><!-- Summary Start -->Vacc suits provides functionality in a zero-G environment with protection from vacuum.<!-- Summary End --></p>",
     "accessories": [],
     "categories": ["protections", "suits"],
     "sources": [
@@ -1237,7 +1237,7 @@
     "techLevel": 10,
     "qrebs": "N/A",
     "image": "",
-    "description": "Cold suits provide protection against low environmental temperatures.",
+    "description": "<p><!-- Summary Start -->Cold suits provide protection against low environmental temperatures.<!-- Summary End --></p>",
     "accessories": [],
     "categories": ["protections", "suits"],
     "sources": [
@@ -1262,7 +1262,7 @@
     "techLevel": 11,
     "qrebs": "N/A",
     "image": "",
-    "description": "The prospector suit is a modified hostile environment suit that adds survey and search tools to a hostile environ capability.",
+    "description": "<p><!-- Summary Start -->The prospector suit is a modified hostile environment suit that adds survey and search tools to a hostile environ capability.<!-- Summary End --></p>",
     "accessories": [],
     "categories": ["protections", "suits"],
     "sources": [
@@ -1287,7 +1287,7 @@
     "techLevel": 11,
     "qrebs": "N/A",
     "image": "",
-    "description": "Vacc suits provides functionality in a zero-G environment with protection from vacuum.",
+    "description": "<p><!-- Summary Start -->Vacc suits provides functionality in a zero-G environment with protection from vacuum.<!-- Summary End --></p>",
     "accessories": [],
     "categories": ["protections", "suits"],
     "sources": [
@@ -1312,7 +1312,7 @@
     "techLevel": 11,
     "qrebs": "N/A",
     "image": "",
-    "description": "Environ suits provide protections against typical and ordinary world surface environmental threats: temperature, vacuum, light.",
+    "description": "<p><!-- Summary Start -->Environ suits provide protections against typical and ordinary world surface environmental threats: temperature, vacuum, light.<!-- Summary End --></p>",
     "accessories": [],
     "categories": ["protections", "suits"],
     "sources": [
@@ -1337,7 +1337,7 @@
     "techLevel": 12,
     "qrebs": "N/A",
     "image": "",
-    "description": "Vacc suits provides functionality in a zero-G environment with protection from vacuum.",
+    "description": "<p><!-- Summary Start -->Vacc suits provides functionality in a zero-G environment with protection from vacuum.<!-- Summary End --></p>",
     "accessories": [],
     "categories": ["protections", "suits"],
     "sources": [
@@ -1362,7 +1362,7 @@
     "techLevel": 12,
     "qrebs": "N/A",
     "image": "",
-    "description": "Battle suits incorporate protections against most dangers, attacks, and threats on the battlefield.",
+    "description": "<p><!-- Summary Start -->Battle suits incorporate protections against most dangers, attacks, and threats on the battlefield.<!-- Summary End --></p>",
     "accessories": [],
     "categories": ["protections", "suits"],
     "sources": [
@@ -1387,7 +1387,7 @@
     "techLevel": 15,
     "qrebs": "N/A",
     "image": "",
-    "description": "Protected suits protect the wearer from most environmental threats.",
+    "description": "<p><!-- Summary Start -->Protected suits protect the wearer from most environmental threats.<!-- Summary End --></p>",
     "accessories": [],
     "categories": ["protections", "suits"],
     "sources": [

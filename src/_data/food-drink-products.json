@@ -11,7 +11,7 @@
     "techLevel": 10,
     "qrebs": "N/A",
     "image": "",
-    "description": "<!-- Summary Start -->Mild stimulants.<!-- Summary End --> One serving extends the day length of a sophont by 25% (including downtime). Earlier TL versions have a terrible aftertaste and result in next-day fatigue.",
+    "description": "<p><!-- Summary Start -->Mild stimulants.<!-- Summary End --> One serving extends the day length of a sophont by 25% (including downtime). Earlier TL versions have a terrible aftertaste and result in next-day fatigue.</p>",
     "category": ["food-drink"],
     "sources": [
       {
@@ -37,7 +37,7 @@
     "techLevel": 8,
     "qrebs": "N/A",
     "image": "",
-    "description": "A unit which quickly freezes objects by subjecting them to cryogenic temperatures, avoiding damage to the cell membranes of stored food.",
+    "description": "<p><!-- Summary Start -->A unit which quickly freezes objects by subjecting them to cryogenic temperatures, avoiding damage to the cell membranes of stored food.<!-- Summary End --></p>",
     "category": ["food-drink"],
     "sources": [
       {
@@ -63,7 +63,7 @@
     "techLevel": 9,
     "qrebs": "N/A",
     "image": "",
-    "description": "A unit which quickly freezes objects by subjecting them to cryogenic temperatures, avoiding damage to the cell membranes of stored food.",
+    "description": "<p><!-- Summary Start -->A unit which quickly freezes objects by subjecting them to cryogenic temperatures, avoiding damage to the cell membranes of stored food.<!-- Summary End --></p>",
     "category": ["food-drink"],
     "sources": [
       {
@@ -89,7 +89,7 @@
     "techLevel": 9,
     "qrebs": "N/A",
     "image": "",
-    "description": "<!-- Summary Start -->A portable galley.<!-- Summary End -->\n\nIncludes: <ul><li> Sink</li><li>Dishwasher with various pots pans and dishes stored in it</li><li>A fast-cooking oven (at eye level)</li><li>1.0 meter x 0.5 meter counter top</li><li>Pull/fold out table 1 meter x 0.5 meter, seats two</li><li>Folding chairs under counter</li><li>Apartment sized refrigerator for keeping certain beverages cold</li><li>Under cabinet coffeepot (just below eye level). Just add dried dehydrate beverage of choice (makes one liter at a time)</li><li>Cabinets for ready to grab dry goods</li><li>Two burner induction stove</li><li>Cleaner bot stowed under the cabinets.</li></ul>",
+    "description": "<p><!-- Summary Start -->A portable galley.<!-- Summary End --></p><p>Includes: <ul><li> Sink</li><li>Dishwasher with various pots pans and dishes stored in it</li><li>A fast-cooking oven (at eye level)</li><li>1.0 meter x 0.5 meter counter top</li><li>Pull/fold out table 1 meter x 0.5 meter, seats two</li><li>Folding chairs under counter</li><li>Apartment sized refrigerator for keeping certain beverages cold</li><li>Under cabinet coffeepot (just below eye level). Just add dried dehydrate beverage of choice (makes one liter at a time)</li><li>Cabinets for ready to grab dry goods</li><li>Two burner induction stove</li><li>Cleaner bot stowed under the cabinets.</li></ul></p>",
     "category": ["food-drink"],
     "sources": [
       {
@@ -141,7 +141,7 @@
     "techLevel": 7,
     "qrebs": "N/A",
     "image": "",
-    "description": "<!-- Summary Start -->Self-heating rations which provide convenient, efficient, proper nutrition at the expense of flavor, texture, style, presentation, or other factors.<!-- Summary End --> Lower TL versions are military- grade MREs, which are not heated, or Combat Rations\n\nEmergency rations also tend to not need heating. Standard rations usually include a heated portion and tend to have the best flavor. Very low TL versions include jerky and hard tack, and may tend to omit vital long-term nutrients but will prevent starvation.",
+    "description": "<p><!-- Summary Start -->Self-heating rations which provide convenient, efficient, proper nutrition at the expense of flavor, texture, style, presentation, or other factors.<!-- Summary End --> Lower TL versions are military- grade MREs, which are not heated, or Combat Rations\n\nEmergency rations also tend to not need heating. Standard rations usually include a heated portion and tend to have the best flavor. Very low TL versions include jerky and hard tack, and may tend to omit vital long-term nutrients but will prevent starvation.</p>",
     "category": ["food-drink"],
     "sources": [
       {
@@ -167,7 +167,7 @@
     "techLevel": 18,
     "qrebs": "N/A",
     "image": "",
-    "description": "<!-- Summary Start -->A unit for storing items in stasis.<!-- Summary End --> Battery life is based on device Quality. Unsafe units may cause loss of limbs.",
+    "description": "<p><!-- Summary Start -->A unit for storing items in stasis.<!-- Summary End --> Battery life is based on device Quality. Unsafe units may cause loss of limbs.</p>",
     "category": ["food-drink"],
     "sources": [
       {
@@ -193,7 +193,7 @@
     "techLevel": 0,
     "qrebs": "N/A",
     "image": "",
-    "description": "Pure local water.",
+    "description": "<p><!-- Summary Start -->Pure local water.<!-- Summary End --></p>",
     "category": ["food-drink"],
     "sources": [
       {
@@ -219,7 +219,7 @@
     "techLevel": 1,
     "qrebs": "N/A",
     "image": "",
-    "description": "Local water – not so pure.",
+    "description": "<p><!-- Summary Start -->Local water – not so pure.<!-- Summary End --></p>",
     "category": ["food-drink"],
     "sources": [
       {
@@ -245,7 +245,7 @@
     "techLevel": 4,
     "qrebs": "N/A",
     "image": "",
-    "description": "Dirty local water. Do not drink.",
+    "description": "<p><!-- Summary Start -->Dirty local water. Do not drink.<!-- Summary End --></p>",
     "category": ["food-drink"],
     "sources": [
       {
@@ -271,7 +271,7 @@
     "techLevel": 6,
     "qrebs": "N/A",
     "image": "",
-    "description": "Bottled water.",
+    "description": "<p><!-- Summary Start -->Bottled water.<!-- Summary End --></p>",
     "category": ["food-drink"],
     "sources": [
       {
@@ -297,7 +297,7 @@
     "techLevel": 8,
     "qrebs": "N/A",
     "image": "",
-    "description": "Carbonated water.",
+    "description": "<p><!-- Summary Start -->Carbonated water.<!-- Summary End --></p>",
     "category": ["food-drink"],
     "sources": [
       {
@@ -323,7 +323,7 @@
     "techLevel": 10,
     "qrebs": "N/A",
     "image": "",
-    "description": "Flavored water.",
+    "description": "<p><!-- Summary Start -->Flavored water.<!-- Summary End --></p>",
     "category": ["food-drink"],
     "sources": [
       {

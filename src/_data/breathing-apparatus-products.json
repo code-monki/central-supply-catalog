@@ -10,7 +10,7 @@
     "techLevel": 5,
     "qrebs": "N/A",
     "image": "",
-    "description": "<!-- Summary Start -->A complete set of air reservoirs and the appropriate breathing mask to allow independent breathing in smoke, dust, gas, or exotic atmospheres.<!-- Summary End -->\n\nThe tanks are filled with 2 hours of the appropriate breathing gases (for example, Air-4, Air-8) for the user. This apparatus can be used underwater. Also enables compressed-air-driven tool usage. Storage unit is typically coded to the air stored; for example, Air-6 for standard O-CO2-N human-breathable air, Air-9 for sophonts who breathe dense, tainted air, and so on. The size and composition of the storage medium depends largely on the tech level: lower tech levels store air in glass or metallic bottles, while higher tech levels may store it in more compact ceramic sponges, and so on.",
+    "description": "<p><!-- Summary Start -->A complete set of air reservoirs and the appropriate breathing mask to allow independent breathing in smoke, dust, gas, or exotic atmospheres.<!-- Summary End --></p><p>The tanks are filled with 2 hours of the appropriate breathing gases (for example, Air-4, Air-8) for the user. This apparatus can be used underwater. Also enables compressed-air-driven tool usage. Storage unit is typically coded to the air stored; for example, Air-6 for standard O-CO2-N human-breathable air, Air-9 for sophonts who breathe dense, tainted air, and so on. The size and composition of the storage medium depends largely on the tech level: lower tech levels store air in glass or metallic bottles, while higher tech levels may store it in more compact ceramic sponges, and so on.</p>",
     "category": ["breathing-apparatus"],
     "sources": [{
       "publication": "Traveller 5.10 Core Rules Book 3 : Worlds and Adventures",
@@ -34,7 +34,7 @@
     "techLevel": 9,
     "qrebs": "N/A",
     "image": "",
-    "description": "<!-- Summary Start -->A complete set of air reservoirs and the appropriate breathing mask to allow independent breathing in smoke, dust, gas, or exotic atmospheres.<!-- Summary End -->\n\nThe tanks are filled with 2 hours of the appropriate breathing gases (for example, Air-4, Air-8) for the user. This apparatus can be used underwater. Also enables compressed-air-driven tool usage. Storage unit is typically coded to the air stored; for example, Air-6 for standard O-CO2-N human-breathable air, Air-9 for sophonts who breathe dense, tainted air, and so on. The size and composition of the storage medium depends largely on the tech level: lower tech levels store air in glass or metallic bottles, while higher tech levels may store it in more compact ceramic sponges, and so on.",
+    "description": "<p><!-- Summary Start -->A complete set of air reservoirs and the appropriate breathing mask to allow independent breathing in smoke, dust, gas, or exotic atmospheres.<!-- Summary End --></p><p>The tanks are filled with 2 hours of the appropriate breathing gases (for example, Air-4, Air-8) for the user. This apparatus can be used underwater. Also enables compressed-air-driven tool usage. Storage unit is typically coded to the air stored; for example, Air-6 for standard O-CO2-N human-breathable air, Air-9 for sophonts who breathe dense, tainted air, and so on. The size and composition of the storage medium depends largely on the tech level: lower tech levels store air in glass or metallic bottles, while higher tech levels may store it in more compact ceramic sponges, and so on.",
     "category": ["breathing-apparatus"],
     "sources": [{
       "publication": "Traveller 5.10 Core Rules Book 3 : Worlds and Adventures",
@@ -57,7 +57,7 @@
     "techLevel": 12,
     "qrebs": "N/A",
     "image": "",
-    "description": "A complete set of air reservoirs and the appropriate breathing mask to allow independent breathing in smoke, dust, gas, or exotic atmospheres.\n\nThe tanks are filled with 2 hours of the appropriate breathing gases (for example, Air-4, Air-8) for the user. This apparatus can be used underwater. Also enables compressed-air-driven tool usage. Storage unit is typically coded to the air stored; for example, Air-6 for standard O-CO2-N human-breathable air, Air-9 for sophonts who breathe dense, tainted air, and so on. The size and composition of the storage medium depends largely on the tech level: lower tech levels store air in glass or metallic bottles, while higher tech levels may store it in more compact ceramic sponges, and so on.",
+    "description": "<p><!-- Summary Start -->A complete set of air reservoirs and the appropriate breathing mask to allow independent breathing in smoke, dust, gas, or exotic atmospheres.<!-- Summary End --></p><p>The tanks are filled with 2 hours of the appropriate breathing gases (for example, Air-4, Air-8) for the user. This apparatus can be used underwater. Also enables compressed-air-driven tool usage. Storage unit is typically coded to the air stored; for example, Air-6 for standard O-CO2-N human-breathable air, Air-9 for sophonts who breathe dense, tainted air, and so on. The size and composition of the storage medium depends largely on the tech level: lower tech levels store air in glass or metallic bottles, while higher tech levels may store it in more compact ceramic sponges, and so on.</p>",
     "category": ["breathing-apparatus"],
     "sources": [{
       "publication": "Traveller 5.10 Core Rules Book 3 : Worlds and Adventures",
@@ -81,7 +81,7 @@
     "techLevel": 7,
     "qrebs": "N/A",
     "image": "",
-    "description": "<!-- Summary Start -->Stainless steel air receiver tank with carbon steel support.<!-- Summary End -->\n\nThe tanks are filled with 100 hours of the appropriate breathing gases (for example, Air-4, Air-8) for the user. This apparatus can be used underwa- ter. Also enables compressed-air-driven tool usage. Storage unit is typically coded to the air stored; for example, Air-6 for standard O-CO2-N human-breathable air, Air-9 for sophonts who breathe dense, tainted air, and so on. The size and composition of the storage medium depends largely on the tech level: lower tech levels store air in glass or metallic bottles, while higher tech levels may store it in more compact ceramic sponges, and so on.",
+    "description": "<p><!-- Summary Start -->IN / 374 stainless steel air receiver tank with carbon steel support.<!-- Summary End --> The tanks are filled with 100 hours of the appropriate breathing gases (for example, Air-4, Air-8) for the user. This apparatus can be used underwa- ter. Also enables compressed-air-driven tool usage. Storage unit is typically coded to the air stored; for example, Air-6 for standard O-CO2-N human-breathable air, Air-9 for sophonts who breathe dense, tainted air, and so on. The size and composition of the storage medium depends largely on the tech level: lower tech levels store air in glass or metallic bottles, while higher tech levels may store it in more compact ceramic sponges, and so on.</p>",
     "category": ["breathing-apparatus"],
     "sources": [{
       "publication": "Traveller 5.10 Core Rules Book 3 : Worlds and Adventures",
@@ -104,7 +104,7 @@
     "techLevel": 17,
     "qrebs": "N/A",
     "image": "",
-    "description": "<!-- Summary Start -->The Atmospheric Sponge is a typical TL H life support component.<!-- Summary End --> Primarily sold on the starship and space station market, it also can be used in the housing, vehicle and terraforming industry.\n\nThe Atmospheric Sponge contains a nanofoam that scrubs the atmosphere of irritants, bacteria, most viruses, and harmful gases. The Atmospheric Sponge can be powered by any source of electrical energy. When connected to on board power they can run with only minimal expense. Each Sponge can support up 100 tons of Life Support needs for one year before needing maintenance.",
+    "description": "<p><!-- Summary Start -->The Atmospheric Sponge is a typical TL H life support component.<!-- Summary End --> Primarily sold on the starship and space station market, it also can be used in the housing, vehicle and terraforming industry.</p><p>The Atmospheric Sponge contains a nanofoam that scrubs the atmosphere of irritants, bacteria, most viruses, and harmful gases. The Atmospheric Sponge can be powered by any source of electrical energy. When connected to on board power they can run with only minimal expense. Each Sponge can support up 100 tons of Life Support needs for one year before needing maintenance.</p>",
     "category": ["breathing-apparatus"],
     "sources": [{
       "publication": "Traveller 5.10 Core Rules Book 3 : Worlds and Adventures",
@@ -127,7 +127,7 @@
     "techLevel": 7,
     "qrebs": "N/A",
     "image": "",
-    "description": "An apparatus which removes waste gases and recycles breathing gases to the user.\n\n Its PowerCell-2 gives it a duration of one day, after which it also requires routine maintenance.",
+    "description": "<p><!-- Summary Start -->The breather removes waste gases and recycles breathing gases to the user.<!-- Summary End -->  The breather uses a PowerCell-2 and has a duration of one day, after which it also requires routine maintenance.</p>",
     "category": ["breathing-apparatus"],
     "sources": [{
       "publication": "Traveller 5.10 Core Rules Book 3 : Worlds and Adventures",
@@ -150,7 +150,7 @@
     "techLevel": 8,
     "qrebs": "N/A",
     "image": "",
-    "description": "An apparatus which removes waste gases and recycles breathing gases to the user.\n\n Its PowerCell-2 gives it a duration of one day, after which it also requires routine maintenance.",
+    "description": "<p><!-- Summary Start -->The breather removes waste gases and recycles breathing gases to the user.<!-- Summary End -->  The breather uses a PowerCell-2 and has a duration of one day, after which it also requires routine maintenance.</p>",
     "category": ["breathing-apparatus"],
     "sources": [{
       "publication": "Traveller 5.10 Core Rules Book 3 : Worlds and Adventures",
@@ -173,7 +173,7 @@
     "techLevel": 10,
     "qrebs": "N/A",
     "image": "",
-    "description": "An apparatus which removes waste gases and recycles breathing gases to the user.\n\n Its PowerCell-2 gives it a duration of one day, after which it also requires routine maintenance.",
+    "description": "<p><!-- Summary Start -->The breather removes waste gases and recycles breathing gases to the user.<!-- Summary End -->  The breather uses a PowerCell-2 and has a duration of one day, after which it also requires routine maintenance.</p>",
     "category": ["breathing-apparatus"],
     "sources": [{
       "publication": "Traveller 5.10 Core Rules Book 3 : Worlds and Adventures",
@@ -196,7 +196,7 @@
     "techLevel": 5,
     "qrebs": "N/A",
     "image": "",
-    "description": "Breathing apparatus combining Filter and Respirator.\n\n It allows breathing Air-2 and Air-5. It is effective only against T (Poison).",
+    "description": "<p><!-- Summary Start -->The combination mask is a breathing apparatus combining a filter and a respirator that allows breathing Air-2 and Air-5 and is only effective against T (Poison).",
     "category": ["breathing-apparatus"],
     "sources": [{
       "publication": "Traveller 5.10 Core Rules Book 3 : Worlds and Adventures",
@@ -219,7 +219,7 @@
     "techLevel": 8,
     "qrebs": "N/A",
     "image": "",
-    "description": "Breathing apparatus combining Filter and Respirator.\n\n It allows breathing Air-2 and Air-5. It is effective only against T (Poison).",
+    "description": "<p><!-- Summary Start -->The combination mask is a breathing apparatus combining a filter and a respirator that allows breathing Air-2 and Air-5 and is only effective against T (Poison).",
     "category": ["breathing-apparatus"],
     "sources": [{
       "publication": "Traveller 5.10 Core Rules Book 3 : Worlds and Adventures",
@@ -242,7 +242,7 @@
     "techLevel": 10,
     "qrebs": "N/A",
     "image": "",
-    "description": "Breathing apparatus combining Filter and Respirator.\n\n It allows breathing Air-2 and Air-5. It is effective only against T (Poison).",
+    "description": "<p><!-- Summary Start -->The combination mask is a breathing apparatus combining a filter and a respirator that allows breathing Air-2 and Air-5 and is only effective against T (Poison).",
     "category": ["breathing-apparatus"],
     "sources": [{
       "publication": "Traveller 5.10 Core Rules Book 3 : Worlds and Adventures",
@@ -265,7 +265,7 @@
     "techLevel": 3,
     "qrebs": "N/A",
     "image": "",
-    "description": "A breathing filter which protects against taint in Air-7 and Air-9.\n\n It is effective only against T (Poison).",
+    "description": "<p><!-- Summary Start -->The filter mask is a breathing filter which protects against taint in Air-7 and Air-9 and is effective only against T (Poison).<!-- Summary End --></p>",
     "category": ["breathing-apparatus"],
     "sources": [{
       "publication": "Traveller 5.10 Core Rules Book 3 : Worlds and Adventures",
@@ -288,7 +288,7 @@
     "techLevel": 8,
     "qrebs": "N/A",
     "image": "",
-    "description": "A breathing filter which protects against taint in Air-7 and Air-9.\n\n It is effective only against T (Poison).",
+    "description": "<p><!-- Summary Start -->The filter mask is a breathing filter which protects against taint in Air-7 and Air-9 and is effective only against T (Poison).<!-- Summary End --></p>",
     "category": ["breathing-apparatus"],
     "sources": [{
       "publication": "Traveller 5.10 Core Rules Book 3 : Worlds and Adventures",
@@ -311,7 +311,7 @@
     "techLevel": 10,
     "qrebs": "N/A",
     "image": "",
-    "description": "A breathing filter which protects against taint in Air-7 and Air-9.\n\n It is effective only against T (Poison).",
+    "description": "<p><!-- Summary Start -->The filter mask is a breathing filter which protects against taint in Air-7 and Air-9 and is effective only against T (Poison).<!-- Summary End --></p>",
     "category": ["breathing-apparatus"],
     "sources": [{
       "publication": "Traveller 5.10 Core Rules Book 3 : Worlds and Adventures",
@@ -334,7 +334,7 @@
     "techLevel": 11,
     "qrebs": "N/A",
     "image": "",
-    "description": "Breathing apparatus for air breathers which ex- tracts oxygen from water.\n\n",
+    "description": "<p><!-- Summary Start -->The gill is a breathing apparatus for air breathers which extracts oxygen from water.<!-- Summary End --></p>",
     "category": ["breathing-apparatus"],
     "sources": [{
       "publication": "Traveller 5.10 Core Rules Book 3 : Worlds and Adventures",
@@ -357,7 +357,7 @@
     "techLevel": 10,
     "qrebs": "N/A",
     "image": "",
-    "description": "Improved version of the Breather for better performance and efficiency.\n\n",
+    "description": "<p><!-- Summary Start -->The rebreather is an improved version of the breather for better performance and efficiency.<!-- Summary End --></p>",
     "category": ["breathing-apparatus"],
     "sources": [{
       "publication": "Traveller 5.10 Core Rules Book 3 : Worlds and Adventures",
@@ -380,7 +380,7 @@
     "techLevel": 5,
     "qrebs": "N/A",
     "image": "",
-    "description": "A small compressor allowing breathing in Air-3 (Vthin Atmosphere).\n\n An alternative name is Compressor.",
+    "description": "<p><!-- Summary Start -->The respirator is a small compressor allowing breathing in Air-3 (Vthin Atmosphere).<!-- Summary End --> An alternative name is Compressor.</p>",
     "category": ["breathing-apparatus"],
     "sources": [{
       "publication": "Traveller 5.10 Core Rules Book 3 : Worlds and Adventures",
@@ -403,7 +403,7 @@
     "techLevel": 8,
     "qrebs": "N/A",
     "image": "",
-    "description": "A small compressor allowing breathing in Air-3 (Vthin Atmosphere).\n\n An alternative name is Compressor.",
+    "description": "<><!-- Summary Start -->The respirator is a small compressor allowing breathing in Air-3 (Vthin Atmosphere).<!-- Summary End --> An alternative name is Compressor.</p>",
     "category": ["breathing-apparatus"],
     "sources": [{
       "publication": "Traveller 5.10 Core Rules Book 3 : Worlds and Adventures",
@@ -426,7 +426,7 @@
     "techLevel": 10,
     "qrebs": "N/A",
     "image": "",
-    "description": "A small compressor allowing breathing in Air-3 (Vthin Atmosphere).\n\n An alternative name is Compressor.",
+    "description": "<><!-- Summary Start -->The respirator is a small compressor allowing breathing in Air-3 (Vthin Atmosphere).<!-- Summary End --> An alternative name is Compressor.</p>",
     "category": ["breathing-apparatus"],
     "sources": [{
       "publication": "Traveller 5.10 Core Rules Book 3 : Worlds and Adventures",
@@ -449,7 +449,7 @@
     "techLevel": 8,
     "qrebs": "N/A",
     "image": "",
-    "description": "Similar in concept to air storage units, surface &ldquo;water tanks&rdquo; are for water-breathing sophonts, and may include pumps, circulators, air mixers, etc\n\n",
+    "description": "<p><!-- Summary Start -->Similar in concept to air storage units, surface &ldquo;water tanks&rdquo; are for water-breathing sophonts, and may include pumps, circulators, air mixers, etc.<!-- Summary End --></p>",
     "category": ["breathing-apparatus"],
     "sources": [{
       "publication": "Traveller 5.10 Core Rules Book 3 : Worlds and Adventures",

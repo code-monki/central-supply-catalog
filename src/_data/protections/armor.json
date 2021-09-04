@@ -11,7 +11,7 @@
     "techLevel": 9,
     "qrebs": "B+3",
     "image": "",
-    "description": "<!-- Summary Start -->Ablat is a material which ablates (vaporizes) when hit by laser fire. The vaporized material carries away the energy of the laser, protecting the user. Ablat has a basic protective value against attacks and is doubled against K (Burn) attacks. Ar 12<!-- Summary End -->",
+    "description": "<p><!-- Summary Start -->Ablat is a material which ablates (vaporizes) when hit by laser fire.<!-- Summary End --> The vaporized material carries away the energy of the laser, protecting the user. Ablat has a basic protective value against attacks and is doubled against K (Burn) attacks. Ar 12</p>",
     "accessories": [],
     "categories": ["protections", "armor"],
     "sources": [
@@ -38,7 +38,7 @@
     "techLevel": 16,
     "qrebs": "N/A",
     "image": "",
-    "description": "<!-- Summary Start -->Darrian pre-Maghiz suit of combat armor. Ar 32 (MgT 16).<!-- Summary End --> Assault armor is a relatively lightweight systems intended for short-term (hours) operations against an enemy force.",
+    "description": "<p><!-- Summary Start -->Darrian pre-Maghiz suit of combat armor..<!-- Summary End --> Assault armor is a relatively lightweight systems intended for short-term (hours) operations against an enemy force.   Ar 32 (MgT 16)</p>",
     "accessories": [],
     "categories": ["protections", "armor"],
     "sources": [
@@ -65,7 +65,7 @@
     "techLevel": 11,
     "qrebs": "N/A",
     "image": "",
-    "description": "<!-- Summary Start -->Boarding armor for use in zero-G operations against interplanetary and interstellar vessels. AV 28 (MgT 15)<!-- Summary End -->",
+    "description": "<p><!-- Summary Start -->Boarding armor for use in zero-G operations against interplanetary and interstellar vessels.<!-- Summary End --> AV 28 (MgT 15)</p>",
     "accessories": [],
     "categories": ["protections", "armor"],
     "sources": [
@@ -92,7 +92,7 @@
     "techLevel": 8,
     "qrebs": "N/A",
     "image": "",
-    "description": "<!-- Summary Start -->A heavy duty body suit tailored from ballistic cloth. Ar 14 (MgT 12)<!-- Summary End -->",
+    "description": "<p><!-- Summary Start -->A heavy duty body suit tailored from ballistic cloth.<!-- Summary End --> Ar 14 (MgT 12)</p>",
     "accessories": [],
     "categories": ["protections", "armor"],
     "sources": [
@@ -119,7 +119,7 @@
     "techLevel": 11,
     "qrebs": "N/A",
     "image": "",
-    "description": "<!-- Summary Start -->Combat Armor is intended for medium-term operations (days) against an enemy force. Ar 28 (MgT 15).<!-- Summary End -->",
+    "description": "<p><!-- Summary Start -->Combat Armor is intended for medium-term operations (days) against an enemy force.<!-- Summary End --> Ar 28 (MgT 15).</p>",
     "accessories": [],
     "categories": ["protections", "armor"],
     "sources": [
@@ -146,7 +146,7 @@
     "techLevel": 1,
     "qrebs": "N/A",
     "image": "",
-    "description": "<!-- Summary Start -->A natural or synthetic leather jacket or body suit covering the torso and upper arms and legs. Jack is somewhat better than ordinary clothing in providing basic protection. Ar 5<!-- Summary End -->",
+    "description": "<p><!-- Summary Start -->A natural or synthetic leather jacket or body suit covering the torso and upper arms and legs.<!-- Summary End --> Jack is somewhat better than ordinary clothing in providing basic protection. Ar 5</p>",
     "accessories": [],
     "categories": ["protections", "armor"],
     "sources": [
@@ -173,7 +173,7 @@
     "techLevel": 7,
     "qrebs": "N/A",
     "image": "",
-    "description": "<!-- Summary Start -->A jacket or body suit made of natural or synthetic leather and reinforced with a lining of flexible metal mesh, similar to chain mail but lighter and stronger. Ar 10<!-- Summary End -->",
+    "description": "<p><!-- Summary Start -->A jacket or body suit made of natural or synthetic leather and reinforced with a lining of flexible metal mesh, similar to chain mail but lighter and stronger.<!-- Summary End --> Ar 10</p>",
     "accessories": [],
     "categories": ["protections", "armor"],
     "sources": [
@@ -200,7 +200,7 @@
     "techLevel": 9,
     "qrebs": "N/A",
     "image": "",
-    "description": "<!-- Summary Start -->Improved ballistic cloth. Ar 18 (MgT 13)<!-- Summary End -->",
+    "description": "<p><!-- Summary Start -->Improved ballistic cloth.<!-- Summary End --> Ar 18 (MgT 13)</p>",
     "accessories": [],
     "categories": ["protections", "armor"],
     "sources": [
@@ -226,7 +226,7 @@
     "techLevel": 7,
     "qrebs": "N/A",
     "image": "",
-    "description": "<!-- Summary Start -->Hostile environment armor includes a variety of protections against extreme envronmental conditions. Ar 16 (MgT 13).<!-- Summary End -->",
+    "description": "<p><!-- Summary Start -->Hostile environment armor includes a variety of protections against extreme envronmental conditions.<!-- Summary End --> Ar 16 (MgT 13).</p>",
     "accessories": [],
     "categories": ["protections", "armor"],
     "sources": [
@@ -252,7 +252,7 @@
     "techLevel": 7,
     "qrebs": "N/A",
     "image": "",
-    "description": "<!-- Summary Start -->HazMat armor includes a variety of protections against hazardous materials in the environment.<!-- Summary End -->",
+    "description": "<p><!-- Summary Start -->HazMat armor includes a variety of protections against hazardous materials in the environment.<!-- Summary End --></p>",
     "accessories": [],
     "categories": ["protections", "armor"],
     "sources": [
@@ -278,7 +278,7 @@
     "techLevel": 8,
     "qrebs": "N/A",
     "image": "",
-    "description": "Police armor incorporates protections against the hazards encountered in a law enforcement environment.",
+    "description": "<p><!-- Summary Start -->Police armor incorporates protections against the hazards encountered in a law enforcement environment.<!-- Summary End --></p>",
     "accessories": [],
     "categories": ["protections", "armor"],
     "sources": [
@@ -304,7 +304,7 @@
     "techLevel": 9,
     "qrebs": "N/A",
     "image": "",
-    "description": "<!-- Summary Start -->Hostile environment armor includes a variety of protections against extreme envronmental conditions. Ar 16 (MgT 13).<!-- Summary End -->",
+    "description": "<p><!-- Summary Start -->Hostile environment armor includes a variety of protections against extreme envronmental conditions.<!-- Summary End --> Ar 16 (MgT 13).</p>",
     "accessories": [],
     "categories": ["protections", "armor"],
     "sources": [
@@ -330,7 +330,7 @@
     "techLevel": 9,
     "qrebs": "N/A",
     "image": "",
-    "description": "<!-- Summary Start -->Boarding armor for use in zero-G operations against interplanetary and interstellar vessels. AV 28 (MgT 15)<!-- Summary End -->",
+    "description": "<p><!-- Summary Start -->Boarding armor for use in zero-G operations against interplanetary and interstellar vessels.<!-- Summary End --> AV 28 (MgT 15)</p>",
     "accessories": [],
     "categories": ["protections", "armor"],
     "sources": [
@@ -356,7 +356,7 @@
     "techLevel": 9,
     "qrebs": "N/A",
     "image": "",
-    "description": "<!-- Summary Start -->HazMat armor includes a variety of protections against hazardous materials in the environment.<!-- Summary End -->",
+    "description": "<p><!-- Summary Start -->HazMat armor includes a variety of protections against hazardous materials in the environment.<!-- Summary End --></p<",
     "accessories": [],
     "categories": ["protections", "armor"],
     "sources": [
@@ -382,7 +382,7 @@
     "techLevel": 9,
     "qrebs": "N/A",
     "image": "",
-    "description": "<!-- Summary Start -->Hostile environment armor includes a variety of protections against extreme envronmental conditions. Ar 16 (MgT 13).<!-- Summary End -->",
+    "description": "<p><!-- Summary Start -->Hostile environment armor includes a variety of protections against extreme envronmental conditions.<!-- Summary End --> Ar 16 (MgT 13).</p>",
     "accessories": [],
     "categories": ["protections", "armor"],
     "sources": [
@@ -408,7 +408,7 @@
     "techLevel": 9,
     "qrebs": "N/A",
     "image": "",
-    "description": "<!-- Summary Start -->HazMat armor includes a variety of protections against hazardous materials in the environment.<!-- Summary End -->",
+    "description": "<p><!-- Summary Start -->HazMat armor includes a variety of protections against hazardous materials in the environment.<!-- Summary End --></p>",
     "accessories": [],
     "categories": ["protections", "armor"],
     "sources": [
@@ -434,7 +434,7 @@
     "techLevel": 9,
     "qrebs": "N/A",
     "image": "",
-    "description": "<!-- Summary Start -->Hostile environment armor includes a variety of protections against extreme envronmental conditions. Ar 16 (MgT 13).<!-- Summary End -->",
+    "description": "<p><!-- Summary Start -->Hostile environment armor includes a variety of protections against extreme envronmental conditions. <!-- Summary End --> Ar 16 (MgT 13).</p>",
     "accessories": [],
     "categories": ["protections", "armor"],
     "sources": [
@@ -460,7 +460,7 @@
     "techLevel": 9,
     "qrebs": "N/A",
     "image": "",
-    "description": "<!-- Summary Start -->HazMat armor includes a variety of protections against hazardous materials in the environment.<!-- Summary End -->",
+    "description": "<p><!-- Summary Start -->HazMat armor includes a variety of protections against hazardous materials in the environment.<!-- Summary End --></p>",
     "accessories": [],
     "categories": ["protections", "armor"],
     "sources": [
@@ -486,7 +486,7 @@
     "techLevel": 10,
     "qrebs": "N/A",
     "image": "",
-    "description": "<!-- Summary Start -->Drop armor is structured to protect against extreme temperatures during orbital reentry.<!-- Summary End -->",
+    "description": "<p><!-- Summary Start -->Drop armor is structured to protect against extreme temperatures during orbital reentry.<!-- Summary End --></p>",
     "accessories": [],
     "categories": ["protections", "armor"],
     "sources": [
@@ -512,7 +512,7 @@
     "techLevel": 10,
     "qrebs": "N/A",
     "image": "",
-    "description": "<!-- Summary Start -->Hostile environment armor includes a variety of protections against extreme envronmental conditions. Ar 16 (MgT 13).<!-- Summary End -->",
+    "description": "<p><!-- Summary Start -->Hostile environment armor includes a variety of protections against extreme envronmental conditions. Ar 16 (MgT 13).<!-- Summary End --></p>",
     "accessories": [],
     "categories": ["protections", "armor"],
     "sources": [
@@ -538,7 +538,7 @@
     "techLevel": 10,
     "qrebs": "N/A",
     "image": "",
-    "description": "<!-- Summary Start -->Environment armor includes a variety of protections against extreme envronmental conditions.<!-- Summary End -->",
+    "description": "<p><!-- Summary Start -->Environment armor includes a variety of protections against extreme envronmental conditions.<!-- Summary End --></p>",
     "accessories": [],
     "categories": ["protections", "armor"],
     "sources": [
@@ -564,7 +564,7 @@
     "techLevel": 10,
     "qrebs": "N/A",
     "image": "",
-    "description": "Police armor incorporates protections against the hazards encountered in a law enforcement environment.",
+    "description": "<p><!-- Summary Start -->Police armor incorporates protections against the hazards encountered in a law enforcement environment.<!-- Summary End --></p>",
     "accessories": [],
     "categories": ["protections", "armor"],
     "sources": [
@@ -590,7 +590,7 @@
     "techLevel": 10,
     "qrebs": "N/A",
     "image": "",
-    "description": "<!-- Summary Start -->Environment armor includes a variety of protections against extreme envronmental conditions.<!-- Summary End -->",
+    "description": "<p><!-- Summary Start -->Environment armor includes a variety of protections against extreme envronmental conditions.<!-- Summary End --></p>",
     "accessories": [],
     "categories": ["protections", "armor"],
     "sources": [
@@ -616,7 +616,7 @@
     "techLevel": 10,
     "qrebs": "N/A",
     "image": "",
-    "description": "<!-- Summary Start -->Sapper armor adds combat engineer functions to combat environ capabilities.<!-- Summary End -->",
+    "description": "<p><!-- Summary Start -->Sapper armor adds combat engineer functions to combat environ capabilities.<!-- Summary End --></p>",
     "accessories": [],
     "categories": ["protections", "armor"],
     "sources": [
@@ -642,7 +642,7 @@
     "techLevel": 10,
     "qrebs": "N/A",
     "image": "",
-    "description": "<!-- Summary Start -->Sapper armor adds combat engineer functions to combat environ capabilities.<!-- Summary End -->",
+    "description": "<p><!-- Summary Start -->Sapper armor adds combat engineer functions to combat environ capabilities.<!-- Summary End --></p>",
     "accessories": [],
     "categories": ["protections", "armor"],
     "sources": [
@@ -668,7 +668,7 @@
     "techLevel": 11,
     "qrebs": "N/A",
     "image": "",
-    "description": "Battle armor incorporates protections against most dangers, attacks, and threats on the battlefield.",
+    "description": "<p><!-- Summary Start -->Battle armor incorporates protections against most dangers, attacks, and threats on the battlefield.<!-- Summary End --></p>",
     "accessories": [],
     "categories": ["protections", "armor"],
     "sources": [
@@ -694,7 +694,7 @@
     "techLevel": 11,
     "qrebs": "N/A",
     "image": "",
-    "description": "Battle armor incorporates protections against most dangers, attacks, and threats on the battlefield.",
+    "description": "<p><!-- Summary Start -->Battle armor incorporates protections against most dangers, attacks, and threats on the battlefield.<!-- Summary End --></p>",
     "accessories": [],
     "categories": ["protections", "armor"],
     "sources": [
@@ -720,7 +720,7 @@
     "techLevel": 11,
     "qrebs": "N/A",
     "image": "",
-    "description": "<!-- Summary Start -->Boarding armor for use in zero-G operations against interplanetary and interstellar vessels. AV 28 (MgT 15)<!-- Summary End -->",
+    "description": "<p><!-- Summary Start -->Boarding armor for use in zero-G operations against interplanetary and interstellar vessels.<!-- Summary End --> AV 28 (MgT 15)</p>",
     "accessories": [],
     "categories": ["protections", "armor"],
     "sources": [
@@ -746,7 +746,7 @@
     "techLevel": 11,
     "qrebs": "N/A",
     "image": "",
-    "description": "<!-- Summary Start -->Combat armor is intended for medium-term operations (days) against an enemy force.<!-- Summary End -->",
+    "description": "<p><!-- Summary Start -->Combat armor is intended for medium-term operations (days) against an enemy force.<!-- Summary End --></p>",
     "accessories": [],
     "categories": ["protections", "armor"],
     "sources": [
@@ -772,7 +772,7 @@
     "techLevel": 11,
     "qrebs": "N/A",
     "image": "",
-    "description": "<!-- Summary Start -->Drop armor is structured to protect against extreme temperatures during orbital reentry.<!-- Summary End -->",
+    "description": "<p><!-- Summary Start -->Drop armor is structured to protect against extreme temperatures during orbital reentry.<!-- Summary End --></p>",
     "accessories": [],
     "categories": ["protections", "armor"],
     "sources": [{
@@ -796,7 +796,7 @@
     "techLevel": 11,
     "qrebs": "N/A",
     "image": "",
-    "description": "<!-- Summary Start -->Environment armor includes a variety of protections against normal envronmental conditions.<!-- Summary End -->",
+    "description": "<p><!-- Summary Start -->Environment armor includes a variety of protections against normal envronmental conditions.<!-- Summary End --></p>",
     "accessories": [],
     "categories": ["protections", "armor"],
     "sources": [{
@@ -820,7 +820,7 @@
     "techLevel": 11,
     "qrebs": "N/A",
     "image": "",
-    "description": "<!-- Summary Start -->Sapper armor adds combat engineer functions to combat environ capabilities.<!-- Summary End -->",
+    "description": "<p><!-- Summary Start -->Sapper armor adds combat engineer functions to combat environ capabilities.<!-- Summary End --></p>",
     "accessories": [],
     "categories": ["protections", "armor"],
     "sources": [{
@@ -844,7 +844,7 @@
     "techLevel": 11,
     "qrebs": "N/A",
     "image": "",
-    "description": "<!-- Summary Start -->Sapper armor adds combat engineer functions to combat environ capabilities.<!-- Summary End -->",
+    "description": "<p><!-- Summary Start -->Sapper armor adds combat engineer functions to combat environ capabilities.<!-- Summary End --></p>",
     "accessories": [],
     "categories": ["protections", "armor"],
     "sources": [{
@@ -868,7 +868,7 @@
     "techLevel": 11,
     "qrebs": "N/A",
     "image": "",
-    "description": "<!-- Summary Start -->Boarding armor for use in zero-G operations against interplanetary and interstellar vessels. AV 28 (MgT 15)<!-- Summary End -->",
+    "description": "<p><!-- Summary Start -->Boarding armor for use in zero-G operations against interplanetary and interstellar vessels.<!-- Summary End --> AV 28 (MgT 15)</p>",
     "accessories": [],
     "categories": ["protections", "armor"],
     "sources": [{
@@ -892,7 +892,7 @@
     "techLevel": 11,
     "qrebs": "N/A",
     "image": "",
-    "description": "<!-- Summary Start -->HazMat armor includes a variety of protections against hazardous materials in the environment.<!-- Summary End -->",
+    "description": "<p><!-- Summary Start -->HazMat armor includes a variety of protections against hazardous materials in the environment.<!-- Summary End --></p>",
     "accessories": [],
     "categories": ["protections", "armor"],
     "sources": [{
@@ -916,7 +916,7 @@
     "techLevel": 12,
     "qrebs": "N/A",
     "image": "",
-    "description": "Assault armor is a (relatively) lightweight systems is intended for short-term (hours) operations against an enemy force.",
+    "description": "<p><!-- Summary Start -->Assault armor is a (relatively) lightweight systems is intended for short-term (hours) operations against an enemy force.<!-- Summary End --></p>",
     "accessories": [],
     "categories": ["protections", "armor"],
     "sources": [{
@@ -940,7 +940,7 @@
     "techLevel": 12,
     "qrebs": "N/A",
     "image": "",
-    "description": "Battle armor incorporates protections against most dangers, attacks, and threats on the battlefield.",
+    "description": "<p><!-- Summary Start -->Battle armor incorporates protections against most dangers, attacks, and threats on the battlefield.<!-- Summary End --></p>",
     "accessories": [],
     "categories": ["protections", "armor"],
     "sources": [{
@@ -964,7 +964,7 @@
     "techLevel": 12,
     "qrebs": "N/A",
     "image": "",
-    "description": "<!-- Summary Start -->Combat armor is intended for medium-term operations (days) against an enemy force.<!-- Summary End -->",
+    "description": "<p><!-- Summary Start -->Combat armor is intended for medium-term operations (days) against an enemy force.<!-- Summary End --></p>",
     "accessories": [],
     "categories": ["protections", "armor"],
     "sources": [{
@@ -988,7 +988,7 @@
     "techLevel": 12,
     "qrebs": "N/A",
     "image": "",
-    "description": "Assault armor is a (relatively) lightweight systems is intended for short-term (hours) operations against an enemy force.",
+    "description": "<p><!-- Summary End -->Assault armor is a (relatively) lightweight systems is intended for short-term (hours) operations against an enemy force.<!-- Summary End --></p>",
     "accessories": [],
     "categories": ["protections", "armor"],
     "sources": [{
@@ -1012,7 +1012,7 @@
     "techLevel": 13,
     "qrebs": "N/A",
     "image": "",
-    "description": "<!-- Summary Start -->Drop armor is structured to protect against extreme temperatures during orbital reentry.<!-- Summary End -->",
+    "description": "<p><!-- Summary Start -->Drop armor is structured to protect against extreme temperatures during orbital reentry.<!-- Summary End --></p>",
     "accessories": [],
     "categories": ["protections", "armor"],
     "sources": [{
@@ -1036,7 +1036,7 @@
     "techLevel": 13,
     "qrebs": "N/A",
     "image": "",
-    "description": "<!-- Summary Start -->Environment armor includes a variety of protections against extreme envronmental conditions.<!-- Summary End -->",
+    "description": "<p><!-- Summary Start -->Environment armor includes a variety of protections against extreme envronmental conditions.<!-- Summary End --></p>",
     "accessories": [],
     "categories": ["protections", "armor"],
     "sources": [{
@@ -1060,7 +1060,7 @@
     "techLevel": 13,
     "qrebs": "N/A",
     "image": "",
-    "description": "<!-- Summary Start -->Combat armor is intended for medium-term operations (days) against an enemy force.<!-- Summary End -->",
+    "description": "<p><!-- Summary Start -->Combat armor is intended for medium-term operations (days) against an enemy force.<!-- Summary End --></p>",
     "accessories": [],
     "categories": ["protections", "armor"],
     "sources": [{
@@ -1084,7 +1084,7 @@
     "techLevel": 13,
     "qrebs": "N/A",
     "image": "",
-    "description": "Assault armor is a (relatively) lightweight systems is intended for short-term (hours) operations against an enemy force.",
+    "description": "<p><!-- Summary Start -->Assault armor is a (relatively) lightweight systems is intended for short-term (hours) operations against an enemy force.<!-- Summary End --></p>",
     "accessories": [],
     "categories": ["protections", "armor"],
     "sources": [{
@@ -1108,7 +1108,7 @@
     "techLevel": 13,
     "qrebs": "N/A",
     "image": "",
-    "description": "<!-- Summary Start -->Combat armor is intended for medium-term operations (days) against an enemy force.<!-- Summary End -->",
+    "description": "<p><!-- Summary Start -->Combat armor is intended for medium-term operations (days) against an enemy force.<!-- Summary End --></p>",
     "accessories": [],
     "categories": ["protections", "armor"],
     "sources": [{
@@ -1132,7 +1132,7 @@
     "techLevel": 13,
     "qrebs": "N/A",
     "image": "",
-    "description": "<!-- Summary Start -->Boarding armor for use in zero-G operations against interplanetary and interstellar vessels. AV 28 (MgT 15)<!-- Summary End -->",
+    "description": "<p><!-- Summary Start -->Boarding armor for use in zero-G operations against interplanetary and interstellar vessels.<!-- Summary End --> AV 28 (MgT 15)</p>",
     "accessories": [],
     "categories": ["protections", "armor"],
     "sources": [{
@@ -1156,7 +1156,7 @@
     "techLevel": 13,
     "qrebs": "N/A",
     "image": "",
-    "description": "<!-- Summary Start -->Drop armor is structured to protect against extreme temperatures during orbital reentry.<!-- Summary End -->",
+    "description": "<p><!-- Summary Start -->Drop armor is structured to protect against extreme temperatures during orbital reentry.<!-- Summary End --></p>",
     "accessories": [],
     "sources": [{
       "publication": "Traveller 5.10 Core Rules Book 1 : Characters and Combat",
@@ -1180,7 +1180,7 @@
     "techLevel": 13,
     "qrebs": "N/A",
     "image": "",
-    "description": "Battle armor incorporates protections against most dangers, attacks, and threats on the battlefield.",
+    "description": "<p><!-- Summary Start -->Battle armor incorporates protections against most dangers, attacks, and threats on the battlefield.<!-- Summary End --></p>",
     "accessories": [],
     "categories": ["protections", "armor"],
     "sources": [{
@@ -1204,7 +1204,7 @@
     "techLevel": 14,
     "qrebs": "N/A",
     "image": "",
-    "description": "Battle armor incorporates protections against most dangers, attacks, and threats on the battlefield.",
+    "description": "<p><!-- Summary Start -->Battle armor incorporates protections against most dangers, attacks, and threats on the battlefield.<!-- Summary End --></p>",
     "accessories": [],
     "categories": ["protections", "armor"],
     "sources": [{
@@ -1228,7 +1228,7 @@
     "techLevel": 14,
     "qrebs": "N/A",
     "image": "",
-    "description": "Battle armor incorporates protections against most dangers, attacks, and threats on the battlefield.",
+    "description": "<p><!-- Summary Start -->Battle armor incorporates protections against most dangers, attacks, and threats on the battlefield.<!-- Summary End --></p>",
     "accessories": [],
     "categories": ["protections", "armor"],
     "sources": [{
@@ -1252,7 +1252,7 @@
     "techLevel": 14,
     "qrebs": "N/A",
     "image": "",
-    "description": "<!-- Summary Start -->Boarding armor for use in zero-G operations against interplanetary and interstellar vessels. AV 28 (MgT 15)<!-- Summary End -->",
+    "description": "<p><!-- Summary Start -->Boarding armor for use in zero-G operations against interplanetary and interstellar vessels.<!-- Summary End --> AV 28 (MgT 15)</p>",
     "accessories": [],
     "categories": ["protections", "armor"],
     "sources": [{
@@ -1276,7 +1276,7 @@
     "techLevel": 15,
     "qrebs": "N/A",
     "image": "",
-    "description": "Assault armor is a (relatively) lightweight systems is intended for short-term (hours) operations against an enemy force.",
+    "description": "<p><!-- Summary Start -->Assault armor is a (relatively) lightweight systems is intended for short-term (hours) operations against an enemy force.<!-- Summary End --></p>",
     "accessories": [],
     "categories": ["protections", "armor"],
     "sources": [{
@@ -1300,7 +1300,7 @@
     "techLevel": 15,
     "qrebs": "N/A",
     "image": "",
-    "description": "Protected armor protects the wearer from most environmental threats.",
+    "description": "<p><!-- Summary Start -->Protected armor protects the wearer from most environmental threats.<!-- Summary End --></p>",
     "accessories": [],
     "categories": ["protections", "armor"],
     "sources": [{
@@ -1324,7 +1324,7 @@
     "techLevel": 15,
     "qrebs": "N/A",
     "image": "",
-    "description": "<!-- Summary Start -->Boarding armor for use in zero-G operations against interplanetary and interstellar vessels. AV 28 (MgT 15)<!-- Summary End -->",
+    "description": "<p><!-- Summary Start -->Boarding armor for use in zero-G operations against interplanetary and interstellar vessels.<!-- Summary End --> AV 28 (MgT 15)</p>",
     "accessories": [],
     "categories": ["protections", "armor"],
     "sources": [{
@@ -1348,7 +1348,7 @@
     "techLevel": 15,
     "qrebs": "N/A",
     "image": "",
-    "description": "Protected armor protects the wearer from most environmental threats.",
+    "description": "<p><!-- Summary Start -->Protected armor protects the wearer from most environmental threats.<!-- Summary End --></p>",
     "accessories": [],
     "categories": ["protections", "armor"],
     "sources": [{
@@ -1372,7 +1372,7 @@
     "techLevel": 16,
     "qrebs": "N/A",
     "image": "",
-    "description": "Assault armor is a (relatively) lightweight systems is intended for short-term (hours) operations against an enemy force.",
+    "description": "<p><!-- Summary Start -->Assault armor is a (relatively) lightweight systems is intended for short-term (hours) operations against an enemy force.<!-- Summary End --></p>",
     "accessories": [],
     "categories": ["protections", "armor"],
     "sources": [{
@@ -1396,7 +1396,7 @@
     "techLevel": 16,
     "qrebs": "N/A",
     "image": "",
-    "description": "Protected armor protects the wearer from most environmental threats.",
+    "description": "<p><!-- Summary Start -->Protected armor protects the wearer from most environmental threats.<!-- Summary End --></p>",
     "accessories": [],
     "categories": ["protections", "armor"],
     "sources": [{
@@ -1420,7 +1420,7 @@
     "techLevel": 16,
     "qrebs": "N/A",
     "image": "",
-    "description": "Assault armor is a (relatively) lightweight systems is intended for short-term (hours) operations against an enemy force.",
+    "description": "<p><!-- Summary Start -->Assault armor is a (relatively) lightweight systems is intended for short-term (hours) operations against an enemy force.<!-- Summary End --></p>",
     "accessories": [],
     "categories": ["protections", "armor"],
     "sources": [{
@@ -1444,7 +1444,7 @@
     "techLevel": 16,
     "qrebs": "N/A",
     "image": "",
-    "description": "Protected armor protects the wearer from most environmental threats.",
+    "description": "<p><!-- Summary Start -->Protected armor protects the wearer from most environmental threats.<!-- Summary End --></p>",
     "accessories": [],
     "categories": ["protections", "armor"],
     "sources": [{
@@ -1468,7 +1468,7 @@
     "techLevel": 16,
     "qrebs": "N/A",
     "image": "",
-    "description": "Protected armor protects the wearer from most environmental threats.",
+    "description": "<p><!-- Summary Start -->Protected armor protects the wearer from most environmental threats.<!-- Summary End --></p>",
     "accessories": [],
     "categories": ["protections", "armor"],
     "sources": [{
@@ -1492,7 +1492,7 @@
     "techLevel": 16,
     "qrebs": "N/A",
     "image": "",
-    "description": "Protected armor protects the wearer from most environmental threats.",
+    "description": "<p><!-- Summary Start -->Protected armor protects the wearer from most environmental threats.<!-- Summary End --></p>",
     "accessories": [],
     "categories": ["protections", "armor"],
     "sources": [{
@@ -1516,7 +1516,7 @@
     "techLevel": 17,
     "qrebs": "N/A",
     "image": "",
-    "description": "Protected armor protects the wearer from most environmental threats.",
+    "description": "<p><!-- Summary start -->Protected armor protects the wearer from most environmental threats.<!-- Summary End --></p>",
     "accessories": [],
     "categories": ["protections", "armor"],
     "sources": [{
@@ -1540,7 +1540,7 @@
     "techLevel": 17,
     "qrebs": "N/A",
     "image": "",
-    "description": "Protected armor protects the wearer from most environmental threats.",
+    "description": "<p><!-- Summary Start -->Protected armor protects the wearer from most environmental threats.<!-- Summary End --></p>",
     "accessories": [],
     "categories": ["protections", "armor"],
     "sources": [{
@@ -1564,7 +1564,7 @@
     "techLevel": 18,
     "qrebs": "N/A",
     "image": "",
-    "description": "Protected armor protects the wearer from most environmental threats.",
+    "description": "<p><!-- Summary Start -->Protected armor protects the wearer from most environmental threats.<!-- Summary End --></p>",
     "accessories": [],
     "categories": ["protections", "armor"],
     "sources": [{
@@ -1588,7 +1588,7 @@
     "techLevel": 18,
     "qrebs": "N/A",
     "image": "",
-    "description": "Protected armor protects the wearer from most environmental threats.",
+    "description": "<p><!-- Summary Start -->Protected armor protects the wearer from most environmental threats.<!-- Summary End --></p>",
     "accessories": [],
     "categories": ["protections", "armor"],
     "sources": [{
@@ -1612,7 +1612,7 @@
     "techLevel": 9,
     "qrebs": "N/A",
     "image": "",
-    "description": "Assault armor is a (relatively) lightweight systems is intended for short-term (hours) operations against an enemy force.",
+    "description": "<p><!-- Summary Start -->Assault armor is a (relatively) lightweight systems is intended for short-term (hours) operations against an enemy force.<!-- Summary End --></p>",
     "accessories": [],
     "categories": ["protections", "armor"],
     "sources": [{
