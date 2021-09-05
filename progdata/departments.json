@@ -10,7 +10,7 @@
     "id": "020-000",
     "label": "Comms",
     "description": "Telecommunication equipment.",
-    "data": ". src/_data/comm-products.json",
+    "data": "./src/_data/comm-products.json",
     "icon": "comms.svg"
   },
   {
@@ -78,7 +78,6 @@
     "id": "100-000",
     "label": "Protections",
     "description": "Equipment to provide protection against hostile environments",
-    "data": "./src/_data/protections-products.json",
     "icon": "protections.svg"
   },
   {
@@ -144,28 +143,24 @@
     "id": "120-000",
     "label": "Sensory Aids",
     "description": "A collection of equipment to enhance the sophont's senses.",
-    "data": "./src/_data/sensory-aids-products.json",
     "icon": "sensory-aids.svg"
   },
   {
     "id": "130-000",
     "label": "Structures, Shelters",
     "description": "Permanent and temporary structures",
-    "data": "./src/_data/structures-shelters-products.json",
     "icon": "structures-shelters.svg"
   },
   {
     "id": "140-000",
     "label": "Tools & Toolkits",
     "description": "A collection of tools and toolkits.",
-    "data": "./src/tools-toolkits.json",
     "icon": "toolkits.svg"
   },
   {
     "id": "150-000",
     "label": "Vehicles",
     "description": "A collection of personal vehicles.",
-    "data": "./src/_data/vehicles-products.json",
     "icon": "vehicles.svg"
   },
   {
@@ -182,7 +177,6 @@
     "id": "160-000",
     "label": "Weapons",
     "description": "Melee Weapons, Blades and Guns.",
-    "data": "./src/_data/weapons-products.json",
     "icon": "weapons.svg"
   },
   {
