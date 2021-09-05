@@ -1,11 +1,12 @@
 const { src, dest, series, parallel, watch } = require("gulp");
-var sass = require('gulp-sass')(require('node-sass'));
+var sass = require("gulp-sass")(require("node-sass"));
 const path = require("path");
 const cp = require("child_process");
 const cssnano = require("gulp-cssnano");
 const uglify = require("gulp-uglify");
 const rename = require("gulp-rename");
 const imagemin = require("gulp-imagemin");
+const imageminMozjpeg = require('imagemin-mozjpeg');
 const htmlmin = require("gulp-htmlmin");
 const sitemap = require("gulp-sitemap");
 const save = require("gulp-save");
@@ -17,7 +18,7 @@ const glob = require("glob");
 const fs = require("fs");
 const del = require("del");
 const miniSearch = require("minisearch");
-
+const readdirp = require("readdirp");
 
 // determine whether the operating system is Windows or a Unix variant
 const platform = process.platform;
@@ -29,18 +30,18 @@ let INDEX_OUTPUT_DIRECTORY = "";
 
 // Use Eleventy to build the site in the 'build' folder
 const render = (cb) => {
-  process.env.ELEVENTY_DEST = './build'
-  process.env.ELEVENTY_PREFIX=''
+  process.env.ELEVENTY_DEST = "./build";
+  process.env.ELEVENTY_PREFIX = "";
   INDEX_OUTPUT_DIRECTORY = "./build/data";
   // return cp.spawn("npx", ["eleventy", "--quiet"], { shell: true, stdio: "inherit"});
-  cb()
+  cb();
 };
 
 const render_prod = (cb) => {
   INDEX_OUTPUT_DIRECTORY = "./dist/data";
-  let buildType = "prod"
-  cp.execSync('npm run prod')
-  cb()
+  let buildType = "prod";
+  cp.execSync("npm run prod");
+  cb();
   // return cp.spawn("npm", ["run", buildType, "--quiet"], {
   //   shell: true,
   //   stdio: "inherit",
@@ -62,12 +63,14 @@ const processHTML = () => {
 // create SEO sitemap
 const siteMap = () => {
   console.log("Running siteMap");
-  return src("./dist/**/*.html", { read: false })
-    .pipe(save("before-sitemap"))
-    // .pipe(sitemap({ siteUrl: "https://cmcknight.github.io/central-supply-catalog/" }))
-    .pipe(removeEmptyLines())
-    .pipe(dest("./dist"))
-    .pipe(save.restore("before-sitemap"));
+  return (
+    src("./dist/**/*.html", { read: false })
+      .pipe(save("before-sitemap"))
+      // .pipe(sitemap({ siteUrl: "https://cmcknight.github.io/central-supply-catalog/" }))
+      .pipe(removeEmptyLines())
+      .pipe(dest("./dist"))
+      .pipe(save.restore("before-sitemap"))
+  );
 };
 
 // process SASS files (autoprefix for cross-browser compatibility, minify)
@@ -79,7 +82,7 @@ const processSASS = () => {
     .pipe(rename({ suffix: ".min" }))
     .pipe(cssnano())
     .pipe(dest("./dist/css"));
-    cb();
+  cb();
 };
 
 // process Javascript files (babel for cross-browser compatiblity, minify)
@@ -97,7 +100,7 @@ const optimizeImages = () => {
     .pipe(
       imagemin([
         imagemin.gifsicle({ interlaced: true }),
-        imagemin.mozjpeg({ quality: 50, progressive: true }),
+        imageminMozjpeg({ quality: 50, progressive: true }),
         imagemin.optipng({ optimizationLevel: 5 }),
         imagemin.svgo({
           plugins: [{ removeViewBox: true }, { cleanupIDs: false }],
@@ -171,7 +174,7 @@ exports.clean_prod = cleanProd;
 
 // Build the site index from the HTML files
 const buildIndex = () => {
-  const inputFiles = JSON.parse(fs.readFileSync("src/_data/products-manifest.json"));
+  const inputFiles = JSON.parse(fs.readFileSync("progdata/departments.json"));
 
   console.log("In buildSiteIndex");
 
@@ -179,31 +182,33 @@ const buildIndex = () => {
 
   let ms = new miniSearch({
     fields: [
-      'sku',
-      'category',
-      'type', 
-      'subtype', 
-      'name', 
-      'description',
-      'cost',
-      'mass',
-      'size',
-      'techLevel',
-      'qrebs',
-      'tags'
-      ],
+      "sku",
+      "category",
+      "type",
+      "subtype",
+      "name",
+      "description",
+      "cost",
+      "mass",
+      "size",
+      "techLevel",
+      "qrebs",
+      "tags",
+    ],
     storeFields: ["sku", "name", "description", "cost"],
   });
 
-  inputFiles.forEach((file) => {
+  inputFiles.forEach((department) => {
     // get the products from the file
-    let products = JSON.parse(fs.readFileSync(`src/_data/${file}.json`));
+    if (department.data !== null && department.data !== undefined) {
+      let products = JSON.parse(fs.readFileSync(department.data));
 
-    // build search index object and add to search index
-    products.forEach((product) => {
-      product.id = idCounter++;
-      ms.add(product);
-    });
+      // build search index object and add to search index
+      products.forEach((product) => {
+        product.id = idCounter++;
+        ms.add(product);
+      });
+    }
   });
 
   // create the output directory
