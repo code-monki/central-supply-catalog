@@ -1,0 +1,288 @@
+[
+  {
+    "sku": "100-006-00001",
+    "type": "survival_items",
+    "subtype": "",
+    "name": "Fire Shield",
+    "mfr": "",
+    "cost": 100,
+    "mass": 2,
+    "size": 4,
+    "techLevel": 8,
+    "qrebs": "N/A",
+    "image": "",
+    "description": "<p><!-- Summary Start -->An advanced thermal blanket which also protects against fire.<!-- Summary End --></p>",
+    "categories": ["survival-items"],
+    "sources": [
+      {
+        "publication": "Traveller 5.10 Core Rules Book 3 : Worlds and Adventures",
+        "authors": ["Miller, Marc"],
+        "publisher": {
+          "name": "Far Future Enterprises",
+          "url": "https://farfuture.net"
+        }
+      }
+    ],
+    "tags": ["products", "survival-items"]
+  },
+  {
+    "sku": "100-006-00002",
+    "type": "survival_items",
+    "subtype": "",
+    "name": "Fire Suppressor",
+    "mfr": "",
+    "cost": 10,
+    "mass": 3,
+    "size": 4,
+    "techLevel": 7,
+    "qrebs": "N/A",
+    "image": "",
+    "description": "<p><!-- Summary Start -->Various types of fire extinguishers.<!-- Summary End --> Most often found as compressed gas tanks that operate either by spraying a heavy gas or a foaming agent. Higher TL versions may utilize more radical methods to extinguish a fire. It should also be noted that some classes of fire, such as electrical or chemical fires, require a specific type suppressant in order to extinguish them.</p>",
+    "categories": ["survival_items"],
+    "sources": [
+      {
+        "publication": "Traveller 5.10 Core Rules Book 3 : Worlds and Adventures",
+        "authors": ["Miller, Marc"],
+        "publisher": {
+          "name": "Far Future Enterprises",
+          "url": "https://farfuture.net"
+        }
+      }
+    ],
+    "tags": ["products", "survival_items"]
+  },
+  {
+    "sku": "100-006-00003",
+    "type": "survival_items",
+    "subtype": "",
+    "name": "Netting",
+    "mfr": "",
+    "cost": 100,
+    "mass": 2,
+    "size": 4,
+    "techLevel": 5,
+    "qrebs": "N/A",
+    "image": "",
+    "description": "<p><!-- Summary Start -->Used for camouflage, bug deflection, and other purposes.<!-- Summary End --> One bag contains enough netting to cover a 10-ton volume.</p>",
+    "categories": ["survival_items"],
+    "sources": [
+      {
+        "publication": "Traveller 5.10 Core Rules Book 3 : Worlds and Adventures",
+        "authors": ["Miller, Marc"],
+        "publisher": {
+          "name": "Far Future Enterprises",
+          "url": "https://farfuture.net"
+        }
+      }
+    ],
+    "tags": ["products", "survival_items"]
+  },
+  {
+    "sku": "100-006-00004",
+    "type": "survival_items",
+    "subtype": "",
+    "name": "Paint",
+    "mfr": "",
+    "cost": 10,
+    "mass": 4,
+    "size": 3,
+    "techLevel": 5,
+    "qrebs": "N/A",
+    "image": "",
+    "description": "<p><!-- Summary Start -->Artificial pigmentation in various application bases.<!-- Summary End --></p>",
+    "categories": ["survival_items"],
+    "sources": [
+      {
+        "publication": "Traveller 5.10 Core Rules Book 3 : Worlds and Adventures",
+        "authors": ["Miller, Marc"],
+        "publisher": {
+          "name": "Far Future Enterprises",
+          "url": "https://farfuture.net"
+        }
+      }
+    ],
+    "tags": ["products", "survival_items"]
+  },
+  {
+    "sku": "100-006-00005",
+    "type": "survival_items",
+    "subtype": "",
+    "name": "Pestguard",
+    "mfr": "",
+    "cost": 1,
+    "mass": 0.1,
+    "size": 1,
+    "techLevel": 7,
+    "qrebs": "N/A",
+    "image": "",
+    "description": "<p><!-- Summary Start -->Various types of insect repellent, keyed to common nuisance creatures found on a particular world.<!-- Summary End --></p>",
+    "categories": ["survival_items"],
+    "sources": [
+      {
+        "publication": "Traveller 5.10 Core Rules Book 3 : Worlds and Adventures",
+        "authors": ["Miller, Marc"],
+        "publisher": {
+          "name": "Far Future Enterprises",
+          "url": "https://farfuture.net"
+        }
+      }
+    ],
+    "tags": ["products", "survival_items"]
+  },
+  {
+    "sku": "100-006-00006",
+    "type": "survival_items",
+    "subtype": "",
+    "name": "Rescue Ball",
+    "mfr": "",
+    "cost": 9000,
+    "mass": 200,
+    "size": 6,
+    "techLevel": 10,
+    "qrebs": "N/A",
+    "image": "",
+    "description": "<p><!-- Summary Start -->A collapsed protective structure providing shelter in emergency situations.<!-- Summary End --> The ball will hold and support four individuals for a week. When folded, the rescue ball is a cylinder 5 cm in diameter and 10 cm long. When deployed, it forms a sphere two meters in diameter which contains a PowerCell-3 operated air recycler sufficient to last four peo- ple for one day. Access to the interior is through a conform- ing plastic seal which functions similarly to an air lock. In the event of explosive decompression or other loss of air, a rescue ball allows individuals not in possession of a vacc suit to survive until aid arrives. The user pulls a lanyard, climbs inside and seals the zip closure. The ball is made of a metal-coated plastic film for ease of location by radar and contains two liters of water, a first aid kit, and a transparent window through which the occupant may observe conditions outside the ball. Rescue balls provide some protection from stellar radiation and corrosive and insidious atmospheres for up to one day. Additional occupants will stress the system.</p>",
+    "categories": ["survival_items"],
+    "sources": [
+      {
+        "publication": "Traveller 5.10 Core Rules Book 3 : Worlds and Adventures",
+        "authors": ["Miller, Marc"],
+        "publisher": {
+          "name": "Far Future Enterprises",
+          "url": "https://farfuture.net"
+        }
+      }
+    ],
+    "tags": ["products", "survival_items"]
+  },
+  {
+    "sku": "100-006-00007",
+    "type": "survival_items",
+    "subtype": "",
+    "name": "Restraints",
+    "mfr": "",
+    "cost": 25,
+    "mass": 0.3,
+    "size": 3,
+    "techLevel": 3,
+    "qrebs": "N/A",
+    "image": "",
+    "description": "<p><!-- Summary Start -->Handcuffs, manipulator buffs, binders, or similar. Prevents use of hands/manipulators by a captive.<!-- Summary End --></p>",
+    "categories": ["survival_items"],
+    "sources": [
+      {
+        "publication": "Traveller 5.10 Core Rules Book 3 : Worlds and Adventures",
+        "authors": ["Miller, Marc"],
+        "publisher": {
+          "name": "Far Future Enterprises",
+          "url": "https://farfuture.net"
+        }
+      }
+    ],
+    "tags": ["products", "survival_items"]
+  },
+  {
+    "sku": "100-006-00008",
+    "type": "survival_items",
+    "subtype": "artifact",
+    "name": "Shimmercube",
+    "mfr": "",
+    "cost": 100000,
+    "mass": 2,
+    "size": 2,
+    "techLevel": 28,
+    "qrebs": "N/A",
+    "image": "",
+    "description": "<p><!-- Summary Start -->The Shimmercube projects a close field around the holder.<!-- Summary End --> Offers protection from vacuum, pressure, and temperature. It has a one day rebreather capability, and has the properties of Reflec.<!-- Summary End --></p>",
+    "categories": ["survival_items"],
+    "sources": [
+      {
+        "publication": "Traveller 5.10 Core Rules Book 3 : Worlds and Adventures",
+        "authors": ["Miller, Marc"],
+        "publisher": {
+          "name": "Far Future Enterprises",
+          "url": "https://farfuture.net"
+        }
+      }
+    ],
+    "tags": ["products", "survival_items"]
+  },
+  {
+    "sku": "100-006-00009",
+    "type": "survival_items",
+    "subtype": "",
+    "name": "Survival Bubble",
+    "mfr": "",
+    "cost": 600,
+    "mass": 3,
+    "size": 6,
+    "techLevel": 9,
+    "qrebs": "N/A",
+    "image": "",
+    "description": "<p><!-- Summary Start -->A large (2m diameter) plastic sphere with alternating clear and opaque panels, and a small oxygen tank (capable of supporting one person for two hours) for inflation.<!-- Summary End --> Access to the interior is through a conforming plastic seal which functions similarly to an air lock. The bubble can be used for life support in a vacuum (it can be moved by walking on the inside, treadmill fashion), and it can also be used for protection against weather or as a lifeboat on a sea surface.</p>",
+    "categories": ["survival_items"],
+    "sources": [
+      {
+        "publication": "Traveller 5.10 Core Rules Book 3 : Worlds and Adventures",
+        "authors": ["Miller, Marc"],
+        "publisher": {
+          "name": "Far Future Enterprises",
+          "url": "https://farfuture.net"
+        }
+      }
+    ],
+    "tags": ["products", "survival_items"]
+  },
+  {
+    "sku": "100-006-00010",
+    "type": "survival_items",
+    "subtype": "",
+    "name": "Thermal Blanket",
+    "mfr": "",
+    "cost": 50,
+    "mass": 1,
+    "size": 4,
+    "techLevel": 8,
+    "qrebs": "N/A",
+    "image": "",
+    "description": "<p><!-- Summary Start -->A basic reflective sheet which protects against Hot or Cold. <!-- Summary End --></p>",
+    "categories": ["survival_items"],
+    "sources": [
+      {
+        "publication": "Traveller 5.10 Core Rules Book 3 : Worlds and Adventures",
+        "authors": ["Miller, Marc"],
+        "publisher": {
+          "name": "Far Future Enterprises",
+          "url": "https://farfuture.net"
+        }
+      }
+    ],
+    "tags": ["products", "survival_items"]
+  },
+  {
+    "sku": "100-006-00011",
+    "type": "survival_items",
+    "subtype": "",
+    "name": "Wall Patches",
+    "mfr": "",
+    "cost": 150,
+    "mass": 4,
+    "size": 2,
+    "techLevel": 10,
+    "qrebs": "N/A",
+    "image": "",
+    "description": "<p><!-- Summary Start -->Steel-backed plastic patches faced with adhesive, activated by peeling off a backing and placing the patch over a hole or leak.<!-- Summary End --> These will serve for several days.</p>",
+    "categories": ["survival_items"],
+    "sources": [
+      {
+        "publication": "Traveller 5.10 Core Rules Book 3 : Worlds and Adventures",
+        "authors": ["Miller, Marc"],
+        "publisher": {
+          "name": "Far Future Enterprises",
+          "url": "https://farfuture.net"
+        }
+      }
+    ],
+    "tags": ["products", "survival_items"]
+  }
+]

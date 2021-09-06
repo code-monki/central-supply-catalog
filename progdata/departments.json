@@ -117,8 +117,8 @@
   },
   {
     "id": "100-006",
-    "label": "Powered Armor",
-    "description": "Powered exoskeletal suits that augment the soldier's physical abilities and protection."
+    "label": "Survival Items",
+    "description": "Various survival items"
   },
   {
     "id": "110-000",
@@ -238,5 +238,10 @@
     "id": "160-012",
     "label": "Weapon Accessories",
     "description": "Accessories, optics, etc."
+  },
+  {
+    "id": "170-000",
+    "label": "Surface Gear",
+    "Description": "Cables, surface gear, etc."
   }
 ]
