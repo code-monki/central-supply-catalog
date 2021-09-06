@@ -82,6 +82,14 @@ module.exports = function (eleventyConfig) {
   })
 
   //-------------------------------------------------------------
+  // Convert numeric tech level to alphabetic character
+  //-------------------------------------------------------------
+  eleventyConfig.addFilter("convertTL", (techLevel) => {
+    const TL = "0123456789ABCDEFGHJKLMNPQRSTUVWXYZ";
+    return TL[techLevel];
+  })
+  
+  //-------------------------------------------------------------
   // Render the incoming content Markdown fragment as HTML
   //-------------------------------------------------------------
   eleventyConfig.addFilter("markdown", (content) => {
