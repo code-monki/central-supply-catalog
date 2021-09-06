@@ -3,5 +3,9 @@
   "todomd.webview.completedStrikeThrough": true,
   "todomd.webview.scrollbarOverflow": true,
   "terminal.explorerKind": "external",
-  "compile-hero.disable-compile-files-on-did-save-code": true
+  "compile-hero.disable-compile-files-on-did-save-code": true,
+  "editor.codeLens": false,
+  "workbench.iconTheme": "material-icon-theme",
+  "breadcrumbs.enabled": false,
+  "workbench.editor.closeOnFileDelete": true
 }
