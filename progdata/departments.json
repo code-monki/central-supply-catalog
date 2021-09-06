@@ -40,6 +40,19 @@
     "description": "Construction materials for the creation of a variety of structures and equipment."
   },
   {
+    "id": "190-000",
+    "label": "Containers",
+    "description": "Containers for solids, liquids, etc.",
+    "data": "./src/_data/container-products.json",
+    "icon": "containers.svg"
+  },
+  {
+    "id": "190-001",
+    "label": "Container Accessories",
+    "description": "Accessories for containers.",
+    "data": "./src/_data/container-products.json"
+  },
+  {
     "id": "120-000",
     "label": "Detectors",
     "description": "A collection of equipment to enhance the sophont's senses.",
