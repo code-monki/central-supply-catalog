@@ -74,6 +74,12 @@
     "icon": "food-drinks.svg"
   },
   {
+    "id": "180-000",
+    "label": "Non-Breathing Gases",
+    "data": "./src/_data/non-breathing-gas-products.json",
+    "icon": "non-breathing-gases.svg"
+  },
+  {
     "id": "090-000",
     "label": "Power Supplies",
     "description": "Devices that provide power.",
