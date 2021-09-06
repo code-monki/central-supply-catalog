@@ -59,7 +59,7 @@
             {% endif %}
             <tr>
               <td><strong>TL:</td>
-              <td>{{product.techLevel }}</td>
+              <td>{{product.techLevel | convertTL }}</td>
             </tr>
             <tr>
               <td><strong>Mass (Kg):</strong></td>
