@@ -152,6 +152,12 @@
     "icon": "structures-shelters.svg"
   },
   {
+    "id": "170-000",
+    "label": "Surface Gear",
+    "Description": "Cables, surface gear, etc.",
+    "icon": "surface-gear.svg"
+  },
+  {
     "id": "140-000",
     "label": "Tools & Toolkits",
     "description": "A collection of tools and toolkits.",
@@ -238,10 +244,5 @@
     "id": "160-012",
     "label": "Weapon Accessories",
     "description": "Accessories, optics, etc."
-  },
-  {
-    "id": "170-000",
-    "label": "Surface Gear",
-    "Description": "Cables, surface gear, etc."
   }
 ]

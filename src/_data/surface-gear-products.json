@@ -1,0 +1,341 @@
+[
+  {
+    "sku": "170-000-00001",
+    "type": "surface_gear",
+    "subtype": "",
+    "name": "Boots, Climbing",
+    "mfr": "",
+    "cost": 50,
+    "mass": 1.5,
+    "size": 3,
+    "techLevel": 4,
+    "qrebs": "N/A",
+    "image": "",
+    "description": "<p><!-- Summary Start -->Footwear optimized for climbing.<!-- Summary End --></p>",
+    "categories": ["surface_gear"],
+    "sources": [
+      {
+        "publication": "Traveller 5.10 Core Rules Book 3 : Worlds and Adventures",
+        "authors": ["Miller, Marc"],
+        "publisher": {
+          "name": "Far Future Enterprises",
+          "url": "https://farfuture.net"
+        }
+      }
+    ],
+    "tags": ["products", "surface_gear"]
+  },
+  {
+    "sku": "170-000-00002",
+    "type": "surface_gear",
+    "subtype": "",
+    "name": "Cable",
+    "mfr": "",
+    "cost": 25,
+    "mass": 6,
+    "size": 3,
+    "techLevel": 3,
+    "qrebs": "N/A",
+    "image": "",
+    "description": "<p><!-- Summary Start -->Steel cable<!-- Summary End --></p>",
+    "categories": ["surface_gear"],
+    "sources": [
+      {
+        "publication": "Traveller 5.10 Core Rules Book 3 : Worlds and Adventures",
+        "authors": ["Miller, Marc"],
+        "publisher": {
+          "name": "Far Future Enterprises",
+          "url": "https://farfuture.net"
+        }
+      }
+    ],
+    "tags": ["products", "surface_gear"]
+  },
+  {
+    "sku": "170-000-00003",
+    "type": "surface_gear",
+    "subtype": "",
+    "name": "Climbing Gear",
+    "mfr": "",
+    "cost": 75,
+    "mass": 2,
+    "size": 3,
+    "techLevel": 5,
+    "qrebs": "N/A",
+    "image": "",
+    "description": "<p><!-- Summary Start -->Mechanical equipment for climbing sheer surfaces.<!-- Summary End --> Includes sufficient lengths of cable (typically 25m), and typically supports 125Kg. This version has a ratcheted rope gripper which can be moved up a rope, but will not regress down.</p>",
+    "categories": ["surface_gear"],
+    "sources": [
+      {
+        "publication": "Traveller 5.10 Core Rules Book 3 : Worlds and Adventures",
+        "authors": ["Miller, Marc"],
+        "publisher": {
+          "name": "Far Future Enterprises",
+          "url": "https://farfuture.net"
+        }
+      }
+    ],
+    "tags": ["products", "surface_gear"]
+  },
+  {
+    "sku": "170-000-00004",
+    "type": "surface_gear",
+    "subtype": "",
+    "name": "Grapnel",
+    "mfr": "",
+    "cost": 15,
+    "mass": 2,
+    "size": 3,
+    "techLevel": 3,
+    "qrebs": "N/A",
+    "image": "",
+    "description": "<p><!-- Summary Start -->A three-pronged grapnel.<!-- Summary End --> A grapnel is a hook at the end of a line, which is used for attempting climbs up sheer pitches. Maximum range to throw a grapnel is about 30 meters, thus, seven separate climbs would complete a 200 meter pitch (planting the grapnel on a ledge or projection, climbing to it, then repeating). Grapnel climbing bypasses the procedure of sending up a lead climber; each climb is equivalent to a regular climb up emplaced ropes.</p>",
+    "categories": ["surface_gear"],
+    "sources": [
+      {
+        "publication": "Traveller 5.10 Core Rules Book 3 : Worlds and Adventures",
+        "authors": ["Miller, Marc"],
+        "publisher": {
+          "name": "Far Future Enterprises",
+          "url": "https://farfuture.net"
+        }
+      }
+    ],
+    "tags": ["products", "surface_gear"]
+  },
+  {
+    "sku": "170-000-00005",
+    "type": "surface_gear",
+    "subtype": "",
+    "name": "Grav Belt",
+    "mfr": "",
+    "cost": 100000,
+    "mass": 25,
+    "size": 4,
+    "techLevel": 10,
+    "qrebs": "N/A",
+    "image": "",
+    "description": "<p><!-- Summary Start -->A single lift module configured in a 5-point climbing harness for individual use (it carries up to 200 kg).<!-- Summary End -->  Powered by a Size 3 PowerCell, which provides one day of continuous op- eration, it can climb up to an altitude of 1 planetary diameter, or roughly 1 diameter from a gravity source. It can be used for limited mobility around the hull of a starship.</p>",
+    "categories": ["surface_gear"],
+    "accessories": ["090-000-00014"],
+    "sources": [
+      {
+        "publication": "Traveller 5.10 Core Rules Book 3 : Worlds and Adventures",
+        "authors": ["Miller, Marc"],
+        "publisher": {
+          "name": "Far Future Enterprises",
+          "url": "https://farfuture.net"
+        }
+      }
+    ],
+    "tags": ["products", "surface_gear"]
+  },
+  {
+    "sku": "170-000-00006",
+    "type": "surface_gear",
+    "subtype": "",
+    "name": "Ice Gear",
+    "mfr": "",
+    "cost": 100,
+    "mass": 4,
+    "size": 3,
+    "techLevel": 7,
+    "qrebs": "N/A",
+    "image": "",
+    "description": "<p><!-- Summary Start -->Gear for travelling through icy conditions.<!-- Summary End -->  Includes crampons: Special spiked attachments strapped to boots to assist in climbs in icy conditions. Wearing crampons decreases the difficulty of crossing ice. Also includes an ice axe, which is useful in making climbs in snow and ice.</p>",
+    "categories": ["surface_gear"],
+    "sources": [
+      {
+        "publication": "Traveller 5.10 Core Rules Book 3 : Worlds and Adventures",
+        "authors": ["Miller, Marc"],
+        "publisher": {
+          "name": "Far Future Enterprises",
+          "url": "https://farfuture.net"
+        }
+      }
+    ],
+    "tags": ["products", "surface_gear"]
+  },
+  {
+    "sku": "170-000-00007",
+    "type": "surface_gear",
+    "subtype": "",
+    "name": "Inertial Navigator",
+    "mfr": "",
+    "cost": 200,
+    "mass": 0.15,
+    "size": 2,
+    "techLevel": 7,
+    "qrebs": "N/A",
+    "image": "",
+    "description": "<p><!-- Summary Start -->A small (10cm x 6 cm x 1 cm) inertial navigation computer which allows the user to backtrack on his path by “remembering movements and turns.<!-- Summary End --> Switched on at the point from which the user sets out, it will allow him to find his way back later from any distance. A simple math function can also allow the user to determine a straight line distance and direction to his starting point no matter where he is.</p>",
+    "categories": ["surface_gear"],
+    "sources": [
+      {
+        "publication": "Traveller 5.10 Core Rules Book 3 : Worlds and Adventures",
+        "authors": ["Miller, Marc"],
+        "publisher": {
+          "name": "Far Future Enterprises",
+          "url": "https://farfuture.net"
+        }
+      }
+    ],
+    "tags": ["products", "surface_gear"]
+  },
+  {
+    "sku": "170-000-00008",
+    "type": "surface_gear",
+    "subtype": "",
+    "name": "Life Plate",
+    "mfr": "",
+    "cost": 50000,
+    "mass": 100,
+    "size": 4,
+    "techLevel": 10,
+    "qrebs": "N/A",
+    "image": "",
+    "description": "<p><!-- Summary Start -->A lifter-based floating plate that can slowly carry up to 1000 kg at an adjustable distance from the ground, from 10cm to 10m.<!-- Summary End --></p>",
+    "categories": ["surface_gear"],
+    "sources": [
+      {
+        "publication": "Traveller 5.10 Core Rules Book 3 : Worlds and Adventures",
+        "authors": ["Miller, Marc"],
+        "publisher": {
+          "name": "Far Future Enterprises",
+          "url": "https://farfuture.net"
+        }
+      }
+    ],
+    "tags": ["products", "surface_gear"]
+  },
+  {
+    "sku": "170-000-00009",
+    "type": "surface_gear",
+    "subtype": "",
+    "name": "Machete",
+    "mfr": "",
+    "cost": 125,
+    "mass": 1,
+    "size": 3,
+    "techLevel": 4,
+    "qrebs": "N/A",
+    "image": "",
+    "description": "<p><!-- Summary Start -->A strong blade used in cutting vegetation to clear paths, campsites, or vegetation. <!-- Summary End --></p>",
+    "categories": ["surface_gear"],
+    "sources": [
+      {
+        "publication": "Traveller 5.10 Core Rules Book 3 : Worlds and Adventures",
+        "authors": ["Miller, Marc"],
+        "publisher": {
+          "name": "Far Future Enterprises",
+          "url": "https://farfuture.net"
+        }
+      }
+    ],
+    "tags": ["products", "surface_gear"]
+  },
+  {
+    "sku": "170-000-00010",
+    "type": "surface_gear",
+    "subtype": "",
+    "name": "Mechanical Wings (Droyne)",
+    "mfr": "",
+    "cost": 100,
+    "mass": 1,
+    "size": 4,
+    "techLevel": 7,
+    "qrebs": "N/A",
+    "image": "",
+    "description": "<p><!-- Summary Start -->Simple, lightweight frameworks with fabric or plastic that will increase the wing span and surface area.<!-- Summary End --> Mechanical wings allow flight on worlds up to two sizes larger than usual atmo- sphere-based limits (standard atmosphere, up to world size 7; dense atmosphere, up to world size 9).</p><p>al- low flight on worlds up to two sizes larger than usual atmo- sphere-based limits (standard atmosphere, up to world size 7; dense atmosphere, up to world size 9).</p>",
+    "categories": ["surface_gear"],
+    "sources": [
+      {
+        "publication": "Traveller 5.10 Core Rules Book 3 : Worlds and Adventures",
+        "authors": ["Miller, Marc"],
+        "publisher": {
+          "name": "Far Future Enterprises",
+          "url": "https://farfuture.net"
+        }
+      }
+    ],
+    "tags": ["products", "surface_gear"]
+  },
+  {
+    "sku": "170-000-00011",
+    "type": "surface_gear",
+    "subtype": "",
+    "name": "Rope (TL 3)",
+    "mfr": "",
+    "cost": 25,
+    "mass": 3,
+    "size": 3,
+    "techLevel": 3,
+    "qrebs": "N/A",
+    "image": "",
+    "description": "<p><!-- Summary Start -->50 meter length of braided natural or synthetic fibers.<!-- Summary End --> Rope is a versatile tool that has no real replacement even at higher tech levels. It is the single most important element of a climber's equipment; it can be used to bind prisoners; it can add safety to water or ravine cross- ings. A variety of types and sizes are available; in general, however, they are all similar in reliability and price within any given tech level.</p>",
+    "categories": ["surface_gear"],
+    "sources": [
+      {
+        "publication": "Traveller 5.10 Core Rules Book 3 : Worlds and Adventures",
+        "authors": ["Miller, Marc"],
+        "publisher": {
+          "name": "Far Future Enterprises",
+          "url": "https://farfuture.net"
+        }
+      }
+    ],
+    "tags": ["products", "surface_gear"]
+  },
+  {
+    "sku": "170-000-00012",
+    "type": "surface_gear",
+    "subtype": "",
+    "name": "Rope (TL 3)",
+    "mfr": "",
+    "cost": 25,
+    "mass": 3,
+    "size": 3,
+    "techLevel": 9,
+    "qrebs": "N/A",
+    "image": "",
+    "description": "<p><!-- Summary Start -->50 meter length of fine flexible plasteel cable, capable of supporting kup to 250 kilograms.<!-- Summary End --> Rope is a versatile tool that has no real replacement even at higher tech levels. It is the single most important element of a climber's equipment; it can be used to bind prisoners; it can add safety to water or ravine cross- ings. A variety of types and sizes are available; in general, however, they are all similar in reliability and price within any given tech level.</p>",
+    "categories": ["surface_gear"],
+    "sources": [
+      {
+        "publication": "Traveller 5.10 Core Rules Book 3 : Worlds and Adventures",
+        "authors": ["Miller, Marc"],
+        "publisher": {
+          "name": "Far Future Enterprises",
+          "url": "https://farfuture.net"
+        }
+      }
+    ],
+    "tags": ["products", "surface_gear"]
+  },
+  {
+    "sku": "170-000-00013",
+    "type": "surface_gear",
+    "subtype": "",
+    "name": "Snowshoes",
+    "mfr": "",
+    "cost": 60,
+    "mass": 1,
+    "size": 3,
+    "techLevel": 1,
+    "qrebs": "N/A",
+    "image": "",
+    "description": "<p><!-- Summary Start -->Large, somewhat awkward, but highly effective, snowshoes permit a character to increase speed over snow by 50 percent.<!-- Summary End --></p>",
+    "categories": ["surface_gear"],
+    "sources": [
+      {
+        "publication": "Traveller 5.10 Core Rules Book 3 : Worlds and Adventures",
+        "authors": ["Miller, Marc"],
+        "publisher": {
+          "name": "Far Future Enterprises",
+          "url": "https://farfuture.net"
+        }
+      }
+    ],
+    "tags": ["products", "surface_gear"]
+  }
+]
