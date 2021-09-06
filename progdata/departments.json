@@ -40,6 +40,12 @@
     "description": "Construction materials for the creation of a variety of structures and equipment."
   },
   {
+    "id": "120-000",
+    "label": "Detectors",
+    "description": "A collection of equipment to enhance the sophont's senses.",
+    "icon": "detectors.svg"
+  },
+  {
     "id": "050-000",
     "label": "Drugs, Medical",
     "description": "Prescription pharmaceuticals, Medical equipment.",
@@ -138,12 +144,6 @@
     "label": "Strangeforms",
     "data": "./src/_data/robots-products.json",
     "description": "Oddly shaped automous and semi-autonomous machines."
-  },
-  {
-    "id": "120-000",
-    "label": "Sensory Aids",
-    "description": "A collection of equipment to enhance the sophont's senses.",
-    "icon": "sensory-aids.svg"
   },
   {
     "id": "130-000",
