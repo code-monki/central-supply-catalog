@@ -1,0 +1,886 @@
+[
+  {
+    "sku": "140-000-00001",
+    "type": "toolkits",
+    "subtype": "portable",
+    "name": "Wood Craftsman Toolkit (Portable)",
+    "mfr": "",
+    "cost": 150,
+    "mass": 2,
+    "size": 2,
+    "techLevel": 3,
+    "qrebs": "N/A",
+    "image": "",
+    "description": "<p><!-- Summary Start -->All the basic tools necessary to cut, shape, and build with wood.<!-- Summary End --></p>",
+    "categories": ["toolkits"],
+    "sources": [
+      {
+        "publication": "Traveller 5.10 Core Rules Book 3 : Worlds and Adventures",
+        "authors": ["Miller, Marc"],
+        "publisher": {
+          "name": "Far Future Enterprises",
+          "url": "https://farfuture.net"
+        }
+      }
+    ],
+    "tags": ["products", "toolkits"]
+  },
+  {
+    "sku": "140-000-00002",
+    "type": "toolkits",
+    "subtype": "portable",
+    "name": "Wood Craftsman Toolkit (Standard)",
+    "mfr": "",
+    "cost": 1500,
+    "mass": 10,
+    "size": 10,
+    "techLevel": 4,
+    "qrebs": "N/A",
+    "image": "",
+    "description": "<p><!-- Summary Start -->All the basic tools necessary to cut, shape, and build with wood.<!-- Summary End --></p>",
+    "categories": ["toolkits"],
+    "sources": [
+      {
+        "publication": "Traveller 5.10 Core Rules Book 3 : Worlds and Adventures",
+        "authors": ["Miller, Marc"],
+        "publisher": {
+          "name": "Far Future Enterprises",
+          "url": "https://farfuture.net"
+        }
+      }
+    ],
+    "tags": ["products", "toolkits"]
+  },
+  {
+    "sku": "140-000-00003",
+    "type": "toolkits",
+    "subtype": "",
+    "name": "Wood Craftsman Toolset / Toolchest",
+    "mfr": "",
+    "cost": 10000,
+    "mass": 50,
+    "size": 5,
+    "techLevel": 5,
+    "qrebs": "N/A",
+    "image": "",
+    "description": "<p><!-- Summary Start -->Standard toolchest with all of the tools necessary to cut, shape, and build with wood.<!-- Summary End --></p>",
+    "categories": ["toolkits"],
+    "sources": [
+      {
+        "publication": "",
+        "authors": [""],
+        "publisher": {
+        "name": "",
+        "url": ""
+        }
+      }
+    ],
+    "tags": ["products", "toolkits"]
+  },
+  {
+    "sku": "140-000-00004",
+    "type": "toolkits",
+    "subtype": "",
+    "name": "Wood Craftsman Workbench",
+    "mfr": "",
+    "cost": 100000,
+    "mass": 2000,
+    "size": 6,
+    "techLevel": 6,
+    "qrebs": "N/A",
+    "image": "",
+    "description": "<p><!-- Summary Start -->Standard workbench is an environmentally-controlled room full of equipment.><!-- Summary End --></p>",
+    "categories": ["toolkits"],
+    "sources": [
+      {
+        "publication": "",
+        "authors": [""],
+        "publisher": {
+        "name": "",
+        "url": ""
+        }
+      }
+    ],
+    "tags": ["products", "toolkits"]
+  },
+  {
+    "sku": "140-000-00005",
+    "type": "toolkits",
+    "subtype": "portable",
+    "name": "Stone Craftsman Toolkit (Portable)",
+    "mfr": "",
+    "cost": 150,
+    "mass": 2,
+    "size": 2,
+    "techLevel": 3,
+    "qrebs": "N/A",
+    "image": "",
+    "description": "<p><!-- Summary Start -->All the basic tools necessary to cut, shape, and build with stone.<!-- Summary End --></p>",
+    "categories": ["toolkits"],
+    "sources": [
+      {
+        "publication": "Traveller 5.10 Core Rules Book 3 : Worlds and Adventures",
+        "authors": ["Miller, Marc"],
+        "publisher": {
+          "name": "Far Future Enterprises",
+          "url": "https://farfuture.net"
+        }
+      }
+    ],
+    "tags": ["products", "toolkits"]
+  },
+  {
+    "sku": "140-000-00006",
+    "type": "toolkits",
+    "subtype": "portable",
+    "name": "Stone Craftsman Toolkit (Standard)",
+    "mfr": "",
+    "cost": 1500,
+    "mass": 10,
+    "size": 10,
+    "techLevel": 4,
+    "qrebs": "N/A",
+    "image": "",
+    "description": "<p><!-- Summary Start -->All the basic tools necessary to cut, shape, and build with stone.<!-- Summary End --></p>",
+    "categories": ["toolkits"],
+    "sources": [
+      {
+        "publication": "Traveller 5.10 Core Rules Book 3 : Worlds and Adventures",
+        "authors": ["Miller, Marc"],
+        "publisher": {
+          "name": "Far Future Enterprises",
+          "url": "https://farfuture.net"
+        }
+      }
+    ],
+    "tags": ["products", "toolkits"]
+  },
+  {
+    "sku": "140-000-00007",
+    "type": "toolkits",
+    "subtype": "",
+    "name": "Stone Craftsman Toolset / Toolchest",
+    "mfr": "",
+    "cost": 10000,
+    "mass": 50,
+    "size": 5,
+    "techLevel": 5,
+    "qrebs": "N/A",
+    "image": "",
+    "description": "<p><!-- Summary Start -->Standard toolchest with all of the tools necessary to cut, shape, and build with stone.<!-- Summary End --></p>",
+    "categories": ["toolkits"],
+    "sources": [
+      {
+        "publication": "",
+        "authors": [""],
+        "publisher": {
+        "name": "",
+        "url": ""
+        }
+      }
+    ],
+    "tags": ["products", "toolkits"]
+  },
+  {
+    "sku": "140-000-00008",
+    "type": "toolkits",
+    "subtype": "",
+    "name": "Stone Craftsman Workbench",
+    "mfr": "",
+    "cost": 100000,
+    "mass": 2000,
+    "size": 6,
+    "techLevel": 6,
+    "qrebs": "N/A",
+    "image": "",
+    "description": "<p><!-- Summary Start -->Standard workbench is an environmentally-controlled room full of equipment.><!-- Summary End --></p>",
+    "categories": ["toolkits"],
+    "sources": [
+      {
+        "publication": "",
+        "authors": [""],
+        "publisher": {
+        "name": "",
+        "url": ""
+        }
+      }
+    ],
+    "tags": ["products", "toolkits"]
+  },
+  {
+    "sku": "140-000-00009",
+    "type": "toolkits",
+    "subtype": "portable",
+    "name": "Metal Craftsman Toolkit (Portable)",
+    "mfr": "",
+    "cost": 150,
+    "mass": 2,
+    "size": 2,
+    "techLevel": 3,
+    "qrebs": "N/A",
+    "image": "",
+    "description": "<p><!-- Summary Start -->All the basic tools necessary to cut, shape, and build with metal.<!-- Summary End --></p>",
+    "categories": ["toolkits"],
+    "sources": [
+      {
+        "publication": "Traveller 5.10 Core Rules Book 3 : Worlds and Adventures",
+        "authors": ["Miller, Marc"],
+        "publisher": {
+          "name": "Far Future Enterprises",
+          "url": "https://farfuture.net"
+        }
+      }
+    ],
+    "tags": ["products", "toolkits"]
+  },
+  {
+    "sku": "140-000-00010",
+    "type": "toolkits",
+    "subtype": "portable",
+    "name": "Metal Craftsman Toolkit (Standard)",
+    "mfr": "",
+    "cost": 1500,
+    "mass": 10,
+    "size": 10,
+    "techLevel": 4,
+    "qrebs": "N/A",
+    "image": "",
+    "description": "<p><!-- Summary Start -->All the basic tools necessary to cut, shape, and build with metal.<!-- Summary End --></p>",
+    "categories": ["toolkits"],
+    "sources": [
+      {
+        "publication": "Traveller 5.10 Core Rules Book 3 : Worlds and Adventures",
+        "authors": ["Miller, Marc"],
+        "publisher": {
+          "name": "Far Future Enterprises",
+          "url": "https://farfuture.net"
+        }
+      }
+    ],
+    "tags": ["products", "toolkits"]
+  },
+  {
+    "sku": "140-000-00011",
+    "type": "toolkits",
+    "subtype": "",
+    "name": "Metal Craftsman Toolset / Toolchest",
+    "mfr": "",
+    "cost": 10000,
+    "mass": 50,
+    "size": 5,
+    "techLevel": 5,
+    "qrebs": "N/A",
+    "image": "",
+    "description": "<p><!-- Summary Start -->Standard toolchest with all of the tools necessary to cut, shape, and build with metal.<!-- Summary End --></p>",
+    "categories": ["toolkits"],
+    "sources": [
+      {
+        "publication": "",
+        "authors": [""],
+        "publisher": {
+        "name": "",
+        "url": ""
+        }
+      }
+    ],
+    "tags": ["products", "toolkits"]
+  },
+  {
+    "sku": "140-000-00012",
+    "type": "toolkits",
+    "subtype": "",
+    "name": "Metal Craftsman Workbench",
+    "mfr": "",
+    "cost": 100000,
+    "mass": 2000,
+    "size": 6,
+    "techLevel": 6,
+    "qrebs": "N/A",
+    "image": "",
+    "description": "<p><!-- Summary Start -->Standard workbench is an environmentally-controlled room full of equipment.><!-- Summary End --></p>",
+    "categories": ["toolkits"],
+    "sources": [
+      {
+        "publication": "",
+        "authors": [""],
+        "publisher": {
+        "name": "",
+        "url": ""
+        }
+      }
+    ],
+    "tags": ["products", "toolkits"]
+  },
+  {
+    "sku": "140-000-00013",
+    "type": "toolkits",
+    "subtype": "portable",
+    "name": "Electronics Toolkit (Portable)",
+    "mfr": "",
+    "cost": 150,
+    "mass": 2,
+    "size": 2,
+    "techLevel": 3,
+    "qrebs": "N/A",
+    "image": "",
+    "description": "<p><!-- Summary Start -->All the basic tools necessary to construct or repair electronic devices.<!-- Summary End --></p>",
+    "categories": ["toolkits"],
+    "sources": [
+      {
+        "publication": "Traveller 5.10 Core Rules Book 3 : Worlds and Adventures",
+        "authors": ["Miller, Marc"],
+        "publisher": {
+          "name": "Far Future Enterprises",
+          "url": "https://farfuture.net"
+        }
+      }
+    ],
+    "tags": ["products", "toolkits"]
+  },
+  {
+    "sku": "140-000-00014",
+    "type": "toolkits",
+    "subtype": "portable",
+    "name": "Electronics Toolkit (Standard)",
+    "mfr": "",
+    "cost": 1500,
+    "mass": 10,
+    "size": 10,
+    "techLevel": 4,
+    "qrebs": "N/A",
+    "image": "",
+    "description": "<p><!-- Summary Start -->All the basic tools necessary to construct or repair electronic devices.<!-- Summary End --></p>",
+    "categories": ["toolkits"],
+    "sources": [
+      {
+        "publication": "Traveller 5.10 Core Rules Book 3 : Worlds and Adventures",
+        "authors": ["Miller, Marc"],
+        "publisher": {
+          "name": "Far Future Enterprises",
+          "url": "https://farfuture.net"
+        }
+      }
+    ],
+    "tags": ["products", "toolkits"]
+  },
+  {
+    "sku": "140-000-00015",
+    "type": "toolkits",
+    "subtype": "",
+    "name": "Electronics Toolset / Toolchest",
+    "mfr": "",
+    "cost": 10000,
+    "mass": 50,
+    "size": 5,
+    "techLevel": 5,
+    "qrebs": "N/A",
+    "image": "",
+    "description": "<p><!-- Summary Start -->Standard toolchest with all of the tools necessary to construct or repair electronic devices.<!-- Summary End --></p>",
+    "categories": ["toolkits"],
+    "sources": [
+      {
+        "publication": "",
+        "authors": [""],
+        "publisher": {
+        "name": "",
+        "url": ""
+        }
+      }
+    ],
+    "tags": ["products", "toolkits"]
+  },
+  {
+    "sku": "140-000-00016",
+    "type": "toolkits",
+    "subtype": "",
+    "name": "Electronics Workbench",
+    "mfr": "",
+    "cost": 100000,
+    "mass": 2000,
+    "size": 6,
+    "techLevel": 6,
+    "qrebs": "N/A",
+    "image": "",
+    "description": "<p><!-- Summary Start -->Standard workbench is an environmentally-controlled room full of equipment.><!-- Summary End --></p>",
+    "categories": ["toolkits"],
+    "sources": [
+      {
+        "publication": "",
+        "authors": [""],
+        "publisher": {
+        "name": "",
+        "url": ""
+        }
+      }
+    ],
+    "tags": ["products", "toolkits"]
+  },
+  {
+    "sku": "140-000-00017",
+    "type": "toolkits",
+    "subtype": "portable",
+    "name": "Disguises (Portable)",
+    "mfr": "",
+    "cost": 150,
+    "mass": 2,
+    "size": 2,
+    "techLevel": 7,
+    "qrebs": "N/A",
+    "image": "",
+    "description": "<p><!-- Summary Start -->All the basic tools necessary to temporarily alter one's appearance.<!-- Summary End --></p>",
+    "categories": ["toolkits"],
+    "sources": [
+      {
+        "publication": "Traveller 5.10 Core Rules Book 3 : Worlds and Adventures",
+        "authors": ["Miller, Marc"],
+        "publisher": {
+          "name": "Far Future Enterprises",
+          "url": "https://farfuture.net"
+        }
+      }
+    ],
+    "tags": ["products", "toolkits"]
+  },
+  {
+    "sku": "140-000-00018",
+    "type": "toolkits",
+    "subtype": "portable",
+    "name": "Disguise Kit (Standard)",
+    "mfr": "",
+    "cost": 1500,
+    "mass": 10,
+    "size": 10,
+    "techLevel": 4,
+    "qrebs": "N/A",
+    "image": "",
+    "description": "<p><!-- Summary Start -->All the basic tools necessary to temporarily alter one's appearance.<!-- Summary End --></p>",
+    "categories": ["toolkits"],
+    "sources": [
+      {
+        "publication": "Traveller 5.10 Core Rules Book 3 : Worlds and Adventures",
+        "authors": ["Miller, Marc"],
+        "publisher": {
+          "name": "Far Future Enterprises",
+          "url": "https://farfuture.net"
+        }
+      }
+    ],
+    "tags": ["products", "toolkits"]
+  },
+  {
+    "sku": "140-000-00019",
+    "type": "toolkits",
+    "subtype": "",
+    "name": "Disguise Toolset / Toolchest",
+    "mfr": "",
+    "cost": 10000,
+    "mass": 50,
+    "size": 5,
+    "techLevel": 5,
+    "qrebs": "N/A",
+    "image": "",
+    "description": "<p><!-- Summary Start -->Standard toolchest with all of the tools necessary to temporarily alter one's appearance.<!-- Summary End --></p>",
+    "categories": ["toolkits"],
+    "sources": [
+      {
+        "publication": "",
+        "authors": [""],
+        "publisher": {
+        "name": "",
+        "url": ""
+        }
+      }
+    ],
+    "tags": ["products", "toolkits"]
+  },
+  {
+    "sku": "140-000-00020",
+    "type": "toolkits",
+    "subtype": "",
+    "name": "Disguise Workbench",
+    "mfr": "",
+    "cost": 100000,
+    "mass": 2000,
+    "size": 6,
+    "techLevel": 6,
+    "qrebs": "N/A",
+    "image": "",
+    "description": "<p><!-- Summary Start -->Standard workbench is an environmentally-controlled room full of equipment.><!-- Summary End --></p>",
+    "categories": ["toolkits"],
+    "sources": [
+      {
+        "publication": "",
+        "authors": [""],
+        "publisher": {
+        "name": "",
+        "url": ""
+        }
+      }
+    ],
+    "tags": ["products", "toolkits"]
+  },
+  {
+    "sku": "140-000-00021",
+    "type": "toolkits",
+    "subtype": "portable",
+    "name": "Medical Toolkit (Portable TL-3)",
+    "mfr": "",
+    "cost": 150,
+    "mass": 2,
+    "size": 2,
+    "techLevel": 3,
+    "qrebs": "N/A",
+    "image": "",
+    "description": "<p><!-- Summary Start -->All the basic tools necessary perform treat injuries in the field.<!-- Summary End --></p>",
+    "categories": ["toolkits"],
+    "sources": [
+      {
+        "publication": "Traveller 5.10 Core Rules Book 3 : Worlds and Adventures",
+        "authors": ["Miller, Marc"],
+        "publisher": {
+          "name": "Far Future Enterprises",
+          "url": "https://farfuture.net"
+        }
+      }
+    ],
+    "tags": ["products", "toolkits"]
+  },
+  {
+    "sku": "140-000-00022",
+    "type": "toolkits",
+    "subtype": "portable",
+    "name": "Medical Toolkit (Standard TL-4)",
+    "mfr": "",
+    "cost": 1500,
+    "mass": 10,
+    "size": 10,
+    "techLevel": 4,
+    "qrebs": "N/A",
+    "image": "",
+    "description": "<p><!-- Summary Start -->Modern medical tools containing drugs, resuscitation equipment, surgical supplies, and diagnostic materials. <!-- Summary End --> The kit is sufficient for both minor and serious wounds, and it can be used for the treatment of animal injuries, radiation burns, chemical burns, poisoning, and drug overdoses. TL 9+ versions include Skin Glue, which stops surface wounds and accelerates the healing process better than antibiotics and bandages.</p>",
+    "categories": ["toolkits"],
+    "sources": [
+      {
+        "publication": "Traveller 5.10 Core Rules Book 3 : Worlds and Adventures",
+        "authors": ["Miller, Marc"],
+        "publisher": {
+          "name": "Far Future Enterprises",
+          "url": "https://farfuture.net"
+        }
+      }
+    ],
+    "tags": ["products", "toolkits"]
+  },
+  {
+    "sku": "140-000-00023",
+    "type": "toolkits",
+    "subtype": "portable",
+    "name": "Medical Toolkit (Standard TL-9)",
+    "mfr": "",
+    "cost": 1500,
+    "mass": 10,
+    "size": 10,
+    "techLevel": 9,
+    "qrebs": "N/A",
+    "image": "",
+    "description": "<p><!-- Summary Start -->Modern medical tools containing drugs, resuscitation equipment, surgical supplies, and diagnostic materials. <!-- Summary End --> The kit is sufficient for both minor and serious wounds, and it can be used for the treatment of animal injuries, radiation burns, chemical burns, poisoning, and drug overdoses. TL 9+ versions include Skin Glue, which stops surface wounds and accelerates the healing process better than antibiotics and bandages.</p><p>All TL9+ medical kits come with a size 2 pocket (micro) med scanner.</p>",
+    "categories": ["toolkits"],
+    "sources": [
+      {
+        "publication": "Traveller 5.10 Core Rules Book 3 : Worlds and Adventures",
+        "authors": ["Miller, Marc"],
+        "publisher": {
+          "name": "Far Future Enterprises",
+          "url": "https://farfuture.net"
+        }
+      }
+    ],
+    "tags": ["products", "toolkits"]
+  },
+  {
+    "sku": "140-000-00024",
+    "type": "toolkits",
+    "subtype": "",
+    "name": "Medical Toolset / Toolchest (TL-5)",
+    "mfr": "",
+    "cost": 10000,
+    "mass": 50,
+    "size": 5,
+    "techLevel": 5,
+    "qrebs": "N/A",
+    "image": "",
+    "description": "<p><!-- Summary Start -->Modern medical tools containing drugs, resuscitation equipment, surgical supplies, and diagnostic materials. <!-- Summary End --> The kit is sufficient for both minor and serious wounds, and it can be used for the treatment of animal injuries, radiation burns, chemical burns, poisoning, and drug overdoses. TL 9+ versions include Skin Glue, which stops surface wounds and accelerates the healing process better than antibiotics and bandages.</p>",
+    "categories": ["toolkits"],
+    "sources": [
+      {
+        "publication": "",
+        "authors": [""],
+        "publisher": {
+        "name": "",
+        "url": ""
+        }
+      }
+    ],
+    "tags": ["products", "toolkits"]
+  },
+  {
+    "sku": "140-000-00025",
+    "type": "toolkits",
+    "subtype": "",
+    "name": "Medical Toolset / Toolchest (TL-9)",
+    "mfr": "",
+    "cost": 10000,
+    "mass": 50,
+    "size": 5,
+    "techLevel": 9,
+    "qrebs": "N/A",
+    "image": "",
+    "description": "<p><!-- Summary Start -->Modern medical tools containing drugs, resuscitation equipment, surgical supplies, and diagnostic materials. <!-- Summary End --> The kit is sufficient for both minor and serious wounds, and it can be used for the treatment of animal injuries, radiation burns, chemical burns, poisoning, and drug overdoses. TL 9+ versions include Skin Glue, which stops surface wounds and accelerates the healing process better than antibiotics and bandages.</p><p>All TL9+ medical kits come with a size 2 pocket (micro) med scanner.</p>",
+    "categories": ["toolkits"],
+    "sources": [
+      {
+        "publication": "",
+        "authors": [""],
+        "publisher": {
+        "name": "",
+        "url": ""
+        }
+      }
+    ],
+    "tags": ["products", "toolkits"]
+  },
+  {
+    "sku": "140-000-00026",
+    "type": "toolkits",
+    "subtype": "",
+    "name": "Medical Workbench",
+    "mfr": "",
+    "cost": 100000,
+    "mass": 2000,
+    "size": 6,
+    "techLevel": 6,
+    "qrebs": "N/A",
+    "image": "",
+    "description": "<p><!-- Summary Start -->Standard workbench is an environmentally-controlled room full of equipment.><!-- Summary End --></p>",
+    "categories": ["toolkits"],
+    "sources": [
+      {
+        "publication": "",
+        "authors": [""],
+        "publisher": {
+        "name": "",
+        "url": ""
+        }
+      }
+    ],
+    "tags": ["products", "toolkits"]
+  },
+  {
+    "sku": "140-000-00027",
+    "type": "toolkits",
+    "subtype": "portable",
+    "name": "Survival Toolkit (Portable)",
+    "mfr": "",
+    "cost": 150,
+    "mass": 2,
+    "size": 2,
+    "techLevel": 5,
+    "qrebs": "N/A",
+    "image": "",
+    "description": "<p><!-- Summary Start -->Basic survival tools.<!-- Summary End --> The portable survival kit includes:\n\n* Canteen\n* Compass\n* First aid kit\n* Salt tablets\n* Knife\n* Signal mirror\n* Water purification tablets</p>",
+    "categories": ["toolkits"],
+    "sources": [
+      {
+        "publication": "Traveller 5.10 Core Rules Book 3 : Worlds and Adventures",
+        "authors": ["Miller, Marc"],
+        "publisher": {
+          "name": "Far Future Enterprises",
+          "url": "https://farfuture.net"
+        }
+      }
+    ],
+    "tags": ["products", "toolkits"]
+  },
+  {
+    "sku": "140-000-00028",
+    "type": "toolkits",
+    "subtype": "portable",
+    "name": "Survival Toolkit (Standard)",
+    "mfr": "",
+    "cost": 1500,
+    "mass": 10,
+    "size": 10,
+    "techLevel": 5,
+    "qrebs": "N/A",
+    "image": "",
+    "description": "<p><!-- Summary Start -->Basic survival tools.<!-- Summary End --> The portable survival kit includes:\n\n* Canteen\n* Climbing gear (including rope)\n* Compass\n* First aid kit\n* Folding Shovel\n* Salt tablets\n* Knife\n* Signal mirror\n* Sturdy all-terrain boots\n* Water purification tablets\n* Water trap</p>",
+    "categories": ["toolkits"],
+    "sources": [
+      {
+        "publication": "Traveller 5.10 Core Rules Book 3 : Worlds and Adventures",
+        "authors": ["Miller, Marc"],
+        "publisher": {
+          "name": "Far Future Enterprises",
+          "url": "https://farfuture.net"
+        }
+      }
+    ],
+    "tags": ["products", "toolkits"]
+  },
+  {
+    "sku": "140-000-00029",
+    "type": "toolkits",
+    "subtype": "",
+    "name": "Locksmith / Intrusion Set (TL 3)",
+    "mfr": "",
+    "cost": 150,
+    "mass": 1,
+    "size": 2,
+    "techLevel": 3,
+    "qrebs": "N/A",
+    "image": "",
+    "description": "<p><!-- Summary Start -->A set of physical lockpicks, abrasive files., etc.<!-- Summary End --></p>",
+    "categories": ["toolkits"],
+    "sources": [
+      {
+        "publication": "Traveller 5.10 Core Rules Book 3 : Worlds and Adventures",
+        "authors": ["Miller, Marc"],
+        "publisher": {
+          "name": "Far Future Enterprises",
+          "url": "https://farfuture.net"
+        }
+      }
+    ],
+    "tags": ["products", "toolkits"]
+  },
+  {
+    "sku": "140-000-00030",
+    "type": "toolkits",
+    "subtype": "",
+    "name": "Locksmith / Intrusion Set (TL 4)",
+    "mfr": "",
+    "cost": 150,
+    "mass": 1,
+    "size": 2,
+    "techLevel": 4,
+    "qrebs": "N/A",
+    "image": "",
+    "description": "<p><!-- Summary Start -->A set of physical lockpicks, abrasive files., etc.<!-- Summary End --></p>",
+    "categories": ["toolkits"],
+    "sources": [
+      {
+        "publication": "Traveller 5.10 Core Rules Book 3 : Worlds and Adventures",
+        "authors": ["Miller, Marc"],
+        "publisher": {
+          "name": "Far Future Enterprises",
+          "url": "https://farfuture.net"
+        }
+      }
+    ],
+    "tags": ["products", "toolkits"]
+  },
+  {
+    "sku": "140-000-00031",
+    "type": "toolkits",
+    "subtype": "",
+    "name": "Locksmith / Intrusion Set (TL 5)",
+    "mfr": "",
+    "cost": 150,
+    "mass": 1,
+    "size": 2,
+    "techLevel": 5,
+    "qrebs": "N/A",
+    "image": "",
+    "description": "<p><!-- Summary Start -->A set of tools allowing the access and repair of secure installations.<!-- Summary End --></p>",
+    "categories": ["toolkits"],
+    "sources": [
+      {
+        "publication": "Traveller 5.10 Core Rules Book 3 : Worlds and Adventures",
+        "authors": ["Miller, Marc"],
+        "publisher": {
+          "name": "Far Future Enterprises",
+          "url": "https://farfuture.net"
+        }
+      }
+    ],
+    "tags": ["products", "toolkits"]
+  },
+  {
+    "sku": "140-000-00032",
+    "type": "toolkits",
+    "subtype": "",
+    "name": "Locksmith / Intrusion Set (TL 6)",
+    "mfr": "",
+    "cost": 150,
+    "mass": 1,
+    "size": 2,
+    "techLevel": 6,
+    "qrebs": "N/A",
+    "image": "",
+    "description": "<p><!-- Summary Start -->A set of tools allowing the access and repair of secure installations.<!-- Summary End --></p>",
+    "categories": ["toolkits"],
+    "sources": [
+      {
+        "publication": "Traveller 5.10 Core Rules Book 3 : Worlds and Adventures",
+        "authors": ["Miller, Marc"],
+        "publisher": {
+          "name": "Far Future Enterprises",
+          "url": "https://farfuture.net"
+        }
+      }
+    ],
+    "tags": ["products", "toolkits"]
+  },
+  {
+    "sku": "140-000-00033",
+    "type": "toolkits",
+    "subtype": "",
+    "name": "Locksmith / Intrusion Set (TL 7)",
+    "mfr": "",
+    "cost": 150,
+    "mass": 1,
+    "size": 2,
+    "techLevel": 7,
+    "qrebs": "N/A",
+    "image": "",
+    "description": "<p><!-- Summary Start -->A set of tools allowing the access and repair of secure installations.<!-- Summary End --></p>",
+    "categories": ["toolkits"],
+    "sources": [
+      {
+        "publication": "Traveller 5.10 Core Rules Book 3 : Worlds and Adventures",
+        "authors": ["Miller, Marc"],
+        "publisher": {
+          "name": "Far Future Enterprises",
+          "url": "https://farfuture.net"
+        }
+      }
+    ],
+    "tags": ["products", "toolkits"]
+  },
+  {
+    "sku": "140-000-00034",
+    "type": "toolkits",
+    "subtype": "",
+    "name": "Locksmith / Intrusion Set (TL 8)",
+    "mfr": "",
+    "cost": 150,
+    "mass": 1,
+    "size": 2,
+    "techLevel": 8,
+    "qrebs": "N/A",
+    "image": "",
+    "description": "<p><!-- Summary Start -->A set of tools allowing the access and repair of secure installations.<!-- Summary End --></p>",
+    "categories": ["toolkits"],
+    "sources": [
+      {
+        "publication": "Traveller 5.10 Core Rules Book 3 : Worlds and Adventures",
+        "authors": ["Miller, Marc"],
+        "publisher": {
+          "name": "Far Future Enterprises",
+          "url": "https://farfuture.net"
+        }
+      }
+    ],
+    "tags": ["products", "toolkits"]
+  }
+]

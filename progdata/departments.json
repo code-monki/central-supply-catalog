@@ -178,8 +178,8 @@
   },
   {
     "id": "140-000",
-    "label": "Tools & Toolkits",
-    "description": "A collection of tools and toolkits.",
+    "label": "Toolkits",
+    "description": "A collection of toolkits.",
     "icon": "toolkits.svg"
   },
   {
