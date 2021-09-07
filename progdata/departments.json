@@ -183,6 +183,12 @@
     "icon": "toolkits.svg"
   },
   {
+    "id": "200-000",
+    "label": "Uniques & Valuata",
+    "data": "./src/_data/uniques-products.json",
+    "icon": "uniques.svg"
+  },
+  {
     "id": "150-000",
     "label": "Vehicles",
     "description": "A collection of personal vehicles.",
