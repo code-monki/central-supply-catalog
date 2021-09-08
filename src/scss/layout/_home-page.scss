@@ -20,12 +20,12 @@
     position: fixed;
     left: 0;
     right: 0;
-    top: 11rem;
+    top: 8rem;
     bottom: 0;
     overflow-y: auto;
 
-    @include response(lg) {
-      top: 14rem;
+    @include response(md) {
+      top: 10rem;
     }
 
     & .row {
