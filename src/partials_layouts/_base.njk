@@ -1,7 +1,12 @@
 {% include '_head.njk' %}
 {% include '_site-header.njk' %}
 
-{{ content }}
+<main>
+  {% include '_sidenav.njk' %}
+
+    {{ content }}
+    
+</main>
 
 {% include '_site-footer.njk' %}
 {% include '_foot.njk' %}
