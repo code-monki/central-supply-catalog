@@ -1,0 +1,16 @@
+.missing-page-main {
+  position: fixed;
+  top: 8rem;
+  left: 0;
+  right: 0;
+  bottom: 5rem;
+  z-index: 2;
+  overflow: hidden;
+
+  & .crawl {
+    font-size: 150%;
+    margin-top: 5rem;
+    text-align: justify;
+  }
+}
+
