@@ -32,7 +32,7 @@
     "@babel/core": "^7.14.3",
     "@babel/preset-env": "^7.14.4",
     "babel-cli": "^6.26.0",
-    "browser-sync": "^2.26.14",
+    "browser-sync": "^2.27.5",
     "browserlist": "^1.0.1",
     "cheerio": "^1.0.0-rc.9",
     "chokidar": "^3.5.1",
@@ -61,6 +61,7 @@
     "npm-run-all": "^4.1.5",
     "optipng": "^3.0.0",
     "readdirp": "^3.6.0",
+    "sass": "^1.39.0",
     "svgo": "^2.3.0",
     "uglify": "^0.1.5"
   },
