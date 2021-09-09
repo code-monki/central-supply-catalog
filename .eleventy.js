@@ -7,21 +7,11 @@ const departmentsData = require("./progdata/departments.json");
 const slugify = require("slugify");
 const { config } = require("process");
 const { parse } = require("path");
+// const { text } = require("cheerio/lib/api/manipulation");
 
 // const basePath = process.env.ELEVENTY_ENV === "dev" ? "" : process.env.ELEVENTY_PREFIX;
 const basePath = "";
 const buildDest = process.env.ELEVENTY_DEST;
-
-// // Pre-build product arrays
-// const preBuildProducts = () => {
-//   const inputBase = path.join(__dirname, 'progdata', products);
-//   const outputBase = path.join(__dirname, 'progdata', 'src', '_data');
-
-//   console.log(inputbase);
-//   // get list of product department directories
-//   // const prodDirs = fs.readdirSync()
-// }
-
 
 module.exports = function (eleventyConfig) {
   const md = new markdownIt({ html: true });
@@ -70,14 +60,20 @@ module.exports = function (eleventyConfig) {
     let base = path.join(__dirname, 'src', '_data', 'protections');
 
     const files = fs.readdirSync(base).filter(file => path.extname(file) === '.json');
-    // console.log(files);
+    
     const protections = files.flatMap((file) => JSON.parse(fs.readFileSync(path.join(base, file))));
-    // console.log(`protections pre-sort ${protections}`);
     protections.sort((a,b) => (a.name < b.name) ? 1 : (a.name > b.name) ? 1 : 0);
-    // console.log(object);
+    return protections;
+  })
 
-    // fs.writeFileSync(JSON.stringify('collText.json', protections))
-    // console.log(`protections post-sort ${protections}`);
+  eleventyConfig.addCollection('vehicleProducts', (collectionApi) => {
+    let base = path.join(__dirname, 'src', '_data', 'vehicles');
+
+    const files = fs.readdirSync(base).filter(file => path.extname(file) === '.json');
+    const protections = files.flatMap((file) => JSON.parse(fs.readFileSync(path.join(base, file))));
+
+    protections.sort((a,b) => (a.name < b.name) ? 1 : (a.name > b.name) ? 1 : 0);
+    
     return protections;
   })
 
@@ -175,22 +171,35 @@ module.exports = function (eleventyConfig) {
     return text;
   });
 
-  //-------------------------------------------------------------
-  // build category cards for home page
-  //-------------------------------------------------------------
-  // eleventyConfig.addShortcode("buildCategoryCards", () => {
-  //   let text = `<div class="categories-container container">
-  //                 <div class="row">`;
-  //   categoriesData.forEach((category) => {
-  //     text += buildCategoryCard(category);
-  //   });
+  // //-------------------------------------------------------------
+  // // build stats table body
+  // //-------------------------------------------------------------
+  eleventyConfig.addShortcode('buildStatsBody', (stats) => {
 
-  //   text += `
-  //     </div>
-  //   </div>`;
+    let text = '  <tbody>';
+    let rows = (parseInt(stats.length / 2)) + (stats.length % 2);
 
-  //   return text;
-  // });
+    for (let ctr = 0; ctr < rows; ctr ++) {
+      text += `
+        <tr>
+          <td><strong>${stats[ctr].label}:</strong> ${stats[ctr].value}</td>`;
+      
+      if (stats[ctr+rows] !== null && stats[ctr+rows] !== undefined) {
+        text += `<td><strong>${stats[ctr+rows].label}:</strong> ${stats[ctr+rows].value}</td>`;
+      } else {
+        text += '<td></td>';
+      }
+
+      text += `
+        </tr>`;
+    }
+
+    text += `
+      </tbody>`;
+
+    return text;
+
+  })
 
   //-------------------------------------------------------------
   // Build Department cards
@@ -228,52 +237,9 @@ module.exports = function (eleventyConfig) {
 
 //----------------------------- End of main config function -------------------------------
 
-//-------------------------------------------------------------
-// Construct one category card
-//-------------------------------------------------------------
-// const buildCategoryCard = (category) => {
-//   let text = `<div class="cat-btn col s6 m4 l3 offset-l0 xl4">
-//                 <a href="#${urlSafe(
-//                   category.label
-//                 )}-modal" class="modal-trigger btn big-button black red-text flow-text">
-//                   <img src="img/${urlSafe(category.label)}.svg" alt="${category.label}"><br>${category.label}
-//                 </a>
-//               </div>
-              
-//               <div id="${urlSafe(category.label)}-modal" class="modal card-modal">
-//                 <div class="modal-content">
-//                   <a class="modal-close"><i class="material-icons right">close</i></a>
-                  
-//                   <h6>${category.label}</h6>
-                  
-//                   <div class="menu-lists">
-//                     <div>
-//                       <ul>`;
-//   category.departments.forEach((dept) => {
-//     let o = departmentsData.find((m) => m.id === dept);
-
-//     if (o !== undefined) {
-//       text += `<li><a href="${basePath}/departments/${urlSafe(o.label).toLowerCase().replace(" ", "-")}/">${
-//         o.label
-//       }</a></li>`;
-//     } else {
-//       // FIXME
-//       // console.log(`Undefined department: ${dept}`)
-//     }
-//   });
-
-//   text += `</ul>
-//   </div>
-//   </div>
-  
-//   </div>
-//   </div>`;
-
-//   return text;
-// };
 
 //-------------------------------------------------------------
-// Strip out any special characters from the URL
+// Strip out any special characters from the URL (for Windows)
 //-------------------------------------------------------------
 const urlSafe = (text) => {
   let txt = text
