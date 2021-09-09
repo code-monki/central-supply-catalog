@@ -1,0 +1,557 @@
+[
+  {
+    "sku": "150-000-00001",
+    "type": "vehicles",
+    "subtype": "",
+    "name": "GroundCar - Wheeled, Road-only (ROGC-W)",
+    "mfr": "",
+    "cost": 369000,
+    "techLevel": 6,
+    "qrebs": "N/A",
+    "displacement": 5,
+    "image": "",
+    "description": "<p><!-- Summary Start -->Standard wheeled ground car (ROGC-W).<!-- Summary End --></p>",
+    "stats": [
+      { "label": "Speed",      "value": 5 },
+      { "label": "Load",       "value": 1 },
+      { "label": "Armor",      "value": 0 },
+      { "label": "Cage",       "value": 0 },
+      { "label": "FlashProof", "value": 0 },
+      { "label": "RadProof",   "value": 3 },
+      { "label": "SoundProof", "value": 3 },
+      { "label": "PsiShield",  "value": 0 },
+      { "label": "Insulated",  "value": 3 },
+      { "label": "Sealed",     "value": 3 }
+    ],
+    "categories": ["vehicles"],
+    "sources": [
+      {
+        "publication": "Traveller 5.10 Core Rules Book 3 : Worlds and Adventures",
+        "authors": ["Miller, Marc"],
+        "publisher": {
+          "name": "Far Future Enterprises",
+          "url": "https://farfuture.net"
+        }
+      }
+    ],
+    "tags": ["products", "vehicles"]
+  },
+  {
+    "sku": "150-000-00002",
+    "type": "vehicles",
+    "subtype": "",
+    "name": "All Terrain Vehicle, Wheeled (ATV-W)",
+    "mfr": "",
+    "cost": 1449000,
+    "displacement": 8,
+    "techLevel": 6,
+    "qrebs": "N/A",
+    "image": "",
+    "description": "<p><!-- Summary Start -->Standard all-terrain wheeled vehicle.<!-- Summary End --></p>",
+    "stats": [
+      { "label": "Speed",      "value": 5 },
+      { "label": "Load",       "value": 3 },
+      { "label": "Armor",      "value": 20 },
+      { "label": "Cage",       "value": 10 },
+      { "label": "FlashProof", "value": 10 },
+      { "label": "RadProof",   "value": 13 },
+      { "label": "SoundProof", "value": 13 },
+      { "label": "PsiShield",  "value": 0 },
+      { "label": "Insulated",  "value": 23 },
+      { "label": "Sealed",     "value": 23 }
+    ],
+    "categories": ["vehicles"],
+    "sources": [
+      {
+        "publication": "Traveller 5.10 Core Rules Book 3 : Worlds and Adventures",
+        "authors": ["Miller, Marc"],
+        "publisher": {
+          "name": "Far Future Enterprises",
+          "url": "https://farfuture.net"
+        }
+      }
+    ],
+    "tags": ["products", "vehicles"]
+  },
+  {
+    "sku": "150-000-00003",
+    "type": "vehicles",
+    "subtype": "",
+    "name": "Off Road Vehicle, Lifter (ORV-Z)",
+    "mfr": "",
+    "cost": 1610000,
+    "displacement": 9,
+    "techLevel": 9,
+    "qrebs": "N/A",
+    "image": "",
+    "description": "<p><!-- Summary Start -->Standard off-road lifter vehicle.<!-- Summary End --></p>",
+    "stats": [
+      { "label": "Speed",      "value": 3 },
+      { "label": "Load",       "value": 3 },
+      { "label": "Armor",      "value": 20 },
+      { "label": "Cage",       "value": 10 },
+      { "label": "FlashProof", "value": 10 },
+      { "label": "RadProof",   "value": 13 },
+      { "label": "SoundProof", "value": 13 },
+      { "label": "PsiShield",  "value": 0 },
+      { "label": "Insulated",  "value": 23 },
+      { "label": "Sealed",     "value": 23 }
+    ],
+    "categories": ["vehicles"],
+    "sources": [
+      {
+        "publication": "Traveller 5.10 Core Rules Book 3 : Worlds and Adventures",
+        "authors": ["Miller, Marc"],
+        "publisher": {
+          "name": "Far Future Enterprises",
+          "url": "https://farfuture.net"
+        }
+      }
+    ],
+    "tags": ["products", "vehicles"]
+  },
+  {
+    "sku": "150-000-00004",
+    "type": "vehicles",
+    "subtype": "",
+    "name": "Off Road Vehice, Grav (ORV-G)",
+    "mfr": "",
+    "cost": 1771000,
+    "displacement": 7,
+    "techLevel": 10,
+    "qrebs": "N/A",
+    "image": "",
+    "description": "<p><!-- Summary Start -->Standard off-road grav vehicle.<!-- Summary End --></p>",
+    "stats": [
+      { "label": "Speed",      "value": 5 },
+      { "label": "Load",       "value": 3 },
+      { "label": "Armor",      "value": 20 },
+      { "label": "Cage",       "value": 10 },
+      { "label": "FlashProof", "value": 10 },
+      { "label": "RadProof",   "value": 13 },
+      { "label": "SoundProof", "value": 13 },
+      { "label": "PsiShield",  "value": 0 },
+      { "label": "Insulated",  "value": 23 },
+      { "label": "Sealed",     "value": 23 }
+    ],
+    "categories": ["vehicles"],
+    "sources": [
+      {
+        "publication": "Traveller 5.10 Core Rules Book 3 : Worlds and Adventures",
+        "authors": ["Miller, Marc"],
+        "publisher": {
+          "name": "Far Future Enterprises",
+          "url": "https://farfuture.net"
+        }
+      }
+    ],
+    "tags": ["products", "vehicles"]
+  },
+  {
+    "sku": "150-000-00005",
+    "type": "vehicles",
+    "subtype": "",
+    "name": "All Terrain Vehicle, Tracked (ATV-T)",
+    "mfr": "",
+    "cost": 1610000,
+    "displacement": 10,
+    "techLevel": 7,
+    "qrebs": "N/A",
+    "image": "",
+    "description": "<p><!-- Summary Start -->Standard tracked all-terrain vehicle.<!-- Summary End --></p>",
+    "stats": [
+      { "label": "Speed",      "value": 4 },
+      { "label": "Load",       "value": 3 },
+      { "label": "Armor",      "value": 20 },
+      { "label": "Cage",       "value": 10 },
+      { "label": "FlashProof", "value": 10 },
+      { "label": "RadProof",   "value": 13 },
+      { "label": "SoundProof", "value": 13 },
+      { "label": "PsiShield",  "value": 0  },
+      { "label": "Insulated",  "value": 23 },
+      { "label": "Sealed",     "value": 23 }
+    ],
+    "categories": ["vehicles"],
+    "sources": [
+      {
+        "publication": "Traveller 5.10 Core Rules Book 3 : Worlds and Adventures",
+        "authors": ["Miller, Marc"],
+        "publisher": {
+          "name": "Far Future Enterprises",
+          "url": "https://farfuture.net"
+        }
+      }
+    ],
+    "tags": ["products", "vehicles"]
+  },
+  {
+    "sku": "150-000-00006",
+    "type": "vehicles",
+    "subtype": "",
+    "name": "All Terrain Vehicle, Legged (ATV-L)",
+    "mfr": "",
+    "cost": 1449000,
+    "displacement": 8,
+    "techLevel": 6,
+    "qrebs": "N/A",
+    "image": "",
+    "description": "<p><!-- Summary Start -->Standard legged all-terrain vehicle.<!-- Summary End --></p>",
+    "stats": [
+      { "label": "Speed",      "value": 5 },
+      { "label": "Load",       "value": 3 },
+      { "label": "Armor",      "value": 20 },
+      { "label": "Cage",       "value": 10 },
+      { "label": "FlashProof", "value": 10 },
+      { "label": "RadProof",   "value": 13 },
+      { "label": "SoundProof", "value": 13 },
+      { "label": "PsiShield",  "value": 0 },
+      { "label": "Insulated",  "value": 23 },
+      { "label": "Sealed",     "value": 23 }
+    ],
+    "categories": ["vehicles"],
+    "sources": [
+      {
+        "publication": "Traveller 5.10 Core Rules Book 3 : Worlds and Adventures",
+        "authors": ["Miller, Marc"],
+        "publisher": {
+          "name": "Far Future Enterprises",
+          "url": "https://farfuture.net"
+        }
+      }
+    ],
+    "tags": ["products", "vehicles"]
+  },
+  {
+    "sku": "150-000-00007",
+    "type": "vehicles",
+    "subtype": "",
+    "name": "Recon Military Carrier, Tracked (MCR-T)",
+    "mfr": "combat",
+    "cost": 6000000,
+    "displacement": 8,
+    "techLevel": 7,
+    "qrebs": "N/A",
+    "image": "",
+    "description": "<p><!-- Summary Start -->Standard Tracked Military Recon Carrier<!-- Summary End --></p>",
+    "stats": [
+      { "label": "Speed",      "value": 5 },
+      { "label": "Load",       "value": 2 },
+      { "label": "Armor",      "value": 30 },
+      { "label": "Cage",       "value": 10 },
+      { "label": "FlashProof", "value": 10 },
+      { "label": "RadProof",   "value": 13 },
+      { "label": "SoundProof", "value": 23 },
+      { "label": "PsiShield",  "value": 0 },
+      { "label": "Insulated",  "value": 23 },
+      { "label": "Sealed",     "value": 23 }
+    ],
+    "categories": ["vehicles"],
+    "sources": [
+      {
+        "publication": "Traveller 5.10 Core Rules Book 3 : Worlds and Adventures",
+        "authors": ["Miller, Marc"],
+        "publisher": {
+          "name": "Far Future Enterprises",
+          "url": "https://farfuture.net"
+        }
+      }
+    ],
+    "tags": ["products", "vehicles"]
+  },
+  {
+    "sku": "150-000-00008",
+    "type": "vehicles",
+    "subtype": "combat",
+    "name": "Supply Military Vehicle, Tracked (MVS-T)",
+    "mfr": "",
+    "cost": 3000000,
+    "displacement": 10,
+    "techLevel": 7,
+    "qrebs": "N/A",
+    "image": "",
+    "description": "<p><!-- Summary Start -->Standard Tracked Military Supply Vehicle.<!-- Summary End --></p>",
+    "stats": [
+      { "label": "Speed",      "value": 4 },
+      { "label": "Load",       "value": 2 },
+      { "label": "Armor",      "value": 20 },
+      { "label": "Cage",       "value": 10 },
+      { "label": "FlashProof", "value": 10 },
+      { "label": "RadProof",   "value": 13 },
+      { "label": "SoundProof", "value": 23 },
+      { "label": "PsiShield",  "value": 0 },
+      { "label": "Insulated",  "value": 23 },
+      { "label": "Sealed",     "value": 23 }
+    ],
+    "categories": ["vehicles"],
+    "sources": [
+      {
+        "publication": "Traveller 5.10 Core Rules Book 3 : Worlds and Adventures",
+        "authors": ["Miller, Marc"],
+        "publisher": {
+          "name": "Far Future Enterprises",
+          "url": "https://farfuture.net"
+        }
+      }
+    ],
+    "tags": ["products", "vehicles"]
+  },
+  {
+    "sku": "150-000-00009",
+    "type": "vehicle",
+    "subtype": "combat",
+    "name": "Supply Military Trailer, Tracked (RS-T)",
+    "mfr": "",
+    "cost": 3000000,
+    "displacement": 13,
+    "techLevel": 7,
+    "qrebs": "N/A",
+    "image": "",
+    "description": "<p><!-- Summary Start -->Standard military supply trailer.<!-- Summary End --></p>",
+    "stats": [
+      { "label": "Speed",      "value": 3 },
+      { "label": "Load",       "value": 5 },
+      { "label": "Armor",      "value": 20 },
+      { "label": "Cage",       "value": 10 },
+      { "label": "FlashProof", "value": 10 },
+      { "label": "RadProof",   "value": 13 },
+      { "label": "SoundProof", "value": 23 },
+      { "label": "PsiShield",  "value": 0 },
+      { "label": "Insulated",  "value": 23 },
+      { "label": "Sealed",     "value": 23 }
+    ],
+    "categories": ["vehicle"],
+    "sources": [
+      {
+        "publication": "Traveller 5.10 Core Rules Book 3 : Worlds and Adventures",
+        "authors": ["Miller, Marc"],
+        "publisher": {
+          "name": "Far Future Enterprises",
+          "url": "https://farfuture.net"
+        }
+      }
+    ],
+    "tags": ["products", "vehicle"]
+  },
+  {
+    "sku": "150-000-00010",
+    "type": "vehicles",
+    "subtype": "combat",
+    "name": "Attack Flyer, Winged (AF-W)",
+    "mfr": "",
+    "cost": 3300000,
+    "displacement": 13,
+    "techLevel": 9,
+    "qrebs": "N/A",
+    "image": "",
+    "description": "<p><!-- Summary Start -->Atmospheric winged attack fighter.<!-- Summary End --></p>",
+    "stats": [
+      { "label": "Speed",      "value": 9 },
+      { "label": "Load",       "value": 4 },
+      { "label": "Armor",      "value": 20 },
+      { "label": "Cage",       "value": 0 },
+      { "label": "FlashProof", "value": 20 },
+      { "label": "RadProof",   "value": 3 },
+      { "label": "SoundProof", "value": 23 },
+      { "label": "PsiShield",  "value": 0 },
+      { "label": "Insulated",  "value": 13 },
+      { "label": "Sealed",     "value": 4 }
+    ],
+    "categories": ["vehicles"],
+    "sources": [
+      {
+        "publication": "Traveller 5.10 Core Rules Book 3 : Worlds and Adventures",
+        "authors": ["Miller, Marc"],
+        "publisher": {
+          "name": "Far Future Enterprises",
+          "url": "https://farfuture.net"
+        }
+      }
+    ],
+    "tags": ["products", "vehicles"]
+  },
+  {
+    "sku": "150-000-00011",
+    "type": "vehicles",
+    "subtype": "combat",
+    "name": "Attack Flyer, Rotor (AF-R)",
+    "mfr": "",
+    "cost": 4400000,
+    "displacement": 13,
+    "techLevel": 10,
+    "qrebs": "N/A",
+    "image": "",
+    "description": "<p><!-- Summary Start -->Standard rotor attack flyer.<!-- Summary End --></p>",
+    "stats": [
+      { "label": "Speed",      "value": 8 },
+      { "label": "Load",       "value": 1 },
+      { "label": "Armor",      "value": 20 },
+      { "label": "Cage",       "value": 0 },
+      { "label": "FlashProof", "value": 20 },
+      { "label": "RadProof",   "value": 3 },
+      { "label": "SoundProof", "value": 23 },
+      { "label": "PsiShield",  "value": 0 },
+      { "label": "Insulated",  "value": 13 },
+      { "label": "Sealed",     "value": 4 }
+    ],
+    "categories": ["vehicles"],
+    "sources": [
+      {
+        "publication": "Traveller 5.10 Core Rules Book 3 : Worlds and Adventures",
+        "authors": ["Miller, Marc"],
+        "publisher": {
+          "name": "Far Future Enterprises",
+          "url": "https://farfuture.net"
+        }
+      }
+    ],
+    "tags": ["products", "vehicles"]
+  },
+  {
+    "sku": "150-000-00012",
+    "type": "vehicles",
+    "subtype": "",
+    "name": "Utility Flyer, Rotor (UF-R)",
+    "mfr": "",
+    "cost": 7200000,
+    "displacement": 13,
+    "techLevel": 8,
+    "qrebs": "N/A",
+    "image": "",
+    "description": "<p><!-- Summary Start -->Standard rotor utility flyer.<!-- Summary End --></p>",
+    "stats": [
+      { "label": "Speed",      "value": 7 },
+      { "label": "Load",       "value": 1.5 },
+      { "label": "Armor",      "value": 0 },
+      { "label": "Cage",       "value": 0 },
+      { "label": "FlashProof", "value": 20 },
+      { "label": "RadProof",   "value": 3 },
+      { "label": "SoundProof", "value": 23 },
+      { "label": "PsiShield",  "value": 0 },
+      { "label": "Insulated",  "value": 13 },
+      { "label": "Sealed",     "value": 4 }
+    ],
+    "categories": ["vehicles"],
+    "sources": [
+      {
+        "publication": "Traveller 5.10 Core Rules Book 3 : Worlds and Adventures",
+        "authors": ["Miller, Marc"],
+        "publisher": {
+          "name": "Far Future Enterprises",
+          "url": "https://farfuture.net"
+        }
+      }
+    ],
+    "tags": ["products", "vehicles"]
+  },
+  {
+    "sku": "150-000-00013",
+    "type": "vehicles",
+    "subtype": "",
+    "name": "Utility Flyer, Flapper (UF-F)",
+    "mfr": "",
+    "cost": 9000000,
+    "displacement": 13,
+    "techLevel": 10,
+    "qrebs": "N/A",
+    "image": "",
+    "description": "<p><!-- Summary Start -->Standard utility flyer (ornithopter).<!-- Summary End --></p>",
+    "stats": [
+      { "label": "Speed",      "value": 6 },
+      { "label": "Load",       "value": 1.5 },
+      { "label": "Armor",      "value": 0 },
+      { "label": "Cage",       "value": 0 },
+      { "label": "FlashProof", "value": 20 },
+      { "label": "RadProof",   "value": 3 },
+      { "label": "SoundProof", "value": 23 },
+      { "label": "PsiShield",  "value": 0 },
+      { "label": "Insulated",  "value": 13 },
+      { "label": "Sealed",     "value": 4 }
+    ],
+    "categories": ["vehicles"],
+    "sources": [
+      {
+        "publication": "Traveller 5.10 Core Rules Book 3 : Worlds and Adventures",
+        "authors": ["Miller, Marc"],
+        "publisher": {
+          "name": "Far Future Enterprises",
+          "url": "https://farfuture.net"
+        }
+      }
+    ],
+    "tags": ["products", "vehicles"]
+  },
+  {
+    "sku": "150-000-00014",
+    "type": "vehicles",
+    "subtype": "",
+    "name": "Scientific Flyer, Flapper (SF-F)",
+    "mfr": "",
+    "cost": 5000000,
+    "displacement": 13,
+    "techLevel": 9,
+    "qrebs": "N/A",
+    "image": "",
+    "description": "<p><!-- Summary Start -->Standard scientific flyer (ornithopter).<!-- Summary End --></p>",
+    "stats": [
+      { "label": "Speed",      "value": 6 },
+      { "label": "Load",       "value": 1 },
+      { "label": "Armor",      "value": 5 },
+      { "label": "Cage",       "value": 0 },
+      { "label": "FlashProof", "value": 20 },
+      { "label": "RadProof",   "value": 3 },
+      { "label": "SoundProof", "value": 23 },
+      { "label": "PsiShield",  "value": 0 },
+      { "label": "Insulated",  "value": 13 },
+      { "label": "Sealed",     "value": 4 }
+    ],
+    "categories": ["vehicles"],
+    "sources": [
+      {
+        "publication": "Traveller 5.10 Core Rules Book 3 : Worlds and Adventures",
+        "authors": ["Miller, Marc"],
+        "publisher": {
+          "name": "Far Future Enterprises",
+          "url": "https://farfuture.net"
+        }
+      }
+    ],
+    "tags": ["products", "vehicles"]
+  },
+  {
+    "sku": "150-000-00015",
+    "type": "vehicles",
+    "subtype": "",
+    "name": "Cargo Flyer, Winged (CF-W)",
+    "mfr": "",
+    "cost": 2700000,
+    "displacement": 13,
+    "techLevel": 7,
+    "qrebs": "N/A",
+    "image": "",
+    "description": "<p><!-- Summary Start -->Atmospheric cargo flyer.<!-- Summary End --></p>",
+    "stats": [
+      { "label": "Speed",      "value": 8 },
+      { "label": "Load",       "value": 4 },
+      { "label": "Armor",      "value": 5 },
+      { "label": "Cage",       "value": 0 },
+      { "label": "FlashProof", "value": 20 },
+      { "label": "RadProof",   "value": 3 },
+      { "label": "SoundProof", "value": 23 },
+      { "label": "PsiShield",  "value": 0 },
+      { "label": "Insulated",  "value": 13 },
+      { "label": "Sealed",     "value": 4 }
+    ],
+    "categories": ["vehicles"],
+    "sources": [
+      {
+        "publication": "Traveller 5.10 Core Rules Book 3 : Worlds and Adventures",
+        "authors": ["Miller, Marc"],
+        "publisher": {
+          "name": "Far Future Enterprises",
+          "url": "https://farfuture.net"
+        }
+      }
+    ],
+    "tags": ["products", "vehicles"]
+  }
+]
