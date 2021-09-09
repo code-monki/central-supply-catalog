@@ -39,6 +39,10 @@
       <div class="description-content col s12 m9">
         <h5>Product Description</h5>
         {{ product.description | markdown | safe }}
+
+        {% if product.stats %}
+          {% include '_item-stats.njk' %}
+        {% endif %}
       </div>
 
       <div class="product-details col s12 m3">
@@ -61,16 +65,23 @@
               <td><strong>TL:</td>
               <td>{{product.techLevel | convertTL }}</td>
             </tr>
+            {% if product.mass %}
             <tr>
               <td><strong>Mass (Kg):</strong></td>
               <td>{{ product.mass }}</td>
             </tr>
+            {% endif %}
             {% if product.size %}
             <tr>
               <td><strong>Size:</strong></td>
               <td>{{ product.size }}</td>
             </tr>
             {% endif %}
+            {% if product.displacement %}
+            <tr>
+              <td><strong>Displacement (tons):</strong></td><td>{{ product.displacement }}</td>
+            </tr>
+            {% endif%}
             {% if product.qrebs %}
             <tr>
               <td><strong>QREBS:</strong></td>
