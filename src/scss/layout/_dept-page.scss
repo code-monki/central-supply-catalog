@@ -1,11 +1,11 @@
 .product-summary-section {
   position: fixed;
-  top: 4rem;
+  top: 5rem;
   left: 0;
   right: 0;
   bottom: 3rem;
 
-  @include response(lg) {
+  @include response(md) {
     top: 6rem;
   }
 
