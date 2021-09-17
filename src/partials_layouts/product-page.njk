@@ -40,7 +40,7 @@
         <h5>Product Description</h5>
         {{ product.description | markdown | safe }}
 
-        {% if product.stats %}
+        {% if product.stats | length > 0%}
           {% include '_item-stats.njk' %}
         {% endif %}
       </div>
@@ -86,6 +86,12 @@
             <tr>
               <td><strong>QREBS:</strong></td>
               <td>{{ product.qrebs }}</td>
+            </tr>
+            {% endif %}
+            {% if product.damage %}
+            <tr>
+              <td><strong>Damage Effect(s):</strong></td>
+              <td>{{ product.damage }}</td>
             </tr>
             {% endif %}
           </tbody>
