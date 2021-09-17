@@ -156,7 +156,7 @@ const monitor = () => {
 exports.default = series(
   cleanProd,
   render_prod,
-  buildSiteIndex,
+  // buildSiteIndex,
   processHTML,
   processSASS,
   processJavascript,
