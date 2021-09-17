@@ -14,3 +14,4 @@ Recheck search index generator
 Rework all search scripts to support new file structure
 Fix accessories generation {cm:2021-09-01}
 Fix units converter for product page prices {cm:2021-09-04}
+Write function to generate home page buttons sorted alphabetically.
