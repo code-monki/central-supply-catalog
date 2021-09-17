@@ -21,15 +21,34 @@ module.exports = function (eleventyConfig) {
   eleventyConfig.addPassthroughCopy("src/_data/*.idx");
   eleventyConfig.addPassthroughCopy("src/sw.js");
   eleventyConfig.addPassthroughCopy("src/img");
+  eleventyConfig.addPassthroughCopy("src/audio");
   eleventyConfig.setQuietMode(true);
   eleventyConfig.addWatchTarget("./src/scss");
+
+  //-------------------------------------------------------------
+  // Use local 404 page
+  //-------------------------------------------------------------
+  eleventyConfig.setBrowserSyncConfig({
+    callbacks: {
+      ready: function (err, bs) {
+        bs.addMiddleware("*", (req, res) => {
+          const content_404 = fs.readFileSync("build/404.html");
+          // Add 404 http status code in request header.
+          res.writeHead(404, { "Content-Type": "text/html; charset=UTF-8" });
+          // Provides the 404 content without redirect.
+          res.write(content_404);
+          res.end();
+        });
+      },
+    },
+  });
 
   //-------------------------------------------------------------
   // Create the cost label with the appropriate units
   //-------------------------------------------------------------
   eleventyConfig.addFilter("costLabel", (cost) => {
     let value = "";
-    let unitLabel = "Cr"
+    let unitLabel = "Cr";
     let modValue = cost;
 
     if (cost > 999999999999) {
@@ -48,34 +67,44 @@ module.exports = function (eleventyConfig) {
       unitLabel = `Cr`;
     }
 
-    displayValue = (modValue - Math.floor(modValue) !== 0) ? modValue.toFixed(3) : Math.trunc(modValue)
+    displayValue = modValue - Math.floor(modValue) !== 0 ? modValue.toFixed(3) : Math.trunc(modValue);
     return `${displayValue} ${unitLabel}`;
   });
-
 
   //-------------------------------------------------------------
   // Add custom collections
   //-------------------------------------------------------------
-  eleventyConfig.addCollection('protectionsProducts', (collectionApi) => {
-    let base = path.join(__dirname, 'src', '_data', 'protections');
+  eleventyConfig.addCollection("protectionsProducts", (collectionApi) => {
+    let base = path.join(__dirname, "src", "_data", "protections");
 
-    const files = fs.readdirSync(base).filter(file => path.extname(file) === '.json');
-    
+    const files = fs.readdirSync(base).filter((file) => path.extname(file) === ".json");
+
     const protections = files.flatMap((file) => JSON.parse(fs.readFileSync(path.join(base, file))));
-    protections.sort((a,b) => (a.name < b.name) ? 1 : (a.name > b.name) ? 1 : 0);
+    protections.sort((a, b) => (a.name < b.name ? 1 : a.name > b.name ? 1 : 0));
     return protections;
-  })
+  });
 
-  eleventyConfig.addCollection('vehicleProducts', (collectionApi) => {
-    let base = path.join(__dirname, 'src', '_data', 'vehicles');
+  eleventyConfig.addCollection("vehicleProducts", (collectionApi) => {
+    let base = path.join(__dirname, "src", "_data", "vehicles");
 
-    const files = fs.readdirSync(base).filter(file => path.extname(file) === '.json');
+    const files = fs.readdirSync(base).filter((file) => path.extname(file) === ".json");
     const protections = files.flatMap((file) => JSON.parse(fs.readFileSync(path.join(base, file))));
 
-    protections.sort((a,b) => (a.name < b.name) ? 1 : (a.name > b.name) ? 1 : 0);
-    
+    protections.sort((a, b) => (a.name < b.name ? 1 : a.name > b.name ? 1 : 0));
+
     return protections;
-  })
+  });
+
+  eleventyConfig.addCollection("weaponProducts", (collectionApi) => {
+    let base = path.join(__dirname, "src", "_data", "weapons");
+
+    const files = fs.readdirSync(base).filter((file) => path.extname(file) === ".json");
+    const protections = files.flatMap((file) => JSON.parse(fs.readFileSync(path.join(base, file))));
+
+    protections.sort((a, b) => (a.name < b.name ? 1 : a.name > b.name ? 1 : 0));
+
+    return protections;
+  });
 
   //-------------------------------------------------------------
   // Convert numeric tech level to alphabetic character
@@ -83,8 +112,8 @@ module.exports = function (eleventyConfig) {
   eleventyConfig.addFilter("convertTL", (techLevel) => {
     const TL = "0123456789ABCDEFGHJKLMNPQRSTUVWXYZ";
     return TL[techLevel];
-  })
-  
+  });
+
   //-------------------------------------------------------------
   // Render the incoming content Markdown fragment as HTML
   //-------------------------------------------------------------
@@ -119,7 +148,7 @@ module.exports = function (eleventyConfig) {
     if (mfr !== undefined) {
       res = `<a href="${mfr.url}" target="_blank">${mfr.name}</a>`;
     }
-    
+
     return res;
   });
 
@@ -174,20 +203,19 @@ module.exports = function (eleventyConfig) {
   // //-------------------------------------------------------------
   // // build stats table body
   // //-------------------------------------------------------------
-  eleventyConfig.addShortcode('buildStatsBody', (stats) => {
+  eleventyConfig.addShortcode("buildStatsBody", (stats) => {
+    let text = "  <tbody>";
+    let rows = parseInt(stats.length / 2) + (stats.length % 2);
 
-    let text = '  <tbody>';
-    let rows = (parseInt(stats.length / 2)) + (stats.length % 2);
-
-    for (let ctr = 0; ctr < rows; ctr ++) {
+    for (let ctr = 0; ctr < rows; ctr++) {
       text += `
         <tr>
           <td><strong>${stats[ctr].label}:</strong> ${stats[ctr].value}</td>`;
-      
-      if (stats[ctr+rows] !== null && stats[ctr+rows] !== undefined) {
-        text += `<td><strong>${stats[ctr+rows].label}:</strong> ${stats[ctr+rows].value}</td>`;
+
+      if (stats[ctr + rows] !== null && stats[ctr + rows] !== undefined) {
+        text += `<td><strong>${stats[ctr + rows].label}:</strong> ${stats[ctr + rows].value}</td>`;
       } else {
-        text += '<td></td>';
+        text += "<td></td>";
       }
 
       text += `
@@ -198,8 +226,7 @@ module.exports = function (eleventyConfig) {
       </tbody>`;
 
     return text;
-
-  })
+  });
 
   //-------------------------------------------------------------
   // Build Department cards
@@ -236,7 +263,6 @@ module.exports = function (eleventyConfig) {
 };
 
 //----------------------------- End of main config function -------------------------------
-
 
 //-------------------------------------------------------------
 // Strip out any special characters from the URL (for Windows)
