@@ -1,7 +1,7 @@
 [
   {
     "sku": "080-000-00001",
-    "type": "food-nutrients",
+    "type": "food drink",
     "subtype": "beverage",
     "name": "Energy Drink",
     "mfr": "",
@@ -12,7 +12,7 @@
     "qrebs": "N/A",
     "image": "",
     "description": "<p><!-- Summary Start -->Mild stimulants.<!-- Summary End --> One serving extends the day length of a sophont by 25% (including downtime). Earlier TL versions have a terrible aftertaste and result in next-day fatigue.</p>",
-    "category": ["food-drink"],
+    "category": ["food drink"],
     "sources": [
       {
         "publication": "Traveller 5.10 Core Rules Book 3 : Worlds and Adventures",
@@ -23,11 +23,11 @@
         }
       }
     ],
-    "tags": ["products", "food-nutrients"]
+    "tags": ["products", "food drink"]
   },
   {
     "sku": "080-000-00002",
-    "type": "food-nutrients",
+    "type": "food drink",
     "subtype": "equipment",
     "name": "Freezer, Flash (TL 8)",
     "mfr": "",
@@ -38,7 +38,7 @@
     "qrebs": "N/A",
     "image": "",
     "description": "<p><!-- Summary Start -->A unit which quickly freezes objects by subjecting them to cryogenic temperatures, avoiding damage to the cell membranes of stored food.<!-- Summary End --></p>",
-    "category": ["food-drink"],
+    "category": ["food drink"],
     "sources": [
       {
         "publication": "Traveller 5.10 Core Rules Book 3 : Worlds and Adventures",
@@ -49,11 +49,11 @@
         }
       }
     ],
-    "tags": ["products", "food-nutrients"]
+    "tags": ["products", "food drink"]
   },
   {
     "sku": "080-000-00003",
-    "type": "food-nutrients",
+    "type": "food drink",
     "subtype": "equipment",
     "name": "Freezer, Flash (TL 9)",
     "mfr": "",
@@ -64,7 +64,7 @@
     "qrebs": "N/A",
     "image": "",
     "description": "<p><!-- Summary Start -->A unit which quickly freezes objects by subjecting them to cryogenic temperatures, avoiding damage to the cell membranes of stored food.<!-- Summary End --></p>",
-    "category": ["food-drink"],
+    "category": ["food drink"],
     "sources": [
       {
         "publication": "Traveller 5.10 Core Rules Book 3 : Worlds and Adventures",
@@ -75,11 +75,11 @@
         }
       }
     ],
-    "tags": ["products", "food-nutrients"]
+    "tags": ["products", "food drink"]
   },
   {
     "sku": "080-000-00004",
-    "type": "food-nutrients",
+    "type": "food drink",
     "subtype": "equipment",
     "name": "Galley (Micro)",
     "mfr": "",
@@ -90,7 +90,7 @@
     "qrebs": "N/A",
     "image": "",
     "description": "<p><!-- Summary Start -->A portable galley.<!-- Summary End --></p><p>Includes: <ul><li> Sink</li><li>Dishwasher with various pots pans and dishes stored in it</li><li>A fast-cooking oven (at eye level)</li><li>1.0 meter x 0.5 meter counter top</li><li>Pull/fold out table 1 meter x 0.5 meter, seats two</li><li>Folding chairs under counter</li><li>Apartment sized refrigerator for keeping certain beverages cold</li><li>Under cabinet coffeepot (just below eye level). Just add dried dehydrate beverage of choice (makes one liter at a time)</li><li>Cabinets for ready to grab dry goods</li><li>Two burner induction stove</li><li>Cleaner bot stowed under the cabinets.</li></ul></p>",
-    "category": ["food-drink"],
+    "category": ["food drink"],
     "sources": [
       {
         "publication": "Traveller 5.10 Core Rules Book 3 : Worlds and Adventures",
@@ -101,11 +101,11 @@
         }
       }
     ],
-    "tags": ["products", "food-nutrients"]
+    "tags": ["products", "food drink"]
   },
   {
     "sku": "080-000-00005",
-    "type": "food-nutrients",
+    "type": "food drink",
     "subtype": "beverage",
     "name": "Juice, Bottled",
     "mfr": "",
@@ -116,7 +116,7 @@
     "qrebs": "N/A",
     "image": "",
     "description": "A bottle of juice.",
-    "category": ["food-drink"],
+    "category": ["food drink"],
     "sources": [
       {
         "publication": "Traveller 5.10 Core Rules Book 3 : Worlds and Adventures",
@@ -127,11 +127,11 @@
         }
       }
     ],
-    "tags": ["products", "food-nutrients"]
+    "tags": ["products", "food drink"]
   },
   {
     "sku": "080-000-00006",
-    "type": "food-nutrients",
+    "type": "food drink",
     "subtype": "",
     "name": "Rations",
     "mfr": "",
@@ -142,7 +142,7 @@
     "qrebs": "N/A",
     "image": "",
     "description": "<p><!-- Summary Start -->Self-heating rations which provide convenient, efficient, proper nutrition at the expense of flavor, texture, style, presentation, or other factors.<!-- Summary End --> Lower TL versions are military- grade MREs, which are not heated, or Combat Rations\n\nEmergency rations also tend to not need heating. Standard rations usually include a heated portion and tend to have the best flavor. Very low TL versions include jerky and hard tack, and may tend to omit vital long-term nutrients but will prevent starvation.</p>",
-    "category": ["food-drink"],
+    "category": ["food drink"],
     "sources": [
       {
         "publication": "Traveller 5.10 Core Rules Book 3 : Worlds and Adventures",
@@ -153,11 +153,11 @@
         }
       }
     ],
-    "tags": ["products", "food-nutrients"]
+    "tags": ["products", "food drink"]
   },
   {
     "sku": "080-000-00007",
-    "type": "food-nutrients",
+    "type": "food drink",
     "subtype": "equipment",
     "name": "Stasis Drawer",
     "mfr": "",
@@ -168,7 +168,7 @@
     "qrebs": "N/A",
     "image": "",
     "description": "<p><!-- Summary Start -->A unit for storing items in stasis.<!-- Summary End --> Battery life is based on device Quality. Unsafe units may cause loss of limbs.</p>",
-    "category": ["food-drink"],
+    "category": ["food drink"],
     "sources": [
       {
         "publication": "Traveller 5.10 Core Rules Book 3 : Worlds and Adventures",
@@ -179,11 +179,11 @@
         }
       }
     ],
-    "tags": ["products", "food-nutrients"]
+    "tags": ["products", "food drink"]
   },
   {
     "sku": "080-000-00008",
-    "type": "food-nutrients",
+    "type": "food drink",
     "subtype": "beverage",
     "name": "Water, Purified",
     "mfr": "",
@@ -194,7 +194,7 @@
     "qrebs": "N/A",
     "image": "",
     "description": "<p><!-- Summary Start -->Pure local water.<!-- Summary End --></p>",
-    "category": ["food-drink"],
+    "category": ["food drink"],
     "sources": [
       {
         "publication": "Traveller 5.10 Core Rules Book 3 : Worlds and Adventures",
@@ -205,11 +205,11 @@
         }
       }
     ],
-    "tags": ["products", "food-nutrients"]
+    "tags": ["products", "food drink"]
   },
   {
     "sku": "080-000-00009",
-    "type": "food-nutrients",
+    "type": "food drink",
     "subtype": "beverage",
     "name": "Water, Unpurified local",
     "mfr": "",
@@ -220,7 +220,7 @@
     "qrebs": "N/A",
     "image": "",
     "description": "<p><!-- Summary Start -->Local water – not so pure.<!-- Summary End --></p>",
-    "category": ["food-drink"],
+    "category": ["food drink"],
     "sources": [
       {
         "publication": "Traveller 5.10 Core Rules Book 3 : Worlds and Adventures",
@@ -231,11 +231,11 @@
         }
       }
     ],
-    "tags": ["products", "food-nutrients"]
+    "tags": ["products", "food drink"]
   },
   {
     "sku": "080-000-00010",
-    "type": "food-nutrients",
+    "type": "food drink",
     "subtype": "beverage",
     "name": "Water, Dirty Local",
     "mfr": "",
@@ -246,7 +246,7 @@
     "qrebs": "N/A",
     "image": "",
     "description": "<p><!-- Summary Start -->Dirty local water. Do not drink.<!-- Summary End --></p>",
-    "category": ["food-drink"],
+    "category": ["food drink"],
     "sources": [
       {
         "publication": "Traveller 5.10 Core Rules Book 3 : Worlds and Adventures",
@@ -257,11 +257,11 @@
         }
       }
     ],
-    "tags": ["products", "food-nutrients"]
+    "tags": ["products", "food drink"]
   },
   {
     "sku": "080-000-00011",
-    "type": "food-nutrients",
+    "type": "food drink",
     "subtype": "beverage",
     "name": "Water, Bottled",
     "mfr": "",
@@ -272,7 +272,7 @@
     "qrebs": "N/A",
     "image": "",
     "description": "<p><!-- Summary Start -->Bottled water.<!-- Summary End --></p>",
-    "category": ["food-drink"],
+    "category": ["food drink"],
     "sources": [
       {
         "publication": "Traveller 5.10 Core Rules Book 3 : Worlds and Adventures",
@@ -283,11 +283,11 @@
         }
       }
     ],
-    "tags": ["products", "food-nutrients"]
+    "tags": ["products", "food drink"]
   },
   {
     "sku": "080-000-00012",
-    "type": "food-nutrients",
+    "type": "food drink",
     "subtype": "beverage",
     "name": "Water, Carbonated",
     "mfr": "",
@@ -298,7 +298,7 @@
     "qrebs": "N/A",
     "image": "",
     "description": "<p><!-- Summary Start -->Carbonated water.<!-- Summary End --></p>",
-    "category": ["food-drink"],
+    "category": ["food drink"],
     "sources": [
       {
         "publication": "Traveller 5.10 Core Rules Book 3 : Worlds and Adventures",
@@ -309,11 +309,11 @@
         }
       }
     ],
-    "tags": ["products", "food-nutrients"]
+    "tags": ["products", "food drink"]
   },
   {
     "sku": "080-000-00013",
-    "type": "food-nutrients",
+    "type": "food drink",
     "subtype": "beverage",
     "name": "Water, Flavored",
     "mfr": "",
@@ -324,7 +324,7 @@
     "qrebs": "N/A",
     "image": "",
     "description": "<p><!-- Summary Start -->Flavored water.<!-- Summary End --></p>",
-    "category": ["food-drink"],
+    "category": ["food drink"],
     "sources": [
       {
         "publication": "Traveller 5.10 Core Rules Book 3 : Worlds and Adventures",
@@ -335,6 +335,6 @@
         }
       }
     ],
-    "tags": ["products", "food-nutrients"]
+    "tags": ["products", "food drink"]
   }
 ]

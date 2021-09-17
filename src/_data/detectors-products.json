@@ -167,7 +167,7 @@
     "techLevel": 5,
     "qrebs": "N/A",
     "image": "",
-    "description": "<p><!-- Summary Start -->SLR/DSLR camera.<!-- Summary End --> The camera records still images on analog (SLR) or digital (DLSR) media. Cameras normally require a certain level of ambient luminosity to function although there are specialized cameras that work in non-visible spectra.</p>",
+    "description": "<p><!-- Summary Start -->SLR/DSLR camera.<!-- Summary End --> The camera records still images on analog (SLR) or digital (DSLR) media. Cameras normally require a certain level of ambient luminosity to function although there are specialized cameras that work in non-visible spectra.</p>",
     "categories": ["detectors"],
     "sources": [
       {
@@ -297,7 +297,7 @@
     "techLevel": 12,
     "qrebs": "N/A",
     "image": "",
-    "description": "<p><!-- Summary Start -->Field Sensors are multi-purpose detectors sensitive to electric and magnetic fields. They operate in much the way Awareness operates.<!-- Summary End --> These devices are typically contained in an er-gonomic, handheld case, with a sling for carrying over the shoulder.</p>",
+    "description": "<p><!-- Summary Start -->Field Sensors are multi-purpose detectors sensitive to electric and magnetic fields. They operate in much the way Awareness operates.<!-- Summary End --> These devices are typically contained in an ergonomic, handheld case, with a sling for carrying over the shoulder.</p>",
     "categories": ["detectors"],
     "sources": [
       {
@@ -313,136 +313,6 @@
   },
   {
     "sku": "120-000-00013",
-    "type": "detectors",
-    "subtype": "",
-    "name": "Gunsight, Electronic",
-    "mfr": "",
-    "cost": 2000,
-    "mass": 0.1,
-    "size": 2,
-    "techLevel": 9,
-    "qrebs": "R=-1",
-    "image": "",
-    "description": "<p><!-- Summary Start -->Electronic sights with image enhancement and low-light capabilities are available to provide the capability to see and hit in the dark.<!-- Summary End --> The electronic gunsight increases accuracy, especially at longer ranges. A rifle equipped with such sights decreases apparent distance beyond Long Range by 1 band.</p>",
-    "categories": ["detectors"],
-    "sources": [
-      {
-        "publication": "Traveller 5.10 Core Rules Book 3 : Worlds and Adventures",
-        "authors": ["Miller, Marc"],
-        "publisher": {
-          "name": "Far Future Enterprises",
-          "url": "https://farfuture.net"
-        }
-      }
-    ],
-    "tags": ["products", "detectors"]
-  },
-  {
-    "sku": "120-000-00014",
-    "type": "detectors",
-    "subtype": "",
-    "name": "Gunsight, Electronic (Image Enhancement)",
-    "mfr": "",
-    "cost": 2000,
-    "mass": 0.1,
-    "size": 2,
-    "techLevel": 9,
-    "qrebs": "R=-1",
-    "image": "",
-    "description": "<p><!-- Summary Start -->Electronic sights with image enhancement.<!-- Summary End --> The electronic gunsight increases accuracy, especially at longer ranges. A rifle equipped with such sights decreases apparent distance beyond Long Range by 1 band.</p>",
-    "categories": ["detectors"],
-    "sources": [
-      {
-        "publication": "Traveller 5.10 Core Rules Book 3 : Worlds and Adventures",
-        "authors": ["Miller, Marc"],
-        "publisher": {
-          "name": "Far Future Enterprises",
-          "url": "https://farfuture.net"
-        }
-      }
-    ],
-    "tags": ["products", "detectors"]
-  },
-  {
-    "sku": "120-000-00015",
-    "type": "detectors",
-    "subtype": "",
-    "name": "Gunsight, Electronic (Low Light Enhancement)",
-    "mfr": "",
-    "cost": 2000,
-    "mass": 0.1,
-    "size": 2,
-    "techLevel": 9,
-    "qrebs": "R=-1",
-    "image": "",
-    "description": "<p><!-- Summary Start -->Electronic sights with low-light enhancement to provide the capability to see and hit in the dark.<!-- Summary End --> The electronic gunsight increases accuracy, especially at longer ranges. A rifle equipped with such sights decreases apparent distance beyond Long Range by 1 band.</p>",
-    "categories": ["detectors"],
-    "sources": [
-      {
-        "publication": "Traveller 5.10 Core Rules Book 3 : Worlds and Adventures",
-        "authors": ["Miller, Marc"],
-        "publisher": {
-          "name": "Far Future Enterprises",
-          "url": "https://farfuture.net"
-        }
-      }
-    ],
-    "tags": ["products", "detectors"]
-  },
-  {
-    "sku": "120-000-00016",
-    "type": "detectors",
-    "subtype": "",
-    "name": "Gunsight, Electronic (Image and Low Light Enhancements)",
-    "mfr": "",
-    "cost": 2000,
-    "mass": 0.1,
-    "size": 2,
-    "techLevel": 9,
-    "qrebs": "R=-1",
-    "image": "",
-    "description": "<p><!-- Summary Start -->Electronic sights with image enhancement and low-light capabilities provide the capability to see and hit in the dark.<!-- Summary End --> The electronic gunsight increases accuracy, especially at longer ranges. A rifle equipped with such sights decreases apparent distance beyond Long Range by 1 band.</p>",
-    "categories": ["detectors"],
-    "sources": [
-      {
-        "publication": "Traveller 5.10 Core Rules Book 3 : Worlds and Adventures",
-        "authors": ["Miller, Marc"],
-        "publisher": {
-          "name": "Far Future Enterprises",
-          "url": "https://farfuture.net"
-        }
-      }
-    ],
-    "tags": ["products", "detectors"]
-  },
-  {
-    "sku": "120-000-00017",
-    "type": "detectors",
-    "subtype": "",
-    "name": "Gunsight, Telescopic",
-    "mfr": "",
-    "cost": 200,
-    "mass": 0.1,
-    "size": 2,
-    "techLevel": 6,
-    "qrebs": "R=-1, S=+3",
-    "image": "",
-    "description": "<p><!-- Summary Start -->High-quality telescopic sight for attachment to rifles and carbines.<!-- Summary End --> The telescopic gunsight increases accuracy, especially at longer ranges. A rifle equipped with such sights decreases apparent distance beyond Long Range by 1 band.<!-- Summary End --></p>",
-    "categories": ["detectors"],
-    "sources": [
-      {
-        "publication": "Traveller 5.10 Core Rules Book 3 : Worlds and Adventures",
-        "authors": ["Miller, Marc"],
-        "publisher": {
-          "name": "Far Future Enterprises",
-          "url": "https://farfuture.net"
-        }
-      }
-    ],
-    "tags": ["products", "detectors"]
-  },
-  {
-    "sku": "120-000-00018",
     "type": "detectors",
     "subtype": "artifact",
     "name": "HoloVisor MP",
@@ -468,7 +338,7 @@
     "tags": ["products", "detectors"]
   },
   {
-    "sku": "120-000-00019",
+    "sku": "120-000-00014",
     "type": "detectors",
     "subtype": "",
     "name": "Magnet, Industrial",
@@ -494,7 +364,7 @@
     "tags": ["products", "detectors"]
   },
   {
-    "sku": "120-000-00020",
+    "sku": "120-000-00015",
     "type": "detectors",
     "subtype": "",
     "name": "Metal Detector",
@@ -520,7 +390,7 @@
     "tags": ["products", "detectors"]
   },
   {
-    "sku": "120-000-00021",
+    "sku": "120-000-00016",
     "type": "detectors",
     "subtype": "",
     "name": "Motion Sensor",
@@ -546,7 +416,7 @@
     "tags": ["products", "detectors"]
   },
   {
-    "sku": "120-000-00022",
+    "sku": "120-000-00017",
     "type": "detectors",
     "subtype": "",
     "name": "Neutrino Detector MP",
@@ -572,7 +442,7 @@
     "tags": ["products", "detectors"]
   },
   {
-    "sku": "120-000-00023",
+    "sku": "120-000-00018",
     "type": "detectors",
     "subtype": "",
     "name": "Position Tracker (Ballistic)",
@@ -583,7 +453,7 @@
     "techLevel": 12,
     "qrebs": "N/A",
     "image": "",
-    "description": "<p><!-- Summary Start -->The ballistic position tracker detemines the location in three dimensions relative to a specified waypoint.<!-- Summary End --> All information is scrambled if the user travels in a grav vehicle or is under the influece of inertial compensators.</p>",
+    "description": "<p><!-- Summary Start -->The ballistic position tracker determines the location in three dimensions relative to a specified waypoint.<!-- Summary End --> All information is scrambled if the user travels in a grav vehicle or is under the influence of inertial compensators.</p>",
     "categories": ["detectors"],
     "sources": [
       {
@@ -598,7 +468,7 @@
     "tags": ["products", "detectors"]
   },
   {
-    "sku": "120-000-00024",
+    "sku": "120-000-00019",
     "type": "detectors",
     "subtype": "",
     "name": "Position Tracker (Satellite)",
@@ -624,7 +494,7 @@
     "tags": ["products", "detectors"]
   },
   {
-    "sku": "120-000-00025",
+    "sku": "120-000-00020",
     "type": "detectors",
     "subtype": "",
     "name": "Position Tracker (Beacon Position)",
@@ -650,7 +520,7 @@
     "tags": ["products", "detectors"]
   },
   {
-    "sku": "120-000-00026",
+    "sku": "120-000-00021",
     "type": "detectors",
     "subtype": "",
     "name": "Pressure Gauge",
@@ -676,7 +546,7 @@
     "tags": ["products", "detectors"]
   },
   {
-    "sku": "120-000-00027",
+    "sku": "120-000-00022",
     "type": "detectors",
     "subtype": "",
     "name": "Proximeter",
@@ -702,7 +572,7 @@
     "tags": ["products", "detectors"]
   },
   {
-    "sku": "120-000-00028",
+    "sku": "120-000-00023",
     "type": "detectors",
     "subtype": "",
     "name": "Radar",
@@ -728,7 +598,7 @@
     "tags": ["products", "detectors"]
   },
   {
-    "sku": "120-000-00029",
+    "sku": "120-000-00024",
     "type": "detectors",
     "subtype": "",
     "name": "Radiation Detector",
@@ -754,7 +624,7 @@
     "tags": ["products", "detectors"]
   },
   {
-    "sku": "120-000-00030",
+    "sku": "120-000-00025",
     "type": "detectors",
     "subtype": "artifact",
     "name": "Scanner",
@@ -765,7 +635,7 @@
     "techLevel": 19,
     "qrebs": "N/A",
     "image": "",
-    "description": "<p><!-- Summary Start -->The scanner is an advanced form of electronmagnetic sensor (EMS).<!-- Summary End -->The scanner senses existing electromagnetic radiation (including emissions by the target, reflected local energy, and occluded background energy. The signals received are subjected to aggressive computer analysis for detailed information about the size, distance, and speed of objects in the area.</p>",
+    "description": "<p><!-- Summary Start -->The scanner is an advanced form of electromagnetic sensor (EMS).<!-- Summary End -->The scanner senses existing electromagnetic radiation (including emissions by the target, reflected local energy, and occluded background energy. The signals received are subjected to aggressive computer analysis for detailed information about the size, distance, and speed of objects in the area.</p>",
     "categories": ["detectors"],
     "sources": [
       {
@@ -780,7 +650,7 @@
     "tags": ["products", "detectors"]
   },
   {
-    "sku": "120-000-00031",
+    "sku": "120-000-00026",
     "type": "detectors",
     "subtype": "",
     "name": "Scope MP",
@@ -806,7 +676,7 @@
     "tags": ["products", "detectors"]
   },
   {
-    "sku": "120-000-00032",
+    "sku": "120-000-00027",
     "type": "detectors",
     "subtype": "",
     "name": "Sentry Kit",
@@ -832,7 +702,7 @@
     "tags": ["products", "detectors"]
   },
   {
-    "sku": "120-000-00033",
+    "sku": "120-000-00028",
     "type": "detectors",
     "subtype": "",
     "name": "Sound Sensor",
@@ -843,7 +713,7 @@
     "techLevel": 8,
     "qrebs": "N/A",
     "image": "",
-    "description": "<p><!-- Summary Start -->The sound sensor is a multi-function device that provides sound recording, echo sounding, and echo location in addition to its main function as a sound detector.<!-- Summary End --> The sound sensor is contained in an ergonomic, handheld case with a slign for carrying over the shoulder.</p>",
+    "description": "<p><!-- Summary Start -->The sound sensor is a multi-function device that provides sound recording, echo sounding, and echo location in addition to its main function as a sound detector.<!-- Summary End --> The sound sensor is contained in an ergonomic, handheld case with a sling for carrying over the shoulder.</p>",
     "categories": ["detectors"],
     "sources": [
       {
@@ -858,7 +728,7 @@
     "tags": ["products", "detectors"]
   },
   {
-    "sku": "120-000-00034",
+    "sku": "120-000-00029",
     "type": "detectors",
     "subtype": "",
     "name": "Spectrum Goggles",
@@ -869,7 +739,7 @@
     "techLevel": 9,
     "qrebs": "N/A",
     "image": "",
-    "description": "<p><!-- Summary Start -->The spectrum goggles provide PRGBC vision.<!-- Summary End --></p>",
+    "description": "<p><!-- Summary Start -->The spectrum goggles provide PRGBC (visible spectrum _P_urple - _R_ed - _G_reen - _B_lue - _C_erise_) vision.<!-- Summary End --></p>",
     "categories": ["detectors"],
     "sources": [
       {
@@ -884,7 +754,7 @@
     "tags": ["products", "detectors"]
   },
   {
-    "sku": "120-000-00035",
+    "sku": "120-000-00030",
     "type": "detectors",
     "subtype": "",
     "name": "Stealth Mask MP",
@@ -910,7 +780,7 @@
     "tags": ["products", "detectors"]
   },
   {
-    "sku": "120-000-00036",
+    "sku": "120-000-00031",
     "type": "detectors",
     "subtype": "",
     "name": "Telescope",
@@ -921,7 +791,7 @@
     "techLevel": 5,
     "qrebs": "N/A",
     "image": "",
-    "description": "<p><!-- Summary Start -->The telescope provides the capability to view a target by decreasing the aparent distance by 2 range bands.<!-- Summary End --></p>",
+    "description": "<p><!-- Summary Start -->The telescope provides the capability to view a target by decreasing the apparent distance by 2 range bands.<!-- Summary End --></p>",
     "categories": ["detectors"],
     "sources": [
       {
@@ -936,7 +806,7 @@
     "tags": ["products", "detectors"]
   },
   {
-    "sku": "120-000-00037",
+    "sku": "120-000-00032",
     "type": "detectors",
     "subtype": "",
     "name": "Video Recorder",
@@ -962,7 +832,7 @@
     "tags": ["products", ""]
   },
   {
-    "sku": "120-000-00038",
+    "sku": "120-000-00033",
     "type": "detectors",
     "subtype": "",
     "name": "Vision Goggles",
@@ -988,7 +858,7 @@
     "tags": ["products", "detectors"]
   },
   {
-    "sku": "120-000-00039",
+    "sku": "120-000-00034",
     "type": "detectors",
     "subtype": "",
     "name": "Watch (TL 4)",
@@ -1014,7 +884,7 @@
     "tags": ["products", "detectors"]
   },
   {
-    "sku": "120-000-00040",
+    "sku": "120-000-00035",
     "type": "detectors",
     "subtype": "",
     "name": "Watch (TL 7)",
@@ -1040,7 +910,7 @@
     "tags": ["products", "detectors"]
   },
   {
-    "sku": "120-000-00041",
+    "sku": "120-000-00036",
     "type": "detectors",
     "subtype": "",
     "name": "Watch, Cool",
@@ -1065,6 +935,4 @@
     ],
     "tags": ["products", "detectors"]
   }
-
-
 ]

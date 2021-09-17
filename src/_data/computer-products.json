@@ -74,7 +74,7 @@
   {
     "sku": "030-001-00001",
     "type": "computers",
-    "subtype": "accessory",
+    "subtype": "computer accessory",
     "name": "Data Display (TL A)",
     "mfr": "",
     "cost": 100,
@@ -98,7 +98,7 @@
   {
     "sku": "030-001-00002",
     "type": "computers",
-    "subtype": "accessory",
+    "subtype": "computer accessory",
     "name": "Data Display (TL D)",
     "mfr": "",
     "cost": 100,
@@ -122,7 +122,7 @@
   {
     "sku": "030-001-00003",
     "type": "computers",
-    "subtype": "accessory",
+    "subtype": "computer accessory",
     "name": "Data Recorder/Relay",
     "mfr": "",
     "cost": 400,
@@ -146,7 +146,7 @@
   {
     "sku": "030-001-00004",
     "type": "computers",
-    "subtype": "accessory",
+    "subtype": "computer accessory",
     "name": "Datalink",
     "mfr": "",
     "cost": 25,
@@ -170,7 +170,7 @@
   {
     "sku": "030-001-00005",
     "type": "computers",
-    "subtype": "accessory",
+    "subtype": "computer accessory",
     "name": "Imperial ID",
     "mfr": "",
     "cost": 10,
@@ -194,7 +194,7 @@
   {
     "sku": "030-001-00006",
     "type": "computers",
-    "subtype": "accessory",
+    "subtype": "computer accessory",
     "name": "Jump Tape",
     "mfr": "",
     "cost": 1000,
@@ -218,7 +218,7 @@
   {
     "sku": "030-001-00007",
     "type": "computers",
-    "subtype": "accessory",
+    "subtype": "computer accessory",
     "name": "Map Box",
     "mfr": "",
     "cost": 2500,
@@ -242,7 +242,7 @@
   {
     "sku": "030-001-00008",
     "type": "computers",
-    "subtype": "accessory",
+    "subtype": "computer accessory",
     "name": "Map Box Insert",
     "mfr": "",
     "cost": 150,
@@ -266,7 +266,7 @@
   {
     "sku": "030-001-00009",
     "type": "computers",
-    "subtype": "accessory",
+    "subtype": "computer accessory",
     "name": "Map Box Insert",
     "mfr": "",
     "cost": 30,
@@ -290,7 +290,7 @@
   {
     "sku": "030-001-00010",
     "type": "computers",
-    "subtype": "accessory",
+    "subtype": "computer accessory",
     "name": "Memclip (1 Language)",
     "mfr": "",
     "cost": 100,
@@ -314,7 +314,7 @@
   {
     "sku": "030-001-00011",
     "type": "computers",
-    "subtype": "accessory",
+    "subtype": "computer accessory",
     "name": "Starchart",
     "mfr": "",
     "cost": 1000,
@@ -338,7 +338,7 @@
   {
     "sku": "030-001-00012",
     "type": "computers",
-    "subtype": "accessory",
+    "subtype": "computer accessory",
     "name": "Survey Data",
     "mfr": "",
     "cost": 100,
@@ -362,7 +362,7 @@
   {
     "sku": "030-001-00013",
     "type": "computers",
-    "subtype": "accessory",
+    "subtype": "computer accessory",
     "name": "Wafer Jack",
     "mfr": "",
     "cost": 10000,
@@ -386,7 +386,7 @@
   {
     "sku": "030-001-00014",
     "type": "computers",
-    "subtype": "accessory",
+    "subtype": "computer accessory",
     "name": "Xmail Wafer",
     "mfr": "",
     "cost": 10,

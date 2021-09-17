@@ -557,7 +557,7 @@
   {
     "sku": "040-001-00002",
     "type": "construction",
-    "subtype": "materials",
+    "subtype": "construction materials",
     "name": "Leather",
     "mfr": "",
     "cost": 10000,
@@ -567,7 +567,7 @@
     "qrebs": "N/A",
     "image": "",
     "description": "<p><!-- Summary Start -->A pallet of leather hides.<!-- Summary End --></p>",
-    "categories": ["products", "construction", "materials"],
+    "categories": ["products", "construction", "construction materials"],
     "sources": [{
       "publication": "Traveller 5.10 Core Rules Book 3 : Worlds and Adventures",
       "authors": ["Miller, Marc"],
@@ -576,12 +576,12 @@
         "url": "https://farfuture.net"
       }
     }],
-    "tags": ["products", "construction", "materials"]
+    "tags": ["products", "construction", "construction materials"]
   },
   {
     "sku": "040-001-00003",
     "type": "construction",
-    "subtype": "materials",
+    "subtype": "construction materials",
     "name": "Bones",
     "mfr": "",
     "cost": 10000,
@@ -591,7 +591,7 @@
     "qrebs": "N/A",
     "image": "",
     "description": "<p><!-- Summary Start -->A pallet of bones.<!-- Summary End --></p>",
-    "categories": ["products", "construction", "materials"],
+    "categories": ["products", "construction", "construction materials"],
     "sources": [{
       "publication": "Traveller 5.10 Core Rules Book 3 : Worlds and Adventures",
       "authors": ["Miller, Marc"],
@@ -600,12 +600,12 @@
         "url": "https://farfuture.net"
       }
     }],
-    "tags": ["products", "construction", "materials"]
+    "tags": ["products", "construction", "construction materials"]
   },
   {
     "sku": "040-001-00004",
     "type": "construction",
-    "subtype": "materials",
+    "subtype": "construction materials",
     "name": "Wooden Beams",
     "mfr": "",
     "cost": 10000,
@@ -615,7 +615,7 @@
     "qrebs": "N/A",
     "image": "",
     "description": "<p><!-- Summary Start -->A pallet of wooden beams.<!-- Summary End --></p>",
-    "categories": ["products", "construction", "materials"],
+    "categories": ["products", "construction", "construction materials"],
     "sources": [{
       "publication": "Traveller 5.10 Core Rules Book 3 : Worlds and Adventures",
       "authors": ["Miller, Marc"],
@@ -624,12 +624,12 @@
         "url": "https://farfuture.net"
       }
     }],
-    "tags": ["products", "construction", "materials"]
+    "tags": ["products", "construction", "construction materials"]
   },
   {
     "sku": "040-001-00005",
     "type": "construction",
-    "subtype": "materials",
+    "subtype": "construction materials",
     "name": "Wooden Planks",
     "mfr": "",
     "cost": 10000,
@@ -639,7 +639,7 @@
     "qrebs": "N/A",
     "image": "",
     "description": "<p><!-- Summary Start -->A pallet of wooden planks.<!-- Summary End --></p>",
-    "categories": ["products", "construction", "materials"],
+    "categories": ["products", "construction", "construction materials"],
     "sources": [{
       "publication": "Traveller 5.10 Core Rules Book 3 : Worlds and Adventures",
       "authors": ["Miller, Marc"],
@@ -648,12 +648,12 @@
         "url": "https://farfuture.net"
       }
     }],
-    "tags": ["products", "construction", "materials"]
+    "tags": ["products", "construction", "construction materials"]
   },
   {
     "sku": "040-001-00006",
     "type": "construction",
-    "subtype": "materials",
+    "subtype": "construction materials",
     "name": "Wooden Sheets",
     "mfr": "",
     "cost": 10000,
@@ -663,7 +663,7 @@
     "qrebs": "N/A",
     "image": "",
     "description": "<p><!-- Summary Start -->A pallet of wooden sheets.<!-- Summary End --></p>",
-    "categories": ["products", "construction", "materials"],
+    "categories": ["products", "construction", "construction materials"],
     "sources": [{
       "publication": "Traveller 5.10 Core Rules Book 3 : Worlds and Adventures",
       "authors": ["Miller, Marc"],
@@ -672,12 +672,12 @@
         "url": "https://farfuture.net"
       }
     }],
-    "tags": ["products", "construction", "materials"]
+    "tags": ["products", "construction", "construction materials"]
   },
   {
     "sku": "040-001-00007",
     "type": "construction",
-    "subtype": "materials",
+    "subtype": "construction materials",
     "name": "Fiberglass",
     "mfr": "",
     "cost": 10000,
@@ -687,7 +687,7 @@
     "qrebs": "N/A",
     "image": "",
     "description": "<p><!-- Summary Start -->A pallet of fiberglass sheets.<!-- Summary End --></p>",
-    "categories": ["products", "construction", "materials"],
+    "categories": ["products", "construction", "construction materials"],
     "sources": [{
       "publication": "Traveller 5.10 Core Rules Book 3 : Worlds and Adventures",
       "authors": ["Miller, Marc"],
@@ -696,12 +696,12 @@
         "url": "https://farfuture.net"
       }
     }],
-    "tags": ["products", "construction", "materials"]
+    "tags": ["products", "construction", "construction materials"]
   },
   {
     "sku": "040-001-00008",
     "type": "construction",
-    "subtype": "materials",
+    "subtype": "construction materials",
     "name": "Blocks (Stone)",
     "mfr": "",
     "cost": 10000,
@@ -711,7 +711,7 @@
     "qrebs": "N/A",
     "image": "",
     "description": "<p><!-- Summary Start -->A pallet of stone blocks.<!-- Summary End --></p>",
-    "categories": ["products", "construction", "materials"],
+    "categories": ["products", "construction", "construction materials"],
     "sources": [{
       "publication": "Traveller 5.10 Core Rules Book 3 : Worlds and Adventures",
       "authors": ["Miller, Marc"],
@@ -720,12 +720,12 @@
         "url": "https://farfuture.net"
       }
     }],
-    "tags": ["products", "construction", "materials"]
+    "tags": ["products", "construction", "construction materials"]
   },
   {
     "sku": "040-001-00009",
     "type": "construction",
-    "subtype": "materials",
+    "subtype": "construction materials",
     "name": "Blocks (Ceramic)",
     "mfr": "",
     "cost": 10000,
@@ -735,7 +735,7 @@
     "qrebs": "N/A",
     "image": "",
     "description": "<p><!-- Summary Start -->A pallet of ceramic blocks.<!-- Summary End --></p>",
-    "categories": ["products", "construction", "materials"],
+    "categories": ["products", "construction", "construction materials"],
     "sources": [{
       "publication": "Traveller 5.10 Core Rules Book 3 : Worlds and Adventures",
       "authors": ["Miller, Marc"],
@@ -744,12 +744,12 @@
         "url": "https://farfuture.net"
       }
     }],
-    "tags": ["products", "construction", "materials"]
+    "tags": ["products", "construction", "construction materials"]
   },
   {
     "sku": "040-001-00010",
     "type": "construction",
-    "subtype": "materials",
+    "subtype": "construction materials",
     "name": "Aluminum (Sheets)",
     "mfr": "",
     "cost": 10000,
@@ -759,7 +759,7 @@
     "qrebs": "N/A",
     "image": "",
     "description": "<p><!-- Summary Start -->A pallet of aluminum sheets.<!-- Summary End --></p>",
-    "categories": ["products", "construction", "materials"],
+    "categories": ["products", "construction", "construction materials"],
     "sources": [{
       "publication": "Traveller 5.10 Core Rules Book 3 : Worlds and Adventures",
       "authors": ["Miller, Marc"],
@@ -768,12 +768,12 @@
         "url": "https://farfuture.net"
       }
     }],
-    "tags": ["products", "construction", "materials"]
+    "tags": ["products", "construction", "construction materials"]
   },
   {
     "sku": "040-001-00011",
     "type": "construction",
-    "subtype": "materials",
+    "subtype": "construction materials",
     "name": "Copper (Sheets)",
     "mfr": "",
     "cost": 10000,
@@ -783,7 +783,7 @@
     "qrebs": "N/A",
     "image": "",
     "description": "<p><!-- Summary Start -->A pallet of copper sheets.<!-- Summary End --></p>",
-    "categories": ["products", "construction", "materials"],
+    "categories": ["products", "construction", "construction materials"],
     "sources": [{
       "publication": "Traveller 5.10 Core Rules Book 3 : Worlds and Adventures",
       "authors": ["Miller, Marc"],
@@ -792,12 +792,12 @@
         "url": "https://farfuture.net"
       }
     }],
-    "tags": ["products", "construction", "materials"]
+    "tags": ["products", "construction", "construction materials"]
   },
   {
     "sku": "040-001-00012",
     "type": "construction",
-    "subtype": "materials",
+    "subtype": "construction materials",
     "name": "Bronze (Sheets)",
     "mfr": "",
     "cost": 10000,
@@ -807,7 +807,7 @@
     "qrebs": "N/A",
     "image": "",
     "description": "<p><!-- Summary Start -->A pallet of bronze sheets.<!-- Summary End --></p>",
-    "categories": ["products", "construction", "materials"],
+    "categories": ["products", "construction", "construction materials"],
     "sources": [{
       "publication": "Traveller 5.10 Core Rules Book 3 : Worlds and Adventures",
       "authors": ["Miller, Marc"],
@@ -816,12 +816,12 @@
         "url": "https://farfuture.net"
       }
     }],
-    "tags": ["products", "construction", "materials"]
+    "tags": ["products", "construction", "construction materials"]
   },
   {
     "sku": "040-001-00013",
     "type": "construction",
-    "subtype": "materials",
+    "subtype": "construction materials",
     "name": "Iron (Sheets)",
     "mfr": "",
     "cost": 10000,
@@ -831,7 +831,7 @@
     "qrebs": "N/A",
     "image": "",
     "description": "<p><!-- Summary Start -->A pallet of iron sheets.<!-- Summary End --></p>",
-    "categories": ["products", "construction", "materials"],
+    "categories": ["products", "construction", "construction materials"],
     "sources": [{
       "publication": "Traveller 5.10 Core Rules Book 3 : Worlds and Adventures",
       "authors": ["Miller, Marc"],
@@ -840,12 +840,12 @@
         "url": "https://farfuture.net"
       }
     }],
-    "tags": ["products", "construction", "materials"]
+    "tags": ["products", "construction", "construction materials"]
   },
   {
     "sku": "040-001-00014",
     "type": "construction",
-    "subtype": "materials",
+    "subtype": "construction materials",
     "name": "Structural Polymer (self-healing)",
     "mfr": "",
     "cost": 10000,
@@ -855,7 +855,7 @@
     "qrebs": "N/A",
     "image": "",
     "description": "<p><!-- Summary Start -->A pallet of self-healing structural polymer.<!-- Summary End --></p>",
-    "categories": ["products", "construction", "materials"],
+    "categories": ["products", "construction", "construction materials"],
     "sources": [{
       "publication": "Traveller 5.10 Core Rules Book 3 : Worlds and Adventures",
       "authors": ["Miller, Marc"],
@@ -864,12 +864,12 @@
         "url": "https://farfuture.net"
       }
     }],
-    "tags": ["products", "construction", "materials"]
+    "tags": ["products", "construction", "construction materials"]
   },
   {
     "sku": "040-001-00015",
     "type": "construction",
-    "subtype": "materials",
+    "subtype": "construction materials",
     "name": "Structural metals",
     "mfr": "",
     "cost": 10000,
@@ -879,7 +879,7 @@
     "qrebs": "N/A",
     "image": "",
     "description": "<p><!-- Summary Start -->A pallet of structural metals.<!-- Summary End --></p>",
-    "categories": [ "products", "construction", "materials"],
+    "categories": [ "products", "construction", "construction materials"],
     "sources": [{
       "publication": "Traveller 5.10 Core Rules Book 3 : Worlds and Adventures",
       "authors": ["Miller, Marc"],
@@ -893,7 +893,7 @@
   {
     "sku": "040-001-00016",
     "type": "construction",
-    "subtype": "materials",
+    "subtype": "construction materials",
     "name": "Steel (Sheets)",
     "mfr": "",
     "cost": 10000,
@@ -903,7 +903,7 @@
     "qrebs": "N/A",
     "image": "",
     "description": "<p><!-- Summary Start -->A pallet of steel sheets.<!-- Summary End --></p> ",
-    "categories": [ "products", "construction", "materials"],
+    "categories": [ "products", "construction", "construction materials"],
     "sources": [{
       "publication": "Traveller 5.10 Core Rules Book 3 : Worlds and Adventures",
       "authors": ["Miller, Marc"],
@@ -917,7 +917,7 @@
   {
     "sku": "040-001-00017",
     "type": "construction",
-    "subtype": "materials",
+    "subtype": "construction materials",
     "name": "Titanium (Sheets)",
     "mfr": "",
     "cost": 10000,
@@ -927,7 +927,7 @@
     "qrebs": "N/A",
     "image": "",
     "description": "<p><!-- Summary Start -->A pallet of titanium sheets.<!-- Summary End --></p>",
-    "categories": [ "products", "construction", "materials"],
+    "categories": [ "products", "construction", "construction materials"],
     "sources": [{
       "publication": "Traveller 5.10 Core Rules Book 3 : Worlds and Adventures",
       "authors": ["Miller, Marc"],

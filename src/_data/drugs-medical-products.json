@@ -1,7 +1,7 @@
 [
   {
     "sku": "050-000-00001",
-    "type": "drugs-medical",
+    "type": "drugs medical",
     "subtype": "",
     "name": "Anagathic",
     "mfr": "",
@@ -12,7 +12,7 @@
     "qrebs": "N/A",
     "image": "",
     "description": "<p><!-- Summary Start -->Drugs which counteract the aging process.<!-- Summary End --> Supposedly, a regimen of regular monthly doses enables an individual to ignore the debilitating effects of advancing years. Because of the rarity and demand for anagathics, they are quite expensive and are often unavailable at any price.</p>",
-    "category": ["drugs-medical"],
+    "category": ["drugs medical"],
     "sources": [{
       "publication": "Traveller 5.10 Core Rules Book 3 : Worlds and Adventures",
       "authors": ["Miller, Marc"],
@@ -21,11 +21,11 @@
         "url": "https://farfuture.net"
       }
     }],
-    "tags": ["products", "drugs-medical"]
+    "tags": ["products", "drugs medical"]
   },
   {
     "sku": "050-000-00002",
-    "type": "drugs-medical",
+    "type": "drugs medical",
     "subtype": "",
     "name": "Antibiotic",
     "mfr": "",
@@ -36,7 +36,7 @@
     "qrebs": "N/A",
     "image": "",
     "description": "<p><!-- Summary Start -->Daily (or QPR) antidote drugs which counteracts a specific targeted effect according to type.<!-- Summary End --> Examples include a toxin, suffocation, the onset of a sickness or deprivation, Fast Drug and Slow Drug, anti-rejection, anti-septic, etc.</p>",
-    "category": ["drugs-medical"],
+    "category": ["drugs medical"],
     "sources": [{
       "publication": "Traveller 5.10 Core Rules Book 3 : Worlds and Adventures",
       "authors": ["Miller, Marc"],
@@ -45,11 +45,11 @@
         "url": "https://farfuture.net"
       }
     }],
-    "tags": ["products", "drugs-medical"]
+    "tags": ["products", "drugs medical"]
   },
   {
     "sku": "050-000-00003",
-    "type": "drugs-medical",
+    "type": "drugs medical",
     "subtype": "",
     "name": "Antidote",
     "mfr": "",
@@ -60,7 +60,7 @@
     "qrebs": "N/A",
     "image": "",
     "description": "<p><!-- Summary Start -->Daily (or QPR) antidote drugs which counteracts a specific targeted effect according to type.<!-- Summary End --> Examples include a toxin, suffocation, the onset of a sickness or deprivation, Fast Drug and Slow Drug, anti-rejection, anti-septic, etc.</p>",
-    "category": ["drugs-medical"],
+    "category": ["drugs medical"],
     "sources": [{
       "publication": "Traveller 5.10 Core Rules Book 3 : Worlds and Adventures",
       "authors": ["Miller, Marc"],
@@ -69,11 +69,11 @@
         "url": "https://farfuture.net"
       }
     }],
-    "tags": ["products", "drugs-medical"]
+    "tags": ["products", "drugs medical"]
   },
   {
     "sku": "050-000-00004",
-    "type": "drugs-medical",
+    "type": "drugs medical",
     "subtype": "",
     "name": "Bandage",
     "mfr": "",
@@ -84,7 +84,7 @@
     "qrebs": "N/A",
     "image": "",
     "description": "<p><!-- Summary Start -->Light wound dressing.<!-- Summary End --> At higher technology levels, bandages include contact medicines to mitigate injury, improve healing, and prevent local bacterial infection</p>",
-    "category": ["drugs-medical"],
+    "category": ["drugs medical"],
     "sources": [{
       "publication": "Traveller 5.10 Core Rules Book 3 : Worlds and Adventures",
       "authors": ["Miller, Marc"],
@@ -93,11 +93,11 @@
         "url": "https://farfuture.net"
       }
     }],
-    "tags": ["products", "drugs-medical"]
+    "tags": ["products", "drugs medical"]
   },
   {
     "sku": "050-000-00005",
-    "type": "drugs-medical",
+    "type": "drugs medical",
     "subtype": "",
     "name": "Cast",
     "mfr": "",
@@ -108,7 +108,7 @@
     "qrebs": "N/A",
     "image": "",
     "description": "<p><!-- Summary Start -->Limb Immobilizer.<!-- Summary End --> Acts as a Bandage for the purpose of mending broken bones, exoskeleton, or the like. TL3 and earlier versions are called splints (for legs) and slings (for arms) and can be applied in the field.</p>",
-    "category": ["drugs-medical"],
+    "category": ["drugs medical"],
     "sources": [{
       "publication": "Traveller 5.10 Core Rules Book 3 : Worlds and Adventures",
       "authors": ["Miller, Marc"],
@@ -117,11 +117,11 @@
         "url": "https://farfuture.net"
       }
     }],
-    "tags": ["products", "drugs-medical"]
+    "tags": ["products", "drugs medical"]
   },
   {
     "sku": "050-000-00006",
-    "type": "drugs-medical",
+    "type": "drugs medical",
     "subtype": "",
     "name": "Combat Drug SE",
     "mfr": "",
@@ -132,7 +132,7 @@
     "qrebs": "N/A",
     "image": "",
     "description": "<p><!-- Summary Start -->This variant of the combat drug increases personal strength and endurance.<!-- Summary End --> The effect begins 30 seconds after being taken and lasts for about 10 minutes.</p>",
-    "category": ["drugs-medical"],
+    "category": ["drugs medical"],
     "sources": [{
       "publication": "Traveller 5.10 Core Rules Book 3 : Worlds and Adventures",
       "authors": ["Miller, Marc"],
@@ -141,11 +141,11 @@
         "url": "https://farfuture.net"
       }
     }],
-    "tags": ["products", "drugs-medical"]
+    "tags": ["products", "drugs medical"]
   },
   {
     "sku": "050-000-00007",
-    "type": "drugs-medical",
+    "type": "drugs medical",
     "subtype": "",
     "name": "Combat Drug SS",
     "mfr": "",
@@ -156,7 +156,7 @@
     "qrebs": "N/A",
     "image": "",
     "description": "<p><!-- Summary Start -->This drug increases personal strength and stamina.<!-- Summary End --> The effect begins 30 seconds after being taken and lasts for about 10 minutes.</p>",
-    "category": ["drugs-medical"],
+    "category": ["drugs medical"],
     "sources": [{
       "publication": "Traveller 5.10 Core Rules Book 3 : Worlds and Adventures",
       "authors": ["Miller, Marc"],
@@ -165,11 +165,11 @@
         "url": "https://farfuture.net"
       }
     }],
-    "tags": ["products", "drugs-medical"]
+    "tags": ["products", "drugs medical"]
   },
   {
     "sku": "050-000-00008",
-    "type": "drugs-medical",
+    "type": "drugs medical",
     "subtype": "",
     "name": "Combat Drug SV",
     "mfr": "",
@@ -180,7 +180,7 @@
     "qrebs": "N/A",
     "image": "",
     "description": "<p><!-- Summary Start -->This drug increases personal strength and vigor.<!-- Summary End --> The effect begins 30 seconds after being taken and lasts for about 10 minutes.</p>",
-    "category": ["drugs-medical"],
+    "category": ["drugs medical"],
     "sources": [{
       "publication": "Traveller 5.10 Core Rules Book 3 : Worlds and Adventures",
       "authors": ["Miller, Marc"],
@@ -189,11 +189,11 @@
         "url": "https://farfuture.net"
       }
     }],
-    "tags": ["products", "drugs-medical"]
+    "tags": ["products", "drugs medical"]
   },
   {
     "sku": "050-000-00009",
-    "type": "drugs-medical",
+    "type": "drugs medical",
     "subtype": "",
     "name": "Counteract",
     "mfr": "",
@@ -204,7 +204,7 @@
     "qrebs": "N/A",
     "image": "",
     "description": "<p><!-- Summary Start -->Daily (or QPR) antidote drugs which counteracts a specific targeted effect according to type.<!-- Summary End --> Examples include a toxin, suffocation, the onset of a sickness or deprivation, Fast Drug and Slow Drug, anti-rejection, anti-septic, etc.</p>",
-    "category": ["drugs-medical"],
+    "category": ["drugs medical"],
     "sources": [{
       "publication": "Traveller 5.10 Core Rules Book 3 : Worlds and Adventures",
       "authors": ["Miller, Marc"],
@@ -213,11 +213,11 @@
         "url": "https://farfuture.net"
       }
     }],
-    "tags": ["products", "drugs-medical"]
+    "tags": ["products", "drugs medical"]
   },
   {
     "sku": "050-000-00010",
-    "type": "drugs-medical",
+    "type": "drugs medical",
     "subtype": "",
     "name": "Fast Drug",
     "mfr": "",
@@ -228,7 +228,7 @@
     "qrebs": "N/A",
     "image": "",
     "description": "<p><!-- Summary Start -->So named because it makes the universe appear, to its user, to move much more quickly.<!-- Summary End --> The drug slows down personal metabolism at a ratio of approximately 60 to 1. Users are extremely vulnerable while living at such a slow rate, but physical aging is also slowed, and the need for consumable supplies is reduced which thus allows con- servation of air and food. Fast drug takes effect immediately upon ingestion, one dose lasts for 60 days, making that time appear to be only one day.</p>",
-    "category": ["drugs-medical"],
+    "category": ["drugs medical"],
     "sources": [{
       "publication": "Traveller 5.10 Core Rules Book 3 : Worlds and Adventures",
       "authors": ["Miller, Marc"],
@@ -237,11 +237,11 @@
         "url": "https://farfuture.net"
       }
     }],
-    "tags": ["products", "drugs-medical"]
+    "tags": ["products", "drugs medical"]
   },
   {
     "sku": "050-000-00011",
-    "type": "drugs-medical",
+    "type": "drugs medical",
     "subtype": "",
     "name": "First Aid Kit",
     "mfr": "",
@@ -252,7 +252,7 @@
     "qrebs": "N/A",
     "image": "",
     "description": "<p><!-- Summary Start -->Modern medical tools containing drugs, resuscitation equipment, surgical supplies, and diagnostic materials.<!-- Summary End --> The kit is sufficient for both minor and serious wounds, and it can be used for the treatment of animal injuries, radiation burns, chemical burns, poisoning, and drug overdoses. TL 9+ versions include Skin Glue, which stops surface wounds and accelerates the healing process better than antibiotics and bandages.</p>",
-    "category": ["drugs-medical"],
+    "category": ["drugs medical"],
     "sources": [{
       "publication": "Traveller 5.10 Core Rules Book 3 : Worlds and Adventures",
       "authors": ["Miller, Marc"],
@@ -261,7 +261,7 @@
         "url": "https://farfuture.net"
       }
     }],
-    "tags": ["products", "drugs-medical"]
+    "tags": ["products", "drugs medical"]
   },
   {
     "sku": "050-000-00012",
@@ -276,7 +276,7 @@
     "qrebs": "N/A",
     "image": "",
     "description": "<p><!-- Summary Start -->Heals severe wounds or trauma on a limb. Reattaches severed limbs, encourages mending and removes infection.<!-- Summary End --> Treatment induces an artificial coma for 1D days, and injects the patient with a cocktail of tailored regrowth drugs and nutrients (one dose per treatment).</p>",
-    "category": ["drugs-medical"],
+    "category": ["drugs medical"],
     "sources": [{
       "publication": "Traveller 5.10 Core Rules Book 3 : Worlds and Adventures",
       "authors": ["Miller, Marc"],
@@ -285,11 +285,11 @@
         "url": "https://farfuture.net"
       }
     }],
-    "tags": ["products", "drugs-medical"]
+    "tags": ["products", "drugs medical"]
   },
   {
     "sku": "050-000-00013",
-    "type": "drugs-medical",
+    "type": "drugs medical",
     "subtype": "",
     "name": "Low Berth",
     "mfr": "",
@@ -300,7 +300,7 @@
     "qrebs": "N/A",
     "image": "",
     "description": "<p><!-- Summary Start -->A berth for carrying one person in low passage; typically installed in a ship.<!-- Summary End --> Low berths also serve well in emergencies in that they can provide suspended animation facilities for characters when medical care or rescue is not immediately available. Diplaces 0.5 tons.</p>",
-    "category": ["drugs-medical"],
+    "category": ["drugs medical"],
     "sources": [{
       "publication": "Traveller 5.10 Core Rules Book 3 : Worlds and Adventures",
       "authors": ["Miller, Marc"],
@@ -309,11 +309,11 @@
         "url": "https://farfuture.net"
       }
     }],
-    "tags": ["products", "drugs-medical"]
+    "tags": ["products", "drugs medical"]
   },
   {
     "sku": "050-000-00014",
-    "type": "drugs-medical",
+    "type": "drugs medical",
     "subtype": "",
     "name": "Low Berth, Capsule",
     "mfr": "",
@@ -324,7 +324,7 @@
     "qrebs": "N/A",
     "image": "",
     "description": "<p><!-- Summary Start -->A berth for carrying one person in low passage; typically installed in a ship.<!-- Summary End --> Low berths also serve well in emergencies in that they can provide suspended animation facilities for characters when medical care or rescue is not immediately available. Diplaces 1.0 tons.</p>",
-    "category": ["drugs-medical"],
+    "category": ["drugs medical"],
     "sources": [{
       "publication": "Traveller 5.10 Core Rules Book 3 : Worlds and Adventures",
       "authors": ["Miller, Marc"],
@@ -333,11 +333,11 @@
         "url": "https://farfuture.net"
       }
     }],
-    "tags": ["products", "drugs-medical"]
+    "tags": ["products", "drugs medical"]
   },
   {
     "sku": "050-000-00015",
-    "type": "drugs-medical",
+    "type": "drugs medical",
     "subtype": "",
     "name": "Low Berth, Emergency",
     "mfr": "",
@@ -348,7 +348,7 @@
     "qrebs": "N/A",
     "image": "",
     "description": "<p><!-- Summary Start -->A berth used for survival emergencies when medical care or rescue is not immediately available.<!-- Summary End --> Each emergency low berth holds four persons who share the same revival task roll. Diplaces 1.0 tons.</p>",
-    "category": ["drugs-medical"],
+    "category": ["drugs medical"],
     "sources": [{
       "publication": "Traveller 5.10 Core Rules Book 3 : Worlds and Adventures",
       "authors": ["Miller, Marc"],
@@ -357,11 +357,11 @@
         "url": "https://farfuture.net"
       }
     }],
-    "tags": ["products", "drugs-medical"]
+    "tags": ["products", "drugs medical"]
   },
   {
     "sku": "050-000-00016",
-    "type": "drugs-medical",
+    "type": "drugs medical",
     "subtype": "",
     "name": "Medical Capsule",
     "mfr": "",
@@ -372,7 +372,7 @@
     "qrebs": "N/A",
     "image": "",
     "description": "<p><!-- Summary Start -->The medical capsule has a diagnostic computer, a variety of therapeutic medicines, and a database of medical procedures.<!-- Summary End --> Acts as a Doctor with C+S=TL. Aside from the standard Medical and Capsule modifications, also treats severe wounds or trauma; repairs, reattaches, or, if necessary, regrows a damaged or destroyed organ or limb, as a Doctor with C+S=TL. Each treatment puts the patient into suspended animation for 1D x 10 weeks, and injects the patient with tailored regrowth drugs and nutrients costing KCr100 (one dose per treatment).</p>",
-    "category": ["drugs-medical"],
+    "category": ["drugs medical"],
     "sources": [{
       "publication": "Traveller 5.10 Core Rules Book 3 : Worlds and Adventures",
       "authors": ["Miller, Marc"],
@@ -381,11 +381,11 @@
         "url": "https://farfuture.net"
       }
     }],
-    "tags": ["products", "drugs-medical"]
+    "tags": ["products", "drugs medical"]
   },
   {
     "sku": "050-000-00017",
-    "type": "drugs-medical",
+    "type": "drugs medical",
     "subtype": "",
     "name": "Low Berth, Military",
     "mfr": "",
@@ -396,7 +396,7 @@
     "qrebs": "N/A",
     "image": "",
     "description": "<p><!-- Summary Start -->A berth for carrying two persons in low passage; typically installed in a ship.<!-- Summary End --> The military low berth keeps reserve troops (Frozen Guard) in storage until needed. Diplaces 1.0 tons.</p>",
-    "category": ["drugs-medical"],
+    "category": ["drugs medical"],
     "sources": [{
       "publication": "Traveller 5.10 Core Rules Book 3 : Worlds and Adventures",
       "authors": ["Miller, Marc"],
@@ -405,11 +405,11 @@
         "url": "https://farfuture.net"
       }
     }],
-    "tags": ["products", "drugs-medical"]
+    "tags": ["products", "drugs medical"]
   },
   {
     "sku": "050-000-00018",
-    "type": "drugs-medical",
+    "type": "drugs medical",
     "subtype": "",
     "name": "Low Berth, Stasis",
     "mfr": "",
@@ -420,7 +420,7 @@
     "qrebs": "N/A",
     "image": "",
     "description": "<p><!-- Summary Start -->A berth for carrying one person in low passage in a stasis field; typically installed in a ship.<!-- Summary End --> Low berths also serve well in emergencies in that they can provide suspended animation facilities for characters when medical care or rescue is not immediately available. Diplaces 0.5 tons.</p>",
-    "category": ["drugs-medical"],
+    "category": ["drugs medical"],
     "sources": [{
       "publication": "Traveller 5.10 Core Rules Book 3 : Worlds and Adventures",
       "authors": ["Miller, Marc"],
@@ -429,7 +429,7 @@
         "url": "https://farfuture.net"
       }
     }],
-    "tags": ["products", "drugs-medical"]
+    "tags": ["products", "drugs medical"]
   },
   {
     "sku": "050-000-00019",
@@ -444,7 +444,7 @@
     "qrebs": "N/A",
     "image": "",
     "description": "<p><!-- Summary Start -->This larger, handheld version of the micro med scanner.<!-- Summary End --> This version of the medical scanner differs from the pocket version in that this model includes a diagnosis computer, which allows individuals with little or no medical skill to diagnose and treat illness and injury.</p>",
-    "category": ["drugs-medical"],
+    "category": ["drugs medical"],
     "sources": [{
       "publication": "Traveller 5.10 Core Rules Book 3 : Worlds and Adventures",
       "authors": ["Miller, Marc"],
@@ -453,11 +453,11 @@
         "url": "https://farfuture.net"
       }
     }],
-    "tags": ["products", "drugs-medical"]
+    "tags": ["products", "drugs medical"]
   },
   {
     "sku": "050-000-00020",
-    "type": "drugs-medical",
+    "type": "drugs medical",
     "subtype": "",
     "name": "Medical Kit",
     "mfr": "",
@@ -468,7 +468,7 @@
     "qrebs": "N/A",
     "image": "",
     "description": "<p><!-- Summary Start -->Modern medical tools containing drugs, resuscitation equipment, surgical supplies, and diagnostic materials. <!-- Summary End --> The kit is sufficient for both minor and serious wounds, and it can be used for the treatment of animal injuries, radiation burns, chemical burns, poisoning, and drug overdoses. TL 9+ versions include Skin Glue, which stops surface wounds and accelerates the healing process better than antibiotics and bandages.</p><p>All TL9+ medical kits come with a size 2 pocket (micro) med scanner.</p>",
-    "category": ["drugs-medical"],
+    "category": ["drugs medical"],
     "sources": [{
       "publication": "Traveller 5.10 Core Rules Book 3 : Worlds and Adventures",
       "authors": ["Miller, Marc"],
@@ -477,11 +477,11 @@
         "url": "https://farfuture.net"
       }
     }],
-    "tags": ["products", "drugs-medical"]
+    "tags": ["products", "drugs medical"]
   },
   {
     "sku": "050-000-00021",
-    "type": "drugs-medical",
+    "type": "drugs medical",
     "subtype": "",
     "name": "Nutrient",
     "mfr": "",
@@ -492,7 +492,7 @@
     "qrebs": "N/A",
     "image": "",
     "description": "<p><!-- Summary Start -->Basic nutritional replacement for a single meal.<!-- Summary End --> The nutrient is stored in a disposable container as a slurry of protein, carbohydrate, and fats in a cocktail of vitamins and glucose.<!-- Summary End --> Quality is low. High quality versions, with better flavor or more desirable ingredient origins, cost more.</p>",
-    "category": ["drugs-medical"],
+    "category": ["drugs medical"],
     "sources": [{
       "publication": "Traveller 5.10 Core Rules Book 3 : Worlds and Adventures",
       "authors": ["Miller, Marc"],
@@ -501,11 +501,11 @@
         "url": "https://farfuture.net"
       }
     }],
-    "tags": ["products", "drugs-medical"]
+    "tags": ["products", "drugs medical"]
   },
   {
     "sku": "050-000-00022",
-    "type": "drugs-medical",
+    "type": "drugs medical",
     "subtype": "",
     "name": "Painkiller",
     "mfr": "",
@@ -516,7 +516,7 @@
     "qrebs": "N/A",
     "image": "",
     "description": "<p><!-- Summary Start -->Masks damage caused by injury from the patient for 1D hours.<!-- Summary End --> The damage is still there, but the patient can perform tasks as if damage were 0. When the painkiller wears off, the patient's internal clock advances to its \"rest\" period, and suffers fatigue until appropriate rest is taken.</p>",
-    "category": ["drugs-medical"],
+    "category": ["drugs medical"],
     "sources": [{
       "publication": "Traveller 5.10 Core Rules Book 3 : Worlds and Adventures",
       "authors": ["Miller, Marc"],
@@ -525,11 +525,11 @@
         "url": "https://farfuture.net"
       }
     }],
-    "tags": ["products", "drugs-medical"]
+    "tags": ["products", "drugs medical"]
   },
   {
     "sku": "050-000-00023",
-    "type": "drugs-medical",
+    "type": "drugs medical",
     "subtype": "",
     "name": "Panacea",
     "mfr": "",
@@ -540,7 +540,7 @@
     "qrebs": "N/A",
     "image": "",
     "description": "<p><!-- Summary Start -->Cures most known pathogenic illnesses and accelerates the body's healing process.<!-- Summary End --> Patient is fully recovered in one week's time.</p>",
-    "category": ["drugs-medical"],
+    "category": ["drugs medical"],
     "sources": [{
       "publication": "Traveller 5.10 Core Rules Book 3 : Worlds and Adventures",
       "authors": ["Miller, Marc"],
@@ -549,11 +549,11 @@
         "url": "https://farfuture.net"
       }
     }],
-    "tags": ["products", "drugs-medical"]
+    "tags": ["products", "drugs medical"]
   },
   {
     "sku": "050-000-00024",
-    "type": "drugs-medical",
+    "type": "drugs medical",
     "subtype": "",
     "name": "Psi Booster",
     "mfr": "",
@@ -564,7 +564,7 @@
     "qrebs": "N/A",
     "image": "",
     "description": "<p><!-- Summary Start -->Adds 1D to the user's Psi rating for 1D hours.<!-- Summary End --> The basic psi-drug, booster is available in small one-dose pills. Booster increases an individual's available psionic strength. Additional doses have no effect if taken by a psionic within an hour. The drug-induced additional psionic strength will wane and disappear at the end of one hour.</p>",
-    "category": ["drugs-medical"],
+    "category": ["drugs medical"],
     "sources": [{
       "publication": "Traveller 5.10 Core Rules Book 3 : Worlds and Adventures",
       "authors": ["Miller, Marc"],
@@ -573,11 +573,11 @@
         "url": "https://farfuture.net"
       }
     }],
-    "tags": ["products", "drugs-medical"]
+    "tags": ["products", "drugs medical"]
   },
   {
     "sku": "050-000-00025",
-    "type": "drugs-medical",
+    "type": "drugs medical",
     "subtype": "",
     "name": "Psi Double",
     "mfr": "",
@@ -588,7 +588,7 @@
     "qrebs": "N/A",
     "image": "",
     "description": "<p><!-- Summary Start -->Doubles Psi for 1D hours.<!-- Summary End --> A more potent form of the psi-drug, also available in small one-dose pills. Double increases psionic power by about double.</p>",
-    "category": ["drugs-medical"],
+    "category": ["drugs medical"],
     "sources": [{
       "publication": "Traveller 5.10 Core Rules Book 3 : Worlds and Adventures",
       "authors": ["Miller, Marc"],
@@ -597,11 +597,11 @@
         "url": "https://farfuture.net"
       }
     }],
-    "tags": ["products", "drugs-medical"]
+    "tags": ["products", "drugs medical"]
   },
   {
     "sku": "050-000-00026",
-    "type": "drugs-medical",
+    "type": "drugs medical",
     "subtype": "",
     "name": "Psi Special",
     "mfr": "",
@@ -612,7 +612,7 @@
     "qrebs": "N/A",
     "image": "",
     "description": "<p><!-- Summary Start -->Increases Psi by 1 point per hour to a maximum of 15.<!-- Summary End --> After 4 hours at 15, the effect wanes by 1 point per hour until Psi reaches 0. The rarest of psidrugs, special is available only in liquid form and must be taken by injection.</p>",
-    "category": ["drugs-medical"],
+    "category": ["drugs medical"],
     "sources": [{
       "publication": "Traveller 5.10 Core Rules Book 3 : Worlds and Adventures",
       "authors": ["Miller, Marc"],
@@ -621,11 +621,11 @@
         "url": "https://farfuture.net"
       }
     }],
-    "tags": ["products", "drugs-medical"]
+    "tags": ["products", "drugs medical"]
   },
   {
     "sku": "050-000-00027",
-    "type": "drugs-medical",
+    "type": "drugs medical",
     "subtype": "",
     "name": "Restorative",
     "mfr": "",
@@ -636,7 +636,7 @@
     "qrebs": "N/A",
     "image": "",
     "description": "<p><!-- Summary Start -->Returns the patient to its full original SAN.<!-- Summary End --></p>",
-    "category": ["drugs-medical"],
+    "category": ["drugs medical"],
     "sources": [{
       "publication": "Traveller 5.10 Core Rules Book 3 : Worlds and Adventures",
       "authors": ["Miller, Marc"],
@@ -645,11 +645,11 @@
         "url": "https://farfuture.net"
       }
     }],
-    "tags": ["products", "drugs-medical"]
+    "tags": ["products", "drugs medical"]
   },
   {
     "sku": "050-000-00028",
-    "type": "drugs-medical",
+    "type": "drugs medical",
     "subtype": "",
     "name": "Sensory Drugs",
     "mfr": "",
@@ -660,7 +660,7 @@
     "qrebs": "N/A",
     "image": "",
     "description": "<p><!-- Summary Start -->Drugs which enhance an existing sense constant by +Flux for 1D hours.<!-- Summary End --> Multiple doses provide additive effects, but does not extend duration.</p><p>Available enhancement types:<br><br><ul class=\"collection\" style=\"width: 30%;margin-left: 1rem;\"><li>Awareness</li><li>Hearing</li><li>Olfactory</li><li>Perception</li><li>Tactile</li><li>Vision</li><li>Vision Spectrum</li></ul></p>",
-    "category": ["drugs-medical"],
+    "category": ["drugs medical"],
     "sources": [{
       "publication": "Traveller 5.10 Core Rules Book 3 : Worlds and Adventures",
       "authors": ["Miller, Marc"],
@@ -669,11 +669,11 @@
         "url": "https://farfuture.net"
       }
     }],
-    "tags": ["products", "drugs-medical"]
+    "tags": ["products", "drugs medical"]
   },
   {
     "sku": "050-000-00029",
-    "type": "drugs-medical",
+    "type": "drugs medical",
     "subtype": "",
     "name": "Skin Glue",
     "mfr": "",
@@ -684,7 +684,7 @@
     "qrebs": "N/A",
     "image": "",
     "description": "<p><!-- Summary Start -->Stops surface wounds and accelerates the healing process better than antibiotics and bandages.<!-- Summary End --> Ten doses.</p>",
-    "category": ["drugs-medical"],
+    "category": ["drugs medical"],
     "sources": [{
       "publication": "Traveller 5.10 Core Rules Book 3 : Worlds and Adventures",
       "authors": ["Miller, Marc"],
@@ -693,11 +693,11 @@
         "url": "https://farfuture.net"
       }
     }],
-    "tags": ["products", "drugs-medical"]
+    "tags": ["products", "drugs medical"]
   },
   {
     "sku": "050-000-00030",
-    "type": "drugs-medical",
+    "type": "drugs medical",
     "subtype": "",
     "name": "Sling",
     "mfr": "",
@@ -708,7 +708,7 @@
     "qrebs": "N/A",
     "image": "",
     "description": "<p><!-- Summary Start -->Limb Immobilizer.<!-- Summary End --> Acts as a Bandage for the purpose of mending broken bones, exoskeleton, or the like.</p>",
-    "category": ["drugs-medical"],
+    "category": ["drugs medical"],
     "sources": [{
       "publication": "Traveller 5.10 Core Rules Book 3 : Worlds and Adventures",
       "authors": ["Miller, Marc"],
@@ -717,11 +717,11 @@
         "url": "https://farfuture.net"
       }
     }],
-    "tags": ["products", "drugs-medical"]
+    "tags": ["products", "drugs medical"]
   },
   {
     "sku": "050-000-00031",
-    "type": "drugs-medical",
+    "type": "drugs medical",
     "subtype": "",
     "name": "Slow Drug",
     "mfr": "",
@@ -732,7 +732,7 @@
     "qrebs": "N/A",
     "image": "",
     "description": "<p><!-- Summary Start -->So named because it makes the universe (from the user's viewpoint) appear to move more slowly.<!-- Summary End --> The drug achieves the effect by accelerating the user's metabolism. In effect, the user lives approximately twice as fast as normal.</p><p>Slow drug takes effect 45 seconds after ingestion and continues to function for about 10 minutes. At the end of its effect, the user receives 1D in wounds. The person is extremely fatigued, is treated as if all available combat swings have been taken, and must recover from that fatigue. A person under slow drug (because he or she is living at twice the normal rate) can make twice as many actions or move twice as far as normal.</p><p>Medical Slow Drug causes unconsciousness and the passage of thirty days equivalent recovery time in one day. During this period, ordinary healing takes place. No wounds are received from the use of medical slow drug, but the individual is unconscious or semi-conscious while under its influence.</p>",
-    "category": ["drugs-medical"],
+    "category": ["drugs medical"],
     "sources": [{
       "publication": "Traveller 5.10 Core Rules Book 3 : Worlds and Adventures",
       "authors": ["Miller, Marc"],
@@ -741,11 +741,11 @@
         "url": "https://farfuture.net"
       }
     }],
-    "tags": ["products", "drugs-medical"]
+    "tags": ["products", "drugs medical"]
   },
   {
     "sku": "050-000-00032",
-    "type": "drugs-medical",
+    "type": "drugs medical",
     "subtype": "",
     "name": "Splint",
     "mfr": "",
@@ -756,7 +756,7 @@
     "qrebs": "N/A",
     "image": "",
     "description": "<p><!-- Summary Start -->Limb Immobilizer.<!-- Summary End --> Acts as a Bandage for the purpose of mending broken bones, exoskeleton, or the like.</p>",
-    "category": ["drugs-medical"],
+    "category": ["drugs medical"],
     "sources": [{
       "publication": "Traveller 5.10 Core Rules Book 3 : Worlds and Adventures",
       "authors": ["Miller, Marc"],
@@ -765,11 +765,11 @@
         "url": "https://farfuture.net"
       }
     }],
-    "tags": ["products", "drugs-medical"]
+    "tags": ["products", "drugs medical"]
   },
   {
     "sku": "050-000-00033",
-    "type": "drugs-medical",
+    "type": "drugs medical",
     "subtype": "artifact",
     "name": "Stasis Capsule, Military",
     "mfr": "",
@@ -780,7 +780,7 @@
     "qrebs": "N/A",
     "image": "",
     "description": "<p><!-- Summary Start -->A berth for carrying one or two individuals in stasis for (typically) up to 90 years off-line, or indefinitely when connected to a reliable power source.<!-- Summary End --></p>",
-    "category": ["drugs-medical"],
+    "category": ["drugs medical"],
     "sources": [{
       "publication": "Traveller 5.10 Core Rules Book 3 : Worlds and Adventures",
       "authors": ["Miller, Marc"],
@@ -789,11 +789,11 @@
         "url": "https://farfuture.net"
       }
     }],
-    "tags": ["products", "drugs-medical"]
+    "tags": ["products", "drugs medical"]
   },
   {
     "sku": "050-000-00034",
-    "type": "drugs-medical",
+    "type": "drugs medical",
     "subtype": "",
     "name": "Tranq",
     "mfr": "",
@@ -804,7 +804,7 @@
     "qrebs": "N/A",
     "image": "",
     "description": "<p><!-- Summary Start -->Renders patient unconscious for 1D hours.<!-- Summary End --></p>",
-    "category": ["drugs-medical"],
+    "category": ["drugs medical"],
     "sources": [{
       "publication": "Traveller 5.10 Core Rules Book 3 : Worlds and Adventures",
       "authors": ["Miller, Marc"],
@@ -813,11 +813,11 @@
         "url": "https://farfuture.net"
       }
     }],
-    "tags": ["products", "drugs-medical"]
+    "tags": ["products", "drugs medical"]
   },
   {
     "sku": "050-000-00035",
-    "type": "drugs-medical",
+    "type": "drugs medical",
     "subtype": "",
     "name": "Truth Drug",
     "mfr": "",
@@ -828,7 +828,7 @@
     "qrebs": "N/A",
     "image": "",
     "description": "<p><!-- Summary Start -->Used to compel individuals to answer interrogation truthfully.<!-- Summary End --> One dose is sufficient to assure truthful answers for approximately two minutes, after which the user experiences one hour of unconsciousness, and suffers 2D in wounds.</p>",
-    "category": ["drugs-medical"],
+    "category": ["drugs medical"],
     "sources": [{
       "publication": "Traveller 5.10 Core Rules Book 3 : Worlds and Adventures",
       "authors": ["Miller, Marc"],
@@ -837,11 +837,11 @@
         "url": "https://farfuture.net"
       }
     }],
-    "tags": ["products", "drugs-medical"]
+    "tags": ["products", "drugs medical"]
   },
   {
     "sku": "050-000-00036",
-    "type": "drugs-medical",
+    "type": "drugs medical",
     "subtype": "",
     "name": "Vaccine",
     "mfr": "",
@@ -852,7 +852,7 @@
     "qrebs": "N/A",
     "image": "",
     "description": "<p><!-- Summary Start -->Prevents illness.<!-- Summary End --> If administered once per year, a vaccine can reduce both the chance of contracting a disease and the severity of any disease caught. Protects the patient from a family of similar diseases on the world where they occur.</p>",
-    "category": ["drugs-medical"],
+    "category": ["drugs medical"],
     "sources": [{
       "publication": "Traveller 5.10 Core Rules Book 3 : Worlds and Adventures",
       "authors": ["Miller, Marc"],
@@ -861,11 +861,11 @@
         "url": "https://farfuture.net"
       }
     }],
-    "tags": ["products", "drugs-medical"]
+    "tags": ["products", "drugs medical"]
   },
   {
     "sku": "050-000-00037",
-    "type": "drugs-medical",
+    "type": "drugs medical",
     "subtype": "",
     "name": "Wound Dressing",
     "mfr": "",
@@ -876,7 +876,7 @@
     "qrebs": "N/A",
     "image": "",
     "description": "<p><!-- Summary Start -->Light wound dressing<!-- Summary End --> At higher technology levels the dressings also have contact medicines to mitigate injury, improve healing, and prevent local bacterial infection</p>",
-    "category": ["drugs-medical"],
+    "category": ["drugs medical"],
     "sources": [{
       "publication": "Traveller 5.10 Core Rules Book 3 : Worlds and Adventures",
       "authors": ["Miller, Marc"],
@@ -885,6 +885,6 @@
         "url": "https://farfuture.net"
       }
     }],
-    "tags": ["products", "drugs-medical"]
+    "tags": ["products", "drugs medical"]
   }
 ]

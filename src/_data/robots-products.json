@@ -176,7 +176,7 @@
   {
     "sku": "110-000-00006",
     "type": "robots",
-    "subtype": "",
+    "subtype": "drone",
     "name": "Extra Eye Microdrone (S-variant)",
     "mfr": "",
     "cost": 19835,
@@ -196,7 +196,7 @@
         }
       }
     ],
-    "tags": ["products", "robots"]
+    "tags": ["products", "robots", "drones"]
   },
   {
     "sku": "110-000-00007",
@@ -210,7 +210,7 @@
     "qrebs": "N/A",
     "image": "",
     "description": "<p><!-- Summary Start -->The Extra eye microdrone is a small, cheap, disposable sensor drone used for system survey work.<!-- Summary End --> The drone is a cylinder 320mm long and 57mm in diameter. The core of the drone is a broad spectrum EM sensor with coverage from long range radio to the far ultraviolet. A small computer does basic sensor analysis and navigation. There is a small, very low powered thruster for maneuvering.</p><p>The outer system design (the R variant) uses an 14 watt short duration radiothermal generator for power. A slightly larger 0.022G thruster drives the drone over 1AU (150m km) in a little over 19 days, and 10 AU in 61 days.</p>",
-    "categories": ["robots"],
+    "categories": ["robots", "drones"],
     "sources": [
       {
         "publication": "Traveller Wiki : Extra Eye Microdrone",
@@ -221,7 +221,7 @@
         }
       }
     ],
-    "tags": ["products", "robots"]
+    "tags": ["products", "robots", "drones"]
   },
   {
     "sku": "100-000-00008",
@@ -439,7 +439,7 @@
     "qrebs": "N/A",
     "image": "",
     "description": "<p><!-- Summary Start -->An infodrone is an expert robot whose main function is communications and information exchange/processing.<!-- Summary End --> Originally a product of the Imperial megacorporation Naasirka, the infodrone was perfected on Ipadmali/Liasdi (Zarushagar 1527).</p></p>A typical infodrone has a high skill level and is tied into a computer data base. For example, a legal assistance model could be fed the basis for a legal prosecution and construct an appropriate defense based on established legal precedence.</p><h5>History & Background</h5><p>Infodrones are commonly used only by those that can afford them, as the supporting data base can be quite expensive. More often than not, they are bought by corporations and not individuals. The robots are a sign of wealth, power and prestige on many worlds.</p>",
-    "categories": ["robots"],
+    "categories": ["robots", "drones"],
     "sources": [
       {
         "publication": "Traveller Wiki",
@@ -450,7 +450,7 @@
         }
       }
     ],
-    "tags": ["products", "robots"]
+    "tags": ["products", "robots", "drones"]
   },
   {
     "sku": "110-000-00015",

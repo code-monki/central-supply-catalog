@@ -420,7 +420,7 @@
   {
     "sku": "190-001-00001",
     "type": "containers",
-    "subtype": "accessories",
+    "subtype": "container accessory",
     "name": "Mini-airlock",
     "mfr": "",
     "cost": 100000,
@@ -444,7 +444,7 @@
   {
     "sku": "190-001-00002",
     "type": "container",
-    "subtype": "accessories",
+    "subtype": "container accessory",
     "name": "Water Purification Tablets",
     "mfr": "",
     "cost": 2,
