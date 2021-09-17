@@ -1,0 +1,2018 @@
+[
+  {
+    "sku": "160-009-00001",
+    "type": "weapons",
+    "subtype": "projectors",
+    "name": "Fire Projector, Snub, Experimental (XSnF:j-7)",
+    "mfr": "",
+    "cost": 12000,
+    "mass": 1.2,
+    "size": "",
+    "techLevel": 7,
+    "qrebs": "R=1",
+    "damage": "Pen-1, Burn-3",
+    "image": "",
+    "description": "<p><!-- Summary Start -->Experimental version of the snub fire projector.<!-- Summary End --> The weapon fires or projects flame or fire at the target.</p>",
+    "stats": [],
+    "categories": ["weapons", "projectors"],
+    "sources": [
+      {
+        "publication": "Traveller 5.10 Core Rules Book 1 : Characters and Combat",
+        "authors": ["Miller, Marc"],
+        "publisher": {
+          "name": "Far Future Enterprises",
+          "url": "https://farfuture.net"
+        }
+      },
+      {
+        "publication": "Traveller 5.10 Core Rules Book 3 : Worlds and Adventures",
+        "authors": ["Miller, Marc"],
+        "publisher": {
+          "name": "Far Future Enterprises",
+          "url": "https://farfuture.net"
+        }
+      }
+    ],
+    "tags": ["products", "weapons", "projectors"]
+  },
+  {
+    "sku": "160-009-00002",
+    "type": "weapons",
+    "subtype": "projectors",
+    "name": "Fire Projector (FPj-8)",
+    "mfr": "",
+    "cost": 600,
+    "mass": 0.9,
+    "size": "",
+    "techLevel": 8,
+    "qrebs": "R=2",
+    "damage": "Pen-1, Burn-3",
+    "image": "",
+    "description": "<p><!-- Summary Start -->The fire projector shoots or projects flame or fire at a target.<!-- Summary End --></p>",
+    "stats": [],
+    "categories": ["weapons", "projectors"],
+    "sources": [
+      {
+        "publication": "Traveller 5.10 Core Rules Book 1 : Characters and Combat",
+        "authors": ["Miller, Marc"],
+        "publisher": {
+          "name": "Far Future Enterprises",
+          "url": "https://farfuture.net"
+        }
+      },
+      {
+        "publication": "Traveller 5.10 Core Rules Book 3 : Worlds and Adventures",
+        "authors": ["Miller, Marc"],
+        "publisher": {
+          "name": "Far Future Enterprises",
+          "url": "https://farfuture.net"
+        }
+      }
+    ],
+    "tags": ["products", "weapons", "projectors"]
+  },
+  {
+    "sku": "160-009-00003",
+    "type": "weapons",
+    "subtype": "projectors",
+    "name": "Shock Projector, Prototype (PShPj-8)",
+    "mfr": "",
+    "cost": 1800,
+    "mass": 0.9,
+    "size": "",
+    "techLevel": 8,
+    "qrebs": "R=1",
+    "damage": "Pain-2, Elec-2",
+    "image": "",
+    "description": "<p><!-- Summary Start -->Prototype version of the shock projector.<!-- Summary End --> The shock projector applies an electric shock to the target.</p>",
+    "stats": [],
+    "categories": ["weapons", "projectors"],
+    "sources": [
+      {
+        "publication": "Traveller 5.10 Core Rules Book 1 : Characters and Combat",
+        "authors": ["Miller, Marc"],
+        "publisher": {
+          "name": "Far Future Enterprises",
+          "url": "https://farfuture.net"
+        }
+      },
+      {
+        "publication": "Traveller 5.10 Core Rules Book 3 : Worlds and Adventures",
+        "authors": ["Miller, Marc"],
+        "publisher": {
+          "name": "Far Future Enterprises",
+          "url": "https://farfuture.net"
+        }
+      }
+    ],
+    "tags": ["products", "weapons", "projectors"]
+  },
+  {
+    "sku": "160-009-00004",
+    "type": "weapons",
+    "subtype": "projectors",
+    "name": "EMP Projector, Heavy, Experimental (XHEmpPj-8)",
+    "mfr": "",
+    "cost": 5280,
+    "mass": 3,
+    "size": "",
+    "techLevel": 8,
+    "qrebs": "R=3",
+    "damage": "EMP-3",
+    "image": "",
+    "description": "<p><!-- Summary Start -->Experimental version of the heavy EMP projector.<!-- Summary End --> The EMP projector fires a directed electromagnetic pulse which fries electronic circuits and Ablinds sophonts who have Awareness.</p>",
+    "stats": [],
+    "categories": ["weapons", "projectors"],
+    "sources": [
+      {
+        "publication": "Traveller 5.10 Core Rules Book 1 : Characters and Combat",
+        "authors": ["Miller, Marc"],
+        "publisher": {
+          "name": "Far Future Enterprises",
+          "url": "https://farfuture.net"
+        }
+      },
+      {
+        "publication": "Traveller 5.10 Core Rules Book 3 : Worlds and Adventures",
+        "authors": ["Miller, Marc"],
+        "publisher": {
+          "name": "Far Future Enterprises",
+          "url": "https://farfuture.net"
+        }
+      }
+    ],
+    "tags": ["products", "weapons", "projectors"]
+  },
+  {
+    "sku": "160-009-00005",
+    "type": "weapons",
+    "subtype": "projectors",
+    "name": "Acid Projector, (APj-)",
+    "mfr": "",
+    "cost": 900,
+    "mass": 1,
+    "size": "",
+    "techLevel": 9,
+    "qrebs": "R=3",
+    "damage": "Pen-2, Acid-3",
+    "image": "",
+    "description": "<p><!-- Summary Start -->The acid projector discharges acid at the target.<!-- Summary End --></p>",
+    "stats": [],
+    "categories": ["weapons", "projectors"],
+    "sources": [
+      {
+        "publication": "Traveller 5.10 Core Rules Book 1 : Characters and Combat",
+        "authors": ["Miller, Marc"],
+        "publisher": {
+          "name": "Far Future Enterprises",
+          "url": "https://farfuture.net"
+        }
+      },
+      {
+        "publication": "Traveller 5.10 Core Rules Book 3 : Worlds and Adventures",
+        "authors": ["Miller, Marc"],
+        "publisher": {
+          "name": "Far Future Enterprises",
+          "url": "https://farfuture.net"
+        }
+      }
+    ],
+    "tags": ["products", "weapons", "projectors"]
+  },
+  {
+    "sku": "160-009-00006",
+    "type": "weapons",
+    "subtype": "projectors",
+    "name": "Poison Gas Projector (PPj-9)",
+    "mfr": "",
+    "cost": 900,
+    "mass": 1,
+    "size": "",
+    "techLevel": 9,
+    "qrebs": "R=4",
+    "damage": "Poison-2, Gas-2",
+    "image": "",
+    "description": "<p><!-- Summary Start -->The poison gas projector a poisonous gas at the target.<!-- Summary End --></p>",
+    "stats": [],
+    "categories": ["weapons", "projectors"],
+    "sources": [
+      {
+        "publication": "Traveller 5.10 Core Rules Book 1 : Characters and Combat",
+        "authors": ["Miller, Marc"],
+        "publisher": {
+          "name": "Far Future Enterprises",
+          "url": "https://farfuture.net"
+        }
+      },
+      {
+        "publication": "Traveller 5.10 Core Rules Book 3 : Worlds and Adventures",
+        "authors": ["Miller, Marc"],
+        "publisher": {
+          "name": "Far Future Enterprises",
+          "url": "https://farfuture.net"
+        }
+      }
+    ],
+    "tags": ["products", "weapons", "projectors"]
+  },
+  {
+    "sku": "160-009-00007",
+    "type": "weapons",
+    "subtype": "projectors",
+    "name": "Shock Projector (ShPj-9)",
+    "mfr": "",
+    "cost": 600,
+    "mass": 0.5,
+    "size": "",
+    "techLevel": 9,
+    "qrebs": "R=2",
+    "damage": "Pain-2, Elec-2",
+    "image": "",
+    "description": "<p><!-- Summary Start -->The shock projector applies and electric charge to the target.<!-- Summary End --></p>",
+    "stats": [],
+    "categories": ["weapons", "projectors"],
+    "sources": [
+      {
+        "publication": "Traveller 5.10 Core Rules Book 1 : Characters and Combat",
+        "authors": ["Miller, Marc"],
+        "publisher": {
+          "name": "Far Future Enterprises",
+          "url": "https://farfuture.net"
+        }
+      },
+      {
+        "publication": "Traveller 5.10 Core Rules Book 3 : Worlds and Adventures",
+        "authors": ["Miller, Marc"],
+        "publisher": {
+          "name": "Far Future Enterprises",
+          "url": "https://farfuture.net"
+        }
+      }
+    ],
+    "tags": ["products", "weapons", "projectors"]
+  },
+  {
+    "sku": "160-009-00008",
+    "type": "weapons",
+    "subtype": "projectors",
+    "name": "EMP Projector, Early (EEmpPj-9)",
+    "mfr": "",
+    "cost": 1440,
+    "mass": 1.7,
+    "size": "",
+    "techLevel": 9,
+    "qrebs": "R=2",
+    "damage": "EMP-2",
+    "image": "",
+    "description": "<p><!-- Summary Start -->Early version of the EMP projector.<!-- Summary End --> The EMP projector fires a directed electromagnetic pulse which fries electronic circuits and Ablinds sophonts who have Awareness.</p>",
+    "stats": [],
+    "categories": ["weapons", "projectors"],
+    "sources": [
+      {
+        "publication": "Traveller 5.10 Core Rules Book 1 : Characters and Combat",
+        "authors": ["Miller, Marc"],
+        "publisher": {
+          "name": "Far Future Enterprises",
+          "url": "https://farfuture.net"
+        }
+      },
+      {
+        "publication": "Traveller 5.10 Core Rules Book 3 : Worlds and Adventures",
+        "authors": ["Miller, Marc"],
+        "publisher": {
+          "name": "Far Future Enterprises",
+          "url": "https://farfuture.net"
+        }
+      }
+    ],
+    "tags": ["products", "weapons", "projectors"]
+  },
+  {
+    "sku": "160-009-00009",
+    "type": "weapons",
+    "subtype": "projectors",
+    "name": "Poison Gas Projector, Medium (MPPj-9)",
+    "mfr": "",
+    "cost": 1440,
+    "mass": 1,
+    "size": "",
+    "techLevel": 9,
+    "qrebs": "R=4",
+    "damage": "Poison-2, Gas-2",
+    "image": "",
+    "description": "<p><!-- Summary Start -->The medium poison gas projector fires a cloud of poisonous gas at the target.<!-- Summary End --></p>",
+    "stats": [],
+    "categories": ["weapons", "projectors"],
+    "sources": [
+      {
+        "publication": "Traveller 5.10 Core Rules Book 1 : Characters and Combat",
+        "authors": ["Miller, Marc"],
+        "publisher": {
+          "name": "Far Future Enterprises",
+          "url": "https://farfuture.net"
+        }
+      },
+      {
+        "publication": "Traveller 5.10 Core Rules Book 3 : Worlds and Adventures",
+        "authors": ["Miller, Marc"],
+        "publisher": {
+          "name": "Far Future Enterprises",
+          "url": "https://farfuture.net"
+        }
+      }
+    ],
+    "tags": ["products", "weapons", "projectors"]
+  },
+  {
+    "sku": "160-009-00010",
+    "type": "weapons",
+    "subtype": "projectors",
+    "name": "EMP Projector (EmpPj-10)",
+    "mfr": "",
+    "cost": 1200,
+    "mass": 1,
+    "size": "",
+    "techLevel": 10,
+    "qrebs": "R=3",
+    "damage": "EMP-2",
+    "image": "",
+    "description": "<p><!-- Summary Start -->The EMP projector fires a directed electromagnetic pulse which fries electronic circuits and Ablinds sophonts who have Awareness.<!-- Summary End --></p>",
+    "stats": [],
+    "categories": ["weapons", "projectors"],
+    "sources": [
+      {
+        "publication": "Traveller 5.10 Core Rules Book 1 : Characters and Combat",
+        "authors": ["Miller, Marc"],
+        "publisher": {
+          "name": "Far Future Enterprises",
+          "url": "https://farfuture.net"
+        }
+      },
+      {
+        "publication": "Traveller 5.10 Core Rules Book 3 : Worlds and Adventures",
+        "authors": ["Miller, Marc"],
+        "publisher": {
+          "name": "Far Future Enterprises",
+          "url": "https://farfuture.net"
+        }
+      }
+    ],
+    "tags": ["products", "weapons", "projectors"]
+  },
+  {
+    "sku": "160-009-00011",
+    "type": "weapons",
+    "subtype": "projectors",
+    "name": "Freeze Projector (FPj-10)",
+    "mfr": "",
+    "cost": 900,
+    "mass": 1,
+    "size": "",
+    "techLevel": 10,
+    "qrebs": "R=3",
+    "damage": "Cold-3",
+    "image": "",
+    "description": "<p><!-- Summary Start -->The freeze projector induces an entropic efect, removing heat from a target.<!-- Summary End --></p>",
+    "stats": [],
+    "categories": ["weapons", "projectors"],
+    "sources": [
+      {
+        "publication": "Traveller 5.10 Core Rules Book 1 : Characters and Combat",
+        "authors": ["Miller, Marc"],
+        "publisher": {
+          "name": "Far Future Enterprises",
+          "url": "https://farfuture.net"
+        }
+      },
+      {
+        "publication": "Traveller 5.10 Core Rules Book 3 : Worlds and Adventures",
+        "authors": ["Miller, Marc"],
+        "publisher": {
+          "name": "Far Future Enterprises",
+          "url": "https://farfuture.net"
+        }
+      }
+    ],
+    "tags": ["products", "weapons", "projectors"]
+  },
+  {
+    "sku": "160-009-00012",
+    "type": "weapons",
+    "subtype": "projectors",
+    "name": "Poison Gas Projector, Alternate (AltPPj-10)",
+    "mfr": "",
+    "cost": 990,
+    "mass": 1.1,
+    "size": "",
+    "techLevel": 10,
+    "qrebs": "R=5",
+    "damage": "Poison-2, Gas-4",
+    "image": "",
+    "description": "<p><!-- Summary Start -->Alternate version of the poison gas projector.<!-- Summary End --> The poison gas projector fires a cloud of poisonous gas at the target.</p>",
+    "stats": [],
+    "categories": ["weapons", "projectors"],
+    "sources": [
+      {
+        "publication": "Traveller 5.10 Core Rules Book 1 : Characters and Combat",
+        "authors": ["Miller, Marc"],
+        "publisher": {
+          "name": "Far Future Enterprises",
+          "url": "https://farfuture.net"
+        }
+      },
+      {
+        "publication": "Traveller 5.10 Core Rules Book 3 : Worlds and Adventures",
+        "authors": ["Miller, Marc"],
+        "publisher": {
+          "name": "Far Future Enterprises",
+          "url": "https://farfuture.net"
+        }
+      }
+    ],
+    "tags": ["products", "weapons", "projectors"]
+  },
+  {
+    "sku": "160-009-00013",
+    "type": "weapons",
+    "subtype": "projectors",
+    "name": "Acid Projector, Remote (RAPj-10)",
+    "mfr": "",
+    "cost": 6300,
+    "mass": 1,
+    "size": "",
+    "techLevel": 10,
+    "qrebs": "R=3",
+    "damage": "Pen-2, Acid-3",
+    "image": "",
+    "description": "<p><!-- Summary Start -->Remote-controlled version of the acid projector.<!-- Summary End --> The acid projector discharges acid at the target.</p>",
+    "stats": [],
+    "categories": ["weapons", "projectors"],
+    "sources": [
+      {
+        "publication": "Traveller 5.10 Core Rules Book 1 : Characters and Combat",
+        "authors": ["Miller, Marc"],
+        "publisher": {
+          "name": "Far Future Enterprises",
+          "url": "https://farfuture.net"
+        }
+      },
+      {
+        "publication": "Traveller 5.10 Core Rules Book 3 : Worlds and Adventures",
+        "authors": ["Miller, Marc"],
+        "publisher": {
+          "name": "Far Future Enterprises",
+          "url": "https://farfuture.net"
+        }
+      }
+    ],
+    "tags": ["products", "weapons", "projectors"]
+  },
+  {
+    "sku": "160-009-00014",
+    "type": "weapons",
+    "subtype": "projectors",
+    "name": "EMP Projector, Heavy (HEmpPj-10)",
+    "mfr": "",
+    "cost": 1320,
+    "mass": 1.3,
+    "size": "",
+    "techLevel": 10,
+    "qrebs": "R=4",
+    "damage": "EMP-3",
+    "image": "",
+    "description": "<p><!-- Summary Start -->The heavy EMP projector fires a directed electromagnetic pulse which fries electronic circuits and Ablinds sophonts who have Awareness.<!-- Summary End --></p>",
+    "stats": [],
+    "categories": ["weapons", "projectors"],
+    "sources": [
+      {
+        "publication": "Traveller 5.10 Core Rules Book 1 : Characters and Combat",
+        "authors": ["Miller, Marc"],
+        "publisher": {
+          "name": "Far Future Enterprises",
+          "url": "https://farfuture.net"
+        }
+      },
+      {
+        "publication": "Traveller 5.10 Core Rules Book 3 : Worlds and Adventures",
+        "authors": ["Miller, Marc"],
+        "publisher": {
+          "name": "Far Future Enterprises",
+          "url": "https://farfuture.net"
+        }
+      }
+    ],
+    "tags": ["products", "weapons", "projectors"]
+  },
+  {
+    "sku": "160-009-00015",
+    "type": "weapons",
+    "subtype": "projectors",
+    "name": "Rad Projector, Medium (MRPj-10)",
+    "mfr": "",
+    "cost": 7200,
+    "mass": 1,
+    "size": "",
+    "techLevel": 10,
+    "qrebs": "R=4",
+    "damage": "Rad-2",
+    "image": "",
+    "description": "<p><!-- Summary Start -->The medium rad projector projects a beam of intense radiation at the target.<!-- Summary End --></p>",
+    "stats": [],
+    "categories": ["weapons", "projectors"],
+    "sources": [
+      {
+        "publication": "Traveller 5.10 Core Rules Book 1 : Characters and Combat",
+        "authors": ["Miller, Marc"],
+        "publisher": {
+          "name": "Far Future Enterprises",
+          "url": "https://farfuture.net"
+        }
+      },
+      {
+        "publication": "Traveller 5.10 Core Rules Book 3 : Worlds and Adventures",
+        "authors": ["Miller, Marc"],
+        "publisher": {
+          "name": "Far Future Enterprises",
+          "url": "https://farfuture.net"
+        }
+      }
+    ],
+    "tags": ["products", "weapons", "projectors"]
+  },
+  {
+    "sku": "160-009-00016",
+    "type": "weapons",
+    "subtype": "projectors",
+    "name": "EMP Projector, Snub, Prototype (PSnEmpPj-10)",
+    "mfr": "",
+    "cost": 18000,
+    "mass": 1.3,
+    "size": "",
+    "techLevel": 10,
+    "qrebs": "R=1",
+    "damage": "EMP-3",
+    "image": "",
+    "description": "<p><!-- Summary Start -->Prototype version of the snub EMP projector.<!-- Summary End --> The EMP projector fires a directed electromagnetic pulse which fries electronic circuits and Ablinds sophonts who have Awareness.</p>",
+    "stats": [],
+    "categories": ["weapons", "projectors"],
+    "sources": [
+      {
+        "publication": "Traveller 5.10 Core Rules Book 1 : Characters and Combat",
+        "authors": ["Miller, Marc"],
+        "publisher": {
+          "name": "Far Future Enterprises",
+          "url": "https://farfuture.net"
+        }
+      },
+      {
+        "publication": "Traveller 5.10 Core Rules Book 3 : Worlds and Adventures",
+        "authors": ["Miller, Marc"],
+        "publisher": {
+          "name": "Far Future Enterprises",
+          "url": "https://farfuture.net"
+        }
+      }
+    ],
+    "tags": ["products", "weapons", "projectors"]
+  },
+  {
+    "sku": "160-009-00017",
+    "type": "weapons",
+    "subtype": "projectors",
+    "name": "Acid Projector, Vlight (VlAPj-10)",
+    "mfr": "",
+    "cost": 8100,
+    "mass": 0.6,
+    "size": "",
+    "techLevel": 10,
+    "qrebs": "R=1",
+    "damage": "Pen-2, Acid-2",
+    "image": "",
+    "description": "<p><!-- Summary Start -->Very light version of the acid projector.<!-- Summary End --> The acid projector discharges acid at the target.</p>",
+    "stats": [],
+    "categories": ["weapons", "projectors"],
+    "sources": [
+      {
+        "publication": "Traveller 5.10 Core Rules Book 1 : Characters and Combat",
+        "authors": ["Miller, Marc"],
+        "publisher": {
+          "name": "Far Future Enterprises",
+          "url": "https://farfuture.net"
+        }
+      },
+      {
+        "publication": "Traveller 5.10 Core Rules Book 3 : Worlds and Adventures",
+        "authors": ["Miller, Marc"],
+        "publisher": {
+          "name": "Far Future Enterprises",
+          "url": "https://farfuture.net"
+        }
+      }
+    ],
+    "tags": ["products", "weapons", "projectors"]
+  },
+  {
+    "sku": "160-009-00018",
+    "type": "weapons",
+    "subtype": "projectors",
+    "name": "Shock Projector, Vlight (VlShPj-10)",
+    "mfr": "",
+    "cost": 5400,
+    "mass": 0.3,
+    "size": "",
+    "techLevel": 10,
+    "qrebs": "R=0",
+    "damage": "Pain-2, Elec-1",
+    "image": "",
+    "description": "<p><!-- Summary Start -->Very light version of the shock projector.<!-- Summary End --> The shock projector applies an electric shock to the target.</p>",
+    "stats": [],
+    "categories": ["weapons", "projectors"],
+    "sources": [
+      {
+        "publication": "Traveller 5.10 Core Rules Book 1 : Characters and Combat",
+        "authors": ["Miller, Marc"],
+        "publisher": {
+          "name": "Far Future Enterprises",
+          "url": "https://farfuture.net"
+        }
+      },
+      {
+        "publication": "Traveller 5.10 Core Rules Book 3 : Worlds and Adventures",
+        "authors": ["Miller, Marc"],
+        "publisher": {
+          "name": "Far Future Enterprises",
+          "url": "https://farfuture.net"
+        }
+      }
+    ],
+    "tags": ["products", "weapons", "projectors"]
+  },
+  {
+    "sku": "160-009-00019",
+    "type": "weapons",
+    "subtype": "projectors",
+    "name": "Freeze Projector, Alternate (AltFPj-11)",
+    "mfr": "",
+    "cost": 990,
+    "mass": 1.1,
+    "size": "",
+    "techLevel": 11,
+    "qrebs": "R=4",
+    "damage": "Cold-5",
+    "image": "",
+    "description": "<p><!-- Summary Start -->Alternate version of the freeze projector.<!-- Summary End --> The freeze projector induces an entropic effect, removing heat from the target.</p>",
+    "stats": [],
+    "categories": ["weapons", "projectors"],
+    "sources": [
+      {
+        "publication": "Traveller 5.10 Core Rules Book 1 : Characters and Combat",
+        "authors": ["Miller, Marc"],
+        "publisher": {
+          "name": "Far Future Enterprises",
+          "url": "https://farfuture.net"
+        }
+      },
+      {
+        "publication": "Traveller 5.10 Core Rules Book 3 : Worlds and Adventures",
+        "authors": ["Miller, Marc"],
+        "publisher": {
+          "name": "Far Future Enterprises",
+          "url": "https://farfuture.net"
+        }
+      }
+    ],
+    "tags": ["products", "weapons", "projectors"]
+  },
+  {
+    "sku": "160-009-00020",
+    "type": "weapons",
+    "subtype": "projectors",
+    "name": "Mag Projector, Basic (BMPj-11)",
+    "mfr": "",
+    "cost": 3150,
+    "mass": 2.6,
+    "size": "",
+    "techLevel": 11,
+    "qrebs": "R=1",
+    "damage": "EMP-1, Magnetic-4",
+    "image": "",
+    "description": "<p><!-- Summary Start -->Basic version of the mag projector.<!-- Summary End --> The mag projector projects a high frequency magnetic effect onto the target. This rapid magnetic pulsing scrambles electronic circuits and induces temporary disorientation in organic beings. In addition, this weapon effect shuts down magnetic equipment.</p>",
+    "stats": [],
+    "categories": ["weapons", "projectors"],
+    "sources": [
+      {
+        "publication": "Traveller 5.10 Core Rules Book 1 : Characters and Combat",
+        "authors": ["Miller, Marc"],
+        "publisher": {
+          "name": "Far Future Enterprises",
+          "url": "https://farfuture.net"
+        }
+      },
+      {
+        "publication": "Traveller 5.10 Core Rules Book 3 : Worlds and Adventures",
+        "authors": ["Miller, Marc"],
+        "publisher": {
+          "name": "Far Future Enterprises",
+          "url": "https://farfuture.net"
+        }
+      }
+    ],
+    "tags": ["products", "weapons", "projectors"]
+  },
+  {
+    "sku": "160-009-00021",
+    "type": "weapons",
+    "subtype": "projectors",
+    "name": "Sonic Projector, Early (ESPj-11)",
+    "mfr": "",
+    "cost": 396,
+    "mass": 1,
+    "size": "",
+    "techLevel": 11,
+    "qrebs": "R=1",
+    "damage": "Bang-2, Sound-2",
+    "image": "",
+    "description": "<p><!-- Summary Start -->Early version of the sonic projector.<!-- Summary End --> The sonic projector projects a sound-based effect at the target (as distinct from the sound some weapons make when firing).</p>",
+    "stats": [],
+    "categories": ["weapons", "projectors"],
+    "sources": [
+      {
+        "publication": "Traveller 5.10 Core Rules Book 1 : Characters and Combat",
+        "authors": ["Miller, Marc"],
+        "publisher": {
+          "name": "Far Future Enterprises",
+          "url": "https://farfuture.net"
+        }
+      },
+      {
+        "publication": "Traveller 5.10 Core Rules Book 3 : Worlds and Adventures",
+        "authors": ["Miller, Marc"],
+        "publisher": {
+          "name": "Far Future Enterprises",
+          "url": "https://farfuture.net"
+        }
+      }
+    ],
+    "tags": ["products", "weapons", "projectors"]
+  },
+  {
+    "sku": "160-009-00022",
+    "type": "weapons",
+    "subtype": "projectors",
+    "name": "Rad Projector, Improved (ImRPj-11)",
+    "mfr": "",
+    "cost": 2640,
+    "mass": 1,
+    "size": "",
+    "techLevel": 11,
+    "qrebs": "R=4",
+    "damage": "Rad-3",
+    "image": "",
+    "description": "<p><!-- Summary Start -->Improved version of the rad projector.<!-- Summary End --> The rad projector fires a beam of intense radiation at the target.</p>",
+    "stats": [],
+    "categories": ["weapons", "projectors"],
+    "sources": [
+      {
+        "publication": "Traveller 5.10 Core Rules Book 1 : Characters and Combat",
+        "authors": ["Miller, Marc"],
+        "publisher": {
+          "name": "Far Future Enterprises",
+          "url": "https://farfuture.net"
+        }
+      },
+      {
+        "publication": "Traveller 5.10 Core Rules Book 3 : Worlds and Adventures",
+        "authors": ["Miller, Marc"],
+        "publisher": {
+          "name": "Far Future Enterprises",
+          "url": "https://farfuture.net"
+        }
+      }
+    ],
+    "tags": ["products", "weapons", "projectors"]
+  },
+  {
+    "sku": "160-009-00023",
+    "type": "weapons",
+    "subtype": "projectors",
+    "name": "Rad Projector, Remote (RRPj-11)",
+    "mfr": "",
+    "cost": 16800,
+    "mass": 1,
+    "size": "",
+    "techLevel": 11,
+    "qrebs": "R=4",
+    "damage": "Rad-2",
+    "image": "",
+    "description": "<p><!-- Summary Start -->Remote-controlled version of the rad projector.<!-- Summary End --> The rad projector projects a intense beam of radiation at the target.</p>",
+    "stats": [],
+    "categories": ["weapons", "projectors"],
+    "sources": [
+      {
+        "publication": "Traveller 5.10 Core Rules Book 1 : Characters and Combat",
+        "authors": ["Miller, Marc"],
+        "publisher": {
+          "name": "Far Future Enterprises",
+          "url": "https://farfuture.net"
+        }
+      },
+      {
+        "publication": "Traveller 5.10 Core Rules Book 3 : Worlds and Adventures",
+        "authors": ["Miller, Marc"],
+        "publisher": {
+          "name": "Far Future Enterprises",
+          "url": "https://farfuture.net"
+        }
+      }
+    ],
+    "tags": ["products", "weapons", "projectors"]
+  },
+  {
+    "sku": "160-009-00024",
+    "type": "weapons",
+    "subtype": "projectors",
+    "name": "Rad Projector, Standard (StdRPj-11)",
+    "mfr": "",
+    "cost": 2400,
+    "mass": 1,
+    "size": "",
+    "techLevel": 11,
+    "qrebs": "R=4",
+    "damage": "Rad-3",
+    "image": "",
+    "description": "<p><!-- Summary Start -->Standard version of the rad projector.<!-- Summary End --> The rad projector projects an intense beam of radiation at the target.</p>",
+    "stats": [],
+    "categories": ["weapons", "projectors"],
+    "sources": [
+      {
+        "publication": "Traveller 5.10 Core Rules Book 1 : Characters and Combat",
+        "authors": ["Miller, Marc"],
+        "publisher": {
+          "name": "Far Future Enterprises",
+          "url": "https://farfuture.net"
+        }
+      },
+      {
+        "publication": "Traveller 5.10 Core Rules Book 3 : Worlds and Adventures",
+        "authors": ["Miller, Marc"],
+        "publisher": {
+          "name": "Far Future Enterprises",
+          "url": "https://farfuture.net"
+        }
+      }
+    ],
+    "tags": ["products", "weapons", "projectors"]
+  },
+  {
+    "sku": "160-009-00025",
+    "type": "weapons",
+    "subtype": "projectors",
+    "name": "EMP Projector, Medium, Improved (ImMEmpPj-11)",
+    "mfr": "",
+    "cost": 3960,
+    "mass": 1,
+    "size": "",
+    "techLevel": 11,
+    "qrebs": "R=3",
+    "damage": "EMP-3",
+    "image": "",
+    "description": "<p><!-- Summary Start -->Improved version of the medium EMP projector.<!-- Summary End --> The EMP projector fires a directed electromagnetic pulse which fries electronic circuits and Ablinds sophonts who have Awareness.</p>",
+    "stats": [],
+    "categories": ["weapons", "projectors"],
+    "sources": [
+      {
+        "publication": "Traveller 5.10 Core Rules Book 1 : Characters and Combat",
+        "authors": ["Miller, Marc"],
+        "publisher": {
+          "name": "Far Future Enterprises",
+          "url": "https://farfuture.net"
+        }
+      },
+      {
+        "publication": "Traveller 5.10 Core Rules Book 3 : Worlds and Adventures",
+        "authors": ["Miller, Marc"],
+        "publisher": {
+          "name": "Far Future Enterprises",
+          "url": "https://farfuture.net"
+        }
+      }
+    ],
+    "tags": ["products", "weapons", "projectors"]
+  },
+  {
+    "sku": "160-009-00026",
+    "type": "weapons",
+    "subtype": "projectors",
+    "name": "Flash Projector, Snub (SnFPj-11)",
+    "mfr": "",
+    "cost": 2250,
+    "mass": 0.3,
+    "size": "",
+    "techLevel": 11,
+    "qrebs": "R=2",
+    "damage": "Flash-4",
+    "image": "",
+    "description": "<p><!-- Summary Start -->Snub version of the flash projector.<!-- Summary End --> The flash projector fires a bright, blinding flash of light.</p>",
+    "stats": [],
+    "categories": ["weapons", "projectors"],
+    "sources": [
+      {
+        "publication": "Traveller 5.10 Core Rules Book 1 : Characters and Combat",
+        "authors": ["Miller, Marc"],
+        "publisher": {
+          "name": "Far Future Enterprises",
+          "url": "https://farfuture.net"
+        }
+      },
+      {
+        "publication": "Traveller 5.10 Core Rules Book 3 : Worlds and Adventures",
+        "authors": ["Miller, Marc"],
+        "publisher": {
+          "name": "Far Future Enterprises",
+          "url": "https://farfuture.net"
+        }
+      }
+    ],
+    "tags": ["products", "weapons", "projectors"]
+  },
+  {
+    "sku": "160-009-00027",
+    "type": "weapons",
+    "subtype": "projectors",
+    "name": "Stench Projector, Snub, Experimental (XSnSPj-11)",
+    "mfr": "",
+    "cost": 7200,
+    "mass": 0.5,
+    "size": "",
+    "techLevel": 11,
+    "qrebs": "R=1",
+    "damage": "Stench-3",
+    "image": "",
+    "description": "<p><!-- Summary Start -->Experimental version of the snub stench projector.<!-- Summary End --> The stench projector projects a foul-smelling or obnoxious effect at the target.</p>",
+    "stats": [],
+    "categories": ["weapons", "projectors"],
+    "sources": [
+      {
+        "publication": "Traveller 5.10 Core Rules Book 1 : Characters and Combat",
+        "authors": ["Miller, Marc"],
+        "publisher": {
+          "name": "Far Future Enterprises",
+          "url": "https://farfuture.net"
+        }
+      },
+      {
+        "publication": "Traveller 5.10 Core Rules Book 3 : Worlds and Adventures",
+        "authors": ["Miller, Marc"],
+        "publisher": {
+          "name": "Far Future Enterprises",
+          "url": "https://farfuture.net"
+        }
+      }
+    ],
+    "tags": ["products", "weapons", "projectors"]
+  },
+  {
+    "sku": "160-009-00028",
+    "type": "weapons",
+    "subtype": "projectors",
+    "name": "Flash Projector, Vlight, Basic (BVlFPj-11)",
+    "mfr": "",
+    "cost": 2835,
+    "mass": 0.3,
+    "size": "",
+    "techLevel": 11,
+    "qrebs": "R=0",
+    "damage": "Flash-2",
+    "image": "",
+    "description": "<p><!-- Summary Start -->Basic very light version of the flash projector.<!-- Summary End --> The flash projector fires a bright, blinding light.</p>",
+    "stats": [],
+    "categories": ["weapons", "projectors"],
+    "sources": [
+      {
+        "publication": "Traveller 5.10 Core Rules Book 1 : Characters and Combat",
+        "authors": ["Miller, Marc"],
+        "publisher": {
+          "name": "Far Future Enterprises",
+          "url": "https://farfuture.net"
+        }
+      },
+      {
+        "publication": "Traveller 5.10 Core Rules Book 3 : Worlds and Adventures",
+        "authors": ["Miller, Marc"],
+        "publisher": {
+          "name": "Far Future Enterprises",
+          "url": "https://farfuture.net"
+        }
+      }
+    ],
+    "tags": ["products", "weapons", "projectors"]
+  },
+  {
+    "sku": "160-009-00029",
+    "type": "weapons",
+    "subtype": "projectors",
+    "name": "Grav Projector (GrPj-12)",
+    "mfr": "",
+    "cost": 6000,
+    "mass": 3,
+    "size": "",
+    "techLevel": 12,
+    "qrebs": "R=1",
+    "damage": "Grav-4",
+    "image": "",
+    "description": "<p><!-- Summary Start -->The grav projector projects a high frequency gravitic effect onto the target. The rapid gravitic pushing and pulling reduces internal structural strength in objects and induces organic damage in beings. In addition, this weapon effect shuts down grav equipment.<!-- Summary End --></p>",
+    "stats": [],
+    "categories": ["weapons", "projectors"],
+    "sources": [
+      {
+        "publication": "Traveller 5.10 Core Rules Book 1 : Characters and Combat",
+        "authors": ["Miller, Marc"],
+        "publisher": {
+          "name": "Far Future Enterprises",
+          "url": "https://farfuture.net"
+        }
+      },
+      {
+        "publication": "Traveller 5.10 Core Rules Book 3 : Worlds and Adventures",
+        "authors": ["Miller, Marc"],
+        "publisher": {
+          "name": "Far Future Enterprises",
+          "url": "https://farfuture.net"
+        }
+      }
+    ],
+    "tags": ["products", "weapons", "projectors"]
+  },
+  {
+    "sku": "160-009-00030",
+    "type": "weapons",
+    "subtype": "projectors",
+    "name": "Sonic Projector (SPj-12)",
+    "mfr": "",
+    "cost": 330,
+    "mass": 0.6,
+    "size": "",
+    "techLevel": 12,
+    "qrebs": "R=2",
+    "damage": "Bang-2, Sound-2",
+    "image": "",
+    "description": "<p><!-- Summary Start -->The sonic projector projects a sound-based effect at the target (as distinct from the sound some weapons make when firing).<!-- Summary End --></p>",
+    "stats": [],
+    "categories": ["weapons", "projectors"],
+    "sources": [
+      {
+        "publication": "Traveller 5.10 Core Rules Book 1 : Characters and Combat",
+        "authors": ["Miller, Marc"],
+        "publisher": {
+          "name": "Far Future Enterprises",
+          "url": "https://farfuture.net"
+        }
+      },
+      {
+        "publication": "Traveller 5.10 Core Rules Book 3 : Worlds and Adventures",
+        "authors": ["Miller, Marc"],
+        "publisher": {
+          "name": "Far Future Enterprises",
+          "url": "https://farfuture.net"
+        }
+      }
+    ],
+    "tags": ["products", "weapons", "projectors"]
+  },
+  {
+    "sku": "160-009-00031",
+    "type": "weapons",
+    "subtype": "projectors",
+    "name": "Stench Projector (SPj-12)",
+    "mfr": "",
+    "cost": 360,
+    "mass": 0.4,
+    "size": "",
+    "techLevel": 12,
+    "qrebs": "R=2",
+    "damage": "Stench-2",
+    "image": "",
+    "description": "<p><!-- Summary Start -->The stench projector projects a foul-smelling or obnoxious effect at the target.<!-- Summary End --></p>",
+    "stats": [],
+    "categories": ["weapons", "projectors"],
+    "sources": [
+      {
+        "publication": "Traveller 5.10 Core Rules Book 1 : Characters and Combat",
+        "authors": ["Miller, Marc"],
+        "publisher": {
+          "name": "Far Future Enterprises",
+          "url": "https://farfuture.net"
+        }
+      },
+      {
+        "publication": "Traveller 5.10 Core Rules Book 3 : Worlds and Adventures",
+        "authors": ["Miller, Marc"],
+        "publisher": {
+          "name": "Far Future Enterprises",
+          "url": "https://farfuture.net"
+        }
+      }
+    ],
+    "tags": ["products", "weapons", "projectors"]
+  },
+  {
+    "sku": "160-009-00032",
+    "type": "weapons",
+    "subtype": "projectors",
+    "name": "Poison Gas Projector, Advanced (APPj-12)",
+    "mfr": "",
+    "cost": 1800,
+    "mass": 0.8,
+    "size": "",
+    "techLevel": 12,
+    "qrebs": "R=4",
+    "damage": "Poison-2, Gas-4",
+    "image": "",
+    "description": "<p><!-- Summary Start -->Advanced version of the poison gas projector.<!-- Summary End --> The poison gas projector projects a cloud of poisonous gas at the target.</p>",
+    "stats": [],
+    "categories": ["weapons", "projectors"],
+    "sources": [
+      {
+        "publication": "Traveller 5.10 Core Rules Book 1 : Characters and Combat",
+        "authors": ["Miller, Marc"],
+        "publisher": {
+          "name": "Far Future Enterprises",
+          "url": "https://farfuture.net"
+        }
+      },
+      {
+        "publication": "Traveller 5.10 Core Rules Book 3 : Worlds and Adventures",
+        "authors": ["Miller, Marc"],
+        "publisher": {
+          "name": "Far Future Enterprises",
+          "url": "https://farfuture.net"
+        }
+      }
+    ],
+    "tags": ["products", "weapons", "projectors"]
+  },
+  {
+    "sku": "160-009-00033",
+    "type": "weapons",
+    "subtype": "projectors",
+    "name": "Anti-Designator Poison Gas Projector (aDPPj-12)",
+    "mfr": "",
+    "cost": 2700,
+    "mass": 3,
+    "size": "",
+    "techLevel": 12,
+    "qrebs": "R=5",
+    "damage": "Poison-2, Gas-3",
+    "image": "",
+    "description": "<p><!-- Summary Start -->The anti-designator poison gas projector can sense the effects of a poison gas designator.<!-- Summary End --> The weapon can be set to automatically fire at the designator or wait for a manual command.</p>",
+    "stats": [],
+    "categories": ["weapons", "projectors"],
+    "sources": [
+      {
+        "publication": "Traveller 5.10 Core Rules Book 1 : Characters and Combat",
+        "authors": ["Miller, Marc"],
+        "publisher": {
+          "name": "Far Future Enterprises",
+          "url": "https://farfuture.net"
+        }
+      },
+      {
+        "publication": "Traveller 5.10 Core Rules Book 3 : Worlds and Adventures",
+        "authors": ["Miller, Marc"],
+        "publisher": {
+          "name": "Far Future Enterprises",
+          "url": "https://farfuture.net"
+        }
+      }
+    ],
+    "tags": ["products", "weapons", "projectors"]
+  },
+  {
+    "sku": "160-009-00034",
+    "type": "weapons",
+    "subtype": "projectors",
+    "name": "Poison Gas Projector, Disposable (DPPj-12)",
+    "mfr": "",
+    "cost": 1800,
+    "mass": 0.9,
+    "size": "",
+    "techLevel": 12,
+    "qrebs": "R=4",
+    "damage": "Poison-2, Gas-2",
+    "image": "",
+    "description": "<p><!-- Summary Start -->Disposable version of the poison gas projector.<!-- Summary End --> The poison gas projector projects a cloud of poisonous gas at the target. This version is constructed of relatively inexpensive materials and has a working lifetime measured in days.</p>",
+    "stats": [],
+    "categories": ["weapons", "projectors"],
+    "sources": [
+      {
+        "publication": "Traveller 5.10 Core Rules Book 1 : Characters and Combat",
+        "authors": ["Miller, Marc"],
+        "publisher": {
+          "name": "Far Future Enterprises",
+          "url": "https://farfuture.net"
+        }
+      },
+      {
+        "publication": "Traveller 5.10 Core Rules Book 3 : Worlds and Adventures",
+        "authors": ["Miller, Marc"],
+        "publisher": {
+          "name": "Far Future Enterprises",
+          "url": "https://farfuture.net"
+        }
+      }
+    ],
+    "tags": ["products", "weapons", "projectors"]
+  },
+  {
+    "sku": "160-009-00035",
+    "type": "weapons",
+    "subtype": "projectors",
+    "name": "Sonic Projector, Light (LtSPj-12)",
+    "mfr": "",
+    "cost": 495,
+    "mass": 0.4,
+    "size": "",
+    "techLevel": 12,
+    "qrebs": "R=1",
+    "damage": "Bang-2, Sound-1",
+    "image": "",
+    "description": "<p><!-- Summary Start -->A lightweight version of the sonic projector.<!-- Summary End --> The weapon projects a sound-based effect at the target (as distinct from the sound of some weapons firing).</p>",
+    "stats": [],
+    "categories": ["weapons", "projectors"],
+    "sources": [
+      {
+        "publication": "Traveller 5.10 Core Rules Book 1 : Characters and Combat",
+        "authors": ["Miller, Marc"],
+        "publisher": {
+          "name": "Far Future Enterprises",
+          "url": "https://farfuture.net"
+        }
+      },
+      {
+        "publication": "Traveller 5.10 Core Rules Book 3 : Worlds and Adventures",
+        "authors": ["Miller, Marc"],
+        "publisher": {
+          "name": "Far Future Enterprises",
+          "url": "https://farfuture.net"
+        }
+      }
+    ],
+    "tags": ["products", "weapons", "projectors"]
+  },
+  {
+    "sku": "160-009-00036",
+    "type": "weapons",
+    "subtype": "projectors",
+    "name": "Fire Projector, Light, Obsolete (ObLtFPj-12)",
+    "mfr": "",
+    "cost": 450,
+    "mass": 0.4,
+    "size": "",
+    "techLevel": 12,
+    "qrebs": "R=1",
+    "damage": "Pen-1, Burn-2",
+    "image": "",
+    "description": "<p><!-- Summary Start -->Obsolete version of the light fire projector.<!-- Summary End --> The fire projector fires or projects flame or fire at the target.</p>",
+    "stats": [],
+    "categories": ["weapons", "projectors"],
+    "sources": [
+      {
+        "publication": "Traveller 5.10 Core Rules Book 1 : Characters and Combat",
+        "authors": ["Miller, Marc"],
+        "publisher": {
+          "name": "Far Future Enterprises",
+          "url": "https://farfuture.net"
+        }
+      },
+      {
+        "publication": "Traveller 5.10 Core Rules Book 3 : Worlds and Adventures",
+        "authors": ["Miller, Marc"],
+        "publisher": {
+          "name": "Far Future Enterprises",
+          "url": "https://farfuture.net"
+        }
+      }
+    ],
+    "tags": ["products", "weapons", "projectors"]
+  },
+  {
+    "sku": "160-009-00037",
+    "type": "weapons",
+    "subtype": "projectors",
+    "name": "Poison Gas Projector, Medium, Advanced (AMPPj-12)",
+    "mfr": "",
+    "cost": 5400,
+    "mass": 0.8,
+    "size": "",
+    "techLevel": 12,
+    "qrebs": "R=4",
+    "damage": "Poison-2, Gas-4",
+    "image": "",
+    "description": "<p><!-- Summary Start -->Advanced version of the medium poison gas projector.<!-- Summary End --> The poison gas projector projects a cloud of poisonous gas at the target.</p>",
+    "stats": [],
+    "categories": ["weapons", "projectors"],
+    "sources": [
+      {
+        "publication": "Traveller 5.10 Core Rules Book 1 : Characters and Combat",
+        "authors": ["Miller, Marc"],
+        "publisher": {
+          "name": "Far Future Enterprises",
+          "url": "https://farfuture.net"
+        }
+      },
+      {
+        "publication": "Traveller 5.10 Core Rules Book 3 : Worlds and Adventures",
+        "authors": ["Miller, Marc"],
+        "publisher": {
+          "name": "Far Future Enterprises",
+          "url": "https://farfuture.net"
+        }
+      }
+    ],
+    "tags": ["products", "weapons", "projectors"]
+  },
+  {
+    "sku": "160-009-00038",
+    "type": "weapons",
+    "subtype": "projectors",
+    "name": "Mag Projector, Medium, Rmote (RMMPj-12)",
+    "mfr": "",
+    "cost": 94500,
+    "mass": 2,
+    "size": "",
+    "techLevel": 12,
+    "qrebs": "R=1",
+    "damage": "EMP-1, Magnetic-4",
+    "image": "",
+    "description": "<p><!-- Summary Start -->Remote-controlled version of the medium mag projector.<!-- Summary End --> The mag projector projects a high frequency magnetic effect onto the target. The rapid magnetic pulsing scrambles electronic circuits and induces temporary disorientation in organic beings. In addition, this weapon effect shuts down magnetic equipment.</p>",
+    "stats": [],
+    "categories": ["weapons", "projectors"],
+    "sources": [
+      {
+        "publication": "Traveller 5.10 Core Rules Book 1 : Characters and Combat",
+        "authors": ["Miller, Marc"],
+        "publisher": {
+          "name": "Far Future Enterprises",
+          "url": "https://farfuture.net"
+        }
+      },
+      {
+        "publication": "Traveller 5.10 Core Rules Book 3 : Worlds and Adventures",
+        "authors": ["Miller, Marc"],
+        "publisher": {
+          "name": "Far Future Enterprises",
+          "url": "https://farfuture.net"
+        }
+      }
+    ],
+    "tags": ["products", "weapons", "projectors"]
+  },
+  {
+    "sku": "160-009-00039",
+    "type": "weapons",
+    "subtype": "projectors",
+    "name": "Rad Projector, Snub, Standard (StdSnRPj-12)",
+    "mfr": "",
+    "cost": 12000,
+    "mass": 0.7,
+    "size": "",
+    "techLevel": 12,
+    "qrebs": "R=2",
+    "damage": "Rad-4",
+    "image": "",
+    "description": "<p><!-- Summary Start -->Standard version of the snub rad projector.<!-- Summary End --> This weapon projects an intense beam of radiation at the target.</p>",
+    "stats": [],
+    "categories": ["weapons", "projectors"],
+    "sources": [
+      {
+        "publication": "Traveller 5.10 Core Rules Book 1 : Characters and Combat",
+        "authors": ["Miller, Marc"],
+        "publisher": {
+          "name": "Far Future Enterprises",
+          "url": "https://farfuture.net"
+        }
+      },
+      {
+        "publication": "Traveller 5.10 Core Rules Book 3 : Worlds and Adventures",
+        "authors": ["Miller, Marc"],
+        "publisher": {
+          "name": "Far Future Enterprises",
+          "url": "https://farfuture.net"
+        }
+      }
+    ],
+    "tags": ["products", "weapons", "projectors"]
+  },
+  {
+    "sku": "160-009-00040",
+    "type": "weapons",
+    "subtype": "projectors",
+    "name": "Grav Projector, Vheavy (VhGrPj-12)",
+    "mfr": "",
+    "cost": 12000,
+    "mass": 12,
+    "size": "",
+    "techLevel": 12,
+    "qrebs": "R=5",
+    "damage": "Grav-9",
+    "image": "",
+    "description": "<p><!-- Summary Start -->The very heavy grav projector projects a high frequency gravitic effect onto the target.<!-- Summary End --> The rapid gravitic pushing and pulling reduces internal structural strength in objects and induces organic damage in beings. In addition, this weapon effect shuts down grav equipment.</p>",
+    "stats": [],
+    "categories": ["weapons", "projectors"],
+    "sources": [
+      {
+        "publication": "Traveller 5.10 Core Rules Book 1 : Characters and Combat",
+        "authors": ["Miller, Marc"],
+        "publisher": {
+          "name": "Far Future Enterprises",
+          "url": "https://farfuture.net"
+        }
+      },
+      {
+        "publication": "Traveller 5.10 Core Rules Book 3 : Worlds and Adventures",
+        "authors": ["Miller, Marc"],
+        "publisher": {
+          "name": "Far Future Enterprises",
+          "url": "https://farfuture.net"
+        }
+      }
+    ],
+    "tags": ["products", "weapons", "projectors"]
+  },
+  {
+    "sku": "160-009-00041",
+    "type": "weapons",
+    "subtype": "projectors",
+    "name": "Psi Am Projector (PsiPj-13)",
+    "mfr": "",
+    "cost": 2700,
+    "mass": 1,
+    "size": "",
+    "techLevel": 13,
+    "qrebs": "R=5",
+    "damage": "Psi-2",
+    "image": "",
+    "description": "<p><!-- Summary Start -->The Psi amp projector amplifies the natural psionic ability of the user.<!-- Summary End --></p>",
+    "stats": [],
+    "categories": ["weapons", "projectors"],
+    "sources": [
+      {
+        "publication": "Traveller 5.10 Core Rules Book 1 : Characters and Combat",
+        "authors": ["Miller, Marc"],
+        "publisher": {
+          "name": "Far Future Enterprises",
+          "url": "https://farfuture.net"
+        }
+      },
+      {
+        "publication": "Traveller 5.10 Core Rules Book 3 : Worlds and Adventures",
+        "authors": ["Miller, Marc"],
+        "publisher": {
+          "name": "Far Future Enterprises",
+          "url": "https://farfuture.net"
+        }
+      }
+    ],
+    "tags": ["products", "weapons", "projectors"]
+  },
+  {
+    "sku": "160-009-00042",
+    "type": "weapons",
+    "subtype": "projectors",
+    "name": "Grav Projector, Improved (ImGrPj-13)",
+    "mfr": "",
+    "cost": 6600,
+    "mass": 3,
+    "size": "",
+    "techLevel": 13,
+    "qrebs": "R=1",
+    "damage": "Grav-5",
+    "image": "",
+    "description": "<p><!-- Summary Start -->Improved version of the grav projector.<!-- Summary End --> The grav projector projects a high frequency gravitic effect onto the target. The rapid gravitic pushing and pulling reduces internal structural strength in objects and induces organic damage in beings. In addition, this weapon effect shuts down grav equipment.</p>",
+    "stats": [],
+    "categories": ["weapons", "projectors"],
+    "sources": [
+      {
+        "publication": "Traveller 5.10 Core Rules Book 1 : Characters and Combat",
+        "authors": ["Miller, Marc"],
+        "publisher": {
+          "name": "Far Future Enterprises",
+          "url": "https://farfuture.net"
+        }
+      },
+      {
+        "publication": "Traveller 5.10 Core Rules Book 3 : Worlds and Adventures",
+        "authors": ["Miller, Marc"],
+        "publisher": {
+          "name": "Far Future Enterprises",
+          "url": "https://farfuture.net"
+        }
+      }
+    ],
+    "tags": ["products", "weapons", "projectors"]
+  },
+  {
+    "sku": "160-009-00043",
+    "type": "weapons",
+    "subtype": "projectors",
+    "name": "Poison Gas Projector, Obsolete (ObPPj-13)",
+    "mfr": "",
+    "cost": 450,
+    "mass": 0.7,
+    "size": "",
+    "techLevel": 13,
+    "qrebs": "R=4",
+    "damage": "Poison-2, Gas-3",
+    "image": "",
+    "description": "<p><!-- Summary Start -->Obsolete version of the poison gas projector.<!-- Summary End --> The poison gas projector fires a cloud of poisonous gas at the target.</p>",
+    "stats": [],
+    "categories": ["weapons", "projectors"],
+    "sources": [
+      {
+        "publication": "Traveller 5.10 Core Rules Book 1 : Characters and Combat",
+        "authors": ["Miller, Marc"],
+        "publisher": {
+          "name": "Far Future Enterprises",
+          "url": "https://farfuture.net"
+        }
+      },
+      {
+        "publication": "Traveller 5.10 Core Rules Book 3 : Worlds and Adventures",
+        "authors": ["Miller, Marc"],
+        "publisher": {
+          "name": "Far Future Enterprises",
+          "url": "https://farfuture.net"
+        }
+      }
+    ],
+    "tags": ["products", "weapons", "projectors"]
+  },
+  {
+    "sku": "160-009-00044",
+    "type": "weapons",
+    "subtype": "projectors",
+    "name": "Stench Projector, Standard (StdSPj-13)",
+    "mfr": "",
+    "cost": 360,
+    "mass": 0.4,
+    "size": "",
+    "techLevel": 13,
+    "qrebs": "R=2",
+    "damage": "Stench-3",
+    "image": "",
+    "description": "<p><!-- Summary Start -->Standard version of the stench projector.<!-- Summary End --> The stench projector projects a foul-smelling or obnoxious effect at the target.</p>",
+    "stats": [],
+    "categories": ["weapons", "projectors"],
+    "sources": [
+      {
+        "publication": "Traveller 5.10 Core Rules Book 1 : Characters and Combat",
+        "authors": ["Miller, Marc"],
+        "publisher": {
+          "name": "Far Future Enterprises",
+          "url": "https://farfuture.net"
+        }
+      },
+      {
+        "publication": "Traveller 5.10 Core Rules Book 3 : Worlds and Adventures",
+        "authors": ["Miller, Marc"],
+        "publisher": {
+          "name": "Far Future Enterprises",
+          "url": "https://farfuture.net"
+        }
+      }
+    ],
+    "tags": ["products", "weapons", "projectors"]
+  },
+  {
+    "sku": "160-009-00045",
+    "type": "weapons",
+    "subtype": "projectors",
+    "name": "Anti-Designator Freeze Projector (aDFPj-13)",
+    "mfr": "",
+    "cost": 2700,
+    "mass": 3,
+    "size": "",
+    "techLevel": 13,
+    "qrebs": "R=4",
+    "damage": "Cold-4",
+    "image": "",
+    "description": "<p><!-- Summary Start -->The anti-designator freeze projector senses the effects of a freeze designator.<!-- Summary End --> The weapon can be set to automatically fire at the designator or wait for a manual command.</p>",
+    "stats": [],
+    "categories": ["weapons", "projectors"],
+    "sources": [
+      {
+        "publication": "Traveller 5.10 Core Rules Book 1 : Characters and Combat",
+        "authors": ["Miller, Marc"],
+        "publisher": {
+          "name": "Far Future Enterprises",
+          "url": "https://farfuture.net"
+        }
+      },
+      {
+        "publication": "Traveller 5.10 Core Rules Book 3 : Worlds and Adventures",
+        "authors": ["Miller, Marc"],
+        "publisher": {
+          "name": "Far Future Enterprises",
+          "url": "https://farfuture.net"
+        }
+      }
+    ],
+    "tags": ["products", "weapons", "projectors"]
+  },
+  {
+    "sku": "160-009-00046",
+    "type": "weapons",
+    "subtype": "projectors",
+    "name": "Anti-Designator Rad Projector (aDRPj-13)",
+    "mfr": "",
+    "cost": 7200,
+    "mass": 3,
+    "size": "",
+    "techLevel": 13,
+    "qrebs": "R=5",
+    "damage": "Rad-3",
+    "image": "",
+    "description": "<p><!-- Summary Start -->The anti-designator rad projector senses the effects of a rad designator.<!-- Summary End --> The weapon can be set to automatically fire at the designator or wait for a manual command.</p>",
+    "stats": [],
+    "categories": ["weapons", "projectors"],
+    "sources": [
+      {
+        "publication": "Traveller 5.10 Core Rules Book 1 : Characters and Combat",
+        "authors": ["Miller, Marc"],
+        "publisher": {
+          "name": "Far Future Enterprises",
+          "url": "https://farfuture.net"
+        }
+      },
+      {
+        "publication": "Traveller 5.10 Core Rules Book 3 : Worlds and Adventures",
+        "authors": ["Miller, Marc"],
+        "publisher": {
+          "name": "Far Future Enterprises",
+          "url": "https://farfuture.net"
+        }
+      }
+    ],
+    "tags": ["products", "weapons", "projectors"]
+  },
+  {
+    "sku": "160-009-00047",
+    "type": "weapons",
+    "subtype": "projectors",
+    "name": "Anti-Designator Fire Projector, Modified (ModaDFP-j13)",
+    "mfr": "",
+    "cost": 2160,
+    "mass": 2.4,
+    "size": "",
+    "techLevel": 13,
+    "qrebs": "R=3",
+    "damage": "Pen-1, Burn-4",
+    "image": "",
+    "description": "<p><!-- Summary Start -->Modified version of the anti-designator fire projector.<!-- Summary End --> The weapon senses the effects of a fire designator and can be set to automatically fire at the designator or wait for a manual command.</p>",
+    "stats": [],
+    "categories": ["weapons", "projectors"],
+    "sources": [
+      {
+        "publication": "Traveller 5.10 Core Rules Book 1 : Characters and Combat",
+        "authors": ["Miller, Marc"],
+        "publisher": {
+          "name": "Far Future Enterprises",
+          "url": "https://farfuture.net"
+        }
+      },
+      {
+        "publication": "Traveller 5.10 Core Rules Book 3 : Worlds and Adventures",
+        "authors": ["Miller, Marc"],
+        "publisher": {
+          "name": "Far Future Enterprises",
+          "url": "https://farfuture.net"
+        }
+      }
+    ],
+    "tags": ["products", "weapons", "projectors"]
+  },
+  {
+    "sku": "160-009-00048",
+    "type": "weapons",
+    "subtype": "projectors",
+    "name": "Grav Projector, Medium, Remote (RMGrPj-13)",
+    "mfr": "",
+    "cost": 126000,
+    "mass": 3,
+    "size": "",
+    "techLevel": 13,
+    "qrebs": "R=1",
+    "damage": "Grav-4",
+    "image": "",
+    "description": "<p><!-- Summary Start -->Remote-controlled version of the medium grav projector.<!-- Summary End --> The grav projector projects a high frequency gravitic effect onto the target. The rapid gravitic pushing and pulling reduces internal structural strength in objects and induces organic damage in beings. In addition, this weapon effect shuts down grav equipment.</p>",
+    "stats": [],
+    "categories": ["weapons", "projectors"],
+    "sources": [
+      {
+        "publication": "Traveller 5.10 Core Rules Book 1 : Characters and Combat",
+        "authors": ["Miller, Marc"],
+        "publisher": {
+          "name": "Far Future Enterprises",
+          "url": "https://farfuture.net"
+        }
+      },
+      {
+        "publication": "Traveller 5.10 Core Rules Book 3 : Worlds and Adventures",
+        "authors": ["Miller, Marc"],
+        "publisher": {
+          "name": "Far Future Enterprises",
+          "url": "https://farfuture.net"
+        }
+      }
+    ],
+    "tags": ["products", "weapons", "projectors"]
+  },
+  {
+    "sku": "160-009-00049",
+    "type": "weapons",
+    "subtype": "projectors",
+    "name": "Stench Projector, Recoilless (RSPj-13)",
+    "mfr": "",
+    "cost": 540,
+    "mass": 0.4,
+    "size": "",
+    "techLevel": 13,
+    "qrebs": "R=1",
+    "damage": "Stench-3",
+    "image": "",
+    "description": "<p><!-- Summary Start -->Recoilless version of the stench projector.<!-- Summary End --> The stench projector projects a foul-smelling or obnoxious effect at the target.</p>",
+    "stats": [],
+    "categories": ["weapons", "projectors"],
+    "sources": [
+      {
+        "publication": "Traveller 5.10 Core Rules Book 1 : Characters and Combat",
+        "authors": ["Miller, Marc"],
+        "publisher": {
+          "name": "Far Future Enterprises",
+          "url": "https://farfuture.net"
+        }
+      },
+      {
+        "publication": "Traveller 5.10 Core Rules Book 3 : Worlds and Adventures",
+        "authors": ["Miller, Marc"],
+        "publisher": {
+          "name": "Far Future Enterprises",
+          "url": "https://farfuture.net"
+        }
+      }
+    ],
+    "tags": ["products", "weapons", "projectors"]
+  },
+  {
+    "sku": "160-009-00050",
+    "type": "weapons",
+    "subtype": "projectors",
+    "name": "Freeze Projector, Vlight, Modified (ModVlFPj-13)",
+    "mfr": "",
+    "cost": 9720,
+    "mass": 0.5,
+    "size": "",
+    "techLevel": 13,
+    "qrebs": "R=1",
+    "damage": "Cold-3",
+    "image": "",
+    "description": "",
+    "stats": [],
+    "categories": ["weapons", "projectors"],
+    "sources": [
+      {
+        "publication": "Traveller 5.10 Core Rules Book 1 : Characters and Combat",
+        "authors": ["Miller, Marc"],
+        "publisher": {
+          "name": "Far Future Enterprises",
+          "url": "https://farfuture.net"
+        }
+      },
+      {
+        "publication": "Traveller 5.10 Core Rules Book 3 : Worlds and Adventures",
+        "authors": ["Miller, Marc"],
+        "publisher": {
+          "name": "Far Future Enterprises",
+          "url": "https://farfuture.net"
+        }
+      }
+    ],
+    "tags": ["products", "weapons", "projectors"]
+  },
+  {
+    "sku": "160-009-00051",
+    "type": "weapons",
+    "subtype": "projectors",
+    "name": "Sonic Projector, Light, Modified (ModLtSpj_14)",
+    "mfr": "",
+    "cost": 594,
+    "mass": 0.3,
+    "size": "",
+    "techLevel": 14,
+    "qrebs": "R=1",
+    "damage": "Bang-2, Sound-2",
+    "image": "",
+    "description": "<p><!-- Summary Start -->Modified version of the light sonic projector.<!-- Summary End --> This weapon projects a sound-based effect at the target (as distinct from the sound some weapons make when firing).</p>",
+    "stats": [],
+    "categories": ["weapons", "projectors"],
+    "sources": [
+      {
+        "publication": "Traveller 5.10 Core Rules Book 1 : Characters and Combat",
+        "authors": ["Miller, Marc"],
+        "publisher": {
+          "name": "Far Future Enterprises",
+          "url": "https://farfuture.net"
+        }
+      },
+      {
+        "publication": "Traveller 5.10 Core Rules Book 3 : Worlds and Adventures",
+        "authors": ["Miller, Marc"],
+        "publisher": {
+          "name": "Far Future Enterprises",
+          "url": "https://farfuture.net"
+        }
+      }
+    ],
+    "tags": ["products", "weapons", "projectors"]
+  },
+  {
+    "sku": "160-009-00052",
+    "type": "weapons",
+    "subtype": "projectors",
+    "name": "Grav Projector, Snub, Remote (RSnGrPj-14)",
+    "mfr": "",
+    "cost": 210000,
+    "mass": 2.1,
+    "size": "",
+    "techLevel": 14,
+    "qrebs": "R=2",
+    "damage": "Grav-5",
+    "image": "",
+    "description": "<p><!-- Summary Start -->Remote-controlled version of the snub grav projector. <!-- Summary End --> The grav projector projects a high frequency gravitic effect onto the target. The rapid gravitic pushing and pulling reduces internal structural strength in objects and induces organic damage in beings. In addition, this weapon effect shuts down grav equipment.</p>",
+    "stats": [],
+    "categories": ["weapons", "projectors"],
+    "sources": [
+      {
+        "publication": "Traveller 5.10 Core Rules Book 1 : Characters and Combat",
+        "authors": ["Miller, Marc"],
+        "publisher": {
+          "name": "Far Future Enterprises",
+          "url": "https://farfuture.net"
+        }
+      },
+      {
+        "publication": "Traveller 5.10 Core Rules Book 3 : Worlds and Adventures",
+        "authors": ["Miller, Marc"],
+        "publisher": {
+          "name": "Far Future Enterprises",
+          "url": "https://farfuture.net"
+        }
+      }
+    ],
+    "tags": ["products", "weapons", "projectors"]
+  },
+  {
+    "sku": "160-009-00053",
+    "type": "weapons",
+    "subtype": "projectors",
+    "name": "Sonic Projector, Advanced (ASPj-15)",
+    "mfr": "",
+    "cost": 660,
+    "mass": 0.4,
+    "size": "",
+    "techLevel": 15,
+    "qrebs": "R=2",
+    "damage": "Bang-2, Sound-4",
+    "image": "",
+    "description": "<p><!-- Summary Start -->Advanced version of the sonic projector.<!-- Summary End --> This weapon projects a sound-based effect at the target (as distinct from the sound some weapons make when firing).</p>",
+    "stats": [],
+    "categories": ["weapons", "projectors"],
+    "sources": [
+      {
+        "publication": "Traveller 5.10 Core Rules Book 1 : Characters and Combat",
+        "authors": ["Miller, Marc"],
+        "publisher": {
+          "name": "Far Future Enterprises",
+          "url": "https://farfuture.net"
+        }
+      },
+      {
+        "publication": "Traveller 5.10 Core Rules Book 3 : Worlds and Adventures",
+        "authors": ["Miller, Marc"],
+        "publisher": {
+          "name": "Far Future Enterprises",
+          "url": "https://farfuture.net"
+        }
+      }
+    ],
+    "tags": ["products", "weapons", "projectors"]
+  },
+  {
+    "sku": "160-009-00054",
+    "type": "weapons",
+    "subtype": "projectors",
+    "name": "Anti-Designator Mag Projector, Alternate (AltaDMPj-15)",
+    "mfr": "",
+    "cost": 14850,
+    "mass": 6.6,
+    "size": "",
+    "techLevel": 15,
+    "qrebs": "R=3",
+    "damage": "Emp-1, Magnetic-7",
+    "image": "",
+    "description": "<p><!-- Summary Start -->Alternate version of the anti-designator mag projector.<!-- Summary End --> The weapon senses the effects of a mag designator and can be set to automatically fire or wait for a manual command to fire.</p>",
+    "stats": [],
+    "categories": ["weapons", "projectors"],
+    "sources": [
+      {
+        "publication": "Traveller 5.10 Core Rules Book 1 : Characters and Combat",
+        "authors": ["Miller, Marc"],
+        "publisher": {
+          "name": "Far Future Enterprises",
+          "url": "https://farfuture.net"
+        }
+      },
+      {
+        "publication": "Traveller 5.10 Core Rules Book 3 : Worlds and Adventures",
+        "authors": ["Miller, Marc"],
+        "publisher": {
+          "name": "Far Future Enterprises",
+          "url": "https://farfuture.net"
+        }
+      }
+    ],
+    "tags": ["products", "weapons", "projectors"]
+  },
+  {
+    "sku": "160-009-00055",
+    "type": "weapons",
+    "subtype": "projectors",
+    "name": "Stench Projector, Disposable (DSPj-15)",
+    "mfr": "",
+    "cost": 720,
+    "mass": 0.3,
+    "size": "",
+    "techLevel": 15,
+    "qrebs": "R=2",
+    "damage": "Stench-2",
+    "image": "",
+    "description": "<p><!-- Summary Start -->Disposable version of the stench projector<!-- Summary End --> This weapon projects a foul-smelling or obnoxious effect at the taget. This version is constructed of relatively inexpensive materials and has a working lifetime measured in days.</p>",
+    "stats": [],
+    "categories": ["weapons", "projectors"],
+    "sources": [
+      {
+        "publication": "Traveller 5.10 Core Rules Book 1 : Characters and Combat",
+        "authors": ["Miller, Marc"],
+        "publisher": {
+          "name": "Far Future Enterprises",
+          "url": "https://farfuture.net"
+        }
+      },
+      {
+        "publication": "Traveller 5.10 Core Rules Book 3 : Worlds and Adventures",
+        "authors": ["Miller, Marc"],
+        "publisher": {
+          "name": "Far Future Enterprises",
+          "url": "https://farfuture.net"
+        }
+      }
+    ],
+    "tags": ["products", "weapons", "projectors"]
+  },
+  {
+    "sku": "160-009-00056",
+    "type": "weapons",
+    "subtype": "projectors",
+    "name": "Anti-Designator Freeze Projector, Advanced (AaDFPj-16)",
+    "mfr": "",
+    "cost": 5400,
+    "mass": 2.4,
+    "size": "",
+    "techLevel": 16,
+    "qrebs": "R=4",
+    "damage": "Cold-6",
+    "image": "",
+    "description": "<p><!-- Summary Start -->Advanced version of the anti-designator freeze projector.<!-- Summary End --> The weapon senses the effects of a freeze designator and can be set to automatically fire or wait for a manual command to fire.</p>",
+    "stats": [],
+    "categories": ["weapons", "projectors"],
+    "sources": [
+      {
+        "publication": "Traveller 5.10 Core Rules Book 1 : Characters and Combat",
+        "authors": ["Miller, Marc"],
+        "publisher": {
+          "name": "Far Future Enterprises",
+          "url": "https://farfuture.net"
+        }
+      },
+      {
+        "publication": "Traveller 5.10 Core Rules Book 3 : Worlds and Adventures",
+        "authors": ["Miller, Marc"],
+        "publisher": {
+          "name": "Far Future Enterprises",
+          "url": "https://farfuture.net"
+        }
+      }
+    ],
+    "tags": ["products", "weapons", "projectors"]
+  }
+]

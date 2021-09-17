@@ -1,0 +1,445 @@
+[
+  {
+    "sku": "160-002-00001",
+    "type": "weapons",
+    "subtype": "special blades",
+    "name": "Vibro-Blade (V)",
+    "mfr": "",
+    "cost": 900,
+    "mass": 0.5,
+    "size": "",
+    "techLevel": 10,
+    "qrebs": "",
+    "damage":"Cuts-2, Pen-2",
+    "image": "",
+    "description": "<p><!-- Summary Start -->The vibro-blade has an extendable blade that uses vibration for increased cutting effect.<!-- Summary End --></p>",
+    "stats": [],
+    "categories": ["weapons", "special blades"],
+    "sources": [
+      {
+        "publication": "Traveller 5.10 Core Rules Book 3 : Worlds and Adventures",
+        "authors": ["Miller, Marc"],
+        "publisher": {
+          "name": "Far Future Enterprises",
+          "url": "https://farfuture.net"
+        }
+      }
+    ],
+    "tags": ["products", "weapons", "special blades"]
+  },
+  {
+    "sku": "160-002-00002",
+    "type": "weapons",
+    "subtype": "special blades",
+    "name": "Space Axe (A)",
+    "mfr": "",
+    "cost": 500,
+    "mass": 2,
+    "size": "",
+    "techLevel": 9,
+    "qrebs": "",
+    "damage": "Cuts-2, Pen-2",
+    "image": "",
+    "description": "<p><!-- Summary Start -->Standard space axe for boarding actions and close combat.<!-- Summary End --></p>",
+    "stats": [],
+    "categories": ["weapons", "special blades"],
+    "sources": [
+      {
+        "publication": "Traveller 5.10 Core Rules Book 3 : Worlds and Adventures",
+        "authors": ["Miller, Marc"],
+        "publisher": {
+          "name": "Far Future Enterprises",
+          "url": "https://farfuture.net"
+        }
+      }
+    ],
+    "tags": ["products", "weapons", "special blades"]
+  },
+  {
+    "sku": "160-002-00003",
+    "type": "weapons",
+    "subtype": "special blades",
+    "name": "Axe (Ax)",
+    "mfr": "",
+    "cost": 60,
+    "mass": 2,
+    "size": "",
+    "techLevel": 0,
+    "qrebs": "",
+    "damage": "Cuts-3",
+    "image": "",
+    "description": "</p><!-- Summary Start -->Standard axe for close combat.<!-- Summary End --></p>",
+    "stats": [],
+    "categories": ["weapons", "special blades"],
+    "sources": [
+      {
+        "publication": "Traveller 5.10 Core Rules Book 3 : Worlds and Adventures",
+        "authors": ["Miller, Marc"],
+        "publisher": {
+          "name": "Far Future Enterprises",
+          "url": "https://farfuture.net"
+        }
+      }
+    ],
+    "tags": ["products", "weapons", "special blades"]
+  },
+  {
+    "sku": "160-002-00004",
+    "type": "weapons",
+    "subtype": "long blades",
+    "name": "Pike (P)",
+    "mfr": "",
+    "cost": 50,
+    "mass": 3,
+    "size": "",
+    "techLevel": 1,
+    "qrebs": "B= +3",
+    "damage": "Cuts-2",
+    "image": "",
+    "description": "<p><!-- Summary Start -->A long (3000 to 4000mm) polearm with some form of flat blade tip.<!-- Summary End --> Pikes are commonly carried as weapons by tech level 1 troops.</p>",
+    "stats": [],
+    "categories": ["weapons", "long blades"],
+    "sources": [
+      {
+        "publication": "Traveller 5.10 Core Rules Book 3 : Worlds and Adventures",
+        "authors": ["Miller, Marc"],
+        "publisher": {
+          "name": "Far Future Enterprises",
+          "url": "https://farfuture.net"
+        }
+      }
+    ],
+    "tags": ["products", "weapons", "long blades"]
+  },
+  {
+    "sku": "160-002-00005",
+    "type": "weapons",
+    "subtype": "long blades",
+    "name": "Spear (Sp)",
+    "mfr": "",
+    "cost": 50,
+    "mass": 2,
+    "size": "",
+    "techLevel": 1,
+    "qrebs": "B= +3",
+    "damage": "Cuts-2",
+    "image": "",
+    "description": "<p><!-- Summary Start -->A long (3000mm) polearm with a pointed  tip, usually of metal. <!-- Summary End --> Often made by the soldier himself, the spear is quite inexpensive.</p>",
+    "stats": [],
+    "categories": ["weapons", "long blades"],
+    "sources": [
+      {
+        "publication": "Traveller 5.10 Core Rules Book 3 : Worlds and Adventures",
+        "authors": ["Miller, Marc"],
+        "publisher": {
+          "name": "Far Future Enterprises",
+          "url": "https://farfuture.net"
+        }
+      }
+    ],
+    "tags": ["products", "weapons", "long blades"]
+  },
+  {
+    "sku": "160-002-00006",
+    "type": "weapons",
+    "subtype": "medium blades",
+    "name": "Officer's Cutlass (OC)",
+    "mfr": "",
+    "cost": 400,
+    "mass": 1,
+    "size": "",
+    "techLevel": 5,
+    "qrebs": "",
+    "damage": "Cuts-2",
+    "image": "",
+    "description": "<p><!-- Summary Start -->The officer's cutlass is a shorter version of the standard Marine's cutlass.<!-- Summary End -->The officer's cutlass serves both as a ceremonial accessory and as a functional close combat weapon.</p>",
+    "stats": [],
+    "categories": ["weapons", "medium blades"],
+    "sources": [
+      {
+        "publication": "Traveller 5.10 Core Rules Book 3 : Worlds and Adventures",
+        "authors": ["Miller, Marc"],
+        "publisher": {
+          "name": "Far Future Enterprises",
+          "url": "https://farfuture.net"
+        }
+      }
+    ],
+    "tags": ["products", "weapons", "medium blades"]
+  },
+  {
+    "sku": "160-002-00007",
+    "type": "weapons",
+    "subtype": "medium blades",
+    "name": "Cutlass (C)",
+    "mfr": "",
+    "cost": 200,
+    "mass": 1,
+    "size": "",
+    "techLevel": 3,
+    "qrebs": "",
+    "damage": "Cuts-2",
+    "image": "",
+    "description": "<p><!-- Summary Start -->Standard Marine cutlass.<!-- Summary End -->The cutlass is the standard Marine boarding weapon consisting of a short, heavy blade that is meant for close combat situation.</p>",
+    "stats": [],
+    "categories": ["weapons", "medium blades"],
+    "sources": [
+      {
+        "publication": "Traveller 5.10 Core Rules Book 3 : Worlds and Adventures",
+        "authors": ["Miller, Marc"],
+        "publisher": {
+          "name": "Far Future Enterprises",
+          "url": "https://farfuture.net"
+        }
+      }
+    ],
+    "tags": ["products", "weapons", "medium blades"]
+  },
+  {
+    "sku": "160-002-00008",
+    "type": "weapons",
+    "subtype": "medium blades",
+    "name": "Broadsword (bS)",
+    "mfr": "",
+    "cost": 700,
+    "mass": 3,
+    "size": "",
+    "techLevel": 4,
+    "qrebs": "",
+    "damage": "Cuts-3",
+    "image": "",
+    "description": "<p><!-- Summary Start -->The largest of the sword weapons, also called the two-handed sword because it requires both hands to swing.<!-- Summary End --> The blade is extremely heavy, two-edged, and about  1000 to 1200mm in length. The hilt is relatively simple, generally a crosspiece only, with little basketwork or  protection. When carried, the  boardsword is worn in a scabbard attached to the belt; less frequently, the scabbard is worn on the back, and the broadsword is drawn over the shoulder.</p>",
+    "stats": [],
+    "categories": ["weapons", "medium blades"],
+    "sources": [
+      {
+        "publication": "Traveller 5.10 Core Rules Book 3 : Worlds and Adventures",
+        "authors": ["Miller, Marc"],
+        "publisher": {
+          "name": "Far Future Enterprises",
+          "url": "https://farfuture.net"
+        }
+      }
+    ],
+    "tags": ["products", "weapons", "medium blades"]
+  },
+  {
+    "sku": "160-002-00009",
+    "type": "weapons",
+    "subtype": "medium blades",
+    "name": "Short Sword (sS)",
+    "mfr": "",
+    "cost": 300,
+    "mass": 3,
+    "size": "",
+    "techLevel": 3,
+    "qrebs": "B= -1",
+    "damage": "Cuts-2",
+    "image": "",
+    "description": "<p><!-- Summary Start -->The short sword is a heavy, double-edged blade between 30cm and 60cm in length.<!-- Summary End --></p>",
+    "stats": [],
+    "categories": ["weapons", "medium blades"],
+    "sources": [
+      {
+        "publication": "Traveller 5.10 Core Rules Book 3 : Worlds and Adventures",
+        "authors": ["Miller, Marc"],
+        "publisher": {
+          "name": "Far Future Enterprises",
+          "url": "https://farfuture.net"
+        }
+      },
+      {
+        "publication": "Wikipedia : Classification of Swords",
+        "authors": ["Various"],
+        "publisher": {
+        "name":   "Wikipedia",
+        "url": "https://en.wikipedia.org/wiki/Classification_of_swords"
+        }
+      }    ],
+    "tags": ["products", "weapons", "medium blades"]
+  },
+  {
+    "sku": "160-002-00010",
+    "type": "weapons",
+    "subtype": "medium blades",
+    "name": "Sword (S)",
+    "mfr": "",
+    "cost": 300,
+    "mass": 2,
+    "size": "",
+    "techLevel": 3,
+    "qrebs": "",
+    "damage": "Cuts-2",
+    "image": "",
+    "description": "<p><!-- Summary Start --> The standard long-edged weapon, with a flat, two-edged blade.<!-- Summary End --> It may have a basket hilt or  hand protector. A scabbard to carry the sword may be attached to the belt, or to straps (or a sash) over the shoulder. Blade length varies from 700 to 950mm.</p>",
+    "stats": [
+      {
+        "publication": "Traveller 5.10 Core Rules Book 3 : Worlds and Adventures",
+        "authors": ["Miller, Marc"],
+        "publisher": {
+          "name": "Far Future Enterprises",
+          "url": "https://farfuture.net"
+        }
+      }
+    ],
+    "categories": ["weapons"],
+    "sources": [],
+    "tags": ["products", "weapons"]
+  },
+  {
+    "sku": "160-002-00011",
+    "type": "weapons",
+    "subtype": "short blades",
+    "name": "Great Big Knife (GBK)",
+    "mfr": "",
+    "cost": 900,
+    "mass": 6,
+    "size": "",
+    "techLevel": 6,
+    "qrebs": "",
+    "damage": "Cuts-2, Pen-2",
+    "image": "",
+    "description": "<p><!-- Summary Start -->The &quot;great big knife&quot; is a large, fixed-blade fighting knife.<!-- Summary End --> This style of knife traces its history back to the &quot;Bowie&quot; knife developed by James Black for Jim Bowie.</p>",
+    "stats": [],
+    "categories": ["weapons", "short blades"],
+    "sources": [
+      {
+        "publication": "Traveller 5.10 Core Rules Book 3 : Worlds and Adventures",
+        "authors": ["Miller, Marc"],
+        "publisher": {
+          "name": "Far Future Enterprises",
+          "url": "https://farfuture.net"
+        }
+      },
+      {
+        "publication": "Wikipedia : Bowie Knife",
+        "authors": ["Various"],
+        "publisher": {
+        "name":   "Wikipedia",
+        "url": "https://en.wikipedia.org/wiki/Bowie_knife"
+        }
+      }
+    ],
+    "tags": ["products", "weapons", "short blades"]
+  },
+  {
+    "sku": "160-002-00012",
+    "type": "weapons",
+    "subtype": "short blades",
+    "name": "Big Knife (BK)",
+    "mfr": "",
+    "cost": 200,
+    "mass": 3,
+    "size": "",
+    "techLevel": 5,
+    "qrebs": "",
+    "damage": "Cuts-2, Pen-2",
+    "image": "",
+    "description": "<p><!-- Summary Start -->A smaller version of the <a href=\"/products/160-002-00011\">Great Big Knife</a>.</p>",
+    "stats": [],
+    "categories": ["weapons", "short blades"],
+    "sources": [
+      {
+        "publication": "Traveller 5.10 Core Rules Book 3 : Worlds and Adventures",
+        "authors": ["Miller, Marc"],
+        "publisher": {
+          "name": "Far Future Enterprises",
+          "url": "https://farfuture.net"
+        }
+      }
+    ],
+    "tags": ["products", "weapons", "short blades"]
+  },
+  {
+    "sku": "160-002-00013",
+    "type": "weapons",
+    "subtype": "short blades",
+    "name": "Trench Knife (TK)",
+    "mfr": "",
+    "cost": 100,
+    "mass": 1,
+    "size": "",
+    "techLevel": 4,
+    "qrebs": "",
+    "damage": "Cuts-2, Blow-1",
+    "image": "",
+    "description": "<p><!-- Summary Start -->A trench knife is a combat knife designed to kill or incapacitate an enemy at close quarters.<!-- Summary End --> The trench knife may have a standard, single-edged blade that is suitable for stabbing and slashing or a triangular blade that is only suitable for stabbing. Both variants typically have a handguard that offers protection for the knuckles.</p>",
+    "stats": [],
+    "categories": ["weapons", "short blades"],
+    "sources": [
+      {
+        "publication": "Traveller 5.10 Core Rules Book 3 : Worlds and Adventures",
+        "authors": ["Miller, Marc"],
+        "publisher": {
+          "name": "Far Future Enterprises",
+          "url": "https://farfuture.net"
+        }
+      },
+      {
+        "publication": "Wikipedia : Trench knife",
+        "authors": ["Various"],
+        "publisher": {
+        "name":   "Wikipedia",
+        "url": "https://en.wikipedia.org/wiki/Trench_knife"
+        }
+      }
+    ],
+    "tags": ["products", "weapons", "short blades"]
+  },
+  {
+    "sku": "160-002-00014",
+    "type": "weapons",
+    "subtype": "short blades",
+    "name": "Dagger (D)",
+    "mfr": "",
+    "cost": 50,
+    "mass": 0.5,
+    "size": "",
+    "techLevel": 2,
+    "qrebs": "",
+    "damage": "Cuts-2",
+    "image": "",
+    "description": "<p><!-- Summary Start --> A  small knife weapon with  a flat, two-edged blade approximately 200mm in length.<!-- Summary End --> Daggers are usually carried in a belt sheath,  and less frequently are concealed in a boot sheath or strapped to the forearm. Daggers  are usually the last weapon of defense, and worn constantly.</p>",
+    "stats": [],
+    "categories": ["weapons", "short blades"],
+    "sources": [
+      {
+        "publication": "Traveller 5.10 Core Rules Book 3 : Worlds and Adventures",
+        "authors": ["Miller, Marc"],
+        "publisher": {
+          "name": "Far Future Enterprises",
+          "url": "https://farfuture.net"
+        }
+      }
+    ],
+    "tags": ["products", "weapons", "short blades"]
+  },
+  {
+    "sku": "160-002-00015",
+    "type": "weapons",
+    "subtype": "short blades",
+    "name": "Knife (K)",
+    "mfr": "",
+    "cost": 50,
+    "mass": 0.5,
+    "size": "",
+    "techLevel": 1,
+    "qrebs": "",
+    "damage": "Cuts-2",
+    "image": "",
+    "description": "<p><!-- Summary Start -->The knife is a short-bladed weapon.<!-- Summary End --> Knives come in a variety of types (fixed blade, folding blade, locking blade) and are generally carried in a sheath.</p>",
+    "stats": [],
+    "categories": ["weapons", "short blades"],
+    "sources": [
+      {
+        "publication": "Traveller 5.10 Core Rules Book 3 : Worlds and Adventures",
+        "authors": ["Miller, Marc"],
+        "publisher": {
+          "name": "Far Future Enterprises",
+          "url": "https://farfuture.net"
+        }
+      }
+    ],
+    "tags": ["products", "weapons", "short blades"]
+  }
+]

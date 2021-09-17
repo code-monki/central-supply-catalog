@@ -1,0 +1,66 @@
+[
+  {
+    "sku": "160-001-00001",
+    "type": "weapons",
+    "subtype": "melee",
+    "name": "Club (Cudgel)",
+    "mfr": "",
+    "cost": 10,
+    "mass": 2,
+    "size": "",
+    "techLevel": 1,
+    "qrebs": "",
+    "damage": "Blow=C1",
+    "image": "",
+    "description": "<p><!-- Summary Start -->A blunt instrument fashioned from wood or metal.<!-- Summary End --> Easily obtained from standing trees or through the use of an unloaded long gun such as a rifle or carbine (laser weapons are too delicate to be used as cudgels).</p>",
+    "stats": [],
+    "categories": ["weapons", "melee"],
+    "sources": [
+      {
+        "publication": "Traveller 5.10 Core Rules Book 3 : Worlds and Adventures",
+        "authors": ["Miller, Marc"],
+        "publisher": {
+          "name": "Far Future Enterprises",
+          "url": "https://farfuture.net"
+        }
+      }
+    ],
+    "tags": ["products", "weapons", "melee"]
+  },
+  {
+    "sku": "160-001-00002",
+    "type": "weapons",
+    "subtype": "melee",
+    "name": "Mace",
+    "mfr": "",
+    "cost": 100,
+    "mass": 2,
+    "size": "",
+    "techLevel": 2,
+    "qrebs": "",
+    "damage": "Cuts-1, Blow-2",
+    "image": "",
+    "description": "<p><!-- Summary Start -->A mace is a blunt weapon that has a weighted head.<!-- Summary End --> The haft of the mace is typically constructed of wood or metal with the head being constructed of stone, bone, copper, bronze, iron, or steel.</p>",
+    "stats": [],
+    "categories": ["weapons", "melee"],
+    "sources": [
+      {
+        "publication": "Traveller 5.10 Core Rules Book 3 : Worlds and Adventures",
+        "authors": ["Miller, Marc"],
+        "publisher": {
+          "name": "Far Future Enterprises",
+          "url": "https://farfuture.net"
+        }
+      },
+      {
+        "publication": "Wikipedia : Mace (bludgeon)",
+        "authors": ["various"],
+        "publisher": {
+        "name":   "Wikipedia",
+        "url": "https://en.wikipedia.org/wiki/Mace_(bludgeon)"
+        }
+      }      
+    ],
+    "tags": ["products", "weapons", "melee"]
+  }
+]
