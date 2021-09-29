@@ -21,6 +21,7 @@ This work would not have been made possible without the specific contributions o
 - Thomas Jones-Low and the stewards of the Traveller Wiki, who graciously shared their content.
 - Ade Steward and Robert Pearce for their feedback and invaluable insights.
 - Moira McGinnis, my long-suffering insanely talented friend who reviewed the wireframes and improved the usability.
+- shivjim on Github for invaluable help in navigating some of Eleventy's trickiness and general Javascript advice.
 
 A huge thanks and debt of gratitude also goes out to all of those friends and members of the community, both present and missing, who have made Traveller the success that it is.
 
@@ -50,4 +51,4 @@ A portion of the content is governed by the <a href="https://www.d20srd.org/ogl.
 
 ## Mayday Audio
 
-The audio for the 404 - File Note Found page is <a href="https://archive.org/details/TheFatRatMAYDAYft.LauraBrehm2" target="_blank">"Mayday (ft. Laura Brehm"</a> by TheFatRat.
+The full audio for the 404 - File Note Found page is <a href="https://archive.org/details/TheFatRatMAYDAYft.LauraBrehm2" target="_blank">"Mayday (ft. Laura Brehm"</a> by TheFatRat. TheFatRat graciously provided the track under the Creative Commons
