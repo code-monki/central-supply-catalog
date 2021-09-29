@@ -1,24 +1,23 @@
-const hostName = document.location.hostname === "localhost" ? "" : "https://cmcknight.github.io/central-supply-catalog";
+// const hostName = document.location.hostname === "localhost" ? "" : "https://cmcknight.github.io/central-supply-catalog";
 
 // ----- Shopping Cart-related functionality -----
 const cartKey = "csc-cart"; // key for localStorage shopping cart
 
-// powers of 10 multipliers
+// powers of 10
 const unitMultiplier = { Cr: 0, KCr: 3, MCr: 6, BCr: 9, TCr: 12 };
 
 // Apply units to values
 const setUnitLabel = (value, shorten) => {
   let text = "";
-  
 
   if (value > 999999999999) {
-    text = (shorten === false) ? `${(value / 10 ** 12)} TCr` : `${(value / 10 ** 12).toFixed(3)} TCr`;
+    text = shorten === false ? `${value / 10 ** 12} TCr` : `${(value / 10 ** 12).toFixed(3)} TCr`;
   } else if (value > 999999999) {
-    text = (shorten === false ) ? `${(value / 10 ** 9)} BCr` : `${(value / 10 ** 9).toFixed(3)} BCr`;
+    text = shorten === false ? `${value / 10 ** 9} BCr` : `${(value / 10 ** 9).toFixed(3)} BCr`;
   } else if (value > 999999) {
-    text = (shorten === false) ? `${(value / 10 ** 6)} MCr` : `${(value / 10 ** 6).toFixed(3)} MCr`;
+    text = shorten === false ? `${value / 10 ** 6} MCr` : `${(value / 10 ** 6).toFixed(3)} MCr`;
   } else if (value > 999) {
-    text = (shorten === false) ? `${(value / 10 ** 3)} KCr` : `${(value / 10 ** 3).toFixed(3)} KCr`;
+    text = shorten === false ? `${value / 10 ** 3} KCr` : `${(value / 10 ** 3).toFixed(3)} KCr`;
   } else {
     text = `${value} Cr`;
   }
@@ -34,8 +33,8 @@ const addItem = () => {
   const productImage = document.getElementById("prod-img").src;
 
   // get the price and units
-  const unitPrice = document.getElementById('unit-price').dataset.unitprice;
-  
+  const unitPrice = document.getElementById("unit-price").dataset.unitprice;
+
   // get the product name
   const productName = document.getElementById("product-name").textContent;
 
@@ -77,16 +76,16 @@ const addItem = () => {
 const removeItem = (sku) => {
   let cart = JSON.parse(localStorage.getItem(cartKey));
   if (cart !== null && cart !== undefined) {
-  cart = cart.filter((item) => item.sku !== sku);
-  localStorage.setItem(cartKey, JSON.stringify(cart));
-  updateCartUI();
-  updateCartBadge();
+    cart = cart.filter((item) => item.sku !== sku);
+    localStorage.setItem(cartKey, JSON.stringify(cart));
+    updateCartUI();
+    updateCartBadge();
   }
 };
 
 // ---------------- modify quantity of item ----------------------
 const updateItemQty = (sku, qty) => {
-  let cartContents = localStorage.getItem(cartKey)
+  let cartContents = localStorage.getItem(cartKey);
   if (cartContents !== null && cartContents !== undefined) {
     let cart = JSON.parse(cartContents);
     let item = cart.find((s) => s.sku === sku);
@@ -219,7 +218,7 @@ if (removeAllItemsBtn !== null && removeAllItemsBtn !== undefined) {
 const updateCartBadge = () => {
   const cartCountSpan = document.getElementById("cart-badge");
   let cart = JSON.parse(localStorage.getItem(cartKey));
-  let cartCount = (cart === null || cart === undefined) ? 0 : cart.length;
+  let cartCount = cart === null || cart === undefined ? 0 : cart.length;
 
   if (cartCount === 0) {
     cartCountSpan.style.display = "none";
@@ -231,34 +230,45 @@ const updateCartBadge = () => {
 // ---- End of Shopping Cart-related Functionality --------
 
 // ------------ Search-related Functionality ---------------
-const searchField = document.getElementById('search')
-const clearSearch = document.getElementById('search-close')
-const searchBar = document.querySelector('.search-bar')
+const searchField = document.getElementById("search");
+const clearSearch = document.getElementById("search-close");
+const searchBar = document.querySelector(".search-bar");
 
 if (searchField !== null && searchField !== undefined) {
-  searchField.addEventListener('search', (e) => {
-    e.preventDefault()
-    console.log(`${window.location.origin}/?s=${e.target.value}`)
-    window.location.href = `${window.location.origin}/?q=${e.target.value.replace(/\s+/g, '+')}`
-  })
+  searchField.addEventListener("search", (e) => {
+    e.preventDefault();
+    console.log(`${window.location.origin}/?s=${e.target.value}`);
+    window.location.href = `${window.location.origin}/?q=${e.target.value.replace(/\s+/g, "+")}`;
+  });
 }
 
 // set up listener
-window.addEventListener('load', (event) => {
-  const params = new URLSearchParams(window.location.search)
+window.addEventListener("load", (event) => {
+  const params = new URLSearchParams(window.location.search);
 
-  if  (params.has('q=')) {
+  if (params.has("q=")) {
     // collection search parameters
-    const searchParams = params.get('q')
+    const searchParams = params.get("q");
     // perform search
-    performSiteSearch(searchParams)
+    performSiteSearch(searchParams);
   }
-})
-
+});
 
 // ---------- End of Search-related Functionality ----------
 
-// --------- initialize MaterializeCSS components ---------
+// -------------------  Pager  -----------------------------
+let pager = document.getElementById("pager");
+if (pager !== null && pager !== undefined) {
+  pager.addEventListener("change", (e) => {
+    let target = document.location.href.replace(/[0-9]+\/$/, '');
+    target += (e.target.value === '1') ? '' : e.target.value;
+    pager
+    window.location.assign(target);
+  });
+}
+// ----------------  End of Pager  -------------------------
+
+// --------- Perform initializations ---------
 document.addEventListener("DOMContentLoaded", function () {
   // sidenav
   const sideNav = document.querySelector(".sidenav");
@@ -267,6 +277,10 @@ document.addEventListener("DOMContentLoaded", function () {
   // modal cards
   const modals = document.querySelectorAll(".modal");
   M.Modal.init(modals, {});
+
+  // selects
+  const selects = document.querySelector("select");
+  M.FormSelect.init(selects, {});
 
   // set listener on product page add button
   const addItemBtn = document.getElementById("add-to-cart");
@@ -281,5 +295,11 @@ document.addEventListener("DOMContentLoaded", function () {
   if (window.location.href.includes("shopping-cart")) {
     updateCartUI();
   }
-
 });
+
+window.addEventListener('pageshow', () => {
+  let pagerForm = document.getElementById('pager-form')
+  if (pagerForm !== null && pagerForm !== undefined) {
+    pagerForm.reset();
+  }
+})
