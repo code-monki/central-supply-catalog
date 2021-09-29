@@ -1,3 +1,2778 @@
 [
-  
+  {
+    "sku": "160-011-00001",
+    "type": "weapons”",
+    "subtype": "ammunition",
+    "name": "Artillery rounds (Cannon / Gatling / Gun)",
+    "mfr": "",
+    "cost": 8000,
+    "mass": 342.6,
+    "size": 1,
+    "techLevel": 5,
+    "qrebs": "N/A",
+    "image": "",
+    "description": "<p><!-- Summary Start -->Standard cannon ordnance. Pallet of 8 rounds.<!-- Summary End --></p>",
+    "categories": ["weapons", "ammunition"],
+    "sources": [
+      {
+        "publication": "",
+        "authors": [""],
+        "publisher": {
+        "name": "",
+        "url": ""
+        }
+      }
+    ],
+    "tags": ["products", "weapons", "ammunition"]
+  },
+  {
+    "sku": "160-011-00002",
+    "type": "weapons”",
+    "subtype": "ammunition",
+    "name": "8mm Rifle Ammunition (1D damage)",
+    "mfr": "",
+    "cost": 100,
+    "mass": 0.95,
+    "techLevel": 6,
+    "qrebs": "N/A",
+    "image": "",
+    "description": "<p><!-- Summary Start -->Standard 8mm rifle round, 1D damage, 100 round box.<!-- Summary End --></p>",
+    "categories": ["weapons", "ammunition"],
+    "sources": [
+      {
+        "publication": "",
+        "authors": [""],
+        "publisher": {
+        "name": "",
+        "url": ""
+        }
+      }
+    ],
+    "tags": ["products", "weapons", "ammunition"]
+  },
+  {
+    "sku": "160-011-00003",
+    "type": "weapons”",
+    "subtype": "ammunition",
+    "name": "8mm Rifle Ammunition (2D damage)",
+    "mfr": "",
+    "cost": 200,
+    "mass": 0.95,
+    "techLevel": 6,
+    "qrebs": "N/A",
+    "image": "",
+    "description": "<p><!-- Summary Start -->Standard 8mm rifle round, 1D damage, 100 round box.<!-- Summary End --></p>",
+    "categories": ["weapons", "ammunition"],
+    "sources": [
+      {
+        "publication": "",
+        "authors": [""],
+        "publisher": {
+        "name": "",
+        "url": ""
+        }
+      }
+    ],
+    "tags": ["products", "weapons", "ammunition"]
+  },
+  {
+    "sku": "160-011-00004",
+    "type": "weapons”",
+    "subtype": "ammunition",
+    "name": "8mm Rifle Ammunition (3D damage)",
+    "mfr": "",
+    "cost": 300,
+    "mass": 0.95,
+    "techLevel": 6,
+    "qrebs": "N/A",
+    "image": "",
+    "description": "<p><!-- Summary Start -->Standard 8mm rifle round, 3D damage, 100 round box.<!-- Summary End --></p>",
+    "categories": ["weapons", "ammunition"],
+    "sources": [
+      {
+        "publication": "",
+        "authors": [""],
+        "publisher": {
+        "name": "",
+        "url": ""
+        }
+      }
+    ],
+    "tags": ["products", "weapons", "ammunition"]
+  },
+  {
+    "sku": "160-011-00005",
+    "type": "weapons”",
+    "subtype": "ammunition",
+    "name": "8mm Rifle Ammunition (4D damage)",
+    "mfr": "",
+    "cost": 400,
+    "mass": 0.95,
+    "techLevel": 6,
+    "qrebs": "N/A",
+    "image": "",
+    "description": "<p><!-- Summary Start -->Standard 8mm rifle round, 4D damage, 100 round box.<!-- Summary End --></p>",
+    "categories": ["weapons", "ammunition"],
+    "sources": [
+      {
+        "publication": "",
+        "authors": [""],
+        "publisher": {
+        "name": "",
+        "url": ""
+        }
+      }
+    ],
+    "tags": ["products", "weapons", "ammunition"]
+  },
+  {
+    "sku": "160-011-00006",
+    "type": "weapons”",
+    "subtype": "ammunition",
+    "name": "8mm Rifle Ammunition (5D damage)",
+    "mfr": "",
+    "cost": 500,
+    "mass": 0.95,
+    "techLevel": 6,
+    "qrebs": "N/A",
+    "image": "",
+    "description": "<p><!-- Summary Start -->Standard 8mm rifle round, 5D damage, 100 round box.<!-- Summary End --></p>",
+    "categories": ["weapons", "ammunition"],
+    "sources": [
+      {
+        "publication": "",
+        "authors": [""],
+        "publisher": {
+        "name": "",
+        "url": ""
+        }
+      }
+    ],
+    "tags": ["products", "weapons", "ammunition"]
+  },
+  {
+    "sku": "160-011-00007",
+    "type": "weapons”",
+    "subtype": "ammunition",
+    "name": "8mm Rifle Ammunition (6D damage)",
+    "mfr": "",
+    "cost": 600,
+    "mass": 0.95,
+    "techLevel": 6,
+    "qrebs": "N/A",
+    "image": "",
+    "description": "<p><!-- Summary Start -->Standard 8mm rifle round, 6D damage, 100 round box.<!-- Summary End --></p>",
+    "categories": ["weapons", "ammunition"],
+    "sources": [
+      {
+        "publication": "",
+        "authors": [""],
+        "publisher": {
+        "name": "",
+        "url": ""
+        }
+      }
+    ],
+    "tags": ["products", "weapons", "ammunition"]
+  },
+  {
+    "sku": "160-011-00008",
+    "type": "weapons”",
+    "subtype": "ammunition",
+    "name": "8mm Rifle Ammunition (7D damage)",
+    "mfr": "",
+    "cost": 700,
+    "mass": 0.95,
+    "techLevel": 6,
+    "qrebs": "N/A",
+    "image": "",
+    "description": "<p><!-- Summary Start -->Standard 8mm rifle round, 7D damage, 100 round box.<!-- Summary End --></p>",
+    "categories": ["weapons", "ammunition"],
+    "sources": [
+      {
+        "publication": "",
+        "authors": [""],
+        "publisher": {
+        "name": "",
+        "url": ""
+        }
+      }
+    ],
+    "tags": ["products", "weapons", "ammunition"]
+  },
+  {
+    "sku": "160-011-00009",
+    "type": "weapons”",
+    "subtype": "ammunition",
+    "name": "8mm Rifle Ammunition (8D damage)",
+    "mfr": "",
+    "cost": 800,
+    "mass": 0.95,
+    "techLevel": 6,
+    "qrebs": "N/A",
+    "image": "",
+    "description": "<p><!-- Summary Start -->Standard 8mm rifle round, 8D damage, 100 round box.<!-- Summary End --></p>",
+    "categories": ["weapons", "ammunition"],
+    "sources": [
+      {
+        "publication": "",
+        "authors": [""],
+        "publisher": {
+        "name": "",
+        "url": ""
+        }
+      }
+    ],
+    "tags": ["products", "weapons", "ammunition"]
+  },
+  {
+    "sku": "160-011-00010",
+    "type": "weapons”",
+    "subtype": "ammunition",
+    "name": "8mm Rifle Ammunition (9D damage)",
+    "mfr": "",
+    "cost": 900,
+    "mass": 0.95,
+    "techLevel": 6,
+    "qrebs": "N/A",
+    "image": "",
+    "description": "<p><!-- Summary Start -->Standard 8mm rifle round, 7D damage, 100 round box.<!-- Summary End --></p>",
+    "categories": ["weapons", "ammunition"],
+    "sources": [
+      {
+        "publication": "",
+        "authors": [""],
+        "publisher": {
+        "name": "",
+        "url": ""
+        }
+      }
+    ],
+    "tags": ["products", "weapons", "ammunition"]
+  },
+  {
+    "sku": "160-011-00011",
+    "type": "weapons”",
+    "subtype": "ammunition",
+    "name": "8mm Rifle Ammunition (10D damage)",
+    "mfr": "",
+    "cost": 1000,
+    "mass": 0.95,
+    "techLevel": 6,
+    "qrebs": "N/A",
+    "image": "",
+    "description": "<p><!-- Summary Start -->Standard 8mm rifle round, 10D damage, 100 round box.<!-- Summary End --></p>",
+    "categories": ["weapons", "ammunition"],
+    "sources": [
+      {
+        "publication": "",
+        "authors": [""],
+        "publisher": {
+        "name": "",
+        "url": ""
+        }
+      }
+    ],
+    "tags": ["products", "weapons", "ammunition"]
+  },
+  {
+    "sku": "160-011-00012",
+    "type": "weapons”",
+    "subtype": "ammunition",
+    "name": "6mm Rifle Ammunition (1D damage)",
+    "mfr": "",
+    "cost": 100,
+    "mass": 0.95,
+    "techLevel": 6,
+    "qrebs": "N/A",
+    "image": "",
+    "description": "<p><!-- Summary Start -->Standard 6mm rifle round, 1D damage, 100 round box.<!-- Summary End --></p>",
+    "categories": ["weapons", "ammunition"],
+    "sources": [
+      {
+        "publication": "",
+        "authors": [""],
+        "publisher": {
+        "name": "",
+        "url": ""
+        }
+      }
+    ],
+    "tags": ["products", "weapons", "ammunition"]
+  },
+  {
+    "sku": "160-011-00013",
+    "type": "weapons”",
+    "subtype": "ammunition",
+    "name": "6mm Rifle Ammunition (2D damage)",
+    "mfr": "",
+    "cost": 200,
+    "mass": 0.95,
+    "techLevel": 6,
+    "qrebs": "N/A",
+    "image": "",
+    "description": "<p><!-- Summary Start -->Standard 6mm rifle round, 1D damage, 100 round box.<!-- Summary End --></p>",
+    "categories": ["weapons", "ammunition"],
+    "sources": [
+      {
+        "publication": "",
+        "authors": [""],
+        "publisher": {
+        "name": "",
+        "url": ""
+        }
+      }
+    ],
+    "tags": ["products", "weapons", "ammunition"]
+  },
+  {
+    "sku": "160-011-00014",
+    "type": "weapons”",
+    "subtype": "ammunition",
+    "name": "6mm Rifle Ammunition (3D damage)",
+    "mfr": "",
+    "cost": 300,
+    "mass": 0.95,
+    "techLevel": 6,
+    "qrebs": "N/A",
+    "image": "",
+    "description": "<p><!-- Summary Start -->Standard 6mm rifle round, 3D damage, 100 round box.<!-- Summary End --></p>",
+    "categories": ["weapons", "ammunition"],
+    "sources": [
+      {
+        "publication": "",
+        "authors": [""],
+        "publisher": {
+        "name": "",
+        "url": ""
+        }
+      }
+    ],
+    "tags": ["products", "weapons", "ammunition"]
+  },
+  {
+    "sku": "160-011-00015",
+    "type": "weapons”",
+    "subtype": "ammunition",
+    "name": "6mm Rifle Ammunition (4D damage)",
+    "mfr": "",
+    "cost": 400,
+    "mass": 0.95,
+    "techLevel": 6,
+    "qrebs": "N/A",
+    "image": "",
+    "description": "<p><!-- Summary Start -->Standard 6mm rifle round, 4D damage, 100 round box.<!-- Summary End --></p>",
+    "categories": ["weapons", "ammunition"],
+    "sources": [
+      {
+        "publication": "",
+        "authors": [""],
+        "publisher": {
+        "name": "",
+        "url": ""
+        }
+      }
+    ],
+    "tags": ["products", "weapons", "ammunition"]
+  },
+  {
+    "sku": "160-011-00016",
+    "type": "weapons”",
+    "subtype": "ammunition",
+    "name": "6mm Rifle Ammunition (5D damage)",
+    "mfr": "",
+    "cost": 500,
+    "mass": 0.95,
+    "techLevel": 6,
+    "qrebs": "N/A",
+    "image": "",
+    "description": "<p><!-- Summary Start -->Standard 6mm rifle round, 5D damage, 100 round box.<!-- Summary End --></p>",
+    "categories": ["weapons", "ammunition"],
+    "sources": [
+      {
+        "publication": "",
+        "authors": [""],
+        "publisher": {
+        "name": "",
+        "url": ""
+        }
+      }
+    ],
+    "tags": ["products", "weapons", "ammunition"]
+  },
+  {
+    "sku": "160-011-00017",
+    "type": "weapons”",
+    "subtype": "ammunition",
+    "name": "6mm Rifle Ammunition (6D damage)",
+    "mfr": "",
+    "cost": 600,
+    "mass": 0.95,
+    "techLevel": 6,
+    "qrebs": "N/A",
+    "image": "",
+    "description": "<p><!-- Summary Start -->Standard 6mm rifle round, 6D damage, 100 round box.<!-- Summary End --></p>",
+    "categories": ["weapons", "ammunition"],
+    "sources": [
+      {
+        "publication": "",
+        "authors": [""],
+        "publisher": {
+        "name": "",
+        "url": ""
+        }
+      }
+    ],
+    "tags": ["products", "weapons", "ammunition"]
+  },
+  {
+    "sku": "160-011-00018",
+    "type": "weapons”",
+    "subtype": "ammunition",
+    "name": "6mm Rifle Ammunition (7D damage)",
+    "mfr": "",
+    "cost": 700,
+    "mass": 0.95,
+    "techLevel": 6,
+    "qrebs": "N/A",
+    "image": "",
+    "description": "<p><!-- Summary Start -->Standard 6mm rifle round, 7D damage, 100 round box.<!-- Summary End --></p>",
+    "categories": ["weapons", "ammunition"],
+    "sources": [
+      {
+        "publication": "",
+        "authors": [""],
+        "publisher": {
+        "name": "",
+        "url": ""
+        }
+      }
+    ],
+    "tags": ["products", "weapons", "ammunition"]
+  },
+  {
+    "sku": "160-011-00019",
+    "type": "weapons”",
+    "subtype": "ammunition",
+    "name": "6mm Rifle Ammunition (8D damage)",
+    "mfr": "",
+    "cost": 800,
+    "mass": 0.95,
+    "techLevel": 6,
+    "qrebs": "N/A",
+    "image": "",
+    "description": "<p><!-- Summary Start -->Standard 6mm rifle round, 8D damage, 100 round box.<!-- Summary End --></p>",
+    "categories": ["weapons", "ammunition"],
+    "sources": [
+      {
+        "publication": "",
+        "authors": [""],
+        "publisher": {
+        "name": "",
+        "url": ""
+        }
+      }
+    ],
+    "tags": ["products", "weapons", "ammunition"]
+  },
+  {
+    "sku": "160-011-00020",
+    "type": "weapons”",
+    "subtype": "ammunition",
+    "name": "6mm Rifle Ammunition (9D damage)",
+    "mfr": "",
+    "cost": 900,
+    "mass": 0.95,
+    "techLevel": 6,
+    "qrebs": "N/A",
+    "image": "",
+    "description": "<p><!-- Summary Start -->Standard 6mm rifle round, 7D damage, 100 round box.<!-- Summary End --></p>",
+    "categories": ["weapons", "ammunition"],
+    "sources": [
+      {
+        "publication": "",
+        "authors": [""],
+        "publisher": {
+        "name": "",
+        "url": ""
+        }
+      }
+    ],
+    "tags": ["products", "weapons", "ammunition"]
+  },
+  {
+    "sku": "160-011-00021",
+    "type": "weapons”",
+    "subtype": "ammunition",
+    "name": "6mm Rifle Ammunition (10D damage)",
+    "mfr": "",
+    "cost": 1000,
+    "mass": 0.95,
+    "techLevel": 6,
+    "qrebs": "N/A",
+    "image": "",
+    "description": "<p><!-- Summary Start -->Standard 6mm rifle round, 10D damage, 100 round box.<!-- Summary End --></p>",
+    "categories": ["weapons", "ammunition"],
+    "sources": [
+      {
+        "publication": "",
+        "authors": [""],
+        "publisher": {
+        "name": "",
+        "url": ""
+        }
+      }
+    ],
+    "tags": ["products", "weapons", "ammunition"]
+  },
+  {
+    "sku": "160-011-00022",
+    "type": "weapons”",
+    "subtype": "ammunition",
+    "name": "8mm Rifle Ammunition (1D damage)",
+    "mfr": "",
+    "cost": 100,
+    "mass": 0.95,
+    "techLevel": 6,
+    "qrebs": "N/A",
+    "image": "",
+    "description": "<p><!-- Summary Start -->Standard 8mm rifle round, 1D damage, 100 round box.<!-- Summary End --></p>",
+    "categories": ["weapons", "ammunition"],
+    "sources": [
+      {
+        "publication": "",
+        "authors": [""],
+        "publisher": {
+        "name": "",
+        "url": ""
+        }
+      }
+    ],
+    "tags": ["products", "weapons", "ammunition"]
+  },
+  {
+    "sku": "160-011-00023",
+    "type": "weapons”",
+    "subtype": "ammunition",
+    "name": "8mm Rifle Ammunition (2D damage)",
+    "mfr": "",
+    "cost": 200,
+    "mass": 0.95,
+    "techLevel": 6,
+    "qrebs": "N/A",
+    "image": "",
+    "description": "<p><!-- Summary Start -->Standard 8mm rifle round, 1D damage, 100 round box.<!-- Summary End --></p>",
+    "categories": ["weapons", "ammunition"],
+    "sources": [
+      {
+        "publication": "",
+        "authors": [""],
+        "publisher": {
+        "name": "",
+        "url": ""
+        }
+      }
+    ],
+    "tags": ["products", "weapons", "ammunition"]
+  },
+  {
+    "sku": "160-011-00024",
+    "type": "weapons”",
+    "subtype": "ammunition",
+    "name": "4mm Handgun Ammunition (3D damage)",
+    "mfr": "",
+    "cost": 300,
+    "mass": 0.95,
+    "techLevel": 6,
+    "qrebs": "N/A",
+    "image": "",
+    "description": "<p><!-- Summary Start -->Standard 4mm Handgun round, 3D damage, 100 round box.<!-- Summary End --></p>",
+    "categories": ["weapons", "ammunition"],
+    "sources": [
+      {
+        "publication": "",
+        "authors": [""],
+        "publisher": {
+        "name": "",
+        "url": ""
+        }
+      }
+    ],
+    "tags": ["products", "weapons", "ammunition"]
+  },
+  {
+    "sku": "160-011-00025",
+    "type": "weapons”",
+    "subtype": "ammunition",
+    "name": "4mm Handgun Ammunition (4D damage)",
+    "mfr": "",
+    "cost": 400,
+    "mass": 0.95,
+    "techLevel": 6,
+    "qrebs": "N/A",
+    "image": "",
+    "description": "<p><!-- Summary Start -->Standard 4mm Handgun round, 4D damage, 100 round box.<!-- Summary End --></p>",
+    "categories": ["weapons", "ammunition"],
+    "sources": [
+      {
+        "publication": "",
+        "authors": [""],
+        "publisher": {
+        "name": "",
+        "url": ""
+        }
+      }
+    ],
+    "tags": ["products", "weapons", "ammunition"]
+  },
+  {
+    "sku": "160-011-00026",
+    "type": "weapons”",
+    "subtype": "ammunition",
+    "name": "4mm Handgun Ammunition (5D damage)",
+    "mfr": "",
+    "cost": 500,
+    "mass": 0.95,
+    "techLevel": 6,
+    "qrebs": "N/A",
+    "image": "",
+    "description": "<p><!-- Summary Start -->Standard 4mm Handgun round, 5D damage, 100 round box.<!-- Summary End --></p>",
+    "categories": ["weapons", "ammunition"],
+    "sources": [
+      {
+        "publication": "",
+        "authors": [""],
+        "publisher": {
+        "name": "",
+        "url": ""
+        }
+      }
+    ],
+    "tags": ["products", "weapons", "ammunition"]
+  },
+  {
+    "sku": "160-011-00027",
+    "type": "weapons”",
+    "subtype": "ammunition",
+    "name": "4mm Handgun Ammunition (6D damage)",
+    "mfr": "",
+    "cost": 600,
+    "mass": 0.95,
+    "techLevel": 6,
+    "qrebs": "N/A",
+    "image": "",
+    "description": "<p><!-- Summary Start -->Standard 4mm Handgun round, 6D damage, 100 round box.<!-- Summary End --></p>",
+    "categories": ["weapons", "ammunition"],
+    "sources": [
+      {
+        "publication": "",
+        "authors": [""],
+        "publisher": {
+        "name": "",
+        "url": ""
+        }
+      }
+    ],
+    "tags": ["products", "weapons", "ammunition"]
+  },
+  {
+    "sku": "160-011-00028",
+    "type": "weapons”",
+    "subtype": "ammunition",
+    "name": "4mm Handgun Ammunition (7D damage)",
+    "mfr": "",
+    "cost": 700,
+    "mass": 0.95,
+    "techLevel": 6,
+    "qrebs": "N/A",
+    "image": "",
+    "description": "<p><!-- Summary Start -->Standard 4mm Handgun round, 7D damage, 100 round box.<!-- Summary End --></p>",
+    "categories": ["weapons", "ammunition"],
+    "sources": [
+      {
+        "publication": "",
+        "authors": [""],
+        "publisher": {
+        "name": "",
+        "url": ""
+        }
+      }
+    ],
+    "tags": ["products", "weapons", "ammunition"]
+  },
+  {
+    "sku": "160-011-00029",
+    "type": "weapons”",
+    "subtype": "ammunition",
+    "name": "4mm Handgun Ammunition (8D damage)",
+    "mfr": "",
+    "cost": 800,
+    "mass": 0.95,
+    "techLevel": 6,
+    "qrebs": "N/A",
+    "image": "",
+    "description": "<p><!-- Summary Start -->Standard 4mm Handgun round, 8D damage, 100 round box.<!-- Summary End --></p>",
+    "categories": ["weapons", "ammunition"],
+    "sources": [
+      {
+        "publication": "",
+        "authors": [""],
+        "publisher": {
+        "name": "",
+        "url": ""
+        }
+      }
+    ],
+    "tags": ["products", "weapons", "ammunition"]
+  },
+  {
+    "sku": "160-011-00030",
+    "type": "weapons”",
+    "subtype": "ammunition",
+    "name": "4mm Handgun Ammunition (9D damage)",
+    "mfr": "",
+    "cost": 900,
+    "mass": 0.95,
+    "techLevel": 6,
+    "qrebs": "N/A",
+    "image": "",
+    "description": "<p><!-- Summary Start -->Standard 4mm Handgun round, 7D damage, 100 round box.<!-- Summary End --></p>",
+    "categories": ["weapons", "ammunition"],
+    "sources": [
+      {
+        "publication": "",
+        "authors": [""],
+        "publisher": {
+        "name": "",
+        "url": ""
+        }
+      }
+    ],
+    "tags": ["products", "weapons", "ammunition"]
+  },
+  {
+    "sku": "160-011-00031",
+    "type": "weapons”",
+    "subtype": "ammunition",
+    "name": "4mm Handgun Ammunition (10D damage)",
+    "mfr": "",
+    "cost": 1000,
+    "mass": 0.95,
+    "techLevel": 6,
+    "qrebs": "N/A",
+    "image": "",
+    "description": "<p><!-- Summary Start -->Standard 4mm Handgun round, 10D damage, 100 round box.<!-- Summary End --></p>",
+    "categories": ["weapons", "ammunition"],
+    "sources": [
+      {
+        "publication": "",
+        "authors": [""],
+        "publisher": {
+        "name": "",
+        "url": ""
+        }
+      }
+    ],
+    "tags": ["products", "weapons", "ammunition"]
+  },
+  {
+    "sku": "160-011-00032",
+    "type": "weapons”",
+    "subtype": "ammunition",
+    "name": "15mm Shotgun Ammunition (1D damage)",
+    "mfr": "",
+    "cost": 100,
+    "mass": 0.95,
+    "techLevel": 6,
+    "qrebs": "N/A",
+    "image": "",
+    "description": "<p><!-- Summary Start -->Standard 15mm Shotgun round, 1D damage, 100 round box.<!-- Summary End --></p>",
+    "categories": ["weapons", "ammunition"],
+    "sources": [
+      {
+        "publication": "",
+        "authors": [""],
+        "publisher": {
+        "name": "",
+        "url": ""
+        }
+      }
+    ],
+    "tags": ["products", "weapons", "ammunition"]
+  },
+  {
+    "sku": "160-011-00033",
+    "type": "weapons”",
+    "subtype": "ammunition",
+    "name": "15mm Shotgun Ammunition (2D damage)",
+    "mfr": "",
+    "cost": 200,
+    "mass": 0.95,
+    "techLevel": 6,
+    "qrebs": "N/A",
+    "image": "",
+    "description": "<p><!-- Summary Start -->Standard 15mm Shotgun round, 1D damage, 100 round box.<!-- Summary End --></p>",
+    "categories": ["weapons", "ammunition"],
+    "sources": [
+      {
+        "publication": "",
+        "authors": [""],
+        "publisher": {
+        "name": "",
+        "url": ""
+        }
+      }
+    ],
+    "tags": ["products", "weapons", "ammunition"]
+  },
+  {
+    "sku": "160-011-00034",
+    "type": "weapons”",
+    "subtype": "ammunition",
+    "name": "15mm Shotgun Ammunition (3D damage)",
+    "mfr": "",
+    "cost": 300,
+    "mass": 0.95,
+    "techLevel": 6,
+    "qrebs": "N/A",
+    "image": "",
+    "description": "<p><!-- Summary Start -->Standard 15mm Shotgun round, 3D damage, 100 round box.<!-- Summary End --></p>",
+    "categories": ["weapons", "ammunition"],
+    "sources": [
+      {
+        "publication": "",
+        "authors": [""],
+        "publisher": {
+        "name": "",
+        "url": ""
+        }
+      }
+    ],
+    "tags": ["products", "weapons", "ammunition"]
+  },
+  {
+    "sku": "160-011-00035",
+    "type": "weapons”",
+    "subtype": "ammunition",
+    "name": "15mm Shotgun Ammunition (4D damage)",
+    "mfr": "",
+    "cost": 400,
+    "mass": 0.95,
+    "techLevel": 6,
+    "qrebs": "N/A",
+    "image": "",
+    "description": "<p><!-- Summary Start -->Standard 15mm Shotgun round, 4D damage, 100 round box.<!-- Summary End --></p>",
+    "categories": ["weapons", "ammunition"],
+    "sources": [
+      {
+        "publication": "",
+        "authors": [""],
+        "publisher": {
+        "name": "",
+        "url": ""
+        }
+      }
+    ],
+    "tags": ["products", "weapons", "ammunition"]
+  },
+  {
+    "sku": "160-011-00036",
+    "type": "weapons”",
+    "subtype": "ammunition",
+    "name": "15mm Shotgun Ammunition (5D damage)",
+    "mfr": "",
+    "cost": 500,
+    "mass": 0.95,
+    "techLevel": 6,
+    "qrebs": "N/A",
+    "image": "",
+    "description": "<p><!-- Summary Start -->Standard 15mm Shotgun round, 5D damage, 100 round box.<!-- Summary End --></p>",
+    "categories": ["weapons", "ammunition"],
+    "sources": [
+      {
+        "publication": "",
+        "authors": [""],
+        "publisher": {
+        "name": "",
+        "url": ""
+        }
+      }
+    ],
+    "tags": ["products", "weapons", "ammunition"]
+  },
+  {
+    "sku": "160-011-00037",
+    "type": "weapons”",
+    "subtype": "ammunition",
+    "name": "15mm Shotgun Ammunition (6D damage)",
+    "mfr": "",
+    "cost": 600,
+    "mass": 0.95,
+    "techLevel": 6,
+    "qrebs": "N/A",
+    "image": "",
+    "description": "<p><!-- Summary Start -->Standard 15mm Shotgun round, 6D damage, 100 round box.<!-- Summary End --></p>",
+    "categories": ["weapons", "ammunition"],
+    "sources": [
+      {
+        "publication": "",
+        "authors": [""],
+        "publisher": {
+        "name": "",
+        "url": ""
+        }
+      }
+    ],
+    "tags": ["products", "weapons", "ammunition"]
+  },
+  {
+    "sku": "160-011-00038",
+    "type": "weapons”",
+    "subtype": "ammunition",
+    "name": "15mm Shotgun Ammunition (7D damage)",
+    "mfr": "",
+    "cost": 700,
+    "mass": 0.95,
+    "techLevel": 6,
+    "qrebs": "N/A",
+    "image": "",
+    "description": "<p><!-- Summary Start -->Standard 15mm Shotgun round, 7D damage, 100 round box.<!-- Summary End --></p>",
+    "categories": ["weapons", "ammunition"],
+    "sources": [
+      {
+        "publication": "",
+        "authors": [""],
+        "publisher": {
+        "name": "",
+        "url": ""
+        }
+      }
+    ],
+    "tags": ["products", "weapons", "ammunition"]
+  },
+  {
+    "sku": "160-011-00039",
+    "type": "weapons”",
+    "subtype": "ammunition",
+    "name": "15mm Shotgun Ammunition (8D damage)",
+    "mfr": "",
+    "cost": 800,
+    "mass": 0.95,
+    "techLevel": 6,
+    "qrebs": "N/A",
+    "image": "",
+    "description": "<p><!-- Summary Start -->Standard 15mm Shotgun round, 8D damage, 100 round box.<!-- Summary End --></p>",
+    "categories": ["weapons", "ammunition"],
+    "sources": [
+      {
+        "publication": "",
+        "authors": [""],
+        "publisher": {
+        "name": "",
+        "url": ""
+        }
+      }
+    ],
+    "tags": ["products", "weapons", "ammunition"]
+  },
+  {
+    "sku": "160-011-00040",
+    "type": "weapons”",
+    "subtype": "ammunition",
+    "name": "15mm Shotgun Ammunition (9D damage)",
+    "mfr": "",
+    "cost": 900,
+    "mass": 0.95,
+    "techLevel": 6,
+    "qrebs": "N/A",
+    "image": "",
+    "description": "<p><!-- Summary Start -->Standard 15mm Shotgun round, 7D damage, 100 round box.<!-- Summary End --></p>",
+    "categories": ["weapons", "ammunition"],
+    "sources": [
+      {
+        "publication": "",
+        "authors": [""],
+        "publisher": {
+        "name": "",
+        "url": ""
+        }
+      }
+    ],
+    "tags": ["products", "weapons", "ammunition"]
+  },
+  {
+    "sku": "160-011-00041",
+    "type": "weapons”",
+    "subtype": "ammunition",
+    "name": "15mm Shotgun Ammunition (10D damage)",
+    "mfr": "",
+    "cost": 1000,
+    "mass": 0.95,
+    "techLevel": 6,
+    "qrebs": "N/A",
+    "image": "",
+    "description": "<p><!-- Summary Start -->Standard 15mm Shotgun round, 10D damage, 100 round box.<!-- Summary End --></p>",
+    "categories": ["weapons", "ammunition"],
+    "sources": [
+      {
+        "publication": "",
+        "authors": [""],
+        "publisher": {
+        "name": "",
+        "url": ""
+        }
+      }
+    ],
+    "tags": ["products", "weapons", "ammunition"]
+  },
+  {
+    "sku": "160-011-00042",
+    "type": "weapons”",
+    "subtype": "ammunition",
+    "name": "8mm Machinegun Ammunition (1D damage)",
+    "mfr": "",
+    "cost": 100,
+    "mass": 0.95,
+    "techLevel": 6,
+    "qrebs": "N/A",
+    "image": "",
+    "description": "<p><!-- Summary Start -->Standard 8mm Machinegun round, 1D damage, 100 round box.<!-- Summary End --></p>",
+    "categories": ["weapons", "ammunition"],
+    "sources": [
+      {
+        "publication": "",
+        "authors": [""],
+        "publisher": {
+        "name": "",
+        "url": ""
+        }
+      }
+    ],
+    "tags": ["products", "weapons", "ammunition"]
+  },
+  {
+    "sku": "160-011-00043",
+    "type": "weapons”",
+    "subtype": "ammunition",
+    "name": "8mm Machinegun Ammunition (2D damage)",
+    "mfr": "",
+    "cost": 200,
+    "mass": 0.95,
+    "techLevel": 6,
+    "qrebs": "N/A",
+    "image": "",
+    "description": "<p><!-- Summary Start -->Standard 8mm Machinegun round, 1D damage, 100 round box.<!-- Summary End --></p>",
+    "categories": ["weapons", "ammunition"],
+    "sources": [
+      {
+        "publication": "",
+        "authors": [""],
+        "publisher": {
+        "name": "",
+        "url": ""
+        }
+      }
+    ],
+    "tags": ["products", "weapons", "ammunition"]
+  },
+  {
+    "sku": "160-011-00044",
+    "type": "weapons”",
+    "subtype": "ammunition",
+    "name": "8mm Machinegun Ammunition (3D damage)",
+    "mfr": "",
+    "cost": 300,
+    "mass": 0.95,
+    "techLevel": 6,
+    "qrebs": "N/A",
+    "image": "",
+    "description": "<p><!-- Summary Start -->Standard 8mm Machinegun round, 3D damage, 100 round box.<!-- Summary End --></p>",
+    "categories": ["weapons", "ammunition"],
+    "sources": [
+      {
+        "publication": "",
+        "authors": [""],
+        "publisher": {
+        "name": "",
+        "url": ""
+        }
+      }
+    ],
+    "tags": ["products", "weapons", "ammunition"]
+  },
+  {
+    "sku": "160-011-00045",
+    "type": "weapons”",
+    "subtype": "ammunition",
+    "name": "8mm Machinegun Ammunition (4D damage)",
+    "mfr": "",
+    "cost": 400,
+    "mass": 0.95,
+    "techLevel": 6,
+    "qrebs": "N/A",
+    "image": "",
+    "description": "<p><!-- Summary Start -->Standard 8mm Machinegun round, 4D damage, 100 round box.<!-- Summary End --></p>",
+    "categories": ["weapons", "ammunition"],
+    "sources": [
+      {
+        "publication": "",
+        "authors": [""],
+        "publisher": {
+        "name": "",
+        "url": ""
+        }
+      }
+    ],
+    "tags": ["products", "weapons", "ammunition"]
+  },
+  {
+    "sku": "160-011-00046",
+    "type": "weapons”",
+    "subtype": "ammunition",
+    "name": "8mm Machinegun Ammunition (5D damage)",
+    "mfr": "",
+    "cost": 500,
+    "mass": 0.95,
+    "techLevel": 6,
+    "qrebs": "N/A",
+    "image": "",
+    "description": "<p><!-- Summary Start -->Standard 8mm Machinegun round, 5D damage, 100 round box.<!-- Summary End --></p>",
+    "categories": ["weapons", "ammunition"],
+    "sources": [
+      {
+        "publication": "",
+        "authors": [""],
+        "publisher": {
+        "name": "",
+        "url": ""
+        }
+      }
+    ],
+    "tags": ["products", "weapons", "ammunition"]
+  },
+  {
+    "sku": "160-011-00047",
+    "type": "weapons”",
+    "subtype": "ammunition",
+    "name": "8mm Machinegun Ammunition (6D damage)",
+    "mfr": "",
+    "cost": 600,
+    "mass": 0.95,
+    "techLevel": 6,
+    "qrebs": "N/A",
+    "image": "",
+    "description": "<p><!-- Summary Start -->Standard 8mm Machinegun round, 6D damage, 100 round box.<!-- Summary End --></p>",
+    "categories": ["weapons", "ammunition"],
+    "sources": [
+      {
+        "publication": "",
+        "authors": [""],
+        "publisher": {
+        "name": "",
+        "url": ""
+        }
+      }
+    ],
+    "tags": ["products", "weapons", "ammunition"]
+  },
+  {
+    "sku": "160-011-00048",
+    "type": "weapons”",
+    "subtype": "ammunition",
+    "name": "8mm Machinegun Ammunition (7D damage)",
+    "mfr": "",
+    "cost": 700,
+    "mass": 0.95,
+    "techLevel": 6,
+    "qrebs": "N/A",
+    "image": "",
+    "description": "<p><!-- Summary Start -->Standard 8mm Machinegun round, 7D damage, 100 round box.<!-- Summary End --></p>",
+    "categories": ["weapons", "ammunition"],
+    "sources": [
+      {
+        "publication": "",
+        "authors": [""],
+        "publisher": {
+        "name": "",
+        "url": ""
+        }
+      }
+    ],
+    "tags": ["products", "weapons", "ammunition"]
+  },
+  {
+    "sku": "160-011-00049",
+    "type": "weapons”",
+    "subtype": "ammunition",
+    "name": "8mm Machinegun Ammunition (8D damage)",
+    "mfr": "",
+    "cost": 800,
+    "mass": 0.95,
+    "techLevel": 6,
+    "qrebs": "N/A",
+    "image": "",
+    "description": "<p><!-- Summary Start -->Standard 8mm Machinegun round, 8D damage, 100 round box.<!-- Summary End --></p>",
+    "categories": ["weapons", "ammunition"],
+    "sources": [
+      {
+        "publication": "",
+        "authors": [""],
+        "publisher": {
+        "name": "",
+        "url": ""
+        }
+      }
+    ],
+    "tags": ["products", "weapons", "ammunition"]
+  },
+  {
+    "sku": "160-011-00050",
+    "type": "weapons”",
+    "subtype": "ammunition",
+    "name": "8mm Machinegun Ammunition (9D damage)",
+    "mfr": "",
+    "cost": 900,
+    "mass": 0.95,
+    "techLevel": 6,
+    "qrebs": "N/A",
+    "image": "",
+    "description": "<p><!-- Summary Start -->Standard 8mm Machinegun round, 7D damage, 100 round box.<!-- Summary End --></p>",
+    "categories": ["weapons", "ammunition"],
+    "sources": [
+      {
+        "publication": "",
+        "authors": [""],
+        "publisher": {
+        "name": "",
+        "url": ""
+        }
+      }
+    ],
+    "tags": ["products", "weapons", "ammunition"]
+  },
+  {
+    "sku": "160-011-00051",
+    "type": "weapons”",
+    "subtype": "ammunition",
+    "name": "8mm Machinegun Ammunition (10D damage)",
+    "mfr": "",
+    "cost": 1000,
+    "mass": 0.95,
+    "techLevel": 6,
+    "qrebs": "N/A",
+    "image": "",
+    "description": "<p><!-- Summary Start -->Standard 8mm Machinegun round, 10D damage, 100 round box.<!-- Summary End --></p>",
+    "categories": ["weapons", "ammunition"],
+    "sources": [
+      {
+        "publication": "",
+        "authors": [""],
+        "publisher": {
+        "name": "",
+        "url": ""
+        }
+      }
+    ],
+    "tags": ["products", "weapons", "ammunition"]
+  },
+  {
+    "sku": "160-011-00052",
+    "type": "weapons”",
+    "subtype": "ammunition",
+    "name": "6mm Machinegun Ammunition (1D damage)",
+    "mfr": "",
+    "cost": 100,
+    "mass": 0.95,
+    "techLevel": 6,
+    "qrebs": "N/A",
+    "image": "",
+    "description": "<p><!-- Summary Start -->Standard 6mm Machinegun round, 1D damage, 100 round box.<!-- Summary End --></p>",
+    "categories": ["weapons", "ammunition"],
+    "sources": [
+      {
+        "publication": "",
+        "authors": [""],
+        "publisher": {
+        "name": "",
+        "url": ""
+        }
+      }
+    ],
+    "tags": ["products", "weapons", "ammunition"]
+  },
+  {
+    "sku": "160-011-00053",
+    "type": "weapons”",
+    "subtype": "ammunition",
+    "name": "6mm Machinegun Ammunition (2D damage)",
+    "mfr": "",
+    "cost": 200,
+    "mass": 0.95,
+    "techLevel": 6,
+    "qrebs": "N/A",
+    "image": "",
+    "description": "<p><!-- Summary Start -->Standard 6mm Machinegun round, 1D damage, 100 round box.<!-- Summary End --></p>",
+    "categories": ["weapons", "ammunition"],
+    "sources": [
+      {
+        "publication": "",
+        "authors": [""],
+        "publisher": {
+        "name": "",
+        "url": ""
+        }
+      }
+    ],
+    "tags": ["products", "weapons", "ammunition"]
+  },
+  {
+    "sku": "160-011-00054",
+    "type": "weapons”",
+    "subtype": "ammunition",
+    "name": "6mm Machinegun Ammunition (3D damage)",
+    "mfr": "",
+    "cost": 300,
+    "mass": 0.95,
+    "techLevel": 6,
+    "qrebs": "N/A",
+    "image": "",
+    "description": "<p><!-- Summary Start -->Standard 6mm Machinegun round, 3D damage, 100 round box.<!-- Summary End --></p>",
+    "categories": ["weapons", "ammunition"],
+    "sources": [
+      {
+        "publication": "",
+        "authors": [""],
+        "publisher": {
+        "name": "",
+        "url": ""
+        }
+      }
+    ],
+    "tags": ["products", "weapons", "ammunition"]
+  },
+  {
+    "sku": "160-011-00055",
+    "type": "weapons”",
+    "subtype": "ammunition",
+    "name": "6mm Machinegun Ammunition (4D damage)",
+    "mfr": "",
+    "cost": 400,
+    "mass": 0.95,
+    "techLevel": 6,
+    "qrebs": "N/A",
+    "image": "",
+    "description": "<p><!-- Summary Start -->Standard 6mm Machinegun round, 4D damage, 100 round box.<!-- Summary End --></p>",
+    "categories": ["weapons", "ammunition"],
+    "sources": [
+      {
+        "publication": "",
+        "authors": [""],
+        "publisher": {
+        "name": "",
+        "url": ""
+        }
+      }
+    ],
+    "tags": ["products", "weapons", "ammunition"]
+  },
+  {
+    "sku": "160-011-00056",
+    "type": "weapons”",
+    "subtype": "ammunition",
+    "name": "6mm Machinegun Ammunition (5D damage)",
+    "mfr": "",
+    "cost": 500,
+    "mass": 0.95,
+    "techLevel": 6,
+    "qrebs": "N/A",
+    "image": "",
+    "description": "<p><!-- Summary Start -->Standard 6mm Machinegun round, 5D damage, 100 round box.<!-- Summary End --></p>",
+    "categories": ["weapons", "ammunition"],
+    "sources": [
+      {
+        "publication": "",
+        "authors": [""],
+        "publisher": {
+        "name": "",
+        "url": ""
+        }
+      }
+    ],
+    "tags": ["products", "weapons", "ammunition"]
+  },
+  {
+    "sku": "160-011-00057",
+    "type": "weapons”",
+    "subtype": "ammunition",
+    "name": "6mm Machinegun Ammunition (6D damage)",
+    "mfr": "",
+    "cost": 600,
+    "mass": 0.95,
+    "techLevel": 6,
+    "qrebs": "N/A",
+    "image": "",
+    "description": "<p><!-- Summary Start -->Standard 6mm Machinegun round, 6D damage, 100 round box.<!-- Summary End --></p>",
+    "categories": ["weapons", "ammunition"],
+    "sources": [
+      {
+        "publication": "",
+        "authors": [""],
+        "publisher": {
+        "name": "",
+        "url": ""
+        }
+      }
+    ],
+    "tags": ["products", "weapons", "ammunition"]
+  },
+  {
+    "sku": "160-011-00058",
+    "type": "weapons”",
+    "subtype": "ammunition",
+    "name": "6mm Machinegun Ammunition (7D damage)",
+    "mfr": "",
+    "cost": 700,
+    "mass": 0.95,
+    "techLevel": 6,
+    "qrebs": "N/A",
+    "image": "",
+    "description": "<p><!-- Summary Start -->Standard 6mm Machinegun round, 7D damage, 100 round box.<!-- Summary End --></p>",
+    "categories": ["weapons", "ammunition"],
+    "sources": [
+      {
+        "publication": "",
+        "authors": [""],
+        "publisher": {
+        "name": "",
+        "url": ""
+        }
+      }
+    ],
+    "tags": ["products", "weapons", "ammunition"]
+  },
+  {
+    "sku": "160-011-00059",
+    "type": "weapons”",
+    "subtype": "ammunition",
+    "name": "6mm Machinegun Ammunition (8D damage)",
+    "mfr": "",
+    "cost": 800,
+    "mass": 0.95,
+    "techLevel": 6,
+    "qrebs": "N/A",
+    "image": "",
+    "description": "<p><!-- Summary Start -->Standard 6mm Machinegun round, 8D damage, 100 round box.<!-- Summary End --></p>",
+    "categories": ["weapons", "ammunition"],
+    "sources": [
+      {
+        "publication": "",
+        "authors": [""],
+        "publisher": {
+        "name": "",
+        "url": ""
+        }
+      }
+    ],
+    "tags": ["products", "weapons", "ammunition"]
+  },
+  {
+    "sku": "160-011-00060",
+    "type": "weapons”",
+    "subtype": "ammunition",
+    "name": "6mm Machinegun Ammunition (9D damage)",
+    "mfr": "",
+    "cost": 900,
+    "mass": 0.95,
+    "techLevel": 6,
+    "qrebs": "N/A",
+    "image": "",
+    "description": "<p><!-- Summary Start -->Standard 6mm Machinegun round, 7D damage, 100 round box.<!-- Summary End --></p>",
+    "categories": ["weapons", "ammunition"],
+    "sources": [
+      {
+        "publication": "",
+        "authors": [""],
+        "publisher": {
+        "name": "",
+        "url": ""
+        }
+      }
+    ],
+    "tags": ["products", "weapons", "ammunition"]
+  },
+  {
+    "sku": "160-011-00061",
+    "type": "weapons”",
+    "subtype": "ammunition",
+    "name": "6mm Machinegun Ammunition (10D damage)",
+    "mfr": "",
+    "cost": 1000,
+    "mass": 0.95,
+    "techLevel": 6,
+    "qrebs": "N/A",
+    "image": "",
+    "description": "<p><!-- Summary Start -->Standard 6mm Machinegun round, 10D damage, 100 round box.<!-- Summary End --></p>",
+    "categories": ["weapons", "ammunition"],
+    "sources": [
+      {
+        "publication": "",
+        "authors": [""],
+        "publisher": {
+        "name": "",
+        "url": ""
+        }
+      }
+    ],
+    "tags": ["products", "weapons", "ammunition"]
+  },
+  {
+    "sku": "160-011-00062",
+    "type": "weapons”",
+    "subtype": "ammunition",
+    "name": "6mm Gauss gun Ammunition (1D damage)",
+    "mfr": "",
+    "cost": 100,
+    "mass": 0.95,
+    "techLevel": 6,
+    "qrebs": "N/A",
+    "image": "",
+    "description": "<p><!-- Summary Start -->Standard 6mm Gauss gun round, 1D damage, 100 round box.<!-- Summary End --></p>",
+    "categories": ["weapons", "ammunition"],
+    "sources": [
+      {
+        "publication": "",
+        "authors": [""],
+        "publisher": {
+        "name": "",
+        "url": ""
+        }
+      }
+    ],
+    "tags": ["products", "weapons", "ammunition"]
+  },
+  {
+    "sku": "160-011-00063",
+    "type": "weapons”",
+    "subtype": "ammunition",
+    "name": "6mm Gauss gun Ammunition (2D damage)",
+    "mfr": "",
+    "cost": 200,
+    "mass": 0.95,
+    "techLevel": 6,
+    "qrebs": "N/A",
+    "image": "",
+    "description": "<p><!-- Summary Start -->Standard 6mm Gauss gun round, 1D damage, 100 round box.<!-- Summary End --></p>",
+    "categories": ["weapons", "ammunition"],
+    "sources": [
+      {
+        "publication": "",
+        "authors": [""],
+        "publisher": {
+        "name": "",
+        "url": ""
+        }
+      }
+    ],
+    "tags": ["products", "weapons", "ammunition"]
+  },
+  {
+    "sku": "160-011-00064",
+    "type": "weapons”",
+    "subtype": "ammunition",
+    "name": "6mm Gauss gun Ammunition (3D damage)",
+    "mfr": "",
+    "cost": 300,
+    "mass": 0.95,
+    "techLevel": 6,
+    "qrebs": "N/A",
+    "image": "",
+    "description": "<p><!-- Summary Start -->Standard 6mm Gauss gun round, 3D damage, 100 round box.<!-- Summary End --></p>",
+    "categories": ["weapons", "ammunition"],
+    "sources": [
+      {
+        "publication": "",
+        "authors": [""],
+        "publisher": {
+        "name": "",
+        "url": ""
+        }
+      }
+    ],
+    "tags": ["products", "weapons", "ammunition"]
+  },
+  {
+    "sku": "160-011-00065",
+    "type": "weapons”",
+    "subtype": "ammunition",
+    "name": "6mm Gauss gun Ammunition (4D damage)",
+    "mfr": "",
+    "cost": 400,
+    "mass": 0.95,
+    "techLevel": 6,
+    "qrebs": "N/A",
+    "image": "",
+    "description": "<p><!-- Summary Start -->Standard 6mm Gauss gun round, 4D damage, 100 round box.<!-- Summary End --></p>",
+    "categories": ["weapons", "ammunition"],
+    "sources": [
+      {
+        "publication": "",
+        "authors": [""],
+        "publisher": {
+        "name": "",
+        "url": ""
+        }
+      }
+    ],
+    "tags": ["products", "weapons", "ammunition"]
+  },
+  {
+    "sku": "160-011-00066",
+    "type": "weapons”",
+    "subtype": "ammunition",
+    "name": "6mm Gauss gun Ammunition (5D damage)",
+    "mfr": "",
+    "cost": 500,
+    "mass": 0.95,
+    "techLevel": 6,
+    "qrebs": "N/A",
+    "image": "",
+    "description": "<p><!-- Summary Start -->Standard 6mm Gauss gun round, 5D damage, 100 round box.<!-- Summary End --></p>",
+    "categories": ["weapons", "ammunition"],
+    "sources": [
+      {
+        "publication": "",
+        "authors": [""],
+        "publisher": {
+        "name": "",
+        "url": ""
+        }
+      }
+    ],
+    "tags": ["products", "weapons", "ammunition"]
+  },
+  {
+    "sku": "160-011-00067",
+    "type": "weapons”",
+    "subtype": "ammunition",
+    "name": "6mm Gauss gun Ammunition (6D damage)",
+    "mfr": "",
+    "cost": 600,
+    "mass": 0.95,
+    "techLevel": 6,
+    "qrebs": "N/A",
+    "image": "",
+    "description": "<p><!-- Summary Start -->Standard 6mm Gauss gun round, 6D damage, 100 round box.<!-- Summary End --></p>",
+    "categories": ["weapons", "ammunition"],
+    "sources": [
+      {
+        "publication": "",
+        "authors": [""],
+        "publisher": {
+        "name": "",
+        "url": ""
+        }
+      }
+    ],
+    "tags": ["products", "weapons", "ammunition"]
+  },
+  {
+    "sku": "160-011-00068",
+    "type": "weapons”",
+    "subtype": "ammunition",
+    "name": "6mm Gauss gun Ammunition (7D damage)",
+    "mfr": "",
+    "cost": 700,
+    "mass": 0.95,
+    "techLevel": 6,
+    "qrebs": "N/A",
+    "image": "",
+    "description": "<p><!-- Summary Start -->Standard 6mm Gauss gun round, 7D damage, 100 round box.<!-- Summary End --></p>",
+    "categories": ["weapons", "ammunition"],
+    "sources": [
+      {
+        "publication": "",
+        "authors": [""],
+        "publisher": {
+        "name": "",
+        "url": ""
+        }
+      }
+    ],
+    "tags": ["products", "weapons", "ammunition"]
+  },
+  {
+    "sku": "160-011-00069",
+    "type": "weapons”",
+    "subtype": "ammunition",
+    "name": "6mm Gauss gun Ammunition (8D damage)",
+    "mfr": "",
+    "cost": 800,
+    "mass": 0.95,
+    "techLevel": 6,
+    "qrebs": "N/A",
+    "image": "",
+    "description": "<p><!-- Summary Start -->Standard 6mm Gauss gun round, 8D damage, 100 round box.<!-- Summary End --></p>",
+    "categories": ["weapons", "ammunition"],
+    "sources": [
+      {
+        "publication": "",
+        "authors": [""],
+        "publisher": {
+        "name": "",
+        "url": ""
+        }
+      }
+    ],
+    "tags": ["products", "weapons", "ammunition"]
+  },
+  {
+    "sku": "160-011-00070",
+    "type": "weapons”",
+    "subtype": "ammunition",
+    "name": "6mm Gauss gun Ammunition (9D damage)",
+    "mfr": "",
+    "cost": 900,
+    "mass": 0.95,
+    "techLevel": 6,
+    "qrebs": "N/A",
+    "image": "",
+    "description": "<p><!-- Summary Start -->Standard 6mm Gauss gun round, 7D damage, 100 round box.<!-- Summary End --></p>",
+    "categories": ["weapons", "ammunition"],
+    "sources": [
+      {
+        "publication": "",
+        "authors": [""],
+        "publisher": {
+        "name": "",
+        "url": ""
+        }
+      }
+    ],
+    "tags": ["products", "weapons", "ammunition"]
+  },
+  {
+    "sku": "160-011-00071",
+    "type": "weapons”",
+    "subtype": "ammunition",
+    "name": "6mm Gauss gun Ammunition (10D damage)",
+    "mfr": "",
+    "cost": 1000,
+    "mass": 0.95,
+    "techLevel": 6,
+    "qrebs": "N/A",
+    "image": "",
+    "description": "<p><!-- Summary Start -->Standard 6mm Gauss gun round, 10D damage, 100 round box.<!-- Summary End --></p>",
+    "categories": ["weapons", "ammunition"],
+    "sources": [
+      {
+        "publication": "",
+        "authors": [""],
+        "publisher": {
+        "name": "",
+        "url": ""
+        }
+      }
+    ],
+    "tags": ["products", "weapons", "ammunition"]
+  },
+  {
+    "sku": "160-011-00072",
+    "type": "weapons”",
+    "subtype": "ammunition",
+    "name": "3mm Staplegun Ammunition (1D damage)",
+    "mfr": "",
+    "cost": 100,
+    "mass": 0.95,
+    "techLevel": 6,
+    "qrebs": "N/A",
+    "image": "",
+    "description": "<p><!-- Summary Start -->Standard 3mm Staplegun round, 1D damage, 100 round box.<!-- Summary End --></p>",
+    "categories": ["weapons", "ammunition"],
+    "sources": [
+      {
+        "publication": "",
+        "authors": [""],
+        "publisher": {
+        "name": "",
+        "url": ""
+        }
+      }
+    ],
+    "tags": ["products", "weapons", "ammunition"]
+  },
+  {
+    "sku": "160-011-00073",
+    "type": "weapons”",
+    "subtype": "ammunition",
+    "name": "3mm Staplegun Ammunition (2D damage)",
+    "mfr": "",
+    "cost": 200,
+    "mass": 0.95,
+    "techLevel": 6,
+    "qrebs": "N/A",
+    "image": "",
+    "description": "<p><!-- Summary Start -->Standard 3mm Staplegun round, 1D damage, 100 round box.<!-- Summary End --></p>",
+    "categories": ["weapons", "ammunition"],
+    "sources": [
+      {
+        "publication": "",
+        "authors": [""],
+        "publisher": {
+        "name": "",
+        "url": ""
+        }
+      }
+    ],
+    "tags": ["products", "weapons", "ammunition"]
+  },
+  {
+    "sku": "160-011-00074",
+    "type": "weapons”",
+    "subtype": "ammunition",
+    "name": "3mm Staplegun Ammunition (3D damage)",
+    "mfr": "",
+    "cost": 300,
+    "mass": 0.95,
+    "techLevel": 6,
+    "qrebs": "N/A",
+    "image": "",
+    "description": "<p><!-- Summary Start -->Standard 3mm Staplegun round, 3D damage, 100 round box.<!-- Summary End --></p>",
+    "categories": ["weapons", "ammunition"],
+    "sources": [
+      {
+        "publication": "",
+        "authors": [""],
+        "publisher": {
+        "name": "",
+        "url": ""
+        }
+      }
+    ],
+    "tags": ["products", "weapons", "ammunition"]
+  },
+  {
+    "sku": "160-011-00075",
+    "type": "weapons”",
+    "subtype": "ammunition",
+    "name": "3mm Staplegun Ammunition (4D damage)",
+    "mfr": "",
+    "cost": 400,
+    "mass": 0.95,
+    "techLevel": 6,
+    "qrebs": "N/A",
+    "image": "",
+    "description": "<p><!-- Summary Start -->Standard 3mm Staplegun round, 4D damage, 100 round box.<!-- Summary End --></p>",
+    "categories": ["weapons", "ammunition"],
+    "sources": [
+      {
+        "publication": "",
+        "authors": [""],
+        "publisher": {
+        "name": "",
+        "url": ""
+        }
+      }
+    ],
+    "tags": ["products", "weapons", "ammunition"]
+  },
+  {
+    "sku": "160-011-00076",
+    "type": "weapons”",
+    "subtype": "ammunition",
+    "name": "3mm Staplegun Ammunition (5D damage)",
+    "mfr": "",
+    "cost": 500,
+    "mass": 0.95,
+    "techLevel": 6,
+    "qrebs": "N/A",
+    "image": "",
+    "description": "<p><!-- Summary Start -->Standard 3mm Staplegun round, 5D damage, 100 round box.<!-- Summary End --></p>",
+    "categories": ["weapons", "ammunition"],
+    "sources": [
+      {
+        "publication": "",
+        "authors": [""],
+        "publisher": {
+        "name": "",
+        "url": ""
+        }
+      }
+    ],
+    "tags": ["products", "weapons", "ammunition"]
+  },
+  {
+    "sku": "160-011-00077",
+    "type": "weapons”",
+    "subtype": "ammunition",
+    "name": "3mm Staplegun Ammunition (6D damage)",
+    "mfr": "",
+    "cost": 600,
+    "mass": 0.95,
+    "techLevel": 6,
+    "qrebs": "N/A",
+    "image": "",
+    "description": "<p><!-- Summary Start -->Standard 3mm Staplegun round, 6D damage, 100 round box.<!-- Summary End --></p>",
+    "categories": ["weapons", "ammunition"],
+    "sources": [
+      {
+        "publication": "",
+        "authors": [""],
+        "publisher": {
+        "name": "",
+        "url": ""
+        }
+      }
+    ],
+    "tags": ["products", "weapons", "ammunition"]
+  },
+  {
+    "sku": "160-011-00078",
+    "type": "weapons”",
+    "subtype": "ammunition",
+    "name": "3mm Staplegun Ammunition (7D damage)",
+    "mfr": "",
+    "cost": 700,
+    "mass": 0.95,
+    "techLevel": 6,
+    "qrebs": "N/A",
+    "image": "",
+    "description": "<p><!-- Summary Start -->Standard 3mm Staplegun round, 7D damage, 100 round box.<!-- Summary End --></p>",
+    "categories": ["weapons", "ammunition"],
+    "sources": [
+      {
+        "publication": "",
+        "authors": [""],
+        "publisher": {
+        "name": "",
+        "url": ""
+        }
+      }
+    ],
+    "tags": ["products", "weapons", "ammunition"]
+  },
+  {
+    "sku": "160-011-00079",
+    "type": "weapons”",
+    "subtype": "ammunition",
+    "name": "3mm Staplegun Ammunition (8D damage)",
+    "mfr": "",
+    "cost": 800,
+    "mass": 0.95,
+    "techLevel": 6,
+    "qrebs": "N/A",
+    "image": "",
+    "description": "<p><!-- Summary Start -->Standard 3mm Staplegun round, 8D damage, 100 round box.<!-- Summary End --></p>",
+    "categories": ["weapons", "ammunition"],
+    "sources": [
+      {
+        "publication": "",
+        "authors": [""],
+        "publisher": {
+        "name": "",
+        "url": ""
+        }
+      }
+    ],
+    "tags": ["products", "weapons", "ammunition"]
+  },
+  {
+    "sku": "160-011-00080",
+    "type": "weapons”",
+    "subtype": "ammunition",
+    "name": "3mm Staplegun Ammunition (9D damage)",
+    "mfr": "",
+    "cost": 900,
+    "mass": 0.95,
+    "techLevel": 6,
+    "qrebs": "N/A",
+    "image": "",
+    "description": "<p><!-- Summary Start -->Standard 3mm Staplegun round, 7D damage, 100 round box.<!-- Summary End --></p>",
+    "categories": ["weapons", "ammunition"],
+    "sources": [
+      {
+        "publication": "",
+        "authors": [""],
+        "publisher": {
+        "name": "",
+        "url": ""
+        }
+      }
+    ],
+    "tags": ["products", "weapons", "ammunition"]
+  },
+  {
+    "sku": "160-011-00081",
+    "type": "weapons”",
+    "subtype": "ammunition",
+    "name": "3mm Staplegun Ammunition (10D damage)",
+    "mfr": "",
+    "cost": 1000,
+    "mass": 0.95,
+    "techLevel": 6,
+    "qrebs": "N/A",
+    "image": "",
+    "description": "<p><!-- Summary Start -->Standard 3mm Staplegun round, 10D damage, 100 round box.<!-- Summary End --></p>",
+    "categories": ["weapons", "ammunition"],
+    "sources": [
+      {
+        "publication": "",
+        "authors": [""],
+        "publisher": {
+        "name": "",
+        "url": ""
+        }
+      }
+    ],
+    "tags": ["products", "weapons", "ammunition"]
+  },
+  {
+    "sku": "160-011-00082",
+    "type": "weapons”",
+    "subtype": "ammunition",
+    "name": "9mm Submachinegun Ammunition (1D damage)",
+    "mfr": "",
+    "cost": 100,
+    "mass": 0.95,
+    "techLevel": 6,
+    "qrebs": "N/A",
+    "image": "",
+    "description": "<p><!-- Summary Start -->Standard 9mm Submachinegun round, 1D damage, 100 round box.<!-- Summary End --></p>",
+    "categories": ["weapons", "ammunition"],
+    "sources": [
+      {
+        "publication": "",
+        "authors": [""],
+        "publisher": {
+        "name": "",
+        "url": ""
+        }
+      }
+    ],
+    "tags": ["products", "weapons", "ammunition"]
+  },
+  {
+    "sku": "160-011-00083",
+    "type": "weapons”",
+    "subtype": "ammunition",
+    "name": "9mm Submachinegun Ammunition (2D damage)",
+    "mfr": "",
+    "cost": 200,
+    "mass": 0.95,
+    "techLevel": 6,
+    "qrebs": "N/A",
+    "image": "",
+    "description": "<p><!-- Summary Start -->Standard 9mm Submachinegun round, 1D damage, 100 round box.<!-- Summary End --></p>",
+    "categories": ["weapons", "ammunition"],
+    "sources": [
+      {
+        "publication": "",
+        "authors": [""],
+        "publisher": {
+        "name": "",
+        "url": ""
+        }
+      }
+    ],
+    "tags": ["products", "weapons", "ammunition"]
+  },
+  {
+    "sku": "160-011-00084",
+    "type": "weapons”",
+    "subtype": "ammunition",
+    "name": "9mm Submachinegun Ammunition (3D damage)",
+    "mfr": "",
+    "cost": 300,
+    "mass": 0.95,
+    "techLevel": 6,
+    "qrebs": "N/A",
+    "image": "",
+    "description": "<p><!-- Summary Start -->Standard 9mm Submachinegun round, 3D damage, 100 round box.<!-- Summary End --></p>",
+    "categories": ["weapons", "ammunition"],
+    "sources": [
+      {
+        "publication": "",
+        "authors": [""],
+        "publisher": {
+        "name": "",
+        "url": ""
+        }
+      }
+    ],
+    "tags": ["products", "weapons", "ammunition"]
+  },
+  {
+    "sku": "160-011-00085",
+    "type": "weapons”",
+    "subtype": "ammunition",
+    "name": "9mm Submachinegun Ammunition (4D damage)",
+    "mfr": "",
+    "cost": 400,
+    "mass": 0.95,
+    "techLevel": 6,
+    "qrebs": "N/A",
+    "image": "",
+    "description": "<p><!-- Summary Start -->Standard 9mm Submachinegun round, 4D damage, 100 round box.<!-- Summary End --></p>",
+    "categories": ["weapons", "ammunition"],
+    "sources": [
+      {
+        "publication": "",
+        "authors": [""],
+        "publisher": {
+        "name": "",
+        "url": ""
+        }
+      }
+    ],
+    "tags": ["products", "weapons", "ammunition"]
+  },
+  {
+    "sku": "160-011-00086",
+    "type": "weapons”",
+    "subtype": "ammunition",
+    "name": "9mm Submachinegun Ammunition (5D damage)",
+    "mfr": "",
+    "cost": 500,
+    "mass": 0.95,
+    "techLevel": 6,
+    "qrebs": "N/A",
+    "image": "",
+    "description": "<p><!-- Summary Start -->Standard 9mm Submachinegun round, 5D damage, 100 round box.<!-- Summary End --></p>",
+    "categories": ["weapons", "ammunition"],
+    "sources": [
+      {
+        "publication": "",
+        "authors": [""],
+        "publisher": {
+        "name": "",
+        "url": ""
+        }
+      }
+    ],
+    "tags": ["products", "weapons", "ammunition"]
+  },
+  {
+    "sku": "160-011-00087",
+    "type": "weapons”",
+    "subtype": "ammunition",
+    "name": "9mm Submachinegun Ammunition (6D damage)",
+    "mfr": "",
+    "cost": 600,
+    "mass": 0.95,
+    "techLevel": 6,
+    "qrebs": "N/A",
+    "image": "",
+    "description": "<p><!-- Summary Start -->Standard 9mm Submachinegun round, 6D damage, 100 round box.<!-- Summary End --></p>",
+    "categories": ["weapons", "ammunition"],
+    "sources": [
+      {
+        "publication": "",
+        "authors": [""],
+        "publisher": {
+        "name": "",
+        "url": ""
+        }
+      }
+    ],
+    "tags": ["products", "weapons", "ammunition"]
+  },
+  {
+    "sku": "160-011-00088",
+    "type": "weapons”",
+    "subtype": "ammunition",
+    "name": "9mm Submachinegun Ammunition (7D damage)",
+    "mfr": "",
+    "cost": 700,
+    "mass": 0.95,
+    "techLevel": 6,
+    "qrebs": "N/A",
+    "image": "",
+    "description": "<p><!-- Summary Start -->Standard 9mm Submachinegun round, 7D damage, 100 round box.<!-- Summary End --></p>",
+    "categories": ["weapons", "ammunition"],
+    "sources": [
+      {
+        "publication": "",
+        "authors": [""],
+        "publisher": {
+        "name": "",
+        "url": ""
+        }
+      }
+    ],
+    "tags": ["products", "weapons", "ammunition"]
+  },
+  {
+    "sku": "160-011-00089",
+    "type": "weapons”",
+    "subtype": "ammunition",
+    "name": "9mm Submachinegun Ammunition (8D damage)",
+    "mfr": "",
+    "cost": 800,
+    "mass": 0.95,
+    "techLevel": 6,
+    "qrebs": "N/A",
+    "image": "",
+    "description": "<p><!-- Summary Start -->Standard 9mm Submachinegun round, 8D damage, 100 round box.<!-- Summary End --></p>",
+    "categories": ["weapons", "ammunition"],
+    "sources": [
+      {
+        "publication": "",
+        "authors": [""],
+        "publisher": {
+        "name": "",
+        "url": ""
+        }
+      }
+    ],
+    "tags": ["products", "weapons", "ammunition"]
+  },
+  {
+    "sku": "160-011-00090",
+    "type": "weapons”",
+    "subtype": "ammunition",
+    "name": "9mm Submachinegun Ammunition (9D damage)",
+    "mfr": "",
+    "cost": 900,
+    "mass": 0.95,
+    "techLevel": 6,
+    "qrebs": "N/A",
+    "image": "",
+    "description": "<p><!-- Summary Start -->Standard 9mm Submachinegun round, 7D damage, 100 round box.<!-- Summary End --></p>",
+    "categories": ["weapons", "ammunition"],
+    "sources": [
+      {
+        "publication": "",
+        "authors": [""],
+        "publisher": {
+        "name": "",
+        "url": ""
+        }
+      }
+    ],
+    "tags": ["products", "weapons", "ammunition"]
+  },
+  {
+    "sku": "160-011-00091",
+    "type": "weapons”",
+    "subtype": "ammunition",
+    "name": "9mm Submachinegun Ammunition (10D damage)",
+    "mfr": "",
+    "cost": 1000,
+    "mass": 0.95,
+    "techLevel": 6,
+    "qrebs": "N/A",
+    "image": "",
+    "description": "<p><!-- Summary Start -->Standard 9mm Submachinegun round, 10D damage, 100 round box.<!-- Summary End --></p>",
+    "categories": ["weapons", "ammunition"],
+    "sources": [
+      {
+        "publication": "",
+        "authors": [""],
+        "publisher": {
+        "name": "",
+        "url": ""
+        }
+      }
+    ],
+    "tags": ["products", "weapons", "ammunition"]
+  },
+  {
+    "sku": "160-011-00092",
+    "type": "weapons”",
+    "subtype": "ammunition",
+    "name": "13mm Machinegun Ammunition (1D damage)",
+    "mfr": "",
+    "cost": 100,
+    "mass": 0.95,
+    "techLevel": 6,
+    "qrebs": "N/A",
+    "image": "",
+    "description": "<p><!-- Summary Start -->Standard 13mm Machinegun round, 1D damage, 100 round box.<!-- Summary End --></p>",
+    "categories": ["weapons", "ammunition"],
+    "sources": [
+      {
+        "publication": "",
+        "authors": [""],
+        "publisher": {
+        "name": "",
+        "url": ""
+        }
+      }
+    ],
+    "tags": ["products", "weapons", "ammunition"]
+  },
+  {
+    "sku": "160-011-00093",
+    "type": "weapons”",
+    "subtype": "ammunition",
+    "name": "13mm Machinegun Ammunition (2D damage)",
+    "mfr": "",
+    "cost": 200,
+    "mass": 0.95,
+    "techLevel": 6,
+    "qrebs": "N/A",
+    "image": "",
+    "description": "<p><!-- Summary Start -->Standard 13mm Machinegun round, 1D damage, 100 round box.<!-- Summary End --></p>",
+    "categories": ["weapons", "ammunition"],
+    "sources": [
+      {
+        "publication": "",
+        "authors": [""],
+        "publisher": {
+        "name": "",
+        "url": ""
+        }
+      }
+    ],
+    "tags": ["products", "weapons", "ammunition"]
+  },
+  {
+    "sku": "160-011-00094",
+    "type": "weapons”",
+    "subtype": "ammunition",
+    "name": "13mm Machinegun Ammunition (3D damage)",
+    "mfr": "",
+    "cost": 300,
+    "mass": 0.95,
+    "techLevel": 6,
+    "qrebs": "N/A",
+    "image": "",
+    "description": "<p><!-- Summary Start -->Standard 13mm Machinegun round, 3D damage, 100 round box.<!-- Summary End --></p>",
+    "categories": ["weapons", "ammunition"],
+    "sources": [
+      {
+        "publication": "",
+        "authors": [""],
+        "publisher": {
+        "name": "",
+        "url": ""
+        }
+      }
+    ],
+    "tags": ["products", "weapons", "ammunition"]
+  },
+  {
+    "sku": "160-011-00095",
+    "type": "weapons”",
+    "subtype": "ammunition",
+    "name": "13mm Machinegun Ammunition (4D damage)",
+    "mfr": "",
+    "cost": 400,
+    "mass": 0.95,
+    "techLevel": 6,
+    "qrebs": "N/A",
+    "image": "",
+    "description": "<p><!-- Summary Start -->Standard 13mm Machinegun round, 4D damage, 100 round box.<!-- Summary End --></p>",
+    "categories": ["weapons", "ammunition"],
+    "sources": [
+      {
+        "publication": "",
+        "authors": [""],
+        "publisher": {
+        "name": "",
+        "url": ""
+        }
+      }
+    ],
+    "tags": ["products", "weapons", "ammunition"]
+  },
+  {
+    "sku": "160-011-00096",
+    "type": "weapons”",
+    "subtype": "ammunition",
+    "name": "13mm Machinegun Ammunition (5D damage)",
+    "mfr": "",
+    "cost": 500,
+    "mass": 0.95,
+    "techLevel": 6,
+    "qrebs": "N/A",
+    "image": "",
+    "description": "<p><!-- Summary Start -->Standard 13mm Machinegun round, 5D damage, 100 round box.<!-- Summary End --></p>",
+    "categories": ["weapons", "ammunition"],
+    "sources": [
+      {
+        "publication": "",
+        "authors": [""],
+        "publisher": {
+        "name": "",
+        "url": ""
+        }
+      }
+    ],
+    "tags": ["products", "weapons", "ammunition"]
+  },
+  {
+    "sku": "160-011-00097",
+    "type": "weapons”",
+    "subtype": "ammunition",
+    "name": "13mm Machinegun Ammunition (6D damage)",
+    "mfr": "",
+    "cost": 600,
+    "mass": 0.95,
+    "techLevel": 6,
+    "qrebs": "N/A",
+    "image": "",
+    "description": "<p><!-- Summary Start -->Standard 13mm Machinegun round, 6D damage, 100 round box.<!-- Summary End --></p>",
+    "categories": ["weapons", "ammunition"],
+    "sources": [
+      {
+        "publication": "",
+        "authors": [""],
+        "publisher": {
+        "name": "",
+        "url": ""
+        }
+      }
+    ],
+    "tags": ["products", "weapons", "ammunition"]
+  },
+  {
+    "sku": "160-011-00098",
+    "type": "weapons”",
+    "subtype": "ammunition",
+    "name": "13mm Machinegun Ammunition (7D damage)",
+    "mfr": "",
+    "cost": 700,
+    "mass": 0.95,
+    "techLevel": 6,
+    "qrebs": "N/A",
+    "image": "",
+    "description": "<p><!-- Summary Start -->Standard 13mm Machinegun round, 7D damage, 100 round box.<!-- Summary End --></p>",
+    "categories": ["weapons", "ammunition"],
+    "sources": [
+      {
+        "publication": "",
+        "authors": [""],
+        "publisher": {
+        "name": "",
+        "url": ""
+        }
+      }
+    ],
+    "tags": ["products", "weapons", "ammunition"]
+  },
+  {
+    "sku": "160-011-00099",
+    "type": "weapons”",
+    "subtype": "ammunition",
+    "name": "13mm Machinegun Ammunition (8D damage)",
+    "mfr": "",
+    "cost": 800,
+    "mass": 0.95,
+    "techLevel": 6,
+    "qrebs": "N/A",
+    "image": "",
+    "description": "<p><!-- Summary Start -->Standard 13mm Machinegun round, 8D damage, 100 round box.<!-- Summary End --></p>",
+    "categories": ["weapons", "ammunition"],
+    "sources": [
+      {
+        "publication": "",
+        "authors": [""],
+        "publisher": {
+        "name": "",
+        "url": ""
+        }
+      }
+    ],
+    "tags": ["products", "weapons", "ammunition"]
+  },
+  {
+    "sku": "160-011-00100",
+    "type": "weapons”",
+    "subtype": "ammunition",
+    "name": "13mm Machinegun Ammunition (9D damage)",
+    "mfr": "",
+    "cost": 900,
+    "mass": 0.95,
+    "techLevel": 6,
+    "qrebs": "N/A",
+    "image": "",
+    "description": "<p><!-- Summary Start -->Standard 13mm Machinegun round, 7D damage, 100 round box.<!-- Summary End --></p>",
+    "categories": ["weapons", "ammunition"],
+    "sources": [
+      {
+        "publication": "",
+        "authors": [""],
+        "publisher": {
+        "name": "",
+        "url": ""
+        }
+      }
+    ],
+    "tags": ["products", "weapons", "ammunition"]
+  },
+  {
+    "sku": "160-011-00101",
+    "type": "weapons”",
+    "subtype": "ammunition",
+    "name": "13mm Machinegun Ammunition (10D damage)",
+    "mfr": "",
+    "cost": 1000,
+    "mass": 0.95,
+    "techLevel": 6,
+    "qrebs": "N/A",
+    "image": "",
+    "description": "<p><!-- Summary Start -->Standard 13mm Machinegun round, 10D damage, 100 round box.<!-- Summary End --></p>",
+    "categories": ["weapons", "ammunition"],
+    "sources": [
+      {
+        "publication": "",
+        "authors": [""],
+        "publisher": {
+        "name": "",
+        "url": ""
+        }
+      }
+    ],
+    "tags": ["products", "weapons", "ammunition"]
+  },
+  {
+    "sku": "160-011-00102",
+    "type": "weapons”",
+    "subtype": "ammunition",
+    "name": "20mm Heavy Machinegun Ammunition (1D damage)",
+    "mfr": "",
+    "cost": 100,
+    "mass": 0.95,
+    "techLevel": 6,
+    "qrebs": "N/A",
+    "image": "",
+    "description": "<p><!-- Summary Start -->Standard 20mm Heavy Machinegun round, 1D damage, 100 round box.<!-- Summary End --></p>",
+    "categories": ["weapons", "ammunition"],
+    "sources": [
+      {
+        "publication": "",
+        "authors": [""],
+        "publisher": {
+        "name": "",
+        "url": ""
+        }
+      }
+    ],
+    "tags": ["products", "weapons", "ammunition"]
+  },
+  {
+    "sku": "160-011-00103",
+    "type": "weapons”",
+    "subtype": "ammunition",
+    "name": "20mm Heavy Machinegun Ammunition (2D damage)",
+    "mfr": "",
+    "cost": 200,
+    "mass": 0.95,
+    "techLevel": 6,
+    "qrebs": "N/A",
+    "image": "",
+    "description": "<p><!-- Summary Start -->Standard 20mm Heavy Machinegun round, 1D damage, 100 round box.<!-- Summary End --></p>",
+    "categories": ["weapons", "ammunition"],
+    "sources": [
+      {
+        "publication": "",
+        "authors": [""],
+        "publisher": {
+        "name": "",
+        "url": ""
+        }
+      }
+    ],
+    "tags": ["products", "weapons", "ammunition"]
+  },
+  {
+    "sku": "160-011-00104",
+    "type": "weapons”",
+    "subtype": "ammunition",
+    "name": "20mm Heavy Machinegun Ammunition (3D damage)",
+    "mfr": "",
+    "cost": 300,
+    "mass": 0.95,
+    "techLevel": 6,
+    "qrebs": "N/A",
+    "image": "",
+    "description": "<p><!-- Summary Start -->Standard 20mm Heavy Machinegun round, 3D damage, 100 round box.<!-- Summary End --></p>",
+    "categories": ["weapons", "ammunition"],
+    "sources": [
+      {
+        "publication": "",
+        "authors": [""],
+        "publisher": {
+        "name": "",
+        "url": ""
+        }
+      }
+    ],
+    "tags": ["products", "weapons", "ammunition"]
+  },
+  {
+    "sku": "160-011-00105",
+    "type": "weapons”",
+    "subtype": "ammunition",
+    "name": "20mm Heavy Machinegun Ammunition (4D damage)",
+    "mfr": "",
+    "cost": 400,
+    "mass": 0.95,
+    "techLevel": 6,
+    "qrebs": "N/A",
+    "image": "",
+    "description": "<p><!-- Summary Start -->Standard 20mm Heavy Machinegun round, 4D damage, 100 round box.<!-- Summary End --></p>",
+    "categories": ["weapons", "ammunition"],
+    "sources": [
+      {
+        "publication": "",
+        "authors": [""],
+        "publisher": {
+        "name": "",
+        "url": ""
+        }
+      }
+    ],
+    "tags": ["products", "weapons", "ammunition"]
+  },
+  {
+    "sku": "160-011-00106",
+    "type": "weapons”",
+    "subtype": "ammunition",
+    "name": "20mm Heavy Machinegun Ammunition (5D damage)",
+    "mfr": "",
+    "cost": 500,
+    "mass": 0.95,
+    "techLevel": 6,
+    "qrebs": "N/A",
+    "image": "",
+    "description": "<p><!-- Summary Start -->Standard 20mm Heavy Machinegun round, 5D damage, 100 round box.<!-- Summary End --></p>",
+    "categories": ["weapons", "ammunition"],
+    "sources": [
+      {
+        "publication": "",
+        "authors": [""],
+        "publisher": {
+        "name": "",
+        "url": ""
+        }
+      }
+    ],
+    "tags": ["products", "weapons", "ammunition"]
+  },
+  {
+    "sku": "160-011-00107",
+    "type": "weapons”",
+    "subtype": "ammunition",
+    "name": "20mm Heavy Machinegun Ammunition (6D damage)",
+    "mfr": "",
+    "cost": 600,
+    "mass": 0.95,
+    "techLevel": 6,
+    "qrebs": "N/A",
+    "image": "",
+    "description": "<p><!-- Summary Start -->Standard 20mm Heavy Machinegun round, 6D damage, 100 round box.<!-- Summary End --></p>",
+    "categories": ["weapons", "ammunition"],
+    "sources": [
+      {
+        "publication": "",
+        "authors": [""],
+        "publisher": {
+        "name": "",
+        "url": ""
+        }
+      }
+    ],
+    "tags": ["products", "weapons", "ammunition"]
+  },
+  {
+    "sku": "160-011-00108",
+    "type": "weapons”",
+    "subtype": "ammunition",
+    "name": "20mm Heavy Machinegun Ammunition (7D damage)",
+    "mfr": "",
+    "cost": 700,
+    "mass": 0.95,
+    "techLevel": 6,
+    "qrebs": "N/A",
+    "image": "",
+    "description": "<p><!-- Summary Start -->Standard 20mm Heavy Machinegun round, 7D damage, 100 round box.<!-- Summary End --></p>",
+    "categories": ["weapons", "ammunition"],
+    "sources": [
+      {
+        "publication": "",
+        "authors": [""],
+        "publisher": {
+        "name": "",
+        "url": ""
+        }
+      }
+    ],
+    "tags": ["products", "weapons", "ammunition"]
+  },
+  {
+    "sku": "160-011-00109",
+    "type": "weapons”",
+    "subtype": "ammunition",
+    "name": "20mm Heavy Machinegun Ammunition (8D damage)",
+    "mfr": "",
+    "cost": 800,
+    "mass": 0.95,
+    "techLevel": 6,
+    "qrebs": "N/A",
+    "image": "",
+    "description": "<p><!-- Summary Start -->Standard 20mm Heavy Machinegun round, 8D damage, 100 round box.<!-- Summary End --></p>",
+    "categories": ["weapons", "ammunition"],
+    "sources": [
+      {
+        "publication": "",
+        "authors": [""],
+        "publisher": {
+        "name": "",
+        "url": ""
+        }
+      }
+    ],
+    "tags": ["products", "weapons", "ammunition"]
+  },
+  {
+    "sku": "160-011-00110",
+    "type": "weapons”",
+    "subtype": "ammunition",
+    "name": "20mm Heavy Machinegun Ammunition (9D damage)",
+    "mfr": "",
+    "cost": 900,
+    "mass": 0.95,
+    "techLevel": 6,
+    "qrebs": "N/A",
+    "image": "",
+    "description": "<p><!-- Summary Start -->Standard 20mm Heavy Machinegun round, 7D damage, 100 round box.<!-- Summary End --></p>",
+    "categories": ["weapons", "ammunition"],
+    "sources": [
+      {
+        "publication": "",
+        "authors": [""],
+        "publisher": {
+        "name": "",
+        "url": ""
+        }
+      }
+    ],
+    "tags": ["products", "weapons", "ammunition"]
+  },
+  {
+    "sku": "160-011-00111",
+    "type": "weapons”",
+    "subtype": "ammunition",
+    "name": "20mm Heavy Machinegun Ammunition (10D damage)",
+    "mfr": "",
+    "cost": 1000,
+    "mass": 0.95,
+    "techLevel": 6,
+    "qrebs": "N/A",
+    "image": "",
+    "description": "<p><!-- Summary Start -->Standard 20mm Heavy Machinegun round, 10D damage, 100 round box.<!-- Summary End --></p>",
+    "categories": ["weapons", "ammunition"],
+    "sources": [
+      {
+        "publication": "",
+        "authors": [""],
+        "publisher": {
+        "name": "",
+        "url": ""
+        }
+      }
+    ],
+    "tags": ["products", "weapons", "ammunition"]
+   }
 ]
