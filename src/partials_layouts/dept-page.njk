@@ -33,17 +33,19 @@
 </main>
 
 {# Navigation #}
-<div class="collection-nav collection">
-  <div class="row">
-    <div class="col s12">
-    <ul class="pagination center-align">
-      {%- for page in pagination.pages -%}
-      <li>
-        <a href="{{ pagination.hrefs[ loop.index - 1 ] | url }}" 
-           class="red-text" {%- if pagination.hrefs[ loop.index - 0] == page.url -%}aria-current="page"{% endif -%}>{{ loop.index }}</a></li>
-      {% endfor %}
-    </ul>
-    </div>
+<div class="valign-wrapper">
+  <div class="collection-nav red-text">
+    <form id="pager-form">
+    Page:<select class="browser-default red-text black" id="pager" >
+    {%- for productPage in pagination.pages -%}
+      {%- if pagination.hrefs[loop.index0] == page.url -%}
+        <option value="{{loop.index}}" selected>{{loop.index}}</option>
+      {%- else -%}
+        <option value="{{loop.index}}" >{{loop.index}}</option>
+      {%- endif -%}
+    {%- endfor -%}
+    </select>
+    </form>
   </div>
 </div>
 

@@ -1,9 +1,9 @@
 .product-summary-section {
   position: fixed;
-  top: 5rem;
+  top: 6rem;
   left: 0;
   right: 0;
-  bottom: 3rem;
+  bottom: 4rem;
 
   @include response(md) {
     top: 6rem;
@@ -25,7 +25,7 @@
 
   & .container {
     position: absolute;
-    top: 8rem;
+    top: 8.5rem;
     bottom: 4rem;
     left: 0;
     right: 0;
@@ -59,13 +59,25 @@
 
 .collection-nav {
   position: fixed;
-  bottom: 3.25rem;
-  height: 2rem;
+  bottom: 4.5rem;
+  height: 3rem;
   width: 100%;
   border: transparent;
   z-index: 2;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 
-  & ul li a {
+  & select {
+    width: 4rem;
+    max-width: 4rem;
+    max-height: 3rem;
+    margin: 0 !important;
+    padding: 0 !important;
+    text-align: center;
+    border: none;
     font-weight: 700;
+    outline: none !important;
   }
+
 }
