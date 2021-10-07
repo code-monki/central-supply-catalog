@@ -14,6 +14,7 @@
     "image": "",
     "description": "<p><!-- Summary Start -->Experimental version of the light pistol.<!-- Summary End --> The pistol is a semi-automatic, magazine-fed handgun.</p>",
     "stats": [],
+    "accessories": ["160-012-00001", "160-012-00002", "160-012-00003", "160-012-00004", "160-012-00005", "160-011-00022", "160-011-00023", "160-011-00024", "160-011-00025", "160-011-00026", "160-011-00027", "160-011-00028", "160-011-00029", "160-011-00030", "160-011-00031" ],
     "categories": ["weapons", "handguns", "pistol"],
     "sources": [
       {
@@ -50,6 +51,7 @@
     "image": "",
     "description": "<p><!-- Summary Start -->Experimental version of the light revolver.<!-- Summary End --> This type of firearm uses a multiple chambered cylinder instead of a magazine.</p>",
     "stats": [],
+    "accessories": ["160-012-00001", "160-012-00002", "160-012-00003", "160-012-00004", "160-012-00005", "160-011-00022", "160-011-00023", "160-011-00024", "160-011-00025", "160-011-00026", "160-011-00027", "160-011-00028", "160-011-00029", "160-011-00030", "160-011-00031" ],
     "categories": ["weapons", "handguns", "revolver"],
     "sources": [
       {
@@ -86,6 +88,7 @@
     "image": "",
     "description": "<p><!-- Summary Start -->Prototype version of the light revolver.<!-- Summary End --> This type of firearm uses a multiple chambered cylinder instead of a magazine.</p>",
     "stats": [],
+    "accessories": ["160-012-00001", "160-012-00002", "160-012-00003", "160-012-00004", "160-012-00005", "160-011-00022", "160-011-00023", "160-011-00024", "160-011-00025", "160-011-00026", "160-011-00027", "160-011-00028", "160-011-00029", "160-011-00030", "160-011-00031" ],
     "categories": ["weapons", "handguns", "revolver"],
     "sources": [
       {
@@ -122,6 +125,7 @@
     "image": "",
     "description": "<p><!-- Summary Start -->Experimental version of the recoilless revolver.<!-- Summary End --> This type of firearm uses a multiple chambered cylinder instead of a magazine.</p>",
     "stats": [],
+    "accessories": ["160-012-00001", "160-012-00002", "160-012-00003", "160-012-00004", "160-012-00005", "160-011-00022", "160-011-00023", "160-011-00024", "160-011-00025", "160-011-00026", "160-011-00027", "160-011-00028", "160-011-00029", "160-011-00030", "160-011-00031" ],
     "categories": ["weapons", "handguns", "revolver"],
     "sources": [
       {
@@ -158,6 +162,7 @@
     "image": "",
     "description": "<p><!-- Summary Start -->Early version of the pistol.<!-- Summary End --> The pistol is a semi-automatic, magazine-fed handgun.</p>",
     "stats": [],
+    "accessories": ["160-012-00001", "160-012-00002", "160-012-00003", "160-012-00004", "160-012-00005", "160-011-00022", "160-011-00023", "160-011-00024", "160-011-00025", "160-011-00026", "160-011-00027", "160-011-00028", "160-011-00029", "160-011-00030", "160-011-00031" ],
     "categories": ["weapons", "handguns", "pistol"],
     "sources": [
       {
@@ -194,6 +199,7 @@
     "image": "",
     "description": "<p><!-- Summary Start -->Prototype version of the pistol.<!-- Summary End --> The pistol is a semi-automatic, magazine-fed handgun.</p>",
     "stats": [],
+    "accessories": ["160-012-00001", "160-012-00002", "160-012-00003", "160-012-00004", "160-012-00005", "160-011-00022", "160-011-00023", "160-011-00024", "160-011-00025", "160-011-00026", "160-011-00027", "160-011-00028", "160-011-00029", "160-011-00030", "160-011-00031" ],
     "categories": ["weapons", "handguns", "pistol"],
     "sources": [
       {
@@ -230,6 +236,7 @@
     "image": "",
     "description": "<p><!-- Summary Start -->Experimental version of the snub pistol.<!-- Summary End --> The pistol is a semi-automatic, magazine-fed handgun.</p>",
     "stats": [],
+    "accessories": ["160-012-00001", "160-012-00002", "160-012-00003", "160-012-00004", "160-012-00005", "160-011-00022", "160-011-00023", "160-011-00024", "160-011-00025", "160-011-00026", "160-011-00027", "160-011-00028", "160-011-00029", "160-011-00030", "160-011-00031" ],
     "categories": ["weapons", "handguns", "pistol"],
     "sources": [
       {
@@ -266,6 +273,7 @@
     "image": "",
     "description": "<p><!-- Summary Start --> The revolver uses a multiple chambered cylinder instead of a magazine.<!-- Summary End --></p>",
     "stats": [],
+    "accessories": ["160-012-00001", "160-012-00002", "160-012-00003", "160-012-00004", "160-012-00005", "160-011-00022", "160-011-00023", "160-011-00024", "160-011-00025", "160-011-00026", "160-011-00027", "160-011-00028", "160-011-00029", "160-011-00030", "160-011-00031" ],
     "categories": ["weapons", "handguns", "revolver"],
     "sources": [
       {
@@ -302,6 +310,7 @@
     "image": "",
     "description": "<p><!-- Summary Start -->The heavy revolver uses a multiple chambered cylinder instead of a magazine.<!-- Summary End --></p>",
     "stats": [],
+    "accessories": ["160-012-00001", "160-012-00002", "160-012-00003", "160-012-00004", "160-012-00005", "160-011-00022", "160-011-00023", "160-011-00024", "160-011-00025", "160-011-00026", "160-011-00027", "160-011-00028", "160-011-00029", "160-011-00030", "160-011-00031" ],
     "categories": ["weapons", "handguns", "revolver"],
     "sources": [
       {
@@ -338,6 +347,7 @@
     "image": "",
     "description": "<p><!-- Summary Start -->The pistol is a semi-automatic, magazine-fed handgun.<!-- Summary End --></p>",
     "stats": [],
+    "accessories": ["160-012-00001", "160-012-00002", "160-012-00003", "160-012-00004", "160-012-00005", "160-011-00022", "160-011-00023", "160-011-00024", "160-011-00025", "160-011-00026", "160-011-00027", "160-011-00028", "160-011-00029", "160-011-00030", "160-011-00031" ],
     "categories": ["weapons", "handguns", "pistol"],
     "sources": [
       {
@@ -374,6 +384,7 @@
     "image": "",
     "description": "<p><!-- Summary Start -->The basic version of the heavy pistol.<!-- Summary End --> The pistol is a semi-automatic, magazine-fed handgun.</p>",
     "stats": [],
+    "accessories": ["160-012-00001", "160-012-00002", "160-012-00003", "160-012-00004", "160-012-00005", "160-011-00022", "160-011-00023", "160-011-00024", "160-011-00025", "160-011-00026", "160-011-00027", "160-011-00028", "160-011-00029", "160-011-00030", "160-011-00031" ],
     "categories": ["weapons", "handguns", "pistol"],
     "sources": [
       {
@@ -410,6 +421,7 @@
     "image": "",
     "description": "<p><!-- Summary Start -->The light pistol is a semi-automatic, magazine-fed handgun.<!-- Summary End --></p>",
     "stats": [],
+    "accessories": ["160-012-00001", "160-012-00002", "160-012-00003", "160-012-00004", "160-012-00005", "160-011-00022", "160-011-00023", "160-011-00024", "160-011-00025", "160-011-00026", "160-011-00027", "160-011-00028", "160-011-00029", "160-011-00030", "160-011-00031" ],
     "categories": ["weapons", "handguns", "pistol"],
     "sources": [
       {
@@ -446,6 +458,7 @@
     "image": "",
     "description": "<p><!-- Summary Start -->Early version of the magnum pistol.<!-- Summary End --> The magnum pistol uses a heavier round and has a longer range than the standard pistol.</p>",
     "stats": [],
+    "accessories": ["160-012-00001", "160-012-00002", "160-012-00003", "160-012-00004", "160-012-00005", "160-011-00022", "160-011-00023", "160-011-00024", "160-011-00025", "160-011-00026", "160-011-00027", "160-011-00028", "160-011-00029", "160-011-00030", "160-011-00031" ],
     "categories": ["weapons", "handguns", "pistol"],
     "sources": [
       {
@@ -482,6 +495,7 @@
     "image": "",
     "description": "<p><!-- Summary Start -->The very heavy pistol is extremly heavy but has a longer range and inflicts more damage.<!-- Summary End --></p>",
     "stats": [],
+    "accessories": ["160-012-00001", "160-012-00002", "160-012-00003", "160-012-00004", "160-012-00005", "160-011-00022", "160-011-00023", "160-011-00024", "160-011-00025", "160-011-00026", "160-011-00027", "160-011-00028", "160-011-00029", "160-011-00030", "160-011-00031" ],
     "categories": ["weapons", "handguns", "pistol"],
     "sources": [
       {
@@ -554,6 +568,7 @@
     "image": "",
     "description": "<p><!-- Summary Start -->Experimental version of the disposable pistol.<!-- Summary End --> The pistol is a semi-automatic, magazine-fed handgun. This version is constructed of relatively inexpensive materials and has a working lifetime measured in days.</p>",
     "stats": [],
+    "accessories": ["160-012-00001", "160-012-00002", "160-012-00003", "160-012-00004", "160-012-00005", "160-011-00022", "160-011-00023", "160-011-00024", "160-011-00025", "160-011-00026", "160-011-00027", "160-011-00028", "160-011-00029", "160-011-00030", "160-011-00031" ],
     "categories": ["weapons", "handguns", "pistol"],
     "sources": [
       {
@@ -590,6 +605,7 @@
     "image": "",
     "description": "<p><!-- Summary Start -->Improved version of the heavy pistol.<!-- Summary End --> The pistol is a semi-automatic, magazine-fed handgun.</p>",
     "stats": [],
+    "accessories": ["160-012-00001", "160-012-00002", "160-012-00003", "160-012-00004", "160-012-00005", "160-011-00022", "160-011-00023", "160-011-00024", "160-011-00025", "160-011-00026", "160-011-00027", "160-011-00028", "160-011-00029", "160-011-00030", "160-011-00031" ],
     "categories": ["weapons", "handguns", "pistol"],
     "sources": [
       {
@@ -626,6 +642,7 @@
     "image": "",
     "description": "<p><!-- Summary Start -->Alternate version of the light pistol.<!-- Summary End --> The pistol is a semi-automatic, magazine-fed handgun.</p>",
     "stats": [],
+    "accessories": ["160-012-00001", "160-012-00002", "160-012-00003", "160-012-00004", "160-012-00005", "160-011-00022", "160-011-00023", "160-011-00024", "160-011-00025", "160-011-00026", "160-011-00027", "160-011-00028", "160-011-00029", "160-011-00030", "160-011-00031" ],
     "categories": ["weapons", "handguns", "pistol"],
     "sources": [
       {
@@ -662,6 +679,7 @@
     "image": "",
     "description": "<p><!-- Summary Start -->The magnum pistol is heavier than the standard pistol, uses more powerful ammunition, and generally has a longer range.<!-- Summary End --></p>",
     "stats": [],
+    "accessories": ["160-012-00001", "160-012-00002", "160-012-00003", "160-012-00004", "160-012-00005", "160-011-00022", "160-011-00023", "160-011-00024", "160-011-00025", "160-011-00026", "160-011-00027", "160-011-00028", "160-011-00029", "160-011-00030", "160-011-00031" ],
     "categories": ["weapons", "handguns", "pistol"],
     "sources": [
       {
@@ -698,6 +716,7 @@
     "image": "",
     "description": "<p><!-- Summary Start -->Modified version of the heavy pistol.<!-- Summary End --> The pistol is a semi-automatic, magazine-fed handgun.</p>",
     "stats": [],
+    "accessories": ["160-012-00001", "160-012-00002", "160-012-00003", "160-012-00004", "160-012-00005", "160-011-00022", "160-011-00023", "160-011-00024", "160-011-00025", "160-011-00026", "160-011-00027", "160-011-00028", "160-011-00029", "160-011-00030", "160-011-00031" ],
     "categories": ["weapons", "handguns", "pistol"],
     "sources": [
       {
@@ -734,6 +753,7 @@
     "image": "",
     "description": "<p><!-- Summary Start -->Alternate version of the magnum pistol.<!-- Summary End --> The pistol is a semi-automatic, magazine-fed handgun.</p>",
     "stats": [],
+    "accessories": ["160-012-00001", "160-012-00002", "160-012-00003", "160-012-00004", "160-012-00005", "160-011-00022", "160-011-00023", "160-011-00024", "160-011-00025", "160-011-00026", "160-011-00027", "160-011-00028", "160-011-00029", "160-011-00030", "160-011-00031" ],
     "categories": ["weapons", "handguns", "pistol"],
     "sources": [
       {
@@ -770,6 +790,7 @@
     "image": "",
     "description": "<p><!-- Summary Start -->Improved version of the magnum pistol.<!-- Summary End --> The pistol is a semi-automatic, magazine-fed handgun.</p>",
     "stats": [],
+    "accessories": ["160-012-00001", "160-012-00002", "160-012-00003", "160-012-00004", "160-012-00005", "160-011-00022", "160-011-00023", "160-011-00024", "160-011-00025", "160-011-00026", "160-011-00027", "160-011-00028", "160-011-00029", "160-011-00030", "160-011-00031" ],
     "categories": ["weapons", "handguns", "pistol"],
     "sources": [
       {
@@ -806,6 +827,7 @@
     "image": "",
     "description": "<p><!-- Summary Start -->Alternate version of the recoilless pistol.<!-- Summary End --> The pistol is a semi-automatic, magazine-fed handgun.</p>",
     "stats": [],
+    "accessories": ["160-012-00001", "160-012-00002", "160-012-00003", "160-012-00004", "160-012-00005", "160-011-00022", "160-011-00023", "160-011-00024", "160-011-00025", "160-011-00026", "160-011-00027", "160-011-00028", "160-011-00029", "160-011-00030", "160-011-00031" ],
     "categories": ["weapons", "handguns", "pistol"],
     "sources": [
       {
@@ -842,6 +864,7 @@
     "image": "",
     "description": "<p><!-- Summary Start -->Standard version of the recoilless pistol.<!-- Summary End --> The pistol is a semi-automatic, magazine-fed handgun.</p>",
     "stats": [],
+    "accessories": ["160-012-00001", "160-012-00002", "160-012-00003", "160-012-00004", "160-012-00005", "160-011-00022", "160-011-00023", "160-011-00024", "160-011-00025", "160-011-00026", "160-011-00027", "160-011-00028", "160-011-00029", "160-011-00030", "160-011-00031" ],
     "categories": ["weapons", "handguns", "pistol"],
     "sources": [
       {
@@ -878,6 +901,7 @@
     "image": "",
     "description": "<p><!-- Summary Start -->Advanced version of the pistol.<!-- Summary End --> The pistol is a semi-automatic, magazine-fed handgun.</p>",
     "stats": [],
+    "accessories": ["160-012-00001", "160-012-00002", "160-012-00003", "160-012-00004", "160-012-00005", "160-011-00022", "160-011-00023", "160-011-00024", "160-011-00025", "160-011-00026", "160-011-00027", "160-011-00028", "160-011-00029", "160-011-00030", "160-011-00031" ],
     "categories": ["weapons", "handguns", "pistol"],
     "sources": [
       {
@@ -914,6 +938,7 @@
     "image": "",
     "description": "<p><!-- Summary Start -->Experimental version of the laser pistol.<!-- Summary End --> This weapon fires a coherent beam of photons and is powered by an on-board cell.</p>",
     "stats": [],
+    "accessories": ["160-012-00001", "160-012-00002", "160-012-00003", "160-012-00004", "160-012-00005", "160-011-00022", "160-011-00023", "160-011-00024", "160-011-00025", "160-011-00026", "160-011-00027", "160-011-00028", "160-011-00029", "160-011-00030", "160-011-00031" ],
     "categories": ["weapons", "handguns", "pistol"],
     "sources": [
       {
@@ -950,6 +975,7 @@
     "image": "",
     "description": "<p><!-- Summary Start -->Disposable version of the pistol.<!-- Summary End --> This version is constructed of relatively inexpensive materials and has a working lifetime measured in days.</p>",
     "stats": [],
+    "accessories": ["160-012-00001", "160-012-00002", "160-012-00003", "160-012-00004", "160-012-00005", "160-011-00022", "160-011-00023", "160-011-00024", "160-011-00025", "160-011-00026", "160-011-00027", "160-011-00028", "160-011-00029", "160-011-00030", "160-011-00031" ],
     "categories": ["weapons", "handguns", "pistol"],
     "sources": [
       {
@@ -986,6 +1012,7 @@
     "image": "",
     "description": "<p><!-- Summary Start -->Advanced version of the heavy pistol.<!-- Summary End --> The pistol is a semi-automatic, magazine-fed handgun.</p>",
     "stats": [],
+    "accessories": ["160-012-00001", "160-012-00002", "160-012-00003", "160-012-00004", "160-012-00005", "160-011-00022", "160-011-00023", "160-011-00024", "160-011-00025", "160-011-00026", "160-011-00027", "160-011-00028", "160-011-00029", "160-011-00030", "160-011-00031" ],
     "categories": ["weapons", "handguns", "pistol"],
     "sources": [
       {
@@ -1022,6 +1049,7 @@
     "image": "",
     "description": "<p><!-- Summary Start -->Advanced version of the light pistol.<!-- Summary End --> The pistol is a semi-automatic, magazine-fed handgun.</p>",
     "stats": [],
+    "accessories": ["160-012-00001", "160-012-00002", "160-012-00003", "160-012-00004", "160-012-00005", "160-011-00022", "160-011-00023", "160-011-00024", "160-011-00025", "160-011-00026", "160-011-00027", "160-011-00028", "160-011-00029", "160-011-00030", "160-011-00031" ],
     "categories": ["weapons", "handguns", "pistol"],
     "sources": [
       {
@@ -1058,6 +1086,7 @@
     "image": "",
     "description": "<p><!-- Summary Start -->The weapon fires a projectile at a low initial velocity; after it leaves the barrel, an internal charge accelerates the bullet to greater velocities.<!-- Summary End --> Accelerator weapons have low recoil and are well adapted to zero-G environments</p>",
     "stats": [],
+    "accessories": ["160-012-00001", "160-012-00002", "160-012-00003", "160-012-00004", "160-012-00005", "160-011-00022", "160-011-00023", "160-011-00024", "160-011-00025", "160-011-00026", "160-011-00027", "160-011-00028", "160-011-00029", "160-011-00030", "160-011-00031" ],
     "categories": ["weapons", "handguns", "pistol"],
     "sources": [
       {
@@ -1094,6 +1123,7 @@
     "image": "",
     "description": "<p><!-- Summary Start -->Early version of the laser pistol.<!-- Summary End --> This weapon fires a coherent beam of photons and is powered by an on-board cell.</p>",
     "stats": [],
+    "accessories": ["160-012-00001", "160-012-00002", "160-012-00003", "160-012-00004", "160-012-00005", "160-011-00022", "160-011-00023", "160-011-00024", "160-011-00025", "160-011-00026", "160-011-00027", "160-011-00028", "160-011-00029", "160-011-00030", "160-011-00031" ],
     "categories": ["weapons", "handguns", "pistol"],
     "sources": [
       {
@@ -1130,6 +1160,7 @@
     "image": "",
     "description": "<p><!-- Summary Start -->Standard disposable pistol.<!-- Summary End --> This version is constructed of relatively inexpensive materials and has a working lifetime measured in days.</p>",
     "stats": [],
+    "accessories": ["160-012-00001", "160-012-00002", "160-012-00003", "160-012-00004", "160-012-00005", "160-011-00022", "160-011-00023", "160-011-00024", "160-011-00025", "160-011-00026", "160-011-00027", "160-011-00028", "160-011-00029", "160-011-00030", "160-011-00031" ],
     "categories": ["weapons", "handguns", "pistol"],
     "sources": [
       {
@@ -1165,6 +1196,7 @@
     "damage": "Bullet-4",
     "image": "",
     "description": "<p><!-- Summary Start -->Basic heavy accelerator pistol.<!-- Summary End --> The weapon fires a projectile at a low initial velocity; after it leaves the barrel, an internal charge accelerates the bullet to greater velocities. Accelerator weapons have low recoil and are well adapted to zero-G environments</p>",
+    "accessories": ["160-012-00001", "160-012-00002", "160-012-00003", "160-012-00004", "160-012-00005", "160-011-00022", "160-011-00023", "160-011-00024", "160-011-00025", "160-011-00026", "160-011-00027", "160-011-00028", "160-011-00029", "160-011-00030", "160-011-00031" ],
     "stats": [],
     "categories": ["weapons", "handguns", "pistol"],
     "sources": [
@@ -1202,6 +1234,7 @@
     "image": "",
     "description": "<p><!-- Summary Start -->Prototype of the heavy laser pistol.<!-- Summary End --> This weapon fires a coherent beam of photons and is powered by an on-board cell.</p>",
     "stats": [],
+    "accessories": ["160-012-00001", "160-012-00002", "160-012-00003", "160-012-00004", "160-012-00005", "160-011-00022", "160-011-00023", "160-011-00024", "160-011-00025", "160-011-00026", "160-011-00027", "160-011-00028", "160-011-00029", "160-011-00030", "160-011-00031" ],
     "categories": ["weapons", "handguns", "pistol"],
     "sources": [
       {
@@ -1238,6 +1271,7 @@
     "image": "",
     "description": "<p><!-- Summary Start -->Standard accelerator pistol.<!-- Summary End -->The weapon fires a projectile at a low initial velocity; after it leaves the barrel, an internal charge accelerates the bullet to greater velocities. Accelerator weapons have low recoil and are well adapted to zero-G environments.</p>",
     "stats": [],
+    "accessories": ["160-012-00001", "160-012-00002", "160-012-00003", "160-012-00004", "160-012-00005", "160-011-00022", "160-011-00023", "160-011-00024", "160-011-00025", "160-011-00026", "160-011-00027", "160-011-00028", "160-011-00029", "160-011-00030", "160-011-00031" ],
     "categories": ["weapons", "handguns", "pistol"],
     "sources": [
       {
@@ -1274,6 +1308,7 @@
     "image": "",
     "description": "<p><!-- Summary Start -->Standard heavy accelerator pistol.<!-- Summary End --> The weapon fires a projectile at a low initial velocity; after it leaves the barrel, an internal charge accelerates the bullet to greater velocities. Accelerator weapons have low recoil and are well adapted to zero-G environments.</p>",
     "stats": [],
+    "accessories": ["160-012-00001", "160-012-00002", "160-012-00003", "160-012-00004", "160-012-00005", "160-011-00022", "160-011-00023", "160-011-00024", "160-011-00025", "160-011-00026", "160-011-00027", "160-011-00028", "160-011-00029", "160-011-00030", "160-011-00031" ],
     "categories": ["weapons", "handguns", "pistol"],
     "sources": [
       {
@@ -1310,6 +1345,7 @@
     "image": "",
     "description": "<p><!-- Summary Start -->Improved version of the light accelerator pistol.<!-- Summary End --> The weapon fires a projectile at a low initial velocity; after it leaves the barrel, an internal charge accelerates the bullet to greater velocities. Accelerator weapons have low recoil and are well adapted to zero-G environments.</p>",
     "stats": [],
+    "accessories": ["160-012-00001", "160-012-00002", "160-012-00003", "160-012-00004", "160-012-00005", "160-011-00022", "160-011-00023", "160-011-00024", "160-011-00025", "160-011-00026", "160-011-00027", "160-011-00028", "160-011-00029", "160-011-00030", "160-011-00031" ],
     "categories": ["weapons", "handguns", "pistol"],
     "sources": [
       {
@@ -1346,6 +1382,7 @@
     "image": "",
     "description": "<p><!-- Summary Start -->Standard version of the light accelerator pistol.<!-- Summary End --> The weapon fires a projectile at a low initial velocity; after it leaves the barrel, an internal charge accelerates the bullet to greater velocities. Accelerator weapons have low recoil and are well adapted to zero-G environments.</p>",
     "stats": [],
+    "accessories": ["160-012-00001", "160-012-00002", "160-012-00003", "160-012-00004", "160-012-00005", "160-011-00022", "160-011-00023", "160-011-00024", "160-011-00025", "160-011-00026", "160-011-00027", "160-011-00028", "160-011-00029", "160-011-00030", "160-011-00031" ],
     "categories": ["weapons", "handguns", "pistol"],
     "sources": [
       {
@@ -1382,6 +1419,7 @@
     "image": "",
     "description": "<p><!-- Summary Start -->The magnum version of the accelerator pistol.<!-- Summary End --> The weapon fires a projectile at a low initial velocity; after it leaves the barrel, an internal charge accelerates the bullet to greater velocities. Accelerator weapons have low recoil and are well adapted to zero-G environments.</p><p>This version of the weapon uses more powerful ammunition, causes more damage, and has a longer range than the standard version.</p>",
     "stats": [],
+    "accessories": ["160-012-00001", "160-012-00002", "160-012-00003", "160-012-00004", "160-012-00005", "160-011-00022", "160-011-00023", "160-011-00024", "160-011-00025", "160-011-00026", "160-011-00027", "160-011-00028", "160-011-00029", "160-011-00030", "160-011-00031" ],
     "categories": ["weapons", "handguns", "pistol"],
     "sources": [
       {
@@ -1418,6 +1456,7 @@
     "image": "",
     "description": "<p><!-- Summary Start -->Alternate version of the laser pistol.<!-- Summary End --> This weapon fires a coherent beam of photons and is powered by an on-board cell.</p>",
     "stats": [],
+    "accessories": ["160-012-00001", "160-012-00002", "160-012-00003", "160-012-00004", "160-012-00005", "160-011-00022", "160-011-00023", "160-011-00024", "160-011-00025", "160-011-00026", "160-011-00027", "160-011-00028", "160-011-00029", "160-011-00030", "160-011-00031" ],
     "categories": ["weapons", "handguns", "pistol"],
     "sources": [
       {
@@ -1454,6 +1493,7 @@
     "image": "",
     "description": "<p><!-- Summary Start -->Improved version of the laser pistol.<!-- Summary End --> This weapon fires a coherent beam of photons and is powered by an on-board cell.</p>",
     "stats": [],
+    "accessories": ["160-012-00001", "160-012-00002", "160-012-00003", "160-012-00004", "160-012-00005", "160-011-00022", "160-011-00023", "160-011-00024", "160-011-00025", "160-011-00026", "160-011-00027", "160-011-00028", "160-011-00029", "160-011-00030", "160-011-00031" ],
     "categories": ["weapons", "handguns", "pistol"],
     "sources": [
       {
@@ -1490,6 +1530,7 @@
     "image": "",
     "description": "<p><!-- Summary Start -->Prototype version of the body laser pistol.<!-- Summary End --> This weapon fires a coherent beam of photons and is powered by an on-board cell.</p>",
     "stats": [],
+    "accessories": ["160-012-00001", "160-012-00002", "160-012-00003", "160-012-00004", "160-012-00005", "160-011-00022", "160-011-00023", "160-011-00024", "160-011-00025", "160-011-00026", "160-011-00027", "160-011-00028", "160-011-00029", "160-011-00030", "160-011-00031" ],
     "categories": ["weapons", "handguns", "pistol"],
     "sources": [
       {
@@ -1526,6 +1567,7 @@
     "image": "",
     "description": "<p><!-- Summary Start -->Alternate version of the light laser pistol.<!-- Summary End --> This weapon fires a coherent beam of photons and is powered by an on-board cell.</p>",
     "stats": [],
+    "accessories": ["160-012-00001", "160-012-00002", "160-012-00003", "160-012-00004", "160-012-00005", "160-011-00022", "160-011-00023", "160-011-00024", "160-011-00025", "160-011-00026", "160-011-00027", "160-011-00028", "160-011-00029", "160-011-00030", "160-011-00031" ],
     "categories": ["weapons", "handguns", "pistol"],
     "sources": [
       {
@@ -1562,6 +1604,7 @@
     "image": "",
     "description": "<p><!-- Summary Start -->Body laser pistol.<!-- Summary End --> This weapon fires a coherent beam of photons and is powered by an on-board cell.</p>",
     "stats": [],
+    "accessories": ["160-012-00001", "160-012-00002", "160-012-00003", "160-012-00004", "160-012-00005", "160-011-00022", "160-011-00023", "160-011-00024", "160-011-00025", "160-011-00026", "160-011-00027", "160-011-00028", "160-011-00029", "160-011-00030", "160-011-00031" ],
     "categories": ["weapons", "handguns", "pistol"],
     "sources": [
       {
@@ -1598,6 +1641,7 @@
     "image": "",
     "description": "<p><!-- Summary Start -->Standard body accelerator pistol.<!-- Summary End --> This weapon fires a coherent beam of photons and is powered by an on-board cell.</p>",
     "stats": [],
+    "accessories": ["160-012-00001", "160-012-00002", "160-012-00003", "160-012-00004", "160-012-00005", "160-011-00022", "160-011-00023", "160-011-00024", "160-011-00025", "160-011-00026", "160-011-00027", "160-011-00028", "160-011-00029", "160-011-00030", "160-011-00031" ],
     "categories": ["weapons", "handguns", "pistol"],
     "sources": [
       {
@@ -1634,6 +1678,7 @@
     "image": "",
     "description": "<p><!-- Summary Start -->Prototype version of the disposable laser pistol.<!-- Summary End --> This weapon fires a coherent beam of photons and is powered by an on-board cell. This version is constructed of relatively inexpensive materials and has a working lifetime measured in days.</p>",
     "stats": [],
+    "accessories": ["160-012-00001", "160-012-00002", "160-012-00003", "160-012-00004", "160-012-00005", "160-011-00022", "160-011-00023", "160-011-00024", "160-011-00025", "160-011-00026", "160-011-00027", "160-011-00028", "160-011-00029", "160-011-00030", "160-011-00031" ],
     "categories": ["weapons", "handguns", "pistol"],
     "sources": [
       {
@@ -1670,6 +1715,7 @@
     "image": "",
     "description": "<p><!-- Summary Start -->Modified version of the heavy laser pistol.<!-- Summary End --> This weapon fires a coherent beam of photons and is powered by an on-board cell.</p>",
     "stats": [],
+    "accessories": ["160-012-00001", "160-012-00002", "160-012-00003", "160-012-00004", "160-012-00005", "160-011-00022", "160-011-00023", "160-011-00024", "160-011-00025", "160-011-00026", "160-011-00027", "160-011-00028", "160-011-00029", "160-011-00030", "160-011-00031" ],
     "categories": ["weapons", "handguns", "pistol"],
     "sources": [
       {
@@ -1706,6 +1752,7 @@
     "image": "",
     "description": "<p><!-- Summary Start -->Advanced version of the light accelerator pistol.<!-- Summary End --> The weapon fires a projectile at a low initial velocity; after it leaves the barrel, an internal charge accelerates the bullet to greater velocities. Accelerator weapons have low recoil and are well adapted to zero-G environments.</p>",
     "stats": [],
+    "accessories": ["160-012-00001", "160-012-00002", "160-012-00003", "160-012-00004", "160-012-00005", "160-011-00022", "160-011-00023", "160-011-00024", "160-011-00025", "160-011-00026", "160-011-00027", "160-011-00028", "160-011-00029", "160-011-00030", "160-011-00031" ],
     "categories": ["weapons", "handguns", "pistol"],
     "sources": [
       {
@@ -1742,6 +1789,7 @@
     "image": "",
     "description": "<p><!-- Summary Start -->Improved version of the body laser pistol.<!-- Summary End -->  This weapon fires a coherent beam of photons and is powered by an on-board cell.</p>",
     "stats": [],
+    "accessories": ["160-012-00001", "160-012-00002", "160-012-00003", "160-012-00004", "160-012-00005", "160-011-00022", "160-011-00023", "160-011-00024", "160-011-00025", "160-011-00026", "160-011-00027", "160-011-00028", "160-011-00029", "160-011-00030", "160-011-00031" ],
     "categories": ["weapons", "handguns", "pistol"],
     "sources": [
       {
@@ -1778,6 +1826,7 @@
     "image": "",
     "description": "<p><!-- Summary Start -->Modified version of the body accelerator pistol.<!-- Summary End --> The weapon fires a projectile at a low initial velocity; after it leaves the barrel, an internal charge accelerates the bullet to greater velocities. Accelerator weapons have low recoil and are well adapted to zero-G environments.</p>",
     "stats": [],
+    "accessories": ["160-012-00001", "160-012-00002", "160-012-00003", "160-012-00004", "160-012-00005", "160-011-00022", "160-011-00023", "160-011-00024", "160-011-00025", "160-011-00026", "160-011-00027", "160-011-00028", "160-011-00029", "160-011-00030", "160-011-00031" ],
     "categories": ["weapons", "handguns", "pistol"],
     "sources": [
       {
@@ -1814,6 +1863,7 @@
     "image": "",
     "description": "<p><!-- Summary Start -->Advanced version of the body accelerator pistol.<!-- Summary End --> The weapon fires a projectile at a low initial velocity; after it leaves the barrel, an internal charge accelerates the bullet to greater velocities. Accelerator weapons have low recoil and are well adapted to zero-G environments.</p>",
     "stats": [],
+    "accessories": ["160-012-00001", "160-012-00002", "160-012-00003", "160-012-00004", "160-012-00005", "160-011-00022", "160-011-00023", "160-011-00024", "160-011-00025", "160-011-00026", "160-011-00027", "160-011-00028", "160-011-00029", "160-011-00030", "160-011-00031" ],
     "categories": ["weapons", "handguns", "pistol"],
     "sources": [
       {
@@ -1850,6 +1900,7 @@
     "image": "",
     "description": "<p><!-- Summary Start -->Alternate version of the disposable laser pistol.<!-- Summary End --> This weapon fires a coherent beam of photons and is powered by an on-board cell. This version is constructed of relatively inexpensive materials and has a working lifetime measured in days.</p>",
     "stats": [],
+    "accessories": ["160-012-00001", "160-012-00002", "160-012-00003", "160-012-00004", "160-012-00005", "160-011-00022", "160-011-00023", "160-011-00024", "160-011-00025", "160-011-00026", "160-011-00027", "160-011-00028", "160-011-00029", "160-011-00030", "160-011-00031" ],
     "categories": ["weapons", "handguns", "pistol"],
     "sources": [
       {
@@ -1886,6 +1937,7 @@
     "image": "",
     "description": "<p><!-- Summary Start -->Advanced version of the recoilless laser pistol.<!-- Summary End --> This weapon fires a coherent beam of photons and is powered by an on-board cell.</p>",
     "stats": [],
+    "accessories": ["160-012-00001", "160-012-00002", "160-012-00003", "160-012-00004", "160-012-00005", "160-011-00022", "160-011-00023", "160-011-00024", "160-011-00025", "160-011-00026", "160-011-00027", "160-011-00028", "160-011-00029", "160-011-00030", "160-011-00031" ],
     "categories": ["weapons", "handguns", "pistol"],
     "sources": [
       {
@@ -1922,6 +1974,7 @@
     "image": "",
     "description": "<p><!-- Summary Start -->Advanced version of the very light laser pistol.<!-- Summary End --> This weapon fires a coherent beam of photons and is powered by an on-board cell.</p>",
     "stats": [],
+    "accessories": ["160-012-00001", "160-012-00002", "160-012-00003", "160-012-00004", "160-012-00005", "160-011-00022", "160-011-00023", "160-011-00024", "160-011-00025", "160-011-00026", "160-011-00027", "160-011-00028", "160-011-00029", "160-011-00030", "160-011-00031" ],
     "categories": ["weapons", "handguns", "pistol"],
     "sources": [
       {
@@ -1958,6 +2011,7 @@
     "image": "",
     "description": "<p><!-- Summary Start -->Advanced version of the body laser pistol.<!-- Summary End -->  This weapon fires a coherent beam of photons and is powered by an on-board cell.</p>",
     "stats": [],
+    "accessories": ["160-012-00001", "160-012-00002", "160-012-00003", "160-012-00004", "160-012-00005", "160-011-00022", "160-011-00023", "160-011-00024", "160-011-00025", "160-011-00026", "160-011-00027", "160-011-00028", "160-011-00029", "160-011-00030", "160-011-00031" ],
     "categories": ["weapons", "handguns", "pistol"],
     "sources": [
       {
@@ -1994,6 +2048,7 @@
     "image": "",
     "description": "<p><!-- Summary Start -->Obsolete version of the laser revolver.<!-- Summary End --> This weapon fires a coherent beam of photons and is powered by an on-board cell. This version is constructed of relatively inexpensive materials and has a working lifetime measured in days.</p>",
     "stats": [],
+    "accessories": ["160-012-00001", "160-012-00002", "160-012-00003", "160-012-00004", "160-012-00005", "160-011-00022", "160-011-00023", "160-011-00024", "160-011-00025", "160-011-00026", "160-011-00027", "160-011-00028", "160-011-00029", "160-011-00030", "160-011-00031" ],
     "categories": ["weapons", "handguns", "revolver"],
     "sources": [
       {

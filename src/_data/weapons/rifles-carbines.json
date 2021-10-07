@@ -14,8 +14,26 @@
     "image": "",
     "description": "<p><!-- Summary Start -->Experimental version of the rifle.<!-- Summary End -->A long-arm used by soldiers in combat and sportsmen in pursuit of game.</p>",
     "stats": [],
+    "accessories": ["160-012-00001", "160-012-00002", "160-012-00003", "160-012-00004", "160-012-00005", "160-012-00006", "160-012-00007", "160-011-00012", "160-011-00013", "160-011-00014", "160-011-00015", "160-011-00016", "160-011-00017", "160-011-00018", "160-011-00019", "160-011-00020", "160-011-00021"],
     "categories": ["weapons", "rifle"],
-    "sources": [],
+    "sources": [
+      {
+        "publication": "Traveller 5.10 Core Rules Book 1 : Characters and Combat",
+        "authors": ["Miller, Marc"],
+        "publisher": {
+          "name": "Far Future Enterprises",
+          "url": "https://farfuture.net"
+        }
+      },
+      {
+        "publication": "Traveller 5.10 Core Rules Book 3 : Worlds and Adventures",
+        "authors": ["Miller, Marc"],
+        "publisher": {
+          "name": "Far Future Enterprises",
+          "url": "https://farfuture.net"
+        }
+      }
+    ],
     "tags": ["products", "weapons", "rifle"]
   },
   {
@@ -32,9 +50,27 @@
     "damage": "Bullet-1",
     "image": "",
     "description": "<p><!-- Summary Start -->Experimental version of the carbine.<!-- Summary End -->The carbine is a shorter version of the rifle.</p>",
+    "accessories": ["160-012-00001", "160-012-00002", "160-012-00003", "160-012-00004", "160-012-00005", "160-012-00006", "160-012-00007", "160-011-00012", "160-011-00013", "160-011-00014", "160-011-00015", "160-011-00016", "160-011-00017", "160-011-00018", "160-011-00019", "160-011-00020", "160-011-00021"],
     "stats": [],
     "categories": ["weapons", "carbine"],
-    "sources": [],
+    "sources": [
+      {
+        "publication": "Traveller 5.10 Core Rules Book 1 : Characters and Combat",
+        "authors": ["Miller, Marc"],
+        "publisher": {
+          "name": "Far Future Enterprises",
+          "url": "https://farfuture.net"
+        }
+      },
+      {
+        "publication": "Traveller 5.10 Core Rules Book 3 : Worlds and Adventures",
+        "authors": ["Miller, Marc"],
+        "publisher": {
+          "name": "Far Future Enterprises",
+          "url": "https://farfuture.net"
+        }
+      }
+    ],
     "tags": ["products", "weapons", "carbine"]
   },
   {
@@ -51,9 +87,27 @@
     "damage": "Bullet-3",
     "image": "",
     "description": "<p><!-- Summary Start -->Experimental version of the heavy hunting carbine.<!-- Summary End --> The heavy hunting carbine is designed with large game as its targets.</p>",
+    "accessories": ["160-012-00001", "160-012-00002", "160-012-00003", "160-012-00004", "160-012-00005", "160-012-00006", "160-012-00007", "160-011-00012", "160-011-00013", "160-011-00014", "160-011-00015", "160-011-00016", "160-011-00017", "160-011-00018", "160-011-00019", "160-011-00020", "160-011-00021"],
     "stats": [],
     "categories": ["weapons", "carbine"],
-    "sources": [],
+    "sources": [
+      {
+        "publication": "Traveller 5.10 Core Rules Book 1 : Characters and Combat",
+        "authors": ["Miller, Marc"],
+        "publisher": {
+          "name": "Far Future Enterprises",
+          "url": "https://farfuture.net"
+        }
+      },
+      {
+        "publication": "Traveller 5.10 Core Rules Book 3 : Worlds and Adventures",
+        "authors": ["Miller, Marc"],
+        "publisher": {
+          "name": "Far Future Enterprises",
+          "url": "https://farfuture.net"
+        }
+      }
+    ],
     "tags": ["products", "weapons", "carbine"]
   },
   {
@@ -71,8 +125,26 @@
     "image": "",
     "description": "<p><!-- Summary Start -->Early version of the rifle.<!-- Summary End --><p> A long-arm used by soldiers in combat and sportsmen in pursuit of game.</p>",
     "stats": [],
+    "accessories": ["160-012-00001", "160-012-00002", "160-012-00003", "160-012-00004", "160-012-00005", "160-012-00006", "160-012-00007", "160-011-00012", "160-011-00013", "160-011-00014", "160-011-00015", "160-011-00016", "160-011-00017", "160-011-00018", "160-011-00019", "160-011-00020", "160-011-00021"],
     "categories": ["weapons", "rifle"],
-    "sources": [],
+    "sources": [
+      {
+        "publication": "Traveller 5.10 Core Rules Book 1 : Characters and Combat",
+        "authors": ["Miller, Marc"],
+        "publisher": {
+          "name": "Far Future Enterprises",
+          "url": "https://farfuture.net"
+        }
+      },
+      {
+        "publication": "Traveller 5.10 Core Rules Book 3 : Worlds and Adventures",
+        "authors": ["Miller, Marc"],
+        "publisher": {
+          "name": "Far Future Enterprises",
+          "url": "https://farfuture.net"
+        }
+      }
+    ],
     "tags": ["products", "weapons", "rifle"]
   },
   {
@@ -90,8 +162,26 @@
     "image": "",
     "description": "<p><!-- Summary Start -->Experimental version of the battle rifle.<!-- Summary End --> Battle rifles are designed for the battlefield by soldiers. It is characterized by an ability to hit person-size targets at the limit of unaided vision (~1000 meters).</p>",
     "stats": [],
+    "accessories": ["160-012-00001", "160-012-00002", "160-012-00003", "160-012-00004", "160-012-00005", "160-012-00006", "160-012-00007", "160-011-00002", "160-011-00003", "160-011-00004", "160-011-00005", "160-011-00006", "160-011-00007", "160-011-00008", "160-011-00009", "160-011-00010", "160-011-00011"],
     "categories": ["weapons", "rifle"],
-    "sources": [],
+    "sources": [
+      {
+        "publication": "Traveller 5.10 Core Rules Book 1 : Characters and Combat",
+        "authors": ["Miller, Marc"],
+        "publisher": {
+          "name": "Far Future Enterprises",
+          "url": "https://farfuture.net"
+        }
+      },
+      {
+        "publication": "Traveller 5.10 Core Rules Book 3 : Worlds and Adventures",
+        "authors": ["Miller, Marc"],
+        "publisher": {
+          "name": "Far Future Enterprises",
+          "url": "https://farfuture.net"
+        }
+      }
+    ],
     "tags": ["products", "weapons", "rifle"]
   },
   {
@@ -109,8 +199,26 @@
     "image": "",
     "description": "<p><!-- Summary Start -->Prototype version of the rifle.<!-- Summary End --> A long-arm used by soldiers in combat and sportsmen in pursuit of game.</p>",
     "stats": [],
+    "accessories": ["160-012-00001", "160-012-00002", "160-012-00003", "160-012-00004", "160-012-00005", "160-012-00006", "160-012-00007", "160-011-00012", "160-011-00013", "160-011-00014", "160-011-00015", "160-011-00016", "160-011-00017", "160-011-00018", "160-011-00019", "160-011-00020", "160-011-00021"],
     "categories": ["weapons", "rifle"],
-    "sources": [],
+    "sources": [
+      {
+        "publication": "Traveller 5.10 Core Rules Book 1 : Characters and Combat",
+        "authors": ["Miller, Marc"],
+        "publisher": {
+          "name": "Far Future Enterprises",
+          "url": "https://farfuture.net"
+        }
+      },
+      {
+        "publication": "Traveller 5.10 Core Rules Book 3 : Worlds and Adventures",
+        "authors": ["Miller, Marc"],
+        "publisher": {
+          "name": "Far Future Enterprises",
+          "url": "https://farfuture.net"
+        }
+      }
+    ],
     "tags": ["products", "weapons", "rifle"]
   },
   {
@@ -128,8 +236,26 @@
     "image": "",
     "description": "<p><!-- Summary Start -->Prototype of the medium rifle.<!-- Summary End -->A long-arm used by soldiers in combat and sportsmen in pursuit of game.</p>",
     "stats": [],
+    "accessories": ["160-012-00001", "160-012-00002", "160-012-00003", "160-012-00004", "160-012-00005", "160-012-00006", "160-012-00007", "160-011-00012", "160-011-00013", "160-011-00014", "160-011-00015", "160-011-00016", "160-011-00017", "160-011-00018", "160-011-00019", "160-011-00020", "160-011-00021"],
     "categories": ["weapons", "rifle"],
-    "sources": [],
+    "sources": [
+      {
+        "publication": "Traveller 5.10 Core Rules Book 1 : Characters and Combat",
+        "authors": ["Miller, Marc"],
+        "publisher": {
+          "name": "Far Future Enterprises",
+          "url": "https://farfuture.net"
+        }
+      },
+      {
+        "publication": "Traveller 5.10 Core Rules Book 3 : Worlds and Adventures",
+        "authors": ["Miller, Marc"],
+        "publisher": {
+          "name": "Far Future Enterprises",
+          "url": "https://farfuture.net"
+        }
+      }
+    ],
     "tags": ["products", "weapons", "rifle"]
   },
   {
@@ -147,8 +273,26 @@
     "image": "",
     "description": "<p><!-- Summary Start -->Experimental version of the medium dart rifle.<!-- Summary End --> The dart rifle fires a small injector projectile which on contact injects a Tranq dose into the target.</p>",
     "stats": [],
+    "accessories": ["160-012-00001", "160-012-00002", "160-012-00003", "160-012-00004", "160-012-00005", "160-012-00006", "160-012-00007", "160-011-00012", "160-011-00013", "160-011-00014", "160-011-00015", "160-011-00016", "160-011-00017", "160-011-00018", "160-011-00019", "160-011-00020", "160-011-00021"],
     "categories": ["weapons", "rifle"],
-    "sources": [],
+    "sources": [
+      {
+        "publication": "Traveller 5.10 Core Rules Book 1 : Characters and Combat",
+        "authors": ["Miller, Marc"],
+        "publisher": {
+          "name": "Far Future Enterprises",
+          "url": "https://farfuture.net"
+        }
+      },
+      {
+        "publication": "Traveller 5.10 Core Rules Book 3 : Worlds and Adventures",
+        "authors": ["Miller, Marc"],
+        "publisher": {
+          "name": "Far Future Enterprises",
+          "url": "https://farfuture.net"
+        }
+      }
+    ],
     "tags": ["products", "weapons", "rifle"]
   },
   {
@@ -166,8 +310,26 @@
     "image": "",
     "description": "<p><!-- Summary Start -->The hunting rifle is a general purpose long-arm used for hunting.<!-- Summary End --></p>",
     "stats": [],
+    "accessories": ["160-012-00001", "160-012-00002", "160-012-00003", "160-012-00004", "160-012-00005", "160-012-00006", "160-012-00007", "160-011-00012", "160-011-00013", "160-011-00014", "160-011-00015", "160-011-00016", "160-011-00017", "160-011-00018", "160-011-00019", "160-011-00020", "160-011-00021"],
     "categories": ["weapons", "rifle"],
-    "sources": [],
+    "sources": [
+      {
+        "publication": "Traveller 5.10 Core Rules Book 1 : Characters and Combat",
+        "authors": ["Miller, Marc"],
+        "publisher": {
+          "name": "Far Future Enterprises",
+          "url": "https://farfuture.net"
+        }
+      },
+      {
+        "publication": "Traveller 5.10 Core Rules Book 3 : Worlds and Adventures",
+        "authors": ["Miller, Marc"],
+        "publisher": {
+          "name": "Far Future Enterprises",
+          "url": "https://farfuture.net"
+        }
+      }
+    ],
     "tags": ["products", "weapons", "rifle"]
   },
   {
@@ -185,8 +347,26 @@
     "image": "",
     "description": "<p><!-- Summary Start -->A long-arm used by soldiers in combat and sportsmen in pursuit of game.<!-- Summary End --></p>",
     "stats": [],
+    "accessories": ["160-012-00001", "160-012-00002", "160-012-00003", "160-012-00004", "160-012-00005", "160-012-00006", "160-012-00007", "160-011-00012", "160-011-00013", "160-011-00014", "160-011-00015", "160-011-00016", "160-011-00017", "160-011-00018", "160-011-00019", "160-011-00020", "160-011-00021"],
     "categories": ["weapons", "rifle"],
-    "sources": [],
+    "sources": [
+      {
+        "publication": "Traveller 5.10 Core Rules Book 1 : Characters and Combat",
+        "authors": ["Miller, Marc"],
+        "publisher": {
+          "name": "Far Future Enterprises",
+          "url": "https://farfuture.net"
+        }
+      },
+      {
+        "publication": "Traveller 5.10 Core Rules Book 3 : Worlds and Adventures",
+        "authors": ["Miller, Marc"],
+        "publisher": {
+          "name": "Far Future Enterprises",
+          "url": "https://farfuture.net"
+        }
+      }
+    ],
     "tags": ["products", "weapons", "rifle"]
   },
   {
@@ -204,8 +384,26 @@
     "image": "",
     "description": "<p><!-- Summary Start -->Basic version of the rifle.<!-- Summary End --> A long-arm used by soldiers in combat and sportsmen in pursuit of game.</p>",
     "stats": [],
+    "accessories": ["160-012-00001", "160-012-00002", "160-012-00003", "160-012-00004", "160-012-00005", "160-012-00006", "160-012-00007", "160-011-00012", "160-011-00013", "160-011-00014", "160-011-00015", "160-011-00016", "160-011-00017", "160-011-00018", "160-011-00019", "160-011-00020", "160-011-00021"],
     "categories": ["weapons", "rifle"],
-    "sources": [],
+    "sources": [
+      {
+        "publication": "Traveller 5.10 Core Rules Book 1 : Characters and Combat",
+        "authors": ["Miller, Marc"],
+        "publisher": {
+          "name": "Far Future Enterprises",
+          "url": "https://farfuture.net"
+        }
+      },
+      {
+        "publication": "Traveller 5.10 Core Rules Book 3 : Worlds and Adventures",
+        "authors": ["Miller, Marc"],
+        "publisher": {
+          "name": "Far Future Enterprises",
+          "url": "https://farfuture.net"
+        }
+      }
+    ],
     "tags": ["products", "weapons", "rifle"]
   },
   {
@@ -223,8 +421,26 @@
     "image": "",
     "description": "<p><!-- Summary Start -->Battle rifles are designed for the battlefield by soldiers.<!-- Summary End --> The weapon is characterized by an ability to hit person-size targets at the limit of unaided vision (~1000 meters).</p>",
     "stats": [],
+    "accessories": ["160-012-00001", "160-012-00002", "160-012-00003", "160-012-00004", "160-012-00005", "160-012-00006", "160-012-00007", "160-011-00002", "160-011-00003", "160-011-00004", "160-011-00005", "160-011-00006", "160-011-00007", "160-011-00008", "160-011-00009", "160-011-00010", "160-011-00011"],
     "categories": ["weapons", "rifle"],
-    "sources": [],
+    "sources": [
+      {
+        "publication": "Traveller 5.10 Core Rules Book 1 : Characters and Combat",
+        "authors": ["Miller, Marc"],
+        "publisher": {
+          "name": "Far Future Enterprises",
+          "url": "https://farfuture.net"
+        }
+      },
+      {
+        "publication": "Traveller 5.10 Core Rules Book 3 : Worlds and Adventures",
+        "authors": ["Miller, Marc"],
+        "publisher": {
+          "name": "Far Future Enterprises",
+          "url": "https://farfuture.net"
+        }
+      }
+    ],
     "tags": ["products", "weapons", "rifle"]
   },
   {
@@ -242,8 +458,26 @@
     "image": "",
     "description": "<p><!-- Summary Start -->Improved version of the rifle.<!-- Summary End --> A long-arm used by soldiers in combat and sportsmen in pursuit of game.</p>",
     "stats": [],
+    "accessories": ["160-012-00001", "160-012-00002", "160-012-00003", "160-012-00004", "160-012-00005", "160-012-00006", "160-012-00007", "160-011-00012", "160-011-00013", "160-011-00014", "160-011-00015", "160-011-00016", "160-011-00017", "160-011-00018", "160-011-00019", "160-011-00020", "160-011-00021"],
     "categories": ["weapons", "rifle"],
-    "sources": [],
+    "sources": [
+      {
+        "publication": "Traveller 5.10 Core Rules Book 1 : Characters and Combat",
+        "authors": ["Miller, Marc"],
+        "publisher": {
+          "name": "Far Future Enterprises",
+          "url": "https://farfuture.net"
+        }
+      },
+      {
+        "publication": "Traveller 5.10 Core Rules Book 3 : Worlds and Adventures",
+        "authors": ["Miller, Marc"],
+        "publisher": {
+          "name": "Far Future Enterprises",
+          "url": "https://farfuture.net"
+        }
+      }
+    ],
     "tags": ["products", "weapons", "rifle"]
   },
   {
@@ -261,8 +495,26 @@
     "image": "",
     "description": "<p><!-- Summary Start -->The sniper rifle is designed for shooting enemy targets at extreme range.<!-- Summary End --></p>",
     "stats": [],
+    "accessories": ["160-012-00001", "160-012-00002", "160-012-00003", "160-012-00004", "160-012-00005", "160-012-00006", "160-012-00007", "160-011-00012", "160-011-00013", "160-011-00014", "160-011-00015", "160-011-00016", "160-011-00017", "160-011-00018", "160-011-00019", "160-011-00020", "160-011-00021"],
     "categories": ["weapons", "rifle"],
-    "sources": [],
+    "sources": [
+      {
+        "publication": "Traveller 5.10 Core Rules Book 1 : Characters and Combat",
+        "authors": ["Miller, Marc"],
+        "publisher": {
+          "name": "Far Future Enterprises",
+          "url": "https://farfuture.net"
+        }
+      },
+      {
+        "publication": "Traveller 5.10 Core Rules Book 3 : Worlds and Adventures",
+        "authors": ["Miller, Marc"],
+        "publisher": {
+          "name": "Far Future Enterprises",
+          "url": "https://farfuture.net"
+        }
+      }
+    ],
     "tags": ["products", "weapons", "rifle"]
   },
   {
@@ -280,8 +532,26 @@
     "image": "",
     "description": "<p><!-- Summary Start -->Light version of the dart rifle.<!-- Summary End --> The dart rifle fires a small injector projectile which on contact injects a Tranq dose into the target.</p>",
     "stats": [],
+    "accessories": ["160-012-00001", "160-012-00002", "160-012-00003", "160-012-00004", "160-012-00005", "160-012-00006", "160-012-00007", "160-011-00012", "160-011-00013", "160-011-00014", "160-011-00015", "160-011-00016", "160-011-00017", "160-011-00018", "160-011-00019", "160-011-00020", "160-011-00021"],
     "categories": ["weapons", "rifle"],
-    "sources": [],
+    "sources": [
+      {
+        "publication": "Traveller 5.10 Core Rules Book 1 : Characters and Combat",
+        "authors": ["Miller, Marc"],
+        "publisher": {
+          "name": "Far Future Enterprises",
+          "url": "https://farfuture.net"
+        }
+      },
+      {
+        "publication": "Traveller 5.10 Core Rules Book 3 : Worlds and Adventures",
+        "authors": ["Miller, Marc"],
+        "publisher": {
+          "name": "Far Future Enterprises",
+          "url": "https://farfuture.net"
+        }
+      }
+    ],
     "tags": ["products", "weapons", "rifle"]
   },
   {
@@ -299,8 +569,26 @@
     "image": "",
     "description": "<p><!-- Summary Start -->Early version of the light splat rifle.<!-- Summary End -->The weapon is a multi-barrel slightly diverging configuration. Each barrel is loaded with several projectiles and their associated propellants. Each pull of the trigger fires one round from each of the barrels.</p>",
     "stats": [],
+    "accessories": ["160-012-00001", "160-012-00002", "160-012-00003", "160-012-00004", "160-012-00005", "160-012-00006", "160-012-00007", "160-011-00012", "160-011-00013", "160-011-00014", "160-011-00015", "160-011-00016", "160-011-00017", "160-011-00018", "160-011-00019", "160-011-00020", "160-011-00021"],
     "categories": ["weapons", "rifle"],
-    "sources": [],
+    "sources": [
+      {
+        "publication": "Traveller 5.10 Core Rules Book 1 : Characters and Combat",
+        "authors": ["Miller, Marc"],
+        "publisher": {
+          "name": "Far Future Enterprises",
+          "url": "https://farfuture.net"
+        }
+      },
+      {
+        "publication": "Traveller 5.10 Core Rules Book 3 : Worlds and Adventures",
+        "authors": ["Miller, Marc"],
+        "publisher": {
+          "name": "Far Future Enterprises",
+          "url": "https://farfuture.net"
+        }
+      }
+    ],
     "tags": ["products", "weapons", "rifle"]
   },
   {
@@ -318,8 +606,26 @@
     "image": "",
     "description": "<p><!-- Summary Start -->The assault rifle is designed for use by soldiers on the battlefield. The weapon is characterized by an ability to hit person-size targets at moderate ranges (~500 meters). It is capable of firing bullets and explosive projectiles. <!-- Summary End --></p>",
     "stats": [],
+    "accessories": ["160-012-00001", "160-012-00002", "160-012-00003", "160-012-00004", "160-012-00005", "160-012-00006", "160-012-00007", "160-011-00012", "160-011-00013", "160-011-00014", "160-011-00015", "160-011-00016", "160-011-00017", "160-011-00018", "160-011-00019", "160-011-00020", "160-011-00021"],
     "categories": ["weapons", "rifle"],
-    "sources": [],
+    "sources": [
+      {
+        "publication": "Traveller 5.10 Core Rules Book 1 : Characters and Combat",
+        "authors": ["Miller, Marc"],
+        "publisher": {
+          "name": "Far Future Enterprises",
+          "url": "https://farfuture.net"
+        }
+      },
+      {
+        "publication": "Traveller 5.10 Core Rules Book 3 : Worlds and Adventures",
+        "authors": ["Miller, Marc"],
+        "publisher": {
+          "name": "Far Future Enterprises",
+          "url": "https://farfuture.net"
+        }
+      }
+    ],
     "tags": ["products", "weapons", "rifle"]
   },
   {
@@ -337,8 +643,26 @@
     "image": "",
     "description": "<p><!-- Summary Start -->The combat rifle is designed for use in combat by soldiers.<!-- Summary End --> It is characterized by an ability to hit person-size targets at relatively short ranges (~150 meters) using explosive projectiles.</p>",
     "stats": [],
+    "accessories": ["160-012-00001", "160-012-00002", "160-012-00003", "160-012-00004", "160-012-00005", "160-012-00006", "160-012-00007", "160-011-00002", "160-011-00003", "160-011-00004", "160-011-00005", "160-011-00006", "160-011-00007", "160-011-00008", "160-011-00009", "160-011-00010", "160-011-00011"],
     "categories": ["weapons", "rifle"],
-    "sources": [],
+    "sources": [
+      {
+        "publication": "Traveller 5.10 Core Rules Book 1 : Characters and Combat",
+        "authors": ["Miller, Marc"],
+        "publisher": {
+          "name": "Far Future Enterprises",
+          "url": "https://farfuture.net"
+        }
+      },
+      {
+        "publication": "Traveller 5.10 Core Rules Book 3 : Worlds and Adventures",
+        "authors": ["Miller, Marc"],
+        "publisher": {
+          "name": "Far Future Enterprises",
+          "url": "https://farfuture.net"
+        }
+      }
+    ],
     "tags": ["products", "weapons", "rifle"]
   },
   {
@@ -356,8 +680,26 @@
     "image": "",
     "description": "<p><!-- Summary Start -->The splat rifle is a multi-barrel slightly diverging configuration. <!-- Summary End -->Each barrel is loaded with several projectiles and their associated propellants. Each pull of the trigger fires one round from each of the barrels.</p>",
     "stats": [],
+    "accessories": ["160-012-00001", "160-012-00002", "160-012-00003", "160-012-00004", "160-012-00005", "160-012-00006", "160-012-00007", "160-011-00002", "160-011-00003", "160-011-00004", "160-011-00005", "160-011-00006", "160-011-00007", "160-011-00008", "160-011-00009", "160-011-00010", "160-011-00011"],
     "categories": ["weapons", "rifle"],
-    "sources": [],
+    "sources": [
+      {
+        "publication": "Traveller 5.10 Core Rules Book 1 : Characters and Combat",
+        "authors": ["Miller, Marc"],
+        "publisher": {
+          "name": "Far Future Enterprises",
+          "url": "https://farfuture.net"
+        }
+      },
+      {
+        "publication": "Traveller 5.10 Core Rules Book 3 : Worlds and Adventures",
+        "authors": ["Miller, Marc"],
+        "publisher": {
+          "name": "Far Future Enterprises",
+          "url": "https://farfuture.net"
+        }
+      }
+    ],
     "tags": ["products", "weapons", "rifle"]
   },
   {
@@ -375,8 +717,26 @@
     "image": "",
     "description": "<p><!-- Summary Start -->Improved version of the heavy poison dart rifle.<!-- Summary End -->The dart rifle fires a small injector projectile which on contact injects a poison dose into the target.</p>",
     "stats": [],
+    "accessories": ["160-012-00001", "160-012-00002", "160-012-00003", "160-012-00004", "160-012-00005", "160-012-00006", "160-012-00007", "160-011-00012", "160-011-00013", "160-011-00014", "160-011-00015", "160-011-00016", "160-011-00017", "160-011-00018", "160-011-00019", "160-011-00020", "160-011-00021"],
     "categories": ["weapons", "rifle"],
-    "sources": [],
+    "sources": [
+      {
+        "publication": "Traveller 5.10 Core Rules Book 1 : Characters and Combat",
+        "authors": ["Miller, Marc"],
+        "publisher": {
+          "name": "Far Future Enterprises",
+          "url": "https://farfuture.net"
+        }
+      },
+      {
+        "publication": "Traveller 5.10 Core Rules Book 3 : Worlds and Adventures",
+        "authors": ["Miller, Marc"],
+        "publisher": {
+          "name": "Far Future Enterprises",
+          "url": "https://farfuture.net"
+        }
+      }
+    ],
     "tags": ["products", "weapons", "rifle"]
   },
   {
@@ -394,8 +754,26 @@
     "image": "",
     "description": "<p><!-- Summary Start -->Sniper version of the heavy poison dart rifle.<!-- Summary End --> This version of the rifle is optimized for accuracy at extended ranges.</p>",
     "stats": [],
+    "accessories": ["160-012-00001", "160-012-00002", "160-012-00003", "160-012-00004", "160-012-00005", "160-012-00006", "160-012-00007", "160-011-00012", "160-011-00013", "160-011-00014", "160-011-00015", "160-011-00016", "160-011-00017", "160-011-00018", "160-011-00019", "160-011-00020", "160-011-00021"],
     "categories": ["weapons", "rifle"],
-    "sources": [],
+    "sources": [
+      {
+        "publication": "Traveller 5.10 Core Rules Book 1 : Characters and Combat",
+        "authors": ["Miller, Marc"],
+        "publisher": {
+          "name": "Far Future Enterprises",
+          "url": "https://farfuture.net"
+        }
+      },
+      {
+        "publication": "Traveller 5.10 Core Rules Book 3 : Worlds and Adventures",
+        "authors": ["Miller, Marc"],
+        "publisher": {
+          "name": "Far Future Enterprises",
+          "url": "https://farfuture.net"
+        }
+      }
+    ],
     "tags": ["products", "weapons", "rifle"]
   },
   {
@@ -413,8 +791,26 @@
     "image": "",
     "description": "<p><!-- Summary Start -->Anti-designator rifle.<!-- Summary End --></p>",
     "stats": [],
+    "accessories": ["160-012-00001", "160-012-00002", "160-012-00003", "160-012-00004", "160-012-00005", "160-012-00006", "160-012-00007", "160-011-00012", "160-011-00013", "160-011-00014", "160-011-00015", "160-011-00016", "160-011-00017", "160-011-00018", "160-011-00019", "160-011-00020", "160-011-00021"],
     "categories": ["weapons", "rifle"],
-    "sources": [],
+    "sources": [
+      {
+        "publication": "Traveller 5.10 Core Rules Book 1 : Characters and Combat",
+        "authors": ["Miller, Marc"],
+        "publisher": {
+          "name": "Far Future Enterprises",
+          "url": "https://farfuture.net"
+        }
+      },
+      {
+        "publication": "Traveller 5.10 Core Rules Book 3 : Worlds and Adventures",
+        "authors": ["Miller, Marc"],
+        "publisher": {
+          "name": "Far Future Enterprises",
+          "url": "https://farfuture.net"
+        }
+      }
+    ],
     "tags": ["products", "weapons", "rifle"]
   },
   {
@@ -432,8 +828,26 @@
     "image": "",
     "description": "<p><!-- Summary Start -->Basic version of the anti-designator survival rifle.<!-- Summary End --></p>",
     "stats": [],
+    "accessories": ["160-012-00001", "160-012-00002", "160-012-00003", "160-012-00004", "160-012-00005", "160-012-00006", "160-012-00007", "160-011-00012", "160-011-00013", "160-011-00014", "160-011-00015", "160-011-00016", "160-011-00017", "160-011-00018", "160-011-00019", "160-011-00020", "160-011-00021"],
     "categories": ["weapons", "rifle"],
-    "sources": [],
+    "sources": [
+      {
+        "publication": "Traveller 5.10 Core Rules Book 1 : Characters and Combat",
+        "authors": ["Miller, Marc"],
+        "publisher": {
+          "name": "Far Future Enterprises",
+          "url": "https://farfuture.net"
+        }
+      },
+      {
+        "publication": "Traveller 5.10 Core Rules Book 3 : Worlds and Adventures",
+        "authors": ["Miller, Marc"],
+        "publisher": {
+          "name": "Far Future Enterprises",
+          "url": "https://farfuture.net"
+        }
+      }
+    ],
     "tags": ["products", "weapons", "rifle"]
   },
   {
@@ -451,8 +865,26 @@
     "image": "",
     "description": "<p><!-- Summary Start -->Standard version of the heavy combat rifle.<!-- Summary End --> The combat rifle is designed for use in combat by soldiers. It is characterized by an ability to hit person-size targets at relatively short ranges (~150 meters) using explosive projectiles.</p>",
     "stats": [],
+    "accessories": ["160-012-00001", "160-012-00002", "160-012-00003", "160-012-00004", "160-012-00005", "160-012-00006", "160-012-00007", "160-011-00002", "160-011-00003", "160-011-00004", "160-011-00005", "160-011-00006", "160-011-00007", "160-011-00008", "160-011-00009", "160-011-00010", "160-011-00011"],
     "categories": ["weapons", "rifle"],
-    "sources": [],
+    "sources": [
+      {
+        "publication": "Traveller 5.10 Core Rules Book 1 : Characters and Combat",
+        "authors": ["Miller, Marc"],
+        "publisher": {
+          "name": "Far Future Enterprises",
+          "url": "https://farfuture.net"
+        }
+      },
+      {
+        "publication": "Traveller 5.10 Core Rules Book 3 : Worlds and Adventures",
+        "authors": ["Miller, Marc"],
+        "publisher": {
+          "name": "Far Future Enterprises",
+          "url": "https://farfuture.net"
+        }
+      }
+    ],
     "tags": ["products", "weapons", "rifle"]
   },
   {
@@ -470,8 +902,26 @@
     "image": "",
     "description": "<p><!-- Summary Start -->Prototype version of the medium accelerator rifle.<!-- Summary End --> The weapon fires a projectile at a low initial velocity; after it leaves the barrel, an internal charge accelerates the bullet to greater velocities. Accelerator weapons have low recoil and are well adapted to zero-G environments.</p>",
     "stats": [],
+    "accessories": ["160-012-00001", "160-012-00002", "160-012-00003", "160-012-00004", "160-012-00005", "160-012-00006", "160-012-00007", "160-011-00012", "160-011-00013", "160-011-00014", "160-011-00015", "160-011-00016", "160-011-00017", "160-011-00018", "160-011-00019", "160-011-00020", "160-011-00021"],
     "categories": ["weapons", "rifle"],
-    "sources": [],
+    "sources": [
+      {
+        "publication": "Traveller 5.10 Core Rules Book 1 : Characters and Combat",
+        "authors": ["Miller, Marc"],
+        "publisher": {
+          "name": "Far Future Enterprises",
+          "url": "https://farfuture.net"
+        }
+      },
+      {
+        "publication": "Traveller 5.10 Core Rules Book 3 : Worlds and Adventures",
+        "authors": ["Miller, Marc"],
+        "publisher": {
+          "name": "Far Future Enterprises",
+          "url": "https://farfuture.net"
+        }
+      }
+    ],
     "tags": ["products", "weapons", "rifle"]
   },
   {
@@ -489,8 +939,26 @@
     "image": "",
     "description": "<p><!-- Summary Start -->Remote-controlled version of the medium assault rifle.<!-- Summary End --> The assault rifle is designed for use by soldiers on the battlefield. The weapon is characterized by an ability to hit person-size targets at moderate ranges (~500 meters). It is capable of firing bullets and explosive projectiles.</p>",
     "stats": [],
+    "accessories": ["160-012-00001", "160-012-00002", "160-012-00003", "160-012-00004", "160-012-00005", "160-012-00006", "160-012-00007", "160-011-00012", "160-011-00013", "160-011-00014", "160-011-00015", "160-011-00016", "160-011-00017", "160-011-00018", "160-011-00019", "160-011-00020", "160-011-00021"],
     "categories": ["weapons", "rifle"],
-    "sources": [],
+    "sources": [
+      {
+        "publication": "Traveller 5.10 Core Rules Book 1 : Characters and Combat",
+        "authors": ["Miller, Marc"],
+        "publisher": {
+          "name": "Far Future Enterprises",
+          "url": "https://farfuture.net"
+        }
+      },
+      {
+        "publication": "Traveller 5.10 Core Rules Book 3 : Worlds and Adventures",
+        "authors": ["Miller, Marc"],
+        "publisher": {
+          "name": "Far Future Enterprises",
+          "url": "https://farfuture.net"
+        }
+      }
+    ],
     "tags": ["products", "weapons", "rifle"]
   },
   {
@@ -508,8 +976,26 @@
     "image": "",
     "description": "<p><!-- Summary Start -->The weapon fires a projectile at a low initial velocity; after it leaves the barrel, an internal charge accelerates the bullet to greater velocities. <!-- Summary End -->Accelerator weapons have low recoil and are well adapted to zero-G environments.</p>",
     "stats": [],
+    "accessories": ["160-012-00001", "160-012-00002", "160-012-00003", "160-012-00004", "160-012-00005", "160-012-00006", "160-012-00007", "160-011-00012", "160-011-00013", "160-011-00014", "160-011-00015", "160-011-00016", "160-011-00017", "160-011-00018", "160-011-00019", "160-011-00020", "160-011-00021"],
     "categories": ["weapons", "rifle"],
-    "sources": [],
+    "sources": [
+      {
+        "publication": "Traveller 5.10 Core Rules Book 1 : Characters and Combat",
+        "authors": ["Miller, Marc"],
+        "publisher": {
+          "name": "Far Future Enterprises",
+          "url": "https://farfuture.net"
+        }
+      },
+      {
+        "publication": "Traveller 5.10 Core Rules Book 3 : Worlds and Adventures",
+        "authors": ["Miller, Marc"],
+        "publisher": {
+          "name": "Far Future Enterprises",
+          "url": "https://farfuture.net"
+        }
+      }
+    ],
     "tags": ["products", "weapons", "rifle"]
   },
   {
@@ -527,8 +1013,26 @@
     "image": "",
     "description": "<p><!-- Summary Start -->Obsolete version of the rifle.<!-- Summary End --></p>",
     "stats": [],
+    "accessories": ["160-012-00001", "160-012-00002", "160-012-00003", "160-012-00004", "160-012-00005", "160-012-00006", "160-012-00007", "160-011-00012", "160-011-00013", "160-011-00014", "160-011-00015", "160-011-00016", "160-011-00017", "160-011-00018", "160-011-00019", "160-011-00020", "160-011-00021"],
     "categories": ["weapons", "rifle"],
-    "sources": [],
+    "sources": [
+      {
+        "publication": "Traveller 5.10 Core Rules Book 1 : Characters and Combat",
+        "authors": ["Miller, Marc"],
+        "publisher": {
+          "name": "Far Future Enterprises",
+          "url": "https://farfuture.net"
+        }
+      },
+      {
+        "publication": "Traveller 5.10 Core Rules Book 3 : Worlds and Adventures",
+        "authors": ["Miller, Marc"],
+        "publisher": {
+          "name": "Far Future Enterprises",
+          "url": "https://farfuture.net"
+        }
+      }
+    ],
     "tags": ["products", "weapons", "rifle"]
   },
   {
@@ -546,8 +1050,26 @@
     "image": "",
     "description": "<p><!-- Summary Start -->Sniper version of the anti-designator hunting rifle.<!-- Summary End --></p>",
     "stats": [],
+    "accessories": ["160-012-00001", "160-012-00002", "160-012-00003", "160-012-00004", "160-012-00005", "160-012-00006", "160-012-00007", "160-011-00012", "160-011-00013", "160-011-00014", "160-011-00015", "160-011-00016", "160-011-00017", "160-011-00018", "160-011-00019", "160-011-00020", "160-011-00021"],
     "categories": ["weapons", "rifle"],
-    "sources": [],
+    "sources": [
+      {
+        "publication": "Traveller 5.10 Core Rules Book 1 : Characters and Combat",
+        "authors": ["Miller, Marc"],
+        "publisher": {
+          "name": "Far Future Enterprises",
+          "url": "https://farfuture.net"
+        }
+      },
+      {
+        "publication": "Traveller 5.10 Core Rules Book 3 : Worlds and Adventures",
+        "authors": ["Miller, Marc"],
+        "publisher": {
+          "name": "Far Future Enterprises",
+          "url": "https://farfuture.net"
+        }
+      }
+    ],
     "tags": ["products", "weapons", "rifle"]
   },
   {
@@ -565,8 +1087,26 @@
     "image": "",
     "description": "<p><!-- Summary Start -->Alternate version of the disposable hunting rifle.<!-- Summary End --> A long-arm used by soldiers in combat and sportsmen in pursuit of game. This version is constructed of relatively inexpensive materials and has a working lifetime measured in days.</p>",
     "stats": [],
+    "accessories": ["160-012-00001", "160-012-00002", "160-012-00003", "160-012-00004", "160-012-00005", "160-012-00006", "160-012-00007", "160-011-00012", "160-011-00013", "160-011-00014", "160-011-00015", "160-011-00016", "160-011-00017", "160-011-00018", "160-011-00019", "160-011-00020", "160-011-00021"],
     "categories": ["weapons", "rifle"],
-    "sources": [],
+    "sources": [
+      {
+        "publication": "Traveller 5.10 Core Rules Book 1 : Characters and Combat",
+        "authors": ["Miller, Marc"],
+        "publisher": {
+          "name": "Far Future Enterprises",
+          "url": "https://farfuture.net"
+        }
+      },
+      {
+        "publication": "Traveller 5.10 Core Rules Book 3 : Worlds and Adventures",
+        "authors": ["Miller, Marc"],
+        "publisher": {
+          "name": "Far Future Enterprises",
+          "url": "https://farfuture.net"
+        }
+      }
+    ],
     "tags": ["products", "weapons", "rifle"]
   },
   {
@@ -584,8 +1124,26 @@
     "image": "",
     "description": "<p><!-- Summary Start -->Target version of the disposable battle rifle.<!-- Summary End --> Battle rifles are designed for the battlefield by soldiers. It is optimized for accuracy and is characterized by an ability to hit person-size targets at the limit of unaided vision (~1000 meters). This version is constructed of relatively inexpensive materials and has a working lifetime measured in days. </p>",
     "stats": [],
+    "accessories": ["160-012-00001", "160-012-00002", "160-012-00003", "160-012-00004", "160-012-00005", "160-012-00006", "160-012-00007", "160-011-00002", "160-011-00003", "160-011-00004", "160-011-00005", "160-011-00006", "160-011-00007", "160-011-00008", "160-011-00009", "160-011-00010", "160-011-00011"],
     "categories": ["weapons", "rifle"],
-    "sources": [],
+    "sources": [
+      {
+        "publication": "Traveller 5.10 Core Rules Book 1 : Characters and Combat",
+        "authors": ["Miller, Marc"],
+        "publisher": {
+          "name": "Far Future Enterprises",
+          "url": "https://farfuture.net"
+        }
+      },
+      {
+        "publication": "Traveller 5.10 Core Rules Book 3 : Worlds and Adventures",
+        "authors": ["Miller, Marc"],
+        "publisher": {
+          "name": "Far Future Enterprises",
+          "url": "https://farfuture.net"
+        }
+      }
+    ],
     "tags": ["products", "weapons", "rifle"]
   },
   {
@@ -603,8 +1161,26 @@
     "image": "",
     "description": "<p><!-- Summary Start -->Obsolete version of the dart rifle.<!-- Summary End --> The dart rifle fires a small injector projectile which on contact injects a Tranq dose into the target.</p>",
     "stats": [],
+    "accessories": ["160-012-00001", "160-012-00002", "160-012-00003", "160-012-00004", "160-012-00005", "160-012-00006", "160-012-00007", "160-011-00012", "160-011-00013", "160-011-00014", "160-011-00015", "160-011-00016", "160-011-00017", "160-011-00018", "160-011-00019", "160-011-00020", "160-011-00021"],
     "categories": ["weapons", "rifle"],
-    "sources": [],
+    "sources": [
+      {
+        "publication": "Traveller 5.10 Core Rules Book 1 : Characters and Combat",
+        "authors": ["Miller, Marc"],
+        "publisher": {
+          "name": "Far Future Enterprises",
+          "url": "https://farfuture.net"
+        }
+      },
+      {
+        "publication": "Traveller 5.10 Core Rules Book 3 : Worlds and Adventures",
+        "authors": ["Miller, Marc"],
+        "publisher": {
+          "name": "Far Future Enterprises",
+          "url": "https://farfuture.net"
+        }
+      }
+    ],
     "tags": ["products", "weapons", "rifle"]
   },
   {
@@ -623,7 +1199,24 @@
     "description": "<p><!-- Summary Start -->Target version of the laser rifle.<!-- Summary End --> This version of the laser rifle is optimized for accuracy.</p>",
     "stats": [],
     "categories": ["weapons", "rifle"],
-    "sources": [],
+    "sources": [
+      {
+        "publication": "Traveller 5.10 Core Rules Book 1 : Characters and Combat",
+        "authors": ["Miller, Marc"],
+        "publisher": {
+          "name": "Far Future Enterprises",
+          "url": "https://farfuture.net"
+        }
+      },
+      {
+        "publication": "Traveller 5.10 Core Rules Book 3 : Worlds and Adventures",
+        "authors": ["Miller, Marc"],
+        "publisher": {
+          "name": "Far Future Enterprises",
+          "url": "https://farfuture.net"
+        }
+      }
+    ],
     "tags": ["products", "weapons", "rifle"]
   },
   {
@@ -641,8 +1234,26 @@
     "image": "",
     "description": "<p><!-- Summary Start -->Remote-controlled version of the anti-designator battle rifle.<!-- Summary End --></p>",
     "stats": [],
+    "accessories": ["160-012-00001", "160-012-00002", "160-012-00003", "160-012-00004", "160-012-00005", "160-012-00006", "160-012-00007", "160-011-00002", "160-011-00003", "160-011-00004", "160-011-00005", "160-011-00006", "160-011-00007", "160-011-00008", "160-011-00009", "160-011-00010", "160-011-00011"],
     "categories": ["weapons", "rifle"],
-    "sources": [],
+    "sources": [
+      {
+        "publication": "Traveller 5.10 Core Rules Book 1 : Characters and Combat",
+        "authors": ["Miller, Marc"],
+        "publisher": {
+          "name": "Far Future Enterprises",
+          "url": "https://farfuture.net"
+        }
+      },
+      {
+        "publication": "Traveller 5.10 Core Rules Book 3 : Worlds and Adventures",
+        "authors": ["Miller, Marc"],
+        "publisher": {
+          "name": "Far Future Enterprises",
+          "url": "https://farfuture.net"
+        }
+      }
+    ],
     "tags": ["products", "weapons", "rifle"]
   },
   {
@@ -660,8 +1271,26 @@
     "image": "",
     "description": "<p><!-- Summary Start -->Remote-controlled version of the anti-designator poison dart rifle.<!-- Summary End --> The dart rifle fires a small injector projectile which on contact injects a poison dose into the target.</p>",
     "stats": [],
+    "accessories": ["160-012-00001", "160-012-00002", "160-012-00003", "160-012-00004", "160-012-00005", "160-012-00006", "160-012-00007", "160-011-00012", "160-011-00013", "160-011-00014", "160-011-00015", "160-011-00016", "160-011-00017", "160-011-00018", "160-011-00019", "160-011-00020", "160-011-00021"],
     "categories": ["weapons", "rifle"],
-    "sources": [],
+    "sources": [
+      {
+        "publication": "Traveller 5.10 Core Rules Book 1 : Characters and Combat",
+        "authors": ["Miller, Marc"],
+        "publisher": {
+          "name": "Far Future Enterprises",
+          "url": "https://farfuture.net"
+        }
+      },
+      {
+        "publication": "Traveller 5.10 Core Rules Book 3 : Worlds and Adventures",
+        "authors": ["Miller, Marc"],
+        "publisher": {
+          "name": "Far Future Enterprises",
+          "url": "https://farfuture.net"
+        }
+      }
+    ],
     "tags": ["products", "weapons", "rifle"]
   },
   {
@@ -679,8 +1308,26 @@
     "image": "",
     "description": "<p><!-- Summary Start -->Sniper version of the anti-designator poison dart rifle.<!-- Summary End --> This version of the weapon has been optimized for accuracy at extended ranges.</p>",
     "stats": [],
+    "accessories": ["160-012-00001", "160-012-00002", "160-012-00003", "160-012-00004", "160-012-00005", "160-012-00006", "160-012-00007", "160-011-00012", "160-011-00013", "160-011-00014", "160-011-00015", "160-011-00016", "160-011-00017", "160-011-00018", "160-011-00019", "160-011-00020", "160-011-00021"],
     "categories": ["weapons", "rifle"],
-    "sources": [],
+    "sources": [
+      {
+        "publication": "Traveller 5.10 Core Rules Book 1 : Characters and Combat",
+        "authors": ["Miller, Marc"],
+        "publisher": {
+          "name": "Far Future Enterprises",
+          "url": "https://farfuture.net"
+        }
+      },
+      {
+        "publication": "Traveller 5.10 Core Rules Book 3 : Worlds and Adventures",
+        "authors": ["Miller, Marc"],
+        "publisher": {
+          "name": "Far Future Enterprises",
+          "url": "https://farfuture.net"
+        }
+      }
+    ],
     "tags": ["products", "weapons", "rifle"]
   },
   {
@@ -698,8 +1345,26 @@
     "image": "",
     "description": "<p><!-- Summary Start -->Alternate version of the anti-designator splat rifle.<!-- Summary End --> The weapon is a multi-barrel slightly diverging configuration. Each barrel is loaded with several projectiles and their associated propellants. Each pull of the trigger fires one round from each of the barrels.</p>",
     "stats": [],
+    "accessories": ["160-012-00001", "160-012-00002", "160-012-00003", "160-012-00004", "160-012-00005", "160-012-00006", "160-012-00007", "160-011-00002", "160-011-00003", "160-011-00004", "160-011-00005", "160-011-00006", "160-011-00007", "160-011-00008", "160-011-00009", "160-011-00010", "160-011-00011"],
     "categories": ["weapons", "rifle"],
-    "sources": [],
+    "sources": [
+      {
+        "publication": "Traveller 5.10 Core Rules Book 1 : Characters and Combat",
+        "authors": ["Miller, Marc"],
+        "publisher": {
+          "name": "Far Future Enterprises",
+          "url": "https://farfuture.net"
+        }
+      },
+      {
+        "publication": "Traveller 5.10 Core Rules Book 3 : Worlds and Adventures",
+        "authors": ["Miller, Marc"],
+        "publisher": {
+          "name": "Far Future Enterprises",
+          "url": "https://farfuture.net"
+        }
+      }
+    ],
     "tags": ["products", "weapons", "rifle"]
   },
   {
@@ -717,8 +1382,26 @@
     "image": "",
     "description": "<p><!-- Summary Start -->Experimental version of the recoilless gauss rifle.<!-- Summary End --> This weapon electromagnetically accelerates a projectile and spin stabilizes it through magnetic effects.</p>",
     "stats": [],
+    "accessories": ["160-012-00001", "160-012-00002", "160-012-00003", "160-012-00004", "160-012-00005", "160-012-00006", "160-012-00007", "160-011-00062", "160-011-00063", "160-011-00064", "160-011-00065", "160-011-00066", "160-011-00067", "160-011-00068", "160-011-00069", "160-011-00070", "160-011-00071"],
     "categories": ["weapons", "rifle"],
-    "sources": [],
+    "sources": [
+      {
+        "publication": "Traveller 5.10 Core Rules Book 1 : Characters and Combat",
+        "authors": ["Miller, Marc"],
+        "publisher": {
+          "name": "Far Future Enterprises",
+          "url": "https://farfuture.net"
+        }
+      },
+      {
+        "publication": "Traveller 5.10 Core Rules Book 3 : Worlds and Adventures",
+        "authors": ["Miller, Marc"],
+        "publisher": {
+          "name": "Far Future Enterprises",
+          "url": "https://farfuture.net"
+        }
+      }
+    ],
     "tags": ["products", "weapons", "rifle"]
   },
   {
@@ -736,8 +1419,26 @@
     "image": "",
     "description": "<p><!-- Summary Start -->Obsolete version of the snub dart rifle.<!-- Summary End --> The dart rifle fires a small injector projectile which on contact injects a poison dose into the target.</p>",
     "stats": [],
+    "accessories": ["160-012-00001", "160-012-00002", "160-012-00003", "160-012-00004", "160-012-00005", "160-012-00006", "160-012-00007", "160-011-00012", "160-011-00013", "160-011-00014", "160-011-00015", "160-011-00016", "160-011-00017", "160-011-00018", "160-011-00019", "160-011-00020", "160-011-00021"],
     "categories": ["weapons", "rifle"],
-    "sources": [],
+    "sources": [
+      {
+        "publication": "Traveller 5.10 Core Rules Book 1 : Characters and Combat",
+        "authors": ["Miller, Marc"],
+        "publisher": {
+          "name": "Far Future Enterprises",
+          "url": "https://farfuture.net"
+        }
+      },
+      {
+        "publication": "Traveller 5.10 Core Rules Book 3 : Worlds and Adventures",
+        "authors": ["Miller, Marc"],
+        "publisher": {
+          "name": "Far Future Enterprises",
+          "url": "https://farfuture.net"
+        }
+      }
+    ],
     "tags": ["products", "weapons", "rifle"]
   },
   {
@@ -755,8 +1456,26 @@
     "image": "",
     "description": "<p><!-- Summary Start -->Obsolete version of the very heavy assault rifle.<!-- Summary End --> The assault rifle is designed for use by soldiers on the battlefield. The weapon is characterized by an ability to hit person-size targets at moderate ranges (~500 meters). It is capable of firing bullets and explosive projectiles.</p>",
     "stats": [],
+    "accessories": ["160-012-00001", "160-012-00002", "160-012-00003", "160-012-00004", "160-012-00005", "160-012-00006", "160-012-00007", "160-011-00012", "160-011-00013", "160-011-00014", "160-011-00015", "160-011-00016", "160-011-00017", "160-011-00018", "160-011-00019", "160-011-00020", "160-011-00021"],
     "categories": ["weapons", "rifle"],
-    "sources": [],
+    "sources": [
+      {
+        "publication": "Traveller 5.10 Core Rules Book 1 : Characters and Combat",
+        "authors": ["Miller, Marc"],
+        "publisher": {
+          "name": "Far Future Enterprises",
+          "url": "https://farfuture.net"
+        }
+      },
+      {
+        "publication": "Traveller 5.10 Core Rules Book 3 : Worlds and Adventures",
+        "authors": ["Miller, Marc"],
+        "publisher": {
+          "name": "Far Future Enterprises",
+          "url": "https://farfuture.net"
+        }
+      }
+    ],
     "tags": ["products", "weapons", "rifle"]
   },
   {
@@ -774,8 +1493,26 @@
     "image": "",
     "description": "<p><!-- Summary Start -->The gauss rifle electromagnetically accelerates a projectile and spin stabilizes it through magnetic effects<!-- Summary End --></p>",
     "stats": [],
+    "accessories": ["160-012-00001", "160-012-00002", "160-012-00003", "160-012-00004", "160-012-00005", "160-012-00006", "160-012-00007", "160-011-00062", "160-011-00063", "160-011-00064", "160-011-00065", "160-011-00066", "160-011-00067", "160-011-00068", "160-011-00069", "160-011-00070", "160-011-00071"],
     "categories": ["weapons", "rifle"],
-    "sources": [],
+    "sources": [
+      {
+        "publication": "Traveller 5.10 Core Rules Book 1 : Characters and Combat",
+        "authors": ["Miller, Marc"],
+        "publisher": {
+          "name": "Far Future Enterprises",
+          "url": "https://farfuture.net"
+        }
+      },
+      {
+        "publication": "Traveller 5.10 Core Rules Book 3 : Worlds and Adventures",
+        "authors": ["Miller, Marc"],
+        "publisher": {
+          "name": "Far Future Enterprises",
+          "url": "https://farfuture.net"
+        }
+      }
+    ],
     "tags": ["products", "weapons", "rifle"]
   },
   {
@@ -793,8 +1530,26 @@
     "image": "",
     "description": "<p><!-- Summary Start -->Obsolete version of the disposable survival rifle.<!-- Summary End --> A long-arm designed for use in survival situations. This version is constructed of relatively inexpensive materials and has a working lifetime measured in days.</p>",
     "stats": [],
+    "accessories": ["160-012-00001", "160-012-00002", "160-012-00003", "160-012-00004", "160-012-00005", "160-012-00006", "160-012-00007", "160-011-00012", "160-011-00013", "160-011-00014", "160-011-00015", "160-011-00016", "160-011-00017", "160-011-00018", "160-011-00019", "160-011-00020", "160-011-00021"],
     "categories": ["weapons", "rifle"],
-    "sources": [],
+    "sources": [
+      {
+        "publication": "Traveller 5.10 Core Rules Book 1 : Characters and Combat",
+        "authors": ["Miller, Marc"],
+        "publisher": {
+          "name": "Far Future Enterprises",
+          "url": "https://farfuture.net"
+        }
+      },
+      {
+        "publication": "Traveller 5.10 Core Rules Book 3 : Worlds and Adventures",
+        "authors": ["Miller, Marc"],
+        "publisher": {
+          "name": "Far Future Enterprises",
+          "url": "https://farfuture.net"
+        }
+      }
+    ],
     "tags": ["products", "weapons", "rifle"]
   },
   {
@@ -812,8 +1567,26 @@
     "image": "",
     "description": "<p><!-- Summary Start -->Advanced version of the light accelerator rifle.<!-- Summary End --> The weapon fires a projectile at a low initial velocity; after it leaves the barrel, an internal charge accelerates the bullet to greater velocities. Accelerator weapons have low recoil and are well adapted to zero-G environments.</p>",
     "stats": [],
+    "accessories": ["160-012-00001", "160-012-00002", "160-012-00003", "160-012-00004", "160-012-00005", "160-012-00006", "160-012-00007", "160-011-00012", "160-011-00013", "160-011-00014", "160-011-00015", "160-011-00016", "160-011-00017", "160-011-00018", "160-011-00019", "160-011-00020", "160-011-00021"],
     "categories": ["weapons", "rifle"],
-    "sources": [],
+    "sources": [
+      {
+        "publication": "Traveller 5.10 Core Rules Book 1 : Characters and Combat",
+        "authors": ["Miller, Marc"],
+        "publisher": {
+          "name": "Far Future Enterprises",
+          "url": "https://farfuture.net"
+        }
+      },
+      {
+        "publication": "Traveller 5.10 Core Rules Book 3 : Worlds and Adventures",
+        "authors": ["Miller, Marc"],
+        "publisher": {
+          "name": "Far Future Enterprises",
+          "url": "https://farfuture.net"
+        }
+      }
+    ],
     "tags": ["products", "weapons", "rifle"]
   },
   {
@@ -831,8 +1604,26 @@
     "image": "",
     "description": "<p><!-- Summary Start -->The gauss carbine electromagnetically accelerates a projectile and spin stabilizes it through magnetic effects<!-- Summary End --> The gauss carbine is smaller in size and lighter in weight than the gauss rifle.</p>",
     "stats": [],
+    "accessories": ["160-012-00001", "160-012-00002", "160-012-00003", "160-012-00004", "160-012-00005", "160-012-00006", "160-012-00007", "160-011-00062", "160-011-00063", "160-011-00064", "160-011-00065", "160-011-00066", "160-011-00067", "160-011-00068", "160-011-00069", "160-011-00070", "160-011-00071"],
     "categories": ["weapons", "carbine"],
-    "sources": [],
+    "sources": [
+      {
+        "publication": "Traveller 5.10 Core Rules Book 1 : Characters and Combat",
+        "authors": ["Miller, Marc"],
+        "publisher": {
+          "name": "Far Future Enterprises",
+          "url": "https://farfuture.net"
+        }
+      },
+      {
+        "publication": "Traveller 5.10 Core Rules Book 3 : Worlds and Adventures",
+        "authors": ["Miller, Marc"],
+        "publisher": {
+          "name": "Far Future Enterprises",
+          "url": "https://farfuture.net"
+        }
+      }
+    ],
     "tags": ["products", "weapons", "carbine"]
   },
   {
@@ -850,8 +1641,26 @@
     "image": "",
     "description": "<p><!-- Summary Start -->Modified version of the disposable splat carbine.<!-- Summary End --> The weapon is a multi-barrel slightly diverging configuration. Each barrel is loaded with several projectiles and their associated propellants. Each pull of the trigger fires one round from each of the barrels. The weapon is smaller and lighter than the rifle version. This version is constructed of relatively inexpensive materials and has a working lifetime measured in days.</p>",
     "stats": [],
+    "accessories": ["160-012-00001", "160-012-00002", "160-012-00003", "160-012-00004", "160-012-00005", "160-012-00006", "160-012-00007", "160-011-00002", "160-011-00003", "160-011-00004", "160-011-00005", "160-011-00006", "160-011-00007", "160-011-00008", "160-011-00009", "160-011-00010", "160-011-00011"],
     "categories": ["weapons", "carbine"],
-    "sources": [],
+    "sources": [
+      {
+        "publication": "Traveller 5.10 Core Rules Book 1 : Characters and Combat",
+        "authors": ["Miller, Marc"],
+        "publisher": {
+          "name": "Far Future Enterprises",
+          "url": "https://farfuture.net"
+        }
+      },
+      {
+        "publication": "Traveller 5.10 Core Rules Book 3 : Worlds and Adventures",
+        "authors": ["Miller, Marc"],
+        "publisher": {
+          "name": "Far Future Enterprises",
+          "url": "https://farfuture.net"
+        }
+      }
+    ],
     "tags": ["products", "weapons", "carbine"]
   },
   {
@@ -869,8 +1678,26 @@
     "image": "",
     "description": "<p><!-- Summary Start -->Advanced version of the disposable combat rifle.<!-- Summary End --> The combat rifle is designed for use in combat by soldiers. It is characterized by an ability to hit person-size targets at relatively short ranges (~150 meters) using explosive projectiles. This version is constructed of relatively inexpensive materials and has a working lifetime measured in days.</p>",
     "stats": [],
+    "accessories": ["160-012-00001", "160-012-00002", "160-012-00003", "160-012-00004", "160-012-00005", "160-012-00006", "160-012-00007", "160-011-00012", "160-011-00013", "160-011-00014", "160-011-00015", "160-011-00016", "160-011-00017", "160-011-00018", "160-011-00019", "160-011-00020", "160-011-00021"],
     "categories": ["weapons", "rifle"],
-    "sources": [],
+    "sources": [
+      {
+        "publication": "Traveller 5.10 Core Rules Book 1 : Characters and Combat",
+        "authors": ["Miller, Marc"],
+        "publisher": {
+          "name": "Far Future Enterprises",
+          "url": "https://farfuture.net"
+        }
+      },
+      {
+        "publication": "Traveller 5.10 Core Rules Book 3 : Worlds and Adventures",
+        "authors": ["Miller, Marc"],
+        "publisher": {
+          "name": "Far Future Enterprises",
+          "url": "https://farfuture.net"
+        }
+      }
+    ],
     "tags": ["products", "weapons", "rifle"]
   },
   {
@@ -888,8 +1715,26 @@
     "image": "",
     "description": "<p><!-- Summary Start -->Sniper version of the very heavy gauss rifle.<!-- Summary End --> This weapon electromagnetically accelerates a projectile and spin stabilizes it through magnetic effects. This version of the weapon has been optimized for accuracy at extreme ranges.</p>",
     "stats": [],
+    "accessories": ["160-012-00001", "160-012-00002", "160-012-00003", "160-012-00004", "160-012-00005", "160-012-00006", "160-012-00007", "160-011-00062", "160-011-00063", "160-011-00064", "160-011-00065", "160-011-00066", "160-011-00067", "160-011-00068", "160-011-00069", "160-011-00070", "160-011-00071"],
     "categories": ["weapons", "rifle"],
-    "sources": [],
+    "sources": [
+      {
+        "publication": "Traveller 5.10 Core Rules Book 1 : Characters and Combat",
+        "authors": ["Miller, Marc"],
+        "publisher": {
+          "name": "Far Future Enterprises",
+          "url": "https://farfuture.net"
+        }
+      },
+      {
+        "publication": "Traveller 5.10 Core Rules Book 3 : Worlds and Adventures",
+        "authors": ["Miller, Marc"],
+        "publisher": {
+          "name": "Far Future Enterprises",
+          "url": "https://farfuture.net"
+        }
+      }
+    ],
     "tags": ["products", "weapons", "rifle"]
   },
   {
@@ -907,8 +1752,26 @@
     "image": "",
     "description": "<p><!-- Summary Start -->Basic version of the very light gauss rifle.<!-- Summary End --> This weapon electromagnetically accelerates a projectile and spin stabilizes it through magnetic effects.</p>",
     "stats": [],
+    "accessories": ["160-012-00001", "160-012-00002", "160-012-00003", "160-012-00004", "160-012-00005", "160-012-00006", "160-012-00007", "160-011-00062", "160-011-00063", "160-011-00064", "160-011-00065", "160-011-00066", "160-011-00067", "160-011-00068", "160-011-00069", "160-011-00070", "160-011-00071"],
     "categories": ["weapons", "rifle"],
-    "sources": [],
+    "sources": [
+      {
+        "publication": "Traveller 5.10 Core Rules Book 1 : Characters and Combat",
+        "authors": ["Miller, Marc"],
+        "publisher": {
+          "name": "Far Future Enterprises",
+          "url": "https://farfuture.net"
+        }
+      },
+      {
+        "publication": "Traveller 5.10 Core Rules Book 3 : Worlds and Adventures",
+        "authors": ["Miller, Marc"],
+        "publisher": {
+          "name": "Far Future Enterprises",
+          "url": "https://farfuture.net"
+        }
+      }
+    ],
     "tags": ["products", "weapons", "rifle"]
   },
   {
@@ -927,7 +1790,24 @@
     "description": "<p><!-- Summary Start -->Alternate version of the laser rifle.<!-- Summary End --> The weapon fires a coherent beam of photons at the target. This version is constructed of relatively inexpensive materials and has a working lifetime measured in days.</p>",
     "stats": [],
     "categories": ["weapons", "rifle"],
-    "sources": [],
+    "sources": [
+      {
+        "publication": "Traveller 5.10 Core Rules Book 1 : Characters and Combat",
+        "authors": ["Miller, Marc"],
+        "publisher": {
+          "name": "Far Future Enterprises",
+          "url": "https://farfuture.net"
+        }
+      },
+      {
+        "publication": "Traveller 5.10 Core Rules Book 3 : Worlds and Adventures",
+        "authors": ["Miller, Marc"],
+        "publisher": {
+          "name": "Far Future Enterprises",
+          "url": "https://farfuture.net"
+        }
+      }
+    ],
     "tags": ["products", "weapons", "rifle"]
   },
   {
@@ -945,8 +1825,26 @@
     "image": "",
     "description": "<p><!-- Summary Start -->Modified version of the disposable accelerator carbine.<!-- Summary End --> The weapon fires a projectile at a low initial velocity; after it leaves the barrel, an internal charge accelerates the bullet to greater velocities. Accelerator weapons have low recoil and are well adapted to zero-G environments. The carbine version of the weapon is shorter and lighter than its rifle counterpart. This version is constructed of relatively inexpensive materials and has a working lifetime measured in days.</p>",
     "stats": [],
+    "accessories": ["160-012-00001", "160-012-00002", "160-012-00003", "160-012-00004", "160-012-00005", "160-012-00006", "160-012-00007", "160-011-00012", "160-011-00013", "160-011-00014", "160-011-00015", "160-011-00016", "160-011-00017", "160-011-00018", "160-011-00019", "160-011-00020", "160-011-00021"],
     "categories": ["weapons", "carbine"],
-    "sources": [],
+    "sources": [
+      {
+        "publication": "Traveller 5.10 Core Rules Book 1 : Characters and Combat",
+        "authors": ["Miller, Marc"],
+        "publisher": {
+          "name": "Far Future Enterprises",
+          "url": "https://farfuture.net"
+        }
+      },
+      {
+        "publication": "Traveller 5.10 Core Rules Book 3 : Worlds and Adventures",
+        "authors": ["Miller, Marc"],
+        "publisher": {
+          "name": "Far Future Enterprises",
+          "url": "https://farfuture.net"
+        }
+      }
+    ],
     "tags": ["products", "weapons", "carbine"]
   },
   {
@@ -964,8 +1862,26 @@
     "image": "",
     "description": "<p><!-- Summary Start -->Target version of the disposable gauss rifle.<!-- Summary End --> This weapon electromagnetically accelerates a projectile and spin stabilizes it through magnetic effects. This version is constructed of relatively inexpensive materials and has a working lifetime measured in days.</p>",
     "stats": [],
+    "accessories": ["160-012-00001", "160-012-00002", "160-012-00003", "160-012-00004", "160-012-00005", "160-012-00006", "160-012-00007", "160-011-00062", "160-011-00063", "160-011-00064", "160-011-00065", "160-011-00066", "160-011-00067", "160-011-00068", "160-011-00069", "160-011-00070", "160-011-00071"],
     "categories": ["weapons", "rifle"],
-    "sources": [],
+    "sources": [
+      {
+        "publication": "Traveller 5.10 Core Rules Book 1 : Characters and Combat",
+        "authors": ["Miller, Marc"],
+        "publisher": {
+          "name": "Far Future Enterprises",
+          "url": "https://farfuture.net"
+        }
+      },
+      {
+        "publication": "Traveller 5.10 Core Rules Book 3 : Worlds and Adventures",
+        "authors": ["Miller, Marc"],
+        "publisher": {
+          "name": "Far Future Enterprises",
+          "url": "https://farfuture.net"
+        }
+      }
+    ],
     "tags": ["products", "weapons", "rifle"]
   },
   {
@@ -984,7 +1900,24 @@
     "description": "<p><!-- Summary Start -->Modified version of the anti-designator laser carbine.<!-- Summary End --> The carbine version of the weapon is shorter and lighter than its rifle counterpart.</p>",
     "stats": [],
     "categories": ["weapons", "carbine"],
-    "sources": [],
+    "sources": [
+      {
+        "publication": "Traveller 5.10 Core Rules Book 1 : Characters and Combat",
+        "authors": ["Miller, Marc"],
+        "publisher": {
+          "name": "Far Future Enterprises",
+          "url": "https://farfuture.net"
+        }
+      },
+      {
+        "publication": "Traveller 5.10 Core Rules Book 3 : Worlds and Adventures",
+        "authors": ["Miller, Marc"],
+        "publisher": {
+          "name": "Far Future Enterprises",
+          "url": "https://farfuture.net"
+        }
+      }
+    ],
     "tags": ["products", "weapons", "carbine"]
   },
   {
@@ -1002,8 +1935,26 @@
     "image": "",
     "description": "<p><!-- Summary Start -->Basic version of the disposable gauss carbine.<!-- Summary End -->  This weapon electromagnetically accelerates a projectile and spin stabilizes it through magnetic effects. This version is constructed of relatively inexpensive materials and has a working lifetime measured in days.</p>",
     "stats": [],
+    "accessories": ["160-012-00001", "160-012-00002", "160-012-00003", "160-012-00004", "160-012-00005", "160-012-00006", "160-012-00007", "160-011-00062", "160-011-00063", "160-011-00064", "160-011-00065", "160-011-00066", "160-011-00067", "160-011-00068", "160-011-00069", "160-011-00070", "160-011-00071"],
     "categories": ["weapons", "carbine"],
-    "sources": [],
+    "sources": [
+      {
+        "publication": "Traveller 5.10 Core Rules Book 1 : Characters and Combat",
+        "authors": ["Miller, Marc"],
+        "publisher": {
+          "name": "Far Future Enterprises",
+          "url": "https://farfuture.net"
+        }
+      },
+      {
+        "publication": "Traveller 5.10 Core Rules Book 3 : Worlds and Adventures",
+        "authors": ["Miller, Marc"],
+        "publisher": {
+          "name": "Far Future Enterprises",
+          "url": "https://farfuture.net"
+        }
+      }
+    ],
     "tags": ["products", "weapons", "carbine"]
   },
   {
@@ -1021,8 +1972,26 @@
     "image": "",
     "description": "<p><!-- Summary Start -->Remote-controlled version of the anti-designator gauss carbine.<!-- Summary End --> This weapon electromagnetically accelerates a projectile and spin stabilizes it through magnetic effects. The carbine version of the weapon is shorter and lighter than its rifle counterpart.</p>",
     "stats": [],
+    "accessories": ["160-012-00001", "160-012-00002", "160-012-00003", "160-012-00004", "160-012-00005", "160-012-00006", "160-012-00007", "160-011-00062", "160-011-00063", "160-011-00064", "160-011-00065", "160-011-00066", "160-011-00067", "160-011-00068", "160-011-00069", "160-011-00070", "160-011-00071"],
     "categories": ["weapons", "carbine"],
-    "sources": [],
+    "sources": [
+      {
+        "publication": "Traveller 5.10 Core Rules Book 1 : Characters and Combat",
+        "authors": ["Miller, Marc"],
+        "publisher": {
+          "name": "Far Future Enterprises",
+          "url": "https://farfuture.net"
+        }
+      },
+      {
+        "publication": "Traveller 5.10 Core Rules Book 3 : Worlds and Adventures",
+        "authors": ["Miller, Marc"],
+        "publisher": {
+          "name": "Far Future Enterprises",
+          "url": "https://farfuture.net"
+        }
+      }
+    ],
     "tags": ["products", "weapons", "carbine"]
   },
   {
@@ -1040,8 +2009,26 @@
     "image": "",
     "description": "<p><!-- Summary Start -->Modified version of the disposable gauss rifle.<!-- Summary End --> This weapon electromagnetically accelerates a projectile and spin stabilizes it through magnetic effects. This version is constructed of relatively inexpensive materials and has a working lifetime measured in days.</p>",
     "stats": [],
+    "accessories": ["160-012-00001", "160-012-00002", "160-012-00003", "160-012-00004", "160-012-00005", "160-012-00006", "160-012-00007", "160-011-00062", "160-011-00063", "160-011-00064", "160-011-00065", "160-011-00066", "160-011-00067", "160-011-00068", "160-011-00069", "160-011-00070", "160-011-00071"],
     "categories": ["weapons", "rifle"],
-    "sources": [],
+    "sources": [
+      {
+        "publication": "Traveller 5.10 Core Rules Book 1 : Characters and Combat",
+        "authors": ["Miller, Marc"],
+        "publisher": {
+          "name": "Far Future Enterprises",
+          "url": "https://farfuture.net"
+        }
+      },
+      {
+        "publication": "Traveller 5.10 Core Rules Book 3 : Worlds and Adventures",
+        "authors": ["Miller, Marc"],
+        "publisher": {
+          "name": "Far Future Enterprises",
+          "url": "https://farfuture.net"
+        }
+      }
+    ],
     "tags": ["products", "weapons", "rifle"]
   },
   {
@@ -1059,8 +2046,26 @@
     "image": "",
     "description": "<p><!-- Summary Start -->Advanced version of the anti-designator gauss carbine.<!-- Summary End --> This weapon electromagnetically accelerates a projectile and spin stabilizes it through magnetic effects. The carbine version is shorter and lighter than its rifle counterpart.</p>",
     "stats": [],
+    "accessories": ["160-012-00001", "160-012-00002", "160-012-00003", "160-012-00004", "160-012-00005", "160-012-00006", "160-012-00007", "160-011-00062", "160-011-00063", "160-011-00064", "160-011-00065", "160-011-00066", "160-011-00067", "160-011-00068", "160-011-00069", "160-011-00070", "160-011-00071"],
     "categories": ["weapons", "carbine"],
-    "sources": [],
+    "sources": [
+      {
+        "publication": "Traveller 5.10 Core Rules Book 1 : Characters and Combat",
+        "authors": ["Miller, Marc"],
+        "publisher": {
+          "name": "Far Future Enterprises",
+          "url": "https://farfuture.net"
+        }
+      },
+      {
+        "publication": "Traveller 5.10 Core Rules Book 3 : Worlds and Adventures",
+        "authors": ["Miller, Marc"],
+        "publisher": {
+          "name": "Far Future Enterprises",
+          "url": "https://farfuture.net"
+        }
+      }
+    ],
     "tags": ["products", "weapons", "carbine"]
   }
 ]

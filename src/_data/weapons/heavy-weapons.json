@@ -14,6 +14,7 @@
     "image": "",
     "description": "<p><!-- Summary Start -->An experimental cannon turret for a spacecraft or starship.<!-- Summary End --></p>",
     "stats": [],
+    "accessories": ["160-011-00001"],
     "categories": ["weapons", "heavy weapons"],
     "sources": [
       {
@@ -50,6 +51,7 @@
     "image": "",
     "description": "<p><!-- Summary Start -->A man-portable gun.<!-- Summary End -->A man-portable gun.</p>",
     "stats": [],
+    "accessories": ["160-011-00001"],
     "categories": ["weapons", "heavy weapons"],
     "sources": [
       {
@@ -86,6 +88,7 @@
     "image": "",
     "description": "<p><!-- Summary Start -->A man-portable medium gun.<!-- Summary End --></p>",
     "stats": [],
+    "accessories": ["160-011-00001"],
     "categories": ["weapons", "heavy weapons"],
     "sources": [
       {
@@ -122,6 +125,7 @@
     "image": "",
     "description": "<p><!-- Summary Start -->An early-stage, crewed Gatling gun.<!-- Summary End --></p>",
     "stats": [],
+    "accessories": ["160-011-00001"],
     "categories": ["weapons", "heavy weapons"],
     "sources": [
       {
@@ -158,6 +162,7 @@
     "image": "",
     "description": "<p><!-- Summary Start -->A fixed mount, anti-tank cannon.<!-- Summary End --></p>",
     "stats": [],
+    "accessories": ["160-011-00001"],
     "categories": ["weapons", "heavy weapons"],
     "sources": [
       {
@@ -194,6 +199,7 @@
     "image": "",
     "description": "<p><!-- Summary Start -->A prototype of a turret-mounted heavy cannon.<!-- Summary End --></p>",
     "stats": [],
+    "accessories": ["160-011-00001"],
     "categories": ["weapons", "heavy weapons"],
     "sources": [
       {
@@ -230,6 +236,7 @@
     "image": "",
     "description": "<p><!-- Summary Start -->An alternate version of a man-portable gun.<!-- Summary End --></p>",
     "stats": [],
+    "accessories": ["160-011-00001"],
     "categories": ["weapons", "heavy weapons"],
     "sources": [
       {
@@ -255,7 +262,7 @@
     "sku": "160-007-00008",
     "type": "weapons",
     "subtype": "heavy weapons",
-    "name": " Gun, Standard, Man Portable (StdGMP-7)",
+    "name": "Gun, Standard, Man Portable (StdGMP-7)",
     "mfr": "",
     "cost": 5000,
     "mass": 9,
@@ -266,7 +273,7 @@
     "image": "",
     "description": "<p><!-- Summary Start -->Standard, man-portable gun.<!-- Summary End --></p>",
     "stats": [],
-    "categories": ["weapons", "heavy weapons"],
+    "accessories": ["160-011-00001"],
     "sources": [
       {
         "publication": "Traveller 5.10 Core Rules Book 1 : Characters and Combat",
@@ -302,7 +309,7 @@
     "image": "",
     "description": "<p><!-- Summary Start -->A remote-controlled, man-portable heavy gun.<!-- Summary End --></p>",
     "stats": [],
-    "categories": ["weapons", "heavy weapons"],
+    "accessories": ["160-011-00001"],
     "sources": [
       {
         "publication": "Traveller 5.10 Core Rules Book 1 : Characters and Combat",
@@ -338,7 +345,7 @@
     "image": "",
     "description": "<p><!-- Summary Start -->A remote-controlled, man-portable, very heavy gun.<!-- Summary End --></p>",
     "stats": [],
-    "categories": ["weapons", "heavy weapons"],
+    "accessories": ["160-011-00001"],
     "sources": [
       {
         "publication": "Traveller 5.10 Core Rules Book 1 : Characters and Combat",
@@ -374,7 +381,7 @@
     "image": "",
     "description": "<p><!-- Summary Start -->a crewed Gatling gun.<!-- Summary End --></p>",
     "stats": [],
-    "categories": ["weapons", "heavy weapons"],
+    "accessories": ["160-011-00001"],
     "sources": [
       {
         "publication": "Traveller 5.10 Core Rules Book 1 : Characters and Combat",
@@ -410,7 +417,7 @@
     "image": "",
     "description": "<p><!-- Summary Start -->A modified, man-portable, gun.<!-- Summary End --></p>",
     "stats": [],
-    "categories": ["weapons", "heavy weapons"],
+    "accessories": ["160-011-00001"],
     "sources": [
       {
         "publication": "Traveller 5.10 Core Rules Book 1 : Characters and Combat",
@@ -446,7 +453,7 @@
     "image": "",
     "description": "<p><!-- Summary Start -->A basic, heavy, man-portable assault gun.<!-- Summary End --></p>",
     "stats": [],
-    "categories": ["weapons", "heavy weapons"],
+    "accessories": ["160-011-00001"],
     "sources": [
       {
         "publication": "Traveller 5.10 Core Rules Book 1 : Characters and Combat",
@@ -482,7 +489,7 @@
     "image": "",
     "description": "<p><!-- Summary Start -->A prototype, snub, man-portable assault gun.<!-- Summary End --></p>",
     "stats": [],
-    "categories": ["weapons", "heavy weapons"],
+    "accessories": ["160-011-00001"],
     "sources": [
       {
         "publication": "Traveller 5.10 Core Rules Book 1 : Characters and Combat",
@@ -518,7 +525,7 @@
     "image": "",
     "description": "<p><!-- Summary Start -->A remote-controlled, crewed Gatling gun.<!-- Summary End --></p>",
     "stats": [],
-    "categories": ["weapons", "heavy weapons"],
+    "accessories": ["160-011-00001"],
     "sources": [
       {
         "publication": "Traveller 5.10 Core Rules Book 1 : Characters and Combat",
@@ -554,7 +561,7 @@
     "image": "",
     "description": "<p><!-- Summary Start -->Standard crewed Gatling gun.<!-- Summary End --></p>",
     "stats": [],
-    "categories": ["weapons", "heavy weapons"],
+    "accessories": ["160-011-00001"],
     "sources": [
       {
         "publication": "Traveller 5.10 Core Rules Book 1 : Characters and Combat",
@@ -590,7 +597,7 @@
     "image": "",
     "description": "<p><!-- Summary Start -->An improved, man-portable medium assault gun.<!-- Summary End --></p>",
     "stats": [],
-    "categories": ["weapons", "heavy weapons"],
+    "accessories": ["160-011-00001"],
     "sources": [
       {
         "publication": "Traveller 5.10 Core Rules Book 1 : Characters and Combat",
@@ -626,7 +633,7 @@
     "image": "",
     "description": "<p><!-- Summary Start -->A man-portable assault Gatling gun.q<!-- Summary End --></p>",
     "stats": [],
-    "categories": ["weapons", "heavy weapons"],
+    "accessories": ["160-011-00001"],
     "sources": [
       {
         "publication": "Traveller 5.10 Core Rules Book 1 : Characters and Combat",
@@ -662,7 +669,7 @@
     "image": "",
     "description": "<p><!-- Summary Start -->A basic, man-portable light assault Gatling gun.<!-- Summary End --></p>",
     "stats": [],
-    "categories": ["weapons", "heavy weapons"],
+    "accessories": ["160-011-00001"],
     "sources": [
       {
         "publication": "Traveller 5.10 Core Rules Book 1 : Characters and Combat",
@@ -698,7 +705,7 @@
     "image": "",
     "description": "<p><!-- Summary Start -->A basic, crewed, medium assault Gatling gun.<!-- Summary End --></p>",
     "stats": [],
-    "categories": ["weapons", "heavy weapons"],
+    "accessories": ["160-011-00001"],
     "sources": [
       {
         "publication": "Traveller 5.10 Core Rules Book 1 : Characters and Combat",
@@ -734,7 +741,7 @@
     "image": "",
     "description": "<p><!-- Summary Start -->A crewed anti-flyer gun.<!-- Summary End --></p>",
     "stats": [],
-    "categories": ["weapons", "heavy weapons"],
+    "accessories": ["160-011-00001"],
     "sources": [
       {
         "publication": "Traveller 5.10 Core Rules Book 1 : Characters and Combat",
@@ -770,7 +777,7 @@
     "image": "",
     "description": "<p><!-- Summary Start -->An improved, disposable, man-portable gun.<!-- Summary End --> This version is constructed of relatively inexpensive materials and has a working lifetime measured in days.</p>",
     "stats": [],
-    "categories": ["weapons", "heavy weapons"],
+    "accessories": ["160-011-00001"],
     "sources": [
       {
         "publication": "Traveller 5.10 Core Rules Book 1 : Characters and Combat",
@@ -806,7 +813,7 @@
     "image": "",
     "description": "<p><!-- Summary Start -->A remote-controlled, man-portable medium assault Gatling gun.<!-- Summary End --></p>",
     "stats": [],
-    "categories": ["weapons", "heavy weapons"],
+    "accessories": ["160-011-00001"],
     "sources": [
       {
         "publication": "Traveller 5.10 Core Rules Book 1 : Characters and Combat",
@@ -842,7 +849,7 @@
     "image": "",
     "description": "<p><!-- Summary Start -->An improved, crewed, recoilless assault cannon.<!-- Summary End --></p>",
     "stats": [],
-    "categories": ["weapons", "heavy weapons"],
+    "accessories": ["160-011-00001"],
     "sources": [
       {
         "publication": "Traveller 5.10 Core Rules Book 1 : Characters and Combat",
@@ -878,7 +885,7 @@
     "image": "",
     "description": "<p><!-- Summary Start -->A remote-controlled, tank-mounted, anti-designator anti-tank Gatling gun.<!-- Summary End --></p>",
     "stats": [],
-    "categories": ["weapons", "heavy weapons"],
+    "accessories": ["160-011-00001"],
     "sources": [
       {
         "publication": "Traveller 5.10 Core Rules Book 1 : Characters and Combat",
@@ -914,7 +921,7 @@
     "image": "",
     "description": "<p><!-- Summary Start -->A standard, disposable, man-portable Gatling gun.<!-- Summary End --> This version is constructed of relatively inexpensive materials and has a working lifetime measured in days.</p>",
     "stats": [],
-    "categories": ["weapons", "heavy weapons"],
+    "accessories": ["160-011-00001"],
     "sources": [
       {
         "publication": "Traveller 5.10 Core Rules Book 1 : Characters and Combat",
@@ -950,7 +957,7 @@
     "image": "",
     "description": "<p><!-- Summary Start -->A fixed, recoilless anti-flyer cannon.<!-- Summary End --></p>",
     "stats": [],
-    "categories": ["weapons", "heavy weapons"],
+    "accessories": ["160-011-00001"],
     "sources": [
       {
         "publication": "Traveller 5.10 Core Rules Book 1 : Characters and Combat",
@@ -986,7 +993,7 @@
     "image": "",
     "description": "<p><!-- Summary Start -->A turret-mounted assault auto-cannon.<!-- Summary End --></p>",
     "stats": [],
-    "categories": ["weapons", "heavy weapons"],
+    "accessories": ["160-011-00001"],
     "sources": [
       {
         "publication": "Traveller 5.10 Core Rules Book 1 : Characters and Combat",
@@ -1022,7 +1029,7 @@
     "image": "",
     "description": "<p><!-- Summary Start -->An advanced, crewed, disposable anti-tank gun.<!-- Summary End --> This version is constructed of relatively inexpensive materials and has a working lifetime measured in days.</p>",
     "stats": [],
-    "categories": ["weapons", "heavy weapons"],
+    "accessories": ["160-011-00001"],
     "sources": [
       {
         "publication": "Traveller 5.10 Core Rules Book 1 : Characters and Combat",
@@ -1047,7 +1054,7 @@
     "sku": "160-007-000030",
     "type": "weapons",
     "subtype": "heavy weapons",
-    "name": " Anti-Flyer Gatling, Vheavy, Tank Mounted, Standard (StdVhaFGaV-12)",
+    "name": "Anti-Flyer Gatling, Vheavy, Tank Mounted, Standard (StdVhaFGaV-12)",
     "mfr": "",
     "cost": 48000,
     "mass": 960,
@@ -1058,7 +1065,7 @@
     "image": "",
     "description": "<p><!-- Summary Start -->A standard, tank-mounted, very heavy anti-flyer Gatling gun.<!-- Summary End --></p>",
     "stats": [],
-    "categories": ["weapons", "heavy weapons"],
+    "accessories": ["160-011-00001"],
     "sources": [
       {
         "publication": "Traveller 5.10 Core Rules Book 1 : Characters and Combat",
@@ -1094,7 +1101,7 @@
     "image": "",
     "description": "<p><!-- Summary Start -->A man-portable plasma gun.<!-- Summary End --></p>",
     "stats": [],
-    "categories": ["weapons", "heavy weapons"],
+    "accessories": ["160-011-00001"],
     "sources": [
       {
         "publication": "Traveller 5.10 Core Rules Book 1 : Characters and Combat",
@@ -1119,7 +1126,7 @@
     "sku": "160-007-000032",
     "type": "weapons",
     "subtype": "heavy weapons",
-    "name": " Anti-Flyer Gun, Snub, Man Portable, Modified (ModSnaFGMP-13)",
+    "name": "Anti-Flyer Gun, Snub, Man Portable, Modified (ModSnaFGMP-13)",
     "mfr": "",
     "cost": 90000,
     "mass": 34,
@@ -1130,7 +1137,7 @@
     "image": "",
     "description": "<p><!-- Summary Start -->A modified, snub, man-portable anti-flyer gun.<!-- Summary End --></p>",
     "stats": [],
-    "categories": ["weapons", "heavy weapons"],
+    "accessories": ["160-011-00001"],
     "sources": [
       {
         "publication": "Traveller 5.10 Core Rules Book 1 : Characters and Combat",
@@ -1166,7 +1173,7 @@
     "image": "",
     "description": "<p><!-- Summary Start -->An advanced, man-portable recoilless assault Gatling gun.<!-- Summary End --></p>",
     "stats": [],
-    "categories": ["weapons", "heavy weapons"],
+    "accessories": ["160-011-00001"],
     "sources": [
       {
         "publication": "Traveller 5.10 Core Rules Book 1 : Characters and Combat",
@@ -1202,7 +1209,7 @@
     "image": "",
     "description": "<p><!-- Summary Start -->Standard man-portable heavy gauss gun.<!-- Summary End --></p>",
     "stats": [],
-    "categories": ["weapons", "heavy weapons"],
+    "accessories": ["160-011-00001"],
     "sources": [
       {
         "publication": "Traveller 5.10 Core Rules Book 1 : Characters and Combat",
@@ -1238,7 +1245,7 @@
     "image": "",
     "description": "<p><!-- Summary Start -->An alternate man-portable, light plasma gun.<!-- Summary End --></p>",
     "stats": [],
-    "categories": ["weapons", "heavy weapons"],
+    "accessories": ["160-011-00001"],
     "sources": [
       {
         "publication": "Traveller 5.10 Core Rules Book 1 : Characters and Combat",
@@ -1274,7 +1281,7 @@
     "image": "",
     "description": "",
     "stats": [],
-    "categories": ["weapons", "heavy weapons"],
+    "accessories": ["160-011-00001"],
     "sources": [
       {
         "publication": "Traveller 5.10 Core Rules Book 1 : Characters and Combat",
@@ -1310,7 +1317,7 @@
     "image": "",
     "description": "<p><!-- Summary Start -->Crewed plasma Gatling gun.<!-- Summary End --></p>",
     "stats": [],
-    "categories": ["weapons", "heavy weapons"],
+    "accessories": ["160-011-00001"],
     "sources": [
       {
         "publication": "Traveller 5.10 Core Rules Book 1 : Characters and Combat",
@@ -1346,7 +1353,7 @@
     "image": "",
     "description": "<p><!-- Summary Start -->An experimental, turret-mounted, heavy fusion gatling gun.<!-- Summary End --></p>",
     "stats": [],
-    "categories": ["weapons", "heavy weapons"],
+    "accessories": ["160-011-00001"],
     "sources": [
       {
         "publication": "Traveller 5.10 Core Rules Book 1 : Characters and Combat",
@@ -1382,7 +1389,7 @@
     "image": "",
     "description": "<p><!-- Summary Start -->Alternate man-portable recoilless gauss Gatling gun.<!-- Summary End --></p>",
     "stats": [],
-    "categories": ["weapons", "heavy weapons"],
+    "accessories": ["160-011-00001"],
     "sources": [
       {
         "publication": "Traveller 5.10 Core Rules Book 1 : Characters and Combat",
@@ -1419,7 +1426,7 @@
     "image": "",
     "description": "<p><!-- Summary Start -->Crewed fusion Gatling gun.<!-- Summary End --></p>",
     "stats": [],
-    "categories": ["weapons", "heavy weapons"],
+    "accessories": ["160-011-00001"],
     "sources": [
       {
         "publication": "Traveller 5.10 Core Rules Book 1 : Characters and Combat",
@@ -1445,7 +1452,7 @@
     "sku": "160-007-000041",
     "type": "weapons",
     "subtype": "heavy weapons",
-    "name": " Plasma Gatling, Heavy, Crewed, Improved (ImHPGaC-15)",
+    "name": "Plasma Gatling, Heavy, Crewed, Improved (ImHPGaC-15)",
     "mfr": "",
     "cost": 19360,
     "mass": 130,
@@ -1456,7 +1463,7 @@
     "image": "",
     "description": "<p><!-- Summary Start -->An improved crewed heavy plasma Gatling gun.<!-- Summary End --></p>",
     "stats": [],
-    "categories": ["weapons", "heavy weapons"],
+    "accessories": ["160-011-00001"],
     "sources": [
       {
         "publication": "Traveller 5.10 Core Rules Book 1 : Characters and Combat",
@@ -1492,7 +1499,7 @@
     "image": "",
     "description": "<p><!-- Summary Start -->Alternate man-portable medium gauss Gatling gun.<!-- Summary End --></p>",
     "stats": [],
-    "categories": ["weapons", "heavy weapons"],
+    "accessories": ["160-011-00001"],
     "sources": [
       {
         "publication": "Traveller 5.10 Core Rules Book 1 : Characters and Combat",
@@ -1529,7 +1536,7 @@
     "image": "",
     "description": "<p><!-- Summary Start -->Crewed anti-designator plasma gun.<!-- Summary End --></p>",
     "stats": [],
-    "categories": ["weapons", "heavy weapons"],
+    "accessories": ["160-011-00001"],
     "sources": [
       {
         "publication": "Traveller 5.10 Core Rules Book 1 : Characters and Combat",
@@ -1566,7 +1573,7 @@
     "image": "",
     "description": "A modified, man-portable snub gauss gun.",
     "stats": [],
-    "categories": ["weapons", "heavy weapons"],
+    "accessories": ["160-011-00001"],
     "sources": [
       {
         "publication": "Traveller 5.10 Core Rules Book 1 : Characters and Combat",
@@ -1603,7 +1610,7 @@
     "image": "",
     "description": "<p><!-- Summary Start -->An improved, crewed light fusion Gatling gun.<!-- Summary End --></p>",
     "stats": [],
-    "categories": ["weapons", "heavy weapons"],
+    "accessories": ["160-011-00001"],
     "sources": [
       {
         "publication": "Traveller 5.10 Core Rules Book 1 : Characters and Combat",
@@ -1640,7 +1647,7 @@
     "image": "",
     "description": "<p><!-- Summary Start -->A remote-controlled crewed light fusion Gatling gun.<!-- Summary End --></p>",
     "stats": [],
-    "categories": ["weapons", "heavy weapons"],
+    "accessories": ["160-011-00001"],
     "sources": [
       {
         "publication": "Traveller 5.10 Core Rules Book 1 : Characters and Combat",
@@ -1677,7 +1684,7 @@
     "image": "",
     "description": "<p><!-- Summary Start -->Alternate crewed recoilless fusion Gatling gun.<!-- Summary End --></p>",
     "stats": [],
-    "categories": ["weapons", "heavy weapons"],
+    "accessories": ["160-011-00001"],
     "sources": [
       {
         "publication": "Traveller 5.10 Core Rules Book 1 : Characters and Combat",
@@ -1714,7 +1721,7 @@
     "image": "",
     "description": "An advanced, crewed very heavy gauss Gatling gun.",
     "stats": [],
-    "categories": ["weapons", "heavy weapons"],
+    "accessories": ["160-011-00001"],
     "sources": [
       {
         "publication": "Traveller 5.10 Core Rules Book 1 : Characters and Combat",
@@ -1751,7 +1758,7 @@
     "image": "",
     "description": "<p><!-- Summary Start -->A modified turret-mounted fusion cannon.<!-- Summary End --></p>",
     "stats": [],
-    "categories": ["weapons", "heavy weapons"],
+    "accessories": ["160-011-00001"],
     "sources": [
       {
         "publication": "Traveller 5.10 Core Rules Book 1 : Characters and Combat",
@@ -1788,7 +1795,7 @@
     "image": "",
     "description": "<p><!-- Summary Start -->A modified, turret-mounted light fusion cannon.<!-- Summary End --></p>",
     "stats": [],
-    "categories": ["weapons", "heavy weapons"],
+    "accessories": ["160-011-00001"],
     "sources": [
       {
         "publication": "Traveller 5.10 Core Rules Book 1 : Characters and Combat",
@@ -1825,7 +1832,7 @@
     "image": "",
     "description": "<p><!-- Summary Start -->A modified crewed anti-designator plasma gun.<!-- Summary End --></p>",
     "stats": [],
-    "categories": ["weapons", "heavy weapons"],
+    "accessories": ["160-011-00001"],
     "sources": [
       {
         "publication": "Traveller 5.10 Core Rules Book 1 : Characters and Combat",
@@ -1862,7 +1869,7 @@
     "image": "",
     "description": "<p><!-- Summary Start -->An advanced crewed very rapid firing (VRF) gauss gun.<!-- Summary End --></p>",
     "stats": [],
-    "categories": ["weapons", "heavy weapons"],
+    "accessories": ["160-011-00001"],
     "sources": [
       {
         "publication": "Traveller 5.10 Core Rules Book 1 : Characters and Combat",
@@ -1899,7 +1906,7 @@
     "image": "",
     "description": "<p><!-- Summary Start -->Standard crewed disposable plasma Gatling gun.<!-- Summary End --> This version is constructed of relatively inexpensive materials and has a working lifetime measured in days.</p>",
     "stats": [],
-    "categories": ["weapons", "heavy weapons"],
+    "accessories": ["160-011-00001"],
     "sources": [
       {
         "publication": "Traveller 5.10 Core Rules Book 1 : Characters and Combat",
@@ -1936,7 +1943,7 @@
     "image": "",
     "description": "<p><!-- Summary Start -->A modified, turret-mounted, very rapid firing (VRF) fusion gun.<!-- Summary End --></p>",
     "stats": [],
-    "categories": ["weapons", "heavy weapons"],
+    "accessories": ["160-011-00001"],
     "sources": [
       {
         "publication": "Traveller 5.10 Core Rules Book 1 : Characters and Combat",
@@ -1973,7 +1980,7 @@
     "image": "",
     "description": "<p><!-- Summary Start -->An advanced, turret-mounted, recoilless fusion cannon.<!-- Summary End --></p>",
     "stats": [],
-    "categories": ["weapons", "heavy weapons"],
+    "accessories": ["160-011-00001"],
     "sources": [
       {
         "publication": "Traveller 5.10 Core Rules Book 1 : Characters and Combat",
@@ -2010,7 +2017,7 @@
     "image": "",
     "description": "<p><!-- Summary Start -->An advanced crewed disposable gauss auto-cannon.<!-- Summary End --> This version is constructed of relatively inexpensive materials and has a working lifetime measured in days.</p>",
     "stats": [],
-    "categories": ["weapons", "heavy weapons"],
+    "accessories": ["160-011-00001"],
     "sources": [
       {
         "publication": "Traveller 5.10 Core Rules Book 1 : Characters and Combat",
