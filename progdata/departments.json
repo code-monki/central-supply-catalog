@@ -213,61 +213,73 @@
   {
     "id": "160-001",
     "label": "Melee Weapons",
-    "description": "A collection of clubs and other miscellaneous melee weapons"
+    "description": "A collection of clubs and other miscellaneous melee weapons",
+    "data": "./src/_data/weapons/melee.json"
   },
   {
     "id": "160-002",
     "label": "Blades",
-    "description": "A collection of bladed weapons"
+    "description": "A collection of bladed weapons",
+    "data": "./src/_data/weapons/blades.json"
   },
   {
     "id": "160-003",
     "label": "Pistols, Revolvers",
-    "description": "A collection of pistols and revolvers"
+    "description": "A collection of pistols and revolvers",
+    "data": "./src/_data/weapons/pistols-revolvers.json"
   },
   {
     "id": "160-004",
     "label": "Shotguns",
-    "description": "A collection of shotguns"
+    "description": "A collection of shotguns",
+    "data": "./src/_data/weapons/shotguns.json"
   },
   {
     "id": "160-005",
     "label": "Machineguns",
-    "description": "A collection of automatic rifles"
+    "description": "A collection of automatic rifles",
+    "data": "./src/_data/weapons/machineguns.json"
   },
   {
     "id": "160-006",
     "label": "Rifles, Carbines",
-    "description": "A collection of rifles and carbines"
+    "description": "A collection of rifles and carbines",
+    "data": "./src/_data/weapons/rifles-carbines.json"
   },
   {
     "id": "160-007",
     "label": "Heavy Weapons",
-    "description": "A collection of cannons, autocannons, gatling guns, and guns"
+    "description": "A collection of cannons, autocannons, gatling guns, and guns",
+    "data": "./src/_data/weapons/heavy-weapons.json"
   },
   {
     "id": "160-008",
     "label": "Launchers",
-    "description": "A collection of launchers"
+    "description": "A collection of launchers",
+    "data": "./src/_data/weapons/launchers.json"
   },
   {
     "id": "160-009",
     "label": "Projectors",
-    "description": "A collection of launchers"
+    "description": "A collection of projectors",
+    "data": "./src/_data/weapons/projectors.json"
   },
   {
     "id": "160-010",
     "label": "Designators",
-    "description": "A collection of target designators"
+    "description": "A collection of target designators",
+    "data": "./src/_data/weapons/designators.json"
   },
   {
     "id": "160-011",
     "label": "Ammunition",
-    "description": "Ammunition/ordnance for projectile weapons"
+    "description": "Ammunition/ordnance for projectile weapons",
+    "data": "./src/_data/weapons/ammunition.json"
   },
   {
     "id": "160-012",
     "label": "Weapon Accessories",
-    "description": "Accessories, optics, etc."
+    "description": "Accessories, optics, etc.",
+    "data": "./src/_data/weapons/accessories.json"
   }
 ]
