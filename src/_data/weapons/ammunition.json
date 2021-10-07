@@ -11,16 +11,20 @@
     "techLevel": 5,
     "qrebs": "N/A",
     "image": "",
-    "description": "<p><!-- Summary Start -->Standard cannon ordnance. Pallet of 8 rounds.<!-- Summary End --></p>",
+    "description": "<p><!-- Summary Start -->Standard artillery ordnance. Pallet of 8 rounds.<!-- Summary End --></p>",
     "categories": ["weapons", "ammunition"],
     "sources": [
       {
-        "publication": "",
-        "authors": [""],
+        "publication": "Traveller 5.10 Core Rules Book 3 : Worlds and Adventures",
+        "authors": ["Miller, Marc"],
         "publisher": {
-        "name": "",
-        "url": ""
+          "name": "Far Future Enterprises",
+          "url": "https://farfuture.net"
         }
+      },
+      {
+        "publication": "Central Supply Catalog Website",
+        "authors": ["Miller, Marc", "Eaglestone, Robert", "McKnight, Charles"]
       }
     ],
     "tags": ["products", "weapons", "ammunition"]
@@ -40,12 +44,16 @@
     "categories": ["weapons", "ammunition"],
     "sources": [
       {
-        "publication": "",
-        "authors": [""],
+        "publication": "Traveller 5.10 Core Rules Book 3 : Worlds and Adventures",
+        "authors": ["Miller, Marc"],
         "publisher": {
-        "name": "",
-        "url": ""
+          "name": "Far Future Enterprises",
+          "url": "https://farfuture.net"
         }
+      },
+      {
+        "publication": "Central Supply Catalog Website",
+        "authors": ["Miller, Marc", "Eaglestone, Robert", "McKnight, Charles"]
       }
     ],
     "tags": ["products", "weapons", "ammunition"]
@@ -61,16 +69,20 @@
     "techLevel": 6,
     "qrebs": "N/A",
     "image": "",
-    "description": "<p><!-- Summary Start -->Standard 8mm rifle round, 1D damage, 100 round box.<!-- Summary End --></p>",
+    "description": "<p><!-- Summary Start -->Standard 8mm rifle round, 2D damage, 100 round box.<!-- Summary End --></p>",
     "categories": ["weapons", "ammunition"],
     "sources": [
       {
-        "publication": "",
-        "authors": [""],
+        "publication": "Traveller 5.10 Core Rules Book 3 : Worlds and Adventures",
+        "authors": ["Miller, Marc"],
         "publisher": {
-        "name": "",
-        "url": ""
+          "name": "Far Future Enterprises",
+          "url": "https://farfuture.net"
         }
+      },
+      {
+        "publication": "Central Supply Catalog Website",
+        "authors": ["Miller, Marc", "Eaglestone, Robert", "McKnight, Charles"]
       }
     ],
     "tags": ["products", "weapons", "ammunition"]
@@ -90,12 +102,16 @@
     "categories": ["weapons", "ammunition"],
     "sources": [
       {
-        "publication": "",
-        "authors": [""],
+        "publication": "Traveller 5.10 Core Rules Book 3 : Worlds and Adventures",
+        "authors": ["Miller, Marc"],
         "publisher": {
-        "name": "",
-        "url": ""
+          "name": "Far Future Enterprises",
+          "url": "https://farfuture.net"
         }
+      },
+      {
+        "publication": "Central Supply Catalog Website",
+        "authors": ["Miller, Marc", "Eaglestone, Robert", "McKnight, Charles"]
       }
     ],
     "tags": ["products", "weapons", "ammunition"]
@@ -115,12 +131,16 @@
     "categories": ["weapons", "ammunition"],
     "sources": [
       {
-        "publication": "",
-        "authors": [""],
+        "publication": "Traveller 5.10 Core Rules Book 3 : Worlds and Adventures",
+        "authors": ["Miller, Marc"],
         "publisher": {
-        "name": "",
-        "url": ""
+          "name": "Far Future Enterprises",
+          "url": "https://farfuture.net"
         }
+      },
+      {
+        "publication": "Central Supply Catalog Website",
+        "authors": ["Miller, Marc", "Eaglestone, Robert", "McKnight, Charles"]
       }
     ],
     "tags": ["products", "weapons", "ammunition"]
@@ -140,12 +160,16 @@
     "categories": ["weapons", "ammunition"],
     "sources": [
       {
-        "publication": "",
-        "authors": [""],
+        "publication": "Traveller 5.10 Core Rules Book 3 : Worlds and Adventures",
+        "authors": ["Miller, Marc"],
         "publisher": {
-        "name": "",
-        "url": ""
+          "name": "Far Future Enterprises",
+          "url": "https://farfuture.net"
         }
+      },
+      {
+        "publication": "Central Supply Catalog Website",
+        "authors": ["Miller, Marc", "Eaglestone, Robert", "McKnight, Charles"]
       }
     ],
     "tags": ["products", "weapons", "ammunition"]
@@ -165,12 +189,16 @@
     "categories": ["weapons", "ammunition"],
     "sources": [
       {
-        "publication": "",
-        "authors": [""],
+        "publication": "Traveller 5.10 Core Rules Book 3 : Worlds and Adventures",
+        "authors": ["Miller, Marc"],
         "publisher": {
-        "name": "",
-        "url": ""
+          "name": "Far Future Enterprises",
+          "url": "https://farfuture.net"
         }
+      },
+      {
+        "publication": "Central Supply Catalog Website",
+        "authors": ["Miller, Marc", "Eaglestone, Robert", "McKnight, Charles"]
       }
     ],
     "tags": ["products", "weapons", "ammunition"]
@@ -190,12 +218,16 @@
     "categories": ["weapons", "ammunition"],
     "sources": [
       {
-        "publication": "",
-        "authors": [""],
+        "publication": "Traveller 5.10 Core Rules Book 3 : Worlds and Adventures",
+        "authors": ["Miller, Marc"],
         "publisher": {
-        "name": "",
-        "url": ""
+          "name": "Far Future Enterprises",
+          "url": "https://farfuture.net"
         }
+      },
+      {
+        "publication": "Central Supply Catalog Website",
+        "authors": ["Miller, Marc", "Eaglestone, Robert", "McKnight, Charles"]
       }
     ],
     "tags": ["products", "weapons", "ammunition"]
@@ -215,12 +247,16 @@
     "categories": ["weapons", "ammunition"],
     "sources": [
       {
-        "publication": "",
-        "authors": [""],
+        "publication": "Traveller 5.10 Core Rules Book 3 : Worlds and Adventures",
+        "authors": ["Miller, Marc"],
         "publisher": {
-        "name": "",
-        "url": ""
+          "name": "Far Future Enterprises",
+          "url": "https://farfuture.net"
         }
+      },
+      {
+        "publication": "Central Supply Catalog Website",
+        "authors": ["Miller, Marc", "Eaglestone, Robert", "McKnight, Charles"]
       }
     ],
     "tags": ["products", "weapons", "ammunition"]
@@ -236,16 +272,20 @@
     "techLevel": 6,
     "qrebs": "N/A",
     "image": "",
-    "description": "<p><!-- Summary Start -->Standard 8mm rifle round, 7D damage, 100 round box.<!-- Summary End --></p>",
+    "description": "<p><!-- Summary Start -->Standard 8mm rifle round, 9D damage, 100 round box.<!-- Summary End --></p>",
     "categories": ["weapons", "ammunition"],
     "sources": [
       {
-        "publication": "",
-        "authors": [""],
+        "publication": "Traveller 5.10 Core Rules Book 3 : Worlds and Adventures",
+        "authors": ["Miller, Marc"],
         "publisher": {
-        "name": "",
-        "url": ""
+          "name": "Far Future Enterprises",
+          "url": "https://farfuture.net"
         }
+      },
+      {
+        "publication": "Central Supply Catalog Website",
+        "authors": ["Miller, Marc", "Eaglestone, Robert", "McKnight, Charles"]
       }
     ],
     "tags": ["products", "weapons", "ammunition"]
@@ -265,12 +305,16 @@
     "categories": ["weapons", "ammunition"],
     "sources": [
       {
-        "publication": "",
-        "authors": [""],
+        "publication": "Traveller 5.10 Core Rules Book 3 : Worlds and Adventures",
+        "authors": ["Miller, Marc"],
         "publisher": {
-        "name": "",
-        "url": ""
+          "name": "Far Future Enterprises",
+          "url": "https://farfuture.net"
         }
+      },
+      {
+        "publication": "Central Supply Catalog Website",
+        "authors": ["Miller, Marc", "Eaglestone, Robert", "McKnight, Charles"]
       }
     ],
     "tags": ["products", "weapons", "ammunition"]
@@ -290,12 +334,16 @@
     "categories": ["weapons", "ammunition"],
     "sources": [
       {
-        "publication": "",
-        "authors": [""],
+        "publication": "Traveller 5.10 Core Rules Book 3 : Worlds and Adventures",
+        "authors": ["Miller, Marc"],
         "publisher": {
-        "name": "",
-        "url": ""
+          "name": "Far Future Enterprises",
+          "url": "https://farfuture.net"
         }
+      },
+      {
+        "publication": "Central Supply Catalog Website",
+        "authors": ["Miller, Marc", "Eaglestone, Robert", "McKnight, Charles"]
       }
     ],
     "tags": ["products", "weapons", "ammunition"]
@@ -311,16 +359,20 @@
     "techLevel": 6,
     "qrebs": "N/A",
     "image": "",
-    "description": "<p><!-- Summary Start -->Standard 6mm rifle round, 1D damage, 100 round box.<!-- Summary End --></p>",
+    "description": "<p><!-- Summary Start -->Standard 6mm rifle round, 2D damage, 100 round box.<!-- Summary End --></p>",
     "categories": ["weapons", "ammunition"],
     "sources": [
       {
-        "publication": "",
-        "authors": [""],
+        "publication": "Traveller 5.10 Core Rules Book 3 : Worlds and Adventures",
+        "authors": ["Miller, Marc"],
         "publisher": {
-        "name": "",
-        "url": ""
+          "name": "Far Future Enterprises",
+          "url": "https://farfuture.net"
         }
+      },
+      {
+        "publication": "Central Supply Catalog Website",
+        "authors": ["Miller, Marc", "Eaglestone, Robert", "McKnight, Charles"]
       }
     ],
     "tags": ["products", "weapons", "ammunition"]
@@ -340,12 +392,16 @@
     "categories": ["weapons", "ammunition"],
     "sources": [
       {
-        "publication": "",
-        "authors": [""],
+        "publication": "Traveller 5.10 Core Rules Book 3 : Worlds and Adventures",
+        "authors": ["Miller, Marc"],
         "publisher": {
-        "name": "",
-        "url": ""
+          "name": "Far Future Enterprises",
+          "url": "https://farfuture.net"
         }
+      },
+      {
+        "publication": "Central Supply Catalog Website",
+        "authors": ["Miller, Marc", "Eaglestone, Robert", "McKnight, Charles"]
       }
     ],
     "tags": ["products", "weapons", "ammunition"]
@@ -365,12 +421,16 @@
     "categories": ["weapons", "ammunition"],
     "sources": [
       {
-        "publication": "",
-        "authors": [""],
+        "publication": "Traveller 5.10 Core Rules Book 3 : Worlds and Adventures",
+        "authors": ["Miller, Marc"],
         "publisher": {
-        "name": "",
-        "url": ""
+          "name": "Far Future Enterprises",
+          "url": "https://farfuture.net"
         }
+      },
+      {
+        "publication": "Central Supply Catalog Website",
+        "authors": ["Miller, Marc", "Eaglestone, Robert", "McKnight, Charles"]
       }
     ],
     "tags": ["products", "weapons", "ammunition"]
@@ -390,12 +450,16 @@
     "categories": ["weapons", "ammunition"],
     "sources": [
       {
-        "publication": "",
-        "authors": [""],
+        "publication": "Traveller 5.10 Core Rules Book 3 : Worlds and Adventures",
+        "authors": ["Miller, Marc"],
         "publisher": {
-        "name": "",
-        "url": ""
+          "name": "Far Future Enterprises",
+          "url": "https://farfuture.net"
         }
+      },
+      {
+        "publication": "Central Supply Catalog Website",
+        "authors": ["Miller, Marc", "Eaglestone, Robert", "McKnight, Charles"]
       }
     ],
     "tags": ["products", "weapons", "ammunition"]
@@ -415,12 +479,16 @@
     "categories": ["weapons", "ammunition"],
     "sources": [
       {
-        "publication": "",
-        "authors": [""],
+        "publication": "Traveller 5.10 Core Rules Book 3 : Worlds and Adventures",
+        "authors": ["Miller, Marc"],
         "publisher": {
-        "name": "",
-        "url": ""
+          "name": "Far Future Enterprises",
+          "url": "https://farfuture.net"
         }
+      },
+      {
+        "publication": "Central Supply Catalog Website",
+        "authors": ["Miller, Marc", "Eaglestone, Robert", "McKnight, Charles"]
       }
     ],
     "tags": ["products", "weapons", "ammunition"]
@@ -440,12 +508,16 @@
     "categories": ["weapons", "ammunition"],
     "sources": [
       {
-        "publication": "",
-        "authors": [""],
+        "publication": "Traveller 5.10 Core Rules Book 3 : Worlds and Adventures",
+        "authors": ["Miller, Marc"],
         "publisher": {
-        "name": "",
-        "url": ""
+          "name": "Far Future Enterprises",
+          "url": "https://farfuture.net"
         }
+      },
+      {
+        "publication": "Central Supply Catalog Website",
+        "authors": ["Miller, Marc", "Eaglestone, Robert", "McKnight, Charles"]
       }
     ],
     "tags": ["products", "weapons", "ammunition"]
@@ -465,12 +537,16 @@
     "categories": ["weapons", "ammunition"],
     "sources": [
       {
-        "publication": "",
-        "authors": [""],
+        "publication": "Traveller 5.10 Core Rules Book 3 : Worlds and Adventures",
+        "authors": ["Miller, Marc"],
         "publisher": {
-        "name": "",
-        "url": ""
+          "name": "Far Future Enterprises",
+          "url": "https://farfuture.net"
         }
+      },
+      {
+        "publication": "Central Supply Catalog Website",
+        "authors": ["Miller, Marc", "Eaglestone, Robert", "McKnight, Charles"]
       }
     ],
     "tags": ["products", "weapons", "ammunition"]
@@ -486,16 +562,20 @@
     "techLevel": 6,
     "qrebs": "N/A",
     "image": "",
-    "description": "<p><!-- Summary Start -->Standard 6mm rifle round, 7D damage, 100 round box.<!-- Summary End --></p>",
+    "description": "<p><!-- Summary Start -->Standard 6mm rifle round, 9D damage, 100 round box.<!-- Summary End --></p>",
     "categories": ["weapons", "ammunition"],
     "sources": [
       {
-        "publication": "",
-        "authors": [""],
+        "publication": "Traveller 5.10 Core Rules Book 3 : Worlds and Adventures",
+        "authors": ["Miller, Marc"],
         "publisher": {
-        "name": "",
-        "url": ""
+          "name": "Far Future Enterprises",
+          "url": "https://farfuture.net"
         }
+      },
+      {
+        "publication": "Central Supply Catalog Website",
+        "authors": ["Miller, Marc", "Eaglestone, Robert", "McKnight, Charles"]
       }
     ],
     "tags": ["products", "weapons", "ammunition"]
@@ -515,12 +595,16 @@
     "categories": ["weapons", "ammunition"],
     "sources": [
       {
-        "publication": "",
-        "authors": [""],
+        "publication": "Traveller 5.10 Core Rules Book 3 : Worlds and Adventures",
+        "authors": ["Miller, Marc"],
         "publisher": {
-        "name": "",
-        "url": ""
+          "name": "Far Future Enterprises",
+          "url": "https://farfuture.net"
         }
+      },
+      {
+        "publication": "Central Supply Catalog Website",
+        "authors": ["Miller, Marc", "Eaglestone, Robert", "McKnight, Charles"]
       }
     ],
     "tags": ["products", "weapons", "ammunition"]
@@ -529,23 +613,27 @@
     "sku": "160-011-00022",
     "type": "weapons”",
     "subtype": "ammunition",
-    "name": "8mm Rifle Ammunition (1D damage)",
+    "name": "4mm Handgun Ammunition (1D damage)",
     "mfr": "",
     "cost": 100,
     "mass": 0.95,
     "techLevel": 6,
     "qrebs": "N/A",
     "image": "",
-    "description": "<p><!-- Summary Start -->Standard 8mm rifle round, 1D damage, 100 round box.<!-- Summary End --></p>",
+    "description": "<p><!-- Summary Start -->Standard 4mm handgun round, 1D damage, 100 round box.<!-- Summary End --></p>",
     "categories": ["weapons", "ammunition"],
     "sources": [
       {
-        "publication": "",
-        "authors": [""],
+        "publication": "Traveller 5.10 Core Rules Book 3 : Worlds and Adventures",
+        "authors": ["Miller, Marc"],
         "publisher": {
-        "name": "",
-        "url": ""
+          "name": "Far Future Enterprises",
+          "url": "https://farfuture.net"
         }
+      },
+      {
+        "publication": "Central Supply Catalog Website",
+        "authors": ["Miller, Marc", "Eaglestone, Robert", "McKnight, Charles"]
       }
     ],
     "tags": ["products", "weapons", "ammunition"]
@@ -554,23 +642,27 @@
     "sku": "160-011-00023",
     "type": "weapons”",
     "subtype": "ammunition",
-    "name": "8mm Rifle Ammunition (2D damage)",
+    "name": "4mm Handgun Ammunition (2D damage)",
     "mfr": "",
     "cost": 200,
     "mass": 0.95,
     "techLevel": 6,
     "qrebs": "N/A",
     "image": "",
-    "description": "<p><!-- Summary Start -->Standard 8mm rifle round, 1D damage, 100 round box.<!-- Summary End --></p>",
+    "description": "<p><!-- Summary Start -->Standard 4mm handgun round, 2D damage, 100 round box.<!-- Summary End --></p>",
     "categories": ["weapons", "ammunition"],
     "sources": [
       {
-        "publication": "",
-        "authors": [""],
+        "publication": "Traveller 5.10 Core Rules Book 3 : Worlds and Adventures",
+        "authors": ["Miller, Marc"],
         "publisher": {
-        "name": "",
-        "url": ""
+          "name": "Far Future Enterprises",
+          "url": "https://farfuture.net"
         }
+      },
+      {
+        "publication": "Central Supply Catalog Website",
+        "authors": ["Miller, Marc", "Eaglestone, Robert", "McKnight, Charles"]
       }
     ],
     "tags": ["products", "weapons", "ammunition"]
@@ -590,12 +682,16 @@
     "categories": ["weapons", "ammunition"],
     "sources": [
       {
-        "publication": "",
-        "authors": [""],
+        "publication": "Traveller 5.10 Core Rules Book 3 : Worlds and Adventures",
+        "authors": ["Miller, Marc"],
         "publisher": {
-        "name": "",
-        "url": ""
+          "name": "Far Future Enterprises",
+          "url": "https://farfuture.net"
         }
+      },
+      {
+        "publication": "Central Supply Catalog Website",
+        "authors": ["Miller, Marc", "Eaglestone, Robert", "McKnight, Charles"]
       }
     ],
     "tags": ["products", "weapons", "ammunition"]
@@ -615,12 +711,16 @@
     "categories": ["weapons", "ammunition"],
     "sources": [
       {
-        "publication": "",
-        "authors": [""],
+        "publication": "Traveller 5.10 Core Rules Book 3 : Worlds and Adventures",
+        "authors": ["Miller, Marc"],
         "publisher": {
-        "name": "",
-        "url": ""
+          "name": "Far Future Enterprises",
+          "url": "https://farfuture.net"
         }
+      },
+      {
+        "publication": "Central Supply Catalog Website",
+        "authors": ["Miller, Marc", "Eaglestone, Robert", "McKnight, Charles"]
       }
     ],
     "tags": ["products", "weapons", "ammunition"]
@@ -640,12 +740,16 @@
     "categories": ["weapons", "ammunition"],
     "sources": [
       {
-        "publication": "",
-        "authors": [""],
+        "publication": "Traveller 5.10 Core Rules Book 3 : Worlds and Adventures",
+        "authors": ["Miller, Marc"],
         "publisher": {
-        "name": "",
-        "url": ""
+          "name": "Far Future Enterprises",
+          "url": "https://farfuture.net"
         }
+      },
+      {
+        "publication": "Central Supply Catalog Website",
+        "authors": ["Miller, Marc", "Eaglestone, Robert", "McKnight, Charles"]
       }
     ],
     "tags": ["products", "weapons", "ammunition"]
@@ -665,12 +769,16 @@
     "categories": ["weapons", "ammunition"],
     "sources": [
       {
-        "publication": "",
-        "authors": [""],
+        "publication": "Traveller 5.10 Core Rules Book 3 : Worlds and Adventures",
+        "authors": ["Miller, Marc"],
         "publisher": {
-        "name": "",
-        "url": ""
+          "name": "Far Future Enterprises",
+          "url": "https://farfuture.net"
         }
+      },
+      {
+        "publication": "Central Supply Catalog Website",
+        "authors": ["Miller, Marc", "Eaglestone, Robert", "McKnight, Charles"]
       }
     ],
     "tags": ["products", "weapons", "ammunition"]
@@ -690,12 +798,16 @@
     "categories": ["weapons", "ammunition"],
     "sources": [
       {
-        "publication": "",
-        "authors": [""],
+        "publication": "Traveller 5.10 Core Rules Book 3 : Worlds and Adventures",
+        "authors": ["Miller, Marc"],
         "publisher": {
-        "name": "",
-        "url": ""
+          "name": "Far Future Enterprises",
+          "url": "https://farfuture.net"
         }
+      },
+      {
+        "publication": "Central Supply Catalog Website",
+        "authors": ["Miller, Marc", "Eaglestone, Robert", "McKnight, Charles"]
       }
     ],
     "tags": ["products", "weapons", "ammunition"]
@@ -715,12 +827,16 @@
     "categories": ["weapons", "ammunition"],
     "sources": [
       {
-        "publication": "",
-        "authors": [""],
+        "publication": "Traveller 5.10 Core Rules Book 3 : Worlds and Adventures",
+        "authors": ["Miller, Marc"],
         "publisher": {
-        "name": "",
-        "url": ""
+          "name": "Far Future Enterprises",
+          "url": "https://farfuture.net"
         }
+      },
+      {
+        "publication": "Central Supply Catalog Website",
+        "authors": ["Miller, Marc", "Eaglestone, Robert", "McKnight, Charles"]
       }
     ],
     "tags": ["products", "weapons", "ammunition"]
@@ -736,16 +852,20 @@
     "techLevel": 6,
     "qrebs": "N/A",
     "image": "",
-    "description": "<p><!-- Summary Start -->Standard 4mm Handgun round, 7D damage, 100 round box.<!-- Summary End --></p>",
+    "description": "<p><!-- Summary Start -->Standard 4mm Handgun round, 9D damage, 100 round box.<!-- Summary End --></p>",
     "categories": ["weapons", "ammunition"],
     "sources": [
       {
-        "publication": "",
-        "authors": [""],
+        "publication": "Traveller 5.10 Core Rules Book 3 : Worlds and Adventures",
+        "authors": ["Miller, Marc"],
         "publisher": {
-        "name": "",
-        "url": ""
+          "name": "Far Future Enterprises",
+          "url": "https://farfuture.net"
         }
+      },
+      {
+        "publication": "Central Supply Catalog Website",
+        "authors": ["Miller, Marc", "Eaglestone, Robert", "McKnight, Charles"]
       }
     ],
     "tags": ["products", "weapons", "ammunition"]
@@ -765,12 +885,16 @@
     "categories": ["weapons", "ammunition"],
     "sources": [
       {
-        "publication": "",
-        "authors": [""],
+        "publication": "Traveller 5.10 Core Rules Book 3 : Worlds and Adventures",
+        "authors": ["Miller, Marc"],
         "publisher": {
-        "name": "",
-        "url": ""
+          "name": "Far Future Enterprises",
+          "url": "https://farfuture.net"
         }
+      },
+      {
+        "publication": "Central Supply Catalog Website",
+        "authors": ["Miller, Marc", "Eaglestone, Robert", "McKnight, Charles"]
       }
     ],
     "tags": ["products", "weapons", "ammunition"]
@@ -790,12 +914,16 @@
     "categories": ["weapons", "ammunition"],
     "sources": [
       {
-        "publication": "",
-        "authors": [""],
+        "publication": "Traveller 5.10 Core Rules Book 3 : Worlds and Adventures",
+        "authors": ["Miller, Marc"],
         "publisher": {
-        "name": "",
-        "url": ""
+          "name": "Far Future Enterprises",
+          "url": "https://farfuture.net"
         }
+      },
+      {
+        "publication": "Central Supply Catalog Website",
+        "authors": ["Miller, Marc", "Eaglestone, Robert", "McKnight, Charles"]
       }
     ],
     "tags": ["products", "weapons", "ammunition"]
@@ -811,16 +939,20 @@
     "techLevel": 6,
     "qrebs": "N/A",
     "image": "",
-    "description": "<p><!-- Summary Start -->Standard 15mm Shotgun round, 1D damage, 100 round box.<!-- Summary End --></p>",
+    "description": "<p><!-- Summary Start -->Standard 15mm Shotgun round, 2D damage, 100 round box.<!-- Summary End --></p>",
     "categories": ["weapons", "ammunition"],
     "sources": [
       {
-        "publication": "",
-        "authors": [""],
+        "publication": "Traveller 5.10 Core Rules Book 3 : Worlds and Adventures",
+        "authors": ["Miller, Marc"],
         "publisher": {
-        "name": "",
-        "url": ""
+          "name": "Far Future Enterprises",
+          "url": "https://farfuture.net"
         }
+      },
+      {
+        "publication": "Central Supply Catalog Website",
+        "authors": ["Miller, Marc", "Eaglestone, Robert", "McKnight, Charles"]
       }
     ],
     "tags": ["products", "weapons", "ammunition"]
@@ -840,12 +972,16 @@
     "categories": ["weapons", "ammunition"],
     "sources": [
       {
-        "publication": "",
-        "authors": [""],
+        "publication": "Traveller 5.10 Core Rules Book 3 : Worlds and Adventures",
+        "authors": ["Miller, Marc"],
         "publisher": {
-        "name": "",
-        "url": ""
+          "name": "Far Future Enterprises",
+          "url": "https://farfuture.net"
         }
+      },
+      {
+        "publication": "Central Supply Catalog Website",
+        "authors": ["Miller, Marc", "Eaglestone, Robert", "McKnight, Charles"]
       }
     ],
     "tags": ["products", "weapons", "ammunition"]
@@ -865,12 +1001,16 @@
     "categories": ["weapons", "ammunition"],
     "sources": [
       {
-        "publication": "",
-        "authors": [""],
+        "publication": "Traveller 5.10 Core Rules Book 3 : Worlds and Adventures",
+        "authors": ["Miller, Marc"],
         "publisher": {
-        "name": "",
-        "url": ""
+          "name": "Far Future Enterprises",
+          "url": "https://farfuture.net"
         }
+      },
+      {
+        "publication": "Central Supply Catalog Website",
+        "authors": ["Miller, Marc", "Eaglestone, Robert", "McKnight, Charles"]
       }
     ],
     "tags": ["products", "weapons", "ammunition"]
@@ -890,12 +1030,16 @@
     "categories": ["weapons", "ammunition"],
     "sources": [
       {
-        "publication": "",
-        "authors": [""],
+        "publication": "Traveller 5.10 Core Rules Book 3 : Worlds and Adventures",
+        "authors": ["Miller, Marc"],
         "publisher": {
-        "name": "",
-        "url": ""
+          "name": "Far Future Enterprises",
+          "url": "https://farfuture.net"
         }
+      },
+      {
+        "publication": "Central Supply Catalog Website",
+        "authors": ["Miller, Marc", "Eaglestone, Robert", "McKnight, Charles"]
       }
     ],
     "tags": ["products", "weapons", "ammunition"]
@@ -915,12 +1059,16 @@
     "categories": ["weapons", "ammunition"],
     "sources": [
       {
-        "publication": "",
-        "authors": [""],
+        "publication": "Traveller 5.10 Core Rules Book 3 : Worlds and Adventures",
+        "authors": ["Miller, Marc"],
         "publisher": {
-        "name": "",
-        "url": ""
+          "name": "Far Future Enterprises",
+          "url": "https://farfuture.net"
         }
+      },
+      {
+        "publication": "Central Supply Catalog Website",
+        "authors": ["Miller, Marc", "Eaglestone, Robert", "McKnight, Charles"]
       }
     ],
     "tags": ["products", "weapons", "ammunition"]
@@ -940,12 +1088,16 @@
     "categories": ["weapons", "ammunition"],
     "sources": [
       {
-        "publication": "",
-        "authors": [""],
+        "publication": "Traveller 5.10 Core Rules Book 3 : Worlds and Adventures",
+        "authors": ["Miller, Marc"],
         "publisher": {
-        "name": "",
-        "url": ""
+          "name": "Far Future Enterprises",
+          "url": "https://farfuture.net"
         }
+      },
+      {
+        "publication": "Central Supply Catalog Website",
+        "authors": ["Miller, Marc", "Eaglestone, Robert", "McKnight, Charles"]
       }
     ],
     "tags": ["products", "weapons", "ammunition"]
@@ -965,12 +1117,16 @@
     "categories": ["weapons", "ammunition"],
     "sources": [
       {
-        "publication": "",
-        "authors": [""],
+        "publication": "Traveller 5.10 Core Rules Book 3 : Worlds and Adventures",
+        "authors": ["Miller, Marc"],
         "publisher": {
-        "name": "",
-        "url": ""
+          "name": "Far Future Enterprises",
+          "url": "https://farfuture.net"
         }
+      },
+      {
+        "publication": "Central Supply Catalog Website",
+        "authors": ["Miller, Marc", "Eaglestone, Robert", "McKnight, Charles"]
       }
     ],
     "tags": ["products", "weapons", "ammunition"]
@@ -986,16 +1142,20 @@
     "techLevel": 6,
     "qrebs": "N/A",
     "image": "",
-    "description": "<p><!-- Summary Start -->Standard 15mm Shotgun round, 7D damage, 100 round box.<!-- Summary End --></p>",
+    "description": "<p><!-- Summary Start -->Standard 15mm Shotgun round, 9D damage, 100 round box.<!-- Summary End --></p>",
     "categories": ["weapons", "ammunition"],
     "sources": [
       {
-        "publication": "",
-        "authors": [""],
+        "publication": "Traveller 5.10 Core Rules Book 3 : Worlds and Adventures",
+        "authors": ["Miller, Marc"],
         "publisher": {
-        "name": "",
-        "url": ""
+          "name": "Far Future Enterprises",
+          "url": "https://farfuture.net"
         }
+      },
+      {
+        "publication": "Central Supply Catalog Website",
+        "authors": ["Miller, Marc", "Eaglestone, Robert", "McKnight, Charles"]
       }
     ],
     "tags": ["products", "weapons", "ammunition"]
@@ -1015,12 +1175,16 @@
     "categories": ["weapons", "ammunition"],
     "sources": [
       {
-        "publication": "",
-        "authors": [""],
+        "publication": "Traveller 5.10 Core Rules Book 3 : Worlds and Adventures",
+        "authors": ["Miller, Marc"],
         "publisher": {
-        "name": "",
-        "url": ""
+          "name": "Far Future Enterprises",
+          "url": "https://farfuture.net"
         }
+      },
+      {
+        "publication": "Central Supply Catalog Website",
+        "authors": ["Miller, Marc", "Eaglestone, Robert", "McKnight, Charles"]
       }
     ],
     "tags": ["products", "weapons", "ammunition"]
@@ -1040,12 +1204,16 @@
     "categories": ["weapons", "ammunition"],
     "sources": [
       {
-        "publication": "",
-        "authors": [""],
+        "publication": "Traveller 5.10 Core Rules Book 3 : Worlds and Adventures",
+        "authors": ["Miller, Marc"],
         "publisher": {
-        "name": "",
-        "url": ""
+          "name": "Far Future Enterprises",
+          "url": "https://farfuture.net"
         }
+      },
+      {
+        "publication": "Central Supply Catalog Website",
+        "authors": ["Miller, Marc", "Eaglestone, Robert", "McKnight, Charles"]
       }
     ],
     "tags": ["products", "weapons", "ammunition"]
@@ -1061,16 +1229,20 @@
     "techLevel": 6,
     "qrebs": "N/A",
     "image": "",
-    "description": "<p><!-- Summary Start -->Standard 8mm Machinegun round, 1D damage, 100 round box.<!-- Summary End --></p>",
+    "description": "<p><!-- Summary Start -->Standard 8mm Machinegun round, 2D damage, 100 round box.<!-- Summary End --></p>",
     "categories": ["weapons", "ammunition"],
     "sources": [
       {
-        "publication": "",
-        "authors": [""],
+        "publication": "Traveller 5.10 Core Rules Book 3 : Worlds and Adventures",
+        "authors": ["Miller, Marc"],
         "publisher": {
-        "name": "",
-        "url": ""
+          "name": "Far Future Enterprises",
+          "url": "https://farfuture.net"
         }
+      },
+      {
+        "publication": "Central Supply Catalog Website",
+        "authors": ["Miller, Marc", "Eaglestone, Robert", "McKnight, Charles"]
       }
     ],
     "tags": ["products", "weapons", "ammunition"]
@@ -1090,12 +1262,16 @@
     "categories": ["weapons", "ammunition"],
     "sources": [
       {
-        "publication": "",
-        "authors": [""],
+        "publication": "Traveller 5.10 Core Rules Book 3 : Worlds and Adventures",
+        "authors": ["Miller, Marc"],
         "publisher": {
-        "name": "",
-        "url": ""
+          "name": "Far Future Enterprises",
+          "url": "https://farfuture.net"
         }
+      },
+      {
+        "publication": "Central Supply Catalog Website",
+        "authors": ["Miller, Marc", "Eaglestone, Robert", "McKnight, Charles"]
       }
     ],
     "tags": ["products", "weapons", "ammunition"]
@@ -1115,12 +1291,16 @@
     "categories": ["weapons", "ammunition"],
     "sources": [
       {
-        "publication": "",
-        "authors": [""],
+        "publication": "Traveller 5.10 Core Rules Book 3 : Worlds and Adventures",
+        "authors": ["Miller, Marc"],
         "publisher": {
-        "name": "",
-        "url": ""
+          "name": "Far Future Enterprises",
+          "url": "https://farfuture.net"
         }
+      },
+      {
+        "publication": "Central Supply Catalog Website",
+        "authors": ["Miller, Marc", "Eaglestone, Robert", "McKnight, Charles"]
       }
     ],
     "tags": ["products", "weapons", "ammunition"]
@@ -1140,12 +1320,16 @@
     "categories": ["weapons", "ammunition"],
     "sources": [
       {
-        "publication": "",
-        "authors": [""],
+        "publication": "Traveller 5.10 Core Rules Book 3 : Worlds and Adventures",
+        "authors": ["Miller, Marc"],
         "publisher": {
-        "name": "",
-        "url": ""
+          "name": "Far Future Enterprises",
+          "url": "https://farfuture.net"
         }
+      },
+      {
+        "publication": "Central Supply Catalog Website",
+        "authors": ["Miller, Marc", "Eaglestone, Robert", "McKnight, Charles"]
       }
     ],
     "tags": ["products", "weapons", "ammunition"]
@@ -1165,12 +1349,16 @@
     "categories": ["weapons", "ammunition"],
     "sources": [
       {
-        "publication": "",
-        "authors": [""],
+        "publication": "Traveller 5.10 Core Rules Book 3 : Worlds and Adventures",
+        "authors": ["Miller, Marc"],
         "publisher": {
-        "name": "",
-        "url": ""
+          "name": "Far Future Enterprises",
+          "url": "https://farfuture.net"
         }
+      },
+      {
+        "publication": "Central Supply Catalog Website",
+        "authors": ["Miller, Marc", "Eaglestone, Robert", "McKnight, Charles"]
       }
     ],
     "tags": ["products", "weapons", "ammunition"]
@@ -1190,12 +1378,16 @@
     "categories": ["weapons", "ammunition"],
     "sources": [
       {
-        "publication": "",
-        "authors": [""],
+        "publication": "Traveller 5.10 Core Rules Book 3 : Worlds and Adventures",
+        "authors": ["Miller, Marc"],
         "publisher": {
-        "name": "",
-        "url": ""
+          "name": "Far Future Enterprises",
+          "url": "https://farfuture.net"
         }
+      },
+      {
+        "publication": "Central Supply Catalog Website",
+        "authors": ["Miller, Marc", "Eaglestone, Robert", "McKnight, Charles"]
       }
     ],
     "tags": ["products", "weapons", "ammunition"]
@@ -1215,12 +1407,16 @@
     "categories": ["weapons", "ammunition"],
     "sources": [
       {
-        "publication": "",
-        "authors": [""],
+        "publication": "Traveller 5.10 Core Rules Book 3 : Worlds and Adventures",
+        "authors": ["Miller, Marc"],
         "publisher": {
-        "name": "",
-        "url": ""
+          "name": "Far Future Enterprises",
+          "url": "https://farfuture.net"
         }
+      },
+      {
+        "publication": "Central Supply Catalog Website",
+        "authors": ["Miller, Marc", "Eaglestone, Robert", "McKnight, Charles"]
       }
     ],
     "tags": ["products", "weapons", "ammunition"]
@@ -1236,16 +1432,20 @@
     "techLevel": 6,
     "qrebs": "N/A",
     "image": "",
-    "description": "<p><!-- Summary Start -->Standard 8mm Machinegun round, 7D damage, 100 round box.<!-- Summary End --></p>",
+    "description": "<p><!-- Summary Start -->Standard 8mm Machinegun round, 9D damage, 100 round box.<!-- Summary End --></p>",
     "categories": ["weapons", "ammunition"],
     "sources": [
       {
-        "publication": "",
-        "authors": [""],
+        "publication": "Traveller 5.10 Core Rules Book 3 : Worlds and Adventures",
+        "authors": ["Miller, Marc"],
         "publisher": {
-        "name": "",
-        "url": ""
+          "name": "Far Future Enterprises",
+          "url": "https://farfuture.net"
         }
+      },
+      {
+        "publication": "Central Supply Catalog Website",
+        "authors": ["Miller, Marc", "Eaglestone, Robert", "McKnight, Charles"]
       }
     ],
     "tags": ["products", "weapons", "ammunition"]
@@ -1265,12 +1465,16 @@
     "categories": ["weapons", "ammunition"],
     "sources": [
       {
-        "publication": "",
-        "authors": [""],
+        "publication": "Traveller 5.10 Core Rules Book 3 : Worlds and Adventures",
+        "authors": ["Miller, Marc"],
         "publisher": {
-        "name": "",
-        "url": ""
+          "name": "Far Future Enterprises",
+          "url": "https://farfuture.net"
         }
+      },
+      {
+        "publication": "Central Supply Catalog Website",
+        "authors": ["Miller, Marc", "Eaglestone, Robert", "McKnight, Charles"]
       }
     ],
     "tags": ["products", "weapons", "ammunition"]
@@ -1290,12 +1494,16 @@
     "categories": ["weapons", "ammunition"],
     "sources": [
       {
-        "publication": "",
-        "authors": [""],
+        "publication": "Traveller 5.10 Core Rules Book 3 : Worlds and Adventures",
+        "authors": ["Miller, Marc"],
         "publisher": {
-        "name": "",
-        "url": ""
+          "name": "Far Future Enterprises",
+          "url": "https://farfuture.net"
         }
+      },
+      {
+        "publication": "Central Supply Catalog Website",
+        "authors": ["Miller, Marc", "Eaglestone, Robert", "McKnight, Charles"]
       }
     ],
     "tags": ["products", "weapons", "ammunition"]
@@ -1311,16 +1519,20 @@
     "techLevel": 6,
     "qrebs": "N/A",
     "image": "",
-    "description": "<p><!-- Summary Start -->Standard 6mm Machinegun round, 1D damage, 100 round box.<!-- Summary End --></p>",
+    "description": "<p><!-- Summary Start -->Standard 6mm Machinegun round, 2D damage, 100 round box.<!-- Summary End --></p>",
     "categories": ["weapons", "ammunition"],
     "sources": [
       {
-        "publication": "",
-        "authors": [""],
+        "publication": "Traveller 5.10 Core Rules Book 3 : Worlds and Adventures",
+        "authors": ["Miller, Marc"],
         "publisher": {
-        "name": "",
-        "url": ""
+          "name": "Far Future Enterprises",
+          "url": "https://farfuture.net"
         }
+      },
+      {
+        "publication": "Central Supply Catalog Website",
+        "authors": ["Miller, Marc", "Eaglestone, Robert", "McKnight, Charles"]
       }
     ],
     "tags": ["products", "weapons", "ammunition"]
@@ -1340,12 +1552,16 @@
     "categories": ["weapons", "ammunition"],
     "sources": [
       {
-        "publication": "",
-        "authors": [""],
+        "publication": "Traveller 5.10 Core Rules Book 3 : Worlds and Adventures",
+        "authors": ["Miller, Marc"],
         "publisher": {
-        "name": "",
-        "url": ""
+          "name": "Far Future Enterprises",
+          "url": "https://farfuture.net"
         }
+      },
+      {
+        "publication": "Central Supply Catalog Website",
+        "authors": ["Miller, Marc", "Eaglestone, Robert", "McKnight, Charles"]
       }
     ],
     "tags": ["products", "weapons", "ammunition"]
@@ -1365,12 +1581,16 @@
     "categories": ["weapons", "ammunition"],
     "sources": [
       {
-        "publication": "",
-        "authors": [""],
+        "publication": "Traveller 5.10 Core Rules Book 3 : Worlds and Adventures",
+        "authors": ["Miller, Marc"],
         "publisher": {
-        "name": "",
-        "url": ""
+          "name": "Far Future Enterprises",
+          "url": "https://farfuture.net"
         }
+      },
+      {
+        "publication": "Central Supply Catalog Website",
+        "authors": ["Miller, Marc", "Eaglestone, Robert", "McKnight, Charles"]
       }
     ],
     "tags": ["products", "weapons", "ammunition"]
@@ -1390,12 +1610,16 @@
     "categories": ["weapons", "ammunition"],
     "sources": [
       {
-        "publication": "",
-        "authors": [""],
+        "publication": "Traveller 5.10 Core Rules Book 3 : Worlds and Adventures",
+        "authors": ["Miller, Marc"],
         "publisher": {
-        "name": "",
-        "url": ""
+          "name": "Far Future Enterprises",
+          "url": "https://farfuture.net"
         }
+      },
+      {
+        "publication": "Central Supply Catalog Website",
+        "authors": ["Miller, Marc", "Eaglestone, Robert", "McKnight, Charles"]
       }
     ],
     "tags": ["products", "weapons", "ammunition"]
@@ -1415,12 +1639,16 @@
     "categories": ["weapons", "ammunition"],
     "sources": [
       {
-        "publication": "",
-        "authors": [""],
+        "publication": "Traveller 5.10 Core Rules Book 3 : Worlds and Adventures",
+        "authors": ["Miller, Marc"],
         "publisher": {
-        "name": "",
-        "url": ""
+          "name": "Far Future Enterprises",
+          "url": "https://farfuture.net"
         }
+      },
+      {
+        "publication": "Central Supply Catalog Website",
+        "authors": ["Miller, Marc", "Eaglestone, Robert", "McKnight, Charles"]
       }
     ],
     "tags": ["products", "weapons", "ammunition"]
@@ -1440,12 +1668,16 @@
     "categories": ["weapons", "ammunition"],
     "sources": [
       {
-        "publication": "",
-        "authors": [""],
+        "publication": "Traveller 5.10 Core Rules Book 3 : Worlds and Adventures",
+        "authors": ["Miller, Marc"],
         "publisher": {
-        "name": "",
-        "url": ""
+          "name": "Far Future Enterprises",
+          "url": "https://farfuture.net"
         }
+      },
+      {
+        "publication": "Central Supply Catalog Website",
+        "authors": ["Miller, Marc", "Eaglestone, Robert", "McKnight, Charles"]
       }
     ],
     "tags": ["products", "weapons", "ammunition"]
@@ -1465,12 +1697,16 @@
     "categories": ["weapons", "ammunition"],
     "sources": [
       {
-        "publication": "",
-        "authors": [""],
+        "publication": "Traveller 5.10 Core Rules Book 3 : Worlds and Adventures",
+        "authors": ["Miller, Marc"],
         "publisher": {
-        "name": "",
-        "url": ""
+          "name": "Far Future Enterprises",
+          "url": "https://farfuture.net"
         }
+      },
+      {
+        "publication": "Central Supply Catalog Website",
+        "authors": ["Miller, Marc", "Eaglestone, Robert", "McKnight, Charles"]
       }
     ],
     "tags": ["products", "weapons", "ammunition"]
@@ -1486,16 +1722,20 @@
     "techLevel": 6,
     "qrebs": "N/A",
     "image": "",
-    "description": "<p><!-- Summary Start -->Standard 6mm Machinegun round, 7D damage, 100 round box.<!-- Summary End --></p>",
+    "description": "<p><!-- Summary Start -->Standard 6mm Machinegun round, 9D damage, 100 round box.<!-- Summary End --></p>",
     "categories": ["weapons", "ammunition"],
     "sources": [
       {
-        "publication": "",
-        "authors": [""],
+        "publication": "Traveller 5.10 Core Rules Book 3 : Worlds and Adventures",
+        "authors": ["Miller, Marc"],
         "publisher": {
-        "name": "",
-        "url": ""
+          "name": "Far Future Enterprises",
+          "url": "https://farfuture.net"
         }
+      },
+      {
+        "publication": "Central Supply Catalog Website",
+        "authors": ["Miller, Marc", "Eaglestone, Robert", "McKnight, Charles"]
       }
     ],
     "tags": ["products", "weapons", "ammunition"]
@@ -1515,12 +1755,16 @@
     "categories": ["weapons", "ammunition"],
     "sources": [
       {
-        "publication": "",
-        "authors": [""],
+        "publication": "Traveller 5.10 Core Rules Book 3 : Worlds and Adventures",
+        "authors": ["Miller, Marc"],
         "publisher": {
-        "name": "",
-        "url": ""
+          "name": "Far Future Enterprises",
+          "url": "https://farfuture.net"
         }
+      },
+      {
+        "publication": "Central Supply Catalog Website",
+        "authors": ["Miller, Marc", "Eaglestone, Robert", "McKnight, Charles"]
       }
     ],
     "tags": ["products", "weapons", "ammunition"]
@@ -1540,12 +1784,16 @@
     "categories": ["weapons", "ammunition"],
     "sources": [
       {
-        "publication": "",
-        "authors": [""],
+        "publication": "Traveller 5.10 Core Rules Book 3 : Worlds and Adventures",
+        "authors": ["Miller, Marc"],
         "publisher": {
-        "name": "",
-        "url": ""
+          "name": "Far Future Enterprises",
+          "url": "https://farfuture.net"
         }
+      },
+      {
+        "publication": "Central Supply Catalog Website",
+        "authors": ["Miller, Marc", "Eaglestone, Robert", "McKnight, Charles"]
       }
     ],
     "tags": ["products", "weapons", "ammunition"]
@@ -1561,16 +1809,20 @@
     "techLevel": 6,
     "qrebs": "N/A",
     "image": "",
-    "description": "<p><!-- Summary Start -->Standard 6mm Gauss gun round, 1D damage, 100 round box.<!-- Summary End --></p>",
+    "description": "<p><!-- Summary Start -->Standard 6mm Gauss gun round, 2D damage, 100 round box.<!-- Summary End --></p>",
     "categories": ["weapons", "ammunition"],
     "sources": [
       {
-        "publication": "",
-        "authors": [""],
+        "publication": "Traveller 5.10 Core Rules Book 3 : Worlds and Adventures",
+        "authors": ["Miller, Marc"],
         "publisher": {
-        "name": "",
-        "url": ""
+          "name": "Far Future Enterprises",
+          "url": "https://farfuture.net"
         }
+      },
+      {
+        "publication": "Central Supply Catalog Website",
+        "authors": ["Miller, Marc", "Eaglestone, Robert", "McKnight, Charles"]
       }
     ],
     "tags": ["products", "weapons", "ammunition"]
@@ -1590,12 +1842,16 @@
     "categories": ["weapons", "ammunition"],
     "sources": [
       {
-        "publication": "",
-        "authors": [""],
+        "publication": "Traveller 5.10 Core Rules Book 3 : Worlds and Adventures",
+        "authors": ["Miller, Marc"],
         "publisher": {
-        "name": "",
-        "url": ""
+          "name": "Far Future Enterprises",
+          "url": "https://farfuture.net"
         }
+      },
+      {
+        "publication": "Central Supply Catalog Website",
+        "authors": ["Miller, Marc", "Eaglestone, Robert", "McKnight, Charles"]
       }
     ],
     "tags": ["products", "weapons", "ammunition"]
@@ -1615,12 +1871,16 @@
     "categories": ["weapons", "ammunition"],
     "sources": [
       {
-        "publication": "",
-        "authors": [""],
+        "publication": "Traveller 5.10 Core Rules Book 3 : Worlds and Adventures",
+        "authors": ["Miller, Marc"],
         "publisher": {
-        "name": "",
-        "url": ""
+          "name": "Far Future Enterprises",
+          "url": "https://farfuture.net"
         }
+      },
+      {
+        "publication": "Central Supply Catalog Website",
+        "authors": ["Miller, Marc", "Eaglestone, Robert", "McKnight, Charles"]
       }
     ],
     "tags": ["products", "weapons", "ammunition"]
@@ -1640,12 +1900,16 @@
     "categories": ["weapons", "ammunition"],
     "sources": [
       {
-        "publication": "",
-        "authors": [""],
+        "publication": "Traveller 5.10 Core Rules Book 3 : Worlds and Adventures",
+        "authors": ["Miller, Marc"],
         "publisher": {
-        "name": "",
-        "url": ""
+          "name": "Far Future Enterprises",
+          "url": "https://farfuture.net"
         }
+      },
+      {
+        "publication": "Central Supply Catalog Website",
+        "authors": ["Miller, Marc", "Eaglestone, Robert", "McKnight, Charles"]
       }
     ],
     "tags": ["products", "weapons", "ammunition"]
@@ -1665,12 +1929,16 @@
     "categories": ["weapons", "ammunition"],
     "sources": [
       {
-        "publication": "",
-        "authors": [""],
+        "publication": "Traveller 5.10 Core Rules Book 3 : Worlds and Adventures",
+        "authors": ["Miller, Marc"],
         "publisher": {
-        "name": "",
-        "url": ""
+          "name": "Far Future Enterprises",
+          "url": "https://farfuture.net"
         }
+      },
+      {
+        "publication": "Central Supply Catalog Website",
+        "authors": ["Miller, Marc", "Eaglestone, Robert", "McKnight, Charles"]
       }
     ],
     "tags": ["products", "weapons", "ammunition"]
@@ -1690,12 +1958,16 @@
     "categories": ["weapons", "ammunition"],
     "sources": [
       {
-        "publication": "",
-        "authors": [""],
+        "publication": "Traveller 5.10 Core Rules Book 3 : Worlds and Adventures",
+        "authors": ["Miller, Marc"],
         "publisher": {
-        "name": "",
-        "url": ""
+          "name": "Far Future Enterprises",
+          "url": "https://farfuture.net"
         }
+      },
+      {
+        "publication": "Central Supply Catalog Website",
+        "authors": ["Miller, Marc", "Eaglestone, Robert", "McKnight, Charles"]
       }
     ],
     "tags": ["products", "weapons", "ammunition"]
@@ -1715,12 +1987,16 @@
     "categories": ["weapons", "ammunition"],
     "sources": [
       {
-        "publication": "",
-        "authors": [""],
+        "publication": "Traveller 5.10 Core Rules Book 3 : Worlds and Adventures",
+        "authors": ["Miller, Marc"],
         "publisher": {
-        "name": "",
-        "url": ""
+          "name": "Far Future Enterprises",
+          "url": "https://farfuture.net"
         }
+      },
+      {
+        "publication": "Central Supply Catalog Website",
+        "authors": ["Miller, Marc", "Eaglestone, Robert", "McKnight, Charles"]
       }
     ],
     "tags": ["products", "weapons", "ammunition"]
@@ -1736,16 +2012,20 @@
     "techLevel": 6,
     "qrebs": "N/A",
     "image": "",
-    "description": "<p><!-- Summary Start -->Standard 6mm Gauss gun round, 7D damage, 100 round box.<!-- Summary End --></p>",
+    "description": "<p><!-- Summary Start -->Standard 6mm Gauss gun round, 9D damage, 100 round box.<!-- Summary End --></p>",
     "categories": ["weapons", "ammunition"],
     "sources": [
       {
-        "publication": "",
-        "authors": [""],
+        "publication": "Traveller 5.10 Core Rules Book 3 : Worlds and Adventures",
+        "authors": ["Miller, Marc"],
         "publisher": {
-        "name": "",
-        "url": ""
+          "name": "Far Future Enterprises",
+          "url": "https://farfuture.net"
         }
+      },
+      {
+        "publication": "Central Supply Catalog Website",
+        "authors": ["Miller, Marc", "Eaglestone, Robert", "McKnight, Charles"]
       }
     ],
     "tags": ["products", "weapons", "ammunition"]
@@ -1765,12 +2045,16 @@
     "categories": ["weapons", "ammunition"],
     "sources": [
       {
-        "publication": "",
-        "authors": [""],
+        "publication": "Traveller 5.10 Core Rules Book 3 : Worlds and Adventures",
+        "authors": ["Miller, Marc"],
         "publisher": {
-        "name": "",
-        "url": ""
+          "name": "Far Future Enterprises",
+          "url": "https://farfuture.net"
         }
+      },
+      {
+        "publication": "Central Supply Catalog Website",
+        "authors": ["Miller, Marc", "Eaglestone, Robert", "McKnight, Charles"]
       }
     ],
     "tags": ["products", "weapons", "ammunition"]
@@ -1790,12 +2074,16 @@
     "categories": ["weapons", "ammunition"],
     "sources": [
       {
-        "publication": "",
-        "authors": [""],
+        "publication": "Traveller 5.10 Core Rules Book 3 : Worlds and Adventures",
+        "authors": ["Miller, Marc"],
         "publisher": {
-        "name": "",
-        "url": ""
+          "name": "Far Future Enterprises",
+          "url": "https://farfuture.net"
         }
+      },
+      {
+        "publication": "Central Supply Catalog Website",
+        "authors": ["Miller, Marc", "Eaglestone, Robert", "McKnight, Charles"]
       }
     ],
     "tags": ["products", "weapons", "ammunition"]
@@ -1811,16 +2099,20 @@
     "techLevel": 6,
     "qrebs": "N/A",
     "image": "",
-    "description": "<p><!-- Summary Start -->Standard 3mm Staplegun round, 1D damage, 100 round box.<!-- Summary End --></p>",
+    "description": "<p><!-- Summary Start -->Standard 3mm Staplegun round, 2D damage, 100 round box.<!-- Summary End --></p>",
     "categories": ["weapons", "ammunition"],
     "sources": [
       {
-        "publication": "",
-        "authors": [""],
+        "publication": "Traveller 5.10 Core Rules Book 3 : Worlds and Adventures",
+        "authors": ["Miller, Marc"],
         "publisher": {
-        "name": "",
-        "url": ""
+          "name": "Far Future Enterprises",
+          "url": "https://farfuture.net"
         }
+      },
+      {
+        "publication": "Central Supply Catalog Website",
+        "authors": ["Miller, Marc", "Eaglestone, Robert", "McKnight, Charles"]
       }
     ],
     "tags": ["products", "weapons", "ammunition"]
@@ -1840,12 +2132,16 @@
     "categories": ["weapons", "ammunition"],
     "sources": [
       {
-        "publication": "",
-        "authors": [""],
+        "publication": "Traveller 5.10 Core Rules Book 3 : Worlds and Adventures",
+        "authors": ["Miller, Marc"],
         "publisher": {
-        "name": "",
-        "url": ""
+          "name": "Far Future Enterprises",
+          "url": "https://farfuture.net"
         }
+      },
+      {
+        "publication": "Central Supply Catalog Website",
+        "authors": ["Miller, Marc", "Eaglestone, Robert", "McKnight, Charles"]
       }
     ],
     "tags": ["products", "weapons", "ammunition"]
@@ -1865,12 +2161,16 @@
     "categories": ["weapons", "ammunition"],
     "sources": [
       {
-        "publication": "",
-        "authors": [""],
+        "publication": "Traveller 5.10 Core Rules Book 3 : Worlds and Adventures",
+        "authors": ["Miller, Marc"],
         "publisher": {
-        "name": "",
-        "url": ""
+          "name": "Far Future Enterprises",
+          "url": "https://farfuture.net"
         }
+      },
+      {
+        "publication": "Central Supply Catalog Website",
+        "authors": ["Miller, Marc", "Eaglestone, Robert", "McKnight, Charles"]
       }
     ],
     "tags": ["products", "weapons", "ammunition"]
@@ -1890,12 +2190,16 @@
     "categories": ["weapons", "ammunition"],
     "sources": [
       {
-        "publication": "",
-        "authors": [""],
+        "publication": "Traveller 5.10 Core Rules Book 3 : Worlds and Adventures",
+        "authors": ["Miller, Marc"],
         "publisher": {
-        "name": "",
-        "url": ""
+          "name": "Far Future Enterprises",
+          "url": "https://farfuture.net"
         }
+      },
+      {
+        "publication": "Central Supply Catalog Website",
+        "authors": ["Miller, Marc", "Eaglestone, Robert", "McKnight, Charles"]
       }
     ],
     "tags": ["products", "weapons", "ammunition"]
@@ -1915,12 +2219,16 @@
     "categories": ["weapons", "ammunition"],
     "sources": [
       {
-        "publication": "",
-        "authors": [""],
+        "publication": "Traveller 5.10 Core Rules Book 3 : Worlds and Adventures",
+        "authors": ["Miller, Marc"],
         "publisher": {
-        "name": "",
-        "url": ""
+          "name": "Far Future Enterprises",
+          "url": "https://farfuture.net"
         }
+      },
+      {
+        "publication": "Central Supply Catalog Website",
+        "authors": ["Miller, Marc", "Eaglestone, Robert", "McKnight, Charles"]
       }
     ],
     "tags": ["products", "weapons", "ammunition"]
@@ -1940,12 +2248,16 @@
     "categories": ["weapons", "ammunition"],
     "sources": [
       {
-        "publication": "",
-        "authors": [""],
+        "publication": "Traveller 5.10 Core Rules Book 3 : Worlds and Adventures",
+        "authors": ["Miller, Marc"],
         "publisher": {
-        "name": "",
-        "url": ""
+          "name": "Far Future Enterprises",
+          "url": "https://farfuture.net"
         }
+      },
+      {
+        "publication": "Central Supply Catalog Website",
+        "authors": ["Miller, Marc", "Eaglestone, Robert", "McKnight, Charles"]
       }
     ],
     "tags": ["products", "weapons", "ammunition"]
@@ -1965,12 +2277,16 @@
     "categories": ["weapons", "ammunition"],
     "sources": [
       {
-        "publication": "",
-        "authors": [""],
+        "publication": "Traveller 5.10 Core Rules Book 3 : Worlds and Adventures",
+        "authors": ["Miller, Marc"],
         "publisher": {
-        "name": "",
-        "url": ""
+          "name": "Far Future Enterprises",
+          "url": "https://farfuture.net"
         }
+      },
+      {
+        "publication": "Central Supply Catalog Website",
+        "authors": ["Miller, Marc", "Eaglestone, Robert", "McKnight, Charles"]
       }
     ],
     "tags": ["products", "weapons", "ammunition"]
@@ -1986,16 +2302,20 @@
     "techLevel": 6,
     "qrebs": "N/A",
     "image": "",
-    "description": "<p><!-- Summary Start -->Standard 3mm Staplegun round, 7D damage, 100 round box.<!-- Summary End --></p>",
+    "description": "<p><!-- Summary Start -->Standard 3mm Staplegun round, 9D damage, 100 round box.<!-- Summary End --></p>",
     "categories": ["weapons", "ammunition"],
     "sources": [
       {
-        "publication": "",
-        "authors": [""],
+        "publication": "Traveller 5.10 Core Rules Book 3 : Worlds and Adventures",
+        "authors": ["Miller, Marc"],
         "publisher": {
-        "name": "",
-        "url": ""
+          "name": "Far Future Enterprises",
+          "url": "https://farfuture.net"
         }
+      },
+      {
+        "publication": "Central Supply Catalog Website",
+        "authors": ["Miller, Marc", "Eaglestone, Robert", "McKnight, Charles"]
       }
     ],
     "tags": ["products", "weapons", "ammunition"]
@@ -2015,12 +2335,16 @@
     "categories": ["weapons", "ammunition"],
     "sources": [
       {
-        "publication": "",
-        "authors": [""],
+        "publication": "Traveller 5.10 Core Rules Book 3 : Worlds and Adventures",
+        "authors": ["Miller, Marc"],
         "publisher": {
-        "name": "",
-        "url": ""
+          "name": "Far Future Enterprises",
+          "url": "https://farfuture.net"
         }
+      },
+      {
+        "publication": "Central Supply Catalog Website",
+        "authors": ["Miller, Marc", "Eaglestone, Robert", "McKnight, Charles"]
       }
     ],
     "tags": ["products", "weapons", "ammunition"]
@@ -2040,12 +2364,16 @@
     "categories": ["weapons", "ammunition"],
     "sources": [
       {
-        "publication": "",
-        "authors": [""],
+        "publication": "Traveller 5.10 Core Rules Book 3 : Worlds and Adventures",
+        "authors": ["Miller, Marc"],
         "publisher": {
-        "name": "",
-        "url": ""
+          "name": "Far Future Enterprises",
+          "url": "https://farfuture.net"
         }
+      },
+      {
+        "publication": "Central Supply Catalog Website",
+        "authors": ["Miller, Marc", "Eaglestone, Robert", "McKnight, Charles"]
       }
     ],
     "tags": ["products", "weapons", "ammunition"]
@@ -2061,16 +2389,20 @@
     "techLevel": 6,
     "qrebs": "N/A",
     "image": "",
-    "description": "<p><!-- Summary Start -->Standard 9mm Submachinegun round, 1D damage, 100 round box.<!-- Summary End --></p>",
+    "description": "<p><!-- Summary Start -->Standard 9mm Submachinegun round, 2D damage, 100 round box.<!-- Summary End --></p>",
     "categories": ["weapons", "ammunition"],
     "sources": [
       {
-        "publication": "",
-        "authors": [""],
+        "publication": "Traveller 5.10 Core Rules Book 3 : Worlds and Adventures",
+        "authors": ["Miller, Marc"],
         "publisher": {
-        "name": "",
-        "url": ""
+          "name": "Far Future Enterprises",
+          "url": "https://farfuture.net"
         }
+      },
+      {
+        "publication": "Central Supply Catalog Website",
+        "authors": ["Miller, Marc", "Eaglestone, Robert", "McKnight, Charles"]
       }
     ],
     "tags": ["products", "weapons", "ammunition"]
@@ -2090,12 +2422,16 @@
     "categories": ["weapons", "ammunition"],
     "sources": [
       {
-        "publication": "",
-        "authors": [""],
+        "publication": "Traveller 5.10 Core Rules Book 3 : Worlds and Adventures",
+        "authors": ["Miller, Marc"],
         "publisher": {
-        "name": "",
-        "url": ""
+          "name": "Far Future Enterprises",
+          "url": "https://farfuture.net"
         }
+      },
+      {
+        "publication": "Central Supply Catalog Website",
+        "authors": ["Miller, Marc", "Eaglestone, Robert", "McKnight, Charles"]
       }
     ],
     "tags": ["products", "weapons", "ammunition"]
@@ -2115,12 +2451,16 @@
     "categories": ["weapons", "ammunition"],
     "sources": [
       {
-        "publication": "",
-        "authors": [""],
+        "publication": "Traveller 5.10 Core Rules Book 3 : Worlds and Adventures",
+        "authors": ["Miller, Marc"],
         "publisher": {
-        "name": "",
-        "url": ""
+          "name": "Far Future Enterprises",
+          "url": "https://farfuture.net"
         }
+      },
+      {
+        "publication": "Central Supply Catalog Website",
+        "authors": ["Miller, Marc", "Eaglestone, Robert", "McKnight, Charles"]
       }
     ],
     "tags": ["products", "weapons", "ammunition"]
@@ -2140,12 +2480,16 @@
     "categories": ["weapons", "ammunition"],
     "sources": [
       {
-        "publication": "",
-        "authors": [""],
+        "publication": "Traveller 5.10 Core Rules Book 3 : Worlds and Adventures",
+        "authors": ["Miller, Marc"],
         "publisher": {
-        "name": "",
-        "url": ""
+          "name": "Far Future Enterprises",
+          "url": "https://farfuture.net"
         }
+      },
+      {
+        "publication": "Central Supply Catalog Website",
+        "authors": ["Miller, Marc", "Eaglestone, Robert", "McKnight, Charles"]
       }
     ],
     "tags": ["products", "weapons", "ammunition"]
@@ -2165,12 +2509,16 @@
     "categories": ["weapons", "ammunition"],
     "sources": [
       {
-        "publication": "",
-        "authors": [""],
+        "publication": "Traveller 5.10 Core Rules Book 3 : Worlds and Adventures",
+        "authors": ["Miller, Marc"],
         "publisher": {
-        "name": "",
-        "url": ""
+          "name": "Far Future Enterprises",
+          "url": "https://farfuture.net"
         }
+      },
+      {
+        "publication": "Central Supply Catalog Website",
+        "authors": ["Miller, Marc", "Eaglestone, Robert", "McKnight, Charles"]
       }
     ],
     "tags": ["products", "weapons", "ammunition"]
@@ -2190,12 +2538,16 @@
     "categories": ["weapons", "ammunition"],
     "sources": [
       {
-        "publication": "",
-        "authors": [""],
+        "publication": "Traveller 5.10 Core Rules Book 3 : Worlds and Adventures",
+        "authors": ["Miller, Marc"],
         "publisher": {
-        "name": "",
-        "url": ""
+          "name": "Far Future Enterprises",
+          "url": "https://farfuture.net"
         }
+      },
+      {
+        "publication": "Central Supply Catalog Website",
+        "authors": ["Miller, Marc", "Eaglestone, Robert", "McKnight, Charles"]
       }
     ],
     "tags": ["products", "weapons", "ammunition"]
@@ -2215,12 +2567,16 @@
     "categories": ["weapons", "ammunition"],
     "sources": [
       {
-        "publication": "",
-        "authors": [""],
+        "publication": "Traveller 5.10 Core Rules Book 3 : Worlds and Adventures",
+        "authors": ["Miller, Marc"],
         "publisher": {
-        "name": "",
-        "url": ""
+          "name": "Far Future Enterprises",
+          "url": "https://farfuture.net"
         }
+      },
+      {
+        "publication": "Central Supply Catalog Website",
+        "authors": ["Miller, Marc", "Eaglestone, Robert", "McKnight, Charles"]
       }
     ],
     "tags": ["products", "weapons", "ammunition"]
@@ -2236,16 +2592,20 @@
     "techLevel": 6,
     "qrebs": "N/A",
     "image": "",
-    "description": "<p><!-- Summary Start -->Standard 9mm Submachinegun round, 7D damage, 100 round box.<!-- Summary End --></p>",
+    "description": "<p><!-- Summary Start -->Standard 9mm Submachinegun round, 9D damage, 100 round box.<!-- Summary End --></p>",
     "categories": ["weapons", "ammunition"],
     "sources": [
       {
-        "publication": "",
-        "authors": [""],
+        "publication": "Traveller 5.10 Core Rules Book 3 : Worlds and Adventures",
+        "authors": ["Miller, Marc"],
         "publisher": {
-        "name": "",
-        "url": ""
+          "name": "Far Future Enterprises",
+          "url": "https://farfuture.net"
         }
+      },
+      {
+        "publication": "Central Supply Catalog Website",
+        "authors": ["Miller, Marc", "Eaglestone, Robert", "McKnight, Charles"]
       }
     ],
     "tags": ["products", "weapons", "ammunition"]
@@ -2265,12 +2625,16 @@
     "categories": ["weapons", "ammunition"],
     "sources": [
       {
-        "publication": "",
-        "authors": [""],
+        "publication": "Traveller 5.10 Core Rules Book 3 : Worlds and Adventures",
+        "authors": ["Miller, Marc"],
         "publisher": {
-        "name": "",
-        "url": ""
+          "name": "Far Future Enterprises",
+          "url": "https://farfuture.net"
         }
+      },
+      {
+        "publication": "Central Supply Catalog Website",
+        "authors": ["Miller, Marc", "Eaglestone, Robert", "McKnight, Charles"]
       }
     ],
     "tags": ["products", "weapons", "ammunition"]
@@ -2290,12 +2654,16 @@
     "categories": ["weapons", "ammunition"],
     "sources": [
       {
-        "publication": "",
-        "authors": [""],
+        "publication": "Traveller 5.10 Core Rules Book 3 : Worlds and Adventures",
+        "authors": ["Miller, Marc"],
         "publisher": {
-        "name": "",
-        "url": ""
+          "name": "Far Future Enterprises",
+          "url": "https://farfuture.net"
         }
+      },
+      {
+        "publication": "Central Supply Catalog Website",
+        "authors": ["Miller, Marc", "Eaglestone, Robert", "McKnight, Charles"]
       }
     ],
     "tags": ["products", "weapons", "ammunition"]
@@ -2311,16 +2679,20 @@
     "techLevel": 6,
     "qrebs": "N/A",
     "image": "",
-    "description": "<p><!-- Summary Start -->Standard 13mm Machinegun round, 1D damage, 100 round box.<!-- Summary End --></p>",
+    "description": "<p><!-- Summary Start -->Standard 13mm Machinegun round, 2D damage, 100 round box.<!-- Summary End --></p>",
     "categories": ["weapons", "ammunition"],
     "sources": [
       {
-        "publication": "",
-        "authors": [""],
+        "publication": "Traveller 5.10 Core Rules Book 3 : Worlds and Adventures",
+        "authors": ["Miller, Marc"],
         "publisher": {
-        "name": "",
-        "url": ""
+          "name": "Far Future Enterprises",
+          "url": "https://farfuture.net"
         }
+      },
+      {
+        "publication": "Central Supply Catalog Website",
+        "authors": ["Miller, Marc", "Eaglestone, Robert", "McKnight, Charles"]
       }
     ],
     "tags": ["products", "weapons", "ammunition"]
@@ -2340,12 +2712,16 @@
     "categories": ["weapons", "ammunition"],
     "sources": [
       {
-        "publication": "",
-        "authors": [""],
+        "publication": "Traveller 5.10 Core Rules Book 3 : Worlds and Adventures",
+        "authors": ["Miller, Marc"],
         "publisher": {
-        "name": "",
-        "url": ""
+          "name": "Far Future Enterprises",
+          "url": "https://farfuture.net"
         }
+      },
+      {
+        "publication": "Central Supply Catalog Website",
+        "authors": ["Miller, Marc", "Eaglestone, Robert", "McKnight, Charles"]
       }
     ],
     "tags": ["products", "weapons", "ammunition"]
@@ -2365,12 +2741,16 @@
     "categories": ["weapons", "ammunition"],
     "sources": [
       {
-        "publication": "",
-        "authors": [""],
+        "publication": "Traveller 5.10 Core Rules Book 3 : Worlds and Adventures",
+        "authors": ["Miller, Marc"],
         "publisher": {
-        "name": "",
-        "url": ""
+          "name": "Far Future Enterprises",
+          "url": "https://farfuture.net"
         }
+      },
+      {
+        "publication": "Central Supply Catalog Website",
+        "authors": ["Miller, Marc", "Eaglestone, Robert", "McKnight, Charles"]
       }
     ],
     "tags": ["products", "weapons", "ammunition"]
@@ -2390,12 +2770,16 @@
     "categories": ["weapons", "ammunition"],
     "sources": [
       {
-        "publication": "",
-        "authors": [""],
+        "publication": "Traveller 5.10 Core Rules Book 3 : Worlds and Adventures",
+        "authors": ["Miller, Marc"],
         "publisher": {
-        "name": "",
-        "url": ""
+          "name": "Far Future Enterprises",
+          "url": "https://farfuture.net"
         }
+      },
+      {
+        "publication": "Central Supply Catalog Website",
+        "authors": ["Miller, Marc", "Eaglestone, Robert", "McKnight, Charles"]
       }
     ],
     "tags": ["products", "weapons", "ammunition"]
@@ -2415,12 +2799,16 @@
     "categories": ["weapons", "ammunition"],
     "sources": [
       {
-        "publication": "",
-        "authors": [""],
+        "publication": "Traveller 5.10 Core Rules Book 3 : Worlds and Adventures",
+        "authors": ["Miller, Marc"],
         "publisher": {
-        "name": "",
-        "url": ""
+          "name": "Far Future Enterprises",
+          "url": "https://farfuture.net"
         }
+      },
+      {
+        "publication": "Central Supply Catalog Website",
+        "authors": ["Miller, Marc", "Eaglestone, Robert", "McKnight, Charles"]
       }
     ],
     "tags": ["products", "weapons", "ammunition"]
@@ -2440,12 +2828,16 @@
     "categories": ["weapons", "ammunition"],
     "sources": [
       {
-        "publication": "",
-        "authors": [""],
+        "publication": "Traveller 5.10 Core Rules Book 3 : Worlds and Adventures",
+        "authors": ["Miller, Marc"],
         "publisher": {
-        "name": "",
-        "url": ""
+          "name": "Far Future Enterprises",
+          "url": "https://farfuture.net"
         }
+      },
+      {
+        "publication": "Central Supply Catalog Website",
+        "authors": ["Miller, Marc", "Eaglestone, Robert", "McKnight, Charles"]
       }
     ],
     "tags": ["products", "weapons", "ammunition"]
@@ -2465,12 +2857,16 @@
     "categories": ["weapons", "ammunition"],
     "sources": [
       {
-        "publication": "",
-        "authors": [""],
+        "publication": "Traveller 5.10 Core Rules Book 3 : Worlds and Adventures",
+        "authors": ["Miller, Marc"],
         "publisher": {
-        "name": "",
-        "url": ""
+          "name": "Far Future Enterprises",
+          "url": "https://farfuture.net"
         }
+      },
+      {
+        "publication": "Central Supply Catalog Website",
+        "authors": ["Miller, Marc", "Eaglestone, Robert", "McKnight, Charles"]
       }
     ],
     "tags": ["products", "weapons", "ammunition"]
@@ -2486,16 +2882,20 @@
     "techLevel": 6,
     "qrebs": "N/A",
     "image": "",
-    "description": "<p><!-- Summary Start -->Standard 13mm Machinegun round, 7D damage, 100 round box.<!-- Summary End --></p>",
+    "description": "<p><!-- Summary Start -->Standard 13mm Machinegun round, 9D damage, 100 round box.<!-- Summary End --></p>",
     "categories": ["weapons", "ammunition"],
     "sources": [
       {
-        "publication": "",
-        "authors": [""],
+        "publication": "Traveller 5.10 Core Rules Book 3 : Worlds and Adventures",
+        "authors": ["Miller, Marc"],
         "publisher": {
-        "name": "",
-        "url": ""
+          "name": "Far Future Enterprises",
+          "url": "https://farfuture.net"
         }
+      },
+      {
+        "publication": "Central Supply Catalog Website",
+        "authors": ["Miller, Marc", "Eaglestone, Robert", "McKnight, Charles"]
       }
     ],
     "tags": ["products", "weapons", "ammunition"]
@@ -2515,12 +2915,16 @@
     "categories": ["weapons", "ammunition"],
     "sources": [
       {
-        "publication": "",
-        "authors": [""],
+        "publication": "Traveller 5.10 Core Rules Book 3 : Worlds and Adventures",
+        "authors": ["Miller, Marc"],
         "publisher": {
-        "name": "",
-        "url": ""
+          "name": "Far Future Enterprises",
+          "url": "https://farfuture.net"
         }
+      },
+      {
+        "publication": "Central Supply Catalog Website",
+        "authors": ["Miller, Marc", "Eaglestone, Robert", "McKnight, Charles"]
       }
     ],
     "tags": ["products", "weapons", "ammunition"]
@@ -2540,12 +2944,16 @@
     "categories": ["weapons", "ammunition"],
     "sources": [
       {
-        "publication": "",
-        "authors": [""],
+        "publication": "Traveller 5.10 Core Rules Book 3 : Worlds and Adventures",
+        "authors": ["Miller, Marc"],
         "publisher": {
-        "name": "",
-        "url": ""
+          "name": "Far Future Enterprises",
+          "url": "https://farfuture.net"
         }
+      },
+      {
+        "publication": "Central Supply Catalog Website",
+        "authors": ["Miller, Marc", "Eaglestone, Robert", "McKnight, Charles"]
       }
     ],
     "tags": ["products", "weapons", "ammunition"]
@@ -2561,16 +2969,20 @@
     "techLevel": 6,
     "qrebs": "N/A",
     "image": "",
-    "description": "<p><!-- Summary Start -->Standard 20mm Heavy Machinegun round, 1D damage, 100 round box.<!-- Summary End --></p>",
+    "description": "<p><!-- Summary Start -->Standard 20mm Heavy Machinegun round, 2D damage, 100 round box.<!-- Summary End --></p>",
     "categories": ["weapons", "ammunition"],
     "sources": [
       {
-        "publication": "",
-        "authors": [""],
+        "publication": "Traveller 5.10 Core Rules Book 3 : Worlds and Adventures",
+        "authors": ["Miller, Marc"],
         "publisher": {
-        "name": "",
-        "url": ""
+          "name": "Far Future Enterprises",
+          "url": "https://farfuture.net"
         }
+      },
+      {
+        "publication": "Central Supply Catalog Website",
+        "authors": ["Miller, Marc", "Eaglestone, Robert", "McKnight, Charles"]
       }
     ],
     "tags": ["products", "weapons", "ammunition"]
@@ -2590,12 +3002,16 @@
     "categories": ["weapons", "ammunition"],
     "sources": [
       {
-        "publication": "",
-        "authors": [""],
+        "publication": "Traveller 5.10 Core Rules Book 3 : Worlds and Adventures",
+        "authors": ["Miller, Marc"],
         "publisher": {
-        "name": "",
-        "url": ""
+          "name": "Far Future Enterprises",
+          "url": "https://farfuture.net"
         }
+      },
+      {
+        "publication": "Central Supply Catalog Website",
+        "authors": ["Miller, Marc", "Eaglestone, Robert", "McKnight, Charles"]
       }
     ],
     "tags": ["products", "weapons", "ammunition"]
@@ -2615,12 +3031,16 @@
     "categories": ["weapons", "ammunition"],
     "sources": [
       {
-        "publication": "",
-        "authors": [""],
+        "publication": "Traveller 5.10 Core Rules Book 3 : Worlds and Adventures",
+        "authors": ["Miller, Marc"],
         "publisher": {
-        "name": "",
-        "url": ""
+          "name": "Far Future Enterprises",
+          "url": "https://farfuture.net"
         }
+      },
+      {
+        "publication": "Central Supply Catalog Website",
+        "authors": ["Miller, Marc", "Eaglestone, Robert", "McKnight, Charles"]
       }
     ],
     "tags": ["products", "weapons", "ammunition"]
@@ -2640,12 +3060,16 @@
     "categories": ["weapons", "ammunition"],
     "sources": [
       {
-        "publication": "",
-        "authors": [""],
+        "publication": "Traveller 5.10 Core Rules Book 3 : Worlds and Adventures",
+        "authors": ["Miller, Marc"],
         "publisher": {
-        "name": "",
-        "url": ""
+          "name": "Far Future Enterprises",
+          "url": "https://farfuture.net"
         }
+      },
+      {
+        "publication": "Central Supply Catalog Website",
+        "authors": ["Miller, Marc", "Eaglestone, Robert", "McKnight, Charles"]
       }
     ],
     "tags": ["products", "weapons", "ammunition"]
@@ -2665,12 +3089,16 @@
     "categories": ["weapons", "ammunition"],
     "sources": [
       {
-        "publication": "",
-        "authors": [""],
+        "publication": "Traveller 5.10 Core Rules Book 3 : Worlds and Adventures",
+        "authors": ["Miller, Marc"],
         "publisher": {
-        "name": "",
-        "url": ""
+          "name": "Far Future Enterprises",
+          "url": "https://farfuture.net"
         }
+      },
+      {
+        "publication": "Central Supply Catalog Website",
+        "authors": ["Miller, Marc", "Eaglestone, Robert", "McKnight, Charles"]
       }
     ],
     "tags": ["products", "weapons", "ammunition"]
@@ -2690,12 +3118,16 @@
     "categories": ["weapons", "ammunition"],
     "sources": [
       {
-        "publication": "",
-        "authors": [""],
+        "publication": "Traveller 5.10 Core Rules Book 3 : Worlds and Adventures",
+        "authors": ["Miller, Marc"],
         "publisher": {
-        "name": "",
-        "url": ""
+          "name": "Far Future Enterprises",
+          "url": "https://farfuture.net"
         }
+      },
+      {
+        "publication": "Central Supply Catalog Website",
+        "authors": ["Miller, Marc", "Eaglestone, Robert", "McKnight, Charles"]
       }
     ],
     "tags": ["products", "weapons", "ammunition"]
@@ -2715,12 +3147,16 @@
     "categories": ["weapons", "ammunition"],
     "sources": [
       {
-        "publication": "",
-        "authors": [""],
+        "publication": "Traveller 5.10 Core Rules Book 3 : Worlds and Adventures",
+        "authors": ["Miller, Marc"],
         "publisher": {
-        "name": "",
-        "url": ""
+          "name": "Far Future Enterprises",
+          "url": "https://farfuture.net"
         }
+      },
+      {
+        "publication": "Central Supply Catalog Website",
+        "authors": ["Miller, Marc", "Eaglestone, Robert", "McKnight, Charles"]
       }
     ],
     "tags": ["products", "weapons", "ammunition"]
@@ -2736,16 +3172,20 @@
     "techLevel": 6,
     "qrebs": "N/A",
     "image": "",
-    "description": "<p><!-- Summary Start -->Standard 20mm Heavy Machinegun round, 7D damage, 100 round box.<!-- Summary End --></p>",
+    "description": "<p><!-- Summary Start -->Standard 20mm Heavy Machinegun round, 9D damage, 100 round box.<!-- Summary End --></p>",
     "categories": ["weapons", "ammunition"],
     "sources": [
       {
-        "publication": "",
-        "authors": [""],
+        "publication": "Traveller 5.10 Core Rules Book 3 : Worlds and Adventures",
+        "authors": ["Miller, Marc"],
         "publisher": {
-        "name": "",
-        "url": ""
+          "name": "Far Future Enterprises",
+          "url": "https://farfuture.net"
         }
+      },
+      {
+        "publication": "Central Supply Catalog Website",
+        "authors": ["Miller, Marc", "Eaglestone, Robert", "McKnight, Charles"]
       }
     ],
     "tags": ["products", "weapons", "ammunition"]
@@ -2765,14 +3205,308 @@
     "categories": ["weapons", "ammunition"],
     "sources": [
       {
-        "publication": "",
-        "authors": [""],
+        "publication": "Traveller 5.10 Core Rules Book 3 : Worlds and Adventures",
+        "authors": ["Miller, Marc"],
         "publisher": {
-        "name": "",
-        "url": ""
+          "name": "Far Future Enterprises",
+          "url": "https://farfuture.net"
         }
+      },
+      {
+        "publication": "Central Supply Catalog Website",
+        "authors": ["Miller, Marc", "Eaglestone, Robert", "McKnight, Charles"]
       }
     ],
     "tags": ["products", "weapons", "ammunition"]
-   }
+  },
+  {
+    "sku": "160-011-00112",
+    "type": "weapons”",
+    "subtype": "ammunition",
+    "name": "25mm VHeavy Carbine Ammunition (1D damage)",
+    "mfr": "",
+    "cost": 100,
+    "mass": 0.95,
+    "techLevel": 6,
+    "qrebs": "N/A",
+    "image": "",
+    "description": "<p><!-- Summary Start -->Standard 25mm VHeavy Carbine round, 1D damage, 100 round box.<!-- Summary End --></p>",
+    "categories": ["weapons", "ammunition"],
+    "sources": [
+      {
+        "publication": "Traveller 5.10 Core Rules Book 3 : Worlds and Adventures",
+        "authors": ["Miller, Marc"],
+        "publisher": {
+          "name": "Far Future Enterprises",
+          "url": "https://farfuture.net"
+        }
+      },
+      {
+        "publication": "Central Supply Catalog Website",
+        "authors": ["Miller, Marc", "Eaglestone, Robert", "McKnight, Charles"]
+      }
+    ],
+    "tags": ["products", "weapons", "ammunition"]
+  },
+  {
+    "sku": "160-011-00113",
+    "type": "weapons”",
+    "subtype": "ammunition",
+    "name": "25mm VHeavy Carbine Ammunition (2D damage)",
+    "mfr": "",
+    "cost": 200,
+    "mass": 0.95,
+    "techLevel": 6,
+    "qrebs": "N/A",
+    "image": "",
+    "description": "<p><!-- Summary Start -->Standard 25mm VHeavy Carbine round, 2D damage, 100 round box.<!-- Summary End --></p>",
+    "categories": ["weapons", "ammunition"],
+    "sources": [
+      {
+        "publication": "Traveller 5.10 Core Rules Book 3 : Worlds and Adventures",
+        "authors": ["Miller, Marc"],
+        "publisher": {
+          "name": "Far Future Enterprises",
+          "url": "https://farfuture.net"
+        }
+      },
+      {
+        "publication": "Central Supply Catalog Website",
+        "authors": ["Miller, Marc", "Eaglestone, Robert", "McKnight, Charles"]
+      }
+    ],
+    "tags": ["products", "weapons", "ammunition"]
+  },
+  {
+    "sku": "160-011-00114",
+    "type": "weapons”",
+    "subtype": "ammunition",
+    "name": "25mm VHeavy Carbine Ammunition (3D damage)",
+    "mfr": "",
+    "cost": 300,
+    "mass": 0.95,
+    "techLevel": 6,
+    "qrebs": "N/A",
+    "image": "",
+    "description": "<p><!-- Summary Start -->Standard 25mm VHeavy Carbine round, 3D damage, 100 round box.<!-- Summary End --></p>",
+    "categories": ["weapons", "ammunition"],
+    "sources": [
+      {
+        "publication": "Traveller 5.10 Core Rules Book 3 : Worlds and Adventures",
+        "authors": ["Miller, Marc"],
+        "publisher": {
+          "name": "Far Future Enterprises",
+          "url": "https://farfuture.net"
+        }
+      },
+      {
+        "publication": "Central Supply Catalog Website",
+        "authors": ["Miller, Marc", "Eaglestone, Robert", "McKnight, Charles"]
+      }
+    ],
+    "tags": ["products", "weapons", "ammunition"]
+  },
+  {
+    "sku": "160-011-00115",
+    "type": "weapons”",
+    "subtype": "ammunition",
+    "name": "25mm VHeavy Carbine Ammunition (4D damage)",
+    "mfr": "",
+    "cost": 400,
+    "mass": 0.95,
+    "techLevel": 6,
+    "qrebs": "N/A",
+    "image": "",
+    "description": "<p><!-- Summary Start -->Standard 25mm VHeavy Carbine round, 4D damage, 100 round box.<!-- Summary End --></p>",
+    "categories": ["weapons", "ammunition"],
+    "sources": [
+      {
+        "publication": "Traveller 5.10 Core Rules Book 3 : Worlds and Adventures",
+        "authors": ["Miller, Marc"],
+        "publisher": {
+          "name": "Far Future Enterprises",
+          "url": "https://farfuture.net"
+        }
+      },
+      {
+        "publication": "Central Supply Catalog Website",
+        "authors": ["Miller, Marc", "Eaglestone, Robert", "McKnight, Charles"]
+      }
+    ],
+    "tags": ["products", "weapons", "ammunition"]
+  },
+  {
+    "sku": "160-011-00116",
+    "type": "weapons”",
+    "subtype": "ammunition",
+    "name": "25mm VHeavy Carbine Ammunition (5D damage)",
+    "mfr": "",
+    "cost": 500,
+    "mass": 0.95,
+    "techLevel": 6,
+    "qrebs": "N/A",
+    "image": "",
+    "description": "<p><!-- Summary Start -->Standard 25mm VHeavy Carbine round, 5D damage, 100 round box.<!-- Summary End --></p>",
+    "categories": ["weapons", "ammunition"],
+    "sources": [
+      {
+        "publication": "Traveller 5.10 Core Rules Book 3 : Worlds and Adventures",
+        "authors": ["Miller, Marc"],
+        "publisher": {
+          "name": "Far Future Enterprises",
+          "url": "https://farfuture.net"
+        }
+      },
+      {
+        "publication": "Central Supply Catalog Website",
+        "authors": ["Miller, Marc", "Eaglestone, Robert", "McKnight, Charles"]
+      }
+    ],
+    "tags": ["products", "weapons", "ammunition"]
+  },
+  {
+    "sku": "160-011-00117",
+    "type": "weapons”",
+    "subtype": "ammunition",
+    "name": "25mm VHeavy Carbine Ammunition (6D damage)",
+    "mfr": "",
+    "cost": 600,
+    "mass": 0.95,
+    "techLevel": 6,
+    "qrebs": "N/A",
+    "image": "",
+    "description": "<p><!-- Summary Start -->Standard 25mm VHeavy Carbine round, 6D damage, 100 round box.<!-- Summary End --></p>",
+    "categories": ["weapons", "ammunition"],
+    "sources": [
+      {
+        "publication": "Traveller 5.10 Core Rules Book 3 : Worlds and Adventures",
+        "authors": ["Miller, Marc"],
+        "publisher": {
+          "name": "Far Future Enterprises",
+          "url": "https://farfuture.net"
+        }
+      },
+      {
+        "publication": "Central Supply Catalog Website",
+        "authors": ["Miller, Marc", "Eaglestone, Robert", "McKnight, Charles"]
+      }
+    ],
+    "tags": ["products", "weapons", "ammunition"]
+  },
+  {
+    "sku": "160-011-00118",
+    "type": "weapons”",
+    "subtype": "ammunition",
+    "name": "25mm VHeavy Carbine Ammunition (7D damage)",
+    "mfr": "",
+    "cost": 700,
+    "mass": 0.95,
+    "techLevel": 6,
+    "qrebs": "N/A",
+    "image": "",
+    "description": "<p><!-- Summary Start -->Standard 25mm VHeavy Carbine round, 7D damage, 100 round box.<!-- Summary End --></p>",
+    "categories": ["weapons", "ammunition"],
+    "sources": [
+      {
+        "publication": "Traveller 5.10 Core Rules Book 3 : Worlds and Adventures",
+        "authors": ["Miller, Marc"],
+        "publisher": {
+          "name": "Far Future Enterprises",
+          "url": "https://farfuture.net"
+        }
+      },
+      {
+        "publication": "Central Supply Catalog Website",
+        "authors": ["Miller, Marc", "Eaglestone, Robert", "McKnight, Charles"]
+      }
+    ],
+    "tags": ["products", "weapons", "ammunition"]
+  },
+  {
+    "sku": "160-011-00119",
+    "type": "weapons”",
+    "subtype": "ammunition",
+    "name": "25mm VHeavy Carbine Ammunition (8D damage)",
+    "mfr": "",
+    "cost": 800,
+    "mass": 0.95,
+    "techLevel": 6,
+    "qrebs": "N/A",
+    "image": "",
+    "description": "<p><!-- Summary Start -->Standard 25mm VHeavy Carbine round, 8D damage, 100 round box.<!-- Summary End --></p>",
+    "categories": ["weapons", "ammunition"],
+    "sources": [
+      {
+        "publication": "Traveller 5.10 Core Rules Book 3 : Worlds and Adventures",
+        "authors": ["Miller, Marc"],
+        "publisher": {
+          "name": "Far Future Enterprises",
+          "url": "https://farfuture.net"
+        }
+      },
+      {
+        "publication": "Central Supply Catalog Website",
+        "authors": ["Miller, Marc", "Eaglestone, Robert", "McKnight, Charles"]
+      }
+    ],
+    "tags": ["products", "weapons", "ammunition"]
+  },
+  {
+    "sku": "160-011-00120",
+    "type": "weapons”",
+    "subtype": "ammunition",
+    "name": "25mm VHeavy Carbine Ammunition (9D damage)",
+    "mfr": "",
+    "cost": 900,
+    "mass": 0.95,
+    "techLevel": 6,
+    "qrebs": "N/A",
+    "image": "",
+    "description": "<p><!-- Summary Start -->Standard 25mm VHeavy Carbine round, 9D damage, 100 round box.<!-- Summary End --></p>",
+    "categories": ["weapons", "ammunition"],
+    "sources": [
+      {
+        "publication": "Traveller 5.10 Core Rules Book 3 : Worlds and Adventures",
+        "authors": ["Miller, Marc"],
+        "publisher": {
+          "name": "Far Future Enterprises",
+          "url": "https://farfuture.net"
+        }
+      },
+      {
+        "publication": "Central Supply Catalog Website",
+        "authors": ["Miller, Marc", "Eaglestone, Robert", "McKnight, Charles"]
+      }
+    ],
+    "tags": ["products", "weapons", "ammunition"]
+  },
+  {
+    "sku": "160-011-00121",
+    "type": "weapons”",
+    "subtype": "ammunition",
+    "name": "25mm VHeavy Carbine Ammunition (10D damage)",
+    "mfr": "",
+    "cost": 1000,
+    "mass": 0.95,
+    "techLevel": 6,
+    "qrebs": "N/A",
+    "image": "",
+    "description": "<p><!-- Summary Start -->Standard 25mm VHeavy Carbine round, 10D damage, 100 round box.<!-- Summary End --></p>",
+    "categories": ["weapons", "ammunition"],
+    "sources": [
+      {
+        "publication": "Traveller 5.10 Core Rules Book 3 : Worlds and Adventures",
+        "authors": ["Miller, Marc"],
+        "publisher": {
+          "name": "Far Future Enterprises",
+          "url": "https://farfuture.net"
+        }
+      },
+      {
+        "publication": "Central Supply Catalog Website",
+        "authors": ["Miller, Marc", "Eaglestone, Robert", "McKnight, Charles"]
+      }
+    ],
+    "tags": ["products", "weapons", "ammunition"]
+  }
 ]
