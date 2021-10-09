@@ -8,7 +8,9 @@ tags:
 
 Welcome to the Central Supply Catalog Support page!
 
-## Searching the Central Supply Catalog (Coming soon!)
+## Searching the Central Supply Catalog
+
+The Central Supply Catalog provides a basic search capability. See the article on [Search](/support/search).
 
 ## Discussion Group
 
