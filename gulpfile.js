@@ -6,7 +6,7 @@ const cssnano = require("gulp-cssnano");
 const uglify = require("gulp-uglify");
 const rename = require("gulp-rename");
 const imagemin = require("gulp-imagemin");
-const imageminMozjpeg = require('imagemin-mozjpeg');
+const imageminMozjpeg = require("imagemin-mozjpeg");
 const htmlmin = require("gulp-htmlmin");
 const sitemap = require("gulp-sitemap");
 const save = require("gulp-save");
@@ -24,7 +24,7 @@ const readdirp = require("readdirp");
 const platform = process.platform;
 
 // set output directory
-let INDEX_OUTPUT_DIRECTORY = "";
+let INDEX_OUTPUT_DIRECTORY = "dist/_data";
 
 // set build type
 
@@ -38,7 +38,7 @@ const render = (cb) => {
 };
 
 const render_prod = (cb) => {
-  INDEX_OUTPUT_DIRECTORY = "./dist/data";
+  INDEX_OUTPUT_DIRECTORY = "./dist/_data";
   let buildType = "prod";
   cp.execSync("npm run prod");
   cb();
@@ -66,7 +66,6 @@ const siteMap = () => {
   return (
     src("./dist/**/*.html", { read: false })
       .pipe(save("before-sitemap"))
-      // .pipe(sitemap({ siteUrl: "https://cmcknight.github.io/central-supply-catalog/" }))
       .pipe(removeEmptyLines())
       .pipe(dest("./dist"))
       .pipe(save.restore("before-sitemap"))
@@ -90,7 +89,7 @@ const processJavascript = () => {
   return src(["./src/js/**/*.js", "!./src/utilities/indexer.js"])
     .pipe(babel({ presets: ["@babel/env"] }))
     .pipe(uglify())
-    .pipe(rename({ sufix: ".min" }))
+    .pipe(rename({ suffix: ".min" }))
     .pipe(dest("./dist/js"));
 };
 
@@ -116,9 +115,9 @@ const buildSiteIndex = async () => {
 };
 
 // copy the search index
-const copyIndexFile = () => {
-  return src(["./src/_data/**/*"]).pipe(dest("./dist/data"));
-};
+// const copyIndexFile = () => {
+//   return src(["./src/_data/**/*"]).pipe(dest("./dist/data"));
+// };
 
 // Move the robots.txt files
 const copyRobotsText = () => {
@@ -156,7 +155,7 @@ const monitor = () => {
 exports.default = series(
   cleanProd,
   render_prod,
-  // buildSiteIndex,
+  buildSiteIndex,
   processHTML,
   processSASS,
   processJavascript,
@@ -172,53 +171,55 @@ exports.monitor = monitor;
 // clear the contents of the dist folder
 exports.clean_prod = cleanProd;
 
+exports.build_index = buildSiteIndex;
+
 // Build the site index from the HTML files
 const buildIndex = () => {
-  const inputFiles = JSON.parse(fs.readFileSync("progdata/departments.json"));
+  let arrayOfFiles;
+  const inputFiles = getProductFiles(path.join("src", "_data"), arrayOfFiles).filter(
+    (file) => path.extname(file) === ".json"
+  );
 
   console.log("In buildSiteIndex");
 
-  let idCounter = 0;
+  // let idCounter = 0;
 
   let ms = new miniSearch({
-    fields: [
-      "sku",
-      "category",
-      "type",
-      "subtype",
-      "name",
-      "description",
-      "cost",
-      "mass",
-      "size",
-      "techLevel",
-      "qrebs",
-      "tags",
-    ],
+    fields: ["sku", "name", "description", "cost"],
     storeFields: ["sku", "name", "description", "cost"],
   });
 
-  inputFiles.forEach((department) => {
-    // get the products from the file
-    if (department.data !== null && department.data !== undefined) {
-      let products = JSON.parse(fs.readFileSync(department.data));
+  const products = inputFiles.flatMap((file) => JSON.parse(fs.readFileSync(file)));
 
-      // build search index object and add to search index
-      products.forEach((product) => {
-        product.id = idCounter++;
-        ms.add(product);
-      });
-    }
-  });
+  // add id field
+  products.forEach((product) => (product.id = products.indexOf(product)));
+
+  ms.addAll(products);
 
   // create the output directory
   fs.mkdir(INDEX_OUTPUT_DIRECTORY, (err) => {
     if (err && err.code != "EEXIST") throw "up";
 
     // write the index
-    fs.writeFile(path.join(INDEX_OUTPUT_DIRECTORY, "searchindex.idx"), JSON.stringify(ms), function (err) {
+    fs.writeFile(path.join(INDEX_OUTPUT_DIRECTORY, "searchindex.idx"), JSON.stringify(products), function (err) {
       if (err) console.error(err);
       console.log("Index saved.");
     });
   });
+};
+
+// helper function for building site index file
+const getProductFiles = function (dirPath, arrayOfFiles) {
+  files = fs.readdirSync(dirPath);
+
+  arrayOfFiles = arrayOfFiles || [];
+
+  files.forEach(function (file) {
+    let fn = path.join(dirPath, file);
+    fs.statSync(fn).isDirectory()
+      ? (arrayOfFiles = getProductFiles(fn, arrayOfFiles))
+      : arrayOfFiles.push(path.join(dirPath, "/", file));
+  });
+
+  return arrayOfFiles;
 };
