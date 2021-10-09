@@ -27,7 +27,7 @@ const BS_MARKER = "/browser-sync/";
 
 self.addEventListener("fetch", async ({ request }) => {
   if (request.url.indexOf(BS_MARKER) > -1) {
-    return fetch(request);
+    return await fetch(request);
   }
 
   const cache = await caches.open(cacheName);
@@ -37,6 +37,7 @@ self.addEventListener("fetch", async ({ request }) => {
     return cached;
   }
 
+  // console.log(request);
   const response = await fetch(request);
   await cache.put(request, response.clone());
   return response;
