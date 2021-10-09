@@ -1,5 +1,3 @@
-// const hostName = document.location.hostname === "localhost" ? "" : "https://cmcknight.github.io/central-supply-catalog";
-
 // ----- Shopping Cart-related functionality -----
 const cartKey = "csc-cart"; // key for localStorage shopping cart
 
@@ -22,6 +20,35 @@ const setUnitLabel = (value, shorten) => {
     text = `${value} Cr`;
   }
   return text;
+};
+
+//-------------------------------------------------------------
+// Extract marked summary from text.
+//-------------------------------------------------------------
+const extractSummary = (text) => {
+  let summary = null;
+
+  // The start and end separators to try and match to extract the summary
+  const separatorsList = [
+    { start: "<!-- Summary Start -->", end: "<!-- Summary End -->" },
+    { start: "<p>", end: "</p>" },
+  ];
+
+  separatorsList.some((separators) => {
+    const startPosition = text.indexOf(separators.start);
+
+    // This end position could use "lastIndexOf" to return all
+    // the paragraphs rather than just the first paragraph when
+    // matching is on "<p>" and "</p>".
+    const endPosition = text.indexOf(separators.end);
+
+    if (startPosition !== -1 && endPosition !== -1) {
+      summary = text.substring(startPosition + separators.start.length, endPosition).trim();
+      return true;
+    }
+  });
+
+  return summary;
 };
 
 // ----------------- add item to cart -----------------
@@ -237,8 +264,8 @@ const searchBar = document.querySelector(".search-bar");
 if (searchField !== null && searchField !== undefined) {
   searchField.addEventListener("search", (e) => {
     e.preventDefault();
-    console.log(`${window.location.origin}/?s=${e.target.value}`);
-    window.location.href = `${window.location.origin}/?q=${e.target.value.replace(/\s+/g, "+")}`;
+    // console.log(`${window.location.origin}/?s=${e.target.value}`);
+    window.location.href = `${window.location.origin}/?s=${e.target.value.replace(/\s+/g, "+")}`;
   });
 }
 
@@ -246,26 +273,113 @@ if (searchField !== null && searchField !== undefined) {
 window.addEventListener("load", (event) => {
   const params = new URLSearchParams(window.location.search);
 
-  if (params.has("q=")) {
+  // console.log(`params: ${params}`);
+  if (params.has("s")) {
     // collection search parameters
-    const searchParams = params.get("q");
+    const searchParams = params.get("s");
+    // console.log(`searchParams: ${searchParams}`);
     // perform search
     performSiteSearch(searchParams);
   }
 });
 
+const performSiteSearch = (params) => {
+  let searchIndexLocation = "_data/searchindex.idx";
+  // console.log(`(performSiteSearch) Params: ${params}`);
+  fetch(searchIndexLocation, {
+    method: "GET",
+    headers: {
+      "Content-Type": "application/json;charset=UTF-8",
+    },
+  })
+    .then((resp) => resp.json())
+    .then((data) => {
+      // console.log(data);
+
+      /**
+       * Future fields to support filtering
+       *  category
+       *  type
+       *  subtype
+       *  mass
+       *  size
+       *  techLevel
+       */
+
+      const miniSearch = new MiniSearch({
+        fields: [
+          "sku",
+          "name",
+          "description",
+          "cost",
+    ],
+        storeFields: [
+          "sku", 
+          "name", 
+          "description", 
+          "cost"],
+      });
+
+      miniSearch.addAll(data);
+
+      let results = miniSearch.search(params, {
+        prefix: true
+      });
+
+      // start of search results content body
+      let str = '<div class="black red-text search-results-container" id="content-body">';
+
+      str += `<h6>Search found ${results.length} results for: ${params}</h6>`
+
+      str += `<div class="container black-text">`
+
+      results.forEach(product => {
+        img = (product.image) ? product.image : '/img/products/no-image.png'
+        str += `
+          <div class="search-result-row row white col s12">
+            <div class="prod-img col s3 m2">
+              <img src ="${img}" class="responsive-img" alt="{{${product.name}}}">
+            </div>
+        `;
+
+      let prodlink = '/products/'+product.sku
+
+      str += `
+          <div class="product-summary col s9 m10">
+            <a href="${prodlink}"><h6>${product.name}</h6></a>
+            <p>${extractSummary(product.description)}</p>
+            <div class="valign-wrapper">
+              <h6 class="right-align">${setUnitLabel(product.cost, true)}</h6>
+            </div>
+          </div>
+        </div>
+      `
+      });
+
+      // mark end of container search results content body
+      str += `</div>
+      </div>`
+
+      const contentBody = document.querySelector('.departments-container');
+
+      contentBody.innerHTML = '';
+      contentBody.innerHTML = str;
+    })
+    .catch((err) => console.log(err));
+};
 // ---------- End of Search-related Functionality ----------
 
 // -------------------  Pager  -----------------------------
 let pager = document.getElementById("pager");
 if (pager !== null && pager !== undefined) {
   pager.addEventListener("change", (e) => {
-    let target = document.location.href.replace(/[0-9]+\/$/, '');
-    target += (e.target.value === '1') ? '' : e.target.value;
-    pager
+    let target = document.location.href.replace(/[0-9]+\/$/, "");
+    target += e.target.value === "1" ? "" : e.target.value;
+    pager;
     window.location.assign(target);
   });
 }
+
 // ----------------  End of Pager  -------------------------
 
 // --------- Perform initializations ---------
@@ -297,9 +411,9 @@ document.addEventListener("DOMContentLoaded", function () {
   }
 });
 
-window.addEventListener('pageshow', () => {
-  let pagerForm = document.getElementById('pager-form')
+window.addEventListener("pageshow", () => {
+  let pagerForm = document.getElementById("pager-form");
   if (pagerForm !== null && pagerForm !== undefined) {
     pagerForm.reset();
   }
-})
+});
