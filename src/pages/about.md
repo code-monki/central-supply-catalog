@@ -1,7 +1,7 @@
 ---
 title: About the Central Supply Catalog
 layout: site-page.njk
-permalink: ./{{ title | slug }}/
+permalink: /{{ title | slug }}/
 tags:
   - pages
 ---
@@ -49,6 +49,3 @@ The stewards of the <a href="https://wiki.travellerrpg.com/" target="_blank">Tra
 
 A portion of the content is governed by the <a href="https://www.d20srd.org/ogl.htm" target="_blank">Open Gaming License v1.0a.</a> As such the author has attempted to make a reasonable effort to ensure compliance with that license for those materials that fall under it.
 
-## Mayday Audio
-
-The full audio for the 404 - File Note Found page is <a href="https://archive.org/details/TheFatRatMAYDAYft.LauraBrehm2" target="_blank">"Mayday (ft. Laura Brehm"</a> by TheFatRat. TheFatRat graciously provided the track under the Creative Commons
