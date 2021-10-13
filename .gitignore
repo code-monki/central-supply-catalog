@@ -1,6 +1,5 @@
 *.bmpr
 node_modules/*
-package-lock.json
 _site/*
 .DS_Store
 scratch
@@ -14,3 +13,4 @@ build/*
 *old
 hold/*
 dist/
+Todo.md
