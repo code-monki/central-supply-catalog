@@ -2,7 +2,7 @@
   {
     "sku": "160-006-00001",
     "type": "weapons",
-    "subtype": "rifles-carbines",
+    "subtype": "rifles carbines",
     "name": "Rifle, Experimental (XR-3)",
     "mfr": "",
     "cost": 2000,
@@ -39,7 +39,7 @@
   {
     "sku": "160-006-00002",
     "type": "weapons",
-    "subtype": "rifles-carbines",
+    "subtype": "rifles carbines",
     "name": "Carbine, Experimental (XC-3)",
     "mfr": "",
     "cost": 1600,
@@ -76,7 +76,7 @@
   {
     "sku": "160-006-00003",
     "type": "weapons",
-    "subtype": "rifles-carbines",
+    "subtype": "rifles carbines",
     "name": "Hunting Carbine, Heavy, Experimental (XHHC-3)",
     "mfr": "",
     "cost": 2112,
@@ -113,7 +113,7 @@
   {
     "sku": "160-006-00004",
     "type": "weapons",
-    "subtype": "rifles-carbines",
+    "subtype": "rifles carbines",
     "name": "Rifle, Early (ER-4)",
     "mfr": "",
     "cost": 600,
@@ -150,7 +150,7 @@
   {
     "sku": "160-006-0005",
     "type": "weapons",
-    "subtype": "rifles-carbines",
+    "subtype": "rifles carbines",
     "name": "Battle Rifle, Experimental (XBR-4)",
     "mfr": "",
     "cost": 1600,
@@ -187,7 +187,7 @@
   {
     "sku": "160-006-00006",
     "type": "weapons",
-    "subtype": "rifles-carbines",
+    "subtype": "rifles carbines",
     "name": "Rifle, Prototype (PR-4)",
     "mfr": "",
     "cost": 1500,
@@ -224,7 +224,7 @@
   {
     "sku": "160-006-00007",
     "type": "weapons",
-    "subtype": "rifles-carbines",
+    "subtype": "rifles carbines",
     "name": "Rifle, Medium, Early (EMR-4)",
     "mfr": "",
     "cost": 1800,
@@ -261,7 +261,7 @@
   {
     "sku": "160-006-00008",
     "type": "weapons",
-    "subtype": "rifles-carbines",
+    "subtype": "rifles carbines",
     "name": "Dart Rifle, Medium, Experimental (XMDR-4)",
     "mfr": "",
     "cost": 5400,
@@ -298,7 +298,7 @@
   {
     "sku": "160-006-00009",
     "type": "weapons",
-    "subtype": "rifles-carbines",
+    "subtype": "rifles carbines",
     "name": "HR-5 Hunting Rifle (HR-5)",
     "mfr": "",
     "cost": 600,
@@ -335,7 +335,7 @@
   {
     "sku": "160-006-00010",
     "type": "weapons",
-    "subtype": "rifles-carbines",
+    "subtype": "rifles carbines",
     "name": "Rifle (R-5)",
     "mfr": "",
     "cost": 500,
@@ -372,7 +372,7 @@
   {
     "sku": "160-006-00011",
     "type": "weapons",
-    "subtype": "rifles-carbines",
+    "subtype": "rifles carbines",
     "name": "Rifle, Basic (BR-5)",
     "mfr": "",
     "cost": 350,
@@ -409,7 +409,7 @@
   {
     "sku": "160-006-00012",
     "type": "weapons",
-    "subtype": "rifles-carbines",
+    "subtype": "rifles carbines",
     "name": "Battle Rifle (BR-6)",
     "mfr": "",
     "cost": 400,
@@ -446,7 +446,7 @@
   {
     "sku": "160-006-00013",
     "type": "weapons",
-    "subtype": "rifles-carbines",
+    "subtype": "rifles carbines",
     "name": "Rifle, Improved (ImR-6)",
     "mfr": "",
     "cost": 550,
@@ -483,7 +483,7 @@
   {
     "sku": "160-006-00014",
     "type": "weapons",
-    "subtype": "rifles-carbines",
+    "subtype": "rifles carbines",
     "name": "Rifle, Sniper (SnR-6)",
     "mfr": "",
     "cost": 1000,
@@ -520,7 +520,7 @@
   {
     "sku": "160-006-00015",
     "type": "weapons",
-    "subtype": "rifles-carbines",
+    "subtype": "rifles carbines",
     "name": "Dart Rifle, Light (LtDR-6)",
     "mfr": "",
     "cost": 675,
@@ -557,7 +557,7 @@
   {
     "sku": "160-006-00016",
     "type": "weapons",
-    "subtype": "rifles-carbines",
+    "subtype": "rifles carbines",
     "name": "Rifle, Light, Early (ELtSpR-6)",
     "mfr": "",
     "cost": 2160,
@@ -594,7 +594,7 @@
   {
     "sku": "160-006-00017",
     "type": "weapons",
-    "subtype": "rifles-carbines",
+    "subtype": "rifles carbines",
     "name": "AR-7 Assault Rifle (AR-7)",
     "mfr": "",
     "cost": 750,
@@ -631,7 +631,7 @@
   {
     "sku": "160-006-00018",
     "type": "weapons",
-    "subtype": "rifles-carbines",
+    "subtype": "rifles carbines",
     "name": "Combat Rifle (CR-7)",
     "mfr": "",
     "cost": 650,
@@ -668,7 +668,7 @@
   {
     "sku": "160-006-00019",
     "type": "weapons",
-    "subtype": "rifles-carbines",
+    "subtype": "rifles carbines",
     "name": "Splat Rifle (SpR-7)",
     "mfr": "",
     "cost": 1200,
@@ -705,7 +705,7 @@
   {
     "sku": "160-006-00020",
     "type": "weapons",
-    "subtype": "rifles-carbines",
+    "subtype": "rifles carbines",
     "name": "Poison Dart Rifle, Heavy, Improved (ImHPR-7)",
     "mfr": "",
     "cost": 1815,
@@ -742,7 +742,7 @@
   {
     "sku": "160-006-00021",
     "type": "weapons",
-    "subtype": "rifles-carbines",
+    "subtype": "rifles carbines",
     "name": "Poison Dart Rifle, Heavy, Sniper (SnHPR-7)",
     "mfr": "",
     "cost": 3300,
@@ -779,7 +779,7 @@
   {
     "sku": "160-006-00022",
     "type": "weapons",
-    "subtype": "rifles-carbines",
+    "subtype": "rifles carbines",
     "name": "Anti-Designator Rifle (aDR-8)",
     "mfr": "",
     "cost": 1500,
@@ -816,7 +816,7 @@
   {
     "sku": "160-006-00023",
     "type": "weapons",
-    "subtype": "rifles-carbines",
+    "subtype": "rifles carbines",
     "name": "Anti-Designator Survival Rifle, Basic (BaDSR-8)",
     "mfr": "",
     "cost": 1260,
@@ -853,7 +853,7 @@
   {
     "sku": "160-006-00024",
     "type": "weapons",
-    "subtype": "rifles-carbines",
+    "subtype": "rifles carbines",
     "name": "Combat Rifle, Heavy, Standard (StdHCR-8)",
     "mfr": "",
     "cost": 715,
@@ -890,7 +890,7 @@
   {
     "sku": "160-006-00025",
     "type": "weapons",
-    "subtype": "rifles-carbines",
+    "subtype": "rifles carbines",
     "name": "Accelerator Rifle, Medium, Prototype (PMAcR-8)",
     "mfr": "",
     "cost": 8100,
@@ -927,7 +927,7 @@
   {
     "sku": "160-006-00026",
     "type": "weapons",
-    "subtype": "rifles-carbines",
+    "subtype": "rifles carbines",
     "name": "Assault Rifle, Medium, Remote (RMAR-8)",
     "mfr": "",
     "cost": 15750,
@@ -964,7 +964,7 @@
   {
     "sku": "160-006-00027",
     "type": "weapons",
-    "subtype": "rifles-carbines",
+    "subtype": "rifles carbines",
     "name": "Accelerator Rifle (AcR-9)",
     "mfr": "",
     "cost": 900,
@@ -1001,7 +1001,7 @@
   {
     "sku": "160-006-00028",
     "type": "weapons",
-    "subtype": "rifles-carbines",
+    "subtype": "rifles carbines",
     "name": "Rifle, Obsolete (ObR-9)",
     "mfr": "",
     "cost": 250,
@@ -1038,7 +1038,7 @@
   {
     "sku": "160-006-00029",
     "type": "weapons",
-    "subtype": "rifles-carbines",
+    "subtype": "rifles carbines",
     "name": "Anti-Designator Hunting Rifle, Sniper (SnaDHR-9)",
     "mfr": "",
     "cost": 3600,
@@ -1075,7 +1075,7 @@
   {
     "sku": "160-006-00030",
     "type": "weapons",
-    "subtype": "rifles-carbines",
+    "subtype": "rifles carbines",
     "name": "Hunting Rifle, Disposable, Alternate (AltDHR-9)",
     "mfr": "",
     "cost": 1320,
@@ -1112,7 +1112,7 @@
   {
     "sku": "160-006-00031",
     "type": "weapons",
-    "subtype": "rifles-carbines",
+    "subtype": "rifles carbines",
     "name": "Battle Rifle, Disposable, Target (TDBR-9)",
     "mfr": "",
     "cost": 1200,
@@ -1149,7 +1149,7 @@
   {
     "sku": "160-006-00032",
     "type": "weapons",
-    "subtype": "rifles-carbines",
+    "subtype": "rifles carbines",
     "name": "Dart Rifle, Obsolete (ObDR-10)",
     "mfr": "",
     "cost": 225,
@@ -1186,7 +1186,7 @@
   {
     "sku": "160-006-00033",
     "type": "weapons",
-    "subtype": "rifles-carbines",
+    "subtype": "rifles carbines",
     "name": "Laser Rifle, Target (TLR-10)",
     "mfr": "",
     "cost": 1500,
@@ -1222,7 +1222,7 @@
   {
     "sku": "160-006-00034",
     "type": "weapons",
-    "subtype": "rifles-carbines",
+    "subtype": "rifles carbines",
     "name": "Anti-Designator Battle Rifle, Remote (RaDBR-10)",
     "mfr": "",
     "cost": 8400,
@@ -1259,7 +1259,7 @@
   {
     "sku": "160-006-00035",
     "type": "weapons",
-    "subtype": "rifles-carbines",
+    "subtype": "rifles carbines",
     "name": "Anti-Designator Poison Dart Rifle, Remote (RaDPR-10)",
     "mfr": "",
     "cost": 31500,
@@ -1296,7 +1296,7 @@
   {
     "sku": "160-006-00036",
     "type": "weapons",
-    "subtype": "rifles-carbines",
+    "subtype": "rifles carbines",
     "name": "Anti-Designator Poison Dart Rifle, Sniper (SnaDPR-10)",
     "mfr": "",
     "cost": 9000,
@@ -1333,7 +1333,7 @@
   {
     "sku": "160-006-00037",
     "type": "weapons",
-    "subtype": "rifles-carbines",
+    "subtype": "rifles carbines",
     "name": "Anti-Designator Splat Rifle, Alternate (AltaDSpR-11)",
     "mfr": "",
     "cost": 3960,
@@ -1370,7 +1370,7 @@
   {
     "sku": "160-006-00038",
     "type": "weapons",
-    "subtype": "rifles-carbines",
+    "subtype": "rifles carbines",
     "name": "Gauss Rifle, Recoilless, Experimental (XRGR-11)",
     "mfr": "",
     "cost": 9000,
@@ -1407,7 +1407,7 @@
   {
     "sku": "160-006-00039",
     "type": "weapons",
-    "subtype": "rifles-carbines",
+    "subtype": "rifles carbines",
     "name": "Poison Dart Rifle, Snub, Obsolete (ObSnPr-11)",
     "mfr": "",
     "cost": 3750,
@@ -1444,7 +1444,7 @@
   {
     "sku": "160-006-00040",
     "type": "weapons",
-    "subtype": "rifles-carbines",
+    "subtype": "rifles carbines",
     "name": "Assault Rifle, Vheavy, Obsolete (ObVhAR-11)",
     "mfr": "",
     "cost": 750,
@@ -1481,7 +1481,7 @@
   {
     "sku": "160-006-00041",
     "type": "weapons",
-    "subtype": "rifles-carbines",
+    "subtype": "rifles carbines",
     "name": "GR-12 Gauss Rifle (GR-12)",
     "mfr": "",
     "cost": 1500,
@@ -1518,7 +1518,7 @@
   {
     "sku": "160-006-00042",
     "type": "weapons",
-    "subtype": "rifles-carbines",
+    "subtype": "rifles carbines",
     "name": "Survival Rifle, Disposable, Obsolete (ObDSR-12)",
     "mfr": "",
     "cost": 600,
@@ -1555,7 +1555,7 @@
   {
     "sku": "160-006-00043",
     "type": "weapons",
-    "subtype": "rifles-carbines",
+    "subtype": "rifles carbines",
     "name": "Accelerator Rifle, Light, Advanced (AltAcR-12)",
     "mfr": "",
     "cost": 2700,
@@ -1592,7 +1592,7 @@
   {
     "sku": "160-006-00044",
     "type": "weapons",
-    "subtype": "rifles-carbines",
+    "subtype": "rifles carbines",
     "name": "Gauss Carbine (GC-12)",
     "mfr": "",
     "cost": 1200,
@@ -1629,7 +1629,7 @@
   {
     "sku": "160-006-00045",
     "type": "weapons",
-    "subtype": "rifles-carbines",
+    "subtype": "rifles carbines",
     "name": "Splat Carbine, Disposable, Modified (ModDSpC-12)",
     "mfr": "",
     "cost": 2304,
@@ -1666,7 +1666,7 @@
   {
     "sku": "160-006-00046",
     "type": "weapons",
-    "subtype": "rifles-carbines",
+    "subtype": "rifles carbines",
     "name": "ADCR-13 Advanced Disposable Combat Rifle, Disposable, Advanced (ADCR-13)",
     "mfr": "",
     "cost": 2600,
@@ -1703,7 +1703,7 @@
   {
     "sku": "160-006-00047",
     "type": "weapons",
-    "subtype": "rifles-carbines",
+    "subtype": "rifles carbines",
     "name": "Gauss Rifle, Vheavy, Sniper (SnVhGR-13)",
     "mfr": "",
     "cost": 6000,
@@ -1740,7 +1740,7 @@
   {
     "sku": "160-006-00048",
     "type": "weapons",
-    "subtype": "rifles-carbines",
+    "subtype": "rifles carbines",
     "name": "BVlGR-13 Basic Vlight Gauss Rifle, Vlight, Basic (BVlGR-13)",
     "mfr": "",
     "cost": 9450,
@@ -1777,7 +1777,7 @@
   {
     "sku": "160-006-00049",
     "type": "weapons",
-    "subtype": "rifles-carbines",
+    "subtype": "rifles carbines",
     "name": "Laser Rifle, Disposable, Alternate (AltDLR-14)",
     "mfr": "",
     "cost": 2200,
@@ -1813,7 +1813,7 @@
   {
     "sku": "160-006-00050",
     "type": "weapons",
-    "subtype": "rifles-carbines",
+    "subtype": "rifles carbines",
     "name": "Accelerator Carbine, Disposable, Modified (ModDAcC-14)",
     "mfr": "",
     "cost": 1728,
@@ -1850,7 +1850,7 @@
   {
     "sku": "160-006-00051",
     "type": "weapons",
-    "subtype": "rifles-carbines",
+    "subtype": "rifles carbines",
     "name": "Gauss Rifle, Disposable, Target (TDGR-15)",
     "mfr": "",
     "cost": 4500,
@@ -1887,7 +1887,7 @@
   {
     "sku": "160-006-00052",
     "type": "weapons",
-    "subtype": "rifles-carbines",
+    "subtype": "rifles carbines",
     "name": "Anti-Designator Laser Carbine, Modified (ModaDLC-15)",
     "mfr": "",
     "cost": 2880,
@@ -1923,7 +1923,7 @@
   {
     "sku": "160-006-00053",
     "type": "weapons",
-    "subtype": "rifles-carbines",
+    "subtype": "rifles carbines",
     "name": "Gauss Carbine, Disposable, Basic (BDGC-15)",
     "mfr": "",
     "cost": 1680,
@@ -1960,7 +1960,7 @@
   {
     "sku": "160-006-00054",
     "type": "weapons",
-    "subtype": "rifles-carbines",
+    "subtype": "rifles carbines",
     "name": "Anti-Designator Gauss Carbine, Remote (RaDBC-16)",
     "mfr": "",
     "cost": 25200,
@@ -1997,7 +1997,7 @@
   {
     "sku": "160-006-00055",
     "type": "weapons",
-    "subtype": "rifles-carbines",
+    "subtype": "rifles carbines",
     "name": "Gauss Rifle, Disposable, Modified (ModDGR-17)",
     "mfr": "",
     "cost": 3600,
@@ -2034,7 +2034,7 @@
   {
     "sku": "160-006-00056",
     "type": "weapons",
-    "subtype": "rifles-carbines",
+    "subtype": "rifles carbines",
     "name": "Anti-Designator Gauss Carbine, Advanced (AaDGC-18)",
     "mfr": "",
     "cost": 7200,

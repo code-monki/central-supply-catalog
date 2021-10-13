@@ -196,30 +196,34 @@ Weapons
 | 100-002 | Dress                  |   X    |
 | 100-003 | Suits                  |   X    |
 | 100-004 | Units                  |   X    |
-| 100-005 | Cyberware              |   _    |
-| 110-000 | Robots                 |   _    |
-| 110-001 | Automatons             |   _    |
-| 110-002 | Drones                 |   _    |
-| 110-003 | Strangeforms           |   _    |
-| 120-000 | Sensory Aids           |   _    |
-| 130-000 | Structures, Shelters   |   _    |
-| 140-000 | Vehicles               |   _    |
-| 140-001 | Small Craft            |   _    |
-| 140-002 | Space Craft            |   _    |
-| 150-000 | Weapons                |   _    |
-| 150-001 | Melee                  |   _    |
-| 150-002 | Blades                 |   _    |
-| 150-003 | Pistols, Revolvers     |   _    |
-| 150-004 | Shotguns               |   _    |
-| 150-005 | Machineguns            |   _    |
-| 150-006 | Rifles, Carbines       |   _    |
-| 150-007 | Heavy Weapons          |   _    |
-| 150-008 | Launchers              |   _    |
-| 150-009 | Projectors             |   _    |
-| 150-010 | Designators            |   _    |
-| 150-011 | Ammunition             |   _    |
-| 150-012 | Weapon Accessories     |   _    |
-| 160-000 | Cables & Surface Gear  |   _    |
+| 100-005 | Cyberware              |   \_   |
+| 110-000 | Robots                 |   X    |
+| 110-001 | Automatons             |   \_   |
+| 110-002 | Drones                 |   X    |
+| 110-003 | Strangeforms           |   \_   |
+| 120-000 | Detectors              |   X    |
+| 130-000 | Structures, Shelters   |   X    |
+| 140-000 | Toolkits               |   X    |
+| 150-000 | Vehicles               |   X    |
+| 150-001 | Small Craft            |   X    |
+| 150-002 | Space Craft            |   \_   |
+| 160-000 | Weapons                |   \_   |
+| 160-001 | Melee                  |   \_   |
+| 160-002 | Blades                 |   \_   |
+| 160-003 | Pistols, Revolvers     |   \_   |
+| 160-004 | Shotguns               |   \_   |
+| 160-005 | Machineguns            |   \_   |
+| 160-006 | Rifles, Carbines       |   \_   |
+| 160-007 | Heavy Weapons          |   \_   |
+| 160-008 | Launchers              |   \_   |
+| 160-009 | Projectors             |   \_   |
+| 160-010 | Designators            |   \_   |
+| 160-011 | Ammunition             |   \_   |
+| 160-012 | Weapon Accessories     |   \_   |
+| 170-000 | Surface Gear           |   X    |
+| 180-000 | Non-breathing Gases    |   X    |
+| 190-000 | Containers             |   X    |
+| 200-000 | Uniques & Valuata      |   X    |
 
 \* Software apparently does not have prices
 

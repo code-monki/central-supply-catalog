@@ -1,7 +1,7 @@
 [
   {
     "sku": "160-011-00001",
-    "type": "weapons”",
+    "type": "weapons",
     "subtype": "ammunition",
     "name": "Artillery rounds (Cannon / Gatling / Gun)",
     "mfr": "",
@@ -31,7 +31,7 @@
   },
   {
     "sku": "160-011-00002",
-    "type": "weapons”",
+    "type": "weapons",
     "subtype": "ammunition",
     "name": "8mm Rifle Ammunition (1D damage)",
     "mfr": "",
@@ -60,7 +60,7 @@
   },
   {
     "sku": "160-011-00003",
-    "type": "weapons”",
+    "type": "weapons",
     "subtype": "ammunition",
     "name": "8mm Rifle Ammunition (2D damage)",
     "mfr": "",
@@ -89,7 +89,7 @@
   },
   {
     "sku": "160-011-00004",
-    "type": "weapons”",
+    "type": "weapons",
     "subtype": "ammunition",
     "name": "8mm Rifle Ammunition (3D damage)",
     "mfr": "",
@@ -118,7 +118,7 @@
   },
   {
     "sku": "160-011-00005",
-    "type": "weapons”",
+    "type": "weapons",
     "subtype": "ammunition",
     "name": "8mm Rifle Ammunition (4D damage)",
     "mfr": "",
@@ -147,7 +147,7 @@
   },
   {
     "sku": "160-011-00006",
-    "type": "weapons”",
+    "type": "weapons",
     "subtype": "ammunition",
     "name": "8mm Rifle Ammunition (5D damage)",
     "mfr": "",
@@ -176,7 +176,7 @@
   },
   {
     "sku": "160-011-00007",
-    "type": "weapons”",
+    "type": "weapons",
     "subtype": "ammunition",
     "name": "8mm Rifle Ammunition (6D damage)",
     "mfr": "",
@@ -205,7 +205,7 @@
   },
   {
     "sku": "160-011-00008",
-    "type": "weapons”",
+    "type": "weapons",
     "subtype": "ammunition",
     "name": "8mm Rifle Ammunition (7D damage)",
     "mfr": "",
@@ -234,7 +234,7 @@
   },
   {
     "sku": "160-011-00009",
-    "type": "weapons”",
+    "type": "weapons",
     "subtype": "ammunition",
     "name": "8mm Rifle Ammunition (8D damage)",
     "mfr": "",
@@ -263,7 +263,7 @@
   },
   {
     "sku": "160-011-00010",
-    "type": "weapons”",
+    "type": "weapons",
     "subtype": "ammunition",
     "name": "8mm Rifle Ammunition (9D damage)",
     "mfr": "",
@@ -292,7 +292,7 @@
   },
   {
     "sku": "160-011-00011",
-    "type": "weapons”",
+    "type": "weapons",
     "subtype": "ammunition",
     "name": "8mm Rifle Ammunition (10D damage)",
     "mfr": "",
@@ -321,7 +321,7 @@
   },
   {
     "sku": "160-011-00012",
-    "type": "weapons”",
+    "type": "weapons",
     "subtype": "ammunition",
     "name": "6mm Rifle Ammunition (1D damage)",
     "mfr": "",
@@ -350,7 +350,7 @@
   },
   {
     "sku": "160-011-00013",
-    "type": "weapons”",
+    "type": "weapons",
     "subtype": "ammunition",
     "name": "6mm Rifle Ammunition (2D damage)",
     "mfr": "",
@@ -379,7 +379,7 @@
   },
   {
     "sku": "160-011-00014",
-    "type": "weapons”",
+    "type": "weapons",
     "subtype": "ammunition",
     "name": "6mm Rifle Ammunition (3D damage)",
     "mfr": "",
@@ -408,7 +408,7 @@
   },
   {
     "sku": "160-011-00015",
-    "type": "weapons”",
+    "type": "weapons",
     "subtype": "ammunition",
     "name": "6mm Rifle Ammunition (4D damage)",
     "mfr": "",
@@ -437,7 +437,7 @@
   },
   {
     "sku": "160-011-00016",
-    "type": "weapons”",
+    "type": "weapons",
     "subtype": "ammunition",
     "name": "6mm Rifle Ammunition (5D damage)",
     "mfr": "",
@@ -466,7 +466,7 @@
   },
   {
     "sku": "160-011-00017",
-    "type": "weapons”",
+    "type": "weapons",
     "subtype": "ammunition",
     "name": "6mm Rifle Ammunition (6D damage)",
     "mfr": "",
@@ -495,7 +495,7 @@
   },
   {
     "sku": "160-011-00018",
-    "type": "weapons”",
+    "type": "weapons",
     "subtype": "ammunition",
     "name": "6mm Rifle Ammunition (7D damage)",
     "mfr": "",
@@ -524,7 +524,7 @@
   },
   {
     "sku": "160-011-00019",
-    "type": "weapons”",
+    "type": "weapons",
     "subtype": "ammunition",
     "name": "6mm Rifle Ammunition (8D damage)",
     "mfr": "",
@@ -553,7 +553,7 @@
   },
   {
     "sku": "160-011-00020",
-    "type": "weapons”",
+    "type": "weapons",
     "subtype": "ammunition",
     "name": "6mm Rifle Ammunition (9D damage)",
     "mfr": "",
@@ -582,7 +582,7 @@
   },
   {
     "sku": "160-011-00021",
-    "type": "weapons”",
+    "type": "weapons",
     "subtype": "ammunition",
     "name": "6mm Rifle Ammunition (10D damage)",
     "mfr": "",
@@ -611,7 +611,7 @@
   },
   {
     "sku": "160-011-00022",
-    "type": "weapons”",
+    "type": "weapons",
     "subtype": "ammunition",
     "name": "4mm Handgun Ammunition (1D damage)",
     "mfr": "",
@@ -640,7 +640,7 @@
   },
   {
     "sku": "160-011-00023",
-    "type": "weapons”",
+    "type": "weapons",
     "subtype": "ammunition",
     "name": "4mm Handgun Ammunition (2D damage)",
     "mfr": "",
@@ -669,7 +669,7 @@
   },
   {
     "sku": "160-011-00024",
-    "type": "weapons”",
+    "type": "weapons",
     "subtype": "ammunition",
     "name": "4mm Handgun Ammunition (3D damage)",
     "mfr": "",
@@ -698,7 +698,7 @@
   },
   {
     "sku": "160-011-00025",
-    "type": "weapons”",
+    "type": "weapons",
     "subtype": "ammunition",
     "name": "4mm Handgun Ammunition (4D damage)",
     "mfr": "",
@@ -727,7 +727,7 @@
   },
   {
     "sku": "160-011-00026",
-    "type": "weapons”",
+    "type": "weapons",
     "subtype": "ammunition",
     "name": "4mm Handgun Ammunition (5D damage)",
     "mfr": "",
@@ -756,7 +756,7 @@
   },
   {
     "sku": "160-011-00027",
-    "type": "weapons”",
+    "type": "weapons",
     "subtype": "ammunition",
     "name": "4mm Handgun Ammunition (6D damage)",
     "mfr": "",
@@ -785,7 +785,7 @@
   },
   {
     "sku": "160-011-00028",
-    "type": "weapons”",
+    "type": "weapons",
     "subtype": "ammunition",
     "name": "4mm Handgun Ammunition (7D damage)",
     "mfr": "",
@@ -814,7 +814,7 @@
   },
   {
     "sku": "160-011-00029",
-    "type": "weapons”",
+    "type": "weapons",
     "subtype": "ammunition",
     "name": "4mm Handgun Ammunition (8D damage)",
     "mfr": "",
@@ -843,7 +843,7 @@
   },
   {
     "sku": "160-011-00030",
-    "type": "weapons”",
+    "type": "weapons",
     "subtype": "ammunition",
     "name": "4mm Handgun Ammunition (9D damage)",
     "mfr": "",
@@ -872,7 +872,7 @@
   },
   {
     "sku": "160-011-00031",
-    "type": "weapons”",
+    "type": "weapons",
     "subtype": "ammunition",
     "name": "4mm Handgun Ammunition (10D damage)",
     "mfr": "",
@@ -901,7 +901,7 @@
   },
   {
     "sku": "160-011-00032",
-    "type": "weapons”",
+    "type": "weapons",
     "subtype": "ammunition",
     "name": "15mm Shotgun Ammunition (1D damage)",
     "mfr": "",
@@ -930,7 +930,7 @@
   },
   {
     "sku": "160-011-00033",
-    "type": "weapons”",
+    "type": "weapons",
     "subtype": "ammunition",
     "name": "15mm Shotgun Ammunition (2D damage)",
     "mfr": "",
@@ -959,7 +959,7 @@
   },
   {
     "sku": "160-011-00034",
-    "type": "weapons”",
+    "type": "weapons",
     "subtype": "ammunition",
     "name": "15mm Shotgun Ammunition (3D damage)",
     "mfr": "",
@@ -988,7 +988,7 @@
   },
   {
     "sku": "160-011-00035",
-    "type": "weapons”",
+    "type": "weapons",
     "subtype": "ammunition",
     "name": "15mm Shotgun Ammunition (4D damage)",
     "mfr": "",
@@ -1017,7 +1017,7 @@
   },
   {
     "sku": "160-011-00036",
-    "type": "weapons”",
+    "type": "weapons",
     "subtype": "ammunition",
     "name": "15mm Shotgun Ammunition (5D damage)",
     "mfr": "",
@@ -1046,7 +1046,7 @@
   },
   {
     "sku": "160-011-00037",
-    "type": "weapons”",
+    "type": "weapons",
     "subtype": "ammunition",
     "name": "15mm Shotgun Ammunition (6D damage)",
     "mfr": "",
@@ -1075,7 +1075,7 @@
   },
   {
     "sku": "160-011-00038",
-    "type": "weapons”",
+    "type": "weapons",
     "subtype": "ammunition",
     "name": "15mm Shotgun Ammunition (7D damage)",
     "mfr": "",
@@ -1104,7 +1104,7 @@
   },
   {
     "sku": "160-011-00039",
-    "type": "weapons”",
+    "type": "weapons",
     "subtype": "ammunition",
     "name": "15mm Shotgun Ammunition (8D damage)",
     "mfr": "",
@@ -1133,7 +1133,7 @@
   },
   {
     "sku": "160-011-00040",
-    "type": "weapons”",
+    "type": "weapons",
     "subtype": "ammunition",
     "name": "15mm Shotgun Ammunition (9D damage)",
     "mfr": "",
@@ -1162,7 +1162,7 @@
   },
   {
     "sku": "160-011-00041",
-    "type": "weapons”",
+    "type": "weapons",
     "subtype": "ammunition",
     "name": "15mm Shotgun Ammunition (10D damage)",
     "mfr": "",
@@ -1191,7 +1191,7 @@
   },
   {
     "sku": "160-011-00042",
-    "type": "weapons”",
+    "type": "weapons",
     "subtype": "ammunition",
     "name": "8mm Machinegun Ammunition (1D damage)",
     "mfr": "",
@@ -1220,7 +1220,7 @@
   },
   {
     "sku": "160-011-00043",
-    "type": "weapons”",
+    "type": "weapons",
     "subtype": "ammunition",
     "name": "8mm Machinegun Ammunition (2D damage)",
     "mfr": "",
@@ -1249,7 +1249,7 @@
   },
   {
     "sku": "160-011-00044",
-    "type": "weapons”",
+    "type": "weapons",
     "subtype": "ammunition",
     "name": "8mm Machinegun Ammunition (3D damage)",
     "mfr": "",
@@ -1278,7 +1278,7 @@
   },
   {
     "sku": "160-011-00045",
-    "type": "weapons”",
+    "type": "weapons",
     "subtype": "ammunition",
     "name": "8mm Machinegun Ammunition (4D damage)",
     "mfr": "",
@@ -1307,7 +1307,7 @@
   },
   {
     "sku": "160-011-00046",
-    "type": "weapons”",
+    "type": "weapons",
     "subtype": "ammunition",
     "name": "8mm Machinegun Ammunition (5D damage)",
     "mfr": "",
@@ -1336,7 +1336,7 @@
   },
   {
     "sku": "160-011-00047",
-    "type": "weapons”",
+    "type": "weapons",
     "subtype": "ammunition",
     "name": "8mm Machinegun Ammunition (6D damage)",
     "mfr": "",
@@ -1365,7 +1365,7 @@
   },
   {
     "sku": "160-011-00048",
-    "type": "weapons”",
+    "type": "weapons",
     "subtype": "ammunition",
     "name": "8mm Machinegun Ammunition (7D damage)",
     "mfr": "",
@@ -1394,7 +1394,7 @@
   },
   {
     "sku": "160-011-00049",
-    "type": "weapons”",
+    "type": "weapons",
     "subtype": "ammunition",
     "name": "8mm Machinegun Ammunition (8D damage)",
     "mfr": "",
@@ -1423,7 +1423,7 @@
   },
   {
     "sku": "160-011-00050",
-    "type": "weapons”",
+    "type": "weapons",
     "subtype": "ammunition",
     "name": "8mm Machinegun Ammunition (9D damage)",
     "mfr": "",
@@ -1452,7 +1452,7 @@
   },
   {
     "sku": "160-011-00051",
-    "type": "weapons”",
+    "type": "weapons",
     "subtype": "ammunition",
     "name": "8mm Machinegun Ammunition (10D damage)",
     "mfr": "",
@@ -1481,7 +1481,7 @@
   },
   {
     "sku": "160-011-00052",
-    "type": "weapons”",
+    "type": "weapons",
     "subtype": "ammunition",
     "name": "6mm Machinegun Ammunition (1D damage)",
     "mfr": "",
@@ -1510,7 +1510,7 @@
   },
   {
     "sku": "160-011-00053",
-    "type": "weapons”",
+    "type": "weapons",
     "subtype": "ammunition",
     "name": "6mm Machinegun Ammunition (2D damage)",
     "mfr": "",
@@ -1539,7 +1539,7 @@
   },
   {
     "sku": "160-011-00054",
-    "type": "weapons”",
+    "type": "weapons",
     "subtype": "ammunition",
     "name": "6mm Machinegun Ammunition (3D damage)",
     "mfr": "",
@@ -1568,7 +1568,7 @@
   },
   {
     "sku": "160-011-00055",
-    "type": "weapons”",
+    "type": "weapons",
     "subtype": "ammunition",
     "name": "6mm Machinegun Ammunition (4D damage)",
     "mfr": "",
@@ -1597,7 +1597,7 @@
   },
   {
     "sku": "160-011-00056",
-    "type": "weapons”",
+    "type": "weapons",
     "subtype": "ammunition",
     "name": "6mm Machinegun Ammunition (5D damage)",
     "mfr": "",
@@ -1626,7 +1626,7 @@
   },
   {
     "sku": "160-011-00057",
-    "type": "weapons”",
+    "type": "weapons",
     "subtype": "ammunition",
     "name": "6mm Machinegun Ammunition (6D damage)",
     "mfr": "",
@@ -1655,7 +1655,7 @@
   },
   {
     "sku": "160-011-00058",
-    "type": "weapons”",
+    "type": "weapons",
     "subtype": "ammunition",
     "name": "6mm Machinegun Ammunition (7D damage)",
     "mfr": "",
@@ -1684,7 +1684,7 @@
   },
   {
     "sku": "160-011-00059",
-    "type": "weapons”",
+    "type": "weapons",
     "subtype": "ammunition",
     "name": "6mm Machinegun Ammunition (8D damage)",
     "mfr": "",
@@ -1713,7 +1713,7 @@
   },
   {
     "sku": "160-011-00060",
-    "type": "weapons”",
+    "type": "weapons",
     "subtype": "ammunition",
     "name": "6mm Machinegun Ammunition (9D damage)",
     "mfr": "",
@@ -1742,7 +1742,7 @@
   },
   {
     "sku": "160-011-00061",
-    "type": "weapons”",
+    "type": "weapons",
     "subtype": "ammunition",
     "name": "6mm Machinegun Ammunition (10D damage)",
     "mfr": "",
@@ -1771,7 +1771,7 @@
   },
   {
     "sku": "160-011-00062",
-    "type": "weapons”",
+    "type": "weapons",
     "subtype": "ammunition",
     "name": "6mm Gauss gun Ammunition (1D damage)",
     "mfr": "",
@@ -1800,7 +1800,7 @@
   },
   {
     "sku": "160-011-00063",
-    "type": "weapons”",
+    "type": "weapons",
     "subtype": "ammunition",
     "name": "6mm Gauss gun Ammunition (2D damage)",
     "mfr": "",
@@ -1829,7 +1829,7 @@
   },
   {
     "sku": "160-011-00064",
-    "type": "weapons”",
+    "type": "weapons",
     "subtype": "ammunition",
     "name": "6mm Gauss gun Ammunition (3D damage)",
     "mfr": "",
@@ -1858,7 +1858,7 @@
   },
   {
     "sku": "160-011-00065",
-    "type": "weapons”",
+    "type": "weapons",
     "subtype": "ammunition",
     "name": "6mm Gauss gun Ammunition (4D damage)",
     "mfr": "",
@@ -1887,7 +1887,7 @@
   },
   {
     "sku": "160-011-00066",
-    "type": "weapons”",
+    "type": "weapons",
     "subtype": "ammunition",
     "name": "6mm Gauss gun Ammunition (5D damage)",
     "mfr": "",
@@ -1916,7 +1916,7 @@
   },
   {
     "sku": "160-011-00067",
-    "type": "weapons”",
+    "type": "weapons",
     "subtype": "ammunition",
     "name": "6mm Gauss gun Ammunition (6D damage)",
     "mfr": "",
@@ -1945,7 +1945,7 @@
   },
   {
     "sku": "160-011-00068",
-    "type": "weapons”",
+    "type": "weapons",
     "subtype": "ammunition",
     "name": "6mm Gauss gun Ammunition (7D damage)",
     "mfr": "",
@@ -1974,7 +1974,7 @@
   },
   {
     "sku": "160-011-00069",
-    "type": "weapons”",
+    "type": "weapons",
     "subtype": "ammunition",
     "name": "6mm Gauss gun Ammunition (8D damage)",
     "mfr": "",
@@ -2003,7 +2003,7 @@
   },
   {
     "sku": "160-011-00070",
-    "type": "weapons”",
+    "type": "weapons",
     "subtype": "ammunition",
     "name": "6mm Gauss gun Ammunition (9D damage)",
     "mfr": "",
@@ -2032,7 +2032,7 @@
   },
   {
     "sku": "160-011-00071",
-    "type": "weapons”",
+    "type": "weapons",
     "subtype": "ammunition",
     "name": "6mm Gauss gun Ammunition (10D damage)",
     "mfr": "",
@@ -2061,7 +2061,7 @@
   },
   {
     "sku": "160-011-00072",
-    "type": "weapons”",
+    "type": "weapons",
     "subtype": "ammunition",
     "name": "3mm Staplegun Ammunition (1D damage)",
     "mfr": "",
@@ -2090,7 +2090,7 @@
   },
   {
     "sku": "160-011-00073",
-    "type": "weapons”",
+    "type": "weapons",
     "subtype": "ammunition",
     "name": "3mm Staplegun Ammunition (2D damage)",
     "mfr": "",
@@ -2119,7 +2119,7 @@
   },
   {
     "sku": "160-011-00074",
-    "type": "weapons”",
+    "type": "weapons",
     "subtype": "ammunition",
     "name": "3mm Staplegun Ammunition (3D damage)",
     "mfr": "",
@@ -2148,7 +2148,7 @@
   },
   {
     "sku": "160-011-00075",
-    "type": "weapons”",
+    "type": "weapons",
     "subtype": "ammunition",
     "name": "3mm Staplegun Ammunition (4D damage)",
     "mfr": "",
@@ -2177,7 +2177,7 @@
   },
   {
     "sku": "160-011-00076",
-    "type": "weapons”",
+    "type": "weapons",
     "subtype": "ammunition",
     "name": "3mm Staplegun Ammunition (5D damage)",
     "mfr": "",
@@ -2206,7 +2206,7 @@
   },
   {
     "sku": "160-011-00077",
-    "type": "weapons”",
+    "type": "weapons",
     "subtype": "ammunition",
     "name": "3mm Staplegun Ammunition (6D damage)",
     "mfr": "",
@@ -2235,7 +2235,7 @@
   },
   {
     "sku": "160-011-00078",
-    "type": "weapons”",
+    "type": "weapons",
     "subtype": "ammunition",
     "name": "3mm Staplegun Ammunition (7D damage)",
     "mfr": "",
@@ -2264,7 +2264,7 @@
   },
   {
     "sku": "160-011-00079",
-    "type": "weapons”",
+    "type": "weapons",
     "subtype": "ammunition",
     "name": "3mm Staplegun Ammunition (8D damage)",
     "mfr": "",
@@ -2293,7 +2293,7 @@
   },
   {
     "sku": "160-011-00080",
-    "type": "weapons”",
+    "type": "weapons",
     "subtype": "ammunition",
     "name": "3mm Staplegun Ammunition (9D damage)",
     "mfr": "",
@@ -2322,7 +2322,7 @@
   },
   {
     "sku": "160-011-00081",
-    "type": "weapons”",
+    "type": "weapons",
     "subtype": "ammunition",
     "name": "3mm Staplegun Ammunition (10D damage)",
     "mfr": "",
@@ -2351,7 +2351,7 @@
   },
   {
     "sku": "160-011-00082",
-    "type": "weapons”",
+    "type": "weapons",
     "subtype": "ammunition",
     "name": "9mm Submachinegun Ammunition (1D damage)",
     "mfr": "",
@@ -2380,7 +2380,7 @@
   },
   {
     "sku": "160-011-00083",
-    "type": "weapons”",
+    "type": "weapons",
     "subtype": "ammunition",
     "name": "9mm Submachinegun Ammunition (2D damage)",
     "mfr": "",
@@ -2409,7 +2409,7 @@
   },
   {
     "sku": "160-011-00084",
-    "type": "weapons”",
+    "type": "weapons",
     "subtype": "ammunition",
     "name": "9mm Submachinegun Ammunition (3D damage)",
     "mfr": "",
@@ -2438,7 +2438,7 @@
   },
   {
     "sku": "160-011-00085",
-    "type": "weapons”",
+    "type": "weapons",
     "subtype": "ammunition",
     "name": "9mm Submachinegun Ammunition (4D damage)",
     "mfr": "",
@@ -2467,7 +2467,7 @@
   },
   {
     "sku": "160-011-00086",
-    "type": "weapons”",
+    "type": "weapons",
     "subtype": "ammunition",
     "name": "9mm Submachinegun Ammunition (5D damage)",
     "mfr": "",
@@ -2496,7 +2496,7 @@
   },
   {
     "sku": "160-011-00087",
-    "type": "weapons”",
+    "type": "weapons",
     "subtype": "ammunition",
     "name": "9mm Submachinegun Ammunition (6D damage)",
     "mfr": "",
@@ -2525,7 +2525,7 @@
   },
   {
     "sku": "160-011-00088",
-    "type": "weapons”",
+    "type": "weapons",
     "subtype": "ammunition",
     "name": "9mm Submachinegun Ammunition (7D damage)",
     "mfr": "",
@@ -2554,7 +2554,7 @@
   },
   {
     "sku": "160-011-00089",
-    "type": "weapons”",
+    "type": "weapons",
     "subtype": "ammunition",
     "name": "9mm Submachinegun Ammunition (8D damage)",
     "mfr": "",
@@ -2583,7 +2583,7 @@
   },
   {
     "sku": "160-011-00090",
-    "type": "weapons”",
+    "type": "weapons",
     "subtype": "ammunition",
     "name": "9mm Submachinegun Ammunition (9D damage)",
     "mfr": "",
@@ -2612,7 +2612,7 @@
   },
   {
     "sku": "160-011-00091",
-    "type": "weapons”",
+    "type": "weapons",
     "subtype": "ammunition",
     "name": "9mm Submachinegun Ammunition (10D damage)",
     "mfr": "",
@@ -2641,7 +2641,7 @@
   },
   {
     "sku": "160-011-00092",
-    "type": "weapons”",
+    "type": "weapons",
     "subtype": "ammunition",
     "name": "13mm Machinegun Ammunition (1D damage)",
     "mfr": "",
@@ -2670,7 +2670,7 @@
   },
   {
     "sku": "160-011-00093",
-    "type": "weapons”",
+    "type": "weapons",
     "subtype": "ammunition",
     "name": "13mm Machinegun Ammunition (2D damage)",
     "mfr": "",
@@ -2699,7 +2699,7 @@
   },
   {
     "sku": "160-011-00094",
-    "type": "weapons”",
+    "type": "weapons",
     "subtype": "ammunition",
     "name": "13mm Machinegun Ammunition (3D damage)",
     "mfr": "",
@@ -2728,7 +2728,7 @@
   },
   {
     "sku": "160-011-00095",
-    "type": "weapons”",
+    "type": "weapons",
     "subtype": "ammunition",
     "name": "13mm Machinegun Ammunition (4D damage)",
     "mfr": "",
@@ -2757,7 +2757,7 @@
   },
   {
     "sku": "160-011-00096",
-    "type": "weapons”",
+    "type": "weapons",
     "subtype": "ammunition",
     "name": "13mm Machinegun Ammunition (5D damage)",
     "mfr": "",
@@ -2786,7 +2786,7 @@
   },
   {
     "sku": "160-011-00097",
-    "type": "weapons”",
+    "type": "weapons",
     "subtype": "ammunition",
     "name": "13mm Machinegun Ammunition (6D damage)",
     "mfr": "",
@@ -2815,7 +2815,7 @@
   },
   {
     "sku": "160-011-00098",
-    "type": "weapons”",
+    "type": "weapons",
     "subtype": "ammunition",
     "name": "13mm Machinegun Ammunition (7D damage)",
     "mfr": "",
@@ -2844,7 +2844,7 @@
   },
   {
     "sku": "160-011-00099",
-    "type": "weapons”",
+    "type": "weapons",
     "subtype": "ammunition",
     "name": "13mm Machinegun Ammunition (8D damage)",
     "mfr": "",
@@ -2873,7 +2873,7 @@
   },
   {
     "sku": "160-011-00100",
-    "type": "weapons”",
+    "type": "weapons",
     "subtype": "ammunition",
     "name": "13mm Machinegun Ammunition (9D damage)",
     "mfr": "",
@@ -2902,7 +2902,7 @@
   },
   {
     "sku": "160-011-00101",
-    "type": "weapons”",
+    "type": "weapons",
     "subtype": "ammunition",
     "name": "13mm Machinegun Ammunition (10D damage)",
     "mfr": "",
@@ -2931,7 +2931,7 @@
   },
   {
     "sku": "160-011-00102",
-    "type": "weapons”",
+    "type": "weapons",
     "subtype": "ammunition",
     "name": "20mm Heavy Machinegun Ammunition (1D damage)",
     "mfr": "",
@@ -2960,7 +2960,7 @@
   },
   {
     "sku": "160-011-00103",
-    "type": "weapons”",
+    "type": "weapons",
     "subtype": "ammunition",
     "name": "20mm Heavy Machinegun Ammunition (2D damage)",
     "mfr": "",
@@ -2989,7 +2989,7 @@
   },
   {
     "sku": "160-011-00104",
-    "type": "weapons”",
+    "type": "weapons",
     "subtype": "ammunition",
     "name": "20mm Heavy Machinegun Ammunition (3D damage)",
     "mfr": "",
@@ -3018,7 +3018,7 @@
   },
   {
     "sku": "160-011-00105",
-    "type": "weapons”",
+    "type": "weapons",
     "subtype": "ammunition",
     "name": "20mm Heavy Machinegun Ammunition (4D damage)",
     "mfr": "",
@@ -3047,7 +3047,7 @@
   },
   {
     "sku": "160-011-00106",
-    "type": "weapons”",
+    "type": "weapons",
     "subtype": "ammunition",
     "name": "20mm Heavy Machinegun Ammunition (5D damage)",
     "mfr": "",
@@ -3076,7 +3076,7 @@
   },
   {
     "sku": "160-011-00107",
-    "type": "weapons”",
+    "type": "weapons",
     "subtype": "ammunition",
     "name": "20mm Heavy Machinegun Ammunition (6D damage)",
     "mfr": "",
@@ -3105,7 +3105,7 @@
   },
   {
     "sku": "160-011-00108",
-    "type": "weapons”",
+    "type": "weapons",
     "subtype": "ammunition",
     "name": "20mm Heavy Machinegun Ammunition (7D damage)",
     "mfr": "",
@@ -3134,7 +3134,7 @@
   },
   {
     "sku": "160-011-00109",
-    "type": "weapons”",
+    "type": "weapons",
     "subtype": "ammunition",
     "name": "20mm Heavy Machinegun Ammunition (8D damage)",
     "mfr": "",
@@ -3163,7 +3163,7 @@
   },
   {
     "sku": "160-011-00110",
-    "type": "weapons”",
+    "type": "weapons",
     "subtype": "ammunition",
     "name": "20mm Heavy Machinegun Ammunition (9D damage)",
     "mfr": "",
@@ -3192,7 +3192,7 @@
   },
   {
     "sku": "160-011-00111",
-    "type": "weapons”",
+    "type": "weapons",
     "subtype": "ammunition",
     "name": "20mm Heavy Machinegun Ammunition (10D damage)",
     "mfr": "",
@@ -3221,7 +3221,7 @@
   },
   {
     "sku": "160-011-00112",
-    "type": "weapons”",
+    "type": "weapons",
     "subtype": "ammunition",
     "name": "25mm VHeavy Carbine Ammunition (1D damage)",
     "mfr": "",
@@ -3250,7 +3250,7 @@
   },
   {
     "sku": "160-011-00113",
-    "type": "weapons”",
+    "type": "weapons",
     "subtype": "ammunition",
     "name": "25mm VHeavy Carbine Ammunition (2D damage)",
     "mfr": "",
@@ -3279,7 +3279,7 @@
   },
   {
     "sku": "160-011-00114",
-    "type": "weapons”",
+    "type": "weapons",
     "subtype": "ammunition",
     "name": "25mm VHeavy Carbine Ammunition (3D damage)",
     "mfr": "",
@@ -3308,7 +3308,7 @@
   },
   {
     "sku": "160-011-00115",
-    "type": "weapons”",
+    "type": "weapons",
     "subtype": "ammunition",
     "name": "25mm VHeavy Carbine Ammunition (4D damage)",
     "mfr": "",
@@ -3337,7 +3337,7 @@
   },
   {
     "sku": "160-011-00116",
-    "type": "weapons”",
+    "type": "weapons",
     "subtype": "ammunition",
     "name": "25mm VHeavy Carbine Ammunition (5D damage)",
     "mfr": "",
@@ -3366,7 +3366,7 @@
   },
   {
     "sku": "160-011-00117",
-    "type": "weapons”",
+    "type": "weapons",
     "subtype": "ammunition",
     "name": "25mm VHeavy Carbine Ammunition (6D damage)",
     "mfr": "",
@@ -3395,7 +3395,7 @@
   },
   {
     "sku": "160-011-00118",
-    "type": "weapons”",
+    "type": "weapons",
     "subtype": "ammunition",
     "name": "25mm VHeavy Carbine Ammunition (7D damage)",
     "mfr": "",
@@ -3424,7 +3424,7 @@
   },
   {
     "sku": "160-011-00119",
-    "type": "weapons”",
+    "type": "weapons",
     "subtype": "ammunition",
     "name": "25mm VHeavy Carbine Ammunition (8D damage)",
     "mfr": "",
@@ -3453,7 +3453,7 @@
   },
   {
     "sku": "160-011-00120",
-    "type": "weapons”",
+    "type": "weapons",
     "subtype": "ammunition",
     "name": "25mm VHeavy Carbine Ammunition (9D damage)",
     "mfr": "",
@@ -3482,7 +3482,7 @@
   },
   {
     "sku": "160-011-00121",
-    "type": "weapons”",
+    "type": "weapons",
     "subtype": "ammunition",
     "name": "25mm VHeavy Carbine Ammunition (10D damage)",
     "mfr": "",

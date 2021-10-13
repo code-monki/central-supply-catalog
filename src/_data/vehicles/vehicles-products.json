@@ -224,7 +224,7 @@
   {
     "sku": "150-000-00007",
     "type": "vehicles",
-    "subtype": "",
+    "subtype": "military",
     "name": "Recon Carrier, Military, Tracked (MCR-T)",
     "mfr": "military",
     "cost": 6000000,

@@ -1,8 +1,8 @@
 [
   {
     "sku": "100-003-00001",
-    "type": "suit",
-    "subtype": "hostile environment",
+    "type": "protections",
+    "subtype": "suits",
     "name": "Hostile Environment Suit",
     "mfr": "",
     "cost": 8000,

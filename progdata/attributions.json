@@ -1,6 +1,24 @@
 [
   {
-    "id": 0,
+    "id": "t5-b1",
+    "publication": "Traveller 5.10 Core Rules Book 1 : Characters and Combat",
+    "authors": ["Miller, Marc"],
+    "publisher": {
+      "name": "Far Future Enterprises",
+      "url": "https://farfuture.net"
+    }
+  },
+  {
+    "id": "t5-b2",
+    "publication": "Traveller 5.10 Core Rules Book 2 : Starships",
+    "authors": ["Miller, Marc"],
+    "publisher": {
+      "name": "Far Future Enterprises",
+      "url": "https://farfuture.net"
+    }
+  },
+  {
+    "id": "t5-b3",
     "publication": "Traveller 5.10 Core Rules Book 3 : Worlds and Adventures",
     "authors": ["Miller, Marc"],
     "publisher": {

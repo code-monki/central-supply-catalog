@@ -2,7 +2,7 @@
   {
     "sku": "160-003-00001",
     "type": "weapons",
-    "subtype": "pistols-revolvers",
+    "subtype": "pistols revolvers",
     "name": "Pistol, Light, Experimental (XLtP-3)",
     "mfr": "",
     "cost": 900,
@@ -39,7 +39,7 @@
   {
     "sku": "160-003-00002",
     "type": "weapons",
-    "subtype": "pistols-revolvers",
+    "subtype": "pistols revolvers",
     "name": "Revolver, Light, Experimental (ELtRe-3)",
     "mfr": "",
     "cost": 180,
@@ -76,7 +76,7 @@
   {
     "sku": "160-003-00003",
     "type": "weapons",
-    "subtype": "pistols-revolvers",
+    "subtype": "pistols revolvers",
     "name": "Revolver, Light, Prototype (PLtRe-3)",
     "mfr": "",
     "cost": 450,
@@ -113,7 +113,7 @@
   {
     "sku": "160-003-00004",
     "type": "weapons",
-    "subtype": "pistols-revolvers",
+    "subtype": "pistols revolvers",
     "name": "Revolver, Recoilless, Experimental (XRRe-3)",
     "mfr": "",
     "cost": 600,
@@ -150,7 +150,7 @@
   {
     "sku": "160-003-00005",
     "type": "weapons",
-    "subtype": "pistols-revolvers",
+    "subtype": "pistols revolvers",
     "name": "Pistol, Early (EP-4)",
     "mfr": "",
     "cost": 180,
@@ -187,7 +187,7 @@
   {
     "sku": "160-003-00006",
     "type": "weapons",
-    "subtype": "pistols-revolvers",
+    "subtype": "pistols revolvers",
     "name": "Pistol, Prototype (PP-4)",
     "mfr": "",
     "cost": 450,
@@ -224,7 +224,7 @@
   {
     "sku": "160-003-00007",
     "type": "weapons",
-    "subtype": "pistols-revolvers",
+    "subtype": "pistols revolvers",
     "name": "Pistol, Snub, Experimental (XSnP-4)",
     "mfr": "",
     "cost": 3000,
@@ -261,7 +261,7 @@
   {
     "sku": "160-003-00008",
     "type": "weapons",
-    "subtype": "pistols-revolvers",
+    "subtype": "pistols revolvers",
     "name": "Revolver (Re-4)",
     "mfr": "",
     "cost": 100,
@@ -298,7 +298,7 @@
   {
     "sku": "160-003-00009",
     "type": "weapons",
-    "subtype": "pistols-revolvers",
+    "subtype": "pistols revolvers",
     "name": "Revolver, Heavy (HRe-4)",
     "mfr": "",
     "cost": 110,
@@ -335,7 +335,7 @@
   {
     "sku": "160-003-00010",
     "type": "weapons",
-    "subtype": "pistols-revolvers",
+    "subtype": "pistols revolvers",
     "name": "Pistol (P-5)",
     "mfr": "",
     "cost": 150,
@@ -372,7 +372,7 @@
   {
     "sku": "160-003-00011",
     "type": "weapons",
-    "subtype": "pistols-revolvers",
+    "subtype": "pistols revolvers",
     "name": "Pistol, Heavy, Basic (BHP-5)",
     "mfr": "",
     "cost": 115.5,
@@ -409,7 +409,7 @@
   {
     "sku": "160-003-00012",
     "type": "weapons",
-    "subtype": "pistols-revolvers",
+    "subtype": "pistols revolvers",
     "name": "Pistol, Light (LtP-5)",
     "mfr": "",
     "cost": 225,
@@ -446,7 +446,7 @@
   {
     "sku": "160-003-00013",
     "type": "weapons",
-    "subtype": "pistols-revolvers",
+    "subtype": "pistols revolvers",
     "name": "Pistol, Magnum, Early (EMP-5)",
     "mfr": "",
     "cost": 180,
@@ -483,7 +483,7 @@
   {
     "sku": "160-003-00014",
     "type": "weapons",
-    "subtype": "pistols-revolvers",
+    "subtype": "pistols revolvers",
     "name": "Pistol, VHeavy (VhP-5)",
     "mfr": "",
     "cost": 300,
@@ -520,7 +520,7 @@
   {
     "sku": "160-003-00015",
     "type": "weapons",
-    "subtype": "pistols-revolvers",
+    "subtype": "pistols revolvers",
     "name": "Pistol, Standard (StdP-6)",
     "mfr": "",
     "cost": 150,
@@ -556,7 +556,7 @@
   {
     "sku": "160-003-00016",
     "type": "weapons",
-    "subtype": "pistols-revolvers",
+    "subtype": "pistols revolvers",
     "name": "Pistol, Disposable, Experimental (XDP-6)",
     "mfr": "",
     "cost": 1200,
@@ -593,7 +593,7 @@
   {
     "sku": "160-003-00017",
     "type": "weapons",
-    "subtype": "pistols-revolvers",
+    "subtype": "pistols revolvers",
     "name": "Pistol, Heavy, Improved (ImHP-6)",
     "mfr": "",
     "cost": 181.5,
@@ -630,7 +630,7 @@
   {
     "sku": "160-003-00018",
     "type": "weapons",
-    "subtype": "pistols-revolvers",
+    "subtype": "pistols revolvers",
     "name": "Pistol, Light, Alternate (AltLtP-6)",
     "mfr": "",
     "cost": 247.5,
@@ -667,7 +667,7 @@
   {
     "sku": "160-003-00019",
     "type": "weapons",
-    "subtype": "pistols-revolvers",
+    "subtype": "pistols revolvers",
     "name": "Pistol, Magnum (MP-6)",
     "mfr": "",
     "cost": 150,
@@ -704,7 +704,7 @@
   {
     "sku": "160-003-00020",
     "type": "weapons",
-    "subtype": "pistols-revolvers",
+    "subtype": "pistols revolvers",
     "name": "Pistol, Heavy, Modified (ModHP-7)",
     "mfr": "",
     "cost": 198,
@@ -741,7 +741,7 @@
   {
     "sku": "160-003-00021",
     "type": "weapons",
-    "subtype": "pistols-revolvers",
+    "subtype": "pistols revolvers",
     "name": "Pistol, Magnum, Alternate (AltMP-7)",
     "mfr": "",
     "cost": 165,
@@ -778,7 +778,7 @@
   {
     "sku": "160-003-00022",
     "type": "weapons",
-    "subtype": "pistols-revolvers",
+    "subtype": "pistols revolvers",
     "name": "Pistol, Magnum, Improved (ImMP-7)",
     "mfr": "",
     "cost": 165,
@@ -815,7 +815,7 @@
   {
     "sku": "160-003-00023",
     "type": "weapons",
-    "subtype": "pistols-revolvers",
+    "subtype": "pistols revolvers",
     "name": "Pistol, Recoilless, Alternate (AltRP-7)",
     "mfr": "",
     "cost": 247.5,
@@ -852,7 +852,7 @@
   {
     "sku": "160-003-00024",
     "type": "weapons",
-    "subtype": "pistols-revolvers",
+    "subtype": "pistols revolvers",
     "name": "StdRP-7 Standard Recoilless Pistol, Recoilless, Standard (StdRP-7)",
     "mfr": "",
     "cost": 225,
@@ -889,7 +889,7 @@
   {
     "sku": "160-003-00025",
     "type": "weapons",
-    "subtype": "pistols-revolvers",
+    "subtype": "pistols revolvers",
     "name": "Pistol, Advanced (AP-8)",
     "mfr": "",
     "cost": 300,
@@ -926,7 +926,7 @@
   {
     "sku": "160-003-00026",
     "type": "weapons",
-    "subtype": "pistols-revolvers",
+    "subtype": "pistols revolvers",
     "name": "Laser Pistol, Experimental (XLP-8)",
     "mfr": "",
     "cost": 1200,
@@ -963,7 +963,7 @@
   {
     "sku": "160-003-00027",
     "type": "weapons",
-    "subtype": "pistols-revolvers",
+    "subtype": "pistols revolvers",
     "name": "Pistol, Disposable (DP-8)",
     "mfr": "",
     "cost": 300,
@@ -1000,7 +1000,7 @@
   {
     "sku": "160-003-00028",
     "type": "weapons",
-    "subtype": "pistols-revolvers",
+    "subtype": "pistols revolvers",
     "name": "Pistol, Heavy, Advanced (AHP-8)",
     "mfr": "",
     "cost": 330,
@@ -1037,7 +1037,7 @@
   {
     "sku": "160-003-00029",
     "type": "weapons",
-    "subtype": "pistols-revolvers",
+    "subtype": "pistols revolvers",
     "name": "Pistol, Light, Advanced (ALtP-8)",
     "mfr": "",
     "cost": 450,
@@ -1074,7 +1074,7 @@
   {
     "sku": "160-003-00030",
     "type": "weapons",
-    "subtype": "pistols-revolvers",
+    "subtype": "pistols revolvers",
     "name": "Accelerator Pistol (AcP-9)",
     "mfr": "",
     "cost": 270,
@@ -1111,7 +1111,7 @@
   {
     "sku": "160-003-00031",
     "type": "weapons",
-    "subtype": "pistols-revolvers",
+    "subtype": "pistols revolvers",
     "name": "Laser Pistol, Early (ELP-9)",
     "mfr": "",
     "cost": 360,
@@ -1148,7 +1148,7 @@
   {
     "sku": "160-003-00032",
     "type": "weapons",
-    "subtype": "pistols-revolvers",
+    "subtype": "pistols revolvers",
     "name": "Pistol, Disposable, Standard (StdDP-9)",
     "mfr": "",
     "cost": 300,
@@ -1185,7 +1185,7 @@
   {
     "sku": "160-003-00033",
     "type": "weapons",
-    "subtype": "pistols-revolvers",
+    "subtype": "pistols revolvers",
     "name": "Accelerator Pistol, Heavy, Basic (BHAcP-9)",
     "mfr": "",
     "cost": 207.9,
@@ -1222,7 +1222,7 @@
   {
     "sku": "160-003-00034",
     "type": "weapons",
-    "subtype": "pistols-revolvers",
+    "subtype": "pistols revolvers",
     "name": "Pistol, Heavy, Prototype (PHLP-9)",
     "mfr": "",
     "cost": 990,
@@ -1259,7 +1259,7 @@
   {
     "sku": "160-003-00035",
     "type": "weapons",
-    "subtype": "pistols-revolvers",
+    "subtype": "pistols revolvers",
     "name": "Accelerator Pistol, Standard (StdAcP-10)",
     "mfr": "",
     "cost": 270,
@@ -1296,7 +1296,7 @@
   {
     "sku": "160-003-00036",
     "type": "weapons",
-    "subtype": "pistols-revolvers",
+    "subtype": "pistols revolvers",
     "name": "Pistol, Heavy, Standard (StdHAcP-10)",
     "mfr": "",
     "cost": 297,
@@ -1333,7 +1333,7 @@
   {
     "sku": "160-003-00037",
     "type": "weapons",
-    "subtype": "pistols-revolvers",
+    "subtype": "pistols revolvers",
     "name": "Accelerator Pistol, Light, Improved (ImLtAcP-10)",
     "mfr": "",
     "cost": 445.5,
@@ -1370,7 +1370,7 @@
   {
     "sku": "160-003-00038",
     "type": "weapons",
-    "subtype": "pistols-revolvers",
+    "subtype": "pistols revolvers",
     "name": "Accelerator Pistol, Light, Standard (StdLtAcP-10)",
     "mfr": "",
     "cost": 405,
@@ -1407,7 +1407,7 @@
   {
     "sku": "160-003-00039",
     "type": "weapons",
-    "subtype": "pistols-revolvers",
+    "subtype": "pistols revolvers",
     "name": "Accelerator Pistol, Magnum (MAcP-10)",
     "mfr": "",
     "cost": 270,
@@ -1444,7 +1444,7 @@
   {
     "sku": "160-003-00040",
     "type": "weapons",
-    "subtype": "pistols-revolvers",
+    "subtype": "pistols revolvers",
     "name": "Laser Pistol, Alternate (AltLP-11)",
     "mfr": "",
     "cost": 495,
@@ -1481,7 +1481,7 @@
   {
     "sku": "160-003-00041",
     "type": "weapons",
-    "subtype": "pistols-revolvers",
+    "subtype": "pistols revolvers",
     "name": "Laser Pistol, Improved (ImLP-11)",
     "mfr": "",
     "cost": 330,
@@ -1518,7 +1518,7 @@
   {
     "sku": "160-003-00042",
     "type": "weapons",
-    "subtype": "pistols-revolvers",
+    "subtype": "pistols revolvers",
     "name": "Laser Pistol, Body, Prototype (PBLP-11)",
     "mfr": "",
     "cost": 450,
@@ -1555,7 +1555,7 @@
   {
     "sku": "160-003-00043",
     "type": "weapons",
-    "subtype": "pistols-revolvers",
+    "subtype": "pistols revolvers",
     "name": "Laser Pistol, Light, Alternate (AltLtLP-11)",
     "mfr": "",
     "cost": 495,
@@ -1592,7 +1592,7 @@
   {
     "sku": "160-003-00044",
     "type": "weapons",
-    "subtype": "pistols-revolvers",
+    "subtype": "pistols revolvers",
     "name": "Laser Pistol, Body (BLP-12)",
     "mfr": "",
     "cost": 150,
@@ -1629,7 +1629,7 @@
   {
     "sku": "160-003-00045",
     "type": "weapons",
-    "subtype": "pistols-revolvers",
+    "subtype": "pistols revolvers",
     "name": "Accelerator Pistol, Body, Standard (StdBAcP-12)",
     "mfr": "",
     "cost": 135,
@@ -1666,7 +1666,7 @@
   {
     "sku": "160-003-00046",
     "type": "weapons",
-    "subtype": "pistols-revolvers",
+    "subtype": "pistols revolvers",
     "name": "Laser Pistol, Disposable, Prototype (PDLP-12)",
     "mfr": "",
     "cost": 1800,
@@ -1703,7 +1703,7 @@
   {
     "sku": "160-003-00047",
     "type": "weapons",
-    "subtype": "pistols-revolvers",
+    "subtype": "pistols revolvers",
     "name": "Laser Pistol, Heavy, Modified (ModHLP-12)",
     "mfr": "",
     "cost": 396,
@@ -1740,7 +1740,7 @@
   {
     "sku": "160-003-00048",
     "type": "weapons",
-    "subtype": "pistols-revolvers",
+    "subtype": "pistols revolvers",
     "name": "Accelerator Pistol, Light, Advanced (ALtAcP-12)",
     "mfr": "",
     "cost": 810,
@@ -1777,7 +1777,7 @@
   {
     "sku": "160-003-00049",
     "type": "weapons",
-    "subtype": "pistols-revolvers",
+    "subtype": "pistols revolvers",
     "name": "Laser Pistol, Body, Improved (ImBLP-13)",
     "mfr": "",
     "cost": 165,
@@ -1814,7 +1814,7 @@
   {
     "sku": "160-003-00050",
     "type": "weapons",
-    "subtype": "pistols-revolvers",
+    "subtype": "pistols revolvers",
     "name": "Accelerator Pistol, Body, Modified (ModBAcP-13)",
     "mfr": "",
     "cost": 162,
@@ -1851,7 +1851,7 @@
   {
     "sku": "160-003-00051",
     "type": "weapons",
-    "subtype": "pistols-revolvers",
+    "subtype": "pistols revolvers",
     "name": "Accelerator Pistol, Body, Advanced (ABAcP-14)",
     "mfr": "",
     "cost": 270,
@@ -1888,7 +1888,7 @@
   {
     "sku": "160-003-00052",
     "type": "weapons",
-    "subtype": "pistols-revolvers",
+    "subtype": "pistols revolvers",
     "name": "Laser Pistol, Disposable, Alternate (AltDLP-14)",
     "mfr": "",
     "cost": 660,
@@ -1925,7 +1925,7 @@
   {
     "sku": "160-003-00053",
     "type": "weapons",
-    "subtype": "pistols-revolvers",
+    "subtype": "pistols revolvers",
     "name": "Laser Pistol, Recoilless, Advanced (ARLP-14)",
     "mfr": "",
     "cost": 900,
@@ -1962,7 +1962,7 @@
   {
     "sku": "160-003-00054",
     "type": "weapons",
-    "subtype": "pistols-revolvers",
+    "subtype": "pistols revolvers",
     "name": "Laser Pistol, Vlight, Advanced (AVlLP-14)",
     "mfr": "",
     "cost": 5400,
@@ -1999,7 +1999,7 @@
   {
     "sku": "160-003-00055",
     "type": "weapons",
-    "subtype": "pistols-revolvers",
+    "subtype": "pistols revolvers",
     "name": "Laser Pistol, Body, Advanced (ABLP-15)",
     "mfr": "",
     "cost": 300,
@@ -2036,7 +2036,7 @@
   {
     "sku": "160-003-00056",
     "type": "weapons",
-    "subtype": "pistols-revolvers",
+    "subtype": "pistols revolvers",
     "name": "Laser Revolver, Disposable, Obsolete (ObDLRe-16)",
     "mfr": "",
     "cost": 200,
