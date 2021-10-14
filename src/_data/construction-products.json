@@ -533,7 +533,7 @@
   {
     "sku": "040-001-00001",
     "type": "construction",
-    "subtype": "supplies",
+    "subtype": "construction materials",
     "name": "Gas Torch Tank Refill",
     "mfr": "",
     "cost": 50,

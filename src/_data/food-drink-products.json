@@ -132,7 +132,7 @@
   {
     "sku": "080-000-00006",
     "type": "food drink",
-    "subtype": "",
+    "subtype": "food",
     "name": "Rations",
     "mfr": "",
     "cost": 2,

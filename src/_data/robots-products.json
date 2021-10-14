@@ -201,7 +201,7 @@
   {
     "sku": "110-000-00007",
     "type": "robots",
-    "subtype": "",
+    "subtype": "drone",
     "name": "Extra Eye Microdrone (R-variant)",
     "mfr": "",
     "cost": 21808,
