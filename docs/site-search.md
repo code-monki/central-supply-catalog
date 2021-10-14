@@ -9,11 +9,12 @@ The Central Supply Catalog site search is based upon the [minisearch](https://gi
 ### Functional Requirements
 
 [Func1] Provide a full-text search capability
-[Func2] Provide the capablity to display the search results
+[Func2] Provide the capability to display the search results
 [Func3] Provide the capability to paginate the search results display
 [Func4] Provide the capability to persist the search index locally
 [Func5] Provide the capability to update the search index when it is changed on the server
 [Func6] Provide the capability for the user to force a refresh of the search index
+[Func7] Provide the capability to filter search results.
 
 # Analysis
 
@@ -106,10 +107,23 @@ The search results will provide a pagination feature should the number of result
 
 The search index will be retrieved by the application and cached in a custom browser application cache. All subsequent calls to retrieve the index will go against the cache. When new content is added, the old cache will be deleted and will be replaced with a new cache. This approach uses a service worker to load the index when the user goes to the site. If the cache is still valid, the call to retrieve the index will go against the application cache. Otherwise, the service worker will retrieve the index from the site and store it in the application cache.
 
-## Combining Search Terms
-Although minisearch provides 
+## Search Term Parser
+
+Minisearch has recently added the ability to do compound searches. To support this capability the search terms will need to be parsed into the appropriate abstract-syntax tree (AST) structure. The parser will support the following grammar:
+
+| Term         | Description                                | Example                        |
+| ------------ | ------------------------------------------ | ------------------------------ |
+| <word>       | Single word search term                    | torch                          |
+| <list>       | List of words - defaults to logical OR     | welding torch                  |
+| <compound>   | Combination of words and logical groupings | (cutting or welding) and torch |
+| <logicalOr>  | List of words searched with a logical OR   | (cutting or welding)           |
+| <logicalAnd> | List of words searched with a logical AND  | (welding and torch)            |
+
 ---
 
+## Project Decision (2 Oct 2021)
+
+For the purposes of getting the site live, the complex search logic will be postponed to the next release.
 
 Notes:
 
