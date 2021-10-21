@@ -1,118 +1,111 @@
-.cart-div {
-  position: fixed;
-  top: 8rem;
-  left: 0;
-  right: 0;
-  bottom: 5rem;
-  background-color: white !important;
-  overflow-y: auto;
-  z-index: 2;
+.shopping-cart {
+  background: $light-color;
+  justify-content: center;
 
-  & .sticky {
-    position: sticky;
-    top: 0;
-    z-index: 5;
+  & h1 {
+    text-align: center;
+    margin-bottom: .5rem;
+
+    @include response(md) {
+      margin-bottom: 1rem;
+    }
+  }
+
+  & .total-row {
     width: 100%;
-    padding-bottom: .25rem;
-    border-bottom: 1px grey solid;
+    padding: .5rem;
+    justify-content: space-between;
+    border-bottom: 1px solid $border-color;
 
-    & h1 {
-      font-size: 1.6rem;
-      font-weight: bold;
-      margin: 1rem 0;
+    @include response(md) {
+      padding: 1rem;
     }
 
-    & .total-row {
-
-      & h6 {
-        font-size: 1.2rem !important;
-        font-weight: bold;
+    & .empty-cart-button {
+      & button {
+        background: $secondary-color;
+        font-weight: 700;
+        padding: .25rem .5rem;
+        border: none;
+        border-radius: .25rem;
+        box-shadow: 1px 1px 1px $border-color;
       }
-
-      & .empty-cart {
-        font-weight: bold;
-        padding: .25rem;
-      }
-
     }
 
+    & .cart-total-div {
+      align-self: flex-start;
+    }
   }
 
   & .cart-items-container {
-    position: relative;
-    overflow-y: auto;
-    width: 100%;
 
     & .product-row {
-      padding-top: 1rem;
+      width: 100%;
+      padding: .5rem;
+      border-bottom: 1px solid $border-color;
 
-      &:nth-child(n+2) {
-        border-top: 1px solid grey;
+      @include response(md) {
+        padding: 1rem;
       }
 
       & .prod-img {
 
         & img {
-          width: 5rem;
-          height: 5rem;
-          object-fit: contain;
-          border: 1px solid #ccc;
-          box-shadow: 1px 1px 1px grey;
-        }
-      }
-
-      & .row {
-
-        & .prod-title {
-          font-size: 1rem;
-          font-weight: bold;
+          max-width: 5rem;
+          height: auto;
+          border: 1px solid $border-color;
+          box-shadow: 1px 1px 1px $border-color;
+          margin-right: .5rem;
 
           @include response(md) {
-            font-size: 1.2rem;
+            margin-right: 1rem;
+          }
+        }
+      }
+    }
+
+    & .product-data {
+      width: 100%;
+
+      & .title-and-total-div {
+        display: flex;
+        justify-content: space-between;
+
+        & .prod-title {
+          line-height: 1;
+          & a {
+            color: $title-link-color;
+            text-decoration: none;
+            font-size: .8rem;
+
+            @include response(md) {
+              font-size: 1.2rem;
+            }
           }
         }
 
         & .prod-total {
-          font-size: 1rem;
-          font-weight: bold;
-  
+          font-size: .9rem;
+          text-align: right;
+          width: 8rem;
+          font-weight: 700;
+
           @include response(md) {
-            font-size: 1.2rem !important;
-          }
-        }  
-
-        & .prod-qty {
-          display: inline;
-
-          & button {
-            padding: 0;
-            font-size: .75rem !important;
-
-            @include response(md) {
-              font-size: 1rem !important;
-              padding: .2rem;
-            }
-          }
-
-          & input {
-            max-width: 2rem;
-            border: 1px solid grey;
-            height: 1.2rem;
-            padding-left: .5rem;
-            font-size: .8rem;
-
-            @include response(md) {
-              font-size: 1rem;
-              height: 1.6rem;
-            }
-          }
-
-          & .remove-item {
-            margin-left: 1rem;
+            font-size: 1.2rem;
+            width: 10rem;
           }
         }
       }
 
+      & .prod-qty {
+        font-size: 1rem;
+
+        & input {
+          max-width: 2rem;
+        }
+      }
     }
   }
 }
+
+

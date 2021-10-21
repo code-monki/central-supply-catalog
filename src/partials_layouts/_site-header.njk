@@ -1,39 +1,32 @@
 <header>
-  <div class="row black">
-
-    <!-- menu button -->
-    <div class="col s2">
-      <a href="#" id="menu-button">
-        <i class="material-icons white-text sidenav-trigger show-on-large show-on-extra-large red-text" data-target="slide-out">menu</i>
+  <div class="row header-row-1">
+    <div class="menu">
+      <a href="#" class="sidenav-trigger show-on-large show-on-extra-large" id="menu-button" data-target="slide-out">
+        <i class="fa fa-bars"></i>
       </a>
     </div>
 
-    <!-- logo -->
-    <div class="col s8 center site-logo">
-      <a href="{{ '/' | url}}" class="red-text flow-text">Central Supply Catalog</a>
+    <div class="site-logo">
+      <a href="/">Central Supply Catalog</a>
     </div>
 
-    <!-- shopping cart -->
-    <div class="col s2 shopping-cart">
-        <a href="{{ '/shopping-cart' | url }}">
-          <i class="material-icons white-text right cart-icon">shopping_cart</i><small class="badge" id="cart-badge">10</small>
-        </a>
+    <div class="cart" id='shopping-cart'>
+      <a href="{{ '/shopping-cart' | url }}">
+        <i class="fa fa-shopping-cart"></i>
+          <small class="badge" id="cart-badge">1</small>
+      </a>
     </div>
+  </div>
 
-    <!-- search bar -->
-    <div class="col s12 m8 offset-m2 search-bar">
-      <div class="nav-wrapper">
+  <div class="row header-row-2">
+    <div class="topnav">
+      <button class="dept-btn">Departments</button>
+      <div class="search-form">
         <form>
-          <div class="input-field">
-            <input id="search" type="search" class="white">
-            <label class="label-icon black-text" for="search"><i class="material-icons">search</i></label>
-            <i class="material-icons" id="search-close">close</i>
-          </div>
+          <input type="text" name="search" class="search-input" id="search-input">
+          <button class="search-btn" id="search-button"><i class="fa fa-search"></i></button>
         </form>
       </div>
     </div>
-
   </div>
-{% include '_sidenav.njk'%}
-
 </header>

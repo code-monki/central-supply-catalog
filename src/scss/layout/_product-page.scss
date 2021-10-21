@@ -1,151 +1,221 @@
-.product-main {
-  position: fixed;
-  top: 8rem;
-  left: 0;
-  right: 0;
-  bottom: 5rem;
+.product-page {
+  background: white;
 
-  & h6 { font-weight: bold !important;}
-
-  & .container {
+  & .divider {
+    background: $border-color;
+    height: 1px;
     width: 100%;
-    height: 100%;
-    overflow-y: auto;
+  }
 
-    & .product-header {
+  & .summary-row {
+    display: flex;
+    padding: .5rem;
+    background: $light-color;
+    width: 100vw;
+    border-bottom: 1px solid $border-color;
+
+    @include response(md) {
+      padding: 1rem;
+    }
+
+    & .product-image {
+
+      & img {
+        width: 5rem;
+        height: 5rem;
+        border: 1px solid $border-color;
+        box-shadow: 1px 1px 1px $border-color;
+        margin-right: .5rem;
+
+        @include response(md) {
+          margin-right: 1rem;
+        }
+      }
+    }
+
+    & .product-summary {
+      width: 100%;
 
       & h1 {
-        font-size: 1.6rem !important;
-        font-weight: bold;
-        padding-top: .5rem;
-        margin-bottom: 0.5rem;
-        margin-top: 0.5rem;
-      }
+        font-size: 1rem;
 
-      & .product-image {
-        margin: 1rem !important;
-        padding: 0 !important;
-        height: 7.5rem !important;
-        width: 7.5rem !important;
-
-        & img {
-          height: 100%;
-          width: 100%;
-          object-fit: contain;
-          box-shadow: 1px 1px 1px grey;
-          border: 1px solid grey;
-        }
-      }
-
-      & .product-controls {
-        & form {
-
-          & h5 {
-            font-size: 1rem !important;
-            font-weight: bold;
-            margin-bottom: 0;
-          }
-
-          & .input-field {
-            width: 100%;
-          }
-
-          & .quantity {
-            max-width: 3rem !important;
-            margin-bottom: 0 !important;
-            margin-right: .5rem !important;
-            font-size: 1rem !important;
-
-            &::before {
-              content: "Qty:";
-              position: absolute;
-              left: -2.5rem;
-              top: .7rem;
-              color: black;
-            }
-
-            input#qty {
-              padding: 0;
-              margin: 0;
-              height: 1.2rem;
-              border: 1px solid lightgrey;
-              padding: 0.125rem;
-            }
-          }
-
-          & .btn-small {
-            font-size: 0.7rem !important;
-            margin-top: 0.5rem !important;
-            height: 2rem !important;
-          }
-        }
-      }
-
-    }
-
-    & .product-description {
-      & .description-content {
-
-        & h5 {
-          font-size: 1.4rem !important;
-          font-weight: bold !important;
-        }
-
-        & p {
-          padding-top: 1rem !important;
-
-          @include response(md) {
-            font-size: 1.1rem;
-            padding-right: 1rem;
-          }
-        }
-
-        & ul {
-          & li {
-            margin-left: 1rem;
-            list-style-type: disc;
-            list-style-position: inside;
-
-            @include response(md) {
-              font-size: 1.1rem;
-            }
-          }
+        @include response(md) {
+          font-size: 1.2rem;
         }
       }
     }
 
-    & .product-accessories {
+    & .product-controls {
+      justify-self: flex-end;
+      width: 10rem;
+      text-align: right;
 
-      & h6 {
-        font-weight: bold;
-        margin: .67rem;
+      @include response(md) {
+        width: 25%;
       }
 
-      & .accessory-row {
-        padding-top: 1.25rem;
+      & h5 {
+        font-size: .9rem;
+        text-align: right;
+        margin-bottom: .5rem;
 
-        & img {
-          border: 1px solid grey;
-          box-shadow: 1px 1px 1px grey;
+        @include response(md) {
+          font-size: 1.1rem;
         }
+
+        @include response(lg) {
+          font-size: 1.3rem;
+        }
+      }
+
+      & .input-field {
+        width: 100%;
+        margin-bottom: .5rem;
+      }
+
+      & .quantity,
+      & label {
+        font-size: .8rem;
+
+        @include response(md) {
+          font-size: 1.2rem;
+        }
+      }
+
+      & .btn-small {
+        font-size: 0.7rem;
+        font-weight: bold;
+        margin-top: .25rem;
+        padding: .25rem .5rem;
+        background: $secondary-color;
+        box-shadow: 1px 1px 1px $border-color;
+        border: none;
+        border-radius: .25rem;
+      }
+    }
+  }
+
+  & .product-description {
+    flex-wrap: wrap;
+
+    & h5 {
+      font-size: 1rem;
+
+      @include response(md) {
+        font-size: 1.2rem;
+        margin-bottom: .5rem;
       }
     }
 
-    & .product-source {
-      margin-bottom: 1rem;
-      margin-left: .67rem;
+    & .description-content {
+      width: 100%;
+      padding: .5rem;
+      font-size: .9rem;
+      border-bottom: 1px solid $border-color;
 
-      & h6 {
-        font-weight: bold;
-        margin-left: .67rem 0;
+      @include response(md) {
+        width: 60%;
+        padding: 1rem;
+        font-size: 1rem;
+      }
+    }
+
+    & .product-details {
+      width: 100%;
+      padding: .5rem;
+      border-bottom: 1px solid $border-color;
+
+      @include response(md) {
+        width: 40%;
+        padding: 1rem;
       }
 
-      & p:nth-child(n + 2) {
-        padding-top: 0.5rem;
+      & td {
+        font-size: .8rem;
+
+        @include response(md) {
+          font-size: 1rem;
+        }
+
+        &:nth-child(even) {
+          padding-left: 1rem;
+        }
+      }
+    }
+  }
+
+  & .product-accessories {
+    padding: .5rem;
+    border-bottom: 1px solid $border-color;
+
+    @include response(md) {
+      padding: 1rem;
+    }
+
+    & h5 {
+      font-size: 1rem;
+
+      @include response(md) {
+        font-size: 1.2rem;
+        margin-bottom: .5rem;
+      }
+    }
+
+    & .accessory-row {
+      padding: .5rem;
+
+      @include response(md) {
+        padding: 1rem;
       }
 
-      & .source {
-        margin-left: 1rem;
+      & img {
+        max-height: auto;
+        max-width: 5rem;
+        border: 1px solid $border-color;
+        box-shadow: 1px 1px 1px $border-color;
+        margin-right: .5rem;
+
+        @include response(md) {
+          margin-right: 1rem;
+        }
+      }
+
+      & a {
+        text-decoration: none;
+        font-size: .9rem;
+        font-weight: 500;
+        color: $title-link-color;
+      }
+    }
+  }
+
+  & .product-source {
+    display: block;
+    padding: .5rem;
+
+    @include response(md) {
+      padding: 1rem;
+    }
+
+    & h5 {
+      font-size: 1rem;
+      margin-bottom: .5rem;
+
+      @include response(md) {
+        font-size: 1.2rem;
+      }
+    }
+
+    & p {
+      font-size: .8rem;
+
+      @include response(md) {
+        font-size: 1rem;
+      
+      & a {
+        text-decoration: none;
+        color: $title-link-color;
+      }
       }
     }
   }

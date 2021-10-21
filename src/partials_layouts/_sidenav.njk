@@ -1,17 +1,8 @@
-  <ul id="slide-out" class="sidenav">
-    <li class="right-align">
-      <a href="#" class="white black-text sidenav-close">
-        <i class="material-icons right">close</i></a>
-    </li>
-
-    <li><a href="{{ '/' | url }}">Home</a></li>
-    <li><a href="{{ '/shopping-cart' | url }}">Shopping Cart</a></li>
-
-    {# <li><a href="#!">Filters</a></li> #}
-
-    <li><a href="{{ '/about-the-central-supply-catalog' | url }}">About</a></li>
-    <li><a href="{{ '/about-the-central-supply-catalog#disclaimers' | url }}">Disclaimers</a></li>
-
-    <li><a href="{{ '/support/' | url }}">Support</a></li>
-  </ul>
-
+<div class="sidenav-menu" id="sidenav-menu">
+  <a href="#" class="close-sidenav" id="close-sidenav"><i class="fa fa-times"></i></a>
+  <a href="{{ '/' | url }}">Home</a>
+  <a href="{{ '/shopping-cart' | url }}">Shopping Cart</a>
+  <a href="{{ '/about-the-central-supply-catalog' | url }}">About</a>
+  <a href="{{ '/about-the-central-supply-catalog#disclaimers' | url }}">Disclaimers</a>
+  <a href="{{ '/support/' | url }}">Support</a>
+</div>
