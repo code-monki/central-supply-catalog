@@ -1,32 +1,33 @@
-.sidenav {
-  width: 100% !important;
-  padding: 1rem;
-
-  @include response(md) {
-    width: 35% !important;
+.sidenav-menu {
+  height: 100%;
+  width: 0;
+  max-width: 25rem;
+  position: fixed;
+  z-index: 5;
+  top: 0;
+  left: 0;
+  background-color: white;
+  overflow-x: hidden;
+  transition: 0.5s;
+  
+  & a {
+    padding: .5rem .5rem .5rem 2rem;
+    text-decoration: none;
+    font-size: 1.25rem;
+    color: black;
+    display: block;
+    transition: 0.3s;
   }
 
-  @include response(lg) {
-    width: 25% !important;
+  & a:hover {
+    color: red;
   }
 
-  & li {
-    padding: 0;
-
-    &:first a {
-      float: right;
-    }
-
-    & a {
-      margin-left: 0;
-      margin-right: 0;
-      padding-right: 0;
-    }
-
-    & a:first {
-      max-width: 100% !important;
-      width: 100% !important;
-      text-align: right !important;
-    }
+  & .close-sidenav {
+    position: absolute;
+    top: 0;
+    right: 1.25rem;
+    font-size: 1.25rem;
+    margin-left: 3rem;
   }
 }

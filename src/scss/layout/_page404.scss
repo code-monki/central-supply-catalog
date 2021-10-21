@@ -1,16 +1,8 @@
-.missing-page-main {
-  position: fixed;
-  top: 8rem;
-  left: 0;
-  right: 0;
-  bottom: 5rem;
-  z-index: 2;
-  overflow: hidden;
-
-  & .crawl {
-    font-size: 200%;
-    margin-top: 5rem;
-    margin-top: 5rem;
-    text-align: center;
-  }
+.missing-page {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  background: pink;
+  color: $light-color;
+  z-index: 3;
 }

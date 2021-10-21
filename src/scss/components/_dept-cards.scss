@@ -1,0 +1,18 @@
+.dept-cards {
+  width: 90vw;
+  max-width: 60rem;
+  display: flex;
+
+  & .dept-card {
+    
+    & a {
+      color: red;
+      text-align: center;
+    }
+
+    & img {
+      max-width: 5rem;
+      max-height: 5rem;
+    }
+  }
+}

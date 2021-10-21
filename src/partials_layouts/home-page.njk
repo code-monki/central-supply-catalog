@@ -1,15 +1,14 @@
 {% include '_head.njk' %}
-{% include '_site-header.njk' %}
 
-<main>
-  <div class="home-page">
-    <div class="departments-container">
-      <div class="container" id="content-body">
-        <div class="row">{% buildDepartmentCards %}</div>
-      </div>
-    </div>
+<div class="page-container">
+
+  {% include '_site-header.njk' %}
+
+  <div class="content-container">
+    <main id="main"></main>
   </div>
-</main>
+  
+  {% include '_site-footer.njk' %}
+</div>
 
-{% include '_site-footer.njk' %}
-{% include '_foot.njk'%}`
+{% include '_foot.njk' %}
