@@ -260,7 +260,6 @@ const updateCartBadge = () => {
 const searchBtn = document.getElementById('search-button');
 
 if (searchBtn !== null && searchBtn !== undefined) {
-  console.log('Search button exists');
   searchBtn.addEventListener("click", (e) => {
     e.preventDefault();
     const searchTerms = document.getElementById('search-input').value.replace(/\s+/g, '+');
