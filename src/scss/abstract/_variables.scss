@@ -1,7 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,400;0,500;0,700;1,400;1,500;1,700&display=swap');
 
 $roboto: 'Roboto', sans-serif;
-$primary-color: darken(red, 5%);
+$primary-color: red;
 $secondary-color: #ffe082;
 $tertiary-color: #bdbdbd;
 $ctrl-fg-color: black;
@@ -9,6 +9,8 @@ $ctrl-bg-color: #ccc;
 $dark-color: black;
 $light-color: white;
 $row-bg-color: #f2f2f2;
+$hover-color-1: lightgoldenrodyellow;
+$hover-color-2: #cc3333;
 $bg-image: url(../img/background.jpg);
 $max-width: 16rem;
 $max-searchbar-width: 25rem;

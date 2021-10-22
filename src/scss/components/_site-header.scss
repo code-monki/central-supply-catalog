@@ -39,8 +39,8 @@ header {
       }
 
       &:hover {
-        border-color: lightgoldenrodyellow;
-        background-color: lightgoldenrodyellow;
+        border-color: $hover-color-1;
+        background-color: $hover-color-1;
       }
     }
 

@@ -1,17 +1,10 @@
-.product-page {
-  background: white;
-
-  & .divider {
-    background: $border-color;
-    height: 1px;
-    width: 100%;
-  }
+.product-page-container {
+  background: $light-color;
 
   & .summary-row {
     display: flex;
     padding: .5rem;
-    background: $light-color;
-    width: 100vw;
+    width: 100%;
     border-bottom: 1px solid $border-color;
 
     @include response(md) {
@@ -97,6 +90,7 @@
 
   & .product-description {
     flex-wrap: wrap;
+    justify-content: space-between;
 
     & h5 {
       font-size: 1rem;
@@ -110,11 +104,12 @@
     & .description-content {
       width: 100%;
       padding: .5rem;
+      flex: 1 1 auto;
       font-size: .9rem;
       border-bottom: 1px solid $border-color;
 
       @include response(md) {
-        width: 60%;
+        width: 70%;
         padding: 1rem;
         font-size: 1rem;
       }
@@ -126,8 +121,12 @@
       border-bottom: 1px solid $border-color;
 
       @include response(md) {
-        width: 40%;
+        width: 30%;
         padding: 1rem;
+      }
+
+      @include response(lg) {
+        width: 25%;
       }
 
       & td {
@@ -139,6 +138,10 @@
 
         &:nth-child(even) {
           padding-left: 1rem;
+        }
+
+        &:nth-child(odd) {
+          font-weight: bold;
         }
       }
     }
@@ -163,7 +166,7 @@
 
     & .accessory-row {
       padding: .5rem;
-
+      
       @include response(md) {
         padding: 1rem;
       }
@@ -185,6 +188,14 @@
         font-size: .9rem;
         font-weight: 500;
         color: $title-link-color;
+
+        @include response(md) {
+          font-size: 1.1rem;
+        }
+
+        &:hover {
+          color: $hover-color-2;
+        }
       }
     }
   }
@@ -215,6 +226,10 @@
       & a {
         text-decoration: none;
         color: $title-link-color;
+
+        &:hover {
+          color: $hover-color-2;
+        }
       }
       }
     }

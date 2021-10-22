@@ -1,7 +1,6 @@
 .search-results {
-  background: white;
+  background: $light-color;
   color: $dark-color;
-  // overflow-y: auto;
 
   & .results-header {
     border-bottom: 1px solid $border-color;
@@ -58,6 +57,10 @@
         & a {
           text-decoration: none;
           color: $title-link-color;
+
+          &:hover {
+            color: $hover-color-2;
+          }
         }
 
         & h5 {
