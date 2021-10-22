@@ -199,9 +199,9 @@ module.exports = function (eleventyConfig) {
     return text;
   });
 
-  // //-------------------------------------------------------------
-  // // build stats table body
-  // //-------------------------------------------------------------
+  //-------------------------------------------------------------
+  // build stats table body
+  //-------------------------------------------------------------
   eleventyConfig.addShortcode("buildStatsBody", (stats) => {
     let text = "  <tbody>";
     let rows = parseInt(stats.length / 2) + (stats.length % 2);
@@ -224,6 +224,35 @@ module.exports = function (eleventyConfig) {
     text += `
       </tbody>`;
 
+    return text;
+  });
+
+  //-------------------------------------------------------------
+  // Generate department dropdown list
+  //-------------------------------------------------------------
+  eleventyConfig.addShortcode("generateDeptList", () => {
+    let text = '<ul>';
+
+    departmentsData.forEach(dept => {
+      if (dept.id.substr(-3) === "000") {
+        // add to departments
+        text += `<li><a href="/departments/${urlSafe(dept.label)}">${dept.label}</a>`
+        if (dept.subdepartments !== null && dept.subdepartments !== undefined) {
+          text += `<ul>`;
+          // add as nested list
+          dept.subdepartments.forEach(subdept => {
+            let subDept = departmentsData.find(x => x.id === subdept);
+            text += `<li><a href="/departments/${urlSafe(dept.label)}/${urlSafe(subDept.label)}">${subDept.label}</a></li>` 
+          })
+          text += '</ul>'
+        }
+        text += '</li>'
+      }
+    })
+
+    text += '</ul>';
+
+    console.log(text);
     return text;
   });
 
