@@ -14,8 +14,6 @@ The impetus for creating this application came from a desire to give something b
 
 This work would not have been made possible without the specific contributions of the following people:
 
-<br>
-
 - Marc Miller, Far Future Enterprises, who approved of the project and made artwork available as well as providing valuable connections within the community. In many ways, Marc has been one of my gaming heroes for the last 40+ years.
 - Robert Eaglestone, who provided content and feedback during the development of the application.
 - Thomas Jones-Low and the stewards of the Traveller Wiki, who graciously shared their content.

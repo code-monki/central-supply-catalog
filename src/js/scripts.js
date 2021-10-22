@@ -137,36 +137,36 @@ const updateCartUI = () => {
   let total = 0;
 
   if (cart === null || cart === undefined || cart.length === 0) {
-    console.log("No items in cart");
-    text = `<div class="row">
-              <h5 class="center">No items in cart</h5>
+    console.log("Cart is empty");
+    text = `<div class="row product-row">
+              <h4 class="center">Cart is empty</h4>
             </div>`;
   } else {
     cart.forEach((item) => {
       text += `
       <div class="row product-row">
 
-        <div class="prod-img col s3 m2 l2">
-          <a href="#">
+        <div class="prod-img">
+          <a href="/products/${item.sku}">
             <img src="${item.image}" class="responsive-img" alt="${item.name}">
           </a>
         </div>
 
-        <div class="col s9 m10">
-          <div class="row">
+        <div class="product-data">
+          <div class="row title-and-total-div">
 
-            <div class="prod-title col s8">
+            <div class="prod-title">
                 <a href="{{ ../products/${item.name} | url }}" data-sku="${item.sku}" class="item-name">${item.name}</a>
             </div>
 
-            <div class="prod-total col s4 right-align right">
-              ${setUnitLabel(item.qty * item.unitPrice, false)}
+            <div class="prod-total">
+              ${setUnitLabel(item.qty * item.unitPrice, true)}
             </div>
 
           </div>
 
           <div class="row">
-            <div class="col s12 prod-qty">
+            <div class="prod-qty">
                   <button><i class="fa fa-minus subtract-btn"></i></button>
                   <input type="number" class="qty" value="${item.qty}">
                   <button><i class="fa fa-plus add-btn"></i></button>
@@ -257,19 +257,18 @@ const updateCartBadge = () => {
 // ---- End of Shopping Cart-related Functionality --------
 
 // ------------ Search-related Functionality ---------------
-const searchField = document.getElementById("search");
-const clearSearch = document.getElementById("search-close");
-const searchBar = document.querySelector(".search-bar");
+const searchBtn = document.getElementById('search-button');
 
-if (searchField !== null && searchField !== undefined) {
-  searchField.addEventListener("search", (e) => {
+if (searchBtn !== null && searchBtn !== undefined) {
+  searchBtn.addEventListener("click", (e) => {
     e.preventDefault();
-    // console.log(`${window.location.origin}/?s=${e.target.value}`);
-    window.location.href = `${window.location.origin}/?s=${e.target.value.replace(/\s+/g, "+")}`;
-  });
+    const searchTerms = document.getElementById('search-input').value.replace(/\s+/g, '+');
+
+    window.location.href = `/?s=${searchTerms}`;
+  })
 }
 
-// set up listener
+// set up load event listener
 window.addEventListener("load", (event) => {
   const params = new URLSearchParams(window.location.search);
 
@@ -277,7 +276,7 @@ window.addEventListener("load", (event) => {
   if (params.has("s")) {
     // collection search parameters
     const searchParams = params.get("s");
-    // console.log(`searchParams: ${searchParams}`);
+    console.log(`searchParams: ${searchParams}`);
     // perform search
     performSiteSearch(searchParams);
   }
@@ -327,28 +326,28 @@ const performSiteSearch = (params) => {
       });
 
       // start of search results content body
-      let str = '<div class="black red-text search-results-container" id="content-body">';
+      let str = '<div class="search-results" id="search-results">';
 
-      str += `<h6>Search found ${results.length} results for: ${params}</h6>`
+      str += `<div class="row results-header"><h6>Search found ${results.length} results for: <em>${params}</em></h6></div>`
 
       str += `<div class="container black-text">`
 
       results.forEach(product => {
         img = (product.image) ? product.image : '/img/products/no-image.png'
         str += `
-          <div class="search-result-row row white col s12">
-            <div class="prod-img col s3 m2">
-              <img src ="${img}" class="responsive-img" alt="{{${product.name}}}">
+          <div class="search-result-row">
+            <div class="prod-img">
+              <img src ="${img}" class="thumbnail-img" alt="{{${product.name}}}">
             </div>
         `;
 
       let prodlink = '/products/'+product.sku
 
       str += `
-          <div class="product-summary col s9 m10">
+          <div class="product-summary">
             <a href="${prodlink}"><h6>${product.name}</h6></a>
             <p>${extractSummary(product.description)}</p>
-            <div class="valign-wrapper">
+            <div class="product-cost">
               <h6 class="right-align">${setUnitLabel(product.cost, true)}</h6>
             </div>
           </div>
@@ -360,7 +359,7 @@ const performSiteSearch = (params) => {
       str += `</div>
       </div>`
 
-      const contentBody = document.querySelector('.departments-container');
+      const contentBody = document.getElementById('main');
 
       contentBody.innerHTML = '';
       contentBody.innerHTML = str;
@@ -385,16 +384,35 @@ if (pager !== null && pager !== undefined) {
 // --------- Perform initializations ---------
 document.addEventListener("DOMContentLoaded", function () {
   // sidenav
-  const sideNav = document.querySelector(".sidenav");
-  M.Sidenav.init(sideNav, {});
+  // const sideNav = document.querySelector(".sidenav");
+  // M.Sidenav.init(sideNav, {});
 
-  // modal cards
-  const modals = document.querySelectorAll(".modal");
-  M.Modal.init(modals, {});
+  // // modal cards
+  // const modals = document.querySelectorAll(".modal");
+  // M.Modal.init(modals, {});
 
-  // selects
-  const selects = document.querySelector("select");
-  M.FormSelect.init(selects, {});
+  // // selects
+  // const selects = document.querySelector("select");
+  // M.FormSelect.init(selects, {});
+
+  // set listener for sidenav open
+  const menuBtn = document.getElementById('menu-button');
+  if (menuBtn !== null && menuBtn !== undefined) {
+    menuBtn.addEventListener("click", (e) => {
+      // open the slide out menu
+      document.getElementById('sidenav-menu').style.width = "100%";
+    })
+  }
+
+  // set listener for sidenav close
+  const closeMenuBtn = document.getElementById('close-sidenav');
+  if (closeMenuBtn !== null && closeMenuBtn !== undefined) {
+    closeMenuBtn.addEventListener("click", (e) => {
+      // close the slide out menu
+      document.getElementById('sidenav-menu').style.width = "0";
+    })
+  }
+
 
   // set listener on product page add button
   const addItemBtn = document.getElementById("add-to-cart");

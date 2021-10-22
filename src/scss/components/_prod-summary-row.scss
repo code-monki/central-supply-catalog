@@ -28,7 +28,7 @@
           width: 5rem;
           ;
           object-fit: contain;
-          border: 1px solid black;
+          border: 1px solid $dark-color;
           margin: 1rem 0;
 
           @include response(md) {
@@ -116,6 +116,10 @@
 
           & a {
             color: $primary-color;
+
+            &:hover {
+              color: $hover-color-2;
+            }
           }
         }
       }

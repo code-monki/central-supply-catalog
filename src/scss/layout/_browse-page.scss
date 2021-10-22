@@ -28,7 +28,7 @@
         margin: 0 auto;
         margin: .5rem 0;
         border: 1px solid lightgrey;
-        box-shadow: 2px 2px grey;
+        box-shadow: 2px 2px $border-color;
         margin-left: .25rem;
 
         @include response(md) {
@@ -100,7 +100,7 @@
 
       & input {
         width: 2rem;
-        border: 1px solid grey;
+        border: 1px solid $border-color;
         line-height: 1rem;
         max-height: 1rem;
         text-align: center;

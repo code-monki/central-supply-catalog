@@ -1,28 +1,26 @@
 {% include '_head.njk' %}
-{% include '_site-header.njk' %}
 
+<div class="page-container">
+  {% include '_site-header.njk' %}
 
-<main>
-{% include '_sidenav.njk'%}
-  <div class="cart-div container">
-    <div class="sticky white container">
-        <h1 class="col s12 center">Shopping Cart</h1>
-      <div class="total-row row">
-        <div class="valign-wrapper">
-          <div class="col s4 left ">
-            <button class="empty-cart left amber black-text" id="empty-cart">Empty Cart</button>
-          </div>
-          <div class="col s8 right">
-            <h6 class="right"><span id="cart-total" class="cart-total"></span></h6>
-          </div>
+  <div class="content-container shopping-cart">
+    <main>
+      
+      <h1>Shopping Cart</h1>
+
+      <div class="row total-row">
+        <div class="empty-cart-button">
+          <button class="empty-cart left amber black-text" id="empty-cart">Empty Cart</button>
+        </div>
+
+        <div class="cart-total-div">
+          <h3><span id="cart-total" class="cart-total"></span></h3>
         </div>
       </div>
-    </div>      
-    <div class="cart-items-container"></div>
 
-
-        
-</main>
-
-{% include '_site-footer.njk' %}
+      <div class="cart-items-container"></div>
+    </main>
+  </div>
+  {% include '_site-footer.njk' %}
+</div>
 {% include '_foot.njk'%}

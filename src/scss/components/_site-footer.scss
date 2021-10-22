@@ -1,43 +1,24 @@
 footer {
-  padding-top: .5rem !important;
-  // position: absolute;
-  // bottom: 0;
-  // left: 0;
-  // right: 0;
-  position: fixed;
-  bottom: 0;
-  left: 0;
-  right: 0;
-  border-top: 1px grey solid;
-  z-index: 2;
+  justify-self: flex-end;
+  width: 100vw;
+  padding: .5rem;
+  background: $dark-color;
 
-  & .footer-copyright {
-    max-height: 1.3rem;
-    padding: 0 !important;
-    margin: 0 !important;
+  & .copyright-info {
+    width: 100vw;
+    display: flex;
+    justify-content:  center;
+    align-items: center;
 
-
-    & .copyright-info {
-      display: flex;
-      gap: 1rem;
-      justify-content: center;
+    & a {
+      color: $secondary-color;
+      text-decoration: none;
       font-size: .8rem;
-      text-align: left;
-    }
 
-    & .container {
-      & .row {
-
-        & p {
-          padding: 0 !important;
-          text-align: left;
-          margin: 0;
-        }
-
-        & img {
-          width: auto;
-          height: 80% !important;
-        }
+      & img {
+        width: 2rem;
+        height: 2rem;
+        margin-right: 1rem;
       }
     }
   }

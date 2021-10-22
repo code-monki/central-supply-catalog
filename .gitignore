@@ -15,3 +15,4 @@ hold/*
 dist/
 Todo.md
 settings.json
+package-lock.json

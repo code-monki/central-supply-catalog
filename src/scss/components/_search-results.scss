@@ -1,10 +1,20 @@
-.search-results-container {
-  margin-bottom: 2rem !important;
+.search-results {
+  background: $light-color;
+  color: $dark-color;
+
+  & .results-header {
+    border-bottom: 1px solid $border-color;
+  }
 
   & h6 {
+    font-size: .9rem;
     font-weight: 500;
-    padding: .5rem .5rem .5rem 1rem !important;
+    padding: .5rem .5rem .5rem 1rem;
     text-align: center;
+
+    @include response(md) {
+      font-size: 1.5rem;
+    }
 
     @include response(lg) {
       font-size: 2rem;
@@ -12,12 +22,12 @@
   }
 
   & .container {
-    overflow-y: auto !important;
-    margin-top: 4rem;
+    overflow-y: auto;
 
     & .search-result-row {
+      display: flex;
       padding: .5rem 0 .5rem .5rem;
-      border-radius: .5rem;
+      border-bottom: 1px solid $border-color;
 
       @include response(lg) {
         max-height: 12rem;
@@ -42,14 +52,24 @@
       }
 
       & .product-summary {
+        margin-left: 1rem;
+
+        & a {
+          text-decoration: none;
+          color: $title-link-color;
+
+          &:hover {
+            color: $hover-color-2;
+          }
+        }
 
         & h5 {
-          font-size: 1rem !important;
-          font-weight: bold;
+          font-size: 1rem;
+          font-weight: 500;
           margin-bottom: 0;
 
           @include response(md) {
-            font-size: 1.2rem !important;
+            font-size: 1.2rem;
           }
         }
 
@@ -57,18 +77,22 @@
           font-size: 1rem;
           font-weight: 600;
           text-align: left;
-          padding-left: 0 !important;
+          padding-left: 0;
 
           @include response(md) {
-            font-size: 1.4rem !important;
+            font-size: 1.2rem;
+          }
+
+          @include response(lg)  {
+            font-size: 1.4rem;
           }
         }
 
         & p {
-          font-size: .8rem !important;
+          font-size: .8rem;
 
           @include response(md) {
-            font-size: 1rem !important;
+            font-size: 1rem;
           }
         }
       }
@@ -79,9 +103,9 @@
 
         & .quantity {
           max-width: 3rem;
-          margin-bottom: 0 0 1rem 0 !important;
+          margin-bottom: 0 0 1rem 0;
           margin: auto;
-          font-size: 1rem !important;
+          font-size: 1rem;
 
           &::before {
             content: 'Qty:';
@@ -101,7 +125,7 @@
         }
 
         & .btn-small {
-          font-size: .8rem !important;
+          font-size: .8rem;
           margin-top: .5rem;
           width: 6rem;
           font-weight: 600;
@@ -110,12 +134,12 @@
     }
 
     & .pagenav {
-      margin: 0 !important;
+      margin: 0;
       line-height: 1.6rem;
       height: 1.6rem;
 
       & ul {
-        margin: 0 auto !important;
+        margin: 0 auto;
 
         & li {
 

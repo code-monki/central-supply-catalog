@@ -1,0 +1,35 @@
+.dept-dropdown {
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 1;
+  background: $light-color;
+  padding: .5rem;
+  display: none;
+
+  @include response(md) {
+    padding: 1rem;
+  }
+
+  & h3 {
+    text-align: center;
+    background: $row-bg-color;
+  }
+
+  & a {
+    text-decoration: none;
+    color: $title-link-color;
+
+    &:hover {
+      color: $hover-color-2;
+    }
+  }
+
+  & ul {
+    list-style: none;
+
+    & li ul {
+      margin-left: 1rem;
+    }
+  }
+}

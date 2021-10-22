@@ -181,18 +181,17 @@ module.exports = function (eleventyConfig) {
 
       text = `
       <div class="row accessory-row">
-        <div class="col s3 m2 l1 accessory-item-img">
+        <div class="">
           <a href="${urlSafe(pageURL)}">
-            <img src="${imgURL}" alt="${object.name}" class="responsive-img">
+            <img src="${imgURL}" alt="${object.name}">
           </a>
         </div>
 
-        <div class="col s9 m10 l11">
+        <div>
           <a href="${urlSafe(pageURL)}">${object.name}</a>
         </div>
 
       </div>
-      <div class="divider"></div>
 
       `;
     }
@@ -200,9 +199,9 @@ module.exports = function (eleventyConfig) {
     return text;
   });
 
-  // //-------------------------------------------------------------
-  // // build stats table body
-  // //-------------------------------------------------------------
+  //-------------------------------------------------------------
+  // build stats table body
+  //-------------------------------------------------------------
   eleventyConfig.addShortcode("buildStatsBody", (stats) => {
     let text = "  <tbody>";
     let rows = parseInt(stats.length / 2) + (stats.length % 2);
@@ -235,13 +234,13 @@ module.exports = function (eleventyConfig) {
     let text = "";
     departmentsData.forEach((dept) => {
       if (dept.id.substr(-3) === "000") {
-        text += `<div class="dept-btn col s6 m3 l3 center">`;
+        text += `<div class="dept-card">`;
 
         let pageLink = `${basePath}/departments/${urlSafe(dept.label)}`;
         let imgLink = `${basePath}/img/${dept.icon}`;
 
         text += `
-          <a href="${pageLink}/" class="red-text">
+          <a href="${pageLink}/">
           <img src="${imgLink}" alt="${dept.label}"><br>${dept.label}
         </a>
       </div>
