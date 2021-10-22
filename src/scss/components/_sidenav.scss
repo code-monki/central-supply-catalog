@@ -6,7 +6,7 @@
   z-index: 5;
   top: 0;
   left: 0;
-  background-color: white;
+  background-color: $light-color;
   overflow-x: hidden;
   transition: 0.5s;
   
@@ -20,7 +20,7 @@
   }
 
   & a:hover {
-    color: red;
+    color: $hover-color-2;
   }
 
   & .close-sidenav {

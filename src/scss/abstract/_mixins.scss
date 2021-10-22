@@ -1,6 +1,20 @@
 
 @mixin response($breakpoint) {
 
+  // 1920px
+  @if($breakpoint == xl) {
+    @media screen and (min-width: 120rem) {
+      @content;
+    }
+  }
+
+  // 1440px
+  @if($breakpoint == xl) {
+    @media screen and (min-width: 90rem) {
+      @content;
+    }
+  }
+
   // 1024px
   @if($breakpoint == lg) {
     @media screen and (min-width: 64rem) {
