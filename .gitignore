@@ -16,3 +16,4 @@ dist/
 Todo.md
 settings.json
 package-lock.json
+.vscode/settings.json

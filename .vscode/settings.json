@@ -11,7 +11,8 @@
   "cSpell.words": [
     "handguard",
     "polearm",
-    "qrebs"
+    "qrebs",
+    "toolkits"
   ],
   "cSpell.ignoreWords": [
     "ADCR",
@@ -77,5 +78,9 @@
     "sophonts",
     "submachinegun",
     "unpowered"
-  ]
+  ],
+  "editor.stickyTabStops": true,
+  "editor.tabSize": 2,
+  "commit-message-editor.view.tabSize": 2,
+  "emmet.triggerExpansionOnTab": true
 }
