@@ -34,7 +34,7 @@
         }
       }
     ],
-    "tags": ["products", "vehicles"]
+    "tags": ["products", "vehicles", "personal vehicles"]
   },
   {
     "sku": "150-000-00002",
@@ -71,7 +71,7 @@
         }
       }
     ],
-    "tags": ["products", "vehicles"]
+    "tags": ["products", "vehicles", "personal vehicles"]
   },
   {
     "sku": "150-000-00003",
@@ -108,7 +108,7 @@
         }
       }
     ],
-    "tags": ["products", "vehicles"]
+    "tags": ["products", "vehicles", "personal vehicles"]
   },
   {
     "sku": "150-000-00004",
@@ -145,7 +145,7 @@
         }
       }
     ],
-    "tags": ["products", "vehicles"]
+    "tags": ["products", "vehicles", "personal vehicles"]
   },
   {
     "sku": "150-000-00005",
@@ -182,7 +182,7 @@
         }
       }
     ],
-    "tags": ["products", "vehicles"]
+    "tags": ["products", "vehicles", "personal vehicles"]
   },
   {
     "sku": "150-000-00006",
@@ -219,7 +219,7 @@
         }
       }
     ],
-    "tags": ["products", "vehicles"]
+    "tags": ["products", "vehicles", "personal vehicles"]
   },
   {
     "sku": "150-000-00007",
@@ -441,7 +441,7 @@
         }
       }
     ],
-    "tags": ["products", "vehicles"]
+    "tags": ["products", "vehicles", "personal vehicles"]
   },
   {
     "sku": "150-000-00013",
@@ -478,7 +478,7 @@
         }
       }
     ],
-    "tags": ["products", "vehicles"]
+    "tags": ["products", "vehicles", "personal vehicles"]
   },
   {
     "sku": "150-000-00014",
@@ -515,7 +515,7 @@
         }
       }
     ],
-    "tags": ["products", "vehicles"]
+    "tags": ["products", "vehicles", "personal vehicles"]
   },
   {
     "sku": "150-000-00015",
@@ -552,7 +552,7 @@
         }
       }
     ],
-    "tags": ["products", "vehicles"]
+    "tags": ["products", "vehicles", "personal vehicles"]
   },
   {
     "sku": "150-000-00016",
