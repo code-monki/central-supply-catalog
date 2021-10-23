@@ -71,7 +71,7 @@
         font-size: .8rem;
 
         @include response(md) {
-          font-size: 1.2rem;
+          font-size: 1rem;
         }
       }
 
@@ -89,8 +89,6 @@
   }
 
   & .product-description {
-    flex-wrap: wrap;
-    justify-content: space-between;
 
     & h5 {
       font-size: 1rem;
@@ -114,35 +112,47 @@
         font-size: 1rem;
       }
     }
+  }
 
-    & .product-details {
+  & .product-details {
+    display: block;
+    width: 100%;
+    min-width: 100%;
+    padding: .5rem;
+    border-bottom: 1px solid $border-color;
+
+    & h5 {
       width: 100%;
-      padding: .5rem;
-      border-bottom: 1px solid $border-color;
+      font-size: 1rem;
 
       @include response(md) {
-        width: 30%;
-        padding: 1rem;
+        font-size: 1.2rem;
+        margin-bottom: .5rem;
+      }
+    }
+
+    @include response(md) {
+      width: 30%;
+      padding: 1rem;
+    }
+
+    @include response(lg) {
+      width: 25%;
+    }
+
+    & td {
+      font-size: .8rem;
+
+      @include response(md) {
+        font-size: 1rem;
       }
 
-      @include response(lg) {
-        width: 25%;
+      &:nth-child(even) {
+        padding-left: 1rem;
       }
 
-      & td {
-        font-size: .8rem;
-
-        @include response(md) {
-          font-size: 1rem;
-        }
-
-        &:nth-child(even) {
-          padding-left: 1rem;
-        }
-
-        &:nth-child(odd) {
-          font-weight: bold;
-        }
+      &:nth-child(odd) {
+        font-weight: bold;
       }
     }
   }

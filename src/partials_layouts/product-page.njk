@@ -38,55 +38,55 @@
             {% include '_item-stats.njk' %}
           {% endif %}
         </div>
+      </div>
 
-        <div class="product-details">
-          <h5>
-            Product Information</h5>
-          <table>
-            <tbody>
-              {% if product.mfr %}
+      <div class="row product-details">
+        <h5>Product Details</h5>
+
+        <table>
+          <tbody>
+            {% if product.mfr %}
+            <tr>
+              <td>Mfr:</td>
+              <td>{% getMfr product.mfr %}</td>
+            </tr>
+            {% endif %}
+            <tr>
+              <td>TL:</td>
+              <td>{{ product.techLevel | convertTL }}</td>
+            </tr>
+            {% if product.mass %}
+            <tr>
+              <td>Mass (Kg):</td>
+              <td>{{ product.mass }}</td>
+            </tr>
+            {% endif %}
+            {% if product.size %}
+            <tr>
+              <td>Size:</td>
+              <td>{{ product.size }}</td>
+            </tr>
+            {% endif %}
+            {% if product.displacement %}
+            <tr>
+              <td>Displacement (tons):</td>
+              <td>{{ product.displacement }}</td>
+            </tr>
+            {% endif %}
+            {% if product.qrebs %}
               <tr>
-                <td>Mfr:</td>
-                <td>{% getMfr product.mfr %}</td>
+                <td>QREBS:</td>
+                <td>{{ product.qrebs }}</td>
               </tr>
-              {% endif %}
-              <tr>
-                <td>TL:</td>
-                <td>{{ product.techLevel | convertTL }}</td>
-              </tr>
-              {% if product.mass %}
-              <tr>
-                <td>Mass (Kg):</td>
-                <td>{{ product.mass }}</td>
-              </tr>
-              {% endif %}
-              {% if product.size %}
-              <tr>
-                <td>Size:</td>
-                <td>{{ product.size }}</td>
-              </tr>
-              {% endif %}
-              {% if product.displacement %}
-              <tr>
-                <td>Displacement (tons):</td>
-                <td>{{ product.displacement }}</td>
-              </tr>
-              {% endif %}
-              {% if product.qrebs %}
+            {% endif %}
+              {% if product.damage %}
                 <tr>
-                  <td>QREBS:</td>
-                  <td>{{ product.qrebs }}</td>
+                  <td>Damage Effect(s):</td>
+                  <td>{{ product.damage }}</td>
                 </tr>
               {% endif %}
-                {% if product.damage %}
-                  <tr>
-                    <td>Damage Effect(s):</td>
-                    <td>{{ product.damage }}</td>
-                  </tr>
-                {% endif %}
-              </tbody>
-            </table>
-        </div>
+            </tbody>
+          </table>
       </div>
 
 
