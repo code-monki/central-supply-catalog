@@ -51,6 +51,24 @@ const extractSummary = (text) => {
   return summary;
 };
 
+// -------- Get Screen Coordinates of Object ----------
+const getScreenCoordinates = (obj) => {
+  var p = {};
+  p.x = obj.offsetLeft;
+  p.y = obj.offsetTop;
+  while (obj.offsetParent) {
+      p.x = p.x + obj.offsetParent.offsetLeft;
+      p.y = p.y + obj.offsetParent.offsetTop;
+      if (obj == document.getElementsByTagName("body")[0]) {
+          break;
+      }
+      else {
+          obj = obj.offsetParent;
+      }
+  }
+  return p;
+}
+
 // ----------------- add item to cart -----------------
 const addItem = () => {
   // retrieve the cart from localStorage
@@ -381,19 +399,32 @@ if (pager !== null && pager !== undefined) {
 
 // ----------------  End of Pager  -------------------------
 
+
+// ----------------  Departments Dropdown  -------------------------
+const deptBtn = document.getElementById('dept-btn');
+const deptDropdown = document.getElementById('dept-dropdown');
+
+// add event listener for click event to show 'dropdown'
+if (deptBtn !== null && deptBtn !== undefined) {
+  deptBtn.addEventListener('click', (e) => {
+    e.preventDefault();
+    console.log(`dept btn click`);
+    let p = getScreenCoordinates(deptBtn);
+    deptDropdown.style.left = `${p.x}px`;
+    if (deptDropdown.style.display === 'block') {
+      deptDropdown.style.display = 'none';
+    } else {
+      deptDropdown.style.display = 'block';
+    }
+    deptDropdown.focus();
+  });
+}
+
+
+// ------------  End of Departments Dropdown  ----------------------
+
 // --------- Perform initializations ---------
 document.addEventListener("DOMContentLoaded", function () {
-  // sidenav
-  // const sideNav = document.querySelector(".sidenav");
-  // M.Sidenav.init(sideNav, {});
-
-  // // modal cards
-  // const modals = document.querySelectorAll(".modal");
-  // M.Modal.init(modals, {});
-
-  // // selects
-  // const selects = document.querySelector("select");
-  // M.FormSelect.init(selects, {});
 
   // set listener for sidenav open
   const menuBtn = document.getElementById('menu-button');

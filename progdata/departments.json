@@ -18,7 +18,8 @@
     "label": "Computers",
     "description": "Devices that provide the ability to store and process information.",
     "data": "./src/_data/computer-products.json",
-    "icon": "computers.svg"
+    "icon": "computers.svg",
+    "subdepartments": ["030-001"]
   },
   {
     "id": "030-001",
@@ -31,7 +32,8 @@
     "label": "Construction",
     "description": "Tools & Materials used for construction",
     "data": "./src/_data/construction-products.json",
-    "icon": "construction.svg"
+    "icon": "construction.svg",
+    "subdepartments": ["040-001"]
   },
   {
     "id": "040-001",
@@ -44,7 +46,8 @@
     "label": "Containers",
     "description": "Containers for solids, liquids, etc.",
     "data": "./src/_data/container-products.json",
-    "icon": "containers.svg"
+    "icon": "containers.svg",
+    "subdepartments": ["190-001"]
   },
   {
     "id": "190-001",
@@ -103,7 +106,8 @@
     "id": "100-000",
     "label": "Protections",
     "description": "Equipment to provide protection against hostile environments",
-    "icon": "protections.svg"
+    "icon": "protections.svg",
+    "subdepartments": ["100-001", "100-002", "100-003", "100-004", "100-005", "100-006"]
   },
   {
     "id": "100-001",
@@ -144,25 +148,26 @@
     "label": "Robots",
     "description": "A collection of autonomous and semi-autonomous machines.",
     "data": "./src/_data/robots-products.json",
-    "icon": "robots.svg"
+    "icon": "robots.svg",
+    "subdepartments": ["110-001", "110-002", "110-003"]
   },
   {
     "id": "110-001",
     "label": "Automatons",
     "data": "./src/_data/robots-products.json",
-    "description": "Sophont-like machinesthat perform a specific function."
+    "description": "Sophont-like machines that perform a specific function."
   },
   {
     "id": "110-002",
     "label": "Drones",
     "data": "./src/_data/robots-products.json",
-    "description": "Autonomous or semi-automonous vehicles."
+    "description": "Autonomous or semi-autonomous vehicles."
   },
   {
     "id": "110-003",
     "label": "Strangeforms",
     "data": "./src/_data/robots-products.json",
-    "description": "Oddly shaped automous and semi-autonomous machines."
+    "description": "Oddly shaped autonomous and semi-autonomous machines."
   },
   {
     "id": "130-000",
@@ -192,7 +197,8 @@
     "id": "150-000",
     "label": "Vehicles",
     "description": "A collection of personal vehicles.",
-    "icon": "vehicles.svg"
+    "icon": "vehicles.svg",
+    "subdepartments": ["150-001", "150-002"]
   },
   {
     "id": "150-001",
@@ -208,7 +214,8 @@
     "id": "160-000",
     "label": "Weapons",
     "description": "Melee Weapons, Blades and Guns.",
-    "icon": "weapons.svg"
+    "icon": "weapons.svg",
+    "subdepartments": ["160-001", "160-002", "160-003", "160-004", "160-005", "160-006","160-007", "160-008", "160-009", "160-010", "160-011", "160-012"]
   },
   {
     "id": "160-001",
