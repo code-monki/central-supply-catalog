@@ -12,7 +12,7 @@
     "qrebs": "N/A",
     "image": "",
     "description": "<p><!-- Summary Start -->A combination long-range communicator and signal transponder.<!-- Summary End --> The commlink beacon is a very sophisticated emergency signaling device. The internal transponder monitors common emergency search-and-rescue channels (one at a time). When traffic is picked up on this channel, the device simultaneously emits a shrill warning tone to alert users to the possibility that help is at hand and transmits a coded distress signal under a traditional GK (Gashimeku Kalariin, the Vilani SOS). Some more expensive models have provision for auto-repeat voice, video, and/or data, instead of the automatic code signal. In either event, the commlink beacon serves as a means of establishing contact when there is any search being mounted within 500 kilometers, and then it serves to continue communications after that initial contact. With a size 2 Ambient Panel, it can operate indefinitely.</p>",
-    "category": ["emitters"],
+    "categories": ["emitters"],
     "sources": [{
       "publication": "Traveller 5.10 Core Rules Book 3 : Worlds and Adventures",
       "authors": ["Miller, Marc"],
@@ -36,7 +36,7 @@
     "qrebs": "N/A",
     "image": "",
     "description": "<p><!-- Summary Start -->Vehicle transportable transponder capable of broadcasting voice, video, and/or data out to 250,000 km (R=11).<!-- Summary End --> Commonly used by the IISS for marking class E starports and designating landing locations. Volume approximately 0.5 tons.</p>",
-    "category": ["emitters"],
+    "categories": ["emitters"],
     "sources": [{
       "publication": "Traveller 5.10 Core Rules Book 3 : Worlds and Adventures",
       "authors": ["Miller, Marc"],
@@ -60,7 +60,7 @@
     "qrebs": "N/A",
     "image": "",
     "description": "<p><!-- Summary Start -->A tiny electronic device, camouflaged for covert surveillance.<!-- Summary End --> Earlier versions record audio only. Later versions can record video as well, and may also be able to transmit signals over EM waves. Variants include the Wiretap, which is a Bug attached to a telecommunications cable or RF channel.</p>",
-    "category": ["emitters"],
+    "categories": ["emitters"],
     "sources": [{
       "publication": "Traveller 5.10 Core Rules Book 3 : Worlds and Adventures",
       "authors": ["Miller, Marc"],
@@ -84,7 +84,7 @@
     "qrebs": "N/A",
     "image": "",
     "description": "<p><!-- Summary Start -->Pistol-grip launcher for flares.<!-- Summary End --> A tube launcher Flare Rocket version is Size 4, 1 kg, and Cr 100. Flares weigh 100 grams and cost Cr1 each. They have an adjustable burn rate, for up to 2 hours.\n\nFlares are visual marker and counter-measure devices, either using intense light (e.g. potassium), smoke, or heat. Flares may be ground-based, dropped from an aircraft, fired from a flare gun, or fired from a rocket. If aerial, flares will have a simple parachute to provide maximum effect over a large area.</p>",
-    "category": ["emitters"],
+    "categories": ["emitters"],
     "sources": [{
       "publication": "Traveller 5.10 Core Rules Book 3 : Worlds and Adventures",
       "authors": ["Miller, Marc"],
@@ -108,7 +108,7 @@
     "qrebs": "N/A",
     "image": "",
     "description": "<p><!-- Summary Start -->Jammer is a man-portable (MP) anti-sensor.<!-- Summary End --> It registers as a Size-7 object to other sensors, but with insufficient specificity to allow targetting. Jammer operates in much the same manner as the ACS Jammer.</p>",
-    "category": ["emitters"],
+    "categories": ["emitters"],
     "sources": [{
       "publication": "Traveller 5.10 Core Rules Book 3 : Worlds and Adventures",
       "authors": ["Miller, Marc"],
@@ -132,7 +132,7 @@
     "qrebs": "N/A",
     "image": "",
     "description": "<p><!-- Summary Start -->Items such as lamps or torches.<!-- Summary End --> TL1-3 versions burn (via oxidization of a fuel such as wax or oil) and therefore require an atmosphere, and may have reduced duration. TL7+ versions may either be chemical torches, which operate without electrical current, or high-efficiency lighting elements. Typical lamps spread light across a wide angle, and may have shields to direct the beam.</p>",
-    "category": ["emitters"],
+    "categories": ["emitters"],
     "sources": [{
       "publication": "Traveller 5.10 Core Rules Book 3 : Worlds and Adventures",
       "authors": ["Miller, Marc"],
@@ -156,7 +156,7 @@
     "qrebs": "N/A",
     "image": "",
     "description": "<p><!-- Summary Start -->A simple hand-held mirror which can be used to reflect sunlight and thus catch the attention of a distant observer.<!-- Summary End --> Signal mirrors can be improvised out of any reflective material; specialty mirrors will include a small sighting hole that enables the signaler to direct the flashes of light from the mirror at a particular target such as a passing aircraft.</p>",
-    "category": ["emitters"],
+    "categories": ["emitters"],
     "sources": [{
       "publication": "Traveller 5.10 Core Rules Book 3 : Worlds and Adventures",
       "authors": ["Miller, Marc"],
@@ -180,7 +180,7 @@
     "qrebs": "N/A",
     "image": "",
     "description": "<p><!-- Summary Start -->A psionic beacon which can be detected by people trained in psionics.<!-- Summary End --></p>",
-    "category": ["emitters"],
+    "categories": ["emitters"],
     "sources": [{
       "publication": "Traveller 5.10 Core Rules Book 3 : Worlds and Adventures",
       "authors": ["Miller, Marc"],
@@ -204,7 +204,7 @@
     "qrebs": "N/A",
     "image": "",
     "description": "<p><!-- Summary Start -->Objects which glow in the wavelengths ANIFX. Essentially naturally-occurring Fluorescent gems which absorb ambient energy and re-emit it in the ANIFX wavelengths.<!-- Summary End --></p>",
-    "category": ["emitters"],
+    "categories": ["emitters"],
     "sources": [{
       "publication": "Traveller 5.10 Core Rules Book 3 : Worlds and Adventures",
       "authors": ["Miller, Marc"],
@@ -228,7 +228,7 @@
     "qrebs": "N/A",
     "image": "",
     "description": "<p><!-- Summary Start -->Objects which glow and pulse in the wavelengths ANIFX. Essentially naturally-occurring Fluorescent gems which absorb ambient energy and re-emit it in the ANIFX wavelengths.<!-- Summary End --></p>",
-    "category": ["emitters"],
+    "categories": ["emitters"],
     "sources": [{
       "publication": "Traveller 5.10 Core Rules Book 3 : Worlds and Adventures",
       "authors": ["Miller, Marc"],
@@ -252,7 +252,7 @@
     "qrebs": "N/A",
     "image": "",
     "description": "<p><!-- Summary Start -->Devices which emit (glow, pulse, strobe) in the IR wavelengths ANIFX.<!-- Summary End --> Distinct from ANIFX Emitters in that they are tuned to specific individual wavelengths.</p>",
-    "category": ["emitters"],
+    "categories": ["emitters"],
     "sources": [{
       "publication": "Traveller 5.10 Core Rules Book 3 : Worlds and Adventures",
       "authors": ["Miller, Marc"],
@@ -276,7 +276,7 @@
     "qrebs": "N/A",
     "image": "",
     "description": "<p><!-- Summary Start -->Devices which emit (glow, pulse) in the Lek wavelength.<!-- Summary End --></p>",
-    "category": ["emitters"],
+    "categories": ["emitters"],
     "sources": [{
       "publication": "Traveller 5.10 Core Rules Book 3 : Worlds and Adventures",
       "authors": ["Miller, Marc"],
@@ -300,7 +300,7 @@
     "qrebs": "N/A",
     "image": "",
     "description": "<p><!-- Summary Start -->Devices which emit (glow, pulse) in the Mag wavelength.<!-- Summary End --></p>",
-    "category": ["emitters"],
+    "categories": ["emitters"],
     "sources": [{
       "publication": "Traveller 5.10 Core Rules Book 3 : Worlds and Adventures",
       "authors": ["Miller, Marc"],
@@ -324,7 +324,7 @@
     "qrebs": "N/A",
     "image": "",
     "description": "<p><!-- Summary Start -->Objects which glow in the wavelengths VHDUS.<!-- Summary End --> Essentially naturally-occurring Fluorescent gems which absorb ambient energy and re-emit it in the VHDUS wavelengths.</p>",
-    "category": ["emitters"],
+    "categories": ["emitters"],
     "sources": [{
       "publication": "Traveller 5.10 Core Rules Book 3 : Worlds and Adventures",
       "authors": ["Miller, Marc"],
@@ -348,7 +348,7 @@
     "qrebs": "N/A",
     "image": "",
     "description": "<p><!-- Summary Start -->Objects which glow and pulse in the wavelengths VHDUS.<!-- Summary End --> Essentially naturally-occurring Fluorescent gems which absorb ambient energy and re-emit it in the VHDUS wavelengths.</p>",
-    "category": ["emitters"],
+    "categories": ["emitters"],
     "sources": [{
       "publication": "Traveller 5.10 Core Rules Book 3 : Worlds and Adventures",
       "authors": ["Miller, Marc"],
@@ -372,7 +372,7 @@
     "qrebs": "N/A",
     "image": "",
     "description": "<p><!-- Summary Start -->Non-electronic device that amplifies voice to very long range.<!-- Summary End --></p>",
-    "category": ["emitters"],
+    "categories": ["emitters"],
     "sources": [{
       "publication": "Traveller 5.10 Core Rules Book 3 : Worlds and Adventures",
       "authors": ["Miller, Marc"],
@@ -396,7 +396,7 @@
     "qrebs": "N/A",
     "image": "",
     "description": "<p><!-- Summary Start -->An analog electronic device that amplifies voice to very long range.<!-- Summary End --></p>",
-    "category": ["emitters"],
+    "categories": ["emitters"],
     "sources": [{
       "publication": "Traveller 5.10 Core Rules Book 3 : Worlds and Adventures",
       "authors": ["Miller, Marc"],
@@ -420,7 +420,7 @@
     "qrebs": "N/A",
     "image": "",
     "description": "<p><!-- Summary Start -->An electronic device that amplifies voice to very long range.<!-- Summary End --></p>",
-    "category": ["emitters"],
+    "categories": ["emitters"],
     "sources": [{
       "publication": "Traveller 5.10 Core Rules Book 3 : Worlds and Adventures",
       "authors": ["Miller, Marc"],
@@ -444,7 +444,7 @@
     "qrebs": "N/A",
     "image": "",
     "description": "<p><!-- Summary Start -->An electronic device that amplifies voice to very long range.<!-- Summary End --></p>",
-    "category": ["emitters"],
+    "categories": ["emitters"],
     "sources": [{
       "publication": "Traveller 5.10 Core Rules Book 3 : Worlds and Adventures",
       "authors": ["Miller, Marc"],
@@ -468,7 +468,7 @@
     "qrebs": "N/A",
     "image": "",
     "description": "<p><!-- Summary Start -->A lamp with a tightly focused beam.<!-- Summary End --></p>",
-    "category": ["emitters"],
+    "categories": ["emitters"],
     "sources": [{
       "publication": "Traveller 5.10 Core Rules Book 3 : Worlds and Adventures",
       "authors": ["Miller, Marc"],

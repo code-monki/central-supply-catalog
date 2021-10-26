@@ -428,7 +428,7 @@
     "qrebs": "N/A",
     "image": "",
     "description": "<p><!-- Summary Start -->Miniature airlock for an environmental tank.<!-- Summary End --></p>",
-    "categories": ["containers"],
+    "categories": ["containers", "container accessory"],
     "sources": [
       {
         "publication": "Traveller 5.10 Core Rules Book 3 : Worlds and Adventures",
@@ -439,7 +439,7 @@
         }
       }
     ],
-    "tags": ["products", "containers"]
+    "tags": ["products", "containers", "container accessory"]
   },
   {
     "sku": "190-001-00002",
@@ -454,7 +454,7 @@
     "qrebs": "N/A",
     "image": "",
     "description": "<p><!-- Summary Start -->Chemical purification tablets for local water.<!-- Summary End --></p>",
-    "categories": ["container"],
+    "categories": ["container", "container accessory"],
     "sources": [
       {
         "publication": "Traveller 5.10 Core Rules Book 3 : Worlds and Adventures",
@@ -465,7 +465,6 @@
         }
       }
     ],
-    "tags": ["products", "container"]
+    "tags": ["products", "container", "container accessory"]
   }
-
 ]

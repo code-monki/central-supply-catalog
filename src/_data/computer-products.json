@@ -1,5 +1,77 @@
 [
   {
+    "sku": "030-000-00001",
+    "categories": "computers",
+    "type": "computers",
+    "subtype": "",
+    "name": "Databank",
+    "mfr": "",
+    "cost": 800000,
+    "mass": 5,
+    "size": 4,
+    "techLevel": 13,
+    "qrebs": "N/A",
+    "image": "",
+    "description": "<!-- Summary Start -->A specialized Model/4 computer, designed as a data server. Used for local Library Data systems. <!-- Summary End -->Also used on Xboats for carrying a weekly informational update for every star system in the Imperium.",
+    "sources": [{
+      "publication": "Traveller 5.10 Core Rules Book 3 : Worlds and Adventures",
+      "authors": ["Miller, Marc"],
+      "publisher": {
+        "name": "Far Future Enterprises",
+        "url": "https://farfuture.net"
+      }
+    }],
+    "tags": ["products", "computers"]
+  },
+  {
+    "sku": "030-000-00002",
+    "categories": "computers",
+    "type": "computers",
+    "subtype": "",
+    "name": "Portable Computer",
+    "mfr": "",
+    "cost": 1000,
+    "mass": 0.4,
+    "size": 3,
+    "techLevel": 9,
+    "qrebs": "N/A",
+    "image": "",
+    "description": "<!-- Summary Start -->The tablet computer is a personal computing device capable of basic computer activity. It functions as a Hand Controller and enables various tasks for a user.<!-- Summary End -->\n\nIt contains a PowerCell with a duration of about 1 day and has a data communications range of 50 meters.",
+    "sources": [{
+      "publication": "Traveller 5.10 Core Rules Book 3 : Worlds and Adventures",
+      "authors": ["Miller, Marc"],
+      "publisher": {
+        "name": "Far Future Enterprises",
+        "url": "https://farfuture.net"
+      }
+    }],
+    "tags": ["products", "computers"]
+  },
+  {
+    "sku": "030-000-00003",
+    "categories": "computers",
+    "type": "computers",
+    "subtype": "",
+    "name": "Research Console",
+    "mfr": "",
+    "cost": 200000,
+    "mass": 0,
+    "size": 6,
+    "techLevel": 9,
+    "qrebs": "N/A",
+    "image": "",
+    "description": "<!-- Summary Start -->A specialized control console used for a single research purpose.<!-- Summary End --> A group of research consoles installed in a dedicated volume is a Laboratory, functioning in the manner of an auxiliary ACS Bridge.\n\nReseaarch consoles are available at multiple technology levels and the mass varies with the technology level.",
+    "sources": [{
+      "publication": "Traveller 5.10 Core Rules Book 3 : Worlds and Adventures",
+      "authors": ["Miller, Marc"],
+      "publisher": {
+        "name": "Far Future Enterprises",
+        "url": "https://farfuture.net"
+      }
+    }],
+    "tags": ["products", "computers"]
+  },
+  {
     "sku": "030-001-00001",
     "type": "computers",
     "subtype": "computer accessory",
@@ -12,7 +84,7 @@
     "qrebs": "N/A",
     "image": "",
     "description": "<p><!-- Summary Start -->A visual display that provides a visual and tactile interface to a computer.<!-- Summary End --></p>",
-    "category": ["computers"],
+    "categories": ["computers", "computer accessory"],
     "sources": [{
       "publication": "Traveller 5.10 Core Rules Book 3 : Worlds and Adventures",
       "authors": ["Miller, Marc"],
@@ -21,7 +93,7 @@
         "url": "https://farfuture.net"
       }
     }],
-    "tags": ["products", "computers"]
+    "tags": ["products", "computers", "computer accessory"]
   },
   {
     "sku": "030-001-00002",
@@ -36,7 +108,7 @@
     "qrebs": "N/A",
     "image": "",
     "description": "<p><!-- Summary Start -->A visual display that provides a visual, tactile, and holographic interface to a computer.<!-- Summary End --></p>",
-    "category": ["computers"],
+    "categories": ["computers"],
     "sources": [{
       "publication": "Traveller 5.10 Core Rules Book 3 : Worlds and Adventures",
       "authors": ["Miller, Marc"],
@@ -45,7 +117,7 @@
         "url": "https://farfuture.net"
       }
     }],
-    "tags": ["products", "computers"]
+    "tags": ["products", "computers", "computer accessory"]
   },
   {
     "sku": "030-001-00003",
@@ -60,7 +132,7 @@
     "qrebs": "N/A",
     "image": "",
     "description": "<p><!-- Summary Start --> A miniaturized electronic device capable of receiving voice or radio input, recording it, and transmitting this information either on a given external signal or continuously.<!-- Summary End --> Reception and transmission is on standard voice/data communication bands. Thus, the device can listen for signals and then retransmit them, or it can continuously transmit a pre-recorded message. The 'tape' length is  20 minutes; The transmitter has a range of 50Km and is line of sight (it is blocked by buildings, mountains, and so on).</p>",
-    "category": ["computers"],
+    "categories": ["computers", "computer accessory"],
     "sources": [{
       "publication": "Traveller 5.10 Core Rules Book 3 : Worlds and Adventures",
       "authors": ["Miller, Marc"],
@@ -69,7 +141,7 @@
         "url": "https://farfuture.net"
       }
     }],
-    "tags": ["products", "computers"]
+    "tags": ["products", "computers", "computer accessory"]
   },
   {
     "sku": "030-001-00004",
@@ -84,7 +156,7 @@
     "qrebs": "N/A",
     "image": "",
     "description": "<p><!-- Summary Start -->A short range repeater/data relay device.<!-- Summary End --></p>",
-    "category": ["computers"],
+    "categories": ["computers", "computer accessory"],
     "sources": [{
       "publication": "Traveller 5.10 Core Rules Book 3 : Worlds and Adventures",
       "authors": ["Miller, Marc"],
@@ -93,7 +165,7 @@
         "url": "https://farfuture.net"
       }
     }],
-    "tags": ["products", "computers"]
+    "tags": ["products", "computers", "computer accessory"]
   },
   {
     "sku": "030-001-00005",
@@ -108,7 +180,7 @@
     "qrebs": "N/A",
     "image": "",
     "description": "<p><!-- Summary Start -->This represents not only the Imperial ID, but also identity or membership cards given out by various organizations such as TAS.<!-- Summary End --> The front carries a hologram of both seal or logo of the issuing Ministry, agency or organization and of the sophont to whom it was issued. In addition an unique identity number and the bearer's name, rank, titles, offices, etc., are found on the front. The back will, on official Imperial ID, show a still photograph, a signature, and some stern legal print. On the inside is a dedicated, hardened, Datalink which holds all of the sophont's vital statistics, medical history, financial information and travel history. The card itself contains sophisticated anti-tampering hard, soft and possibly wetwares.</p><p>Cracking an Imperial ID is a major crime and is Beyond Impossible (Uncertain) to actually achieve safely and without alerting the authorities. Altering the ImpID once it is cracked is a high Imperial crime by itself and carries hefty penalties. For the brave and foolish, the Task is Staggering (Uncertain) if attempted with the correct tools.</p>",
-    "category": ["computers"],
+    "categories": ["computers", "computer accessory"],
     "sources": [{
       "publication": "Traveller 5.10 Core Rules Book 3 : Worlds and Adventures",
       "authors": ["Miller, Marc"],
@@ -117,7 +189,7 @@
         "url": "https://farfuture.net"
       }
     }],
-    "tags": ["products", "computers"]
+    "tags": ["products", "computers", "computer accessory"]
   },
   {
     "sku": "030-001-00006",
@@ -132,7 +204,7 @@
     "qrebs": "N/A",
     "image": "",
     "description": "<p><!-- Summary Start -->An enclosed reel (or corresponding solid-, holo-, or crystalline-state device) containing specific jump coordinates within a set of given systems.<!-- Summary End --> The Jump Tape is slotted into a special reader found on the Astrogator's Console. The Astrogator's Console is connected to the Jump Drive, Power Plant, and Main Computer.</p><p>The Jump Tape runs a calibration routine on the Coils (and Grid if installed), tests the Jump matrix three times against the results. It then compares the Jump solution if any offered by the Astrogator, if they match or the Astrogator merely lets the Computer run the Tape, it will then commence running the Jump Cycle culminating with the transition to Jumpspace and about one week later transition back to Normalspace.</p><p>A Jump Tape can only be safely used one time as they are charted on large computer arrays using the most current data.</p>",
-    "category": ["computers"],
+    "categories": ["computers", "computer accessory"],
     "sources": [{
       "publication": "Traveller 5.10 Core Rules Book 3 : Worlds and Adventures",
       "authors": ["Miller, Marc"],
@@ -141,7 +213,7 @@
         "url": "https://farfuture.net"
       }
     }],
-    "tags": ["products", "computers"]
+    "tags": ["products", "computers", "computer accessory"]
   },
   {
     "sku": "030-001-00007",
@@ -156,7 +228,7 @@
     "qrebs": "N/A",
     "image": "",
     "description": "<p><!-- Summary Start -->The map box is a compact storage system for computer generated maps of a world.<!-- Summary End --> The map scale may be adjusted. The device measures 250mm x 250mm x 10mm closed and expands to 1000mm x 1000mm x 10mm when open.</p>",
-    "category": ["computers"],
+    "categories": ["computers", "computer accessory"],
     "sources": [{
       "publication": "Traveller 5.10 Core Rules Book 3 : Worlds and Adventures",
       "authors": ["Miller, Marc"],
@@ -165,7 +237,7 @@
         "url": "https://farfuture.net"
       }
     }],
-    "tags": ["products", "computers"]
+    "tags": ["products", "computers", "computer accessory"]
   },
   {
     "sku": "030-001-00008",
@@ -180,7 +252,7 @@
     "qrebs": "N/A",
     "image": "",
     "description": "<p><!-- Summary Start -->An insert for a map box that contains the data for a single world.<!-- Summary End --></p>",
-    "category": ["computers"],
+    "categories": ["computers", "computer accessory"],
     "sources": [{
       "publication": "Traveller 5.10 Core Rules Book 3 : Worlds and Adventures",
       "authors": ["Miller, Marc"],
@@ -189,7 +261,7 @@
         "url": "https://farfuture.net"
       }
     }],
-    "tags": ["products", "computers"]
+    "tags": ["products", "computers", "computer accessory"]
   },
   {
     "sku": "030-001-00009",
@@ -204,7 +276,7 @@
     "qrebs": "N/A",
     "image": "",
     "description": "<p><!-- Summary Start -->A blank insert for a map box that can contain the data for a single world.<!-- Summary End --></p>",
-    "category": ["computers"],
+    "categories": ["computers", "computer accessory"],
     "sources": [{
       "publication": "Traveller 5.10 Core Rules Book 3 : Worlds and Adventures",
       "authors": ["Miller, Marc"],
@@ -213,7 +285,7 @@
         "url": "https://farfuture.net"
       }
     }],
-    "tags": ["products", "computers"]
+    "tags": ["products", "computers", "computer accessory"]
   },
   {
     "sku": "030-001-00010",
@@ -228,7 +300,7 @@
     "qrebs": "N/A",
     "image": "",
     "description": "<p><!-- Summary Start -->The memclip stores an app for managing one language.<!-- Summary End --> Pre-programmed memclips exist for most known languages, such as Anglic, Darrian, Gvegh, Oynprith, Trokh, Vilani, and Zhodani.</p>",
-    "category": ["computers"],
+    "categories": ["computers", "computer accessory"],
     "sources": [{
       "publication": "Traveller 5.10 Core Rules Book 3 : Worlds and Adventures",
       "authors": ["Miller, Marc"],
@@ -237,7 +309,7 @@
         "url": "https://farfuture.net"
       }
     }],
-    "tags": ["products", "computers"]
+    "tags": ["products", "computers", "computer accessory"]
   },
   {
     "sku": "030-001-00011",
@@ -252,7 +324,7 @@
     "qrebs": "N/A",
     "image": "",
     "description": "<p>A map of nearby systems and trade routes.<!-- Summary End --></p>",
-    "category": ["computers"],
+    "categories": ["computers", "computer accessory"],
     "sources": [{
       "publication": "Traveller 5.10 Core Rules Book 3 : Worlds and Adventures",
       "authors": ["Miller, Marc"],
@@ -261,7 +333,7 @@
         "url": "https://farfuture.net"
       }
     }],
-    "tags": ["products", "computers"]
+    "tags": ["products", "computers", "computer accessory"]
   },
   {
     "sku": "030-001-00012",
@@ -276,7 +348,7 @@
     "qrebs": "N/A",
     "image": "",
     "description": "<p><!-- Summary Start -->A data container (essentially a re-purposed memclip) for carrying detailed survey information for one star system.<!-- Summary End --></p>",
-    "category": ["computers"],
+    "categories": ["computers", "computer accessory"],
     "sources": [{
       "publication": "Traveller 5.10 Core Rules Book 3 : Worlds and Adventures",
       "authors": ["Miller, Marc"],
@@ -285,7 +357,7 @@
         "url": "https://farfuture.net"
       }
     }],
-    "tags": ["products", "computers"]
+    "tags": ["products", "computers", "computer accessory"]
   },
   {
     "sku": "030-001-00013",
@@ -300,7 +372,7 @@
     "qrebs": "N/A",
     "image": "",
     "description": "<p><!-- Summary Start -->A Wafer Jack is an implant allowing use of skill or personality wafers and direct access to computer systems.<!-- Summary End --></p>",
-    "category": ["computers"],
+    "categories": ["computers", "computer accessory"],
     "sources": [{
       "publication": "Traveller 5.10 Core Rules Book 3 : Worlds and Adventures",
       "authors": ["Miller, Marc"],
@@ -309,7 +381,7 @@
         "url": "https://farfuture.net"
       }
     }],
-    "tags": ["products", "computers"]
+    "tags": ["products", "computers", "computer accessory"]
   },
   {
     "sku": "030-001-00014",
@@ -324,7 +396,7 @@
     "qrebs": "N/A",
     "image": "",
     "description": "<p><!-- Summary Start -->A data container for carrying a single transaction or application across interstellar distances.<!-- Summary End --></p>",
-    "category": ["computers"],
+    "categories": ["computers", "computer accessory"],
     "sources": [{
       "publication": "Traveller 5.10 Core Rules Book 3 : Worlds and Adventures",
       "authors": ["Miller, Marc"],
@@ -333,6 +405,6 @@
         "url": "https://farfuture.net"
       }
     }],
-    "tags": ["products", "computers"]
+    "tags": ["products", "computers", "computer accessory"]
   }
 ]
