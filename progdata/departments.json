@@ -107,7 +107,7 @@
     "label": "Protections",
     "description": "Equipment to provide protection against hostile environments",
     "icon": "protections.svg",
-    "subdepartments": ["100-001", "100-002", "100-003", "100-004", "100-005", "100-006"]
+    "subdepartments": ["100-001", "100-005", "100-002", "100-003", "100-004", "100-006"]
   },
   {
     "id": "100-001",
@@ -136,7 +136,8 @@
   {
     "id": "100-005",
     "label": "Cyberware",
-    "description": "Embeddable prosthetics."
+    "description": "Embeddable prosthetics.",
+    "data": "./src/_data/protections/cyberware.json"
   },
   {
     "id": "100-006",
