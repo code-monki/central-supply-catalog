@@ -1,8 +1,9 @@
+
 header {
   background: black;
   width: 100vw;
   justify-self: flex-start;
-  z-index: 3;
+  // z-index: 1;
   color: $light-color;
 
   & .header-row-1{
@@ -66,11 +67,12 @@ header {
   }
 
   & .header-row-2 {
+    display: flex;
     width: 100%;
     justify-content: center;
     border-bottom: 2px black solid;
 
-    & .topnav {
+    & .row-2-content {
       display: flex;
       width: 100%;
       max-width: 50rem;
@@ -83,6 +85,48 @@ header {
         margin-right: .15rem;
         margin-left: .15rem;
         border-radius: .25rem;
+      }
+
+      & .dept-dropdown {
+        display: none;
+        padding: 1rem;
+        top: 5.5rem;
+        height: 50%;
+        overflow-y: auto;
+        position: absolute;
+        background-color: $light-color;
+        width: auto;
+        z-index: 2;
+        box-shadow: 2px 2px 2px rgba(0,0,0,0.5);
+
+        @include response(md) {
+          top: 7rem;
+        }
+        
+        & ul {
+          list-style: none;
+
+          & li {
+
+            & a {
+              text-decoration: none;
+              color: $title-link-color;
+              font-size: .9rem;
+
+              @include response(md) {
+                font-size: 1rem;
+              }
+
+              &:hover {
+                color: $hover-color-2;
+              }
+            }
+          
+            & ul {
+              padding-left: 1rem;
+            }
+          }
+        }
       }
 
       & .search-form {
@@ -110,4 +154,8 @@ header {
       }
     }
   }
+}
+
+.show {
+  display: block;
 }

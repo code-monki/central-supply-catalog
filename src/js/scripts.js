@@ -290,11 +290,9 @@ if (searchBtn !== null && searchBtn !== undefined) {
 window.addEventListener("load", (event) => {
   const params = new URLSearchParams(window.location.search);
 
-  // console.log(`params: ${params}`);
   if (params.has("s")) {
     // collection search parameters
     const searchParams = params.get("s");
-    console.log(`searchParams: ${searchParams}`);
     // perform search
     performSiteSearch(searchParams);
   }
@@ -302,7 +300,6 @@ window.addEventListener("load", (event) => {
 
 const performSiteSearch = (params) => {
   let searchIndexLocation = "_data/searchindex.idx";
-  // console.log(`(performSiteSearch) Params: ${params}`);
   fetch(searchIndexLocation, {
     method: "GET",
     headers: {
@@ -311,7 +308,6 @@ const performSiteSearch = (params) => {
   })
     .then((resp) => resp.json())
     .then((data) => {
-      // console.log(data);
 
       /**
        * Future fields to support filtering
@@ -401,25 +397,10 @@ if (pager !== null && pager !== undefined) {
 
 
 // ----------------  Departments Dropdown  -------------------------
-const deptBtn = document.getElementById('dept-btn');
-const deptDropdown = document.getElementById('dept-dropdown');
-
-// add event listener for click event to show 'dropdown'
-if (deptBtn !== null && deptBtn !== undefined) {
-  deptBtn.addEventListener('click', (e) => {
-    e.preventDefault();
-    console.log(`dept btn click`);
-    let p = getScreenCoordinates(deptBtn);
-    deptDropdown.style.left = `${p.x}px`;
-    if (deptDropdown.style.display === 'block') {
-      deptDropdown.style.display = 'none';
-    } else {
-      deptDropdown.style.display = 'block';
-    }
-    deptDropdown.focus();
-  });
-}
-
+document.getElementById('dept-btn').addEventListener('click', (e) => {
+  let dc = document.getElementById('dept-dropdown');
+  dc.style.display = 'block';
+})
 
 // ------------  End of Departments Dropdown  ----------------------
 
@@ -460,9 +441,16 @@ document.addEventListener("DOMContentLoaded", function () {
   }
 });
 
+// reset the page number in the pager
 window.addEventListener("pageshow", () => {
   let pagerForm = document.getElementById("pager-form");
   if (pagerForm !== null && pagerForm !== undefined) {
     pagerForm.reset();
   }
 });
+
+window.onclick = (e) => {
+  if (!e.target.matches('.dept-btn')) {
+    document.getElementById('dept-dropdown').style.display = 'none';
+  } 
+}

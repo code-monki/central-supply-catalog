@@ -4,7 +4,6 @@
   padding: 0;
 }
 
-
 body {
   font-family: $roboto;
   background: rgba(0, 0, 0, 0.5) $bg-image center center;
@@ -35,7 +34,7 @@ body {
     align-items: center;
     height: 100vh;
     width: 100vw;
-    z-index: 3;
+    // z-index: 3;
     gap: 0;
 
     & .content-container {
@@ -49,52 +48,9 @@ body {
       @include response(md) {
         margin-top: 1.5rem;
       }
-    
+
     }
-  }
-
-  & .dept-dropdown {
-    position: absolute;
-    top: 5.5rem;
-    left: 0;
-    // width: 75%;
-    height: 50%;
-    overflow-y: auto;
-    background: white;
-    padding: .5rem;
-    z-index: 5;
-    border: 1px $dark-color solid;
-    display: none;
-
-    @include response(md) {
-      top: 7rem;
-      padding: 1rem;
-      width: auto;
-    }
-
-    & ul {
-      padding-left: .5rem;
-      list-style: none;
-
-      & a {
-        text-decoration: none;
-        color: $title-link-color;
-        font-size: .9rem;
-
-        @include response(md) {
-          font-size: 1rem;
-        }
-
-        &:hover {
-          color: $hover-color-2;
-        }
-      }
-
-      & ul {
-        padding-left: 1rem;
-      }
-    }
-  }
+  } 
 }
 
 .row {
