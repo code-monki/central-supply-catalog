@@ -57,17 +57,16 @@ const getScreenCoordinates = (obj) => {
   p.x = obj.offsetLeft;
   p.y = obj.offsetTop;
   while (obj.offsetParent) {
-      p.x = p.x + obj.offsetParent.offsetLeft;
-      p.y = p.y + obj.offsetParent.offsetTop;
-      if (obj == document.getElementsByTagName("body")[0]) {
-          break;
-      }
-      else {
-          obj = obj.offsetParent;
-      }
+    p.x = p.x + obj.offsetParent.offsetLeft;
+    p.y = p.y + obj.offsetParent.offsetTop;
+    if (obj == document.getElementsByTagName("body")[0]) {
+      break;
+    } else {
+      obj = obj.offsetParent;
+    }
   }
   return p;
-}
+};
 
 // ----------------- add item to cart -----------------
 const addItem = () => {
@@ -275,15 +274,15 @@ const updateCartBadge = () => {
 // ---- End of Shopping Cart-related Functionality --------
 
 // ------------ Search-related Functionality ---------------
-const searchBtn = document.getElementById('search-button');
+const searchBtn = document.getElementById("search-button");
 
 if (searchBtn !== null && searchBtn !== undefined) {
   searchBtn.addEventListener("click", (e) => {
     e.preventDefault();
-    const searchTerms = document.getElementById('search-input').value.replace(/\s+/g, '+');
+    const searchTerms = document.getElementById("search-input").value.replace(/\s+/g, "+");
 
     window.location.href = `/?s=${searchTerms}`;
-  })
+  });
 }
 
 // set up load event listener
@@ -308,7 +307,6 @@ const performSiteSearch = (params) => {
   })
     .then((resp) => resp.json())
     .then((data) => {
-
       /**
        * Future fields to support filtering
        *  category
@@ -320,34 +318,25 @@ const performSiteSearch = (params) => {
        */
 
       const miniSearch = new MiniSearch({
-        fields: [
-          "sku",
-          "name",
-          "description",
-          "cost",
-    ],
-        storeFields: [
-          "sku", 
-          "name", 
-          "description", 
-          "cost"],
+        fields: ["sku", "name", "description", "cost"],
+        storeFields: ["sku", "name", "description", "cost"],
       });
 
       miniSearch.addAll(data);
 
       let results = miniSearch.search(params, {
-        prefix: true
+        prefix: true,
       });
 
       // start of search results content body
       let str = '<div class="search-results" id="search-results">';
 
-      str += `<div class="row results-header"><h6>Search found ${results.length} results for: <em>${params}</em></h6></div>`
+      str += `<div class="row results-header"><h6>Search found ${results.length} results for: <em>${params}</em></h6></div>`;
 
-      str += `<div class="container black-text">`
+      str += `<div class="container black-text">`;
 
-      results.forEach(product => {
-        img = (product.image) ? product.image : '/img/products/no-image.png'
+      results.forEach((product) => {
+        img = product.image ? product.image : "/img/products/no-image.png";
         str += `
           <div class="search-result-row">
             <div class="prod-img">
@@ -355,9 +344,9 @@ const performSiteSearch = (params) => {
             </div>
         `;
 
-      let prodlink = '/products/'+product.sku
+        let prodlink = "/products/" + product.sku;
 
-      str += `
+        str += `
           <div class="product-summary">
             <a href="${prodlink}"><h6>${product.name}</h6></a>
             <p>${extractSummary(product.description)}</p>
@@ -366,16 +355,16 @@ const performSiteSearch = (params) => {
             </div>
           </div>
         </div>
-      `
+      `;
       });
 
       // mark end of container search results content body
       str += `</div>
-      </div>`
+      </div>`;
 
-      const contentBody = document.getElementById('main');
+      const contentBody = document.getElementById("main");
 
-      contentBody.innerHTML = '';
+      contentBody.innerHTML = "";
       contentBody.innerHTML = str;
     })
     .catch((err) => console.log(err));
@@ -395,36 +384,33 @@ if (pager !== null && pager !== undefined) {
 
 // ----------------  End of Pager  -------------------------
 
-
 // ----------------  Departments Dropdown  -------------------------
-document.getElementById('dept-btn').addEventListener('click', (e) => {
-  let dc = document.getElementById('dept-dropdown');
-  dc.style.display = 'block';
-})
+document.getElementById("dept-btn").addEventListener("click", (e) => {
+  let dc = document.getElementById("dept-dropdown");
+  dc.style.display = "block";
+});
 
 // ------------  End of Departments Dropdown  ----------------------
 
 // --------- Perform initializations ---------
 document.addEventListener("DOMContentLoaded", function () {
-
   // set listener for sidenav open
-  const menuBtn = document.getElementById('menu-button');
+  const menuBtn = document.getElementById("menu-button");
   if (menuBtn !== null && menuBtn !== undefined) {
     menuBtn.addEventListener("click", (e) => {
       // open the slide out menu
-      document.getElementById('sidenav-menu').style.width = "100%";
-    })
+      document.getElementById("sidenav-menu").style.width = "100%";
+    });
   }
 
   // set listener for sidenav close
-  const closeMenuBtn = document.getElementById('close-sidenav');
+  const closeMenuBtn = document.getElementById("close-sidenav");
   if (closeMenuBtn !== null && closeMenuBtn !== undefined) {
     closeMenuBtn.addEventListener("click", (e) => {
       // close the slide out menu
-      document.getElementById('sidenav-menu').style.width = "0";
-    })
+      document.getElementById("sidenav-menu").style.width = "0";
+    });
   }
-
 
   // set listener on product page add button
   const addItemBtn = document.getElementById("add-to-cart");
@@ -449,8 +435,20 @@ window.addEventListener("pageshow", () => {
   }
 });
 
+// handle click event outside of dropdown
 window.onclick = (e) => {
-  if (!e.target.matches('.dept-btn')) {
-    document.getElementById('dept-dropdown').style.display = 'none';
-  } 
-}
+  if (!e.target.matches(".dept-btn")) {
+    // close the dropdown
+    console.log('Fired click event')
+    document.getElementById("dept-dropdown").style.display = "none";
+  }
+};
+
+// handle touch event outside of dropdown
+window.addEventListener("touchend", (e) => {
+  if (!e.target.matches(".dept-btn")) {
+    // close the dropdown
+    console.log('Fired touch event')
+    document.getElementById("dept-dropdown").style.display = "none";
+  }
+});
