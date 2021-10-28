@@ -1,4 +1,4 @@
-const version = 3;
+const version = 4;
 const cacheName = `csc-cache-v${version}`;
 const preCache = ['/_data/searchindex.idx']
 
