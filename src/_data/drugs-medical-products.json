@@ -299,7 +299,7 @@
     "techLevel": 11,
     "qrebs": "N/A",
     "image": "",
-    "description": "<p><!-- Summary Start -->A berth for carrying one person in low passage; typically installed in a ship.<!-- Summary End --> Low berths also serve well in emergencies in that they can provide suspended animation facilities for characters when medical care or rescue is not immediately available. Diplaces 0.5 tons.</p>",
+    "description": "<p><!-- Summary Start -->A berth for carrying one person in low passage; typically installed in a ship.<!-- Summary End --> Low berths also serve well in emergencies in that they can provide suspended animation facilities for characters when medical care or rescue is not immediately available. Displaces 0.5 tons.</p>",
     "categories": ["drugs medical"],
     "sources": [{
       "publication": "Traveller 5.10 Core Rules Book 3 : Worlds and Adventures",
@@ -323,7 +323,7 @@
     "techLevel": 11,
     "qrebs": "N/A",
     "image": "",
-    "description": "<p><!-- Summary Start -->A berth for carrying one person in low passage; typically installed in a ship.<!-- Summary End --> Low berths also serve well in emergencies in that they can provide suspended animation facilities for characters when medical care or rescue is not immediately available. Diplaces 1.0 tons.</p>",
+    "description": "<p><!-- Summary Start -->A berth for carrying one person in low passage; typically installed in a ship.<!-- Summary End --> Low berths also serve well in emergencies in that they can provide suspended animation facilities for characters when medical care or rescue is not immediately available. Displaces 1.0 tons.</p>",
     "categories": ["drugs medical"],
     "sources": [{
       "publication": "Traveller 5.10 Core Rules Book 3 : Worlds and Adventures",
@@ -347,7 +347,7 @@
     "techLevel": 11,
     "qrebs": "N/A",
     "image": "",
-    "description": "<p><!-- Summary Start -->A berth used for survival emergencies when medical care or rescue is not immediately available.<!-- Summary End --> Each emergency low berth holds four persons who share the same revival task roll. Diplaces 1.0 tons.</p>",
+    "description": "<p><!-- Summary Start -->A berth used for survival emergencies when medical care or rescue is not immediately available.<!-- Summary End --> Each emergency low berth holds four persons who share the same revival task roll. Displaces 1.0 tons.</p>",
     "categories": ["drugs medical"],
     "sources": [{
       "publication": "Traveller 5.10 Core Rules Book 3 : Worlds and Adventures",
@@ -395,7 +395,7 @@
     "techLevel": 11,
     "qrebs": "N/A",
     "image": "",
-    "description": "<p><!-- Summary Start -->A berth for carrying two persons in low passage; typically installed in a ship.<!-- Summary End --> The military low berth keeps reserve troops (Frozen Guard) in storage until needed. Diplaces 1.0 tons.</p>",
+    "description": "<p><!-- Summary Start -->A berth for carrying two persons in low passage; typically installed in a ship.<!-- Summary End --> The military low berth keeps reserve troops (Frozen Guard) in storage until needed. Displaces 1.0 tons.</p>",
     "categories": ["drugs medical"],
     "sources": [{
       "publication": "Traveller 5.10 Core Rules Book 3 : Worlds and Adventures",
@@ -413,13 +413,13 @@
     "subtype": "",
     "name": "Low Berth, Stasis",
     "mfr": "",
-    "cost": 100000,
+    "cost": 50000,
     "mass": 500,
-    "size": 6,
-    "techLevel": 11,
+    "size": 5,
+    "techLevel": 18,
     "qrebs": "N/A",
     "image": "",
-    "description": "<p><!-- Summary Start -->A berth for carrying one person in low passage in a stasis field; typically installed in a ship.<!-- Summary End --> Low berths also serve well in emergencies in that they can provide suspended animation facilities for characters when medical care or rescue is not immediately available. Diplaces 0.5 tons.</p>",
+    "description": "<p><!-- Summary Start -->A berth for carrying one person in low passage in a stasis field; typically installed in a ship.<!-- Summary End --> Low berths also serve well in emergencies in that they can provide suspended animation facilities for characters when medical care or rescue is not immediately available. Displaces 0.5 tons. Offline power lasts for years.</p>",
     "categories": ["drugs medical"],
     "sources": [{
       "publication": "Traveller 5.10 Core Rules Book 3 : Worlds and Adventures",
