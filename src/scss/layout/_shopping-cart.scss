@@ -1,6 +1,6 @@
 .shopping-cart {
   background: $light-color;
-  justify-content: center;
+  align-content: center;
 
   & h1 {
     text-align: center;
@@ -38,12 +38,13 @@
   }
 
   & .cart-items-container {
+    width: 100%;
 
     & .product-row {
       width: 100%;
       padding: .5rem;
       border-bottom: 1px solid $border-color;
-
+    
       @include response(md) {
         padding: 1rem;
       }

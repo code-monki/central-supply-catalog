@@ -1,8 +1,10 @@
 .dept-page {
 
   & .dept-content {
+    width: 100%;
 
     & .dept-title {
+      width: 100%;
       color: $dark-color;
       background: $row-bg-color;
       font-size: 1.2rem;
@@ -22,6 +24,7 @@
       background: $light-color;
       border-bottom: 1px $border-color solid;
       padding: .5rem;
+      width: 100%;
 
       & .prod-img {
 
@@ -75,6 +78,7 @@
       background: $row-bg-color;
       justify-content: center;
       padding: .25rem 0;
+      width: 100%;
 
       & form {
         font-size: .8rem;

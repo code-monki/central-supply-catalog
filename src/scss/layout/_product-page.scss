@@ -213,6 +213,7 @@
   & .product-source {
     display: block;
     padding: .5rem;
+    width: 100%;
 
     @include response(md) {
       padding: 1rem;

@@ -2,6 +2,7 @@
   background: $light-color;
   padding: .5rem;
   font-size: .9rem;
+  text-align: left;
   
   @include response(md) {
     font-size: 1rem;
@@ -15,6 +16,15 @@
     @include response(md) {
       font-size: 1.4rem;
       
+    }
+  }
+
+  & a {
+    color: $title-link-color;
+    text-decoration: none;
+
+    &:visited {
+      color: $title-link-color;
     }
   }
 }
