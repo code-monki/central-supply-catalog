@@ -112,6 +112,7 @@ header {
               text-decoration: none;
               color: $title-link-color;
               font-size: .9rem;
+              display: block;
 
               @include response(md) {
                 font-size: 1rem;

@@ -260,7 +260,7 @@ module.exports = function (eleventyConfig) {
     departmentsData.forEach(dept => {
       if (dept.id.substr(-3) === "000") {
         // add to departments
-        text += `<li><a href="/departments/${urlSafe(dept.label)}">${dept.label}</a>`
+        text += `<li><a href="/departments/${urlSafe(dept.label)}" class="menu-item">${dept.label}</a>`
 
         if (dept.subdepartments !== null && dept.subdepartments !== undefined) {
           text += `<ul>`;
