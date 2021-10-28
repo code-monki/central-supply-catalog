@@ -1,15 +1,20 @@
-{% include '_head.njk' %}
+{%- include '_head.njk' -%}
 <div class="page-container">
-  {% include '_site-header.njk' %}
+  {%- include '_site-header.njk' -%}
 
   <div class="content-container site-page">
+
     <main id="main">
-      <h1>{{ title }}</h1>
-      {{ content | safe }}
+      <div class="content-body">
+
+        <h1>{{ title }}</h1>
+        {{ content | safe }}
+      </div>
     </div>
+
   </div>
 
-  {% include '_site-footer.njk'%}
+  {%- include '_site-footer.njk' -%}
 </div>
 
-{% include '_foot.njk' %}
+{%- include '_foot.njk' -%}
