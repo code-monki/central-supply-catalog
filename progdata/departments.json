@@ -141,8 +141,9 @@
   },
   {
     "id": "100-006",
-    "label": "Survival Items",
-    "description": "Various survival items"
+    "label": "Survival Gear",
+    "description": "Various pieces of survival gear",
+    "data": "./src/_data/protections/survival-products.json"
   },
   {
     "id": "110-000",

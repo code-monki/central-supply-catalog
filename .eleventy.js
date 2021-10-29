@@ -163,9 +163,9 @@ module.exports = function (eleventyConfig) {
     let dataSrc = departmentsData.find((item) => (item.id === key ? item.data : ""));
 
     let object = null;
-
+    
     // read the data file
-    if (dataSrc !== "" && dataSrc.data !== null && dataSrc.data !== undefined) {
+    if (dataSrc !== "" && dataSrc !== undefined && dataSrc.data !== null && dataSrc.data !== undefined) {
       let typeProducts = JSON.parse(fs.readFileSync(dataSrc.data));
       object = typeProducts.find((item) => item.sku === sku);
     }

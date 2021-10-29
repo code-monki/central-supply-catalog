@@ -284,5 +284,58 @@
       }
     ],
     "tags": ["products", "survival gear"]
+  },
+  {
+    "sku": "100-000-00012",
+    "type": "survival gear",
+    "subtype": "",
+    "name": "Water Purifier",
+    "mfr": "",
+    "cost": 250,
+    "mass": 1,
+    "size": 4,
+    "techLevel": 9,
+    "qrebs": "N/A",
+    "image": "",
+    "description": "<p><!-- Summary Start -->The water purifier filters, distills, and purifies local water.<!-- Summary End --></p>",
+    "accessories": ["100-000-00013"],
+    "categories": ["survival gear"],
+    "sources": [
+      {
+        "publication": "Traveller 5.10 Core Rules Book 3 : Worlds and Adventures",
+        "authors": ["Miller, Marc"],
+        "publisher": {
+          "name": "Far Future Enterprises",
+          "url": "https://farfuture.net"
+        }
+      }
+    ],
+    "tags": ["products", "survival gear"]
+  },
+  {
+    "sku": "100-000-00013",
+    "type": "survival gear",
+    "subtype": "",
+    "name": "Water Purification Tablets",
+    "mfr": "",
+    "cost": 2,
+    "mass": 0.1,
+    "size": 1,
+    "techLevel": 7,
+    "qrebs": "N/A",
+    "image": "",
+    "description": "<p><!-- Summary Start -->Chemical purification tablets for local water.<!-- Summary End --></p>",
+    "categories": ["survival gear"],
+    "sources": [
+      {
+        "publication": "Traveller 5.10 Core Rules Book 3 : Worlds and Adventures",
+        "authors": ["Miller, Marc"],
+        "publisher": {
+          "name": "Far Future Enterprises",
+          "url": "https://farfuture.net"
+        }
+      }
+    ],
+    "tags": ["products", "survival gear"]
   }
-]
+  ]
