@@ -1,126 +1,126 @@
 {% include '_head.njk' %}
-<div class="page-container product-page">
+<div class="product-page">
   {% include '_site-header.njk' %}
-  <div class="content-container product-page-container">
     <main id="main">
-      <div class="row summary-row">
-        <div class="product-image">
-          {% if product.image %}
-            <img src="{{ product.image | url }}" alt="{{ product.name }}" class="responsive-img" id="prod-img">
-          {% else %}
-            <img src="{{ '/img/products/no-image.png' | url }}" alt="{{ product.name }}" id="prod-img">
+      <div class="product-page-content">
+        <div class="row summary-row">
+          <div class="product-image">
+            {% if product.image %}
+              <img src="{{ product.image | url }}" alt="{{ product.name }}" class="responsive-img" id="prod-img">
+            {% else %}
+              <img src="{{ '/img/products/no-image.png' | url }}" alt="{{ product.name }}" id="prod-img">
+              {% endif %}
+          </div>
+
+          <div class="product-summary">
+            <h1 id="product-name" data-sku="{{ product.sku }}">{{ product.name }}</h1>
+          </div>
+
+          <div class="product-controls">
+            <form>
+              <h5 id="unit-price" data-unitprice="{{ product.cost }}">{{ product.cost | costLabel }}</h5>
+              <div class="input-field quantity">
+                <label for="product-qty">Qty:</label>
+                <input type="number" name="qty" id="product-qty" min="0" max="999" value="1">
+              </div>
+              <div class="add-products-btn">
+                <button type="submit" class="btn-small amber black-text add-to-cart" id="add-to-cart">Add To Cart</button>
+              </div>
+            </form>
+          </div>
+        </div>
+
+        <div class="row product-description">
+          <div class="description-content">
+            <h5>Product Description</h5>
+            {{ product.description | markdown | safe }}
+            {% if product.stats | length > 0 %}
+              {% include '_item-stats.njk' %}
             {% endif %}
+          </div>
         </div>
 
-        <div class="product-summary">
-          <h1 id="product-name" data-sku="{{ product.sku }}">{{ product.name }}</h1>
+        <div class="row product-details">
+          <h5>Product Details</h5>
+
+          <table>
+            <tbody>
+              {% if product.mfr %}
+              <tr>
+                <td>Mfr:</td>
+                <td>{% getMfr product.mfr %}</td>
+              </tr>
+              {% endif %}
+              <tr>
+                <td>TL:</td>
+                <td>{{ product.techLevel | convertTL }}</td>
+              </tr>
+              {% if product.mass %}
+              <tr>
+                <td>Mass (Kg):</td>
+                <td>{{ product.mass }}</td>
+              </tr>
+              {% endif %}
+              {% if product.size %}
+              <tr>
+                <td>Size:</td>
+                <td>{{ product.size }}</td>
+              </tr>
+              {% endif %}
+              {% if product.displacement %}
+              <tr>
+                <td>Displacement (tons):</td>
+                <td>{{ product.displacement }}</td>
+              </tr>
+              {% endif %}
+              {% if product.qrebs %}
+                <tr>
+                  <td>QREBS:</td>
+                  <td>{{ product.qrebs }}</td>
+                </tr>
+              {% endif %}
+                {% if product.damage %}
+                  <tr>
+                    <td>Damage Effect(s):</td>
+                    <td>{{ product.damage }}</td>
+                  </tr>
+                {% endif %}
+              </tbody>
+            </table>
         </div>
 
-        <div class="product-controls">
-          <form>
-            <h5 id="unit-price" data-unitprice="{{ product.cost }}">{{ product.cost | costLabel }}</h5>
-            <div class="input-field quantity">
-              <label for="product-qty">Qty:</label>
-              <input type="number" name="qty" id="product-qty" min="0" max="999" value="1">
-            </div>
-            <div class="add-products-btn">
-              <button type="submit" class="btn-small amber black-text add-to-cart" id="add-to-cart">Add To Cart</button>
-            </div>
-          </form>
-        </div>
-      </div>
 
-      <div class="row product-description">
-        <div class="description-content">
-          <h5>Product Description</h5>
-          {{ product.description | markdown | safe }}
-          {% if product.stats | length > 0 %}
-            {% include '_item-stats.njk' %}
+        {% if product.accessories | length > 0 %}
+          <div class="product-accessories">
+            <h5>Accessories</h5>
+            {% for sku in product.accessories %}
+              {% if loop.index > 1 %}{% endif %}
+              {% getAccessory sku %}
+            {% endfor %}
+          </div>
+        {% endif %}
+
+                
+        <div class="row product-source">
+          <h5>Sources</h5>
+          {% if product.sources %}
+            {% for src in product.sources %}
+              <p class="source">
+                &ldquo;<em>{{ src.publication | safe }}</em>&rdquo;, {% set comma = joiner() %}
+                {%- for author in src.authors -%}
+                  {{ comma() }} {{ author | safe }}
+                {% endfor %}
+                ,
+                {% if src.publisher.url == "" %}
+                  {{ src.publisher.name }}
+                {% else %}
+                  <a href="{{ src.publisher.url | url }}" target="_blank">{{ src.publisher.name }}</a>
+                {% endif %}
+              </p>
+            {% endfor %}
           {% endif %}
         </div>
       </div>
-
-      <div class="row product-details">
-        <h5>Product Details</h5>
-
-        <table>
-          <tbody>
-            {% if product.mfr %}
-            <tr>
-              <td>Mfr:</td>
-              <td>{% getMfr product.mfr %}</td>
-            </tr>
-            {% endif %}
-            <tr>
-              <td>TL:</td>
-              <td>{{ product.techLevel | convertTL }}</td>
-            </tr>
-            {% if product.mass %}
-            <tr>
-              <td>Mass (Kg):</td>
-              <td>{{ product.mass }}</td>
-            </tr>
-            {% endif %}
-            {% if product.size %}
-            <tr>
-              <td>Size:</td>
-              <td>{{ product.size }}</td>
-            </tr>
-            {% endif %}
-            {% if product.displacement %}
-            <tr>
-              <td>Displacement (tons):</td>
-              <td>{{ product.displacement }}</td>
-            </tr>
-            {% endif %}
-            {% if product.qrebs %}
-              <tr>
-                <td>QREBS:</td>
-                <td>{{ product.qrebs }}</td>
-              </tr>
-            {% endif %}
-              {% if product.damage %}
-                <tr>
-                  <td>Damage Effect(s):</td>
-                  <td>{{ product.damage }}</td>
-                </tr>
-              {% endif %}
-            </tbody>
-          </table>
-      </div>
-
-
-      {% if product.accessories | length > 0 %}
-        <div class="product-accessories">
-          <h5>Accessories</h5>
-          {% for sku in product.accessories %}
-            {% if loop.index > 1 %}{% endif %}
-            {% getAccessory sku %}
-          {% endfor %}
-        </div>
-      {% endif %}
-
-              
-      <div class="row product-source">
-        <h5>Sources</h5>
-        {% if product.sources %}
-          {% for src in product.sources %}
-            <p class="source">
-              &ldquo;<em>{{ src.publication | safe }}</em>&rdquo;, {% set comma = joiner() %}
-              {%- for author in src.authors -%}
-                {{ comma() }} {{ author | safe }}
-              {% endfor %}
-              ,
-              {% if src.publisher.url == "" %}
-                {{ src.publisher.name }}
-              {% else %}
-                <a href="{{ src.publisher.url | url }}" target="_blank">{{ src.publisher.name }}</a>
-              {% endif %}
-            </p>
-          {% endfor %}
-        {% endif %}
-      </div>
-
     </main>
   </div>
   {% include '_site-footer.njk' %}
