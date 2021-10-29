@@ -1,6 +1,20 @@
 .shopping-cart {
   background: $light-color;
+  width: 100%;
+  max-width: 60rem;
   align-content: center;
+  display: flex;
+  flex-direction: column;
+  height: calc(100vh - 17.5vmax);
+  overflow-y: auto;
+
+  @include response(md) {
+    height: calc(100vh - 16vmax);
+  }
+
+  @include response(lg) {
+    height: calc(100vh - 10vmax);
+  }
 
   & h1 {
     text-align: center;

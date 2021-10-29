@@ -3,24 +3,24 @@
 <div class="page-container">
   {% include '_site-header.njk' %}
 
-  <div class="content-container shopping-cart">
     <main>
+      <div class="shopping-cart">
       
-      <h1>Shopping Cart</h1>
+        <h1>Shopping Cart</h1>
 
-      <div class="row total-row">
-        <div class="empty-cart-button">
-          <button class="empty-cart left amber black-text" id="empty-cart">Empty Cart</button>
+        <div class="row total-row">
+          <div class="empty-cart-button">
+            <button class="empty-cart left amber black-text" id="empty-cart">Empty Cart</button>
+          </div>
+
+          <div class="cart-total-div">
+            <h3><span id="cart-total" class="cart-total"></span></h3>
+          </div>
         </div>
 
-        <div class="cart-total-div">
-          <h3><span id="cart-total" class="cart-total"></span></h3>
-        </div>
-      </div>
-
-      <div class="cart-items-container"></div>
+        <div class="cart-items-container"></div>
+    </div>
     </main>
-  </div>
   {% include '_site-footer.njk' %}
 </div>
 {% include '_foot.njk'%}
