@@ -1,96 +1,126 @@
 .dept-page {
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100%;
 
   & .dept-content {
+    display: flex;
+    flex-direction: column;
     width: 100%;
+    max-width: 60rem;
+    height: calc(100vh - 17.5vmax);
+    overflow-y: auto;
+
+    @include response(md) {
+      height: calc(100vh - 16vmax);
+    }
+
+    @include response(lg) {
+      height: calc(100vh - 10vmax);
+    }
 
     & .dept-title {
       width: 100%;
       color: $dark-color;
       background: $row-bg-color;
-      font-size: 1.2rem;
+      font-size: .7rem;
       font-weight: 300;
       margin-top: .1rem;
       justify-content: center;
       border-bottom: 1px solid $border-color;
+      align-self: flex-start;
 
-      & h1 {
-        border-radius: 1rem;
-        padding: .5rem;
+      @include response(lg) {
+        font-size: 1.2rem;
       }
     }
 
-    .prod-summary-row {
-      display: flex;
-      background: $light-color;
-      border-bottom: 1px $border-color solid;
+    & h1 {
+      border-radius: 1rem;
       padding: .5rem;
+    }
+
+    & .prod-summary-container {
       width: 100%;
+      align-self: flex-start;
+      background: pink;
 
-      & .prod-img {
+      & .prod-summary-row {
+        display: flex;
+        background: $light-color;
+        border-bottom: 1px $border-color solid;
+        padding: .5rem;
+        width: 100%;
 
-        & img {
-          width: 5rem;
-          height: 5rem;
-          border: 1px solid $tertiary-color;
-          margin-right: .5rem;
+        & .prod-img {
 
-          @include response(md) {
-            margin-right: 1rem;
+          & img {
+            width: 5rem;
+            height: 5rem;
+            border: 1px solid $tertiary-color;
+            margin-right: .5rem;
+
+            @include response(md) {
+              margin-right: 1rem;
+            }
           }
         }
-      }
 
-      & .product-summary {
+        & .product-summary {
 
-        & p {
-          font-size: .8rem;
+          & p {
+            font-size: .8rem;
 
-          @include response(md) {
+            @include response(md) {
+              font-size: 1rem;
+            }
+          }
+
+          & h5 {
             font-size: 1rem;
+
+            @include response(md) {
+              font-size: 1.2rem;
+            }
           }
-        }
 
-        & h5 {
-          font-size: 1rem;
+          & h6 {
+            font-size: .8rem;
 
-          @include response(md) {
-            font-size: 1.2rem;
+            @include response(md) {
+              font-size: 1rem;
+            }
           }
-        }
 
-        & h6 {
-          font-size: .8rem;
+          & a {
+            color: $title-link-color;
+            text-decoration: none;
 
-          @include response(md) {
-            font-size: 1rem;
           }
-        }
-
-        & a {
-          color: $title-link-color;
-          text-decoration: none;
-
         }
       }
     }
+  }
 
-    & .pager-nav-div {
-      background: $row-bg-color;
-      justify-content: center;
-      padding: .25rem 0;
-      width: 100%;
+  & .pager-nav-div {
+    background: $row-bg-color;
+    justify-content: center;
+    padding: .25rem 0;
+    width: 100%;
+    align-self: flex-end;
 
-      & form {
-        font-size: .8rem;
-        font-weight: 500;
+    & form {
+      font-size: .8rem;
+      font-weight: 500;
 
-        @include response(md) {
-          font-size: 1rem;
-        }
+      @include response(md) {
+        font-size: 1rem;
+      }
 
-        & select {
-          padding: .1rem;
-        }
+      & select {
+        padding: .1rem;
       }
     }
   }

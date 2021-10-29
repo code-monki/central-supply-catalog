@@ -1,50 +1,53 @@
 {% include "_head.njk" %}
 
-<div class="page-container dept-page">
+<div class="dept-page">
 
   {% include "_site-header.njk" %}
 
-  <div class="content-container dept-content">
     <main id="main">
 
-      <div class="row dept-title"><h1>{{ title }}</h1></div>
+      <div class="dept-content">
 
-      {%- for product in products -%}
-      <div class="prod-summary-row">
+        <div class="row dept-title"><h1>{{ title }}</h1></div>
 
-        <div class="prod-img">
-          {%- if product.image -%}
-            <img src="{{product.image | url}}" alt="{{product.name}}" class="responsive-img">
-          {%- else -%}
-            <img src="{{'/img/products/no-image.png' | url}}" alt="{{product.name}}" class="responsive-img">
-          {%- endif -%}
+        <div class="prod-summary-container">
+          {%- for product in products -%}
+          <div class="prod-summary-row">
+
+            <div class="prod-img">
+              {%- if product.image -%}
+                <img src="{{product.image | url}}" alt="{{product.name}}" class="responsive-img">
+              {%- else -%}
+                <img src="{{'/img/products/no-image.png' | url}}" alt="{{product.name}}" class="responsive-img">
+              {%- endif -%}
+            </div>
+
+            <div class="product-summary">
+              {%- set prodlink = "/products/" + product.sku -%}
+              <a href="{{ prodlink | url }}"><h5>{{ product.name }}</h5></a>
+              <p>{%- summary product.description | markdown -%}</p>
+              <h6>{{ product.cost | costLabel }}</h6>
+            </div>
+          </div>
+          {%- endfor -%}
         </div>
 
-        <div class="product-summary">
-          {%- set prodlink = "/products/" + product.sku -%}
-          <a href="{{ prodlink | url }}"><h5>{{ product.name }}</h5></a>
-          <p>{%- summary product.description | markdown -%}</p>
-          <h6>{{ product.cost | costLabel }}</h6>
+        <div class="pager-nav-div row">
+          <form id="pager-form">
+          Page: <select id="pager" >
+          {%- for productPage in pagination.pages -%}
+            {%- if pagination.hrefs[loop.index0] == page.url -%}
+              <option value="{{loop.index}}" selected>{{loop.index}}</option>
+            {%- else -%}
+              <option value="{{loop.index}}" >{{loop.index}}</option>
+            {%- endif -%}
+          {%- endfor -%}
+          </select>
+          </form>
         </div>
-      </div>
-      {%- endfor -%}
-
-      <div class="pager-nav-div row">
-        <form id="pager-form">
-        Page: <select id="pager" >
-        {%- for productPage in pagination.pages -%}
-          {%- if pagination.hrefs[loop.index0] == page.url -%}
-            <option value="{{loop.index}}" selected>{{loop.index}}</option>
-          {%- else -%}
-            <option value="{{loop.index}}" >{{loop.index}}</option>
-          {%- endif -%}
-        {%- endfor -%}
-        </select>
-        </form>
       </div>
 
     </main>
-  </div>
 
 {% include "_site-footer.njk" %}
 

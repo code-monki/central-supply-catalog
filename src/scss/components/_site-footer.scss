@@ -3,6 +3,8 @@ footer {
   width: 100vw;
   padding: .5rem;
   background: $dark-color;
+  position: fixed;
+  bottom: 0;
 
   & .copyright-info {
     width: 100vw;
