@@ -35,7 +35,7 @@
     "techLevel": 12,
     "qrebs": "N/A",
     "image": "",
-    "description": "<p><!-- Summary Start -->Model 317 modular pressurized quarters for 6 persons, with air lock, recycler, fresher, atmosphere recirculating system, and console.<!-- Summary End --> The advanced base has a 6 ton displacement measuring 2 meters by 6 meters by 6 meters. It comes with 800 man-days' worth of food. Power is provided by an integral Fsuion+ unit for up to one year. Advanced bases can be carried in the hold of starship.</p>",
+    "description": "<p><!-- Summary Start -->Model 317 modular pressurized quarters for 6 persons, with air lock, recycler, fresher, atmosphere recirculating system, and console.<!-- Summary End --> The advanced base has a 6 ton displacement measuring 2 meters by 6 meters by 6 meters. It comes with 800 man-days' worth of food. Power is provided by an integral Fusion+ unit for up to one year. Advanced bases can be carried in the hold of starship.</p>",
     "categories": ["structures"],
     "sources": [
       {
@@ -212,7 +212,7 @@
     "techLevel": 7,
     "qrebs": "N/A",
     "image": "",
-    "description": "<p><!-- Summary Start -->Basic sheter for two persons, providing a standard atmosphere.<!-- Summary End --> There is no airlock so the tent must be pressurized or depressurized to enter or leave.</p>",
+    "description": "<p><!-- Summary Start -->Basic shelter for two persons, providing a standard atmosphere.<!-- Summary End --> There is no airlock so the tent must be pressurized or depressurized to enter or leave.</p>",
     "categories": ["structures"],
     "sources": [
       {
