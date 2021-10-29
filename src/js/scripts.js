@@ -448,7 +448,7 @@ window.onclick = (e) => {
 window.addEventListener("touchend", (e) => {
   if (!e.target.matches(".dept-btn") &&
       !e.target.matches(".menu-item") &&
-      !e.target.matches(".submemnu-item")) {
+      !e.target.matches(".submenu-item")) {
     // close the dropdown
     console.log('Fired touch event')
     document.getElementById("dept-dropdown").style.display = "none";

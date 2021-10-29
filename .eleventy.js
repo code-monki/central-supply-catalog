@@ -267,7 +267,7 @@ module.exports = function (eleventyConfig) {
           // add as nested list
           dept.subdepartments.forEach(subdept => {
             let subDept = departmentsData.find(x => x.id === subdept);
-            text += `<li><a href="/departments/${urlSafe(dept.label)}/${urlSafe(subDept.label)}">${subDept.label}</a></li>` 
+            text += `<li><a href="/departments/${urlSafe(dept.label)}/${urlSafe(subDept.label)}" class="submenu-item">${subDept.label}</a></li>` 
           })
           text += '</ul>'
         }
