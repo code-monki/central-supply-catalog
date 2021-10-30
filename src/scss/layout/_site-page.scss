@@ -1,30 +1,69 @@
 .site-page {
-  background: $light-color;
-  padding: .5rem;
-  font-size: .9rem;
-  text-align: left;
-  
-  @include response(md) {
-    font-size: 1rem;
-    padding: 1rem;
-  }
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100%;
 
-  & h1 {
-    font-size: 1.2rem;
-    margin-bottom: 1rem;
+  & .site-page-content {
+    background: $light-color;
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    max-width: 60rem;
+    height: calc(100vh - 17.5vmax);
+    overflow-y: auto;
 
     @include response(md) {
-      font-size: 1.4rem;
-      
+      height: calc(100vh - 16vmax);
     }
-  }
 
-  & a {
-    color: $title-link-color;
-    text-decoration: none;
+    @include response(lg) {
+      height: calc(100vh - 13.5vmax);
+    }
 
-    &:visited {
+    padding: .5rem;
+    font-size: .9rem;
+    text-align: left;
+
+    @include response(md) {
+      font-size: 1rem;
+      padding: 1rem;
+    }
+
+    & h1 {
+      font-size: 1.2rem;
+      margin-bottom: 1rem;
+
+      @include response(md) {
+        font-size: 1.4rem;
+      }
+
+      h2 {
+        font-size: 1rem;
+        
+        @include response(md) {
+          font-size: 1.2rem;
+        }
+      }
+    }
+
+    & a {
       color: $title-link-color;
+      text-decoration: none;
+
+      &:visited {
+        color: $title-link-color;
+      }
     }
+
+    & li {
+      margin-left: 1.5rem;
+
+      @include response(md) {
+        margin-left: 2rem;
+      }
+    }
+
   }
 }
