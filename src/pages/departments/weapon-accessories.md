@@ -2,7 +2,7 @@
 {
   title: "Weapon Accessories",
   layout: "dept-page.njk",
-  permalink: "/departments/weapons/{{ 'accessories' | slug | url }}/{% if pagination.pageNumber > 0 %}{{pagination.pageNumber | plus: 1 }}/{% endif %}",
+  permalink: "/departments/weapons/{{ 'weapon-accessories' | slug | url }}/{% if pagination.pageNumber > 0 %}{{pagination.pageNumber | plus: 1 }}/{% endif %}",
   pagination: {
     data: "collections.weaponProducts",
     size: 25,

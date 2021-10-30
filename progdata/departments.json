@@ -151,7 +151,7 @@
     "description": "A collection of autonomous and semi-autonomous machines.",
     "data": "./src/_data/robots-products.json",
     "icon": "robots.svg",
-    "subdepartments": ["110-001", "110-002", "110-003"]
+    "subdepartments": ["110-002"]
   },
   {
     "id": "110-001",
@@ -200,7 +200,7 @@
     "label": "Vehicles",
     "description": "A collection of personal vehicles.",
     "icon": "vehicles.svg",
-    "subdepartments": ["150-001", "150-002"]
+    "subdepartments": ["150-001"]
   },
   {
     "id": "150-001",

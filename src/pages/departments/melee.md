@@ -2,7 +2,7 @@
 {
   title: "Melee Weapons",
   layout: "dept-page.njk",
-  permalink: "/departments/weapons/{{ 'melee' | slug | url }}/{% if pagination.pageNumber > 0 %}{{pagination.pageNumber | plus: 1 }}/{% endif %}",
+  permalink: "/departments/weapons/{{ 'melee-weapons' | slug | url }}/{% if pagination.pageNumber > 0 %}{{pagination.pageNumber | plus: 1 }}/{% endif %}",
   pagination: {
     data: "collections.weaponProducts",
     size: 25,
