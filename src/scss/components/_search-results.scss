@@ -1,6 +1,8 @@
 .search-results {
   background: $light-color;
   color: $dark-color;
+  width: 100%;
+  max-width: 60rem;
 
   & .results-header {
     border-bottom: 1px solid $border-color;
