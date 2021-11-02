@@ -5,15 +5,16 @@
   align-content: center;
   display: flex;
   flex-direction: column;
-  height: calc(100vh - 17.5vmax);
+  height: calc(100vh - 25vmax);
   overflow-y: auto;
+  padding-bottom: 3rem;
 
   @include response(md) {
-    height: calc(100vh - 16vmax);
+    height: calc(100vh - 20vmax);
   }
 
   @include response(lg) {
-    height: calc(100vh - 10vmax);
+    height: calc(100vh - 15vmax);
   }
 
   & h1 {
