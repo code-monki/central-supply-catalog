@@ -29,9 +29,6 @@
       padding: .5rem 0 .5rem .5rem;
       border-bottom: 1px solid $border-color;
 
-      @include response(lg) {
-        // max-height: 12rem;
-      }
 
       & .prod-img {
         justify-self: flex-start;
