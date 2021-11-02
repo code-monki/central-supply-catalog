@@ -11,9 +11,9 @@
     flex-direction: column;
     width: 100%;
     max-width: 60rem;
-    height: calc(100vh - 17.5vmax);
+    height: calc(100vh - 25vmax);
     overflow-y: auto;
-    padding-bottom: 1rem;
+    padding-bottom: 3rem;
 
     @include response(md) {
       height: calc(100vh - 16vmax);
