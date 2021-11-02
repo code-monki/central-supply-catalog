@@ -100,7 +100,7 @@
                     {%- for author in src.authors -%}
                       {{ comma() }}
                       {{ author | safe }}
-                    {% endfor %}
+                    {%- endfor -%}
                     ,
                     {% if src.publisher.url == "" %}
                       {{ src.publisher.name }}
