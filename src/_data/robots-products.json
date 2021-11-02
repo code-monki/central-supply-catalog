@@ -109,7 +109,7 @@
     "techLevel": 11,
     "qrebs": "N/A",
     "image": "",
-    "description": "<p><!-- Summary Start -->The Dover-Gabe Courier Robot was a TL-11 specialized courier robot, built to quickly transport communications material from one location to another. It is a custom 30-ton pod hull, controlled by a semi-organic brain (83R = INT 8, EDU 3, Charisma R) with a set of small craft skill programs (Pilot-4, Comms-2, Sensop-2). As with all brain-based systems, each brain has one skill level in a hobby (randomly determined). Compensation given to brain-based systems varies, but is often non-monetary. These particular models have room for one or two additional levels of skill; upgrades are often sufficiently motivating for these systems.<!-- Summary End --></p><p>The onboard fuel cell provides power for 10 weeks (5 weeks in an un-oxygenated atmosphere). It includes a surface-mount comms array and a Distant-ranged Proximeter for collision avoidance.</p><p><strong>ORIGIN:</strong> Dover-Gabe, a Sylean company, was awarded a contract for courier robots in 2,974 VI (Vilani) or 4,380 A.D. (Solomani).</p><p><strong>HISTORY:</strong>A tragic attack against the Sylean Federation, which occurred in -112 in Core Sector, helped shape the Third Imperium's current attitudes about robots. A terrorist group rigged the fuel cells of one of these courier robots to explode, and managed to sneak it aboard a 90,000-ton Sylean battleship. Fornol's premier, two ambassadors, and the Sylean vice-mjnister were killed, along with a host of ship's officers and crewmen. This disaster prompted twelve worlds of the Sylean Federation to sign the Shudusham Concords in -110.</p>",
+    "description": "<p><!-- Summary Start -->The Dover-Gabe Courier Robot was a TL-11 specialized courier robot, built to quickly transport communications material from one location to another.<!-- Summary End --> It is a custom 30-ton pod hull, controlled by a semi-organic brain (83R = INT 8, EDU 3, Charisma R) with a set of small craft skill programs (Pilot-4, Comms-2, Sensop-2). As with all brain-based systems, each brain has one skill level in a hobby (randomly determined). Compensation given to brain-based systems varies, but is often non-monetary. These particular models have room for one or two additional levels of skill; upgrades are often sufficiently motivating for these systems.</p><p>The onboard fuel cell provides power for 10 weeks (5 weeks in an un-oxygenated atmosphere). It includes a surface-mount comms array and a Distant-ranged Proximeter for collision avoidance.</p><p><strong>ORIGIN:</strong> Dover-Gabe, a Sylean company, was awarded a contract for courier robots in 2,974 VI (Vilani) or 4,380 A.D. (Solomani).</p><p><strong>HISTORY:</strong>A tragic attack against the Sylean Federation, which occurred in -112 in Core Sector, helped shape the Third Imperium's current attitudes about robots. A terrorist group rigged the fuel cells of one of these courier robots to explode, and managed to sneak it aboard a 90,000-ton Sylean battleship. Fornol's premier, two ambassadors, and the Sylean vice-mjnister were killed, along with a host of ship's officers and crewmen. This disaster prompted twelve worlds of the Sylean Federation to sign the Shudusham Concords in -110.</p>",
     "categories": ["robots"],
     "sources": [
       {
@@ -129,11 +129,11 @@
         }
       },
       {
-        "publication": "Traveller Wiki",
+        "publication": "Traveller Wiki: Dover-Gabe class Courier Robot",
         "authors": ["Traveller Wiki Editorial Team"],
         "publisher": {
-        "name": "",
-        "url": ""
+        "name": "Traveller Wiki",
+        "url": "https://wiki.travellerrpg.com/Dover-Gabe_class_Courier_Robot"
         }
       }
     ],
