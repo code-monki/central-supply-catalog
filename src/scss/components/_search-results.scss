@@ -30,7 +30,7 @@
       border-bottom: 1px solid $border-color;
 
       @include response(lg) {
-        max-height: 12rem;
+        // max-height: 12rem;
       }
 
       & .prod-img {
