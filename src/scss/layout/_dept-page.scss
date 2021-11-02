@@ -10,15 +10,15 @@
     flex-direction: column;
     width: 100%;
     max-width: 60rem;
-    height: calc(100vh - 17.5vmax);
+    height: calc(100vh - 25vmax);
     overflow-y: auto;
 
     @include response(md) {
-      height: calc(100vh - 16vmax);
+      height: calc(100vh - 20vmax);
     }
 
     @include response(lg) {
-      height: calc(100vh - 10vmax);
+      height: calc(100vh - 15vmax);
     }
 
     & .dept-title {
