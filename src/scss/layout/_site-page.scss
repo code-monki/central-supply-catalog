@@ -13,6 +13,7 @@
     max-width: 60rem;
     height: calc(100vh - 17.5vmax);
     overflow-y: auto;
+    padding-bottom: 1rem;
 
     @include response(md) {
       height: calc(100vh - 16vmax);
@@ -36,12 +37,12 @@
       margin-bottom: 1rem;
 
       @include response(md) {
-        font-size: 1.4rem;
+        font-size: 1.6rem;
       }
 
       h2 {
         font-size: 1rem;
-        
+
         @include response(md) {
           font-size: 1.2rem;
         }
@@ -57,11 +58,15 @@
       }
     }
 
-    & li {
-      margin-left: 1.5rem;
+    & ul {
+      margin-bottom: 2rem;
 
-      @include response(md) {
-        margin-left: 2rem;
+      & li {
+        margin-left: 1.5rem;
+
+        @include response(md) {
+          margin-left: 2rem;
+        }
       }
     }
 
