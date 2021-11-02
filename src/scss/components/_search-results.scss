@@ -58,6 +58,10 @@
           &:hover {
             color: $hover-color-2;
           }
+
+          &:visited {
+            color: $title-link-color;
+          }
         }
 
         & h5 {
@@ -142,6 +146,10 @@
 
           & a {
             color: $primary-color;
+
+            &:visited {
+              color: $primary-color;
+            }
           }
         }
       }
