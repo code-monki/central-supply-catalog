@@ -333,7 +333,7 @@ const performSiteSearch = (params) => {
 
       str += `<div class="row results-header"><h6>Search found ${results.length} results for: <em>${params}</em></h6></div>`;
 
-      str += `<div class="container black-text">`;
+      str += `<div class="container">`;
 
       results.forEach((product) => {
         img = product.image ? product.image : "/img/products/no-image.png";
@@ -345,7 +345,6 @@ const performSiteSearch = (params) => {
         `;
 
         let prodlink = "/products/" + product.sku;
-
         str += `
           <div class="product-summary">
             <a href="${prodlink}"><h6>${product.name}</h6></a>
