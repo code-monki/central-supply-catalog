@@ -41,6 +41,7 @@ main {
     }
 
     & .subtitle {
+      margin-top: 3rem;
       font-size: 1rem;
       color: $primary-color;
       background: rgba(0, 0, 0, 0.5);
@@ -51,6 +52,7 @@ main {
       border-radius: 1rem;
   
       @include response(md) {
+        margin-top: 4rem;
         font-size: 1.5rem;
         padding: 2rem;
       }
