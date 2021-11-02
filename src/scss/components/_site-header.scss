@@ -78,6 +78,7 @@ header {
       max-width: 50rem;
 
       & .dept-btn {
+        color: $dark-color;
         background: $secondary-color;
         font-weight: bold;
         padding: .25rem;
@@ -150,6 +151,7 @@ header {
           bottom: 0;
           width: 1.8rem;
           border: solid 1px $dark-color;
+          color: $dark-color;
           background: $secondary-color;
         }
       }
