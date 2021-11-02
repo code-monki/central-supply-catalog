@@ -39,7 +39,16 @@ body {
     & .content-container {
       display: flex;
       flex-direction: column;
-      height: 100%;
+      // height: 100%;
+      height: calc(100vh - 25vmax);
+
+      @include response(md) {
+        height: calc(100vh - 20vmax);
+      }
+
+      @include response(lg) {
+        height: calc(100vh - 15vmax);
+      }
       max-height: 100%;
       max-width: 60rem;
       width: 100%;
