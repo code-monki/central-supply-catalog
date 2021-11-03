@@ -45,6 +45,11 @@
           @include response(md) {
             margin-right: 1rem;
           }
+
+          @include response(lg) {
+            height: 7rem;
+            width: 7rem;
+          }
         }
       }
 
