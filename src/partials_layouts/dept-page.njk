@@ -16,9 +16,9 @@
 
             <div class="prod-img">
               {%- if product.image -%}
-                <img src="{{product.image | url}}" alt="{{product.name}}" class="responsive-img">
+                <img src="{{product.image | url}}" alt="{{product.name}}">
               {%- else -%}
-                <img src="{{'/img/products/no-image.png' | url}}" alt="{{product.name}}" class="responsive-img">
+                <img src="{{'/img/products/no-image.png' | url}}" alt="{{product.name}}">
               {%- endif -%}
             </div>
 
