@@ -67,3 +67,11 @@ body {
   display: flex;
   gap: 0;
 }
+
+a {
+  color: $title-link-color;
+
+  &:visited {
+    color: $title-link-color;
+  }
+}
