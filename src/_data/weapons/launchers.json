@@ -264,6 +264,7 @@
     "image": "",
     "description": "<p><!-- Summary Start -->An early-stage grenade launcher.<!-- Summary End --></p>",
     "stats": [],
+    "accessories": ["160-012-00010"],
     "categories": ["weapons", "launchers"],
         "sources": [
       {
@@ -443,6 +444,7 @@
     "image": "",
     "description": "<p><!-- Summary Start -->Basic grenade launcher.<!-- Summary End --></p>",
     "stats": [],
+    "accessories": ["160-012-00010"],
     "categories": ["weapons", "launchers"],
         "sources": [
       {
@@ -551,6 +553,7 @@
     "image": "",
     "description": "Basic rocket-assisted munition (RAM) grenade launcher.",
     "stats": [],
+    "accessories": ["160-012-00010"],
     "categories": ["weapons", "launchers"],
         "sources": [
       {
@@ -694,6 +697,7 @@
     "image": "",
     "description": "<p><!-- Summary Start -->A snub grenade launcher.<!-- Summary End --></p>",
     "stats": [],
+    "accessories": ["160-012-00010"],
     "categories": ["weapons", "launchers"],
         "sources": [
       {
@@ -802,6 +806,7 @@
     "image": "",
     "description": "<p><!-- Summary Start -->Standard rocket-assisted munition (RAM) Grenade launcher.<!-- Summary End --></p>",
     "stats": [],
+    "accessories": ["160-012-00010"],
     "categories": ["weapons", "launchers"],
         "sources": [
       {
@@ -838,6 +843,7 @@
     "image": "",
     "description": "<p><!-- Summary Start -->Alternate heavy rocket-assisted munition (RAM) grenade launcher.<!-- Summary End --></p>",
     "stats": [],
+    "accessories": ["160-012-00010"],
     "categories": ["weapons", "launchers"],
         "sources": [
       {
@@ -1233,6 +1239,7 @@
     "image": "",
     "description": "<p><!-- Summary Start -->Standard rocket-assisted munition (RAM) heavy grenade launcher.<!-- Summary End --></p>",
     "stats": [],
+    "accessories": ["160-012-00010"],
     "categories": ["weapons", "launchers"],
         "sources": [
       {
