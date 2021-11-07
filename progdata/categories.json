@@ -1,81 +1,84 @@
 [
   {
-    "id": 0,
-    "label": "Electronics",
-    "departments": [
-      "020-000",
-      "030-000", 
-      "060-000", 
-      "090-000", 
-      "100-000", 
-      "120-000"]
+    "label": "Breathing Apparatus",
+    "departments": []
   },
   {
-    "id": 1,
-    "label": "Medical",
-    "departments": [
-      "050-000", 
-      "100-005"
-    ]
+    "label": "Communications",
+    "departments": []
   },
   {
-    "id": 2,
-    "label": "Personal",
-    "departments": [
-      "010-000", 
-      "080-000", 
-      "040-000", 
-      "130-000"
-    ]
+    "label": "Computer Equipment",
+    "departments": ["030-000", "030-001"]
   },
   {
-    "id": 3,
+    "label": "Construction",
+    "departments": ["040-000", "040-001"]
+  },
+  {
+    "label": "Containers",
+    "departments": []
+  },
+  {
+    "label": "Detectors",
+    "departments": []
+  },
+  {
+    "label": "Emitters",
+    "departments": []
+  },
+  {
+    "label": "Explosives",
+    "departments": []
+  },
+  {
+    "label": "Food & Drink",
+    "departments": []
+  },
+  {
+    "label": "Medical, Drugs",
+    "departments": []
+  },
+  {
+    "label": "Non-Breathing Gases",
+    "departments": []
+  },
+  {
+    "label": "Power Supplies",
+    "departments": []
+  },
+  {
     "label": "Protections",
-    "departments": [
-      "100-001", 
-      "100-002", 
-      "100-003", 
-      "100-004",
-      "100-005",
-      "040-001"
-    ]
+    "departments": ["130-000", "130-001", "130-002", "130-003", "130-004"]
   },
   {
-    "id": 4,
-    "label": "Robots",
-    "departments": [
-      "110-001", 
-      "110-002", 
-      "110-000", 
-      "110-003"
-    ]
+    "label": "Robotics",
+    "departments": ["140-000", "140-001", "140-002", "140-003"]
   },
   {
-    "id": 5,
-    "label": "Vehicles",
-    "departments": [
-      "140-000", 
-      "140-001", 
-      "140-002"
-    ]
+    "label": "Structures, Shelters",
+    "departments": []
   },
   {
-    "id": 6,
+    "label": "Surface Gear",
+    "departments": []
+  },
+  {
+    "label": "Toolkits",
+    "departments": []
+  },
+  {
+    "label": "Transportation",
+    "departments": ["180-000", "180-001", "180-002"]
+  },
+  {
+    "label": "Uniques & Valuata",
+    "departments": []
+  },
+  {
     "label": "Weapons",
-    "departments": [
-      "150-001",
-      "150-002",
-      "150-003",
-      "150-004",
-      "150-005",
-      "150-006",
-      "150-007",
-      "150-008",
-      "150-009",
-      "150-010",
-      "070-000",
-      "100-002",
-      "100-006"
-    ]
+    "departments": ["200-000", "200-001", "200-002", "200-003", "200-004",
+                    "200-005", "200-006", "200-007", "200-008", "200-009",
+                    "200-010", "200-011"]
   }
 ]
