@@ -1,17 +1,11 @@
----js
-{  
-  title: "Emitters",
-  layout: "dept-page.njk",
-  permalink: "/departments/{{ title | slug | url }}/{% if pagination.pageNumber > 0 %}{{pagination.pageNumber | plus: 1 }}/{% endif %}",
-  pagination: {
-    data: "emitters-products",
-    size: 25,
-    alias: "products",
-    before: function(data) { 
-      return data.sort((a,b) => (a.name < b.name) ? -1 : (a.name > b.name) ? 1 : 0)
-    }
-  }
-}
+---
+title: "Emitters"
+layout: "dept-page.njk"
+permalink: "/departments/{{ title | slug | url }}/{% if pagination.pageNumber > 0 %}{{pagination.pageNumber | plus: 1 }}/{% endif %}"
+pagination:
+  data: "collections.emitters"
+  size: 25
+  alias: "products"
 ---
 
 
