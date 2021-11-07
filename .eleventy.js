@@ -7,9 +7,9 @@ const departmentsData = require("./progdata/departments.json");
 const slugify = require("slugify");
 const { config } = require("process");
 const { parse } = require("path");
-// const { text } = require("cheerio/lib/api/manipulation");
 
-// const basePath = process.env.ELEVENTY_ENV === "dev" ? "" : process.env.ELEVENTY_PREFIX;
+
+
 const basePath = "";
 const buildDest = process.env.ELEVENTY_DEST;
 
@@ -72,38 +72,19 @@ module.exports = function (eleventyConfig) {
   });
 
   //-------------------------------------------------------------
-  // Add custom collections
+  // Add custom product collections
   //-------------------------------------------------------------
-  eleventyConfig.addCollection("protectionsProducts", (collectionApi) => {
-    let base = path.join(__dirname, "src", "_data", "protections");
-
-    const files = fs.readdirSync(base).filter((file) => path.extname(file) === ".json");
-
-    const protections = files.flatMap((file) => JSON.parse(fs.readFileSync(path.join(base, file))));
-    protections.sort((a, b) => (a.name < b.name ? 1 : a.name > b.name ? 1 : 0));
-    return protections;
-  });
-
-  eleventyConfig.addCollection("vehicleProducts", (collectionApi) => {
-    let base = path.join(__dirname, "src", "_data", "vehicles");
-
-    const files = fs.readdirSync(base).filter((file) => path.extname(file) === ".json");
-    const protections = files.flatMap((file) => JSON.parse(fs.readFileSync(path.join(base, file))));
-
-    protections.sort((a, b) => (a.name < b.name ? 1 : a.name > b.name ? 1 : 0));
-
-    return protections;
-  });
-
-  eleventyConfig.addCollection("weaponProducts", (collectionApi) => {
-    let base = path.join(__dirname, "src", "_data", "weapons");
-
-    const files = fs.readdirSync(base).filter((file) => path.extname(file) === ".json");
-    const protections = files.flatMap((file) => JSON.parse(fs.readFileSync(path.join(base, file))));
-
-    protections.sort((a, b) => (a.name < b.name ? 1 : a.name > b.name ? 1 : 0));
-
-    return protections;
+  let basedir = path.join('src', '_data', 'products');
+  // gather list of product directories
+  let prodDirectories = fs.readdirSync(basedir);
+  
+  prodDirectories.forEach(category => {
+    eleventyConfig.addCollection(category, (collectionApi) => {
+      let files = fs.readdirSync(path.join(basedir, category)).filter(file => path.extname(file) === '.json');
+      let products = files.flatMap(file => JSON.parse(fs.readFileSync(path.join(basedir, category, file))));
+      products.sort((a, b) => (a.name.localeCompare(b.name)));
+      return products;
+    })
   });
 
   //-------------------------------------------------------------
@@ -160,21 +141,18 @@ module.exports = function (eleventyConfig) {
     let key = sku.slice(0, 7);
 
     // get the name of the data file
-    let dataSrc = departmentsData.find((item) => (item.id === key ? item.data : ""));
+    // let dataSrc = departmentsData.find((item) => (item.id === key ? item.data : ""));
+    let deptObj = departmentsData.find((dept) => (dept.id === key ? dept : null));
 
-    let object = null;
-    
-    // read the data file
-    if (dataSrc !== "" && dataSrc !== undefined && dataSrc.data !== null && dataSrc.data !== undefined) {
-      let typeProducts = JSON.parse(fs.readFileSync(dataSrc.data));
-      object = typeProducts.find((item) => item.sku === sku);
-    }
-
+    // let product = null;
     let text = `<p>No accessories available</p>`;
+    let prodFileName = path.join(__dirname, deptObj.datadir, `${sku}.json`);
 
-    if (object !== undefined && object !== null) {
+    let product = JSON.parse(fs.readFileSync(prodFileName));
+
+    if (product !== undefined && product !== null) {
       let imgURL =
-        object.image === "" || object.image === null
+        product.image === "" || product.image === null
           ? `${basePath}/img/products/no-image.png`
           : `${basePath}/img/products/${sku}.png`;
       let pageURL = `../products/${sku}/`;
@@ -183,12 +161,12 @@ module.exports = function (eleventyConfig) {
       <div class="row accessory-row">
         <div class="">
           <a href="${urlSafe(pageURL)}">
-            <img src="${imgURL}" alt="${object.name}">
+            <img src="${imgURL}" alt="${product.name}">
           </a>
         </div>
 
         <div>
-          <a href="${urlSafe(pageURL)}">${object.name}</a>
+          <a href="${urlSafe(pageURL)}">${product.name}</a>
         </div>
 
       </div>
@@ -257,23 +235,38 @@ module.exports = function (eleventyConfig) {
   eleventyConfig.addShortcode("generateDeptList", () => {
     let text = '<ul>';
 
-    departmentsData.forEach(dept => {
-      if (dept.id.substr(-3) === "000") {
-        // add to departments
-        text += `<li><a href="/departments/${urlSafe(dept.label)}" class="menu-item">${dept.label}</a>`
+    categoriesData
+      .sort((a,b) => a.label.localeCompare(b.label))
+      .forEach(category => {
+        if (category.departments.length === 0) {
+          text += `<li><a href="/departments/${urlSafe(category.label)}">${category.label}</a></li>`
+        } else {
+          text += `<li>${category.label}<ul>`
 
-        if (dept.subdepartments !== null && dept.subdepartments !== undefined) {
-          text += `<ul>`;
-          // add as nested list
-          dept.subdepartments.forEach(subdept => {
-            let subDept = departmentsData.find(x => x.id === subdept);
-            text += `<li><a href="/departments/${urlSafe(dept.label)}/${urlSafe(subDept.label)}" class="submenu-item">${subDept.label}</a></li>` 
+          // gather the subdepartment labels
+          let deptList = [];
+          category.departments.forEach( id => {
+            // get the department object
+            let dept = departmentsData.find(obj => obj.id === id);
+            if (dept !== null && dept !== undefined) {
+              deptList.push(dept.label);
+            }
           })
-          text += '</ul>'
+
+          // sort the labels alphabetically and insert
+          // as an unordered list
+          deptList
+            .sort((a, b) => a.localeCompare(b))
+            .forEach(dept => {
+            text += `<li><a href="/departments/${urlSafe(dept)}">${dept}</a></li>`;
+          })
+          
+          text += `</ul></li>`
         }
-        text += '</li>'
-      }
-    })
+
+    });
+
+
 
     text += '</ul>';
 
