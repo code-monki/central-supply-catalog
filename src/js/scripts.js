@@ -101,11 +101,7 @@ const addItem = () => {
     cartProd.qty += productQty;
   }
 
-  cart = cart.sort((a, b) => {
-    if (a.name < b.name) return -1;
-    if (a.name > b.name) return 1;
-    return 0;
-  });
+  cart = cart.sort((a, b) => a.name.localeCompare(b.name));
 
   // save cart to localStorage
   localStorage.setItem(cartKey, JSON.stringify(cart));
