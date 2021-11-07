@@ -1,0 +1,32 @@
+{
+  "sku": "190-000-00008",
+  "type": "uniques",
+  "subtype": "",
+  "name": "Medal, Meritorious Conduct Under Fire (MCUF)",
+  "mfr": "",
+  "cost": 300,
+  "size": 1.5,
+  "techLevel": 12,
+  "qrebs": "N/A",
+  "image": "",
+  "description": "<p><!-- Summary Start -->A recent, standard issue version of the MCUF awarded by the Imperium for acts of military valor.<!-- Summary End --> As it is fourth in the order of precedence they are more common than the MCG and both versions of the SEH which brings the market value down.</p><p>It should be noted however that those issued for a famous battle, to a well known sophont, those issued during the early periods of the Third Imperium and of course those awarded during the First Imperium are generally priced in the thousands of credits. (The value of MCUFs awarded during the Second Imperium typically are very high in those areas where Solomani sympathies are strongest and practically worthless around Vland.)</p>",
+  "categories": [
+    "uniques"
+  ],
+  "sources": [
+    {
+      "publication": "Traveller 5.10 Core Rules Book 3 : Worlds and Adventures",
+      "authors": [
+        "Miller, Marc"
+      ],
+      "publisher": {
+        "name": "Far Future Enterprises",
+        "url": "https://farfuture.net"
+      }
+    }
+  ],
+  "tags": [
+    "products",
+    "uniques"
+  ]
+}

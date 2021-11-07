@@ -1,0 +1,58 @@
+{
+  "sku": "130-004-00015",
+  "type": "protections",
+  "subtype": "cyberware",
+  "name": "Advanced Cybernetic Arm",
+  "mfr": "",
+  "cost": 500000,
+  "mass": 7,
+  "size": "7 liters",
+  "techLevel": 11,
+  "qrebs": "N/A",
+  "image": "",
+  "description": "<p><!-- Summary Start -->The Advanced Cybernetic Arm is a battery powered cybernetic limb constructed from strong lightweight materials that includes a Basic Cybernetic Hand as standard.<!-- Summary End --> A life-like prosthesis designed to replace an organic limb. It is knitted into the body around the shoulder (for a full arm replacement) or the elbow (for a forearm replacement). Note that forearm replacements have less volume and fewer upgrade options and as such are generally cheaper and lighter.</p><p>It is designed to have superior strength and capabilities relative to an organic arm. An Advanced Cybernetic Arm replaces approximately 10% of the body in humans. In other sophonts, an arm may represent a greater or lesser percentage of the body.</p><p>It may have synthetic skin, silent operation and normal body temperatures. Some individuals prefer a colorful or bizarre finish or leave the internal mechanics of the arm exposed. It may be multi-jointed, allowing for greater articulation and range of movement.</p><p>The Advanced Cybernetic Arm directly connects to the individual's nervous system, allowing it to be controlled as though it were a natural limb. It provides enhanced sensory feedback including touch, pressure, texture and temperature. Modifications and devices fitted to the arm may be consciously controlled and directed. The arm provides feedback about its power levels, functionality, and component status.</p><p>Depending on its size, the arm may be fitted with some configuration modifications. Upgrades may include: Advanced Cybernetic Hand, Combat Hand possibly with Integrated Firearms (an Assault Rifle, a Gauss Rifle, or a Laser Carbine) or Integrated Missile Launcher or Drone housing, a Grappling Array, or an Integrated Medical Kit or other tool kit.</p><p>Exceeding the design specifications may cause the arm to malfunction or cause injury to the individual. In extreme cases it may tear away from the body.</p>",
+  "categories": [
+    "protections",
+    "cyberware"
+  ],
+  "sources": [
+    {
+      "publication": "Traveller Wiki: Advanced Cybernetic Arm",
+      "authors": [
+        "Lord (Marquis) and Master Scout Emeritus Adie Alegoric Stewart of the IISS",
+        "Lord (Marquis) and Master of Sophontology Maksim-Smelchak of the Ministry of Science"
+      ],
+      "publisher": {
+        "name": "Traveller Wiki",
+        "url": "https://wiki.travellerrpg.com/Advanced_Cybernetic_Arm"
+      }
+    },
+    {
+      "publication": "Fire, Fusion, & Steel",
+      "authors": [
+        "Chadwick, Frank",
+        "Nilsen, Dave"
+      ],
+      "publisher": {
+        "name": "Game Designers Workshop",
+        "url": ""
+      }
+    },
+    {
+      "publication": "Cybernetics",
+      "authors": [
+        "Nash, Pete",
+        "Robinson, Nick"
+      ],
+      "publisher": {
+        "name": "Mongoose Publishing",
+        "url": "https://www.mongoosepublishing.com/"
+      }
+    }
+  ],
+  "tags": [
+    "products",
+    "protections",
+    "cyberware"
+  ]
+}

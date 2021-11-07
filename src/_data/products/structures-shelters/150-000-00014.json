@@ -1,0 +1,32 @@
+{
+  "sku": "150-000-00014",
+  "type": "structures",
+  "subtype": "",
+  "name": "Underwater Shelter",
+  "mfr": "",
+  "cost": 1000000,
+  "size": 6,
+  "techLevel": 9,
+  "qrebs": "N/A",
+  "image": "",
+  "description": "<p><!-- Summary Start --><!-- Summary End --></p>",
+  "categories": [
+    "structures"
+  ],
+  "sources": [
+    {
+      "publication": "Traveller 5.10 Core Rules Book 3 : Worlds and Adventures",
+      "authors": [
+        "Miller, Marc"
+      ],
+      "publisher": {
+        "name": "Far Future Enterprises",
+        "url": "https://farfuture.net"
+      }
+    }
+  ],
+  "tags": [
+    "products",
+    "structures"
+  ]
+}

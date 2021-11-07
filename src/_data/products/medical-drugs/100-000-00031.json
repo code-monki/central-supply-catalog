@@ -1,0 +1,33 @@
+{
+  "sku": "100-000-00031",
+  "type": "drugs medical",
+  "subtype": "",
+  "name": "Slow Drug",
+  "mfr": "",
+  "cost": 500,
+  "mass": 0,
+  "size": 1,
+  "techLevel": 9,
+  "qrebs": "N/A",
+  "image": "",
+  "description": "<p><!-- Summary Start -->So named because it makes the universe (from the user's viewpoint) appear to move more slowly.<!-- Summary End --> The drug achieves the effect by accelerating the user's metabolism. In effect, the user lives approximately twice as fast as normal.</p><p>Slow drug takes effect 45 seconds after ingestion and continues to function for about 10 minutes. At the end of its effect, the user receives 1D in wounds. The person is extremely fatigued, is treated as if all available combat swings have been taken, and must recover from that fatigue. A person under slow drug (because he or she is living at twice the normal rate) can make twice as many actions or move twice as far as normal.</p><p>Medical Slow Drug causes unconsciousness and the passage of thirty days equivalent recovery time in one day. During this period, ordinary healing takes place. No wounds are received from the use of medical slow drug, but the individual is unconscious or semi-conscious while under its influence.</p>",
+  "categories": [
+    "drugs medical"
+  ],
+  "sources": [
+    {
+      "publication": "Traveller 5.10 Core Rules Book 3 : Worlds and Adventures",
+      "authors": [
+        "Miller, Marc"
+      ],
+      "publisher": {
+        "name": "Far Future Enterprises",
+        "url": "https://farfuture.net"
+      }
+    }
+  ],
+  "tags": [
+    "products",
+    "drugs medical"
+  ]
+}

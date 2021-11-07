@@ -1,0 +1,42 @@
+{
+  "sku": "200-010-00043",
+  "type": "weapons",
+  "subtype": "ammunition",
+  "name": "8mm Machinegun Ammunition (2D damage)",
+  "mfr": "",
+  "cost": 200,
+  "mass": 0.95,
+  "techLevel": 6,
+  "qrebs": "N/A",
+  "image": "",
+  "description": "<p><!-- Summary Start -->Standard 8mm Machinegun round, 2D damage, 100 round box.<!-- Summary End --></p>",
+  "categories": [
+    "weapons",
+    "ammunition"
+  ],
+  "sources": [
+    {
+      "publication": "Traveller 5.10 Core Rules Book 3 : Worlds and Adventures",
+      "authors": [
+        "Miller, Marc"
+      ],
+      "publisher": {
+        "name": "Far Future Enterprises",
+        "url": "https://farfuture.net"
+      }
+    },
+    {
+      "publication": "Central Supply Catalog Website",
+      "authors": [
+        "Miller, Marc",
+        "Eaglestone, Robert",
+        "McKnight, Charles"
+      ]
+    }
+  ],
+  "tags": [
+    "products",
+    "weapons",
+    "ammunition"
+  ]
+}

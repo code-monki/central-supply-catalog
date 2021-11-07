@@ -1,0 +1,47 @@
+{
+  "sku": "130-004-00022",
+  "type": "protections",
+  "subtype": "cyberware",
+  "name": "Cybernetic Ears",
+  "mfr": "",
+  "cost": 10000,
+  "mass": 0.06,
+  "size": "0.060 liters",
+  "techLevel": 9,
+  "qrebs": "N/A",
+  "image": "",
+  "description": "<p><!-- Summary Start -->Early cybernetic ears are simple amplifiers, often worn externally, which are later replaced by implants inside the hearing canal.<!-- Summary End --> The Cybernetic ears include basic hearing, covering the middle frequency ranges of a sophonts natural hearing ranges. More advanced models cover the full frequency range.</p><p><em>Amplified</em>: This of options allows amplified hearing available for cybernetic ears, allowing for the resolution of faint sounds at distances of 100 meters or more.</p><p><em>Low Frequency</em>: This allows hearing of low-frequency sounds, sounds which are more often felt or sensed than heard. Hearing these sounds makes it easier to pinpoint the direction of origin.</p><p><em>High Frequency</em>: This option allows a person to hear sounds above the aural range of their race. Early versions of this ear tend to be made from very dense material, such as plastic or even metal.</p><p><em>Sound Dampening</em>: Although loud or irritating sounds will no damage bionic ears, they can be annoying, distracting, or even painful to the user. This option enables the owner to dampen out specific ranges from the sonic spectrum, allowing sound to be dampened, which can also make it easier to hear a specific sound (such as a human voice) in a noisy environment.</p><p><em>Recorder</em>: This option allows the user to record one hour of sound and play it back later. The recording can be accessed at any point and can be recorded over.</p>",
+  "categories": [
+    "protections",
+    "cyberware"
+  ],
+  "sources": [
+    {
+      "publication": "Traveller Wiki: Cybernetic Ears",
+      "authors": [
+        "Lord (Marquis) and Master Scout Emeritus Adie Alegoric Stewart of the IISS",
+        "Lord (Marquis) and Master of Sophontology Maksim-Smelchak of the Ministry of Science"
+      ],
+      "publisher": {
+        "name": "Traveller Wiki",
+        "url": "https://wiki.travellerrpg.com/Cybernetic_ears"
+      }
+    },
+    {
+      "publication": "Fire, Fusion, & Steel",
+      "authors": [
+        "Chadwick, Frank",
+        "Nilsen, Dave"
+      ],
+      "publisher": {
+        "name": "Game Designers Workshop",
+        "url": ""
+      }
+    }
+  ],
+  "tags": [
+    "products",
+    "protections",
+    "cyberware"
+  ]
+}

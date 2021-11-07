@@ -1,0 +1,58 @@
+{
+  "sku": "200-002-00008",
+  "type": "weapons",
+  "subtype": "handguns",
+  "name": "Revolver (Re-4)",
+  "mfr": "",
+  "cost": 100,
+  "mass": 1.2,
+  "size": "",
+  "techLevel": 4,
+  "qrebs": "R=2",
+  "damage": "Bullet-1",
+  "image": "",
+  "description": "<p><!-- Summary Start --> The revolver uses a multiple chambered cylinder instead of a magazine.<!-- Summary End --></p>",
+  "stats": [],
+  "accessories": [
+    "200-011-00001",
+    "200-011-00002",
+    "200-011-00003",
+    "200-011-00004",
+    "200-011-00005",
+    "200-011-00020",
+    "200-010-00022"
+  ],
+  "categories": [
+    "weapons",
+    "handguns",
+    "revolver"
+  ],
+  "sources": [
+    {
+      "publication": "Traveller 5.10 Core Rules Book 1 : Characters and Combat",
+      "authors": [
+        "Miller, Marc"
+      ],
+      "publisher": {
+        "name": "Far Future Enterprises",
+        "url": "https://farfuture.net"
+      }
+    },
+    {
+      "publication": "Traveller 5.10 Core Rules Book 3 : Worlds and Adventures",
+      "authors": [
+        "Miller, Marc"
+      ],
+      "publisher": {
+        "name": "Far Future Enterprises",
+        "url": "https://farfuture.net"
+      }
+    }
+  ],
+  "tags": [
+    "products",
+    "weapons",
+    "handguns",
+    "revolver"
+  ]
+}

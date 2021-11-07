@@ -1,0 +1,47 @@
+{
+  "sku": "200-007-00030",
+  "type": "weapons",
+  "subtype": "launchers",
+  "name": "RAM Grenade Multi-Launcher (RAMmL-10)",
+  "mfr": "",
+  "cost": 9000,
+  "mass": 10,
+  "size": "",
+  "techLevel": 10,
+  "qrebs": "R=6",
+  "damage": "Blast-2, Frag-3",
+  "image": "",
+  "description": "<p><!-- Summary Start -->A rocket-assisted munition (RAM) grenade multi-launcher.<!-- Summary End --></p>",
+  "stats": [],
+  "categories": [
+    "weapons",
+    "launchers"
+  ],
+  "sources": [
+    {
+      "publication": "Traveller 5.10 Core Rules Book 3 : Worlds and Adventures",
+      "authors": [
+        "Miller, Marc"
+      ],
+      "publisher": {
+        "name": "Far Future Enterprises",
+        "url": "https://farfuture.net"
+      }
+    },
+    {
+      "publication": "Traveller 5.10 Core Rules Book 3 : Worlds and Adventures",
+      "authors": [
+        "Miller, Marc"
+      ],
+      "publisher": {
+        "name": "Far Future Enterprises",
+        "url": "https://farfuture.net"
+      }
+    }
+  ],
+  "tags": [
+    "products",
+    "weapons",
+    "launchers"
+  ]
+}

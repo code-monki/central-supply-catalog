@@ -1,0 +1,59 @@
+{
+  "sku": "200-003-00013",
+  "type": "weapons",
+  "subtype": "shotguns",
+  "name": "Shotgun (S-4)",
+  "mfr": "",
+  "cost": 300,
+  "mass": 4,
+  "size": "",
+  "techLevel": 4,
+  "qrebs": "R=2",
+  "damage": "Frag-2",
+  "image": "",
+  "description": "<p><!-- Summary Start -->Standard version of the shotgun.<!-- Summary End --></p>",
+  "stats": [],
+  "accessories": [
+    "200-011-00001",
+    "200-011-00002",
+    "200-011-00003",
+    "200-011-00004",
+    "200-011-00005",
+    "200-011-00006",
+    "200-011-00007",
+    "200-011-00008",
+    "200-011-00009",
+    "200-010-00032",
+    "200-010-00033"
+  ],
+  "categories": [
+    "weapons"
+  ],
+  "sources": [
+    {
+      "publication": "Traveller 5.10 Core Rules Book 1 : Characters and Combat",
+      "authors": [
+        "Miller, Marc"
+      ],
+      "publisher": {
+        "name": "Far Future Enterprises",
+        "url": "https://farfuture.net"
+      }
+    },
+    {
+      "publication": "Traveller 5.10 Core Rules Book 3 : Worlds and Adventures",
+      "authors": [
+        "Miller, Marc"
+      ],
+      "publisher": {
+        "name": "Far Future Enterprises",
+        "url": "https://farfuture.net"
+      }
+    }
+  ],
+  "tags": [
+    "products",
+    "weapons",
+    "shotgun"
+  ]
+}

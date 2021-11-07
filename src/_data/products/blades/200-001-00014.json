@@ -1,0 +1,37 @@
+{
+  "sku": "200-001-00014",
+  "type": "weapons",
+  "subtype": "blades",
+  "name": "Dagger (D)",
+  "mfr": "",
+  "cost": 50,
+  "mass": 0.5,
+  "size": "",
+  "techLevel": 2,
+  "qrebs": "",
+  "damage": "Cuts-2",
+  "image": "",
+  "description": "<p><!-- Summary Start --> A  small knife weapon with  a flat, two-edged blade approximately 200mm in length.<!-- Summary End --> Daggers are usually carried in a belt sheath,  and less frequently are concealed in a boot sheath or strapped to the forearm. Daggers  are usually the last weapon of defense, and worn constantly.</p>",
+  "stats": [],
+  "categories": [
+    "weapons",
+    "blades"
+  ],
+  "sources": [
+    {
+      "publication": "Traveller 5.10 Core Rules Book 3 : Worlds and Adventures",
+      "authors": [
+        "Miller, Marc"
+      ],
+      "publisher": {
+        "name": "Far Future Enterprises",
+        "url": "https://farfuture.net"
+      }
+    }
+  ],
+  "tags": [
+    "products",
+    "weapons",
+    "blades"
+  ]
+}

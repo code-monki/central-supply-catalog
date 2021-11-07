@@ -1,0 +1,34 @@
+{
+  "sku": "020-000-00002",
+  "type": "comms",
+  "subtype": "",
+  "name": "Communicator (Modified)",
+  "mfr": "",
+  "cost": 500,
+  "mass": 0.2,
+  "size": 2,
+  "techLevel": 10,
+  "qrebs": "Q+1 R+1 E+1",
+  "image": "",
+  "description": "<p><!-- Summary Start -->A higher-tech version of the standard comm.<!-- Summary End --></p>",
+  "accessories": [],
+  "categories": [
+    "communications"
+  ],
+  "sources": [
+    {
+      "publication": "Traveller 5.10 Core Rules Book 3 : Worlds and Adventures",
+      "authors": [
+        "Miller, Marc"
+      ],
+      "publisher": {
+        "name": "Far Future Enterprises",
+        "url": "https://farfuture.net"
+      }
+    }
+  ],
+  "tags": [
+    "products",
+    "communications"
+  ]
+}

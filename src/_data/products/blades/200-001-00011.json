@@ -1,0 +1,47 @@
+{
+  "sku": "200-001-00011",
+  "type": "weapons",
+  "subtype": "blades",
+  "name": "Great Big Knife (GBK)",
+  "mfr": "",
+  "cost": 900,
+  "mass": 6,
+  "size": "",
+  "techLevel": 6,
+  "qrebs": "",
+  "damage": "Cuts-2, Pen-2",
+  "image": "",
+  "description": "<p><!-- Summary Start -->The &quot;great big knife&quot; is a large, fixed-blade fighting knife.<!-- Summary End --> This style of knife traces its history back to the &quot;Bowie&quot; knife developed by James Black for Jim Bowie.</p>",
+  "stats": [],
+  "categories": [
+    "weapons",
+    "blades"
+  ],
+  "sources": [
+    {
+      "publication": "Traveller 5.10 Core Rules Book 3 : Worlds and Adventures",
+      "authors": [
+        "Miller, Marc"
+      ],
+      "publisher": {
+        "name": "Far Future Enterprises",
+        "url": "https://farfuture.net"
+      }
+    },
+    {
+      "publication": "Wikipedia : Bowie Knife",
+      "authors": [
+        "Various"
+      ],
+      "publisher": {
+        "name": "Wikipedia",
+        "url": "https://en.wikipedia.org/wiki/Bowie_knife"
+      }
+    }
+  ],
+  "tags": [
+    "products",
+    "weapons",
+    "blades"
+  ]
+}

@@ -1,0 +1,34 @@
+{
+  "sku": "130-002-10030",
+  "type": "protections",
+  "subtype": "suits",
+  "name": "CbtS-8 Combat Suit (CbtS-8)",
+  "cost": 4000,
+  "mass": 20,
+  "techLevel": 8,
+  "qrebs": "N/A",
+  "image": "",
+  "description": "<p><!-- Summary Start -->Combat suits are intended for medium-term operations (days) against an enemy force.<!-- Summary End --></p>",
+  "accessories": [],
+  "categories": [
+    "protections",
+    "suits"
+  ],
+  "sources": [
+    {
+      "publication": "Traveller 5.10 Core Rules Book 1 : Characters and Combat",
+      "authors": [
+        "Miller, Marc"
+      ],
+      "publisher": {
+        "name": "Far Future Enterprises",
+        "url": "https://farfuture.net"
+      }
+    }
+  ],
+  "tags": [
+    "products",
+    "protections",
+    "suits"
+  ]
+}

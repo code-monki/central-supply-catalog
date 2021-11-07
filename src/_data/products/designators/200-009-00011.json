@@ -1,0 +1,47 @@
+{
+  "sku": "200-009-00011",
+  "type": "weapons",
+  "subtype": "designators",
+  "name": "Freeze Designator, Prototype (PFD-7)",
+  "mfr": "",
+  "cost": 18000,
+  "mass": 19,
+  "size": "",
+  "techLevel": 7,
+  "qrebs": "R=2",
+  "damage": "Cold-3",
+  "image": "",
+  "description": "<p><!-- Summary Start -->The freeze designator induces an entropic effect that removes heat from the target.<!-- Summary End --></p>",
+  "stats": [],
+  "categories": [
+    "weapons",
+    "designators"
+  ],
+  "sources": [
+    {
+      "publication": "Traveller 5.10 Core Rules Book 1 : Characters and Combat",
+      "authors": [
+        "Miller, Marc"
+      ],
+      "publisher": {
+        "name": "Far Future Enterprises",
+        "url": "https://farfuture.net"
+      }
+    },
+    {
+      "publication": "Traveller 5.10 Core Rules Book 3 : Worlds and Adventures",
+      "authors": [
+        "Miller, Marc"
+      ],
+      "publisher": {
+        "name": "Far Future Enterprises",
+        "url": "https://farfuture.net"
+      }
+    }
+  ],
+  "tags": [
+    "products",
+    "weapons",
+    "designators"
+  ]
+}

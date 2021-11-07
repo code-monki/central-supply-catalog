@@ -1,0 +1,34 @@
+{
+  "sku": "040-000-00005",
+  "type": "construction",
+  "subtype": "",
+  "name": "Iris Valve",
+  "mfr": "",
+  "cost": 1000,
+  "mass": 0,
+  "size": 5,
+  "techLevel": 8,
+  "qrebs": "N/A",
+  "image": "",
+  "description": "<p><!-- Summary Start -->Iris valves control the discharge of atmosphere from a pressurized cabin.<!-- Summary End --> Its design allows it to close (and open) regardless of positive or negative pressure difference between both sides.</p>",
+  "categories": [
+    "products",
+    "construction"
+  ],
+  "sources": [
+    {
+      "publication": "Traveller 5.10 Core Rules Book 3 : Worlds and Adventures",
+      "authors": [
+        "Miller, Marc"
+      ],
+      "publisher": {
+        "name": "Far Future Enterprises",
+        "url": "https://farfuture.net"
+      }
+    }
+  ],
+  "tags": [
+    "products",
+    "construction"
+  ]
+}

@@ -1,0 +1,33 @@
+{
+  "sku": "120-000-00014",
+  "type": "power supplies",
+  "subtype": "",
+  "name": "#3 Power Cell",
+  "mfr": "",
+  "cost": 1000,
+  "mass": 2.3,
+  "size": 3,
+  "techLevel": 10,
+  "qrebs": "N/A",
+  "image": "",
+  "description": "<!-- Summary Start -->The #3 Power Cell is a 25cm x 12cm x 12cm cylinder that can power a Size 4 device.<!-- Summary End --> The PowerCell is a storage battery for operating devices independently. Typically, a PowerCell is one size smaller than the device it powers, lasts for 24 hours (or about-a-day) of continual use, and has negligible discharge during non-use. Cells support micro-induction power transfer, and are capable of powering items without direct connections. The quality of the cell determines its operational life.</p>",
+  "categories": [
+    "power-supplies"
+  ],
+  "sources": [
+    {
+      "publication": "Traveller 5.10 Core Rules Book 3 : Worlds and Adventures",
+      "authors": [
+        "Miller, Marc"
+      ],
+      "publisher": {
+        "name": "Far Future Enterprises",
+        "url": "https://farfuture.net"
+      }
+    }
+  ],
+  "tags": [
+    "products",
+    "power-supplies"
+  ]
+}

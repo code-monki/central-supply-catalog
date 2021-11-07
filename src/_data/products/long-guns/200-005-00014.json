@@ -1,0 +1,66 @@
+{
+  "sku": "200-005-00014",
+  "type": "weapons",
+  "subtype": "long guns",
+  "name": "Rifle, Sniper (SnR-6)",
+  "mfr": "",
+  "cost": 1000,
+  "mass": 4.4,
+  "size": "",
+  "techLevel": 6,
+  "qrebs": "R=5, Q=+2, E=+2",
+  "damage": "Bullet-2",
+  "image": "",
+  "description": "<p><!-- Summary Start -->The sniper rifle is designed for shooting enemy targets at extreme range.<!-- Summary End --></p>",
+  "stats": [],
+  "accessories": [
+    "200-011-00001",
+    "200-011-00002",
+    "200-011-00003",
+    "200-011-00004",
+    "200-011-00005",
+    "200-011-00006",
+    "200-011-00007",
+    "200-011-00014",
+    "200-011-00015",
+    "200-011-00016",
+    "200-011-00014",
+    "200-011-00015",
+    "200-011-00016",
+    "200-010-00012",
+    "200-010-00013"
+  ],
+  "categories": [
+    "weapons",
+    "long guns",
+    "rifle"
+  ],
+  "sources": [
+    {
+      "publication": "Traveller 5.10 Core Rules Book 1 : Characters and Combat",
+      "authors": [
+        "Miller, Marc"
+      ],
+      "publisher": {
+        "name": "Far Future Enterprises",
+        "url": "https://farfuture.net"
+      }
+    },
+    {
+      "publication": "Traveller 5.10 Core Rules Book 3 : Worlds and Adventures",
+      "authors": [
+        "Miller, Marc"
+      ],
+      "publisher": {
+        "name": "Far Future Enterprises",
+        "url": "https://farfuture.net"
+      }
+    }
+  ],
+  "tags": [
+    "products",
+    "weapons",
+    "long guns",
+    "rifle"
+  ]
+}

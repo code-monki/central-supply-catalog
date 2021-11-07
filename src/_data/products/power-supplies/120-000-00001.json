@@ -1,0 +1,33 @@
+{
+  "sku": "120-000-00001",
+  "type": "power supplies",
+  "subtype": "",
+  "name": "Ambient Array",
+  "mfr": "",
+  "cost": 100000,
+  "mass": 1000,
+  "size": 6,
+  "techLevel": 11,
+  "qrebs": "N/A",
+  "image": "",
+  "description": "<p><!-- Summary Start -->Large array of Ambient Panels that produce enough energy during the day to power a Size 5 item.<!-- Summary End --></p>",
+  "categories": [
+    "power-supplies"
+  ],
+  "sources": [
+    {
+      "publication": "Traveller 5.10 Core Rules Book 3 : Worlds and Adventures",
+      "authors": [
+        "Miller, Marc"
+      ],
+      "publisher": {
+        "name": "Far Future Enterprises",
+        "url": "https://farfuture.net"
+      }
+    }
+  ],
+  "tags": [
+    "products",
+    "power-power-supplies"
+  ]
+}

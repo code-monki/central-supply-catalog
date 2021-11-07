@@ -1,0 +1,34 @@
+{
+  "sku": "130-003-10044",
+  "type": "protections",
+  "subtype": "units",
+  "name": "Carrier Unit, Titan (TWpnU-13)",
+  "cost": 5400000,
+  "mass": 10000,
+  "techLevel": 13,
+  "qrebs": "N/A",
+  "image": "",
+  "description": "<p><!-- Summary Start -->Carrier units are designed as a weapon carrier, typically integral to, or mounted on, the system.<!-- Summary End --></p>",
+  "accessories": [],
+  "categories": [
+    "protections",
+    "units"
+  ],
+  "sources": [
+    {
+      "publication": "Traveller 5.10 Core Rules Book 1 : Characters and Combat",
+      "authors": [
+        "Miller, Marc"
+      ],
+      "publisher": {
+        "name": "Far Future Enterprises",
+        "url": "https://farfuture.net"
+      }
+    }
+  ],
+  "tags": [
+    "products",
+    "protections",
+    "units"
+  ]
+}

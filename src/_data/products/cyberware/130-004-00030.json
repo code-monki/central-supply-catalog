@@ -1,0 +1,46 @@
+{
+  "sku": "130-004-00030",
+  "type": "protections",
+  "subtype": "cyberware",
+  "name": "Cybernetic Eye, Passive Infrared (TL-13)",
+  "mfr": "",
+  "cost": 50000,
+  "mass": 0.06,
+  "size": "0.06 liters",
+  "techLevel": 13,
+  "qrebs": "N/A",
+  "image": "",
+  "description": "<p><!-- Summary Start -->The passive infrared cybernetic eye is extremely sensitive to infrared radiation (ANI visual bands) and can \"see\" heat.<!-- Summary End --> Smoke, blown sand, and any sort of atmospheric conditions will interfere with eyes. They have a short range of 100 meters. This version of the cybernetic eye is single-function eye and looks more like a natural, unaltered eye.</p><p> In all cases, the cyber eye also includes basic visible light vision. For Sophonts with different visual ranges the basic cyber eye will cover their normal visual range.</p>",
+  "categories": [
+    "protections",
+    "cyberware"
+  ],
+  "sources": [
+    {
+      "publication": "Traveller Wiki: Cybernetic Eye",
+      "authors": [
+        "Traveller Wiki Editorial Team"
+      ],
+      "publisher": {
+        "name": "Traveller Wiki",
+        "url": "https://wiki.travellerrpg.com/Cybernetic_eyes"
+      }
+    },
+    {
+      "publication": "Fire, Fusion, & Steel",
+      "authors": [
+        "Chadwick, Frank",
+        "Nilsen, Dave"
+      ],
+      "publisher": {
+        "name": "Game Designers Workshop",
+        "url": ""
+      }
+    }
+  ],
+  "tags": [
+    "products",
+    "protections",
+    "cyberware"
+  ]
+}

@@ -1,0 +1,34 @@
+{
+  "sku": "130-003-10047",
+  "type": "protections",
+  "subtype": "units",
+  "name": "Boarding Unit, Early Disposable (EDBdU-14)",
+  "cost": 144000,
+  "mass": 367,
+  "techLevel": 14,
+  "qrebs": "N/A",
+  "image": "",
+  "description": "<p><!-- Summary Start -->Boarding units are tailored for zero-G operations against interplanetary and interstellar vessels.<!-- Summary End --></p>",
+  "accessories": [],
+  "categories": [
+    "protections",
+    "units"
+  ],
+  "sources": [
+    {
+      "publication": "Traveller 5.10 Core Rules Book 1 : Characters and Combat",
+      "authors": [
+        "Miller, Marc"
+      ],
+      "publisher": {
+        "name": "Far Future Enterprises",
+        "url": "https://farfuture.net"
+      }
+    }
+  ],
+  "tags": [
+    "products",
+    "protections",
+    "units"
+  ]
+}

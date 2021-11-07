@@ -1,0 +1,47 @@
+{
+  "sku": "200-007-00050",
+  "type": "weapons",
+  "subtype": "launchers",
+  "name": "Fusion Launcher, Modified (ModFL-16)",
+  "mfr": "",
+  "cost": 7200,
+  "mass": 16,
+  "size": "",
+  "techLevel": 16,
+  "qrebs": "R=4",
+  "damage": "Pen-4, Burn-6",
+  "image": "",
+  "description": "<p><!-- Summary Start -->Modified version of the fusion launcher.<!-- Summary End --></p>",
+  "stats": [],
+  "categories": [
+    "weapons",
+    "launchers"
+  ],
+  "sources": [
+    {
+      "publication": "Traveller 5.10 Core Rules Book 3 : Worlds and Adventures",
+      "authors": [
+        "Miller, Marc"
+      ],
+      "publisher": {
+        "name": "Far Future Enterprises",
+        "url": "https://farfuture.net"
+      }
+    },
+    {
+      "publication": "Traveller 5.10 Core Rules Book 3 : Worlds and Adventures",
+      "authors": [
+        "Miller, Marc"
+      ],
+      "publisher": {
+        "name": "Far Future Enterprises",
+        "url": "https://farfuture.net"
+      }
+    }
+  ],
+  "tags": [
+    "products",
+    "weapons",
+    "launchers"
+  ]
+}

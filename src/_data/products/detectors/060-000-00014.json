@@ -1,0 +1,33 @@
+{
+  "sku": "060-000-00014",
+  "type": "detectors",
+  "subtype": "",
+  "name": "Magnet, Industrial",
+  "mfr": "",
+  "cost": 20,
+  "mass": 0.01,
+  "size": 1,
+  "techLevel": 5,
+  "qrebs": "N/A",
+  "image": "",
+  "description": "<p><!-- Summary Start -->A small alnico (aluminum-nickel-cobalt alloy) horseshoe magnet capable of lifting 1kg against 1G.<!-- Summary End --></p>",
+  "categories": [
+    "detectors"
+  ],
+  "sources": [
+    {
+      "publication": "Traveller 5.10 Core Rules Book 3 : Worlds and Adventures",
+      "authors": [
+        "Miller, Marc"
+      ],
+      "publisher": {
+        "name": "Far Future Enterprises",
+        "url": "https://farfuture.net"
+      }
+    }
+  ],
+  "tags": [
+    "products",
+    "detectors"
+  ]
+}

@@ -1,0 +1,47 @@
+{
+  "sku": "200-008-00048",
+  "type": "weapons",
+  "subtype": "projectors",
+  "name": "Grav Projector, Medium, Remote (RMGrPj-13)",
+  "mfr": "",
+  "cost": 126000,
+  "mass": 3,
+  "size": "",
+  "techLevel": 13,
+  "qrebs": "R=1",
+  "damage": "Grav-4",
+  "image": "",
+  "description": "<p><!-- Summary Start -->Remote-controlled version of the medium grav projector.<!-- Summary End --> The grav projector projects a high frequency gravitic effect onto the target. The rapid gravitic pushing and pulling reduces internal structural strength in objects and induces organic damage in beings. In addition, this weapon effect shuts down grav equipment.</p>",
+  "stats": [],
+  "categories": [
+    "weapons",
+    "projectors"
+  ],
+  "sources": [
+    {
+      "publication": "Traveller 5.10 Core Rules Book 1 : Characters and Combat",
+      "authors": [
+        "Miller, Marc"
+      ],
+      "publisher": {
+        "name": "Far Future Enterprises",
+        "url": "https://farfuture.net"
+      }
+    },
+    {
+      "publication": "Traveller 5.10 Core Rules Book 3 : Worlds and Adventures",
+      "authors": [
+        "Miller, Marc"
+      ],
+      "publisher": {
+        "name": "Far Future Enterprises",
+        "url": "https://farfuture.net"
+      }
+    }
+  ],
+  "tags": [
+    "products",
+    "weapons",
+    "projectors"
+  ]
+}

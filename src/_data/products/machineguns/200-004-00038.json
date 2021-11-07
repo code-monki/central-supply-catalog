@@ -1,0 +1,47 @@
+{
+  "sku": "200-004-00038",
+  "type": "weapons",
+  "subtype": "machineguns",
+  "name": "Anti-Flyer Machinegun, Crewed, Alternate (AltaFMgC-11)",
+  "mfr": "",
+  "cost": 9900,
+  "mass": 52,
+  "size": "",
+  "techLevel": 11,
+  "qrebs": "R=7",
+  "damage": "Blast-3, Frag-3, Bullet-4",
+  "image": "",
+  "description": "<p><!-- Summary Start -->Alternate version of the anti-flyer machinegun.<!-- Summary End --></p>",
+  "stats": [],
+  "categories": [
+    "weapons",
+    "machineguns"
+  ],
+  "sources": [
+    {
+      "publication": "Traveller 5.10 Core Rules Book 1 : Characters and Combat",
+      "authors": [
+        "Miller, Marc"
+      ],
+      "publisher": {
+        "name": "Far Future Enterprises",
+        "url": "https://farfuture.net"
+      }
+    },
+    {
+      "publication": "Traveller 5.10 Core Rules Book 3 : Worlds and Adventures",
+      "authors": [
+        "Miller, Marc"
+      ],
+      "publisher": {
+        "name": "Far Future Enterprises",
+        "url": "https://farfuture.net"
+      }
+    }
+  ],
+  "tags": [
+    "products",
+    "weapons",
+    "machineguns"
+  ]
+}

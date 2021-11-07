@@ -1,0 +1,47 @@
+{
+  "sku": "200-007-00036",
+  "type": "weapons",
+  "subtype": "launchers",
+  "name": "AT Missile Launcher, Advanced (AaTL-12)",
+  "mfr": "",
+  "cost": 4000,
+  "mass": 6.4,
+  "size": "",
+  "techLevel": 12,
+  "qrebs": "R=4",
+  "damage": "Pen-3, Frag-5",
+  "image": "",
+  "description": "<p><!-- Summary Start -->Advanced anti-tank missile launcher.<!-- Summary End --></p>",
+  "stats": [],
+  "categories": [
+    "weapons",
+    "launchers"
+  ],
+  "sources": [
+    {
+      "publication": "Traveller 5.10 Core Rules Book 3 : Worlds and Adventures",
+      "authors": [
+        "Miller, Marc"
+      ],
+      "publisher": {
+        "name": "Far Future Enterprises",
+        "url": "https://farfuture.net"
+      }
+    },
+    {
+      "publication": "Traveller 5.10 Core Rules Book 3 : Worlds and Adventures",
+      "authors": [
+        "Miller, Marc"
+      ],
+      "publisher": {
+        "name": "Far Future Enterprises",
+        "url": "https://farfuture.net"
+      }
+    }
+  ],
+  "tags": [
+    "products",
+    "weapons",
+    "launchers"
+  ]
+}

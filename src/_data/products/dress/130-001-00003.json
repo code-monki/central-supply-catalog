@@ -1,0 +1,35 @@
+{
+  "sku": "130-001-00003",
+  "type": "protections",
+  "subtype": "dress",
+  "name": "Police Dress, Early (EPD-9)",
+  "mfr": "",
+  "cost": 81600,
+  "mass": 40,
+  "techLevel": 9,
+  "qrebs": "N/A",
+  "image": "",
+  "description": "<p><!-- Summary Start -->Police dress incorporates protections against the hazards encountered in a law enforcement environment.<!-- Summary End --></p>",
+  "accessories": [],
+  "categories": [
+    "protections",
+    "dress"
+  ],
+  "sources": [
+    {
+      "publication": "Traveller 5.10 Core Rules Book 1 : Characters and Combat",
+      "authors": [
+        "Miller, Marc"
+      ],
+      "publisher": {
+        "name": "Far Future Enterprises",
+        "url": "https://farfuture.net"
+      }
+    }
+  ],
+  "tags": [
+    "products",
+    "protections",
+    "dress"
+  ]
+}

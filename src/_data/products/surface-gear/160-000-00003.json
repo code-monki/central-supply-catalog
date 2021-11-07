@@ -1,0 +1,33 @@
+{
+  "sku": "160-000-00003",
+  "type": "surface gear",
+  "subtype": "",
+  "name": "Climbing Gear",
+  "mfr": "",
+  "cost": 75,
+  "mass": 2,
+  "size": 3,
+  "techLevel": 5,
+  "qrebs": "N/A",
+  "image": "",
+  "description": "<p><!-- Summary Start -->Mechanical equipment for climbing sheer surfaces.<!-- Summary End --> Includes sufficient lengths of cable (typically 25m), and typically supports 125Kg. This version has a ratcheted rope gripper which can be moved up a rope, but will not regress down.</p>",
+  "categories": [
+    "surface gear"
+  ],
+  "sources": [
+    {
+      "publication": "Traveller 5.10 Core Rules Book 3 : Worlds and Adventures",
+      "authors": [
+        "Miller, Marc"
+      ],
+      "publisher": {
+        "name": "Far Future Enterprises",
+        "url": "https://farfuture.net"
+      }
+    }
+  ],
+  "tags": [
+    "products",
+    "surface gear"
+  ]
+}

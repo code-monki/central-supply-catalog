@@ -1,0 +1,47 @@
+{
+  "sku": "200-009-00031",
+  "type": "weapons",
+  "subtype": "designators",
+  "name": "Rad Designator, Medium, Improved (ImMRD-9)",
+  "mfr": "",
+  "cost": 52800,
+  "mass": 10,
+  "size": "",
+  "techLevel": 9,
+  "qrebs": "R=4",
+  "damage": "Rad-3",
+  "image": "",
+  "description": "<p><!-- Summary Start -->The rad designator projects radiation at the target to illuminate it for targeting purposes.<!-- Summary End --></p>",
+  "stats": [],
+  "categories": [
+    "weapons",
+    "designators"
+  ],
+  "sources": [
+    {
+      "publication": "Traveller 5.10 Core Rules Book 1 : Characters and Combat",
+      "authors": [
+        "Miller, Marc"
+      ],
+      "publisher": {
+        "name": "Far Future Enterprises",
+        "url": "https://farfuture.net"
+      }
+    },
+    {
+      "publication": "Traveller 5.10 Core Rules Book 3 : Worlds and Adventures",
+      "authors": [
+        "Miller, Marc"
+      ],
+      "publisher": {
+        "name": "Far Future Enterprises",
+        "url": "https://farfuture.net"
+      }
+    }
+  ],
+  "tags": [
+    "products",
+    "weapons",
+    "designators"
+  ]
+}

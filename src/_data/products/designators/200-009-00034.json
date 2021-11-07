@@ -1,0 +1,47 @@
+{
+  "sku": "200-009-00034",
+  "type": "weapons",
+  "subtype": "designators",
+  "name": "EMP Designator, Vlight (VlEmpD-9)",
+  "mfr": "",
+  "cost": 72000,
+  "mass": 6,
+  "size": "",
+  "techLevel": 9,
+  "qrebs": "R=1",
+  "damage": "EMP-1",
+  "image": "",
+  "description": "<p><!-- Summary Start -->The electromagnetic pulse (EMP) designator marks the target with an directed pulse of electromagnetic energy.<!-- Summary End --></p>",
+  "stats": [],
+  "categories": [
+    "weapons",
+    "designators"
+  ],
+  "sources": [
+    {
+      "publication": "Traveller 5.10 Core Rules Book 1 : Characters and Combat",
+      "authors": [
+        "Miller, Marc"
+      ],
+      "publisher": {
+        "name": "Far Future Enterprises",
+        "url": "https://farfuture.net"
+      }
+    },
+    {
+      "publication": "Traveller 5.10 Core Rules Book 3 : Worlds and Adventures",
+      "authors": [
+        "Miller, Marc"
+      ],
+      "publisher": {
+        "name": "Far Future Enterprises",
+        "url": "https://farfuture.net"
+      }
+    }
+  ],
+  "tags": [
+    "products",
+    "weapons",
+    "designators"
+  ]
+}

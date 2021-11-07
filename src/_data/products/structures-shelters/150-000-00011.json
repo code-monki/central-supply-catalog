@@ -1,0 +1,33 @@
+{
+  "sku": "150-000-00011",
+  "type": "structures",
+  "subtype": "",
+  "name": "Tent, (Personal)",
+  "mfr": "",
+  "cost": 200,
+  "mass": 3,
+  "size": 5,
+  "techLevel": 2,
+  "qrebs": "N/A",
+  "image": "",
+  "description": "<p><!-- Summary Start -->Basic shelter for two persons.<!-- Summary End --></p>",
+  "categories": [
+    "structures"
+  ],
+  "sources": [
+    {
+      "publication": "Traveller 5.10 Core Rules Book 3 : Worlds and Adventures",
+      "authors": [
+        "Miller, Marc"
+      ],
+      "publisher": {
+        "name": "Far Future Enterprises",
+        "url": "https://farfuture.net"
+      }
+    }
+  ],
+  "tags": [
+    "products",
+    "structures"
+  ]
+}

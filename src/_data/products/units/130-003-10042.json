@@ -1,0 +1,34 @@
+{
+  "sku": "130-003-10042",
+  "type": "protections",
+  "subtype": "units",
+  "name": "Drop Unit, Modified (ModDU-13)",
+  "cost": 13540,
+  "mass": 216000,
+  "techLevel": 540,
+  "qrebs": "N/A",
+  "image": "",
+  "description": "<p><!-- Summary Start -->Drop units are structured to protect against the extreme temperatures of orbital reentry.<!-- Summary End --></p>",
+  "accessories": [],
+  "categories": [
+    "protections",
+    "units"
+  ],
+  "sources": [
+    {
+      "publication": "Traveller 5.10 Core Rules Book 1 : Characters and Combat",
+      "authors": [
+        "Miller, Marc"
+      ],
+      "publisher": {
+        "name": "Far Future Enterprises",
+        "url": "https://farfuture.net"
+      }
+    }
+  ],
+  "tags": [
+    "products",
+    "protections",
+    "units"
+  ]
+}

@@ -1,0 +1,49 @@
+{
+  "sku": "130-004-00048",
+  "type": "protections",
+  "subtype": "cyberware",
+  "name": "Implanted Inertial Navigation System",
+  "mfr": "",
+  "cost": 10000,
+  "mass": 0.01,
+  "size": "0.01 liters",
+  "techLevel": 11,
+  "qrebs": "N/A",
+  "image": "",
+  "description": "<p><!-- Summary Start -->A cybernetically implanted version of the Inertial Locator and Magnetic Compass.<!-- Summary End --></p><p><strong>NOTE:</strong>An eyeball display must be installed for the implanted inertial navigation system to show data to the user. The navigation system will display current magnetic bearing and will also show the bearing to any of five previously recorded positions.</p>",
+  "categories": [
+    "protections",
+    "cyberware"
+  ],
+  "accessories": [
+    "130-004-00028"
+  ],
+  "sources": [
+    {
+      "publication": "Traveller Wiki: Implanted Inertial Navigation System",
+      "authors": [
+        "Traveller Wiki Editorial Team"
+      ],
+      "publisher": {
+        "name": "Traveller Wiki",
+        "url": "https://wiki.travellerrpg.com/Implanted_inertial_navigation_system"
+      }
+    },
+    {
+      "publication": "Fire, Fusion, & Steel",
+      "authors": [
+        "Chadwick, Frank",
+        "Nilsen, Dave"
+      ],
+      "publisher": {
+        "name": "Game Designers Workshop",
+        "url": ""
+      }
+    }
+  ],
+  "tags": [
+    "products",
+    "protections",
+    "cyberware"
+  ]
+}

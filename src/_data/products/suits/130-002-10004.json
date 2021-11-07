@@ -1,0 +1,34 @@
+{
+  "sku": "130-002-10004",
+  "type": "protections",
+  "subtype": "suits",
+  "name": "Police Suit (PS-5)",
+  "cost": 1700,
+  "mass": 6,
+  "techLevel": 5,
+  "qrebs": "N/A",
+  "image": "",
+  "description": "<p><!-- Summary Start -->Police suits incorporate protections against the hazards encountered in a law enforcement environment.<!-- Summary End --></p>",
+  "accessories": [],
+  "categories": [
+    "protections",
+    "suits"
+  ],
+  "sources": [
+    {
+      "publication": "Traveller 5.10 Core Rules Book 1 : Characters and Combat",
+      "authors": [
+        "Miller, Marc"
+      ],
+      "publisher": {
+        "name": "Far Future Enterprises",
+        "url": "https://farfuture.net"
+      }
+    }
+  ],
+  "tags": [
+    "products",
+    "protections",
+    "suits"
+  ]
+}

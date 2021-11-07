@@ -1,0 +1,47 @@
+{
+  "sku": "200-001-00009",
+  "type": "weapons",
+  "subtype": "blades",
+  "name": "Short Sword (sS)",
+  "mfr": "",
+  "cost": 300,
+  "mass": 3,
+  "size": "",
+  "techLevel": 3,
+  "qrebs": "B= -1",
+  "damage": "Cuts-2",
+  "image": "",
+  "description": "<p><!-- Summary Start -->The short sword is a heavy, double-edged blade between 30cm and 60cm in length.<!-- Summary End --></p>",
+  "stats": [],
+  "categories": [
+    "weapons",
+    "blades"
+  ],
+  "sources": [
+    {
+      "publication": "Traveller 5.10 Core Rules Book 3 : Worlds and Adventures",
+      "authors": [
+        "Miller, Marc"
+      ],
+      "publisher": {
+        "name": "Far Future Enterprises",
+        "url": "https://farfuture.net"
+      }
+    },
+    {
+      "publication": "Wikipedia : Classification of Swords",
+      "authors": [
+        "Various"
+      ],
+      "publisher": {
+        "name": "Wikipedia",
+        "url": "https://en.wikipedia.org/wiki/Classification_of_swords"
+      }
+    }
+  ],
+  "tags": [
+    "products",
+    "weapons",
+    "blades"
+  ]
+}

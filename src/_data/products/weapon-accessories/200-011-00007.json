@@ -1,0 +1,34 @@
+{
+  "sku": "200-011-00007",
+  "type": "weapons",
+  "subtype": "weapon accessory",
+  "name": "Sling, Synthetic",
+  "mfr": "",
+  "cost": 50,
+  "mass": 0.5,
+  "techLevel": 6,
+  "qrebs": "",
+  "image": "",
+  "description": "<p><!-- Summary Start -->A rifle sling made of a synthetic material.<!-- Summary End --></p>",
+  "categories": [
+    "weapons",
+    "weapon accessory"
+  ],
+  "sources": [
+    {
+      "publication": "Central Supply Catalog : Sling, Leather",
+      "authors": [
+        "Charles McKnight"
+      ],
+      "publisher": {
+        "name": "Central Supply Catalog",
+        "url": "https://trav-csc.com/products/200-011-00007"
+      }
+    }
+  ],
+  "tags": [
+    "products",
+    "weapons",
+    "weapon accessory"
+  ]
+}

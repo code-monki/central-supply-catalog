@@ -1,0 +1,35 @@
+{
+  "sku": "030-001-00005",
+  "type": "computers",
+  "subtype": "computer accessory",
+  "name": "Imperial ID",
+  "mfr": "",
+  "cost": 10,
+  "mass": 0,
+  "size": 2,
+  "techLevel": 11,
+  "qrebs": "N/A",
+  "image": "",
+  "description": "<p><!-- Summary Start -->This represents not only the Imperial ID, but also identity or membership cards given out by various organizations such as TAS.<!-- Summary End --> The front carries a hologram of both seal or logo of the issuing Ministry, agency or organization and of the sophont to whom it was issued. In addition an unique identity number and the bearer's name, rank, titles, offices, etc., are found on the front. The back will, on official Imperial ID, show a still photograph, a signature, and some stern legal print. On the inside is a dedicated, hardened, Datalink which holds all of the sophont's vital statistics, medical history, financial information and travel history. The card itself contains sophisticated anti-tampering hard, soft and possibly wetwares.</p><p>Cracking an Imperial ID is a major crime and is Beyond Impossible (Uncertain) to actually achieve safely and without alerting the authorities. Altering the ImpID once it is cracked is a high Imperial crime by itself and carries hefty penalties. For the brave and foolish, the Task is Staggering (Uncertain) if attempted with the correct tools.</p>",
+  "categories": [
+    "computers",
+    "computer accessory"
+  ],
+  "sources": [
+    {
+      "publication": "Traveller 5.10 Core Rules Book 3 : Worlds and Adventures",
+      "authors": [
+        "Miller, Marc"
+      ],
+      "publisher": {
+        "name": "Far Future Enterprises",
+        "url": "https://farfuture.net"
+      }
+    }
+  ],
+  "tags": [
+    "products",
+    "computers",
+    "computer accessory"
+  ]
+}

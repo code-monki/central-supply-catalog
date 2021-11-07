@@ -1,0 +1,35 @@
+{
+  "sku": "130-000-00031",
+  "type": "protections",
+  "subtype": "armor",
+  "name": "Environ Armor, Improved (ImEnvA-11)",
+  "mfr": "",
+  "cost": 33000,
+  "mass": 15,
+  "techLevel": 11,
+  "qrebs": "N/A",
+  "image": "",
+  "description": "<p><!-- Summary Start -->Environment armor includes a variety of protections against normal envronmental conditions.<!-- Summary End --></p>",
+  "accessories": [],
+  "categories": [
+    "protections",
+    "armor"
+  ],
+  "sources": [
+    {
+      "publication": "Traveller 5.10 Core Rules Book 1 : Characters and Combat",
+      "authors": [
+        "Miller, Marc"
+      ],
+      "publisher": {
+        "name": "Far Future Enterprises",
+        "url": "https://farfuture.net"
+      }
+    }
+  ],
+  "tags": [
+    "products",
+    "protections",
+    "armor"
+  ]
+}

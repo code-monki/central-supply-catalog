@@ -1,0 +1,59 @@
+{
+  "sku": "200-003-00031",
+  "type": "weapons",
+  "subtype": "shotguns",
+  "name": "Shotgun, Light, Modified (ModLtS-6)",
+  "mfr": "",
+  "cost": 540,
+  "mass": 2.5,
+  "size": "",
+  "techLevel": 6,
+  "qrebs": "R=1",
+  "damage": "Frag-2",
+  "image": "",
+  "description": "<p><!-- Summary Start -->Modified version of the light shotgun.<!-- Summary End --></p>",
+  "stats": [],
+  "accessories": [
+    "200-011-00001",
+    "200-011-00002",
+    "200-011-00003",
+    "200-011-00004",
+    "200-011-00005",
+    "200-011-00006",
+    "200-011-00007",
+    "200-011-00008",
+    "200-011-00009",
+    "200-010-00032",
+    "200-010-00033"
+  ],
+  "categories": [
+    "weapons"
+  ],
+  "sources": [
+    {
+      "publication": "Traveller 5.10 Core Rules Book 1 : Characters and Combat",
+      "authors": [
+        "Miller, Marc"
+      ],
+      "publisher": {
+        "name": "Far Future Enterprises",
+        "url": "https://farfuture.net"
+      }
+    },
+    {
+      "publication": "Traveller 5.10 Core Rules Book 3 : Worlds and Adventures",
+      "authors": [
+        "Miller, Marc"
+      ],
+      "publisher": {
+        "name": "Far Future Enterprises",
+        "url": "https://farfuture.net"
+      }
+    }
+  ],
+  "tags": [
+    "products",
+    "weapons",
+    "shotgun"
+  ]
+}

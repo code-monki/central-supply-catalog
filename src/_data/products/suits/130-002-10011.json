@@ -1,0 +1,34 @@
+{
+  "sku": "130-002-10011",
+  "type": "protections",
+  "subtype": "suits",
+  "name": "Light Exploration Suit, Light (LtExpS-6)",
+  "cost": 7700,
+  "mass": 7,
+  "techLevel": 6,
+  "qrebs": "N/A",
+  "image": "",
+  "description": "<p><!-- Summary Start -->The exploration suit includes a variety of protections against extreme envronmental conditions.<!-- Summary End --></p>",
+  "accessories": [],
+  "categories": [
+    "protections",
+    "suits"
+  ],
+  "sources": [
+    {
+      "publication": "Traveller 5.10 Core Rules Book 1 : Characters and Combat",
+      "authors": [
+        "Miller, Marc"
+      ],
+      "publisher": {
+        "name": "Far Future Enterprises",
+        "url": "https://farfuture.net"
+      }
+    }
+  ],
+  "tags": [
+    "products",
+    "protections",
+    "suits"
+  ]
+}

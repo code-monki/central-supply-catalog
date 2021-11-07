@@ -1,0 +1,34 @@
+{
+  "sku": "130-002-10014",
+  "type": "protections",
+  "subtype": "suits",
+  "name": "Cold Suit (CS-7)",
+  "cost": 200,
+  "mass": 2,
+  "techLevel": 7,
+  "qrebs": "N/A",
+  "image": "",
+  "description": "<p><!-- Summary Start -->Cold suits provide protection against low environmental temperatures.<!-- Summary End --></p>",
+  "accessories": [],
+  "categories": [
+    "protections",
+    "suits"
+  ],
+  "sources": [
+    {
+      "publication": "Traveller 5.10 Core Rules Book 1 : Characters and Combat",
+      "authors": [
+        "Miller, Marc"
+      ],
+      "publisher": {
+        "name": "Far Future Enterprises",
+        "url": "https://farfuture.net"
+      }
+    }
+  ],
+  "tags": [
+    "products",
+    "protections",
+    "suits"
+  ]
+}

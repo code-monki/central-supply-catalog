@@ -1,0 +1,34 @@
+{
+  "sku": "130-003-10018",
+  "type": "protections",
+  "subtype": "units",
+  "name": "Hostile Environ Unit, Heavy (HHEU-11)",
+  "cost": 960000,
+  "mass": 312,
+  "techLevel": 11,
+  "qrebs": "N/A",
+  "image": "",
+  "description": "<p><!-- Summary Start -->Hostile environment units include a variety of protections against extreme environmental conditions..<!-- Summary End --></p>",
+  "accessories": [],
+  "categories": [
+    "protections",
+    "units"
+  ],
+  "sources": [
+    {
+      "publication": "Traveller 5.10 Core Rules Book 1 : Characters and Combat",
+      "authors": [
+        "Miller, Marc"
+      ],
+      "publisher": {
+        "name": "Far Future Enterprises",
+        "url": "https://farfuture.net"
+      }
+    }
+  ],
+  "tags": [
+    "products",
+    "protections",
+    "units"
+  ]
+}

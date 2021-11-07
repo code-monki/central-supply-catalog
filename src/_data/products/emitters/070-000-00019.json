@@ -1,0 +1,33 @@
+{
+  "sku": "070-000-00019",
+  "type": "emitters",
+  "subtype": "",
+  "name": "Sound Amplifier (Public Address System)",
+  "mfr": "",
+  "cost": 120,
+  "mass": 1,
+  "size": 4,
+  "techLevel": 5,
+  "qrebs": "N/A",
+  "image": "",
+  "description": "<p><!-- Summary Start -->An electronic device that amplifies voice to very long range.<!-- Summary End --></p>",
+  "categories": [
+    "emitters"
+  ],
+  "sources": [
+    {
+      "publication": "Traveller 5.10 Core Rules Book 3 : Worlds and Adventures",
+      "authors": [
+        "Miller, Marc"
+      ],
+      "publisher": {
+        "name": "Far Future Enterprises",
+        "url": "https://farfuture.net"
+      }
+    }
+  ],
+  "tags": [
+    "products",
+    "emitters"
+  ]
+}

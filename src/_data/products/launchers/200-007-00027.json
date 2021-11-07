@@ -1,0 +1,46 @@
+{
+  "sku": "200-007-00027",
+  "type": "weapons",
+  "subtype": "launchers",
+  "name": "Launcher, Obsolete (ObL-10)",
+  "mfr": "",
+  "cost": 500,
+  "mass": 5.6,
+  "size": "",
+  "techLevel": 10,
+  "qrebs": "R=3",
+  "image": "",
+  "description": "<p><!-- Summary Start -->An obsolete launcher.<!-- Summary End --></p>",
+  "stats": [],
+  "categories": [
+    "weapons",
+    "launchers"
+  ],
+  "sources": [
+    {
+      "publication": "Traveller 5.10 Core Rules Book 3 : Worlds and Adventures",
+      "authors": [
+        "Miller, Marc"
+      ],
+      "publisher": {
+        "name": "Far Future Enterprises",
+        "url": "https://farfuture.net"
+      }
+    },
+    {
+      "publication": "Traveller 5.10 Core Rules Book 3 : Worlds and Adventures",
+      "authors": [
+        "Miller, Marc"
+      ],
+      "publisher": {
+        "name": "Far Future Enterprises",
+        "url": "https://farfuture.net"
+      }
+    }
+  ],
+  "tags": [
+    "products",
+    "weapons",
+    "launchers"
+  ]
+}

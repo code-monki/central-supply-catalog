@@ -1,0 +1,33 @@
+{
+  "sku": "100-000-00022",
+  "type": "drugs medical",
+  "subtype": "",
+  "name": "Painkiller",
+  "mfr": "",
+  "cost": 10,
+  "mass": 0,
+  "size": 1,
+  "techLevel": 7,
+  "qrebs": "N/A",
+  "image": "",
+  "description": "<p><!-- Summary Start -->Masks damage caused by injury from the patient for 1D hours.<!-- Summary End --> The damage is still there, but the patient can perform tasks as if damage were 0. When the painkiller wears off, the patient's internal clock advances to its \"rest\" period, and suffers fatigue until appropriate rest is taken.</p>",
+  "categories": [
+    "drugs medical"
+  ],
+  "sources": [
+    {
+      "publication": "Traveller 5.10 Core Rules Book 3 : Worlds and Adventures",
+      "authors": [
+        "Miller, Marc"
+      ],
+      "publisher": {
+        "name": "Far Future Enterprises",
+        "url": "https://farfuture.net"
+      }
+    }
+  ],
+  "tags": [
+    "products",
+    "drugs medical"
+  ]
+}

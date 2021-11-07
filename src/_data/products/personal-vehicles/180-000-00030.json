@@ -1,0 +1,76 @@
+{
+  "sku": "180-000-00030",
+  "type": "vehicles",
+  "subtype": "military",
+  "name": "Supply Carrier, Military, Tracked (MCS-T)",
+  "mfr": "",
+  "cost": 3020000,
+  "displacement": 13,
+  "techLevel": 11,
+  "qrebs": "N/A",
+  "image": "",
+  "description": "<p><!-- Summary Start -->Standard military tracked supply carrier.<!-- Summary End --></p>",
+  "stats": [
+    {
+      "label": "Speed",
+      "value": 3
+    },
+    {
+      "label": "Load",
+      "value": 3
+    },
+    {
+      "label": "Armor",
+      "value": 100
+    },
+    {
+      "label": "Cage",
+      "value": 40
+    },
+    {
+      "label": "FlashProof",
+      "value": 50
+    },
+    {
+      "label": "RadProof",
+      "value": 51
+    },
+    {
+      "label": "SoundProof",
+      "value": 63
+    },
+    {
+      "label": "PsiShield",
+      "value": 0
+    },
+    {
+      "label": "Insulated",
+      "value": 61
+    },
+    {
+      "label": "Sealed",
+      "value": 71
+    }
+  ],
+  "categories": [
+    "vehicles",
+    "military"
+  ],
+  "sources": [
+    {
+      "publication": "Traveller 5.10 Core Rules Book 3 : Worlds and Adventures",
+      "authors": [
+        "Miller, Marc"
+      ],
+      "publisher": {
+        "name": "Far Future Enterprises",
+        "url": "https://farfuture.net"
+      }
+    }
+  ],
+  "tags": [
+    "products",
+    "vehicles",
+    "military"
+  ]
+}

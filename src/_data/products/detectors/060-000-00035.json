@@ -1,0 +1,33 @@
+{
+  "sku": "060-000-00035",
+  "type": "detectors",
+  "subtype": "",
+  "name": "Watch (TL 7)",
+  "mfr": "",
+  "cost": 25,
+  "mass": 0.1,
+  "size": 1,
+  "techLevel": 7,
+  "qrebs": "N/A",
+  "image": "",
+  "description": "<p><!-- Summary Start -->A chronometer worn on the wrist or carried in the pocket.<!-- Summary End -->This device is waterproof to a depth of 3 (TL - 4) and includes the following functions</p><p><ul><li>Alarm</li><li>Calculator</li><li>Chronograph</li><li>Chronometer</li><li>Pedwatch</li></ul></p>",
+  "categories": [
+    "detectors"
+  ],
+  "sources": [
+    {
+      "publication": "Traveller 5.10 Core Rules Book 3 : Worlds and Adventures",
+      "authors": [
+        "Miller, Marc"
+      ],
+      "publisher": {
+        "name": "Far Future Enterprises",
+        "url": "https://farfuture.net"
+      }
+    }
+  ],
+  "tags": [
+    "products",
+    "detectors"
+  ]
+}

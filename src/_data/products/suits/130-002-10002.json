@@ -1,0 +1,34 @@
+{
+  "sku": "130-002-10002",
+  "type": "protections",
+  "subtype": "suits",
+  "name": "Hazmat Suit, Early (EHazS-4)",
+  "cost": 10800,
+  "mass": 22,
+  "techLevel": 4,
+  "qrebs": "N/A",
+  "image": "",
+  "description": "<p><!-- Summary Start -->HazMat suits include a variety of protections against hazardous materials in the environment.<!-- Summary End --></p>",
+  "accessories": [],
+  "categories": [
+    "protections",
+    "suits"
+  ],
+  "sources": [
+    {
+      "publication": "Traveller 5.10 Core Rules Book 1 : Characters and Combat",
+      "authors": [
+        "Miller, Marc"
+      ],
+      "publisher": {
+        "name": "Far Future Enterprises",
+        "url": "https://farfuture.net"
+      }
+    }
+  ],
+  "tags": [
+    "products",
+    "protections",
+    "suits"
+  ]
+}

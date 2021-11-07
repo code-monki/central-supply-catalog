@@ -1,0 +1,32 @@
+{
+  "sku": "010-000-00013",
+  "type": "breathing apparatus",
+  "subtype": "",
+  "name": "Filter Mask (TL 8)",
+  "cost": 40,
+  "mass": 1,
+  "size": 3,
+  "techLevel": 8,
+  "qrebs": "N/A",
+  "image": "",
+  "description": "<p><!-- Summary Start -->The filter mask is a breathing filter which protects against taint in Air-7 and Air-9 and is effective only against T (Poison).<!-- Summary End --></p>",
+  "categories": [
+    "breathing-apparatus"
+  ],
+  "sources": [
+    {
+      "publication": "Traveller 5.10 Core Rules Book 3 : Worlds and Adventures",
+      "authors": [
+        "Miller, Marc"
+      ],
+      "publisher": {
+        "name": "Far Future Enterprises",
+        "url": "https://farfuture.net"
+      }
+    }
+  ],
+  "tags": [
+    "products",
+    "breathing-apparatus"
+  ]
+}

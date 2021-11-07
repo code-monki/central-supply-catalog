@@ -1,0 +1,46 @@
+{
+  "sku": "200-007-00017",
+  "type": "weapons",
+  "subtype": "launchers",
+  "name": "Launcher, Modified (ModL-8)",
+  "mfr": "",
+  "cost": 1200,
+  "mass": 7.2,
+  "size": "",
+  "techLevel": 8,
+  "qrebs": "R=3",
+  "image": "",
+  "description": "<p><!-- Summary Start -->A modified launcher.<!-- Summary End --></p>",
+  "stats": [],
+  "categories": [
+    "weapons",
+    "launchers"
+  ],
+  "sources": [
+    {
+      "publication": "Traveller 5.10 Core Rules Book 3 : Worlds and Adventures",
+      "authors": [
+        "Miller, Marc"
+      ],
+      "publisher": {
+        "name": "Far Future Enterprises",
+        "url": "https://farfuture.net"
+      }
+    },
+    {
+      "publication": "Traveller 5.10 Core Rules Book 3 : Worlds and Adventures",
+      "authors": [
+        "Miller, Marc"
+      ],
+      "publisher": {
+        "name": "Far Future Enterprises",
+        "url": "https://farfuture.net"
+      }
+    }
+  ],
+  "tags": [
+    "products",
+    "weapons",
+    "launchers"
+  ]
+}

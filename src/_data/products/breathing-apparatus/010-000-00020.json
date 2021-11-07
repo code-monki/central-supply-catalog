@@ -1,0 +1,32 @@
+{
+  "sku": "010-000-00020",
+  "type": "breathing apparatus",
+  "subtype": "",
+  "name": "Surface Water Tank",
+  "cost": 1000,
+  "mass": 4,
+  "size": 3,
+  "techLevel": 8,
+  "qrebs": "N/A",
+  "image": "",
+  "description": "<p><!-- Summary Start -->Similar in concept to air storage units, surface &ldquo;water tanks&rdquo; are for water-breathing sophonts, and may include pumps, circulators, air mixers, etc.<!-- Summary End --></p>",
+  "categories": [
+    "breathing-apparatus"
+  ],
+  "sources": [
+    {
+      "publication": "Traveller 5.10 Core Rules Book 3 : Worlds and Adventures",
+      "authors": [
+        "Miller, Marc"
+      ],
+      "publisher": {
+        "name": "Far Future Enterprises",
+        "url": "https://farfuture.net"
+      }
+    }
+  ],
+  "tags": [
+    "products",
+    "breathing-apparatus"
+  ]
+}

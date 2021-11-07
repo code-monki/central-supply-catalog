@@ -1,0 +1,65 @@
+{
+  "sku": "200-005-00025",
+  "type": "weapons",
+  "subtype": "long guns",
+  "name": "Accelerator Rifle, Medium, Prototype (PMAcR-8)",
+  "mfr": "",
+  "cost": 8100,
+  "mass": 4.5,
+  "size": "",
+  "techLevel": 8,
+  "qrebs": "R=4",
+  "damage": "Bullet-4",
+  "image": "",
+  "description": "<p><!-- Summary Start -->Prototype version of the medium accelerator rifle.<!-- Summary End --> The weapon fires a projectile at a low initial velocity; after it leaves the barrel, an internal charge accelerates the bullet to greater velocities. Accelerator weapons have low recoil and are well adapted to zero-G environments.</p>",
+  "stats": [],
+  "accessories": [
+    "200-011-00001",
+    "200-011-00002",
+    "200-011-00003",
+    "200-011-00004",
+    "200-011-00005",
+    "200-011-00006",
+    "200-011-00007",
+    "200-011-00014",
+    "200-011-00015",
+    "200-011-00016",
+    "200-010-00012",
+    "200-010-00013",
+    "200-010-00014",
+    "200-010-00015"
+  ],
+  "categories": [
+    "weapons",
+    "long guns",
+    "rifle"
+  ],
+  "sources": [
+    {
+      "publication": "Traveller 5.10 Core Rules Book 1 : Characters and Combat",
+      "authors": [
+        "Miller, Marc"
+      ],
+      "publisher": {
+        "name": "Far Future Enterprises",
+        "url": "https://farfuture.net"
+      }
+    },
+    {
+      "publication": "Traveller 5.10 Core Rules Book 3 : Worlds and Adventures",
+      "authors": [
+        "Miller, Marc"
+      ],
+      "publisher": {
+        "name": "Far Future Enterprises",
+        "url": "https://farfuture.net"
+      }
+    }
+  ],
+  "tags": [
+    "products",
+    "weapons",
+    "long guns",
+    "rifle"
+  ]
+}

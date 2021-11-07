@@ -1,0 +1,64 @@
+{
+  "sku": "200-005-00037",
+  "type": "weapons",
+  "subtype": "long guns",
+  "name": "Anti-Designator Splat Rifle, Alternate (AltaDSpR-11)",
+  "mfr": "",
+  "cost": 3960,
+  "mass": 17,
+  "size": "",
+  "techLevel": 11,
+  "qrebs": "R=6",
+  "damage": "Bullet-6",
+  "image": "",
+  "description": "<p><!-- Summary Start -->Alternate version of the anti-designator splat rifle.<!-- Summary End --> The weapon is a multi-barrel slightly diverging configuration. Each barrel is loaded with several projectiles and their associated propellants. Each pull of the trigger fires one round from each of the barrels.</p>",
+  "stats": [],
+  "accessories": [
+    "200-011-00001",
+    "200-011-00002",
+    "200-011-00003",
+    "200-011-00004",
+    "200-011-00005",
+    "200-011-00006",
+    "200-011-00007",
+    "200-010-00002",
+    "200-010-00003",
+    "200-010-00004",
+    "200-010-00005",
+    "200-010-00006",
+    "200-010-00007"
+  ],
+  "categories": [
+    "weapons",
+    "long guns",
+    "rifle"
+  ],
+  "sources": [
+    {
+      "publication": "Traveller 5.10 Core Rules Book 1 : Characters and Combat",
+      "authors": [
+        "Miller, Marc"
+      ],
+      "publisher": {
+        "name": "Far Future Enterprises",
+        "url": "https://farfuture.net"
+      }
+    },
+    {
+      "publication": "Traveller 5.10 Core Rules Book 3 : Worlds and Adventures",
+      "authors": [
+        "Miller, Marc"
+      ],
+      "publisher": {
+        "name": "Far Future Enterprises",
+        "url": "https://farfuture.net"
+      }
+    }
+  ],
+  "tags": [
+    "products",
+    "weapons",
+    "long guns",
+    "rifle"
+  ]
+}

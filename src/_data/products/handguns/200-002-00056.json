@@ -1,0 +1,56 @@
+{
+  "sku": "200-002-00056",
+  "type": "weapons",
+  "subtype": "handguns",
+  "name": "Laser Revolver, Disposable, Obsolete (ObDLRe-16)",
+  "mfr": "",
+  "cost": 200,
+  "mass": 0.9,
+  "size": "",
+  "techLevel": 16,
+  "qrebs": "R=2",
+  "damage": "Pen-2, Burn-4",
+  "image": "",
+  "description": "<p><!-- Summary Start -->Obsolete version of the laser revolver.<!-- Summary End --> This weapon fires a coherent beam of photons and is powered by an on-board cell. This version is constructed of relatively inexpensive materials and has a working lifetime measured in days.</p>",
+  "stats": [],
+  "accessories": [
+    "200-011-00001",
+    "200-011-00002",
+    "200-011-00003",
+    "200-011-00004",
+    "200-011-00005"
+  ],
+  "categories": [
+    "weapons",
+    "handguns",
+    "revolver"
+  ],
+  "sources": [
+    {
+      "publication": "Traveller 5.10 Core Rules Book 1 : Characters and Combat",
+      "authors": [
+        "Miller, Marc"
+      ],
+      "publisher": {
+        "name": "Far Future Enterprises",
+        "url": "https://farfuture.net"
+      }
+    },
+    {
+      "publication": "Traveller 5.10 Core Rules Book 3 : Worlds and Adventures",
+      "authors": [
+        "Miller, Marc"
+      ],
+      "publisher": {
+        "name": "Far Future Enterprises",
+        "url": "https://farfuture.net"
+      }
+    }
+  ],
+  "tags": [
+    "products",
+    "weapons",
+    "handguns",
+    "revolver"
+  ]
+}

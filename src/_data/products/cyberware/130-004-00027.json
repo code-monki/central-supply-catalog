@@ -1,0 +1,46 @@
+{
+  "sku": "130-004-00027",
+  "type": "protections",
+  "subtype": "cyberware",
+  "name": "Cybernetic Eye, Eyeball Display (TL-11)",
+  "mfr": "",
+  "cost": 10000,
+  "mass": 0.06,
+  "size": "0.06 liters",
+  "techLevel": 11,
+  "qrebs": "N/A",
+  "image": "",
+  "description": "<p><!-- Summary Start -->The eyeball display allows the project of information in readable form in the user's field of vision, very much like a heads-up display (HUD) of a fighter aircraft.<!-- Summary End --> It is particularly useful if a computer implant is used, but can is also useful with chronometer or inertial navigation implants. This version of the cybernetic eye has a single-function and is easily recognizable as a mechanical implant.</p><p> In all cases, the cyber eye also includes basic visible light vision. For Sophonts with different visual ranges the basic cyber eye will cover their normal visual range.</p>",
+  "categories": [
+    "protections",
+    "cyberware"
+  ],
+  "sources": [
+    {
+      "publication": "Traveller Wiki: Cybernetic Eyes",
+      "authors": [
+        "Traveller Wiki Editorial Team"
+      ],
+      "publisher": {
+        "name": "Traveller Wiki",
+        "url": "https://wiki.travellerrpg.com/Cybernetic_eyes"
+      }
+    },
+    {
+      "publication": "Fire, Fusion, & Steel",
+      "authors": [
+        "Chadwick, Frank",
+        "Nilsen, Dave"
+      ],
+      "publisher": {
+        "name": "Game Designers Workshop",
+        "url": ""
+      }
+    }
+  ],
+  "tags": [
+    "products",
+    "protections",
+    "cyberware"
+  ]
+}

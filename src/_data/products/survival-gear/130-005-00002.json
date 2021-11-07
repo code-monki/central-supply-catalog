@@ -1,0 +1,33 @@
+{
+  "sku": "130-005-00002",
+  "type": "survival gear",
+  "subtype": "",
+  "name": "Fire Suppressor",
+  "mfr": "",
+  "cost": 10,
+  "mass": 3,
+  "size": 4,
+  "techLevel": 7,
+  "qrebs": "N/A",
+  "image": "",
+  "description": "<p><!-- Summary Start -->Various types of fire extinguishers.<!-- Summary End --> Most often found as compressed gas tanks that operate either by spraying a heavy gas or a foaming agent. Higher TL versions may utilize more radical methods to extinguish a fire. It should also be noted that some classes of fire, such as electrical or chemical fires, require a specific type suppressant in order to extinguish them.</p>",
+  "categories": [
+    "survival gear"
+  ],
+  "sources": [
+    {
+      "publication": "Traveller 5.10 Core Rules Book 3 : Worlds and Adventures",
+      "authors": [
+        "Miller, Marc"
+      ],
+      "publisher": {
+        "name": "Far Future Enterprises",
+        "url": "https://farfuture.net"
+      }
+    }
+  ],
+  "tags": [
+    "products",
+    "survival gear"
+  ]
+}

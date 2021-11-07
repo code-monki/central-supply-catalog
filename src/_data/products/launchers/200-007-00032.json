@@ -1,0 +1,47 @@
+{
+  "sku": "200-007-00032",
+  "type": "weapons",
+  "subtype": "launchers",
+  "name": "AF Missile Launcher, Vlight (VlaFL-11)",
+  "mfr": "",
+  "cost": 27000,
+  "mass": 19,
+  "size": "",
+  "techLevel": 11,
+  "qrebs": "R=5",
+  "damage": "Blast-3, Frag-2",
+  "image": "",
+  "description": "<p><!-- Summary Start -->A very light anti-flyer missile launcher.<!-- Summary End --></p>",
+  "stats": [],
+  "categories": [
+    "weapons",
+    "launchers"
+  ],
+  "sources": [
+    {
+      "publication": "Traveller 5.10 Core Rules Book 3 : Worlds and Adventures",
+      "authors": [
+        "Miller, Marc"
+      ],
+      "publisher": {
+        "name": "Far Future Enterprises",
+        "url": "https://farfuture.net"
+      }
+    },
+    {
+      "publication": "Traveller 5.10 Core Rules Book 3 : Worlds and Adventures",
+      "authors": [
+        "Miller, Marc"
+      ],
+      "publisher": {
+        "name": "Far Future Enterprises",
+        "url": "https://farfuture.net"
+      }
+    }
+  ],
+  "tags": [
+    "products",
+    "weapons",
+    "launchers"
+  ]
+}

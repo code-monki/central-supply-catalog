@@ -1,0 +1,33 @@
+{
+  "sku": "050-000-00013",
+  "type": "containers",
+  "subtype": "",
+  "name": "Flask",
+  "mfr": "",
+  "cost": 5,
+  "mass": 0.3,
+  "size": 3,
+  "techLevel": 3,
+  "qrebs": "N/A",
+  "image": "",
+  "description": "<p><!-- Summary Start -->A small metal or glass container holding up to one half liter of liquids.<!-- Summary End --></p>",
+  "categories": [
+    "containers"
+  ],
+  "sources": [
+    {
+      "publication": "Traveller 5.10 Core Rules Book 3 : Worlds and Adventures",
+      "authors": [
+        "Miller, Marc"
+      ],
+      "publisher": {
+        "name": "Far Future Enterprises",
+        "url": "https://farfuture.net"
+      }
+    }
+  ],
+  "tags": [
+    "products",
+    "containers"
+  ]
+}

@@ -1,0 +1,33 @@
+{
+  "sku": "100-000-00036",
+  "type": "drugs medical",
+  "subtype": "",
+  "name": "Vaccine",
+  "mfr": "",
+  "cost": 20,
+  "mass": 0,
+  "size": 1,
+  "techLevel": 10,
+  "qrebs": "N/A",
+  "image": "",
+  "description": "<p><!-- Summary Start -->Prevents illness.<!-- Summary End --> If administered once per year, a vaccine can reduce both the chance of contracting a disease and the severity of any disease caught. Protects the patient from a family of similar diseases on the world where they occur.</p>",
+  "categories": [
+    "drugs medical"
+  ],
+  "sources": [
+    {
+      "publication": "Traveller 5.10 Core Rules Book 3 : Worlds and Adventures",
+      "authors": [
+        "Miller, Marc"
+      ],
+      "publisher": {
+        "name": "Far Future Enterprises",
+        "url": "https://farfuture.net"
+      }
+    }
+  ],
+  "tags": [
+    "products",
+    "drugs medical"
+  ]
+}

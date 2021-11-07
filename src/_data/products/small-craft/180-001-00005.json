@@ -1,0 +1,75 @@
+{
+  "sku": "180-001-00005",
+  "type": "vehicles",
+  "subtype": "small craft",
+  "name": "Launch, Slow (LS)",
+  "mfr": "",
+  "cost": 7000000,
+  "displacement": 20,
+  "techLevel": 11,
+  "qrebs": "N/A",
+  "image": "",
+  "description": "<p><!-- Summary Start -->Small multi-purpose craft capable of landing on worlds.<!-- Summary End --></p>",
+  "stats": [
+    {
+      "label": "Speed",
+      "value": 1
+    },
+    {
+      "label": "Load",
+      "value": 15
+    },
+    {
+      "label": "Armor",
+      "value": 20
+    },
+    {
+      "label": "Cage",
+      "value": 10
+    },
+    {
+      "label": "FlashProof",
+      "value": 10
+    },
+    {
+      "label": "RadProof",
+      "value": 10
+    },
+    {
+      "label": "SoundProof",
+      "value": 10
+    },
+    {
+      "label": "PsiShield",
+      "value": 10
+    },
+    {
+      "label": "Insulated",
+      "value": 10
+    },
+    {
+      "label": "Sealed",
+      "value": 20
+    }
+  ],
+  "categories": [
+    "vehicles"
+  ],
+  "sources": [
+    {
+      "publication": "Traveller 5.10 Core Rules Book 3 : Worlds and Adventures",
+      "authors": [
+        "Miller, Marc"
+      ],
+      "publisher": {
+        "name": "Far Future Enterprises",
+        "url": "https://farfuture.net"
+      }
+    }
+  ],
+  "tags": [
+    "products",
+    "vehicles",
+    "small craft"
+  ]
+}

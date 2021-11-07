@@ -1,0 +1,46 @@
+{
+  "sku": "130-004-00010",
+  "type": "protections",
+  "subtype": "cyberware",
+  "name": "Synthetic G-I Tract",
+  "mfr": "",
+  "cost": 80000,
+  "mass": 3.5,
+  "size": "5 liters",
+  "techLevel": 8,
+  "qrebs": "N/A",
+  "image": "",
+  "description": "<p><!-- Summary Start -->The Synthetic G-I Tract replaces the small intestine, the large intestine and the mesentery with a composite system of filters and biochemical processing chambers that mimic the usual intestinal processes.<!-- Summary End --> Individuals equipped with this system also undergo a rectal replacement that means feces are no longer produced. Instead, a solid, odorless pellet is produced that can be easily and discreetly ejected.</p><p>It may be connected to a Cybernetic Stomach and a Synthetic Liver to completely replace an individual's digestive system. The system may be enhanced with a toxin Filter, ingested material can be filtered to remove toxins that would cause harm if they were passed into the bloodstream, making the individual immune to all ingested poisons.</p><p>The exact size and dimensions of the G-I Tract are tailored to match the physical characteristics of the recipient. It is powered by tiny thermoelectric generators that produce the needed electrical power from body heat and from chemical reactions.The various parts of the G-I Tract, including elements such as the casings, sacs, microelectronics, and connections to the circulatory system are made with biocompatible materials. These may include metal alloys, carbon nanotubes, silicon gels, and layered polymers.</p><p>Similar devices have been in use since the days of the First Imperium. They reached their modern form through Terran medical advances achieved during the Interstellar Wars period.</p>",
+  "categories": [
+    "protections",
+    "cyberware"
+  ],
+  "sources": [
+    {
+      "publication": "Traveller Wiki: Synthetic G-I Tract",
+      "authors": [
+        "Lord (Marquis) and Master Scout Emeritus Adie Alegoric Stewart of the IISS"
+      ],
+      "publisher": {
+        "name": "Traveller Wiki",
+        "url": "https://wiki.travellerrpg.com/Synthetic_G-I_Tract"
+      }
+    },
+    {
+      "publication": "Cybernetics",
+      "authors": [
+        "Nash, Pete",
+        "Robinson, Nick"
+      ],
+      "publisher": {
+        "name": "Mongoose Publishing",
+        "url": "https://www.mongoosepublishing.com/"
+      }
+    }
+  ],
+  "tags": [
+    "products",
+    "protections",
+    "cyberware"
+  ]
+}

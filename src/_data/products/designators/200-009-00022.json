@@ -1,0 +1,46 @@
+{
+  "sku": "200-009-00022",
+  "type": "weapons",
+  "subtype": "designators",
+  "name": "Designator, Disposable, Experimental (XDD-8))",
+  "mfr": "",
+  "cost": 16000,
+  "mass": 18,
+  "size": "",
+  "techLevel": 8,
+  "qrebs": "R=4",
+  "image": "",
+  "description": "<p><!-- Summary Start -->The disposable designator marks the target for attack.<!-- Summary End --> This version is constructed of relatively inexpensive materials and has a working lifetime measured in days.</p>",
+  "stats": [],
+  "categories": [
+    "weapons",
+    "designators"
+  ],
+  "sources": [
+    {
+      "publication": "Traveller 5.10 Core Rules Book 1 : Characters and Combat",
+      "authors": [
+        "Miller, Marc"
+      ],
+      "publisher": {
+        "name": "Far Future Enterprises",
+        "url": "https://farfuture.net"
+      }
+    },
+    {
+      "publication": "Traveller 5.10 Core Rules Book 3 : Worlds and Adventures",
+      "authors": [
+        "Miller, Marc"
+      ],
+      "publisher": {
+        "name": "Far Future Enterprises",
+        "url": "https://farfuture.net"
+      }
+    }
+  ],
+  "tags": [
+    "products",
+    "weapons",
+    "designators"
+  ]
+}

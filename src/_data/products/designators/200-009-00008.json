@@ -1,0 +1,46 @@
+{
+  "sku": "200-009-00008",
+  "type": "weapons",
+  "subtype": "designators",
+  "name": "Basic Designator (BD-7)",
+  "mfr": "",
+  "cost": 1400,
+  "mass": 13,
+  "size": "",
+  "techLevel": 7,
+  "qrebs": "R=5",
+  "image": "",
+  "description": "<p><!-- Summary Start -->The basic designator marks a target for attack.<!-- Summary End --></p>",
+  "stats": [],
+  "categories": [
+    "weapons",
+    "designators"
+  ],
+  "sources": [
+    {
+      "publication": "Traveller 5.10 Core Rules Book 1 : Characters and Combat",
+      "authors": [
+        "Miller, Marc"
+      ],
+      "publisher": {
+        "name": "Far Future Enterprises",
+        "url": "https://farfuture.net"
+      }
+    },
+    {
+      "publication": "Traveller 5.10 Core Rules Book 3 : Worlds and Adventures",
+      "authors": [
+        "Miller, Marc"
+      ],
+      "publisher": {
+        "name": "Far Future Enterprises",
+        "url": "https://farfuture.net"
+      }
+    }
+  ],
+  "tags": [
+    "products",
+    "weapons",
+    "designators"
+  ]
+}

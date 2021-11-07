@@ -1,0 +1,36 @@
+{
+  "sku": "130-000-00005",
+  "type": "protections",
+  "subtype": "armor",
+  "name": "Combat Armor",
+  "mfr": "",
+  "cost": 80000,
+  "mass": 60,
+  "size": 5,
+  "techLevel": 11,
+  "qrebs": "N/A",
+  "image": "",
+  "description": "<p><!-- Summary Start -->Combat Armor is intended for medium-term operations (days) against an enemy force.<!-- Summary End --> Ar 28 (MgT 15).</p>",
+  "accessories": [],
+  "categories": [
+    "protections",
+    "armor"
+  ],
+  "sources": [
+    {
+      "publication": "Traveller 5.10 Core Rules Book 3 : Worlds and Adventures",
+      "authors": [
+        "Miller, Marc"
+      ],
+      "publisher": {
+        "name": "Far Future Enterprises",
+        "url": "https://farfuture.net"
+      }
+    }
+  ],
+  "tags": [
+    "products",
+    "protections",
+    "armor"
+  ]
+}

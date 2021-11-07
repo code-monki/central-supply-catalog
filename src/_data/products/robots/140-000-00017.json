@@ -1,0 +1,43 @@
+{
+  "sku": "140-000-00017",
+  "type": "robots",
+  "subtype": "",
+  "name": "63MEK49 class Ship Service Bot",
+  "mfr": "016",
+  "cost": 2103749,
+  "mass": 1086,
+  "techLevel": 15,
+  "qrebs": "N/A",
+  "image": "",
+  "description": "<p><!-- Summary Start -->The Star Servants model 63MEK49 is a heavy-duty grav-powered model, capable of cutting, welding, and even removing complete hull plates.<!-- Summary End --> It was common in military installations but could be found in many civilian starports as well. Its highly flexible tentacle/arm contains an optic sensor and a light source for detailed repairs inside of electronic components or control assemblies. A cutting/welding torch is built into its right arm.</p>",
+  "categories": [
+    "robots"
+  ],
+  "sources": [
+    {
+      "publication": "Traveller Wiki : 63MEK49 class Ship Service Bot",
+      "authors": [
+        "Traveller Wiki Editorial Team",
+        "Lord (Marquis) and Master of Sophontology Maksim-Smelchak of the Ministry of Science"
+      ],
+      "publisher": {
+        "name": "Traveller Wiki",
+        "url": "https://wiki.travellerrpg.com/63MEK49_class_Ship_Service_Bot"
+      }
+    },
+    {
+      "publication": "Traveller: The New Era: Vampire Fleets",
+      "authors": [
+        "Chadwick, Frank"
+      ],
+      "publisher": {
+        "name": "Game Designers Workshop",
+        "url": ""
+      }
+    }
+  ],
+  "tags": [
+    "products",
+    "robots"
+  ]
+}

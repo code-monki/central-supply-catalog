@@ -1,0 +1,64 @@
+{
+  "sku": "200-005-00008",
+  "type": "weapons",
+  "subtype": "long guns",
+  "name": "Dart Rifle, Medium, Experimental (XMDR-4)",
+  "mfr": "",
+  "cost": 5400,
+  "mass": 4.8,
+  "size": "",
+  "techLevel": 4,
+  "qrebs": "R=3",
+  "damage": "Tranq-1, Bullet-2",
+  "image": "",
+  "description": "<p><!-- Summary Start -->Experimental version of the medium dart rifle.<!-- Summary End --> The dart rifle fires a small injector projectile which on contact injects a Tranq dose into the target.</p>",
+  "stats": [],
+  "accessories": [
+    "200-011-00001",
+    "200-011-00002",
+    "200-011-00003",
+    "200-011-00004",
+    "200-011-00005",
+    "200-011-00006",
+    "200-011-00007",
+    "200-011-00014",
+    "200-011-00015",
+    "200-011-00016",
+    "200-010-00012",
+    "200-010-00013",
+    "200-010-00014"
+  ],
+  "categories": [
+    "weapons",
+    "long guns",
+    "rifle"
+  ],
+  "sources": [
+    {
+      "publication": "Traveller 5.10 Core Rules Book 1 : Characters and Combat",
+      "authors": [
+        "Miller, Marc"
+      ],
+      "publisher": {
+        "name": "Far Future Enterprises",
+        "url": "https://farfuture.net"
+      }
+    },
+    {
+      "publication": "Traveller 5.10 Core Rules Book 3 : Worlds and Adventures",
+      "authors": [
+        "Miller, Marc"
+      ],
+      "publisher": {
+        "name": "Far Future Enterprises",
+        "url": "https://farfuture.net"
+      }
+    }
+  ],
+  "tags": [
+    "products",
+    "weapons",
+    "long guns",
+    "rifle"
+  ]
+}

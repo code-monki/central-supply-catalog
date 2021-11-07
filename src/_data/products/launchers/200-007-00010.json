@@ -1,0 +1,47 @@
+{
+  "sku": "200-007-00010",
+  "type": "weapons",
+  "subtype": "launchers",
+  "name": "Rocket Multi-Launcher, Crewed, Prototype (PRmLC-6)",
+  "mfr": "",
+  "cost": 9000,
+  "mass": 57,
+  "size": "",
+  "techLevel": 6,
+  "qrebs": "R=4",
+  "damage": "Pen-2, Frag-3",
+  "image": "",
+  "description": "<p><!-- Summary Start -->A prototype of a crewed rocket multi-launcher.<!-- Summary End --></p>",
+  "stats": [],
+  "categories": [
+    "weapons",
+    "launchers"
+  ],
+  "sources": [
+    {
+      "publication": "Traveller 5.10 Core Rules Book 3 : Worlds and Adventures",
+      "authors": [
+        "Miller, Marc"
+      ],
+      "publisher": {
+        "name": "Far Future Enterprises",
+        "url": "https://farfuture.net"
+      }
+    },
+    {
+      "publication": "Traveller 5.10 Core Rules Book 3 : Worlds and Adventures",
+      "authors": [
+        "Miller, Marc"
+      ],
+      "publisher": {
+        "name": "Far Future Enterprises",
+        "url": "https://farfuture.net"
+      }
+    }
+  ],
+  "tags": [
+    "products",
+    "weapons",
+    "launchers"
+  ]
+}

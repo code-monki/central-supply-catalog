@@ -1,0 +1,34 @@
+{
+  "sku": "130-003-10051",
+  "type": "protections",
+  "subtype": "units",
+  "name": "Battle Unit, Advanced Medium (AMBU-15)",
+  "cost": 600000,
+  "mass": 400,
+  "techLevel": 15,
+  "qrebs": "N/A",
+  "image": "",
+  "description": "<p><!-- Summary Start -->Battle units incorporate protections against most dangers, attacks, and threats on the battlefield.<!-- Summary End --></p>",
+  "accessories": [],
+  "categories": [
+    "protections",
+    "units"
+  ],
+  "sources": [
+    {
+      "publication": "Traveller 5.10 Core Rules Book 1 : Characters and Combat",
+      "authors": [
+        "Miller, Marc"
+      ],
+      "publisher": {
+        "name": "Far Future Enterprises",
+        "url": "https://farfuture.net"
+      }
+    }
+  ],
+  "tags": [
+    "products",
+    "protections",
+    "units"
+  ]
+}

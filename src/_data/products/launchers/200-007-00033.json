@@ -1,0 +1,47 @@
+{
+  "sku": "200-007-00033",
+  "type": "weapons",
+  "subtype": "launchers",
+  "name": "AT Missile Multi-Launcher (aTmL-11)",
+  "mfr": "",
+  "cost": 6000,
+  "mass": 10,
+  "size": "",
+  "techLevel": 11,
+  "qrebs": "R=4",
+  "damage": "Pen-3, Frag-3",
+  "image": "",
+  "description": "<p><!-- Summary Start -->An anti-tank missile multi-launcher.<!-- Summary End --></p>",
+  "stats": [],
+  "categories": [
+    "weapons",
+    "launchers"
+  ],
+  "sources": [
+    {
+      "publication": "Traveller 5.10 Core Rules Book 3 : Worlds and Adventures",
+      "authors": [
+        "Miller, Marc"
+      ],
+      "publisher": {
+        "name": "Far Future Enterprises",
+        "url": "https://farfuture.net"
+      }
+    },
+    {
+      "publication": "Traveller 5.10 Core Rules Book 3 : Worlds and Adventures",
+      "authors": [
+        "Miller, Marc"
+      ],
+      "publisher": {
+        "name": "Far Future Enterprises",
+        "url": "https://farfuture.net"
+      }
+    }
+  ],
+  "tags": [
+    "products",
+    "weapons",
+    "launchers"
+  ]
+}

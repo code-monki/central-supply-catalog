@@ -1,0 +1,47 @@
+{
+  "sku": "200-008-00038",
+  "type": "weapons",
+  "subtype": "projectors",
+  "name": "Mag Projector, Medium, Remote (RMMPj-12)",
+  "mfr": "",
+  "cost": 94500,
+  "mass": 2,
+  "size": "",
+  "techLevel": 12,
+  "qrebs": "R=1",
+  "damage": "EMP-1, Magnetic-4",
+  "image": "",
+  "description": "<p><!-- Summary Start -->Remote-controlled version of the medium mag projector.<!-- Summary End --> The mag projector projects a high frequency magnetic effect onto the target. The rapid magnetic pulsing scrambles electronic circuits and induces temporary disorientation in organic beings. In addition, this weapon effect shuts down magnetic equipment.</p>",
+  "stats": [],
+  "categories": [
+    "weapons",
+    "projectors"
+  ],
+  "sources": [
+    {
+      "publication": "Traveller 5.10 Core Rules Book 1 : Characters and Combat",
+      "authors": [
+        "Miller, Marc"
+      ],
+      "publisher": {
+        "name": "Far Future Enterprises",
+        "url": "https://farfuture.net"
+      }
+    },
+    {
+      "publication": "Traveller 5.10 Core Rules Book 3 : Worlds and Adventures",
+      "authors": [
+        "Miller, Marc"
+      ],
+      "publisher": {
+        "name": "Far Future Enterprises",
+        "url": "https://farfuture.net"
+      }
+    }
+  ],
+  "tags": [
+    "products",
+    "weapons",
+    "projectors"
+  ]
+}

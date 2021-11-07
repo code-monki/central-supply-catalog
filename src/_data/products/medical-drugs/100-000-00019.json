@@ -1,0 +1,33 @@
+{
+  "sku": "100-000-00019",
+  "type": "drugs medical",
+  "subtype": "",
+  "name": "Medical Scanner",
+  "mfr": "",
+  "cost": 1500,
+  "mass": 1.5,
+  "size": 3,
+  "techLevel": 9,
+  "qrebs": "N/A",
+  "image": "",
+  "description": "<p><!-- Summary Start -->This larger, handheld version of the micro med scanner.<!-- Summary End --> This version of the medical scanner differs from the pocket version in that this model includes a diagnosis computer, which allows individuals with little or no medical skill to diagnose and treat illness and injury.</p>",
+  "categories": [
+    "drugs medical"
+  ],
+  "sources": [
+    {
+      "publication": "Traveller 5.10 Core Rules Book 3 : Worlds and Adventures",
+      "authors": [
+        "Miller, Marc"
+      ],
+      "publisher": {
+        "name": "Far Future Enterprises",
+        "url": "https://farfuture.net"
+      }
+    }
+  ],
+  "tags": [
+    "products",
+    "drugs medical"
+  ]
+}

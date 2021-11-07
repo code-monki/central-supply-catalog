@@ -1,0 +1,35 @@
+{
+  "sku": "130-000-00029",
+  "type": "protections",
+  "subtype": "armor",
+  "name": "Combat Armor (CbtA-11)",
+  "mfr": "",
+  "cost": 80000,
+  "mass": 60,
+  "techLevel": 11,
+  "qrebs": "N/A",
+  "image": "",
+  "description": "<p><!-- Summary Start -->Combat armor is intended for medium-term operations (days) against an enemy force.<!-- Summary End --></p>",
+  "accessories": [],
+  "categories": [
+    "protections",
+    "armor"
+  ],
+  "sources": [
+    {
+      "publication": "Traveller 5.10 Core Rules Book 1 : Characters and Combat",
+      "authors": [
+        "Miller, Marc"
+      ],
+      "publisher": {
+        "name": "Far Future Enterprises",
+        "url": "https://farfuture.net"
+      }
+    }
+  ],
+  "tags": [
+    "products",
+    "protections",
+    "armor"
+  ]
+}

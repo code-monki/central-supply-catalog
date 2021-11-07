@@ -1,0 +1,37 @@
+{
+  "sku": "200-001-00010",
+  "type": "weapons",
+  "subtype": "blades",
+  "name": "Sword (S)",
+  "mfr": "",
+  "cost": 300,
+  "mass": 2,
+  "size": "",
+  "techLevel": 3,
+  "qrebs": "",
+  "damage": "Cuts-2",
+  "image": "",
+  "description": "<p><!-- Summary Start --> The standard long-edged weapon, with a flat, two-edged blade.<!-- Summary End --> It may have a basket hilt or  hand protector. A scabbard to carry the sword may be attached to the belt, or to straps (or a sash) over the shoulder. Blade length varies from 700 to 950mm.</p>",
+  "stats": [
+    {
+      "publication": "Traveller 5.10 Core Rules Book 3 : Worlds and Adventures",
+      "authors": [
+        "Miller, Marc"
+      ],
+      "publisher": {
+        "name": "Far Future Enterprises",
+        "url": "https://farfuture.net"
+      }
+    }
+  ],
+  "categories": [
+    "weapons",
+    "blades"
+  ],
+  "sources": [],
+  "tags": [
+    "products",
+    "weapons",
+    "blades"
+  ]
+}

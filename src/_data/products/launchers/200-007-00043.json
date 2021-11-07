@@ -1,0 +1,47 @@
+{
+  "sku": "200-007-00043",
+  "type": "weapons",
+  "subtype": "launchers",
+  "name": "AT Missile Launcher, Disposable, Modified (ModDaTL-14)",
+  "mfr": "",
+  "cost": 4800,
+  "mass": 6.4,
+  "size": "",
+  "techLevel": 14,
+  "qrebs": "R=4",
+  "damage": "Burn-3, Pen-4",
+  "image": "",
+  "description": "<p><!-- Summary Start -->A modified version of the disposable anti-tank missile launcher.<!-- Summary End --> This version is constructed of relatively inexpensive materials and has a working lifetime measured in days.</p>",
+  "stats": [],
+  "categories": [
+    "weapons",
+    "launchers"
+  ],
+  "sources": [
+    {
+      "publication": "Traveller 5.10 Core Rules Book 3 : Worlds and Adventures",
+      "authors": [
+        "Miller, Marc"
+      ],
+      "publisher": {
+        "name": "Far Future Enterprises",
+        "url": "https://farfuture.net"
+      }
+    },
+    {
+      "publication": "Traveller 5.10 Core Rules Book 3 : Worlds and Adventures",
+      "authors": [
+        "Miller, Marc"
+      ],
+      "publisher": {
+        "name": "Far Future Enterprises",
+        "url": "https://farfuture.net"
+      }
+    }
+  ],
+  "tags": [
+    "products",
+    "weapons",
+    "launchers"
+  ]
+}

@@ -1,0 +1,46 @@
+{
+  "sku": "080-000-00002",
+  "type": "explosives",
+  "subtype": "",
+  "name": "C-8",
+  "mfr": "",
+  "cost": 300,
+  "mass": 0.5,
+  "size": "0.5 liters",
+  "techLevel": 9,
+  "qrebs": "N/A",
+  "image": "",
+  "description": "<p><!-- Summary Start -->A chemical explosive in the form of a stiff putty.<!-- Summary End --> C-8 requires a blasting charge to detonate. It is are otherwise inert and won't detonate with shock or fire.</p>",
+  "accessories": [
+    "080-000-00004"
+  ],
+  "categories": [
+    "explosives"
+  ],
+  "sources": [
+    {
+      "publication": "Traveller Wiki: C-8",
+      "authors": [
+        "Traveller Wiki Editorial Team"
+      ],
+      "publisher": {
+        "name": "Traveller Wiki",
+        "url": "https://wiki.travellerrpg.com/C-8"
+      }
+    },
+    {
+      "publication": "Annililik Run",
+      "authors": [
+        "Ward, James"
+      ],
+      "publisher": {
+        "name": "Imperium Games",
+        "url": ""
+      }
+    }
+  ],
+  "tags": [
+    "products",
+    "explosives"
+  ]
+}

@@ -1,0 +1,33 @@
+{
+  "sku": "120-000-00006",
+  "type": "power supplies",
+  "subtype": "artifact",
+  "name": "Antimatter Battery",
+  "mfr": "",
+  "cost": 20000000,
+  "mass": 25,
+  "size": 4,
+  "techLevel": 14,
+  "qrebs": "N/A",
+  "image": "",
+  "description": "<p><!-- Summary Start -->The antimatter battery is a small box finished in grey metal, with two gold colored contacts on its upper surface. It operates by a controlled flow of antimatter against an ordinary matter core. Flow is metered in response to demand, and very high levels of current are available.<!-- Summary End --> Its two contacts will provide the output of an ACS Power Plant-1 for up to 10 years.</p><p>Antimatter batteries are quite resistant to damage, but are not impervious. They have an Armor Value equal to their TL (for a standard antimatter battery, this is AV 25). Penetrating armor will fracture battery casing and release energy.</p><p>Antimatter batteries are constructed to bleed energy slowly if broken or cracked. In such a case, the battery will flash brightly for up to one space combat turn (20 minutes) with very bright light and intense heat. Anyone at close range (5m) is subject to Burn-1 per combat round, and Burn-3 at Contact range.</p><p>Antimatter batteries may be linked together to generate correspondingly greater power: nine batteries chained together provides the output of an ACS Power Plant-9.</p>",
+  "categories": [
+    "power-supplies"
+  ],
+  "sources": [
+    {
+      "publication": "Traveller 5.10 Core Rules Book 3 : Worlds and Adventures",
+      "authors": [
+        "Miller, Marc"
+      ],
+      "publisher": {
+        "name": "Far Future Enterprises",
+        "url": "https://farfuture.net"
+      }
+    }
+  ],
+  "tags": [
+    "products",
+    "power-supplies"
+  ]
+}

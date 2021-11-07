@@ -1,0 +1,34 @@
+{
+  "sku": "130-003-10025",
+  "type": "protections",
+  "subtype": "units",
+  "name": "Hot Unit, Standard (StHU-11)",
+  "cost": 360000,
+  "mass": 60,
+  "techLevel": 11,
+  "qrebs": "N/A",
+  "image": "",
+  "description": "<p><!-- Summary Start -->The hot environment unit protects against extreme high temperature conditions.<!-- Summary End --></p>",
+  "accessories": [],
+  "categories": [
+    "protections",
+    "units"
+  ],
+  "sources": [
+    {
+      "publication": "Traveller 5.10 Core Rules Book 1 : Characters and Combat",
+      "authors": [
+        "Miller, Marc"
+      ],
+      "publisher": {
+        "name": "Far Future Enterprises",
+        "url": "https://farfuture.net"
+      }
+    }
+  ],
+  "tags": [
+    "products",
+    "protections",
+    "units"
+  ]
+}

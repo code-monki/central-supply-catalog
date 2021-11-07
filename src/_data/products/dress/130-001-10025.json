@@ -1,0 +1,35 @@
+{
+  "sku": "130-001-10025",
+  "type": "protections",
+  "subtype": "dress",
+  "name": "Boarding Dress, Basic (BBdB-13)",
+  "mfr": "",
+  "cost": 112000,
+  "mass": 62,
+  "techLevel": 13,
+  "qrebs": "N/A",
+  "image": "",
+  "description": "<p><!-- Summary Start -->Boarding dress is tailored for zero-G operations against interplanetary and interstellar vessels.<!-- Summary End --></p>",
+  "accessories": [],
+  "categories": [
+    "protections",
+    "dress"
+  ],
+  "sources": [
+    {
+      "publication": "Traveller 5.10 Core Rules Book 1 : Characters and Combat",
+      "authors": [
+        "Miller, Marc"
+      ],
+      "publisher": {
+        "name": "Far Future Enterprises",
+        "url": "https://farfuture.net"
+      }
+    }
+  ],
+  "tags": [
+    "products",
+    "protections",
+    "dress"
+  ]
+}

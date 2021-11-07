@@ -1,0 +1,33 @@
+{
+  "sku": "100-000-00012",
+  "type": "dugs-medical",
+  "subtype": "",
+  "name": "Limb Reattacher",
+  "mfr": "",
+  "cost": 1000000,
+  "mass": 100,
+  "size": 5,
+  "techLevel": 12,
+  "qrebs": "N/A",
+  "image": "",
+  "description": "<p><!-- Summary Start -->Heals severe wounds or trauma on a limb. Reattaches severed limbs, encourages mending and removes infection.<!-- Summary End --> Treatment induces an artificial coma for 1D days, and injects the patient with a cocktail of tailored regrowth drugs and nutrients (one dose per treatment).</p>",
+  "categories": [
+    "drugs medical"
+  ],
+  "sources": [
+    {
+      "publication": "Traveller 5.10 Core Rules Book 3 : Worlds and Adventures",
+      "authors": [
+        "Miller, Marc"
+      ],
+      "publisher": {
+        "name": "Far Future Enterprises",
+        "url": "https://farfuture.net"
+      }
+    }
+  ],
+  "tags": [
+    "products",
+    "drugs medical"
+  ]
+}

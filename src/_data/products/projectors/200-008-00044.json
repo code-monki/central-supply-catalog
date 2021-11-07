@@ -1,0 +1,47 @@
+{
+  "sku": "200-008-00044",
+  "type": "weapons",
+  "subtype": "projectors",
+  "name": "Stench Projector, Standard (StdSPj-13)",
+  "mfr": "",
+  "cost": 360,
+  "mass": 0.4,
+  "size": "",
+  "techLevel": 13,
+  "qrebs": "R=2",
+  "damage": "Stench-3",
+  "image": "",
+  "description": "<p><!-- Summary Start -->Standard version of the stench projector.<!-- Summary End --> The stench projector projects a foul-smelling or obnoxious effect at the target.</p>",
+  "stats": [],
+  "categories": [
+    "weapons",
+    "projectors"
+  ],
+  "sources": [
+    {
+      "publication": "Traveller 5.10 Core Rules Book 1 : Characters and Combat",
+      "authors": [
+        "Miller, Marc"
+      ],
+      "publisher": {
+        "name": "Far Future Enterprises",
+        "url": "https://farfuture.net"
+      }
+    },
+    {
+      "publication": "Traveller 5.10 Core Rules Book 3 : Worlds and Adventures",
+      "authors": [
+        "Miller, Marc"
+      ],
+      "publisher": {
+        "name": "Far Future Enterprises",
+        "url": "https://farfuture.net"
+      }
+    }
+  ],
+  "tags": [
+    "products",
+    "weapons",
+    "projectors"
+  ]
+}

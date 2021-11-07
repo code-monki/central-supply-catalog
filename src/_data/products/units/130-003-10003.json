@@ -1,0 +1,34 @@
+{
+  "sku": "130-003-10003",
+  "type": "protections",
+  "subtype": "units",
+  "name": "Labor Unit, Medium (MLU-8)",
+  "cost": 240000,
+  "mass": 140,
+  "techLevel": 8,
+  "qrebs": "N/A",
+  "image": "",
+  "description": "<p><!-- Summary Start -->Labor units provide protection against environmental hazards in environments requiring manual labor.<!-- Summary End --></p>",
+  "accessories": [],
+  "categories": [
+    "protections",
+    "units"
+  ],
+  "sources": [
+    {
+      "publication": "Traveller 5.10 Core Rules Book 1 : Characters and Combat",
+      "authors": [
+        "Miller, Marc"
+      ],
+      "publisher": {
+        "name": "Far Future Enterprises",
+        "url": "https://farfuture.net"
+      }
+    }
+  ],
+  "tags": [
+    "products",
+    "protections",
+    "units"
+  ]
+}

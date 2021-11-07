@@ -1,0 +1,47 @@
+{
+  "sku": "200-009-00036",
+  "type": "weapons",
+  "subtype": "designators",
+  "name": "Sonic Designator (SD-10)",
+  "mfr": "",
+  "cost": 2200,
+  "mass": 6,
+  "size": "",
+  "techLevel": 10,
+  "qrebs": "R=2",
+  "damage": "Bang-2, Sound-2",
+  "image": "",
+  "description": "<p><!-- Summary Start -->The sonic designator projects a sound-based effect at the target to illuminate it for targeting purposes.<!-- Summary End --></p>",
+  "stats": [],
+  "categories": [
+    "weapons",
+    "designators"
+  ],
+  "sources": [
+    {
+      "publication": "Traveller 5.10 Core Rules Book 1 : Characters and Combat",
+      "authors": [
+        "Miller, Marc"
+      ],
+      "publisher": {
+        "name": "Far Future Enterprises",
+        "url": "https://farfuture.net"
+      }
+    },
+    {
+      "publication": "Traveller 5.10 Core Rules Book 3 : Worlds and Adventures",
+      "authors": [
+        "Miller, Marc"
+      ],
+      "publisher": {
+        "name": "Far Future Enterprises",
+        "url": "https://farfuture.net"
+      }
+    }
+  ],
+  "tags": [
+    "products",
+    "weapons",
+    "designators"
+  ]
+}

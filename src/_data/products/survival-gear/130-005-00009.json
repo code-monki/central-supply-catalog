@@ -1,0 +1,33 @@
+{
+  "sku": "130-005-00009",
+  "type": "survival gear",
+  "subtype": "",
+  "name": "Survival Bubble",
+  "mfr": "",
+  "cost": 600,
+  "mass": 3,
+  "size": 6,
+  "techLevel": 9,
+  "qrebs": "N/A",
+  "image": "",
+  "description": "<p><!-- Summary Start -->A large (2m diameter) plastic sphere with alternating clear and opaque panels, and a small oxygen tank (capable of supporting one person for two hours) for inflation.<!-- Summary End --> Access to the interior is through a conforming plastic seal which functions similarly to an air lock. The bubble can be used for life support in a vacuum (it can be moved by walking on the inside, treadmill fashion), and it can also be used for protection against weather or as a lifeboat on a sea surface.</p>",
+  "categories": [
+    "survival gear"
+  ],
+  "sources": [
+    {
+      "publication": "Traveller 5.10 Core Rules Book 3 : Worlds and Adventures",
+      "authors": [
+        "Miller, Marc"
+      ],
+      "publisher": {
+        "name": "Far Future Enterprises",
+        "url": "https://farfuture.net"
+      }
+    }
+  ],
+  "tags": [
+    "products",
+    "survival gear"
+  ]
+}

@@ -1,0 +1,75 @@
+{
+  "sku": "180-001-00012",
+  "type": "vehicles",
+  "subtype": "small craft",
+  "name": "Shuttle, Assault (SA)",
+  "mfr": "",
+  "cost": 20000000,
+  "displacement": 40,
+  "techLevel": 14,
+  "qrebs": "N/A",
+  "image": "",
+  "description": "<p><!-- Summary Start -->Large, armed and armored troop transporter capable of landing on worlds. Built to travel between two points (worlds; locations).<!-- Summary End --></p>",
+  "stats": [
+    {
+      "label": "Speed",
+      "value": 5
+    },
+    {
+      "label": "Load",
+      "value": 24
+    },
+    {
+      "label": "Armor",
+      "value": 30
+    },
+    {
+      "label": "Cage",
+      "value": 30
+    },
+    {
+      "label": "FlashProof",
+      "value": 30
+    },
+    {
+      "label": "RadProof",
+      "value": 30
+    },
+    {
+      "label": "SoundProof",
+      "value": 30
+    },
+    {
+      "label": "PsiShield",
+      "value": 10
+    },
+    {
+      "label": "Insulated",
+      "value": 30
+    },
+    {
+      "label": "Sealed",
+      "value": 20
+    }
+  ],
+  "categories": [
+    "vehicles"
+  ],
+  "sources": [
+    {
+      "publication": "Traveller 5.10 Core Rules Book 3 : Worlds and Adventures",
+      "authors": [
+        "Miller, Marc"
+      ],
+      "publisher": {
+        "name": "Far Future Enterprises",
+        "url": "https://farfuture.net"
+      }
+    }
+  ],
+  "tags": [
+    "products",
+    "vehicles",
+    "small craft"
+  ]
+}

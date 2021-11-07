@@ -1,0 +1,46 @@
+{
+  "sku": "130-004-00041",
+  "type": "protections",
+  "subtype": "cyberware",
+  "name": "Cybernetic Eye, Holo-Recorder (TL-16)",
+  "mfr": "",
+  "cost": 1000000,
+  "mass": 0.06,
+  "size": "0.06 liters",
+  "techLevel": 16,
+  "qrebs": "N/A",
+  "image": "",
+  "description": "<p><!-- Summary Start -->The holo-recorder cybernetic eye provides the ability to record and playback 3D holographic images.<!-- Summary End --> The holo-recorder eye has an onboard recording capacity of up to one hour of video. If connect to an implanted communicator or an implanted computer, the recording capacity is limited only by the capacity of the computer. The recorded video can be transferred by means of a viewer that fits over the eye. This version of the cybernetic eye is single-function eye and looks more like a natural, unaltered eye.</p><p> In all cases, the cyber eye also includes basic visible light vision. For Sophonts with different visual ranges the basic cyber eye will cover their normal visual range.</p>",
+  "categories": [
+    "protections",
+    "cyberware"
+  ],
+  "sources": [
+    {
+      "publication": "Traveller Wiki: Cybernetic Eye",
+      "authors": [
+        "Traveller Wiki Editorial Team"
+      ],
+      "publisher": {
+        "name": "Traveller Wiki",
+        "url": "https://wiki.travellerrpg.com/Cybernetic_eyes"
+      }
+    },
+    {
+      "publication": "Fire, Fusion, & Steel",
+      "authors": [
+        "Chadwick, Frank",
+        "Nilsen, Dave"
+      ],
+      "publisher": {
+        "name": "Game Designers Workshop",
+        "url": ""
+      }
+    }
+  ],
+  "tags": [
+    "products",
+    "protections",
+    "cyberware"
+  ]
+}

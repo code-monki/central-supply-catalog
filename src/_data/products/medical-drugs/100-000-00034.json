@@ -1,0 +1,33 @@
+{
+  "sku": "100-000-00034",
+  "type": "drugs medical",
+  "subtype": "",
+  "name": "Tranq",
+  "mfr": "",
+  "cost": 10,
+  "mass": 0,
+  "size": 1,
+  "techLevel": 6,
+  "qrebs": "N/A",
+  "image": "",
+  "description": "<p><!-- Summary Start -->Renders patient unconscious for 1D hours.<!-- Summary End --></p>",
+  "categories": [
+    "drugs medical"
+  ],
+  "sources": [
+    {
+      "publication": "Traveller 5.10 Core Rules Book 3 : Worlds and Adventures",
+      "authors": [
+        "Miller, Marc"
+      ],
+      "publisher": {
+        "name": "Far Future Enterprises",
+        "url": "https://farfuture.net"
+      }
+    }
+  ],
+  "tags": [
+    "products",
+    "drugs medical"
+  ]
+}

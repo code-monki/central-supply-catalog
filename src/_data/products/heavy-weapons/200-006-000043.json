@@ -1,0 +1,44 @@
+{
+  "sku": "200-006-000043",
+  "type": "weapons",
+  "subtype": "heavy weapons",
+  "name": "Anti-Designator Plasma Gun, Crewed (aDPGC-16)",
+  "mfr": "",
+  "cost": 30000,
+  "mass": 67,
+  "size": "",
+  "techLevel": 16,
+  "qrebs": "R=4",
+  "damage": "Burn-3, Pen-6",
+  "image": "",
+  "description": "<p><!-- Summary Start -->Crewed anti-designator plasma gun.<!-- Summary End --></p>",
+  "stats": [],
+  "accessories": [],
+  "sources": [
+    {
+      "publication": "Traveller 5.10 Core Rules Book 1 : Characters and Combat",
+      "authors": [
+        "Miller, Marc"
+      ],
+      "publisher": {
+        "name": "Far Future Enterprises",
+        "url": "https://farfuture.net"
+      }
+    },
+    {
+      "publication": "Traveller 5.10 Core Rules Book 3 : Worlds and Adventures",
+      "authors": [
+        "Miller, Marc"
+      ],
+      "publisher": {
+        "name": "Far Future Enterprises",
+        "url": "https://farfuture.net"
+      }
+    }
+  ],
+  "tags": [
+    "products",
+    "weapons",
+    "heavy weapons"
+  ]
+}

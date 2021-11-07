@@ -1,0 +1,47 @@
+{
+  "sku": "200-009-00006",
+  "type": "weapons",
+  "subtype": "designators",
+  "name": "Shock Designator (ShD-7)",
+  "mfr": "",
+  "cost": 4000,
+  "mass": 5,
+  "size": "",
+  "techLevel": 7,
+  "qrebs": "R=2",
+  "damage": "Pain-2, Elec-2",
+  "image": "",
+  "description": "<p><!-- Summary Start -->The shock designator marks the target with an electric charge.<!-- Summary End --></p>",
+  "stats": [],
+  "categories": [
+    "weapons",
+    "designators"
+  ],
+  "sources": [
+    {
+      "publication": "Traveller 5.10 Core Rules Book 1 : Characters and Combat",
+      "authors": [
+        "Miller, Marc"
+      ],
+      "publisher": {
+        "name": "Far Future Enterprises",
+        "url": "https://farfuture.net"
+      }
+    },
+    {
+      "publication": "Traveller 5.10 Core Rules Book 3 : Worlds and Adventures",
+      "authors": [
+        "Miller, Marc"
+      ],
+      "publisher": {
+        "name": "Far Future Enterprises",
+        "url": "https://farfuture.net"
+      }
+    }
+  ],
+  "tags": [
+    "products",
+    "weapons",
+    "designators"
+  ]
+}

@@ -1,0 +1,34 @@
+{
+  "sku": "130-002-10056",
+  "type": "protections",
+  "subtype": "suits",
+  "name": "Protected Suit, Titan (TPrS-15)",
+  "cost": 30000,
+  "mass": 81,
+  "techLevel": 15,
+  "qrebs": "N/A",
+  "image": "",
+  "description": "<p><!-- Summary Start -->Protected suits protect the wearer from most environmental threats.<!-- Summary End --></p>",
+  "accessories": [],
+  "categories": [
+    "protections",
+    "suits"
+  ],
+  "sources": [
+    {
+      "publication": "Traveller 5.10 Core Rules Book 1 : Characters and Combat",
+      "authors": [
+        "Miller, Marc"
+      ],
+      "publisher": {
+        "name": "Far Future Enterprises",
+        "url": "https://farfuture.net"
+      }
+    }
+  ],
+  "tags": [
+    "products",
+    "protections",
+    "suits"
+  ]
+}

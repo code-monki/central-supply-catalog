@@ -1,0 +1,34 @@
+{
+  "sku": "200-011-00020",
+  "type": "weapons",
+  "subtype": "weapon accessory",
+  "name": "4mm Revolver Magazine (32-round)",
+  "mfr": "",
+  "cost": 20,
+  "mass": 0.2,
+  "techLevel": 6,
+  "qrebs": "",
+  "image": "/img/products/200-011-00020.png",
+  "description": "<p><!-- Summary Start -->4mm Revolver Magazine, 32 round internal spiral capacity.<!-- Summary End --></p>",
+  "categories": [
+    "weapons",
+    "weapon accessory"
+  ],
+  "sources": [
+    {
+      "publication": "Traveller 5.10 Core Rules Book 3 : Worlds and Adventures",
+      "authors": [
+        "Miller, Marc"
+      ],
+      "publisher": {
+        "name": "Far Future Enterprises",
+        "url": "https://farfuture.net"
+      }
+    }
+  ],
+  "tags": [
+    "products",
+    "weapons",
+    "weapon accessory"
+  ]
+}

@@ -1,0 +1,34 @@
+{
+  "sku": "130-002-10020",
+  "type": "protections",
+  "subtype": "suits",
+  "name": "Hostile Environ Suit, Improved (ImHES-7)",
+  "cost": 8800,
+  "mass": 12,
+  "techLevel": 7,
+  "qrebs": "N/A",
+  "image": "",
+  "description": "<p><!-- Summary Start -->The hostile environment suit includes a variety of protections against extreme envronmental conditions.<!-- Summary End --></p>",
+  "accessories": [],
+  "categories": [
+    "protections",
+    "suits"
+  ],
+  "sources": [
+    {
+      "publication": "Traveller 5.10 Core Rules Book 1 : Characters and Combat",
+      "authors": [
+        "Miller, Marc"
+      ],
+      "publisher": {
+        "name": "Far Future Enterprises",
+        "url": "https://farfuture.net"
+      }
+    }
+  ],
+  "tags": [
+    "products",
+    "protections",
+    "suits"
+  ]
+}

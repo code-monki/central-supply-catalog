@@ -1,0 +1,33 @@
+{
+  "sku": "070-000-00014",
+  "type": "emitters",
+  "subtype": "",
+  "name": "VHDUS Emitters",
+  "mfr": "",
+  "cost": 100,
+  "mass": 0.01,
+  "size": "R",
+  "techLevel": 2,
+  "qrebs": "N/A",
+  "image": "",
+  "description": "<p><!-- Summary Start -->Objects which glow in the wavelengths VHDUS.<!-- Summary End --> Essentially naturally-occurring Fluorescent gems which absorb ambient energy and re-emit it in the VHDUS wavelengths.</p>",
+  "categories": [
+    "emitters"
+  ],
+  "sources": [
+    {
+      "publication": "Traveller 5.10 Core Rules Book 3 : Worlds and Adventures",
+      "authors": [
+        "Miller, Marc"
+      ],
+      "publisher": {
+        "name": "Far Future Enterprises",
+        "url": "https://farfuture.net"
+      }
+    }
+  ],
+  "tags": [
+    "products",
+    "emitters"
+  ]
+}

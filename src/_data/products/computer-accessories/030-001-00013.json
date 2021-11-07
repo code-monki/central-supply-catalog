@@ -1,0 +1,35 @@
+{
+  "sku": "030-001-00013",
+  "type": "computers",
+  "subtype": "computer accessory",
+  "name": "Wafer Jack",
+  "mfr": "",
+  "cost": 10000,
+  "mass": 0,
+  "size": 2,
+  "techLevel": 12,
+  "qrebs": "N/A",
+  "image": "",
+  "description": "<p><!-- Summary Start -->A Wafer Jack is an implant allowing use of skill or personality wafers and direct access to computer systems.<!-- Summary End --></p>",
+  "categories": [
+    "computers",
+    "computer accessory"
+  ],
+  "sources": [
+    {
+      "publication": "Traveller 5.10 Core Rules Book 3 : Worlds and Adventures",
+      "authors": [
+        "Miller, Marc"
+      ],
+      "publisher": {
+        "name": "Far Future Enterprises",
+        "url": "https://farfuture.net"
+      }
+    }
+  ],
+  "tags": [
+    "products",
+    "computers",
+    "computer accessory"
+  ]
+}

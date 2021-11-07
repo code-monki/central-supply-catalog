@@ -1,0 +1,75 @@
+{
+  "sku": "180-001-00001",
+  "type": "vehicles",
+  "subtype": "small craft",
+  "name": "Lifepod, Light (AL)",
+  "mfr": "",
+  "cost": 2000000,
+  "displacement": 3000,
+  "techLevel": 11,
+  "qrebs": "N/A",
+  "image": "",
+  "description": "<p><!-- Summary Start -->Emergency escape and survival craft.<!-- Summary End --></p>",
+  "stats": [
+    {
+      "label": "Speed",
+      "value": 2
+    },
+    {
+      "label": "Load",
+      "value": 2
+    },
+    {
+      "label": "Armor",
+      "value": 10
+    },
+    {
+      "label": "Cage",
+      "value": 10
+    },
+    {
+      "label": "FlashProof",
+      "value": 20
+    },
+    {
+      "label": "RadProof",
+      "value": 10
+    },
+    {
+      "label": "SoundProof",
+      "value": 10
+    },
+    {
+      "label": "PsiShield",
+      "value": 10
+    },
+    {
+      "label": "Insulated",
+      "value": 10
+    },
+    {
+      "label": "Sealed",
+      "value": 20
+    }
+  ],
+  "categories": [
+    "vehicles"
+  ],
+  "sources": [
+    {
+      "publication": "Traveller 5.10 Core Rules Book 3 : Worlds and Adventures",
+      "authors": [
+        "Miller, Marc"
+      ],
+      "publisher": {
+        "name": "Far Future Enterprises",
+        "url": "https://farfuture.net"
+      }
+    }
+  ],
+  "tags": [
+    "products",
+    "vehicles",
+    "small craft"
+  ]
+}

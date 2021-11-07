@@ -1,0 +1,34 @@
+{
+  "sku": "200-011-00026",
+  "type": "weapons",
+  "subtype": "weapon accessory",
+  "name": "13mm Machinegun Belt (30-round)",
+  "mfr": "",
+  "cost": 50,
+  "mass": 1.5,
+  "techLevel": 6,
+  "qrebs": "",
+  "image": "/img/products/200-011-00026.png",
+  "description": "<p><!-- Summary Start -->13mm machinegun belt, 100 round capacity.<!-- Summary End --></p>",
+  "categories": [
+    "weapons",
+    "weapon accessory"
+  ],
+  "sources": [
+    {
+      "publication": "Traveller 5.10 Core Rules Book 3 : Worlds and Adventures",
+      "authors": [
+        "Miller, Marc"
+      ],
+      "publisher": {
+        "name": "Far Future Enterprises",
+        "url": "https://farfuture.net"
+      }
+    }
+  ],
+  "tags": [
+    "products",
+    "weapons",
+    "weapon accessory"
+  ]
+}

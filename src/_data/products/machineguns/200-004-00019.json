@@ -1,0 +1,62 @@
+{
+  "sku": "200-004-00019",
+  "type": "weapons",
+  "subtype": "machineguns",
+  "name": "Machinegun, Alternate (AltMg-7)",
+  "mfr": "",
+  "cost": 3300,
+  "mass": 8.8,
+  "size": "",
+  "techLevel": 7,
+  "qrebs": "R=6",
+  "damage": "Bullet-6",
+  "image": "",
+  "description": "<p><!-- Summary Start -->Alternate version of the machinegun.<!-- Summary End --></p>",
+  "stats": [],
+  "accessories": [
+    "200-011-00001",
+    "200-011-00002",
+    "200-011-00003",
+    "200-011-00004",
+    "200-011-00005",
+    "200-011-00006",
+    "200-011-00007",
+    "200-010-00042",
+    "200-010-00043",
+    "200-010-00044",
+    "200-010-00045",
+    "200-010-00046",
+    "200-010-00047"
+  ],
+  "categories": [
+    "weapons",
+    "machineguns"
+  ],
+  "sources": [
+    {
+      "publication": "Traveller 5.10 Core Rules Book 1 : Characters and Combat",
+      "authors": [
+        "Miller, Marc"
+      ],
+      "publisher": {
+        "name": "Far Future Enterprises",
+        "url": "https://farfuture.net"
+      }
+    },
+    {
+      "publication": "Traveller 5.10 Core Rules Book 3 : Worlds and Adventures",
+      "authors": [
+        "Miller, Marc"
+      ],
+      "publisher": {
+        "name": "Far Future Enterprises",
+        "url": "https://farfuture.net"
+      }
+    }
+  ],
+  "tags": [
+    "products",
+    "weapons",
+    "machineguns"
+  ]
+}

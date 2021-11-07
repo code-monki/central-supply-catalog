@@ -1,0 +1,47 @@
+{
+  "sku": "200-008-00034",
+  "type": "weapons",
+  "subtype": "projectors",
+  "name": "Poison Gas Projector, Disposable (DPPj-12)",
+  "mfr": "",
+  "cost": 1800,
+  "mass": 0.9,
+  "size": "",
+  "techLevel": 12,
+  "qrebs": "R=4",
+  "damage": "Poison-2, Gas-2",
+  "image": "",
+  "description": "<p><!-- Summary Start -->Disposable version of the poison gas projector.<!-- Summary End --> The poison gas projector projects a cloud of poisonous gas at the target. This version is constructed of relatively inexpensive materials and has a working lifetime measured in days.</p>",
+  "stats": [],
+  "categories": [
+    "weapons",
+    "projectors"
+  ],
+  "sources": [
+    {
+      "publication": "Traveller 5.10 Core Rules Book 1 : Characters and Combat",
+      "authors": [
+        "Miller, Marc"
+      ],
+      "publisher": {
+        "name": "Far Future Enterprises",
+        "url": "https://farfuture.net"
+      }
+    },
+    {
+      "publication": "Traveller 5.10 Core Rules Book 3 : Worlds and Adventures",
+      "authors": [
+        "Miller, Marc"
+      ],
+      "publisher": {
+        "name": "Far Future Enterprises",
+        "url": "https://farfuture.net"
+      }
+    }
+  ],
+  "tags": [
+    "products",
+    "weapons",
+    "projectors"
+  ]
+}

@@ -1,0 +1,33 @@
+{
+  "sku": "150-000-00007",
+  "type": "structures",
+  "subtype": "",
+  "name": "Airlock, Portable",
+  "mfr": "",
+  "cost": 1000,
+  "mass": 6,
+  "size": 5,
+  "techLevel": 8,
+  "qrebs": "N/A",
+  "image": "",
+  "description": "<p><!-- Summary Start -->An inflatable, portable chamber that can be attached to the vacuum side of a bulkhead, entered and pressurized, allowing a hole to be cut into a pressurized area without depressurization.<!-- Summary End --> It includes a patch held in place by pressure which seals the hole when the airlock is depressurized. The device includes a pressurized air cylinder and an automatic pump; the airlock is 500 cm x 20 cm x 200 cm deflated, and 1.5 m x 1.5 m x 2 m when inflated.</p>",
+  "categories": [
+    "structures"
+  ],
+  "sources": [
+    {
+      "publication": "Traveller 5.10 Core Rules Book 3 : Worlds and Adventures",
+      "authors": [
+        "Miller, Marc"
+      ],
+      "publisher": {
+        "name": "Far Future Enterprises",
+        "url": "https://farfuture.net"
+      }
+    }
+  ],
+  "tags": [
+    "products",
+    "structures"
+  ]
+}

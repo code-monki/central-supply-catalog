@@ -1,0 +1,34 @@
+{
+  "sku": "130-002-10040",
+  "type": "protections",
+  "subtype": "suits",
+  "name": "Sapper Suit, Prototype Titan (PTSS-9)",
+  "cost": 630000,
+  "mass": 615,
+  "techLevel": 9,
+  "qrebs": "N/A",
+  "image": "",
+  "description": "<p><!-- Summary Start -->Sapper suits are combat suits that add combat engineer functions to combat environ capabilities.<!-- Summary End --></p>",
+  "accessories": [],
+  "categories": [
+    "protections",
+    "suits"
+  ],
+  "sources": [
+    {
+      "publication": "Traveller 5.10 Core Rules Book 1 : Characters and Combat",
+      "authors": [
+        "Miller, Marc"
+      ],
+      "publisher": {
+        "name": "Far Future Enterprises",
+        "url": "https://farfuture.net"
+      }
+    }
+  ],
+  "tags": [
+    "products",
+    "protections",
+    "suits"
+  ]
+}

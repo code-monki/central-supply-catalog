@@ -1,0 +1,33 @@
+{
+  "sku": "100-000-00030",
+  "type": "drugs medical",
+  "subtype": "",
+  "name": "Sling",
+  "mfr": "",
+  "cost": 100,
+  "mass": 2,
+  "size": 3.5,
+  "techLevel": 7,
+  "qrebs": "N/A",
+  "image": "",
+  "description": "<p><!-- Summary Start -->Limb Immobilizer.<!-- Summary End --> Acts as a Bandage for the purpose of mending broken bones, exoskeleton, or the like.</p>",
+  "categories": [
+    "drugs medical"
+  ],
+  "sources": [
+    {
+      "publication": "Traveller 5.10 Core Rules Book 3 : Worlds and Adventures",
+      "authors": [
+        "Miller, Marc"
+      ],
+      "publisher": {
+        "name": "Far Future Enterprises",
+        "url": "https://farfuture.net"
+      }
+    }
+  ],
+  "tags": [
+    "products",
+    "drugs medical"
+  ]
+}

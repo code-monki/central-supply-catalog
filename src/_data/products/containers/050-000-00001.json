@@ -1,0 +1,33 @@
+{
+  "sku": "050-000-00001",
+  "type": "containers",
+  "subtype": "",
+  "name": "Attaché Case",
+  "mfr": "",
+  "cost": 75,
+  "mass": 1,
+  "size": 3,
+  "techLevel": 6,
+  "qrebs": "N/A",
+  "image": "",
+  "description": "<p><!-- Summary Start -->An aluminum or magnesium carrying case similar to that used by technicians to carry precision instruments.<!-- Summary End --></p>",
+  "categories": [
+    "containers"
+  ],
+  "sources": [
+    {
+      "publication": "Traveller 5.10 Core Rules Book 3 : Worlds and Adventures",
+      "authors": [
+        "Miller, Marc"
+      ],
+      "publisher": {
+        "name": "Far Future Enterprises",
+        "url": "https://farfuture.net"
+      }
+    }
+  ],
+  "tags": [
+    "products",
+    "containers"
+  ]
+}

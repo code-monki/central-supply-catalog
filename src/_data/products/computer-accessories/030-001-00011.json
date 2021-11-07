@@ -1,0 +1,35 @@
+{
+  "sku": "030-001-00011",
+  "type": "computers",
+  "subtype": "computer accessory",
+  "name": "Star Chart",
+  "mfr": "",
+  "cost": 1000,
+  "mass": 0.1,
+  "size": 2,
+  "techLevel": 11,
+  "qrebs": "N/A",
+  "image": "",
+  "description": "<p>A map of nearby systems and trade routes.<!-- Summary End --></p>",
+  "categories": [
+    "computers",
+    "computer accessory"
+  ],
+  "sources": [
+    {
+      "publication": "Traveller 5.10 Core Rules Book 3 : Worlds and Adventures",
+      "authors": [
+        "Miller, Marc"
+      ],
+      "publisher": {
+        "name": "Far Future Enterprises",
+        "url": "https://farfuture.net"
+      }
+    }
+  ],
+  "tags": [
+    "products",
+    "computers",
+    "computer accessory"
+  ]
+}

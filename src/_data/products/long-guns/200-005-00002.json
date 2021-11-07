@@ -1,0 +1,60 @@
+{
+  "sku": "200-005-00002",
+  "type": "weapons",
+  "subtype": "long guns",
+  "name": "Carbine, Experimental (XC-3)",
+  "mfr": "",
+  "cost": 1600,
+  "mass": 6,
+  "size": "",
+  "techLevel": 3,
+  "qrebs": "R=2",
+  "damage": "Bullet-1",
+  "image": "",
+  "description": "<p><!-- Summary Start -->Experimental version of the carbine.<!-- Summary End -->The carbine is a shorter version of the rifle.</p>",
+  "accessories": [
+    "200-011-00001",
+    "200-011-00002",
+    "200-011-00003",
+    "200-011-00004",
+    "200-011-00005",
+    "200-011-00006",
+    "200-011-00007",
+    "200-011-00014",
+    "200-011-00015",
+    "200-011-00016",
+    "200-010-00012"
+  ],
+  "stats": [],
+  "categories": [
+    "weapons",
+    "carbine"
+  ],
+  "sources": [
+    {
+      "publication": "Traveller 5.10 Core Rules Book 1 : Characters and Combat",
+      "authors": [
+        "Miller, Marc"
+      ],
+      "publisher": {
+        "name": "Far Future Enterprises",
+        "url": "https://farfuture.net"
+      }
+    },
+    {
+      "publication": "Traveller 5.10 Core Rules Book 3 : Worlds and Adventures",
+      "authors": [
+        "Miller, Marc"
+      ],
+      "publisher": {
+        "name": "Far Future Enterprises",
+        "url": "https://farfuture.net"
+      }
+    }
+  ],
+  "tags": [
+    "products",
+    "weapons",
+    "carbine"
+  ]
+}

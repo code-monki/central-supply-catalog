@@ -1,0 +1,33 @@
+{
+  "sku": "160-000-00001",
+  "type": "surface gear",
+  "subtype": "",
+  "name": "Boots, Climbing",
+  "mfr": "",
+  "cost": 50,
+  "mass": 1.5,
+  "size": 3,
+  "techLevel": 4,
+  "qrebs": "N/A",
+  "image": "",
+  "description": "<p><!-- Summary Start -->Footwear optimized for climbing.<!-- Summary End --></p>",
+  "categories": [
+    "surface gear"
+  ],
+  "sources": [
+    {
+      "publication": "Traveller 5.10 Core Rules Book 3 : Worlds and Adventures",
+      "authors": [
+        "Miller, Marc"
+      ],
+      "publisher": {
+        "name": "Far Future Enterprises",
+        "url": "https://farfuture.net"
+      }
+    }
+  ],
+  "tags": [
+    "products",
+    "surface gear"
+  ]
+}

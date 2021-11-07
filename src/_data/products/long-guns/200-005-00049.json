@@ -1,0 +1,58 @@
+{
+  "sku": "200-005-00049",
+  "type": "weapons",
+  "subtype": "long guns",
+  "name": "Laser Rifle, Disposable, Alternate (AltDLR-14)",
+  "mfr": "",
+  "cost": 2200,
+  "mass": 4.7,
+  "size": "",
+  "techLevel": 14,
+  "qrebs": "R=6",
+  "damage": "Pen-2, Burn-6",
+  "image": "",
+  "description": "<p><!-- Summary Start -->Alternate version of the laser rifle.<!-- Summary End --> The weapon fires a coherent beam of photons at the target. This version is constructed of relatively inexpensive materials and has a working lifetime measured in days.</p>",
+  "stats": [],
+  "accessories": [
+    "200-011-00001",
+    "200-011-00002",
+    "200-011-00003",
+    "200-011-00004",
+    "200-011-00005",
+    "200-011-00006",
+    "200-011-00007"
+  ],
+  "categories": [
+    "weapons",
+    "long guns",
+    "rifle"
+  ],
+  "sources": [
+    {
+      "publication": "Traveller 5.10 Core Rules Book 1 : Characters and Combat",
+      "authors": [
+        "Miller, Marc"
+      ],
+      "publisher": {
+        "name": "Far Future Enterprises",
+        "url": "https://farfuture.net"
+      }
+    },
+    {
+      "publication": "Traveller 5.10 Core Rules Book 3 : Worlds and Adventures",
+      "authors": [
+        "Miller, Marc"
+      ],
+      "publisher": {
+        "name": "Far Future Enterprises",
+        "url": "https://farfuture.net"
+      }
+    }
+  ],
+  "tags": [
+    "products",
+    "weapons",
+    "long guns",
+    "rifle"
+  ]
+}

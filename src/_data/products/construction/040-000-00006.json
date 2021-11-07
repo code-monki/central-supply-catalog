@@ -1,0 +1,34 @@
+{
+  "sku": "040-000-00006",
+  "type": "construction",
+  "subtype": "",
+  "name": "Lock (Collapsible Air Lock)",
+  "mfr": "",
+  "cost": 1000,
+  "mass": 0.5,
+  "size": 2,
+  "techLevel": 6,
+  "qrebs": "N/A",
+  "image": "",
+  "description": "<p><!-- Summary Start -->A plastic or polymer temporary air lock transported to location and assembled.<!-- Summary End --></p>",
+  "categories": [
+    "products",
+    "construction"
+  ],
+  "sources": [
+    {
+      "publication": "Traveller 5.10 Core Rules Book 3 : Worlds and Adventures",
+      "authors": [
+        "Miller, Marc"
+      ],
+      "publisher": {
+        "name": "Far Future Enterprises",
+        "url": "https://farfuture.net"
+      }
+    }
+  ],
+  "tags": [
+    "products",
+    "construction"
+  ]
+}

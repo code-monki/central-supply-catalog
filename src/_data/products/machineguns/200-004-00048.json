@@ -1,0 +1,47 @@
+{
+  "sku": "200-004-00048",
+  "type": "weapons",
+  "subtype": "machineguns",
+  "name": "Anti-Designator Anti-Flyer Machinegun, Turret Mounted, Early (EaDaFMgT-13)",
+  "mfr": "",
+  "cost": 32400,
+  "mass": 244,
+  "size": "",
+  "techLevel": 13,
+  "qrebs": "R=6",
+  "damage": "Blast-3, Frag-2, Bullet-4",
+  "image": "",
+  "description": "<p><!-- Summary Start -->Early version of the turret-mounted anti-flyer machinegun.<!-- Summary End --></p>",
+  "stats": [],
+  "categories": [
+    "weapons",
+    "machineguns"
+  ],
+  "sources": [
+    {
+      "publication": "Traveller 5.10 Core Rules Book 1 : Characters and Combat",
+      "authors": [
+        "Miller, Marc"
+      ],
+      "publisher": {
+        "name": "Far Future Enterprises",
+        "url": "https://farfuture.net"
+      }
+    },
+    {
+      "publication": "Traveller 5.10 Core Rules Book 3 : Worlds and Adventures",
+      "authors": [
+        "Miller, Marc"
+      ],
+      "publisher": {
+        "name": "Far Future Enterprises",
+        "url": "https://farfuture.net"
+      }
+    }
+  ],
+  "tags": [
+    "products",
+    "weapons",
+    "machineguns"
+  ]
+}

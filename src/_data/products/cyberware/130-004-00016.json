@@ -1,0 +1,58 @@
+{
+  "sku": "130-004-00016",
+  "type": "protections",
+  "subtype": "cyberware",
+  "name": "Advanced Cybernetic Hand",
+  "mfr": "",
+  "cost": 75000,
+  "mass": 1,
+  "size": "1 liter",
+  "techLevel": 11,
+  "qrebs": "N/A",
+  "image": "",
+  "description": "<p><!-- Summary Start -->An Advanced Cybernetic Hand is cybernetic replacement manipulator to an Advanced Cybernetic Arm.<!-- Summary End --> It is designed to have superior dexterity and capabilities compared to an organic hand. The Advanced Hand may be fitted with one of several options:<ul><li>Built-In Hand Computer: input may be entered vocally or manually, output is displayed on a small inbuilt screen fitted with a protective cover.</li><li>Built-In Transceiver: a compact Radio Communicator that does not rely on the presence of an established communications network.</li><li>Built-In Sensor Package: includes an Electromagnetic Sensor, a Geiger Counter, a Motion Sensor, and a Temperature Sensor that provides feedback via a small screen.</li></ul></p>",
+  "categories": [
+    "protections",
+    "cyberware"
+  ],
+  "sources": [
+    {
+      "publication": "Traveller Wiki: Advanced Cybernetic Hand",
+      "authors": [
+        "Lord (Marquis) and Master Scout Emeritus Adie Alegoric Stewart of the IISS",
+        "Lord (Marquis) and Master of Sophontology Maksim-Smelchak of the Ministry of Science"
+      ],
+      "publisher": {
+        "name": "Traveller Wiki",
+        "url": "https://wiki.travellerrpg.com/Advanced_Cybernetic_Hand"
+      }
+    },
+    {
+      "publication": "Fire, Fusion, & Steel",
+      "authors": [
+        "Chadwick, Frank",
+        "Nilsen, Dave"
+      ],
+      "publisher": {
+        "name": "Game Designers Workshop",
+        "url": ""
+      }
+    },
+    {
+      "publication": "Cybernetics",
+      "authors": [
+        "Nash, Pete",
+        "Robinson, Nick"
+      ],
+      "publisher": {
+        "name": "Mongoose Publishing",
+        "url": "https://www.mongoosepublishing.com/"
+      }
+    }
+  ],
+  "tags": [
+    "products",
+    "protections",
+    "cyberware"
+  ]
+}

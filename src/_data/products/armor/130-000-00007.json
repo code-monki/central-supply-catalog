@@ -1,0 +1,36 @@
+{
+  "sku": "130-000-00007",
+  "type": "protections",
+  "subtype": "armor",
+  "name": "Mesh",
+  "mfr": "",
+  "cost": 150,
+  "mass": 1,
+  "size": 5,
+  "techLevel": 7,
+  "qrebs": "N/A",
+  "image": "",
+  "description": "<p><!-- Summary Start -->A jacket or body suit made of natural or synthetic leather and reinforced with a lining of flexible metal mesh, similar to chain mail but lighter and stronger.<!-- Summary End --> Ar 10</p>",
+  "accessories": [],
+  "categories": [
+    "protections",
+    "armor"
+  ],
+  "sources": [
+    {
+      "publication": "Traveller 5.10 Core Rules Book 3 : Worlds and Adventures",
+      "authors": [
+        "Miller, Marc"
+      ],
+      "publisher": {
+        "name": "Far Future Enterprises",
+        "url": "https://farfuture.net"
+      }
+    }
+  ],
+  "tags": [
+    "products",
+    "protections",
+    "armor"
+  ]
+}

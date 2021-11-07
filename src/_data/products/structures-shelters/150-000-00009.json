@@ -1,0 +1,33 @@
+{
+  "sku": "150-000-00009",
+  "type": "structures",
+  "subtype": "",
+  "name": "Pressure Tent",
+  "mfr": "",
+  "cost": 2000,
+  "mass": 25,
+  "size": 5,
+  "techLevel": 7,
+  "qrebs": "N/A",
+  "image": "",
+  "description": "<p><!-- Summary Start -->Basic shelter for two persons, providing a standard atmosphere.<!-- Summary End --> There is no airlock so the tent must be pressurized or depressurized to enter or leave.</p>",
+  "categories": [
+    "structures"
+  ],
+  "sources": [
+    {
+      "publication": "Traveller 5.10 Core Rules Book 3 : Worlds and Adventures",
+      "authors": [
+        "Miller, Marc"
+      ],
+      "publisher": {
+        "name": "Far Future Enterprises",
+        "url": "https://farfuture.net"
+      }
+    }
+  ],
+  "tags": [
+    "products",
+    "structures"
+  ]
+}

@@ -1,0 +1,75 @@
+{
+  "sku": "180-001-00015",
+  "type": "vehicles",
+  "subtype": "small craft",
+  "name": "Shuttle, Fast (SF)",
+  "mfr": "",
+  "cost": 12000000,
+  "displacement": 70,
+  "techLevel": 12,
+  "qrebs": "N/A",
+  "image": "",
+  "description": "<p><!-- Summary Start -->Large passenger and freight transporter capable of landing on worlds. Built to travel between two points (worlds; locations).<!-- Summary End --></p>",
+  "stats": [
+    {
+      "label": "Speed",
+      "value": 5
+    },
+    {
+      "label": "Load",
+      "value": 37
+    },
+    {
+      "label": "Armor",
+      "value": 20
+    },
+    {
+      "label": "Cage",
+      "value": 10
+    },
+    {
+      "label": "FlashProof",
+      "value": 10
+    },
+    {
+      "label": "RadProof",
+      "value": 20
+    },
+    {
+      "label": "SoundProof",
+      "value": 10
+    },
+    {
+      "label": "PsiShield",
+      "value": 20
+    },
+    {
+      "label": "Insulated",
+      "value": 10
+    },
+    {
+      "label": "Sealed",
+      "value": 20
+    }
+  ],
+  "categories": [
+    "vehicles"
+  ],
+  "sources": [
+    {
+      "publication": "Traveller 5.10 Core Rules Book 3 : Worlds and Adventures",
+      "authors": [
+        "Miller, Marc"
+      ],
+      "publisher": {
+        "name": "Far Future Enterprises",
+        "url": "https://farfuture.net"
+      }
+    }
+  ],
+  "tags": [
+    "products",
+    "vehicles",
+    "small craft"
+  ]
+}

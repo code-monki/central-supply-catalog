@@ -1,0 +1,60 @@
+{
+  "sku": "200-002-00025",
+  "type": "weapons",
+  "subtype": "handguns",
+  "name": "Pistol, Advanced (AP-8)",
+  "mfr": "",
+  "cost": 300,
+  "mass": 0.8,
+  "size": "",
+  "techLevel": 8,
+  "qrebs": "R=2",
+  "damage": "Bullet-3",
+  "image": "",
+  "description": "<p><!-- Summary Start -->Advanced version of the pistol.<!-- Summary End --> The pistol is a semi-automatic, magazine-fed handgun.</p>",
+  "stats": [],
+  "accessories": [
+    "200-011-00001",
+    "200-011-00002",
+    "200-011-00003",
+    "200-011-00004",
+    "200-011-00005",
+    "200-011-00020",
+    "200-010-00022",
+    "200-010-00023",
+    "200-010-00024"
+  ],
+  "categories": [
+    "weapons",
+    "handguns",
+    "pistol"
+  ],
+  "sources": [
+    {
+      "publication": "Traveller 5.10 Core Rules Book 1 : Characters and Combat",
+      "authors": [
+        "Miller, Marc"
+      ],
+      "publisher": {
+        "name": "Far Future Enterprises",
+        "url": "https://farfuture.net"
+      }
+    },
+    {
+      "publication": "Traveller 5.10 Core Rules Book 3 : Worlds and Adventures",
+      "authors": [
+        "Miller, Marc"
+      ],
+      "publisher": {
+        "name": "Far Future Enterprises",
+        "url": "https://farfuture.net"
+      }
+    }
+  ],
+  "tags": [
+    "products",
+    "weapons",
+    "handguns",
+    "pistol"
+  ]
+}

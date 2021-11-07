@@ -1,0 +1,32 @@
+{
+  "sku": "190-000-00002",
+  "type": "uniques",
+  "subtype": "",
+  "name": "Challenge Coin, Marine",
+  "mfr": "",
+  "cost": 10,
+  "size": 1,
+  "techLevel": 10,
+  "qrebs": "N/A",
+  "image": "",
+  "description": "<p><!-- Summary Start -->A corrosion-resistant service coin carried by members of a specific Imperial Marine regiment.<!-- Summary End --></p>",
+  "categories": [
+    "uniques"
+  ],
+  "sources": [
+    {
+      "publication": "Traveller 5.10 Core Rules Book 3 : Worlds and Adventures",
+      "authors": [
+        "Miller, Marc"
+      ],
+      "publisher": {
+        "name": "Far Future Enterprises",
+        "url": "https://farfuture.net"
+      }
+    }
+  ],
+  "tags": [
+    "products",
+    "uniques"
+  ]
+}

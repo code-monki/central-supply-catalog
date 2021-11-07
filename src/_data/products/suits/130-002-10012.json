@@ -1,0 +1,34 @@
+{
+  "sku": "130-002-10012",
+  "type": "protections",
+  "subtype": "suits",
+  "name": "Hazmat Suit, Oversize (OsHazS-6)",
+  "cost": 90000,
+  "mass": 104,
+  "techLevel": 6,
+  "qrebs": "N/A",
+  "image": "",
+  "description": "<p><!-- Summary Start -->HazMat suits include a variety of protections against hazardous materials in the environment.<!-- Summary End --></p>",
+  "accessories": [],
+  "categories": [
+    "protections",
+    "suits"
+  ],
+  "sources": [
+    {
+      "publication": "Traveller 5.10 Core Rules Book 1 : Characters and Combat",
+      "authors": [
+        "Miller, Marc"
+      ],
+      "publisher": {
+        "name": "Far Future Enterprises",
+        "url": "https://farfuture.net"
+      }
+    }
+  ],
+  "tags": [
+    "products",
+    "protections",
+    "suits"
+  ]
+}

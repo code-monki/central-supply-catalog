@@ -1,0 +1,33 @@
+{
+  "sku": "070-000-00011",
+  "type": "emitters",
+  "subtype": "",
+  "name": "IR Emitter",
+  "mfr": "",
+  "cost": 50,
+  "mass": 0.1,
+  "size": "R",
+  "techLevel": 5,
+  "qrebs": "N/A",
+  "image": "",
+  "description": "<p><!-- Summary Start -->Devices which emit (glow, pulse, strobe) in the IR wavelengths ANIFX.<!-- Summary End --> Distinct from ANIFX Emitters in that they are tuned to specific individual wavelengths.</p>",
+  "categories": [
+    "emitters"
+  ],
+  "sources": [
+    {
+      "publication": "Traveller 5.10 Core Rules Book 3 : Worlds and Adventures",
+      "authors": [
+        "Miller, Marc"
+      ],
+      "publisher": {
+        "name": "Far Future Enterprises",
+        "url": "https://farfuture.net"
+      }
+    }
+  ],
+  "tags": [
+    "products",
+    "emitters"
+  ]
+}

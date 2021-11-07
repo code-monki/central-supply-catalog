@@ -1,0 +1,33 @@
+{
+  "sku": "100-000-00035",
+  "type": "drugs medical",
+  "subtype": "",
+  "name": "Truth Drug",
+  "mfr": "",
+  "cost": 20,
+  "mass": 0,
+  "size": 1,
+  "techLevel": 9,
+  "qrebs": "N/A",
+  "image": "",
+  "description": "<p><!-- Summary Start -->Used to compel individuals to answer interrogation truthfully.<!-- Summary End --> One dose is sufficient to assure truthful answers for approximately two minutes, after which the user experiences one hour of unconsciousness, and suffers 2D in wounds.</p>",
+  "categories": [
+    "drugs medical"
+  ],
+  "sources": [
+    {
+      "publication": "Traveller 5.10 Core Rules Book 3 : Worlds and Adventures",
+      "authors": [
+        "Miller, Marc"
+      ],
+      "publisher": {
+        "name": "Far Future Enterprises",
+        "url": "https://farfuture.net"
+      }
+    }
+  ],
+  "tags": [
+    "products",
+    "drugs medical"
+  ]
+}

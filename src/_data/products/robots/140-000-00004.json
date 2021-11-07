@@ -1,0 +1,52 @@
+{
+  "sku": "140-000-00004",
+  "type": "robots",
+  "subtype": "",
+  "name": "Dover-Gabe class Courier Robot",
+  "mfr": "014",
+  "cost": 15300000,
+  "mass": 30000,
+  "techLevel": 11,
+  "qrebs": "N/A",
+  "image": "",
+  "description": "<p><!-- Summary Start -->The Dover-Gabe Courier Robot was a TL-11 specialized courier robot, built to quickly transport communications material from one location to another.<!-- Summary End --> It is a custom 30-ton pod hull, controlled by a semi-organic brain (83R = INT 8, EDU 3, Charisma R) with a set of small craft skill programs (Pilot-4, Comms-2, Sensop-2). As with all brain-based systems, each brain has one skill level in a hobby (randomly determined). Compensation given to brain-based systems varies, but is often non-monetary. These particular models have room for one or two additional levels of skill; upgrades are often sufficiently motivating for these systems.</p><p>The onboard fuel cell provides power for 10 weeks (5 weeks in an un-oxygenated atmosphere). It includes a surface-mount comms array and a Distant-ranged proximeter for collision avoidance.</p>",
+  "categories": [
+    "robots"
+  ],
+  "sources": [
+    {
+      "publication": "Referee's Companion",
+      "authors": [
+        "Miller, Marc"
+      ],
+      "publisher": {
+        "name": "Game Designers Workshop",
+        "url": ""
+      }
+    },
+    {
+      "publication": "Traveller5 Book 2: Starships",
+      "authors": [
+        "Miller, Marc"
+      ],
+      "publisher": {
+        "name": "Far Future Enterprises",
+        "url": ""
+      }
+    },
+    {
+      "publication": "Traveller Wiki: Dover-Gabe class Courier Robot",
+      "authors": [
+        "Traveller Wiki Editorial Team"
+      ],
+      "publisher": {
+        "name": "Traveller Wiki",
+        "url": "https://wiki.travellerrpg.com/Dover-Gabe_class_Courier_Robot"
+      }
+    }
+  ],
+  "tags": [
+    "products",
+    "robots"
+  ]
+}

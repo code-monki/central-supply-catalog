@@ -1,0 +1,34 @@
+{
+  "sku": "130-003-10009",
+  "type": "protections",
+  "subtype": "units",
+  "name": "Exploration Unit (ExpU-10)",
+  "cost": 420000,
+  "mass": 200,
+  "techLevel": 10,
+  "qrebs": "N/A",
+  "image": "",
+  "description": "<p><!-- Summary Start -->Exploration units are designed designed for long-term (multiple days) use while providing protection against typical and ordinary world surface environmental threats: temperature, vacuum, light.<!-- Summary End --></p>",
+  "accessories": [],
+  "categories": [
+    "protections",
+    "units"
+  ],
+  "sources": [
+    {
+      "publication": "Traveller 5.10 Core Rules Book 1 : Characters and Combat",
+      "authors": [
+        "Miller, Marc"
+      ],
+      "publisher": {
+        "name": "Far Future Enterprises",
+        "url": "https://farfuture.net"
+      }
+    }
+  ],
+  "tags": [
+    "products",
+    "protections",
+    "units"
+  ]
+}

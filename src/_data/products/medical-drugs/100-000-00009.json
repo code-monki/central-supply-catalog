@@ -1,0 +1,33 @@
+{
+  "sku": "100-000-00009",
+  "type": "drugs medical",
+  "subtype": "",
+  "name": "Counteract",
+  "mfr": "",
+  "cost": 250,
+  "mass": 0,
+  "size": 1,
+  "techLevel": 12,
+  "qrebs": "N/A",
+  "image": "",
+  "description": "<p><!-- Summary Start -->Daily (or QPR) antidote drugs which counteracts a specific targeted effect according to type.<!-- Summary End --> Examples include a toxin, suffocation, the onset of a sickness or deprivation, Fast Drug and Slow Drug, anti-rejection, anti-septic, etc.</p>",
+  "categories": [
+    "drugs medical"
+  ],
+  "sources": [
+    {
+      "publication": "Traveller 5.10 Core Rules Book 3 : Worlds and Adventures",
+      "authors": [
+        "Miller, Marc"
+      ],
+      "publisher": {
+        "name": "Far Future Enterprises",
+        "url": "https://farfuture.net"
+      }
+    }
+  ],
+  "tags": [
+    "products",
+    "drugs medical"
+  ]
+}

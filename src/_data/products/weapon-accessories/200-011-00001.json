@@ -1,0 +1,35 @@
+{
+  "sku": "200-011-00001",
+  "type": "weapons",
+  "subtype": "weapon accessory",
+  "name": "Gunsight, Electronic",
+  "mfr": "",
+  "cost": 2000,
+  "mass": 0.1,
+  "size": 2,
+  "techLevel": 9,
+  "qrebs": "R=-1",
+  "image": "/img/products/200-011-00001.png",
+  "description": "<p><!-- Summary Start -->Electronic sights with image enhancement and low-light capabilities are available to provide the capability to see and hit in the dark.<!-- Summary End --> The electronic gunsight increases accuracy, especially at longer ranges. A rifle equipped with such sights decreases apparent distance beyond Long Range by 1 band.</p>",
+  "categories": [
+    "weapons",
+    "weapon accessory"
+  ],
+  "sources": [
+    {
+      "publication": "Traveller 5.10 Core Rules Book 3 : Worlds and Adventures",
+      "authors": [
+        "Miller, Marc"
+      ],
+      "publisher": {
+        "name": "Far Future Enterprises",
+        "url": "https://farfuture.net"
+      }
+    }
+  ],
+  "tags": [
+    "products",
+    "weapons",
+    "weapon accessory"
+  ]
+}

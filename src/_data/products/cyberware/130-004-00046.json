@@ -1,0 +1,46 @@
+{
+  "sku": "130-004-00046",
+  "type": "protections",
+  "subtype": "cyberware",
+  "name": "Cybernetic Eye, Wide Spectrum Visual (TL-15)",
+  "mfr": "",
+  "cost": 500000,
+  "mass": 0.06,
+  "size": "0.06 liters",
+  "techLevel": 15,
+  "qrebs": "N/A",
+  "image": "",
+  "description": "<p><!-- Summary Start -->The wide spectrum visual eye combines magnification and image enhancement with sensitivity to light across a broad spectrum, from ultraviolet through infrared (USPBGRCAN visual bands).<!-- Summary End --> This cybernetic eye has a range of 400 meters. This version of the cybernetic eye has a single-function and is easily recognizable as a mechanical implant.</p><p> In all cases, the cyber eye also includes basic visible light vision. For Sophonts with different visual ranges the basic cyber eye will cover their normal visual range.</p>",
+  "categories": [
+    "protections",
+    "cyberware"
+  ],
+  "sources": [
+    {
+      "publication": "Traveller Wiki: Cybernetic Eyes",
+      "authors": [
+        "Traveller Wiki Editorial Team"
+      ],
+      "publisher": {
+        "name": "Traveller Wiki",
+        "url": "https://wiki.travellerrpg.com/Cybernetic_eyes"
+      }
+    },
+    {
+      "publication": "Fire, Fusion, & Steel",
+      "authors": [
+        "Chadwick, Frank",
+        "Nilsen, Dave"
+      ],
+      "publisher": {
+        "name": "Game Designers Workshop",
+        "url": ""
+      }
+    }
+  ],
+  "tags": [
+    "products",
+    "protections",
+    "cyberware"
+  ]
+}

@@ -1,0 +1,47 @@
+{
+  "sku": "200-004-00040",
+  "type": "weapons",
+  "subtype": "machineguns",
+  "name": "Anti-Designator Assault Machinegun, Crewed, Basic (BaDAMgC-11)",
+  "mfr": "",
+  "cost": 9450,
+  "mass": 24,
+  "size": "",
+  "techLevel": 11,
+  "qrebs": "R=5",
+  "damage": "Bang-1, Blast-3, Bullet-4",
+  "image": "",
+  "description": "<p><!-- Summary Start -->Basic version of the crewed anti-designator assault machinegun.<!-- Summary End --></p>",
+  "stats": [],
+  "categories": [
+    "weapons",
+    "machineguns"
+  ],
+  "sources": [
+    {
+      "publication": "Traveller 5.10 Core Rules Book 1 : Characters and Combat",
+      "authors": [
+        "Miller, Marc"
+      ],
+      "publisher": {
+        "name": "Far Future Enterprises",
+        "url": "https://farfuture.net"
+      }
+    },
+    {
+      "publication": "Traveller 5.10 Core Rules Book 3 : Worlds and Adventures",
+      "authors": [
+        "Miller, Marc"
+      ],
+      "publisher": {
+        "name": "Far Future Enterprises",
+        "url": "https://farfuture.net"
+      }
+    }
+  ],
+  "tags": [
+    "products",
+    "weapons",
+    "machineguns"
+  ]
+}

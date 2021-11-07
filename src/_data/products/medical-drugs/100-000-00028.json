@@ -1,0 +1,33 @@
+{
+  "sku": "100-000-00028",
+  "type": "drugs medical",
+  "subtype": "",
+  "name": "Sensory Drugs",
+  "mfr": "",
+  "cost": 1000,
+  "mass": 0,
+  "size": 1,
+  "techLevel": 12,
+  "qrebs": "N/A",
+  "image": "",
+  "description": "<p><!-- Summary Start -->Drugs which enhance an existing sense constant by +Flux for 1D hours.<!-- Summary End --> Multiple doses provide additive effects, but does not extend duration.</p><p>Available enhancement types:<br><br><ul class=\"collection\" style=\"width: 30%;margin-left: 1rem;\"><li>Awareness</li><li>Hearing</li><li>Olfactory</li><li>Perception</li><li>Tactile</li><li>Vision</li><li>Vision Spectrum</li></ul></p>",
+  "categories": [
+    "drugs medical"
+  ],
+  "sources": [
+    {
+      "publication": "Traveller 5.10 Core Rules Book 3 : Worlds and Adventures",
+      "authors": [
+        "Miller, Marc"
+      ],
+      "publisher": {
+        "name": "Far Future Enterprises",
+        "url": "https://farfuture.net"
+      }
+    }
+  ],
+  "tags": [
+    "products",
+    "drugs medical"
+  ]
+}

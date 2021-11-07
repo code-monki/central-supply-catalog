@@ -1,0 +1,47 @@
+{
+  "sku": "200-007-00046",
+  "type": "weapons",
+  "subtype": "launchers",
+  "name": "AT Missile Multi-Launcher, Medium, Advanced (AMaTmL-14)",
+  "mfr": "",
+  "cost": 36000,
+  "mass": 8,
+  "size": "",
+  "techLevel": 14,
+  "qrebs": "R=4",
+  "damage": "Pen-3, Frag-5",
+  "image": "",
+  "description": "<p><!-- Summary Start -->Advanced version of the medium anti-tank missile multi-launcher.<!-- Summary End --></p>",
+  "stats": [],
+  "categories": [
+    "weapons",
+    "launchers"
+  ],
+  "sources": [
+    {
+      "publication": "Traveller 5.10 Core Rules Book 3 : Worlds and Adventures",
+      "authors": [
+        "Miller, Marc"
+      ],
+      "publisher": {
+        "name": "Far Future Enterprises",
+        "url": "https://farfuture.net"
+      }
+    },
+    {
+      "publication": "Traveller 5.10 Core Rules Book 3 : Worlds and Adventures",
+      "authors": [
+        "Miller, Marc"
+      ],
+      "publisher": {
+        "name": "Far Future Enterprises",
+        "url": "https://farfuture.net"
+      }
+    }
+  ],
+  "tags": [
+    "products",
+    "weapons",
+    "launchers"
+  ]
+}

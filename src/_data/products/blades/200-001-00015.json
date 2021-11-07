@@ -1,0 +1,37 @@
+{
+  "sku": "200-001-00015",
+  "type": "weapons",
+  "subtype": "blades",
+  "name": "Knife (K)",
+  "mfr": "",
+  "cost": 50,
+  "mass": 0.5,
+  "size": "",
+  "techLevel": 1,
+  "qrebs": "",
+  "damage": "Cuts-2",
+  "image": "",
+  "description": "<p><!-- Summary Start -->The knife is a short-bladed weapon.<!-- Summary End --> Knives come in a variety of types (fixed blade, folding blade, locking blade) and are generally carried in a sheath.</p>",
+  "stats": [],
+  "categories": [
+    "weapons",
+    "blades"
+  ],
+  "sources": [
+    {
+      "publication": "Traveller 5.10 Core Rules Book 3 : Worlds and Adventures",
+      "authors": [
+        "Miller, Marc"
+      ],
+      "publisher": {
+        "name": "Far Future Enterprises",
+        "url": "https://farfuture.net"
+      }
+    }
+  ],
+  "tags": [
+    "products",
+    "weapons",
+    "blades"
+  ]
+}

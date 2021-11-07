@@ -1,0 +1,34 @@
+{
+  "sku": "130-003-10013",
+  "type": "protections",
+  "subtype": "units",
+  "name": "Hot Unit, Alternate (AltHU-11)",
+  "cost": 39600,
+  "mass": 66,
+  "techLevel": 11,
+  "qrebs": "N/A",
+  "image": "",
+  "description": "<p><!-- Summary Start -->The hot environment unit protects against extreme high temperature conditions.<!-- Summary End --></p>",
+  "accessories": [],
+  "categories": [
+    "protections",
+    "units"
+  ],
+  "sources": [
+    {
+      "publication": "Traveller 5.10 Core Rules Book 1 : Characters and Combat",
+      "authors": [
+        "Miller, Marc"
+      ],
+      "publisher": {
+        "name": "Far Future Enterprises",
+        "url": "https://farfuture.net"
+      }
+    }
+  ],
+  "tags": [
+    "products",
+    "protections",
+    "units"
+  ]
+}

@@ -1,0 +1,47 @@
+{
+  "sku": "200-008-00045",
+  "type": "weapons",
+  "subtype": "projectors",
+  "name": "Anti-Designator Freeze Projector (aDFPj-13)",
+  "mfr": "",
+  "cost": 2700,
+  "mass": 3,
+  "size": "",
+  "techLevel": 13,
+  "qrebs": "R=4",
+  "damage": "Cold-4",
+  "image": "",
+  "description": "<p><!-- Summary Start -->The anti-designator freeze projector senses the effects of a freeze designator.<!-- Summary End --> The weapon can be set to automatically fire at the designator or wait for a manual command.</p>",
+  "stats": [],
+  "categories": [
+    "weapons",
+    "projectors"
+  ],
+  "sources": [
+    {
+      "publication": "Traveller 5.10 Core Rules Book 1 : Characters and Combat",
+      "authors": [
+        "Miller, Marc"
+      ],
+      "publisher": {
+        "name": "Far Future Enterprises",
+        "url": "https://farfuture.net"
+      }
+    },
+    {
+      "publication": "Traveller 5.10 Core Rules Book 3 : Worlds and Adventures",
+      "authors": [
+        "Miller, Marc"
+      ],
+      "publisher": {
+        "name": "Far Future Enterprises",
+        "url": "https://farfuture.net"
+      }
+    }
+  ],
+  "tags": [
+    "products",
+    "weapons",
+    "projectors"
+  ]
+}

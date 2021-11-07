@@ -1,0 +1,47 @@
+{
+  "sku": "200-007-00037",
+  "type": "weapons",
+  "subtype": "launchers",
+  "name": "Grenade Multi-Launcher, Vheavy, Crewed, Advanced (AVhGmLC-12)",
+  "mfr": "",
+  "cost": 12000,
+  "mass": 25,
+  "size": "",
+  "techLevel": 12,
+  "qrebs": "R=5",
+  "damage": "Blast-2, Frag-10",
+  "image": "",
+  "description": "<p><!-- Summary Start -->Advanced crewed very heavy grenade multi-launcher.<!-- Summary End --></p>",
+  "stats": [],
+  "categories": [
+    "weapons",
+    "launchers"
+  ],
+  "sources": [
+    {
+      "publication": "Traveller 5.10 Core Rules Book 3 : Worlds and Adventures",
+      "authors": [
+        "Miller, Marc"
+      ],
+      "publisher": {
+        "name": "Far Future Enterprises",
+        "url": "https://farfuture.net"
+      }
+    },
+    {
+      "publication": "Traveller 5.10 Core Rules Book 3 : Worlds and Adventures",
+      "authors": [
+        "Miller, Marc"
+      ],
+      "publisher": {
+        "name": "Far Future Enterprises",
+        "url": "https://farfuture.net"
+      }
+    }
+  ],
+  "tags": [
+    "products",
+    "weapons",
+    "launchers"
+  ]
+}

@@ -1,0 +1,33 @@
+{
+  "sku": "100-000-00021",
+  "type": "drugs medical",
+  "subtype": "",
+  "name": "Nutrient",
+  "mfr": "",
+  "cost": 1,
+  "mass": 0.3,
+  "size": 1,
+  "techLevel": 9,
+  "qrebs": "N/A",
+  "image": "",
+  "description": "<p><!-- Summary Start -->Basic nutritional replacement for a single meal.<!-- Summary End --> The nutrient is stored in a disposable container as a slurry of protein, carbohydrate, and fats in a cocktail of vitamins and glucose.<!-- Summary End --> Quality is low. High quality versions, with better flavor or more desirable ingredient origins, cost more.</p>",
+  "categories": [
+    "drugs medical"
+  ],
+  "sources": [
+    {
+      "publication": "Traveller 5.10 Core Rules Book 3 : Worlds and Adventures",
+      "authors": [
+        "Miller, Marc"
+      ],
+      "publisher": {
+        "name": "Far Future Enterprises",
+        "url": "https://farfuture.net"
+      }
+    }
+  ],
+  "tags": [
+    "products",
+    "drugs medical"
+  ]
+}

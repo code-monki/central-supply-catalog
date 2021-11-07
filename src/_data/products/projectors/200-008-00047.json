@@ -1,0 +1,47 @@
+{
+  "sku": "200-008-00047",
+  "type": "weapons",
+  "subtype": "projectors",
+  "name": "Anti-Designator Fire Projector, Modified (ModaDFP-j13)",
+  "mfr": "",
+  "cost": 2160,
+  "mass": 2.4,
+  "size": "",
+  "techLevel": 13,
+  "qrebs": "R=3",
+  "damage": "Pen-1, Burn-4",
+  "image": "",
+  "description": "<p><!-- Summary Start -->Modified version of the anti-designator fire projector.<!-- Summary End --> The weapon senses the effects of a fire designator and can be set to automatically fire at the designator or wait for a manual command.</p>",
+  "stats": [],
+  "categories": [
+    "weapons",
+    "projectors"
+  ],
+  "sources": [
+    {
+      "publication": "Traveller 5.10 Core Rules Book 1 : Characters and Combat",
+      "authors": [
+        "Miller, Marc"
+      ],
+      "publisher": {
+        "name": "Far Future Enterprises",
+        "url": "https://farfuture.net"
+      }
+    },
+    {
+      "publication": "Traveller 5.10 Core Rules Book 3 : Worlds and Adventures",
+      "authors": [
+        "Miller, Marc"
+      ],
+      "publisher": {
+        "name": "Far Future Enterprises",
+        "url": "https://farfuture.net"
+      }
+    }
+  ],
+  "tags": [
+    "products",
+    "weapons",
+    "projectors"
+  ]
+}

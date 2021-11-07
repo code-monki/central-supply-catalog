@@ -1,0 +1,35 @@
+{
+  "sku": "130-000-00013",
+  "type": "protections",
+  "subtype": "armor",
+  "name": "Boarding Armor, Experimental Light (XLtBdA-9)",
+  "mfr": "",
+  "cost": 352000,
+  "mass": 50,
+  "techLevel": 9,
+  "qrebs": "N/A",
+  "image": "",
+  "description": "<p><!-- Summary Start -->Boarding armor for use in zero-G operations against interplanetary and interstellar vessels.<!-- Summary End --> AV 28 (MgT 15)</p>",
+  "accessories": [],
+  "categories": [
+    "protections",
+    "armor"
+  ],
+  "sources": [
+    {
+      "publication": "Traveller 5.10 Core Rules Book 1 : Characters and Combat",
+      "authors": [
+        "Miller, Marc"
+      ],
+      "publisher": {
+        "name": "Far Future Enterprises",
+        "url": "https://farfuture.net"
+      }
+    }
+  ],
+  "tags": [
+    "products",
+    "protections",
+    "armor"
+  ]
+}

@@ -1,0 +1,34 @@
+{
+  "sku": "130-002-10051",
+  "type": "protections",
+  "subtype": "suits",
+  "name": "Prospector Suit, Advanced Vlight (AVlProS-11)",
+  "cost": 24000,
+  "mass": 9,
+  "techLevel": 11,
+  "qrebs": "N/A",
+  "image": "",
+  "description": "<p><!-- Summary Start -->The prospector suit is a modified hostile environment suit that adds survey and search tools to a hostile environ capability.<!-- Summary End --></p>",
+  "accessories": [],
+  "categories": [
+    "protections",
+    "suits"
+  ],
+  "sources": [
+    {
+      "publication": "Traveller 5.10 Core Rules Book 1 : Characters and Combat",
+      "authors": [
+        "Miller, Marc"
+      ],
+      "publisher": {
+        "name": "Far Future Enterprises",
+        "url": "https://farfuture.net"
+      }
+    }
+  ],
+  "tags": [
+    "products",
+    "protections",
+    "suits"
+  ]
+}

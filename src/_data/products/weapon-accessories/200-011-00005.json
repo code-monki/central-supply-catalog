@@ -1,0 +1,35 @@
+{
+  "sku": "200-011-00005",
+  "type": "weapons",
+  "subtype": "weapon accessory",
+  "name": "Gunsight, Telescopic",
+  "mfr": "",
+  "cost": 200,
+  "mass": 0.1,
+  "size": 2,
+  "techLevel": 6,
+  "qrebs": "R=-1, S=+3",
+  "image": "/img/products/200-011-00005.png",
+  "description": "<p><!-- Summary Start -->High-quality telescopic sight for attachment to rifles and carbines.<!-- Summary End --> The telescopic gunsight increases accuracy, especially at longer ranges. A rifle equipped with such sights decreases apparent distance beyond Long Range by 1 band.<!-- Summary End --></p>",
+  "categories": [
+    "weapons",
+    "weapon accessory"
+  ],
+  "sources": [
+    {
+      "publication": "Traveller 5.10 Core Rules Book 3 : Worlds and Adventures",
+      "authors": [
+        "Miller, Marc"
+      ],
+      "publisher": {
+        "name": "Far Future Enterprises",
+        "url": "https://farfuture.net"
+      }
+    }
+  ],
+  "tags": [
+    "products",
+    "weapons",
+    "weapon accessory"
+  ]
+}

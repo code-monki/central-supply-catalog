@@ -1,0 +1,33 @@
+{
+  "sku": "050-000-00014",
+  "type": "containers",
+  "subtype": "",
+  "name": "Storage Tank",
+  "mfr": "",
+  "cost": 500,
+  "mass": 1000,
+  "size": 5,
+  "techLevel": 5,
+  "qrebs": "N/A",
+  "image": "",
+  "description": "<p><!-- Summary Start -->A large metal tank holding up to 2 kiloliters of liquids.<!-- Summary End --></p>",
+  "categories": [
+    "containers"
+  ],
+  "sources": [
+    {
+      "publication": "Traveller 5.10 Core Rules Book 3 : Worlds and Adventures",
+      "authors": [
+        "Miller, Marc"
+      ],
+      "publisher": {
+        "name": "Far Future Enterprises",
+        "url": "https://farfuture.net"
+      }
+    }
+  ],
+  "tags": [
+    "products",
+    "containers"
+  ]
+}

@@ -1,0 +1,32 @@
+{
+  "sku": "010-000-00015",
+  "type": "breathing apparatus",
+  "subtype": "",
+  "name": "Gill",
+  "cost": 4000,
+  "mass": 4,
+  "size": 3,
+  "techLevel": 11,
+  "qrebs": "N/A",
+  "image": "",
+  "description": "<p><!-- Summary Start -->The gill is a breathing apparatus for air breathers which extracts oxygen from water.<!-- Summary End --></p>",
+  "categories": [
+    "breathing-apparatus"
+  ],
+  "sources": [
+    {
+      "publication": "Traveller 5.10 Core Rules Book 3 : Worlds and Adventures",
+      "authors": [
+        "Miller, Marc"
+      ],
+      "publisher": {
+        "name": "Far Future Enterprises",
+        "url": "https://farfuture.net"
+      }
+    }
+  ],
+  "tags": [
+    "products",
+    "breathing-apparatus"
+  ]
+}

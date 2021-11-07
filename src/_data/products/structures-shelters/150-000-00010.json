@@ -1,0 +1,33 @@
+{
+  "sku": "150-000-00010",
+  "type": "structures",
+  "subtype": "",
+  "name": "Tarpaulin",
+  "mfr": "",
+  "cost": 10,
+  "mass": 2,
+  "size": 5,
+  "techLevel": 1,
+  "qrebs": "N/A",
+  "image": "",
+  "description": "<p><!-- Summary Start -->A canvas or waterproof cloth sheet used for temporary shelter.<!-- Summary End --> Tarpaulins are typically 2 meters by 4 meters in size.</p>",
+  "categories": [
+    "structures"
+  ],
+  "sources": [
+    {
+      "publication": "Traveller 5.10 Core Rules Book 3 : Worlds and Adventures",
+      "authors": [
+        "Miller, Marc"
+      ],
+      "publisher": {
+        "name": "Far Future Enterprises",
+        "url": "https://farfuture.net"
+      }
+    }
+  ],
+  "tags": [
+    "products",
+    "structures"
+  ]
+}

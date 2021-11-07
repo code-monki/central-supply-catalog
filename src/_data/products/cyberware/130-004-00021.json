@@ -1,0 +1,58 @@
+{
+  "sku": "130-004-00021",
+  "type": "protections",
+  "subtype": "cyberware",
+  "name": "Heavy Duty Cybernetic Arm",
+  "mfr": "",
+  "cost": 1500000,
+  "mass": 9,
+  "size": "9 liters",
+  "techLevel": 12,
+  "qrebs": "N/A",
+  "image": "",
+  "description": "<p><!-- Summary Start -->A Heavy Duty Cybernetic Arm is a cybernetic replacement.<!-- Summary End --> It is a heavily constructed, oversized arm typically utilized in industrial and military applications. It serves as a platform for heavy or bulky items of equipment or weapons systems. Heavy Duty Arms are not generally fitted with hands, instead serving as a mount for specialized tools. They are designed to have superior strength and capabilities relative to an organic arm but have inferior dexterity. The arm is knitted into the body around the shoulder, the bulk and the need for strong attachments to the organic body mean it is always a full arm replacement. It is counterbalanced to allow the recipient a relatively normal range of movement despite the arm's large size. Unlike most replacements it cannot be made to appear lifelike and is almost always left as exposed components.</p><p>The arm is designed to be fitted with configuration modifications and upgrades. Modifications may include:</p><ul><li>Weapons Mount: the arm is configured to mount up to 10 kilograms of assorted weaponry: no more than three weapons at a time can be mounted.</li><li>Heavy Equipment Mount: typically, the mount is used for drills, pumps, winches, and other bulky items.</li><li>Pincer Attachment: a heavy duty, double-faced servo-assisted wrench that can be used for grasping, twisting and cutting.</p><li>Tendril Attachment: the arm is fitted with 3m long fully articulated tentacles protruding from a central boss that can be controlled individually or in tandem.</li><li>Tool Kit: the arm contains a comprehensive range of tools. The arm has integral powered mountings.</li></ul></p>",
+  "categories": [
+    "protections",
+    "cyberware"
+  ],
+  "sources": [
+    {
+      "publication": "Traveller Wiki: Heavy Duty Cybernetic Arm",
+      "authors": [
+        "Lord (Marquis) and Master Scout Emeritus Adie Alegoric Stewart of the IISS",
+        "Lord (Marquis) and Master of Sophontology Maksim-Smelchak of the Ministry of Science"
+      ],
+      "publisher": {
+        "name": "Traveller Wiki",
+        "url": "https://wiki.travellerrpg.com/Heavy_Duty_Cybernetic_Arm"
+      }
+    },
+    {
+      "publication": "Fire, Fusion, & Steel",
+      "authors": [
+        "Chadwick, Frank",
+        "Nilsen, Dave"
+      ],
+      "publisher": {
+        "name": "Game Designers Workshop",
+        "url": ""
+      }
+    },
+    {
+      "publication": "Cybernetics",
+      "authors": [
+        "Nash, Pete",
+        "Robinson, Nick"
+      ],
+      "publisher": {
+        "name": "Mongoose Publishing",
+        "url": "https://www.mongoosepublishing.com/"
+      }
+    }
+  ],
+  "tags": [
+    "products",
+    "protections",
+    "cyberware"
+  ]
+}

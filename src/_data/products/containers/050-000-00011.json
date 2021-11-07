@@ -1,0 +1,33 @@
+{
+  "sku": "050-000-00011",
+  "type": "containers",
+  "subtype": "",
+  "name": "Bottle",
+  "mfr": "",
+  "cost": 1,
+  "mass": 0.4,
+  "size": 3,
+  "techLevel": 3,
+  "qrebs": "N/A",
+  "image": "",
+  "description": "<p><!-- Summary Start -->A bulky glass container holding up to 4 liters of liquid.<!-- Summary End --></p>",
+  "categories": [
+    "containers"
+  ],
+  "sources": [
+    {
+      "publication": "Traveller 5.10 Core Rules Book 3 : Worlds and Adventures",
+      "authors": [
+        "Miller, Marc"
+      ],
+      "publisher": {
+        "name": "Far Future Enterprises",
+        "url": "https://farfuture.net"
+      }
+    }
+  ],
+  "tags": [
+    "products",
+    "containers"
+  ]
+}

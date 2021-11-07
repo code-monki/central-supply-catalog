@@ -1,0 +1,35 @@
+{
+  "sku": "130-001-10044",
+  "type": "protections",
+  "subtype": "dress",
+  "name": "Assault Dress, Prototype Heavy (PHAD-14)",
+  "mfr": "",
+  "cost": 720000,
+  "mass": 418,
+  "techLevel": 14,
+  "qrebs": "N/A",
+  "image": "",
+  "description": "<p><!-- Summary Start -->Assault dress is a (relatively) lightweight system intended for short-term (hours) operations against an enemy force.<!-- Summary End --></p>",
+  "accessories": [],
+  "categories": [
+    "protections",
+    "dress"
+  ],
+  "sources": [
+    {
+      "publication": "Traveller 5.10 Core Rules Book 1 : Characters and Combat",
+      "authors": [
+        "Miller, Marc"
+      ],
+      "publisher": {
+        "name": "Far Future Enterprises",
+        "url": "https://farfuture.net"
+      }
+    }
+  ],
+  "tags": [
+    "products",
+    "protections",
+    "dress"
+  ]
+}

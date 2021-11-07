@@ -1,0 +1,47 @@
+{
+  "sku": "200-009-00043",
+  "type": "weapons",
+  "subtype": "designators",
+  "name": "Laser Designator, Crewed, Early (ELDC-11)",
+  "mfr": "",
+  "cost": 4800,
+  "mass": 20,
+  "size": "",
+  "techLevel": 11,
+  "qrebs": "R=4",
+  "damage": "Pen-2, Burn-3",
+  "image": "",
+  "description": "<p><!-- Summary Start -->The laser designator paints the target with a laser beam.<!-- Summary End --></p>",
+  "stats": [],
+  "categories": [
+    "weapons",
+    "designators"
+  ],
+  "sources": [
+    {
+      "publication": "Traveller 5.10 Core Rules Book 1 : Characters and Combat",
+      "authors": [
+        "Miller, Marc"
+      ],
+      "publisher": {
+        "name": "Far Future Enterprises",
+        "url": "https://farfuture.net"
+      }
+    },
+    {
+      "publication": "Traveller 5.10 Core Rules Book 3 : Worlds and Adventures",
+      "authors": [
+        "Miller, Marc"
+      ],
+      "publisher": {
+        "name": "Far Future Enterprises",
+        "url": "https://farfuture.net"
+      }
+    }
+  ],
+  "tags": [
+    "products",
+    "weapons",
+    "designators"
+  ]
+}

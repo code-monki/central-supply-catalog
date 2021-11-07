@@ -1,0 +1,33 @@
+{
+  "sku": "060-000-00033",
+  "type": "detectors",
+  "subtype": "",
+  "name": "Vision Goggles",
+  "mfr": "",
+  "cost": 600,
+  "mass": 1,
+  "size": 3,
+  "techLevel": 9,
+  "qrebs": "N/A",
+  "image": "",
+  "description": "<p><!-- Summary Start -->Vision goggles intensify the ambient light, easing vision in low light situations.<!-- Summary End --></p>",
+  "categories": [
+    "detectors"
+  ],
+  "sources": [
+    {
+      "publication": "Traveller 5.10 Core Rules Book 3 : Worlds and Adventures",
+      "authors": [
+        "Miller, Marc"
+      ],
+      "publisher": {
+        "name": "Far Future Enterprises",
+        "url": "https://farfuture.net"
+      }
+    }
+  ],
+  "tags": [
+    "products",
+    "detectors"
+  ]
+}

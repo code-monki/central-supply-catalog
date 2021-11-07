@@ -1,0 +1,47 @@
+{
+  "sku": "200-007-00029",
+  "type": "weapons",
+  "subtype": "launchers",
+  "name": "AT Missile Launcher, Recoilless (RaTL-10)",
+  "mfr": "",
+  "cost": 3000,
+  "mass": 9.6,
+  "size": "",
+  "techLevel": 10,
+  "qrebs": "R=3",
+  "damage": "Pen-3, Frag-3",
+  "image": "",
+  "description": "<p><!-- Summary Start -->A recoilless anti-tank missile launcher.<!-- Summary End --></p>",
+  "stats": [],
+  "categories": [
+    "weapons",
+    "launchers"
+  ],
+  "sources": [
+    {
+      "publication": "Traveller 5.10 Core Rules Book 3 : Worlds and Adventures",
+      "authors": [
+        "Miller, Marc"
+      ],
+      "publisher": {
+        "name": "Far Future Enterprises",
+        "url": "https://farfuture.net"
+      }
+    },
+    {
+      "publication": "Traveller 5.10 Core Rules Book 3 : Worlds and Adventures",
+      "authors": [
+        "Miller, Marc"
+      ],
+      "publisher": {
+        "name": "Far Future Enterprises",
+        "url": "https://farfuture.net"
+      }
+    }
+  ],
+  "tags": [
+    "products",
+    "weapons",
+    "launchers"
+  ]
+}

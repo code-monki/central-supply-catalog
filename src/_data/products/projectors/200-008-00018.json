@@ -1,0 +1,47 @@
+{
+  "sku": "200-008-00018",
+  "type": "weapons",
+  "subtype": "projectors",
+  "name": "Shock Projector, Vlight (VlShPj-10)",
+  "mfr": "",
+  "cost": 5400,
+  "mass": 0.3,
+  "size": "",
+  "techLevel": 10,
+  "qrebs": "R=0",
+  "damage": "Pain-2, Elec-1",
+  "image": "",
+  "description": "<p><!-- Summary Start -->Very light version of the shock projector.<!-- Summary End --> The shock projector applies an electric shock to the target.</p>",
+  "stats": [],
+  "categories": [
+    "weapons",
+    "projectors"
+  ],
+  "sources": [
+    {
+      "publication": "Traveller 5.10 Core Rules Book 1 : Characters and Combat",
+      "authors": [
+        "Miller, Marc"
+      ],
+      "publisher": {
+        "name": "Far Future Enterprises",
+        "url": "https://farfuture.net"
+      }
+    },
+    {
+      "publication": "Traveller 5.10 Core Rules Book 3 : Worlds and Adventures",
+      "authors": [
+        "Miller, Marc"
+      ],
+      "publisher": {
+        "name": "Far Future Enterprises",
+        "url": "https://farfuture.net"
+      }
+    }
+  ],
+  "tags": [
+    "products",
+    "weapons",
+    "projectors"
+  ]
+}

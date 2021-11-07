@@ -1,0 +1,34 @@
+{
+  "sku": "130-002-10047",
+  "type": "protections",
+  "subtype": "suits",
+  "name": "Assault Suit, Improved Medium (ImMAS-10)",
+  "cost": 3300,
+  "mass": 15,
+  "techLevel": 10,
+  "qrebs": "N/A",
+  "image": "",
+  "description": "<p><!-- Summary Start -->Assault suits are relatively) lightweight systems is intended for short-term (hours) operations against an enemy force.<!-- Summary End --></p>",
+  "accessories": [],
+  "categories": [
+    "protections",
+    "suits"
+  ],
+  "sources": [
+    {
+      "publication": "Traveller 5.10 Core Rules Book 1 : Characters and Combat",
+      "authors": [
+        "Miller, Marc"
+      ],
+      "publisher": {
+        "name": "Far Future Enterprises",
+        "url": "https://farfuture.net"
+      }
+    }
+  ],
+  "tags": [
+    "products",
+    "protections",
+    "suits"
+  ]
+}

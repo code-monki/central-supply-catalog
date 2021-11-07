@@ -1,0 +1,47 @@
+{
+  "sku": "200-007-00055",
+  "type": "weapons",
+  "subtype": "launchers",
+  "name": "Plasma Multi-Launcher, Heavy, Crewed, Modified (MOdHPmLC-17)",
+  "mfr": "",
+  "cost": 7920,
+  "mass": 29,
+  "size": "",
+  "techLevel": 17,
+  "qrebs": "R=4",
+  "damage": "Burn-3, Pen-6",
+  "image": "",
+  "description": "<p><!-- Summary Start -->A modified version of the crewed heavy plasma multi-launcher.<!-- Summary End --></p>",
+  "stats": [],
+  "categories": [
+    "weapons",
+    "launchers"
+  ],
+  "sources": [
+    {
+      "publication": "Traveller 5.10 Core Rules Book 3 : Worlds and Adventures",
+      "authors": [
+        "Miller, Marc"
+      ],
+      "publisher": {
+        "name": "Far Future Enterprises",
+        "url": "https://farfuture.net"
+      }
+    },
+    {
+      "publication": "Traveller 5.10 Core Rules Book 3 : Worlds and Adventures",
+      "authors": [
+        "Miller, Marc"
+      ],
+      "publisher": {
+        "name": "Far Future Enterprises",
+        "url": "https://farfuture.net"
+      }
+    }
+  ],
+  "tags": [
+    "products",
+    "weapons",
+    "launchers"
+  ]
+}
