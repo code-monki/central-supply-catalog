@@ -1,0 +1,75 @@
+{
+  "sku": "180-001-00007",
+  "type": "vehicles",
+  "subtype": "small craft",
+  "name": "Boat, Slow (BS)",
+  "mfr": "",
+  "cost": 6000000,
+  "displacement": 30,
+  "techLevel": 11,
+  "qrebs": "N/A",
+  "image": "",
+  "description": "<p><!-- Summary Start -->Standard slow boat.<!-- Summary End --></p>",
+  "stats": [
+    {
+      "label": "Speed",
+      "value": 3
+    },
+    {
+      "label": "Load",
+      "value": 24
+    },
+    {
+      "label": "Armor",
+      "value": 30
+    },
+    {
+      "label": "Cage",
+      "value": 10
+    },
+    {
+      "label": "FlashProof",
+      "value": 10
+    },
+    {
+      "label": "RadProof",
+      "value": 10
+    },
+    {
+      "label": "SoundProof",
+      "value": 10
+    },
+    {
+      "label": "PsiShield",
+      "value": 10
+    },
+    {
+      "label": "Insulated",
+      "value": 10
+    },
+    {
+      "label": "Sealed",
+      "value": 20
+    }
+  ],
+  "categories": [
+    "vehicles"
+  ],
+  "sources": [
+    {
+      "publication": "Traveller 5.10 Core Rules Book 3 : Worlds and Adventures",
+      "authors": [
+        "Miller, Marc"
+      ],
+      "publisher": {
+        "name": "Far Future Enterprises",
+        "url": "https://farfuture.net"
+      }
+    }
+  ],
+  "tags": [
+    "products",
+    "vehicles",
+    "small craft"
+  ]
+}

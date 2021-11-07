@@ -1,0 +1,59 @@
+{
+  "sku": "200-004-00013",
+  "type": "weapons",
+  "subtype": "machineguns",
+  "name": "Machinegun, Heavy, Prototype (PHMg-5)",
+  "mfr": "",
+  "cost": 9900,
+  "mass": 19,
+  "size": "",
+  "techLevel": 5,
+  "qrebs": "R=5",
+  "damage": "Bullet-5",
+  "image": "",
+  "description": "<p><!-- Summary Start -->Prototype version of the heavy machinegun.<!-- Summary End --></p>",
+  "stats": [],
+  "accessories": [
+    "200-011-00001",
+    "200-011-00002",
+    "200-011-00003",
+    "200-011-00004",
+    "200-011-00005",
+    "200-010-00102",
+    "200-010-00103",
+    "200-010-00104",
+    "200-010-00105",
+    "200-010-00106"
+  ],
+  "categories": [
+    "weapons",
+    "machineguns"
+  ],
+  "sources": [
+    {
+      "publication": "Traveller 5.10 Core Rules Book 1 : Characters and Combat",
+      "authors": [
+        "Miller, Marc"
+      ],
+      "publisher": {
+        "name": "Far Future Enterprises",
+        "url": "https://farfuture.net"
+      }
+    },
+    {
+      "publication": "Traveller 5.10 Core Rules Book 3 : Worlds and Adventures",
+      "authors": [
+        "Miller, Marc"
+      ],
+      "publisher": {
+        "name": "Far Future Enterprises",
+        "url": "https://farfuture.net"
+      }
+    }
+  ],
+  "tags": [
+    "products",
+    "weapons",
+    "machineguns"
+  ]
+}

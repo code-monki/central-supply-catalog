@@ -1,0 +1,47 @@
+{
+  "sku": "200-008-00020",
+  "type": "weapons",
+  "subtype": "projectors",
+  "name": "Mag Projector, Basic (BMPj-11)",
+  "mfr": "",
+  "cost": 3150,
+  "mass": 2.6,
+  "size": "",
+  "techLevel": 11,
+  "qrebs": "R=1",
+  "damage": "EMP-1, Magnetic-4",
+  "image": "",
+  "description": "<p><!-- Summary Start -->Basic version of the mag projector.<!-- Summary End --> The mag projector projects a high frequency magnetic effect onto the target. This rapid magnetic pulsing scrambles electronic circuits and induces temporary disorientation in organic beings. In addition, this weapon effect shuts down magnetic equipment.</p>",
+  "stats": [],
+  "categories": [
+    "weapons",
+    "projectors"
+  ],
+  "sources": [
+    {
+      "publication": "Traveller 5.10 Core Rules Book 1 : Characters and Combat",
+      "authors": [
+        "Miller, Marc"
+      ],
+      "publisher": {
+        "name": "Far Future Enterprises",
+        "url": "https://farfuture.net"
+      }
+    },
+    {
+      "publication": "Traveller 5.10 Core Rules Book 3 : Worlds and Adventures",
+      "authors": [
+        "Miller, Marc"
+      ],
+      "publisher": {
+        "name": "Far Future Enterprises",
+        "url": "https://farfuture.net"
+      }
+    }
+  ],
+  "tags": [
+    "products",
+    "weapons",
+    "projectors"
+  ]
+}

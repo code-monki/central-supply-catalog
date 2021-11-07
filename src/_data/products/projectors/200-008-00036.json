@@ -1,0 +1,47 @@
+{
+  "sku": "200-008-00036",
+  "type": "weapons",
+  "subtype": "projectors",
+  "name": "Fire Projector, Light, Obsolete (ObLtFPj-12)",
+  "mfr": "",
+  "cost": 450,
+  "mass": 0.4,
+  "size": "",
+  "techLevel": 12,
+  "qrebs": "R=1",
+  "damage": "Pen-1, Burn-2",
+  "image": "",
+  "description": "<p><!-- Summary Start -->Obsolete version of the light fire projector.<!-- Summary End --> The fire projector fires or projects flame or fire at the target.</p>",
+  "stats": [],
+  "categories": [
+    "weapons",
+    "projectors"
+  ],
+  "sources": [
+    {
+      "publication": "Traveller 5.10 Core Rules Book 1 : Characters and Combat",
+      "authors": [
+        "Miller, Marc"
+      ],
+      "publisher": {
+        "name": "Far Future Enterprises",
+        "url": "https://farfuture.net"
+      }
+    },
+    {
+      "publication": "Traveller 5.10 Core Rules Book 3 : Worlds and Adventures",
+      "authors": [
+        "Miller, Marc"
+      ],
+      "publisher": {
+        "name": "Far Future Enterprises",
+        "url": "https://farfuture.net"
+      }
+    }
+  ],
+  "tags": [
+    "products",
+    "weapons",
+    "projectors"
+  ]
+}

@@ -1,0 +1,39 @@
+{
+  "sku": "130-004-00051",
+  "type": "protections",
+  "subtype": "cyberware",
+  "name": "Implanted Sonar",
+  "mfr": "",
+  "cost": 100000,
+  "mass": 0.06,
+  "size": "0.06 liters",
+  "techLevel": 12,
+  "qrebs": "N/A",
+  "image": "",
+  "description": "<p><!-- Summary Start -->The implanted sonar is an omni-directional variable-tone ultrasound transmitter in the ears, that sends out ultrasound waves and then determines distance to the nearest objects by means of echo ranging.<!-- Summary End --> A continuous low tone in the ear when the system is engaged provides information to the user as to range based on pitch and volume of the tone. This requires an implantable computer to interpret the echoes. If an eyeball display is available, the sonar can also build up an ultrasound map of the space around the user and overlay it on the visual image of the eye.</p><p>The system requires a medium to transmit the sounds through either air or water. The system can adjust to the density of the medium from thin atmosphere to dense atmosphere and most fluids like water. This does not work in thinner atmosphere or vacuum.</p>",
+  "categories": [
+    "protections",
+    "cyberware"
+  ],
+  "accessories": [
+    "130-004-00013",
+    "130-004-00028"
+  ],
+  "sources": [
+    {
+      "publication": "Traveller Wiki: Implanted Inertial Navigation System",
+      "authors": [
+        "Traveller Wiki Editorial Team"
+      ],
+      "publisher": {
+        "name": "Traveller Wiki",
+        "url": "https://wiki.travellerrpg.com/Implanted_inertial_navigation_system"
+      }
+    }
+  ],
+  "tags": [
+    "products",
+    "protections",
+    "cyberware"
+  ]
+}

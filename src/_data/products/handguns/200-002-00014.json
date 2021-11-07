@@ -1,0 +1,63 @@
+{
+  "sku": "200-002-00014",
+  "type": "weapons",
+  "subtype": "handguns",
+  "name": "Pistol, VHeavy (VhP-5)",
+  "mfr": "",
+  "cost": 300,
+  "mass": 4.4,
+  "size": "",
+  "techLevel": 5,
+  "qrebs": "R=5",
+  "damage": "Bullet-6",
+  "image": "",
+  "description": "<p><!-- Summary Start -->The very heavy pistol is extremely heavy but has a longer range and inflicts more damage.<!-- Summary End --></p>",
+  "stats": [],
+  "accessories": [
+    "200-011-00001",
+    "200-011-00002",
+    "200-011-00003",
+    "200-011-00004",
+    "200-011-00005",
+    "200-011-00020",
+    "200-010-00022",
+    "200-010-00023",
+    "200-010-00024",
+    "200-010-00025",
+    "200-010-00026",
+    "200-010-00027"
+  ],
+  "categories": [
+    "weapons",
+    "handguns",
+    "pistol"
+  ],
+  "sources": [
+    {
+      "publication": "Traveller 5.10 Core Rules Book 1 : Characters and Combat",
+      "authors": [
+        "Miller, Marc"
+      ],
+      "publisher": {
+        "name": "Far Future Enterprises",
+        "url": "https://farfuture.net"
+      }
+    },
+    {
+      "publication": "Traveller 5.10 Core Rules Book 3 : Worlds and Adventures",
+      "authors": [
+        "Miller, Marc"
+      ],
+      "publisher": {
+        "name": "Far Future Enterprises",
+        "url": "https://farfuture.net"
+      }
+    }
+  ],
+  "tags": [
+    "products",
+    "weapons",
+    "handguns",
+    "pistol"
+  ]
+}

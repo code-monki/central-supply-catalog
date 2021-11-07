@@ -1,0 +1,47 @@
+{
+  "sku": "200-008-00054",
+  "type": "weapons",
+  "subtype": "projectors",
+  "name": "Anti-Designator Mag Projector, Alternate (AltaDMPj-15)",
+  "mfr": "",
+  "cost": 14850,
+  "mass": 6.6,
+  "size": "",
+  "techLevel": 15,
+  "qrebs": "R=3",
+  "damage": "Emp-1, Magnetic-7",
+  "image": "",
+  "description": "<p><!-- Summary Start -->Alternate version of the anti-designator mag projector.<!-- Summary End --> The weapon senses the effects of a mag designator and can be set to automatically fire or wait for a manual command to fire.</p>",
+  "stats": [],
+  "categories": [
+    "weapons",
+    "projectors"
+  ],
+  "sources": [
+    {
+      "publication": "Traveller 5.10 Core Rules Book 1 : Characters and Combat",
+      "authors": [
+        "Miller, Marc"
+      ],
+      "publisher": {
+        "name": "Far Future Enterprises",
+        "url": "https://farfuture.net"
+      }
+    },
+    {
+      "publication": "Traveller 5.10 Core Rules Book 3 : Worlds and Adventures",
+      "authors": [
+        "Miller, Marc"
+      ],
+      "publisher": {
+        "name": "Far Future Enterprises",
+        "url": "https://farfuture.net"
+      }
+    }
+  ],
+  "tags": [
+    "products",
+    "weapons",
+    "projectors"
+  ]
+}

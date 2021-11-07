@@ -1,0 +1,33 @@
+{
+  "sku": "060-000-00004",
+  "type": "detectors",
+  "subtype": "",
+  "name": "Biosniffer",
+  "mfr": "",
+  "cost": 800,
+  "mass": 1,
+  "size": 2,
+  "techLevel": 10,
+  "qrebs": "N/A",
+  "image": "",
+  "description": "<p><!-- Summary Start -->A &quot;BioSniffer&quot; / Life Detector senses the presence of organisms (based on the principles of Perception).<!-- Summary End --> Contained in an ergonomic, handheld case, with a sling for carrying over the shoulder.</p>",
+  "categories": [
+    "detectors"
+  ],
+  "sources": [
+    {
+      "publication": "Traveller 5.10 Core Rules Book 3 : Worlds and Adventures",
+      "authors": [
+        "Miller, Marc"
+      ],
+      "publisher": {
+        "name": "Far Future Enterprises",
+        "url": "https://farfuture.net"
+      }
+    }
+  ],
+  "tags": [
+    "products",
+    "detectors"
+  ]
+}

@@ -1,0 +1,33 @@
+{
+  "sku": "110-000-00024",
+  "type": "non-breathing gases",
+  "subtype": "military, non-lethal",
+  "name": "Irritant Gas",
+  "mfr": "",
+  "cost": 1000,
+  "mass": 1,
+  "size": 3,
+  "techLevel": 8,
+  "qrebs": "N/A",
+  "image": "",
+  "description": "<p><!-- Summary Start -->The container holds up to 2 liters of compressed gas.<!-- Summary End --> This product is heavily restricted for military use only.</p>",
+  "categories": [
+    "non-breathing gases"
+  ],
+  "sources": [
+    {
+      "publication": "Traveller 5.10 Core Rules Book 3 : Worlds and Adventures",
+      "authors": [
+        "Miller, Marc"
+      ],
+      "publisher": {
+        "name": "Far Future Enterprises",
+        "url": "https://farfuture.net"
+      }
+    }
+  ],
+  "tags": [
+    "products",
+    "non-breathing gases"
+  ]
+}

@@ -1,0 +1,47 @@
+{
+  "sku": "200-007-00045",
+  "type": "weapons",
+  "subtype": "launchers",
+  "name": "Plasma Multi-Launcher, Crewed, Early (EPmLC-14)",
+  "mfr": "",
+  "cost": 7200,
+  "mass": 42,
+  "size": "",
+  "techLevel": 14,
+  "qrebs": "R=2",
+  "damage": "Burn-3, Pen-4",
+  "image": "",
+  "description": "<p><!-- Summary Start -->An early-stage version of the crewed plasma multi-launcher.<!-- Summary End --></p>",
+  "stats": [],
+  "categories": [
+    "weapons",
+    "launchers"
+  ],
+  "sources": [
+    {
+      "publication": "Traveller 5.10 Core Rules Book 3 : Worlds and Adventures",
+      "authors": [
+        "Miller, Marc"
+      ],
+      "publisher": {
+        "name": "Far Future Enterprises",
+        "url": "https://farfuture.net"
+      }
+    },
+    {
+      "publication": "Traveller 5.10 Core Rules Book 3 : Worlds and Adventures",
+      "authors": [
+        "Miller, Marc"
+      ],
+      "publisher": {
+        "name": "Far Future Enterprises",
+        "url": "https://farfuture.net"
+      }
+    }
+  ],
+  "tags": [
+    "products",
+    "weapons",
+    "launchers"
+  ]
+}

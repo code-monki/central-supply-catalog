@@ -1,0 +1,47 @@
+{
+  "sku": "200-009-00044",
+  "type": "weapons",
+  "subtype": "designators",
+  "name": "Poison Gas Designator, Obsolete (ObPD-11)",
+  "mfr": "",
+  "cost": 3000,
+  "mass": 7,
+  "size": "",
+  "techLevel": 11,
+  "qrebs": "R=4",
+  "damage": "Poison-2, Gas-3",
+  "image": "",
+  "description": "<p><!-- Summary Start -->The poison gas anti-designator senses marking of a poison gas and targets the designator for attack.<!-- Summary End --> The anti-designator can automatically fire a weapon at the designator or await a user's command to do so.</p>",
+  "stats": [],
+  "categories": [
+    "weapons",
+    "designators"
+  ],
+  "sources": [
+    {
+      "publication": "Traveller 5.10 Core Rules Book 1 : Characters and Combat",
+      "authors": [
+        "Miller, Marc"
+      ],
+      "publisher": {
+        "name": "Far Future Enterprises",
+        "url": "https://farfuture.net"
+      }
+    },
+    {
+      "publication": "Traveller 5.10 Core Rules Book 3 : Worlds and Adventures",
+      "authors": [
+        "Miller, Marc"
+      ],
+      "publisher": {
+        "name": "Far Future Enterprises",
+        "url": "https://farfuture.net"
+      }
+    }
+  ],
+  "tags": [
+    "products",
+    "weapons",
+    "designators"
+  ]
+}

@@ -1,0 +1,47 @@
+{
+  "sku": "080-000-00005",
+  "type": "explosives",
+  "subtype": "",
+  "name": "Dynamite",
+  "mfr": "",
+  "cost": 1200,
+  "mass": 30,
+  "size": "30 liters",
+  "techLevel": 5,
+  "qrebs": "N/A",
+  "image": "",
+  "description": "<p><!-- Summary Start -->Dynamite is one of the most common explosives in use.<!-- Summary End --> It is used by civil engineers for demolitions, it is relatively easy to manufacture. It has also found military uses. Dynamite is sold in cases of 100 quarter-kilo sticks.</p>",
+  "accessories": [
+    "080-000-00004"
+  ],
+  "categories": [
+    "explosives"
+  ],
+  "sources": [
+    {
+      "publication": "Traveller Wiki: Goods/Explosives",
+      "authors": [
+        "Traveller Wiki Editorial Team"
+      ],
+      "publisher": {
+        "name": "Traveller Wiki",
+        "url": "https://wiki.travellerrpg.com/Dynamite"
+      }
+    },
+    {
+      "publication": "Traveller: The New Era",
+      "authors": [
+        "Chadwick, Frank",
+        "Nilsen, Dave"
+      ],
+      "publisher": {
+        "name": "Game Designers Workshop",
+        "url": ""
+      }
+    }
+  ],
+  "tags": [
+    "products",
+    "explosives"
+  ]
+}

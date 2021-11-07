@@ -1,0 +1,75 @@
+{
+  "sku": "180-000-00001",
+  "type": "vehicles",
+  "subtype": "",
+  "name": "GroundCar - Wheeled, Road-only (ROGC-W)",
+  "mfr": "",
+  "cost": 369000,
+  "techLevel": 6,
+  "qrebs": "N/A",
+  "displacement": 5,
+  "image": "",
+  "description": "<p><!-- Summary Start -->Standard wheeled ground car (ROGC-W).<!-- Summary End --></p>",
+  "stats": [
+    {
+      "label": "Speed",
+      "value": 5
+    },
+    {
+      "label": "Load",
+      "value": 1
+    },
+    {
+      "label": "Armor",
+      "value": 0
+    },
+    {
+      "label": "Cage",
+      "value": 0
+    },
+    {
+      "label": "FlashProof",
+      "value": 0
+    },
+    {
+      "label": "RadProof",
+      "value": 3
+    },
+    {
+      "label": "SoundProof",
+      "value": 3
+    },
+    {
+      "label": "PsiShield",
+      "value": 0
+    },
+    {
+      "label": "Insulated",
+      "value": 3
+    },
+    {
+      "label": "Sealed",
+      "value": 3
+    }
+  ],
+  "categories": [
+    "vehicles"
+  ],
+  "sources": [
+    {
+      "publication": "Traveller 5.10 Core Rules Book 3 : Worlds and Adventures",
+      "authors": [
+        "Miller, Marc"
+      ],
+      "publisher": {
+        "name": "Far Future Enterprises",
+        "url": "https://farfuture.net"
+      }
+    }
+  ],
+  "tags": [
+    "products",
+    "vehicles",
+    "personal vehicles"
+  ]
+}

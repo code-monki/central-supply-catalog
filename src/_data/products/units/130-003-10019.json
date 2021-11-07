@@ -1,0 +1,34 @@
+{
+  "sku": "130-003-10019",
+  "type": "protections",
+  "subtype": "units",
+  "name": "Environ Unit, Light (LtEnvU-11)",
+  "cost": 99000,
+  "mass": 70,
+  "techLevel": 11,
+  "qrebs": "N/A",
+  "image": "",
+  "description": "<p><!-- Summary Start -->Environ units provide protections against typical and ordinary world surface environmental threats: temperature, vacuum, light.<!-- Summary End --></p>",
+  "accessories": [],
+  "categories": [
+    "protections",
+    "units"
+  ],
+  "sources": [
+    {
+      "publication": "Traveller 5.10 Core Rules Book 1 : Characters and Combat",
+      "authors": [
+        "Miller, Marc"
+      ],
+      "publisher": {
+        "name": "Far Future Enterprises",
+        "url": "https://farfuture.net"
+      }
+    }
+  ],
+  "tags": [
+    "products",
+    "protections",
+    "units"
+  ]
+}

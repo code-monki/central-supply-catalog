@@ -1,0 +1,33 @@
+{
+  "sku": "170-000-00003",
+  "type": "toolkits",
+  "subtype": "",
+  "name": "Wood Craftsman Toolset / Toolchest",
+  "mfr": "",
+  "cost": 10000,
+  "mass": 50,
+  "size": 5,
+  "techLevel": 5,
+  "qrebs": "N/A",
+  "image": "",
+  "description": "<p><!-- Summary Start -->Standard toolchest with all of the tools necessary to cut, shape, and build with wood.<!-- Summary End --></p>",
+  "categories": [
+    "toolkits"
+  ],
+  "sources": [
+    {
+      "publication": "",
+      "authors": [
+        ""
+      ],
+      "publisher": {
+        "name": "",
+        "url": ""
+      }
+    }
+  ],
+  "tags": [
+    "products",
+    "toolkits"
+  ]
+}

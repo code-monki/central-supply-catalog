@@ -1,0 +1,36 @@
+{
+  "sku": "130-000-00002",
+  "type": "protections",
+  "subtype": "armor",
+  "name": "Assault Armor, Heavy",
+  "mfr": "",
+  "cost": 240000,
+  "mass": 46,
+  "size": 5,
+  "techLevel": 16,
+  "qrebs": "N/A",
+  "image": "",
+  "description": "<p><!-- Summary Start -->Darrian pre-Maghiz suit of combat armor.<!-- Summary End --> Assault armor is a relatively lightweight systems intended for short-term (hours) operations against an enemy force.   Ar 32 (MgT 16)</p>",
+  "accessories": [],
+  "categories": [
+    "protections",
+    "armor"
+  ],
+  "sources": [
+    {
+      "publication": "Traveller 5.10 Core Rules Book 3 : Worlds and Adventures",
+      "authors": [
+        "Miller, Marc"
+      ],
+      "publisher": {
+        "name": "Far Future Enterprises",
+        "url": "https://farfuture.net"
+      }
+    }
+  ],
+  "tags": [
+    "products",
+    "protections",
+    "armor"
+  ]
+}

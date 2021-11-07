@@ -1,0 +1,34 @@
+{
+  "sku": "130-002-10054",
+  "type": "protections",
+  "subtype": "suits",
+  "name": "Vacc Suit, Disposable (DVS-12)",
+  "cost": 5000,
+  "mass": 9,
+  "techLevel": 12,
+  "qrebs": "N/A",
+  "image": "",
+  "description": "<p><!-- Summary Start -->Vacc suits provides functionality in a zero-G environment with protection from vacuum.<!-- Summary End --></p>",
+  "accessories": [],
+  "categories": [
+    "protections",
+    "suits"
+  ],
+  "sources": [
+    {
+      "publication": "Traveller 5.10 Core Rules Book 1 : Characters and Combat",
+      "authors": [
+        "Miller, Marc"
+      ],
+      "publisher": {
+        "name": "Far Future Enterprises",
+        "url": "https://farfuture.net"
+      }
+    }
+  ],
+  "tags": [
+    "products",
+    "protections",
+    "suits"
+  ]
+}

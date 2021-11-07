@@ -1,0 +1,35 @@
+{
+  "sku": "130-001-10045",
+  "type": "protections",
+  "subtype": "dress",
+  "name": "Assault Dress, Alternate (AltAD-15)",
+  "mfr": "",
+  "cost": 132000,
+  "mass": 66,
+  "techLevel": 15,
+  "qrebs": "N/A",
+  "image": "",
+  "description": "<p><!-- Summary Start -->Assault dress is a (relatively) lightweight system intended for short-term (hours) operations against an enemy force.<!-- Summary End --></p>",
+  "accessories": [],
+  "categories": [
+    "protections",
+    "dress"
+  ],
+  "sources": [
+    {
+      "publication": "Traveller 5.10 Core Rules Book 1 : Characters and Combat",
+      "authors": [
+        "Miller, Marc"
+      ],
+      "publisher": {
+        "name": "Far Future Enterprises",
+        "url": "https://farfuture.net"
+      }
+    }
+  ],
+  "tags": [
+    "products",
+    "protections",
+    "dress"
+  ]
+}

@@ -1,0 +1,35 @@
+{
+  "sku": "040-001-00017",
+  "type": "construction",
+  "subtype": "construction materials",
+  "name": "Titanium (Sheets)",
+  "mfr": "",
+  "cost": 10000,
+  "mass": 2000,
+  "size": 5,
+  "techLevel": 9,
+  "qrebs": "N/A",
+  "image": "",
+  "description": "<p><!-- Summary Start -->A pallet of titanium sheets.<!-- Summary End --></p>",
+  "categories": [
+    "products",
+    "construction",
+    "construction materials"
+  ],
+  "sources": [
+    {
+      "publication": "Traveller 5.10 Core Rules Book 3 : Worlds and Adventures",
+      "authors": [
+        "Miller, Marc"
+      ],
+      "publisher": {
+        "name": "Far Future Enterprises",
+        "url": "https://farfuture.net"
+      }
+    }
+  ],
+  "tags": [
+    "products",
+    "construction"
+  ]
+}

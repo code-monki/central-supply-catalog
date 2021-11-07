@@ -1,0 +1,58 @@
+{
+  "sku": "130-004-00004",
+  "type": "protections",
+  "subtype": "cyberware",
+  "name": "Cybernetic Kidneys",
+  "mfr": "",
+  "cost": 50000,
+  "mass": 0.3,
+  "size": "0.3 liters",
+  "techLevel": 8,
+  "qrebs": "N/A",
+  "image": "",
+  "description": "<p><!-- Summary Start -->Cybernetic Kidneys are battery-powered devices that filter blood.<!-- Summary End --> They serve to maintain overall fluid balance and help the body pass waste as urine. They are typically fitted as a pair and usually include a bladder. An artificial bladder has a capacity of around 0.5 liters and weighs around 0.5 kg when full.</p><p>Enhanced Kidneys serve to more aggressively filter toxins and pathogens from the blood. This increases resistance to blood borne diseases and toxins, inducing alcohol and most drugs. The bladder system can extract water from the urine reducing the need for water consumption. Combined with a Synthetic Liver renders the patient immune to almost every known toxin.</p>",
+  "categories": [
+    "protections",
+    "cyberware"
+  ],
+  "sources": [
+    {
+      "publication": "Traveller Wiki: Cybernetic Kidneys",
+      "authors": [
+        "Lord (Marquis) and Master Scout Emeritus Adie Alegoric Stewart of the IISS",
+        "Lord (Marquis) and Master of Sophontology Maksim-Smelchak of the Ministry of Science"
+      ],
+      "publisher": {
+        "name": "Traveller Wiki",
+        "url": "https://wiki.travellerrpg.com/Cybernetic_Kidneys"
+      }
+    },
+    {
+      "publication": "Cybernetics",
+      "authors": [
+        "Nash, Pete",
+        "Robinson, Nick"
+      ],
+      "publisher": {
+        "name": "Mongoose Publishing",
+        "url": "https://www.mongoosepublishing.com/"
+      }
+    },
+    {
+      "publication": "Fire, Fusion, & Steel",
+      "authors": [
+        "Chadwick, Frank",
+        "Nilsen, Dave"
+      ],
+      "publisher": {
+        "name": "Game Designers Workshop",
+        "url": ""
+      }
+    }
+  ],
+  "tags": [
+    "products",
+    "protections",
+    "cyberware"
+  ]
+}

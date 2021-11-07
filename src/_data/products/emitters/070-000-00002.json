@@ -1,0 +1,33 @@
+{
+  "sku": "070-000-00002",
+  "type": "emitters",
+  "subtype": "",
+  "name": "Beacon, IISS",
+  "mfr": "",
+  "cost": 500000,
+  "mass": 50,
+  "size": 5,
+  "techLevel": 9,
+  "qrebs": "N/A",
+  "image": "",
+  "description": "<p><!-- Summary Start -->Vehicle transportable transponder capable of broadcasting voice, video, and/or data out to 250,000 km (R=11).<!-- Summary End --> Commonly used by the IISS for marking class E starports and designating landing locations. Volume approximately 0.5 tons.</p>",
+  "categories": [
+    "emitters"
+  ],
+  "sources": [
+    {
+      "publication": "Traveller 5.10 Core Rules Book 3 : Worlds and Adventures",
+      "authors": [
+        "Miller, Marc"
+      ],
+      "publisher": {
+        "name": "Far Future Enterprises",
+        "url": "https://farfuture.net"
+      }
+    }
+  ],
+  "tags": [
+    "products",
+    "emitters"
+  ]
+}

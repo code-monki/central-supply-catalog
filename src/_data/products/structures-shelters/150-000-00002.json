@@ -1,0 +1,32 @@
+{
+  "sku": "150-000-00002",
+  "type": "structures",
+  "subtype": "",
+  "name": "Advanced Base (TL C)",
+  "mfr": "",
+  "cost": 50000,
+  "size": 6,
+  "techLevel": 12,
+  "qrebs": "N/A",
+  "image": "",
+  "description": "<p><!-- Summary Start -->Model 317 modular pressurized quarters for 6 persons, with air lock, recycler, fresher, atmosphere recirculating system, and console.<!-- Summary End --> The advanced base has a 6 ton displacement measuring 2 meters by 6 meters by 6 meters. It comes with 800 man-days' worth of food. Power is provided by an integral Fusion+ unit for up to one year. Advanced bases can be carried in the hold of starship.</p>",
+  "categories": [
+    "structures"
+  ],
+  "sources": [
+    {
+      "publication": "Traveller 5.10 Core Rules Book 3 : Worlds and Adventures",
+      "authors": [
+        "Miller, Marc"
+      ],
+      "publisher": {
+        "name": "Far Future Enterprises",
+        "url": "https://farfuture.net"
+      }
+    }
+  ],
+  "tags": [
+    "products",
+    "structures"
+  ]
+}

@@ -1,0 +1,37 @@
+{
+  "sku": "200-001-00004",
+  "type": "weapons",
+  "subtype": "blades",
+  "name": "Pike (P)",
+  "mfr": "",
+  "cost": 50,
+  "mass": 3,
+  "size": "",
+  "techLevel": 1,
+  "qrebs": "B= +3",
+  "damage": "Cuts-2",
+  "image": "",
+  "description": "<p><!-- Summary Start -->A long (3000 to 4000mm) polearm with some form of flat blade tip.<!-- Summary End --> Pikes are commonly carried as weapons by tech level 1 troops.</p>",
+  "stats": [],
+  "categories": [
+    "weapons",
+    "blades"
+  ],
+  "sources": [
+    {
+      "publication": "Traveller 5.10 Core Rules Book 3 : Worlds and Adventures",
+      "authors": [
+        "Miller, Marc"
+      ],
+      "publisher": {
+        "name": "Far Future Enterprises",
+        "url": "https://farfuture.net"
+      }
+    }
+  ],
+  "tags": [
+    "products",
+    "weapons",
+    "blades"
+  ]
+}

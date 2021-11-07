@@ -1,0 +1,43 @@
+{
+  "sku": "080-000-00004",
+  "type": "explosives",
+  "subtype": "",
+  "name": "Detonator (pack of 50)",
+  "mfr": "",
+  "cost": 50,
+  "mass": 1,
+  "size": 0,
+  "techLevel": 5,
+  "qrebs": "N/A",
+  "image": "",
+  "description": "<p><!-- Summary Start -->A detonator, frequently a blasting cap, is a device used to trigger an explosive device.<!-- Summary End --></p>",
+  "categories": [
+    "explosives"
+  ],
+  "sources": [
+    {
+      "publication": "Traveller Wiki: Detonator",
+      "authors": [
+        "Traveller Wiki Editorial Team"
+      ],
+      "publisher": {
+        "name": "Traveller Wiki",
+        "url": "https://wiki.travellerrpg.com/Detonator"
+      }
+    },
+    {
+      "publication": "Ground Forces",
+      "authors": [
+        "Berry, Douglas E."
+      ],
+      "publisher": {
+        "name": "Steve Jackson Games",
+        "url": "https://sjgames.com"
+      }
+    }
+  ],
+  "tags": [
+    "products",
+    "explosives"
+  ]
+}

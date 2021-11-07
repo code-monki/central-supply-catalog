@@ -1,0 +1,45 @@
+{
+  "sku": "130-004-00008",
+  "type": "protections",
+  "subtype": "cyberware",
+  "name": "Neural Sheathing",
+  "mfr": "",
+  "cost": 30000,
+  "mass": 0,
+  "techLevel": 11,
+  "qrebs": "N/A",
+  "image": "",
+  "description": "<p><!-- Summary Start -->A medical technique using engineered viruses to deposit organic conductors around nerves in the nervous system.<!-- Summary End --> The Neural sheathing improves the physical reaction time of the user.</p><p>The process requires samples of tissue, including nerve cells, to serve as the base of the viruses. These updated viruses are introduced into the body in small doses every few days for a month. Once the treatments are completed the results are usually permanent. In a small percentage of cases the sheathing doesn't work correctly and the patient is left with nerve damage or neural hypersensitivity.</p>",
+  "categories": [
+    "protections",
+    "cyberware"
+  ],
+  "sources": [
+    {
+      "publication": "Traveller Wiki: Neural Sheathing",
+      "authors": [
+        "Traveller Wiki Editorial Team"
+      ],
+      "publisher": {
+        "name": "Traveller Wiki",
+        "url": "https://wiki.travellerrpg.com/Neural_sheathing"
+      }
+    },
+    {
+      "publication": "Fire, Fusion, & Steel",
+      "authors": [
+        "Chadwick, Frank",
+        "Nilsen, Dave"
+      ],
+      "publisher": {
+        "name": "Game Designers Workshop",
+        "url": ""
+      }
+    }
+  ],
+  "tags": [
+    "products",
+    "protections",
+    "cyberware"
+  ]
+}

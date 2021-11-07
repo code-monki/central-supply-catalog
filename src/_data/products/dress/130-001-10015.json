@@ -1,0 +1,35 @@
+{
+  "sku": "130-001-10015",
+  "type": "protections",
+  "subtype": "dress",
+  "name": "Police Dress, Standard Medium (StMPD-11)",
+  "mfr": "",
+  "cost": 68000,
+  "mass": 24,
+  "techLevel": 11,
+  "qrebs": "N/A",
+  "image": "",
+  "description": "<p><!-- Summary Start -->Police dress incorporates protections against the hazards encountered in a law enforcement environment.<!-- Summary End --></p>",
+  "accessories": [],
+  "categories": [
+    "protections",
+    "dress"
+  ],
+  "sources": [
+    {
+      "publication": "Traveller 5.10 Core Rules Book 1 : Characters and Combat",
+      "authors": [
+        "Miller, Marc"
+      ],
+      "publisher": {
+        "name": "Far Future Enterprises",
+        "url": "https://farfuture.net"
+      }
+    }
+  ],
+  "tags": [
+    "products",
+    "protections",
+    "dress"
+  ]
+}

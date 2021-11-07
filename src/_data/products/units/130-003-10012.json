@@ -1,0 +1,34 @@
+{
+  "sku": "130-003-10012",
+  "type": "protections",
+  "subtype": "units",
+  "name": "Police Unit, Improved (ImPU-10)",
+  "cost": 112200,
+  "mass": 120,
+  "techLevel": 10,
+  "qrebs": "N/A",
+  "image": "",
+  "description": "<p><!-- Summary Start -->Police units incorporate protections against the hazards encountered in a law enforcement environment.<!-- Summary End --></p>",
+  "accessories": [],
+  "categories": [
+    "protections",
+    "units"
+  ],
+  "sources": [
+    {
+      "publication": "Traveller 5.10 Core Rules Book 1 : Characters and Combat",
+      "authors": [
+        "Miller, Marc"
+      ],
+      "publisher": {
+        "name": "Far Future Enterprises",
+        "url": "https://farfuture.net"
+      }
+    }
+  ],
+  "tags": [
+    "products",
+    "protections",
+    "units"
+  ]
+}

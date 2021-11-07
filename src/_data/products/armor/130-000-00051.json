@@ -1,0 +1,35 @@
+{
+  "sku": "130-000-00051",
+  "type": "protections",
+  "subtype": "armor",
+  "name": "Assault Armor, Advanced (AAA-15)",
+  "mfr": "",
+  "cost": 120000,
+  "mass": 36,
+  "techLevel": 15,
+  "qrebs": "N/A",
+  "image": "",
+  "description": "<p><!-- Summary Start -->Assault armor is a (relatively) lightweight systems is intended for short-term (hours) operations against an enemy force.<!-- Summary End --></p>",
+  "accessories": [],
+  "categories": [
+    "protections",
+    "armor"
+  ],
+  "sources": [
+    {
+      "publication": "Traveller 5.10 Core Rules Book 1 : Characters and Combat",
+      "authors": [
+        "Miller, Marc"
+      ],
+      "publisher": {
+        "name": "Far Future Enterprises",
+        "url": "https://farfuture.net"
+      }
+    }
+  ],
+  "tags": [
+    "products",
+    "protections",
+    "armor"
+  ]
+}

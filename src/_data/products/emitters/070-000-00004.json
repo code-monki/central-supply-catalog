@@ -1,0 +1,33 @@
+{
+  "sku": "070-000-00004",
+  "type": "emitters",
+  "subtype": "",
+  "name": "Flare Gun",
+  "mfr": "",
+  "cost": 50,
+  "mass": 0.25,
+  "size": 3,
+  "techLevel": 5,
+  "qrebs": "N/A",
+  "image": "",
+  "description": "<p><!-- Summary Start -->Pistol-grip launcher for flares.<!-- Summary End --> A tube launcher Flare Rocket version is Size 4, 1 kg, and Cr 100. Flares weigh 100 grams and cost Cr1 each. They have an adjustable burn rate, for up to 2 hours.\n\nFlares are visual marker and counter-measure devices, either using intense light (e.g. potassium), smoke, or heat. Flares may be ground-based, dropped from an aircraft, fired from a flare gun, or fired from a rocket. If aerial, flares will have a simple parachute to provide maximum effect over a large area.</p>",
+  "categories": [
+    "emitters"
+  ],
+  "sources": [
+    {
+      "publication": "Traveller 5.10 Core Rules Book 3 : Worlds and Adventures",
+      "authors": [
+        "Miller, Marc"
+      ],
+      "publisher": {
+        "name": "Far Future Enterprises",
+        "url": "https://farfuture.net"
+      }
+    }
+  ],
+  "tags": [
+    "products",
+    "emitters"
+  ]
+}

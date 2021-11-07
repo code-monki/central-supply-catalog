@@ -1,0 +1,47 @@
+{
+  "sku": "200-008-00002",
+  "type": "weapons",
+  "subtype": "projectors",
+  "name": "Fire Projector (FPj-8)",
+  "mfr": "",
+  "cost": 600,
+  "mass": 0.9,
+  "size": "",
+  "techLevel": 8,
+  "qrebs": "R=2",
+  "damage": "Pen-1, Burn-3",
+  "image": "",
+  "description": "<p><!-- Summary Start -->The fire projector shoots or projects flame or fire at a target.<!-- Summary End --></p>",
+  "stats": [],
+  "categories": [
+    "weapons",
+    "projectors"
+  ],
+  "sources": [
+    {
+      "publication": "Traveller 5.10 Core Rules Book 1 : Characters and Combat",
+      "authors": [
+        "Miller, Marc"
+      ],
+      "publisher": {
+        "name": "Far Future Enterprises",
+        "url": "https://farfuture.net"
+      }
+    },
+    {
+      "publication": "Traveller 5.10 Core Rules Book 3 : Worlds and Adventures",
+      "authors": [
+        "Miller, Marc"
+      ],
+      "publisher": {
+        "name": "Far Future Enterprises",
+        "url": "https://farfuture.net"
+      }
+    }
+  ],
+  "tags": [
+    "products",
+    "weapons",
+    "projectors"
+  ]
+}

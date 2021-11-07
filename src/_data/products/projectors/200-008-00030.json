@@ -1,0 +1,47 @@
+{
+  "sku": "200-008-00030",
+  "type": "weapons",
+  "subtype": "projectors",
+  "name": "Sonic Projector (SPj-12)",
+  "mfr": "",
+  "cost": 330,
+  "mass": 0.6,
+  "size": "",
+  "techLevel": 12,
+  "qrebs": "R=2",
+  "damage": "Bang-2, Sound-2",
+  "image": "",
+  "description": "<p><!-- Summary Start -->The sonic projector projects a sound-based effect at the target (as distinct from the sound some weapons make when firing).<!-- Summary End --></p>",
+  "stats": [],
+  "categories": [
+    "weapons",
+    "projectors"
+  ],
+  "sources": [
+    {
+      "publication": "Traveller 5.10 Core Rules Book 1 : Characters and Combat",
+      "authors": [
+        "Miller, Marc"
+      ],
+      "publisher": {
+        "name": "Far Future Enterprises",
+        "url": "https://farfuture.net"
+      }
+    },
+    {
+      "publication": "Traveller 5.10 Core Rules Book 3 : Worlds and Adventures",
+      "authors": [
+        "Miller, Marc"
+      ],
+      "publisher": {
+        "name": "Far Future Enterprises",
+        "url": "https://farfuture.net"
+      }
+    }
+  ],
+  "tags": [
+    "products",
+    "weapons",
+    "projectors"
+  ]
+}

@@ -1,0 +1,47 @@
+{
+  "sku": "200-008-00033",
+  "type": "weapons",
+  "subtype": "projectors",
+  "name": "Anti-Designator Poison Gas Projector (aDPPj-12)",
+  "mfr": "",
+  "cost": 2700,
+  "mass": 3,
+  "size": "",
+  "techLevel": 12,
+  "qrebs": "R=5",
+  "damage": "Poison-2, Gas-3",
+  "image": "",
+  "description": "<p><!-- Summary Start -->The anti-designator poison gas projector can sense the effects of a poison gas designator.<!-- Summary End --> The weapon can be set to automatically fire at the designator or wait for a manual command.</p>",
+  "stats": [],
+  "categories": [
+    "weapons",
+    "projectors"
+  ],
+  "sources": [
+    {
+      "publication": "Traveller 5.10 Core Rules Book 1 : Characters and Combat",
+      "authors": [
+        "Miller, Marc"
+      ],
+      "publisher": {
+        "name": "Far Future Enterprises",
+        "url": "https://farfuture.net"
+      }
+    },
+    {
+      "publication": "Traveller 5.10 Core Rules Book 3 : Worlds and Adventures",
+      "authors": [
+        "Miller, Marc"
+      ],
+      "publisher": {
+        "name": "Far Future Enterprises",
+        "url": "https://farfuture.net"
+      }
+    }
+  ],
+  "tags": [
+    "products",
+    "weapons",
+    "projectors"
+  ]
+}

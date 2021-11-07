@@ -1,0 +1,33 @@
+{
+  "sku": "170-000-00018",
+  "type": "toolkits",
+  "subtype": "portable",
+  "name": "Disguise Kit (Standard)",
+  "mfr": "",
+  "cost": 1500,
+  "mass": 10,
+  "size": 10,
+  "techLevel": 4,
+  "qrebs": "N/A",
+  "image": "",
+  "description": "<p><!-- Summary Start -->All the basic tools necessary to temporarily alter one's appearance.<!-- Summary End --></p>",
+  "categories": [
+    "toolkits"
+  ],
+  "sources": [
+    {
+      "publication": "Traveller 5.10 Core Rules Book 3 : Worlds and Adventures",
+      "authors": [
+        "Miller, Marc"
+      ],
+      "publisher": {
+        "name": "Far Future Enterprises",
+        "url": "https://farfuture.net"
+      }
+    }
+  ],
+  "tags": [
+    "products",
+    "toolkits"
+  ]
+}

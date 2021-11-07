@@ -1,0 +1,43 @@
+{
+  "sku": "080-000-00011",
+  "type": "explosives",
+  "subtype": "",
+  "name": "Siderote-7",
+  "mfr": "",
+  "cost": 0,
+  "mass": 0.0001,
+  "size": "0.01 ml",
+  "techLevel": 6,
+  "qrebs": "N/A",
+  "image": "",
+  "description": "<p><!-- Summary Start -->Siderote-7 are the processed seed pods, often made into a variety of paper products such as writing paper, card, cigarette papers, and the like.<!-- Summary End --> The detonation level of Siderote-7 is 110°C. The explosive effect of ignition is on par with most high explosives.</p>",
+  "categories": [
+    "explosives"
+  ],
+  "sources": [
+    {
+      "publication": "Traveller Wiki: Siderote-7",
+      "authors": [
+        "Traveller Wiki Editorial Team"
+      ],
+      "publisher": {
+        "name": "Traveller Wiki",
+        "url": "https://wiki.travellerrpg.com/Siderote-7"
+      }
+    },
+    {
+      "publication": "High Tortuga",
+      "authors": [
+        "Maley, Michael J."
+      ],
+      "publisher": {
+        "name": "",
+        "url": ""
+      }
+    }
+  ],
+  "tags": [
+    "products",
+    "explosives"
+  ]
+}

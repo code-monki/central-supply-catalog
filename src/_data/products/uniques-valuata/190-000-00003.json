@@ -1,0 +1,32 @@
+{
+  "sku": "190-000-00003",
+  "type": "uniques",
+  "subtype": "",
+  "name": "Cutlass, Marine",
+  "mfr": "",
+  "cost": 2000,
+  "size": 4,
+  "techLevel": 15,
+  "qrebs": "N/A",
+  "image": "",
+  "description": "<p><!-- Summary Start -->A ceremonial, iridium cutlass with gold and silver filigrees, worn by Imperial marine officers on formal occasions.<!-- Summary End --> Finely crafted and ornamented. Sharp to a frightening thin- ness. Stronger than steel (will cut TL4 cutlasses with ease). Individualized versions are made by a master craftsman, and are extremely rare. Typically presented as a commemorative item and inscribed with the owner's name, the date of presentation, and the event commemorated. Occasionally it will have slogans or comments engraved as well, e.g. &quot;handle me well, for I was wielded by Emperor Arbellatra in the Year of our Third Imperium 620 when she beheaded the traitorous bastard Gustav.&quot;</p>",
+  "categories": [
+    "uniques"
+  ],
+  "sources": [
+    {
+      "publication": "Traveller 5.10 Core Rules Book 3 : Worlds and Adventures",
+      "authors": [
+        "Miller, Marc"
+      ],
+      "publisher": {
+        "name": "Far Future Enterprises",
+        "url": "https://farfuture.net"
+      }
+    }
+  ],
+  "tags": [
+    "products",
+    "uniques"
+  ]
+}

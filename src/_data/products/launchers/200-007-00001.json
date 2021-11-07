@@ -1,0 +1,47 @@
+{
+  "sku": "200-007-00001",
+  "type": "weapons",
+  "subtype": "launchers",
+  "name": "Rocket Launcher, Crewed, Experimental (XRLC-3)",
+  "mfr": "",
+  "cost": 4000,
+  "mass": 48,
+  "size": "",
+  "techLevel": 3,
+  "qrebs": "R=4",
+  "damage": "Pen-2, Frag-3",
+  "image": "",
+  "description": "<p><!-- Summary Start -->An experimental crewed rocket launcher.<!-- Summary End --></p>",
+  "stats": [],
+  "categories": [
+    "weapons",
+    "launchers"
+  ],
+  "sources": [
+    {
+      "publication": "Traveller 5.10 Core Rules Book 3 : Worlds and Adventures",
+      "authors": [
+        "Miller, Marc"
+      ],
+      "publisher": {
+        "name": "Far Future Enterprises",
+        "url": "https://farfuture.net"
+      }
+    },
+    {
+      "publication": "Traveller 5.10 Core Rules Book 3 : Worlds and Adventures",
+      "authors": [
+        "Miller, Marc"
+      ],
+      "publisher": {
+        "name": "Far Future Enterprises",
+        "url": "https://farfuture.net"
+      }
+    }
+  ],
+  "tags": [
+    "products",
+    "weapons",
+    "launchers"
+  ]
+}

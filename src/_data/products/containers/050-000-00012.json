@@ -1,0 +1,33 @@
+{
+  "sku": "050-000-00012",
+  "type": "containers",
+  "subtype": "",
+  "name": "Canteen",
+  "mfr": "",
+  "cost": 10,
+  "mass": 0.2,
+  "size": 3,
+  "techLevel": 4,
+  "qrebs": "N/A",
+  "image": "",
+  "description": "<p><!-- Summary Start -->Metal container holding up to 1 liter (1 quart) of liquid.<!-- Summary End --></p>",
+  "categories": [
+    "containers"
+  ],
+  "sources": [
+    {
+      "publication": "Traveller 5.10 Core Rules Book 3 : Worlds and Adventures",
+      "authors": [
+        "Miller, Marc"
+      ],
+      "publisher": {
+        "name": "Far Future Enterprises",
+        "url": "https://farfuture.net"
+      }
+    }
+  ],
+  "tags": [
+    "products",
+    "containers"
+  ]
+}

@@ -1,0 +1,47 @@
+{
+  "sku": "200-007-00052",
+  "type": "weapons",
+  "subtype": "launchers",
+  "name": "Plasma Multi-Launcher, Crewed, Alternate (AltPmLC-16)",
+  "mfr": "",
+  "cost": 6600,
+  "mass": 27,
+  "size": "",
+  "techLevel": 16,
+  "qrebs": "R=4",
+  "damage": "Burn-3, Pen-6",
+  "image": "",
+  "description": "<p><!-- Summary Start -->An alternate version of the crewed plasma multi-launcher.<!-- Summary End --></p>",
+  "stats": [],
+  "categories": [
+    "weapons",
+    "launchers"
+  ],
+  "sources": [
+    {
+      "publication": "Traveller 5.10 Core Rules Book 3 : Worlds and Adventures",
+      "authors": [
+        "Miller, Marc"
+      ],
+      "publisher": {
+        "name": "Far Future Enterprises",
+        "url": "https://farfuture.net"
+      }
+    },
+    {
+      "publication": "Traveller 5.10 Core Rules Book 3 : Worlds and Adventures",
+      "authors": [
+        "Miller, Marc"
+      ],
+      "publisher": {
+        "name": "Far Future Enterprises",
+        "url": "https://farfuture.net"
+      }
+    }
+  ],
+  "tags": [
+    "products",
+    "weapons",
+    "launchers"
+  ]
+}

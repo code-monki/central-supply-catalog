@@ -1,0 +1,42 @@
+{
+  "sku": "140-000-00008",
+  "type": "robots",
+  "subtype": "",
+  "name": "PR-317 class Police Robot",
+  "mfr": "006",
+  "cost": 1861445,
+  "mass": 1000,
+  "techLevel": 12,
+  "qrebs": "N/A",
+  "image": "",
+  "description": "<p><!-- Summary Start -->The PR-317 class Police Robot is a Paramilitary Robot/Police Robot.<!-- Summary End --> It resembles a 1.5-meter tall clam with two manipulative arms to restrain tranquilized suspects and a small weapon mount attached to each side under the arm. This a gravity-suspended robot which relied on small ducted fans for maneuverability. It has several magnetic arms which can extend from the chassis to grip walls and secure the robot's position. The ducted fans do not have enough power to overcome an average human's strength. This robot is powered by internal batteries which require recharging approximately every four days.</p><p><h5>History & Background</h5>The Ling-Standard Products <strong>Police Robot Model 317 (PR-317)</strong> was a widespread security robot in the Diaspora sector before the Collapse. Modeled on the Zhodani medium WarBot encountered in great numbers during the Fifth Frontier War, the PR-317 has a fairly sophisticated artificial brain and weaponry which allowed a graduated response to a variety of security situations.</p>",
+  "categories": [
+    "robots"
+  ],
+  "sources": [
+    {
+      "publication": "Traveller Wiki : PR-317 class Police Robot",
+      "authors": [
+        "Lord (Marquis) and Master of Sophontology Maksim-Smelchak of the Ministry of Science"
+      ],
+      "publisher": {
+        "name": "Traveller Wiki",
+        "url": "https://wiki.travellerrpg.com/PR-317_class_Police_Robot"
+      }
+    },
+    {
+      "publication": "Traveller: The New Era: Vampire Fleets",
+      "authors": [
+        "Chadwick, Frank"
+      ],
+      "publisher": {
+        "name": "Game Designers Workshop",
+        "url": ""
+      }
+    }
+  ],
+  "tags": [
+    "products",
+    "robots"
+  ]
+}

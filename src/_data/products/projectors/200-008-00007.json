@@ -1,0 +1,47 @@
+{
+  "sku": "200-008-00007",
+  "type": "weapons",
+  "subtype": "projectors",
+  "name": "Shock Projector (ShPj-9)",
+  "mfr": "",
+  "cost": 600,
+  "mass": 0.5,
+  "size": "",
+  "techLevel": 9,
+  "qrebs": "R=2",
+  "damage": "Pain-2, Elec-2",
+  "image": "",
+  "description": "<p><!-- Summary Start -->The shock projector applies and electric charge to the target.<!-- Summary End --></p>",
+  "stats": [],
+  "categories": [
+    "weapons",
+    "projectors"
+  ],
+  "sources": [
+    {
+      "publication": "Traveller 5.10 Core Rules Book 1 : Characters and Combat",
+      "authors": [
+        "Miller, Marc"
+      ],
+      "publisher": {
+        "name": "Far Future Enterprises",
+        "url": "https://farfuture.net"
+      }
+    },
+    {
+      "publication": "Traveller 5.10 Core Rules Book 3 : Worlds and Adventures",
+      "authors": [
+        "Miller, Marc"
+      ],
+      "publisher": {
+        "name": "Far Future Enterprises",
+        "url": "https://farfuture.net"
+      }
+    }
+  ],
+  "tags": [
+    "products",
+    "weapons",
+    "projectors"
+  ]
+}

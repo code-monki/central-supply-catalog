@@ -1,0 +1,62 @@
+{
+  "sku": "200-005-00003",
+  "type": "weapons",
+  "subtype": "long guns",
+  "name": "Hunting Carbine, Heavy, Experimental (XHHC-3)",
+  "mfr": "",
+  "cost": 2112,
+  "mass": 7,
+  "size": "",
+  "techLevel": 3,
+  "qrebs": "R=3",
+  "damage": "Bullet-3",
+  "image": "",
+  "description": "<p><!-- Summary Start -->Experimental version of the heavy hunting carbine.<!-- Summary End --> The heavy hunting carbine is designed with large game as its targets.</p>",
+  "accessories": [
+    "200-011-00001",
+    "200-011-00002",
+    "200-011-00003",
+    "200-011-00004",
+    "200-011-00005",
+    "200-011-00006",
+    "200-011-00007",
+    "200-011-00014",
+    "200-011-00015",
+    "200-011-00016",
+    "200-010-00012",
+    "200-010-00013",
+    "200-010-00014"
+  ],
+  "stats": [],
+  "categories": [
+    "weapons",
+    "carbine"
+  ],
+  "sources": [
+    {
+      "publication": "Traveller 5.10 Core Rules Book 1 : Characters and Combat",
+      "authors": [
+        "Miller, Marc"
+      ],
+      "publisher": {
+        "name": "Far Future Enterprises",
+        "url": "https://farfuture.net"
+      }
+    },
+    {
+      "publication": "Traveller 5.10 Core Rules Book 3 : Worlds and Adventures",
+      "authors": [
+        "Miller, Marc"
+      ],
+      "publisher": {
+        "name": "Far Future Enterprises",
+        "url": "https://farfuture.net"
+      }
+    }
+  ],
+  "tags": [
+    "products",
+    "weapons",
+    "carbine"
+  ]
+}

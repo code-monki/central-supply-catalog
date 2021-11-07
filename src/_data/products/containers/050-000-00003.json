@@ -1,0 +1,36 @@
+{
+  "sku": "050-000-00003",
+  "type": "containers",
+  "subtype": "",
+  "name": "Environmental Tank",
+  "mfr": "",
+  "cost": 100000,
+  "mass": 1000,
+  "size": 5,
+  "techLevel": 9,
+  "qrebs": "N/A",
+  "image": "",
+  "description": "<p><!-- Summary Start -->The environmental tank provides the perfect way to display your collection of flora and fauna.<!-- Summary End --> The unit displaces one ton and provides a reinforced display container with full environmental controls for maintain a conservatory, terrarium, aquarium, fluidium, trophy tank, etc. The unit comes with one mini-airlock and additional airlocks are available (see accessories). Custom tanks can be ordered from the manufacturer at a cost of 100 KCr per ton.</p>",
+  "categories": [
+    "containers"
+  ],
+  "accessories": [
+    "050-000-00017"
+  ],
+  "sources": [
+    {
+      "publication": "Traveller 5.10 Core Rules Book 3 : Worlds and Adventures",
+      "authors": [
+        "Miller, Marc"
+      ],
+      "publisher": {
+        "name": "Far Future Enterprises",
+        "url": "https://farfuture.net"
+      }
+    }
+  ],
+  "tags": [
+    "products",
+    "containers"
+  ]
+}

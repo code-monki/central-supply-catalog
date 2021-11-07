@@ -1,0 +1,34 @@
+{
+  "sku": "200-011-00010",
+  "type": "weapons",
+  "subtype": "weapon accessory",
+  "name": "30mm Grenade Launcher Magazine",
+  "mfr": "",
+  "cost": 30,
+  "mass": 0.34,
+  "techLevel": 6,
+  "qrebs": "",
+  "image": "/img/products/200-011-00010.png",
+  "description": "<p><!-- Summary Start -->30mm grenade launcher magazine.<!-- Summary End --></p>",
+  "categories": [
+    "weapons",
+    "weapon accessory"
+  ],
+  "sources": [
+    {
+      "publication": "Traveller 5.10 Core Rules Book 3 : Worlds and Adventures",
+      "authors": [
+        "Miller, Marc"
+      ],
+      "publisher": {
+        "name": "Far Future Enterprises",
+        "url": "https://farfuture.net"
+      }
+    }
+  ],
+  "tags": [
+    "products",
+    "weapons",
+    "weapon accessory"
+  ]
+}

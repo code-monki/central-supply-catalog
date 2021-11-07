@@ -1,0 +1,36 @@
+{
+  "sku": "130-000-00004",
+  "type": "protections",
+  "subtype": "armor",
+  "name": "Cloth Armor",
+  "mfr": "",
+  "cost": 250,
+  "mass": 1,
+  "size": 5,
+  "techLevel": 8,
+  "qrebs": "N/A",
+  "image": "",
+  "description": "<p><!-- Summary Start -->A heavy duty body suit tailored from ballistic cloth.<!-- Summary End --> Ar 14 (MgT 12)</p>",
+  "accessories": [],
+  "categories": [
+    "protections",
+    "armor"
+  ],
+  "sources": [
+    {
+      "publication": "Traveller 5.10 Core Rules Book 3 : Worlds and Adventures",
+      "authors": [
+        "Miller, Marc"
+      ],
+      "publisher": {
+        "name": "Far Future Enterprises",
+        "url": "https://farfuture.net"
+      }
+    }
+  ],
+  "tags": [
+    "products",
+    "protections",
+    "armor"
+  ]
+}

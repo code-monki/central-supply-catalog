@@ -1,0 +1,47 @@
+{
+  "sku": "200-007-00002",
+  "type": "weapons",
+  "subtype": "launchers",
+  "name": "Rocket Launcher, Light, Crewed, Prototype (PLtRLC-4)",
+  "mfr": "",
+  "cost": 4500,
+  "mass": 31,
+  "size": "",
+  "techLevel": 4,
+  "qrebs": "R=3",
+  "damage": "Pen-2, Frag-2",
+  "image": "",
+  "description": "<p><!-- Summary Start -->A prototype of a crewed light rocket launcher.<!-- Summary End --></p>",
+  "stats": [],
+  "categories": [
+    "weapons",
+    "launchers"
+  ],
+  "sources": [
+    {
+      "publication": "Traveller 5.10 Core Rules Book 3 : Worlds and Adventures",
+      "authors": [
+        "Miller, Marc"
+      ],
+      "publisher": {
+        "name": "Far Future Enterprises",
+        "url": "https://farfuture.net"
+      }
+    },
+    {
+      "publication": "Traveller 5.10 Core Rules Book 3 : Worlds and Adventures",
+      "authors": [
+        "Miller, Marc"
+      ],
+      "publisher": {
+        "name": "Far Future Enterprises",
+        "url": "https://farfuture.net"
+      }
+    }
+  ],
+  "tags": [
+    "products",
+    "weapons",
+    "launchers"
+  ]
+}

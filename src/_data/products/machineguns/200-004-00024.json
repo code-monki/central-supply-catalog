@@ -1,0 +1,47 @@
+{
+  "sku": "200-004-00024",
+  "type": "weapons",
+  "subtype": "machineguns",
+  "name": "Assault Machinegun (AMg-8)",
+  "mfr": "",
+  "cost": 4500,
+  "mass": 6.4,
+  "size": "",
+  "techLevel": 8,
+  "qrebs": "R=4",
+  "damage": "Bang-1, Blast-2, Bullet-4",
+  "image": "",
+  "description": "<p><!-- Summary Start -->The assault machinegun is designed for use on the battlefield by soldiers.<!-- Summary End --> This weapon is characterized by an ability to hit person-sized targets at moderate ranges (500 meters). It is capable of firing bullets and explosive projectiles.</p>",
+  "stats": [],
+  "categories": [
+    "weapons",
+    "machineguns"
+  ],
+  "sources": [
+    {
+      "publication": "Traveller 5.10 Core Rules Book 1 : Characters and Combat",
+      "authors": [
+        "Miller, Marc"
+      ],
+      "publisher": {
+        "name": "Far Future Enterprises",
+        "url": "https://farfuture.net"
+      }
+    },
+    {
+      "publication": "Traveller 5.10 Core Rules Book 3 : Worlds and Adventures",
+      "authors": [
+        "Miller, Marc"
+      ],
+      "publisher": {
+        "name": "Far Future Enterprises",
+        "url": "https://farfuture.net"
+      }
+    }
+  ],
+  "tags": [
+    "products",
+    "weapons",
+    "machineguns"
+  ]
+}

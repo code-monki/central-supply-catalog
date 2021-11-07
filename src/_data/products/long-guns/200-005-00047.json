@@ -1,0 +1,67 @@
+{
+  "sku": "200-005-00047",
+  "type": "weapons",
+  "subtype": "long guns",
+  "name": "Gauss Rifle, Vheavy, Sniper (SnVhGR-13)",
+  "mfr": "",
+  "cost": 6000,
+  "mass": 15,
+  "size": "",
+  "techLevel": 13,
+  "qrebs": "R=6 Q=+2 E=+2",
+  "damage": "Bullet-9",
+  "image": "",
+  "description": "<p><!-- Summary Start -->Sniper version of the very heavy gauss rifle.<!-- Summary End --> This weapon electromagnetically accelerates a projectile and spin stabilizes it through magnetic effects. This version of the weapon has been optimized for accuracy at extreme ranges.</p>",
+  "stats": [],
+  "accessories": [
+    "200-011-00001",
+    "200-011-00002",
+    "200-011-00003",
+    "200-011-00004",
+    "200-011-00005",
+    "200-011-00006",
+    "200-011-00007",
+    "200-010-00062",
+    "200-010-00063",
+    "200-010-00064",
+    "200-010-00065",
+    "200-010-00066",
+    "200-010-00067",
+    "200-010-00068",
+    "200-010-00069",
+    "200-010-00070"
+  ],
+  "categories": [
+    "weapons",
+    "long guns",
+    "rifle"
+  ],
+  "sources": [
+    {
+      "publication": "Traveller 5.10 Core Rules Book 1 : Characters and Combat",
+      "authors": [
+        "Miller, Marc"
+      ],
+      "publisher": {
+        "name": "Far Future Enterprises",
+        "url": "https://farfuture.net"
+      }
+    },
+    {
+      "publication": "Traveller 5.10 Core Rules Book 3 : Worlds and Adventures",
+      "authors": [
+        "Miller, Marc"
+      ],
+      "publisher": {
+        "name": "Far Future Enterprises",
+        "url": "https://farfuture.net"
+      }
+    }
+  ],
+  "tags": [
+    "products",
+    "weapons",
+    "long guns",
+    "rifle"
+  ]
+}

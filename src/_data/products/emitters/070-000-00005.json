@@ -1,0 +1,33 @@
+{
+  "sku": "070-000-00005",
+  "type": "emitters",
+  "subtype": "",
+  "name": "Jammer MP",
+  "mfr": "",
+  "cost": 10000,
+  "mass": 5,
+  "size": 4,
+  "techLevel": 8,
+  "qrebs": "N/A",
+  "image": "",
+  "description": "<p><!-- Summary Start -->Jammer is a man-portable (MP) anti-sensor.<!-- Summary End --> It registers as a Size-7 object to other sensors, but with insufficient specificity to allow targetting. Jammer operates in much the same manner as the ACS Jammer.</p>",
+  "categories": [
+    "emitters"
+  ],
+  "sources": [
+    {
+      "publication": "Traveller 5.10 Core Rules Book 3 : Worlds and Adventures",
+      "authors": [
+        "Miller, Marc"
+      ],
+      "publisher": {
+        "name": "Far Future Enterprises",
+        "url": "https://farfuture.net"
+      }
+    }
+  ],
+  "tags": [
+    "products",
+    "emitters"
+  ]
+}

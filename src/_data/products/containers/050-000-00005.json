@@ -1,0 +1,33 @@
+{
+  "sku": "050-000-00005",
+  "type": "containers",
+  "subtype": "",
+  "name": "Safe",
+  "mfr": "",
+  "cost": 10000,
+  "mass": 1000,
+  "size": 5,
+  "techLevel": 6,
+  "qrebs": "N/A",
+  "image": "",
+  "description": "<p><!-- Summary Start -->A small vault.<!-- Summary End --></p>",
+  "categories": [
+    "containers"
+  ],
+  "sources": [
+    {
+      "publication": "Traveller 5.10 Core Rules Book 3 : Worlds and Adventures",
+      "authors": [
+        "Miller, Marc"
+      ],
+      "publisher": {
+        "name": "Far Future Enterprises",
+        "url": "https://farfuture.net"
+      }
+    }
+  ],
+  "tags": [
+    "products",
+    "containers"
+  ]
+}

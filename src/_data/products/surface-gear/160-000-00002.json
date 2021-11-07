@@ -1,0 +1,33 @@
+{
+  "sku": "160-000-00002",
+  "type": "surface gear",
+  "subtype": "",
+  "name": "Cable",
+  "mfr": "",
+  "cost": 25,
+  "mass": 6,
+  "size": 3,
+  "techLevel": 3,
+  "qrebs": "N/A",
+  "image": "",
+  "description": "<p><!-- Summary Start -->Steel cable<!-- Summary End --></p>",
+  "categories": [
+    "surface gear"
+  ],
+  "sources": [
+    {
+      "publication": "Traveller 5.10 Core Rules Book 3 : Worlds and Adventures",
+      "authors": [
+        "Miller, Marc"
+      ],
+      "publisher": {
+        "name": "Far Future Enterprises",
+        "url": "https://farfuture.net"
+      }
+    }
+  ],
+  "tags": [
+    "products",
+    "surface gear"
+  ]
+}

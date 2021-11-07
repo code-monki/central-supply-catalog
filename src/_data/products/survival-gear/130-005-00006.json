@@ -1,0 +1,33 @@
+{
+  "sku": "130-005-00006",
+  "type": "survival gear",
+  "subtype": "",
+  "name": "Rescue Ball",
+  "mfr": "",
+  "cost": 9000,
+  "mass": 200,
+  "size": 6,
+  "techLevel": 10,
+  "qrebs": "N/A",
+  "image": "",
+  "description": "<p><!-- Summary Start -->A collapsed protective structure providing shelter in emergency situations.<!-- Summary End --> The ball will hold and support four individuals for a week. When folded, the rescue ball is a cylinder 5 cm in diameter and 10 cm long. When deployed, it forms a sphere two meters in diameter which contains a PowerCell-3 operated air recycler sufficient to last four peo- ple for one day. Access to the interior is through a conform- ing plastic seal which functions similarly to an air lock. In the event of explosive decompression or other loss of air, a rescue ball allows individuals not in possession of a vacc suit to survive until aid arrives. The user pulls a lanyard, climbs inside and seals the zip closure. The ball is made of a metal-coated plastic film for ease of location by radar and contains two liters of water, a first aid kit, and a transparent window through which the occupant may observe conditions outside the ball. Rescue balls provide some protection from stellar radiation and corrosive and insidious atmospheres for up to one day. Additional occupants will stress the system.</p>",
+  "categories": [
+    "survival gear"
+  ],
+  "sources": [
+    {
+      "publication": "Traveller 5.10 Core Rules Book 3 : Worlds and Adventures",
+      "authors": [
+        "Miller, Marc"
+      ],
+      "publisher": {
+        "name": "Far Future Enterprises",
+        "url": "https://farfuture.net"
+      }
+    }
+  ],
+  "tags": [
+    "products",
+    "survival gear"
+  ]
+}

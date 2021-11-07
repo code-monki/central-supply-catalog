@@ -1,0 +1,33 @@
+{
+  "sku": "060-000-00005",
+  "type": "detectors",
+  "subtype": "",
+  "name": "Bug Detector",
+  "mfr": "",
+  "cost": 500,
+  "mass": 0.3,
+  "size": 2,
+  "techLevel": 8,
+  "qrebs": "N/A",
+  "image": "",
+  "description": "<p><!-- Summary Start -->The bug detector locates hidden surveillance devices.<!-- Summary End -->Surveillance devices may include microphones, cameras, or other sensors.</p>",
+  "categories": [
+    "detectors"
+  ],
+  "sources": [
+    {
+      "publication": "Traveller 5.10 Core Rules Book 3 : Worlds and Adventures",
+      "authors": [
+        "Miller, Marc"
+      ],
+      "publisher": {
+        "name": "Far Future Enterprises",
+        "url": "https://farfuture.net"
+      }
+    }
+  ],
+  "tags": [
+    "products",
+    "detectors"
+  ]
+}

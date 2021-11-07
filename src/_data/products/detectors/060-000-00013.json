@@ -1,0 +1,33 @@
+{
+  "sku": "060-000-00013",
+  "type": "detectors",
+  "subtype": "artifact",
+  "name": "HoloVisor MP",
+  "mfr": "",
+  "cost": 10000,
+  "mass": 5,
+  "size": 4,
+  "techLevel": 18,
+  "qrebs": "N/A",
+  "image": "",
+  "description": "<p><!-- Summary Start -->The HoloVisor is the ultimate vision screen system. <!-- Summary End -->The device uses external light detectors and displays them in 3D projection. Computer enhancements fill in gaps, extrapolate unseen sides of objects, and maintain a complete image in memory).</p>",
+  "categories": [
+    "detectors"
+  ],
+  "sources": [
+    {
+      "publication": "Traveller 5.10 Core Rules Book 3 : Worlds and Adventures",
+      "authors": [
+        "Miller, Marc"
+      ],
+      "publisher": {
+        "name": "Far Future Enterprises",
+        "url": "https://farfuture.net"
+      }
+    }
+  ],
+  "tags": [
+    "products",
+    "detectors"
+  ]
+}

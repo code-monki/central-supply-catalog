@@ -1,0 +1,33 @@
+{
+  "sku": "070-000-00003",
+  "type": "emitters",
+  "subtype": "",
+  "name": "Bug",
+  "mfr": "",
+  "cost": 100,
+  "mass": 0.01,
+  "size": 0,
+  "techLevel": 9,
+  "qrebs": "N/A",
+  "image": "",
+  "description": "<p><!-- Summary Start -->A tiny electronic device, camouflaged for covert surveillance.<!-- Summary End --> Earlier versions record audio only. Later versions can record video as well, and may also be able to transmit signals over EM waves. Variants include the Wiretap, which is a Bug attached to a telecommunications cable or RF channel.</p>",
+  "categories": [
+    "emitters"
+  ],
+  "sources": [
+    {
+      "publication": "Traveller 5.10 Core Rules Book 3 : Worlds and Adventures",
+      "authors": [
+        "Miller, Marc"
+      ],
+      "publisher": {
+        "name": "Far Future Enterprises",
+        "url": "https://farfuture.net"
+      }
+    }
+  ],
+  "tags": [
+    "products",
+    "emitters"
+  ]
+}

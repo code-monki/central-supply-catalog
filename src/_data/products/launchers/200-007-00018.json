@@ -1,0 +1,47 @@
+{
+  "sku": "200-007-00018",
+  "type": "weapons",
+  "subtype": "launchers",
+  "name": "Missile Launcher, Standard (StdMslL-8)",
+  "mfr": "",
+  "cost": 3000,
+  "mass": 17,
+  "size": "",
+  "techLevel": 8,
+  "qrebs": "R=6",
+  "damage": "Pen-2, Frag-4",
+  "image": "",
+  "description": "<p><!-- Summary Start -->Standard missile launcher.<!-- Summary End --></p>",
+  "stats": [],
+  "categories": [
+    "weapons",
+    "launchers"
+  ],
+  "sources": [
+    {
+      "publication": "Traveller 5.10 Core Rules Book 3 : Worlds and Adventures",
+      "authors": [
+        "Miller, Marc"
+      ],
+      "publisher": {
+        "name": "Far Future Enterprises",
+        "url": "https://farfuture.net"
+      }
+    },
+    {
+      "publication": "Traveller 5.10 Core Rules Book 3 : Worlds and Adventures",
+      "authors": [
+        "Miller, Marc"
+      ],
+      "publisher": {
+        "name": "Far Future Enterprises",
+        "url": "https://farfuture.net"
+      }
+    }
+  ],
+  "tags": [
+    "products",
+    "weapons",
+    "launchers"
+  ]
+}

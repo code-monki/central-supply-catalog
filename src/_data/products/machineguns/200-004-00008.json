@@ -1,0 +1,61 @@
+{
+  "sku": "200-004-00008",
+  "type": "weapons",
+  "subtype": "machineguns",
+  "name": "Sub Machinegun, Recoilless, Experimental (XSMg-4)",
+  "mfr": "",
+  "cost": 16200,
+  "mass": 5.7,
+  "size": "",
+  "techLevel": 4,
+  "qrebs": "R=0",
+  "damage": "Bullet-4",
+  "image": "",
+  "description": "<p><!-- Summary Start -->Experimental version of the recoilless submachinegun.<!-- Summary End --></p>",
+  "stats": [],
+  "accessories": [
+    "200-011-00001",
+    "200-011-00002",
+    "200-011-00003",
+    "200-011-00004",
+    "200-011-00005",
+    "200-011-00006",
+    "200-011-00007",
+    "200-011-00021",
+    "200-010-00082",
+    "200-010-00083",
+    "200-010-00084",
+    "200-010-00085"
+  ],
+  "categories": [
+    "weapons",
+    "machineguns"
+  ],
+  "sources": [
+    {
+      "publication": "Traveller 5.10 Core Rules Book 1 : Characters and Combat",
+      "authors": [
+        "Miller, Marc"
+      ],
+      "publisher": {
+        "name": "Far Future Enterprises",
+        "url": "https://farfuture.net"
+      }
+    },
+    {
+      "publication": "Traveller 5.10 Core Rules Book 3 : Worlds and Adventures",
+      "authors": [
+        "Miller, Marc"
+      ],
+      "publisher": {
+        "name": "Far Future Enterprises",
+        "url": "https://farfuture.net"
+      }
+    }
+  ],
+  "tags": [
+    "products",
+    "weapons",
+    "machineguns"
+  ]
+}

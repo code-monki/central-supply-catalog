@@ -1,0 +1,34 @@
+{
+  "sku": "200-011-00019",
+  "type": "weapons",
+  "subtype": "weapon accessory",
+  "name": "5mm Bullpup Cassette (200-round)",
+  "mfr": "",
+  "cost": 30,
+  "mass": 0.34,
+  "techLevel": 6,
+  "qrebs": "",
+  "image": "/img/products/200-011-00019.png",
+  "description": "<p><!-- Summary Start -->5mm Bullpup Cassette, 200 round capacity, includes binary propellant reservoir.<!-- Summary End --></p>",
+  "categories": [
+    "weapons",
+    "weapon accessory"
+  ],
+  "sources": [
+    {
+      "publication": "Traveller 5.10 Core Rules Book 3 : Worlds and Adventures",
+      "authors": [
+        "Miller, Marc"
+      ],
+      "publisher": {
+        "name": "Far Future Enterprises",
+        "url": "https://farfuture.net"
+      }
+    }
+  ],
+  "tags": [
+    "products",
+    "weapons",
+    "weapon accessory"
+  ]
+}

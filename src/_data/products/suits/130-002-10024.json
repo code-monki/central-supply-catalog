@@ -1,0 +1,34 @@
+{
+  "sku": "130-002-10024",
+  "type": "protections",
+  "subtype": "suits",
+  "name": "Battle Suit, Prototype (PBS-7)",
+  "cost": 15000,
+  "mass": 47,
+  "techLevel": 7,
+  "qrebs": "N/A",
+  "image": "",
+  "description": "<p><!-- Summary Start -->Battle suits incorporate protections against most dangers, attacks, and threats on the battlefield.<!-- Summary End --></p>",
+  "accessories": [],
+  "categories": [
+    "protections",
+    "suits"
+  ],
+  "sources": [
+    {
+      "publication": "Traveller 5.10 Core Rules Book 1 : Characters and Combat",
+      "authors": [
+        "Miller, Marc"
+      ],
+      "publisher": {
+        "name": "Far Future Enterprises",
+        "url": "https://farfuture.net"
+      }
+    }
+  ],
+  "tags": [
+    "products",
+    "protections",
+    "suits"
+  ]
+}

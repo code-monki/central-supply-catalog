@@ -1,0 +1,47 @@
+{
+  "sku": "200-009-00026",
+  "type": "weapons",
+  "subtype": "designators",
+  "name": "EMP Designator, Alternate (AltEmpD-9)",
+  "mfr": "",
+  "cost": 8800,
+  "mass": 11,
+  "size": "",
+  "techLevel": 9,
+  "qrebs": "R=4",
+  "damage": "EMP-4",
+  "image": "",
+  "description": "<p><!-- Summary Start -->The electromagnetic pulse (EMP) designator marks the target with an directed pulse of electromagnetic energy.<!-- Summary End --></p>",
+  "stats": [],
+  "categories": [
+    "weapons",
+    "designators"
+  ],
+  "sources": [
+    {
+      "publication": "Traveller 5.10 Core Rules Book 1 : Characters and Combat",
+      "authors": [
+        "Miller, Marc"
+      ],
+      "publisher": {
+        "name": "Far Future Enterprises",
+        "url": "https://farfuture.net"
+      }
+    },
+    {
+      "publication": "Traveller 5.10 Core Rules Book 3 : Worlds and Adventures",
+      "authors": [
+        "Miller, Marc"
+      ],
+      "publisher": {
+        "name": "Far Future Enterprises",
+        "url": "https://farfuture.net"
+      }
+    }
+  ],
+  "tags": [
+    "products",
+    "weapons",
+    "designators"
+  ]
+}

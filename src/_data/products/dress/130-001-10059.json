@@ -1,0 +1,36 @@
+{
+  "sku": "130-001-10059",
+  "type": "protections",
+  "subtype": "dress",
+  "name": "Battle Dress, Heavy",
+  "mfr": "",
+  "cost": 440000,
+  "mass": 143,
+  "size": 5,
+  "techLevel": 15,
+  "qrebs": "N/A",
+  "image": "",
+  "description": "<p><!-- Summary Start -->Battle dress incorporates protections against most dangers, attacks, and threats on the battlefield.<!-- Summary End --></p>",
+  "accessories": [],
+  "categories": [
+    "protections",
+    "dress"
+  ],
+  "sources": [
+    {
+      "publication": "Traveller 5.10 Core Rules Book 3 : Worlds and Adventures",
+      "authors": [
+        "Miller, Marc"
+      ],
+      "publisher": {
+        "name": "Far Future Enterprises",
+        "url": "https://farfuture.net"
+      }
+    }
+  ],
+  "tags": [
+    "products",
+    "protections",
+    "dress"
+  ]
+}

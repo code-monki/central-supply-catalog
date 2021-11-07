@@ -1,0 +1,36 @@
+{
+  "sku": "040-000-00010",
+  "type": "construction",
+  "subtype": "artifact",
+  "name": "Portal, Cargo",
+  "mfr": "",
+  "cost": 10000000,
+  "mass": 5000,
+  "size": 6,
+  "techLevel": 24,
+  "qrebs": "N/A",
+  "image": "",
+  "description": "<p><!-- Summary Start -->A 10m, 5 ton displacement device linked to a portal generator.<!-- Summary End --> A portal appears to be a shimmering disk ranging from 2 to 200 meters in diameter that is linked to a portal generator in a pocket universe. A portal is capable of transporting a person to a mated portal up to 36 light-minutes away.Thoughtfully-designed portals are easy to configure, while more functional versions will have a low Ease of Use index, with confusing or badly-placed controls.</p>",
+  "categories": [
+    "products",
+    "construction",
+    "artifact"
+  ],
+  "sources": [
+    {
+      "publication": "Traveller 5.10 Core Rules Book 3 : Worlds and Adventures",
+      "authors": [
+        "Miller, Marc"
+      ],
+      "publisher": {
+        "name": "Far Future Enterprises",
+        "url": "https://farfuture.net"
+      }
+    }
+  ],
+  "tags": [
+    "products",
+    "construction",
+    "artifact"
+  ]
+}

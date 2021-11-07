@@ -1,0 +1,33 @@
+{
+  "sku": "090-000-00009",
+  "type": "food drink",
+  "subtype": "beverage",
+  "name": "Water, Unpurified local",
+  "mfr": "",
+  "cost": 1,
+  "mass": 0.2,
+  "size": 3,
+  "techLevel": 1,
+  "qrebs": "N/A",
+  "image": "",
+  "description": "<p><!-- Summary Start -->Local water – not so pure.<!-- Summary End --></p>",
+  "categories": [
+    "food drink"
+  ],
+  "sources": [
+    {
+      "publication": "Traveller 5.10 Core Rules Book 3 : Worlds and Adventures",
+      "authors": [
+        "Miller, Marc"
+      ],
+      "publisher": {
+        "name": "Far Future Enterprises",
+        "url": "https://farfuture.net"
+      }
+    }
+  ],
+  "tags": [
+    "products",
+    "food drink"
+  ]
+}

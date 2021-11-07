@@ -1,0 +1,47 @@
+{
+  "sku": "200-009-00003",
+  "type": "weapons",
+  "subtype": "designators",
+  "name": "Rad Designator, Experimental (XRD-6)",
+  "mfr": "",
+  "cost": 64000,
+  "mass": 20,
+  "size": "",
+  "techLevel": 6,
+  "qrebs": "R=3",
+  "damage": "Rad-2",
+  "image": "",
+  "description": "<p><!-- Summary Start -->The rad designator projects radiation at the target to illuminate it for targeting purposes.<!-- Summary End --></p>",
+  "stats": [],
+  "categories": [
+    "weapons",
+    "designators"
+  ],
+  "sources": [
+    {
+      "publication": "Traveller 5.10 Core Rules Book 1 : Characters and Combat",
+      "authors": [
+        "Miller, Marc"
+      ],
+      "publisher": {
+        "name": "Far Future Enterprises",
+        "url": "https://farfuture.net"
+      }
+    },
+    {
+      "publication": "Traveller 5.10 Core Rules Book 3 : Worlds and Adventures",
+      "authors": [
+        "Miller, Marc"
+      ],
+      "publisher": {
+        "name": "Far Future Enterprises",
+        "url": "https://farfuture.net"
+      }
+    }
+  ],
+  "tags": [
+    "products",
+    "weapons",
+    "designators"
+  ]
+}

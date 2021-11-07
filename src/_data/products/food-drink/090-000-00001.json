@@ -1,0 +1,33 @@
+{
+  "sku": "090-000-00001",
+  "type": "food drink",
+  "subtype": "beverage",
+  "name": "Energy Drink",
+  "mfr": "",
+  "cost": 1,
+  "mass": 0.1,
+  "size": 2,
+  "techLevel": 10,
+  "qrebs": "N/A",
+  "image": "",
+  "description": "<p><!-- Summary Start -->Mild stimulants.<!-- Summary End --> One serving extends the day length of a sophont by 25% (including downtime). Earlier TL versions have a terrible aftertaste and result in next-day fatigue.</p>",
+  "categories": [
+    "food drink"
+  ],
+  "sources": [
+    {
+      "publication": "Traveller 5.10 Core Rules Book 3 : Worlds and Adventures",
+      "authors": [
+        "Miller, Marc"
+      ],
+      "publisher": {
+        "name": "Far Future Enterprises",
+        "url": "https://farfuture.net"
+      }
+    }
+  ],
+  "tags": [
+    "products",
+    "food drink"
+  ]
+}

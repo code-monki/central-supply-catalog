@@ -1,0 +1,33 @@
+{
+  "sku": "060-000-00003",
+  "type": "detectors",
+  "subtype": "",
+  "name": "Binox, Binocs (Binoculars)",
+  "mfr": "",
+  "cost": 75,
+  "mass": 1,
+  "size": 3,
+  "techLevel": 3,
+  "qrebs": "N/A",
+  "image": "",
+  "description": "<p><!-- Summary Start -->Improves vision by 1 range band.<!-- Summary End --> Also available as Trinox, Quadnox, Quintnox for sophonts with more than two eyes.</p>",
+  "categories": [
+    "detectors"
+  ],
+  "sources": [
+    {
+      "publication": "Traveller 5.10 Core Rules Book 3 : Worlds and Adventures",
+      "authors": [
+        "Miller, Marc"
+      ],
+      "publisher": {
+        "name": "Far Future Enterprises",
+        "url": "https://farfuture.net"
+      }
+    }
+  ],
+  "tags": [
+    "products",
+    "detectors"
+  ]
+}

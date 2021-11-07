@@ -1,0 +1,62 @@
+{
+  "sku": "200-003-00055",
+  "type": "weapons",
+  "subtype": "shotguns",
+  "name": "Assault Shotgun, Disposable, Remote (RDAS-10)",
+  "mfr": "",
+  "cost": 6300,
+  "mass": 2.8,
+  "size": "",
+  "techLevel": 10,
+  "qrebs": "R=4",
+  "damage": "Bang-1, Blast-2, Frag-2",
+  "image": "",
+  "description": "<p><!-- Summary Start -->Remote-controlled version of the disposable assault shotgun.<!-- Summary End --> This version is constructed of relatively inexpensive materials and has a working lifetime measured in days.</p>",
+  "stats": [],
+  "accessories": [
+    "200-011-00001",
+    "200-011-00002",
+    "200-011-00003",
+    "200-011-00004",
+    "200-011-00005",
+    "200-011-00006",
+    "200-011-00007",
+    "200-011-00008",
+    "200-011-00009",
+    "200-010-00032",
+    "200-010-00033",
+    "200-010-00034",
+    "200-010-00035",
+    "200-010-00036"
+  ],
+  "categories": [
+    "weapons"
+  ],
+  "sources": [
+    {
+      "publication": "Traveller 5.10 Core Rules Book 1 : Characters and Combat",
+      "authors": [
+        "Miller, Marc"
+      ],
+      "publisher": {
+        "name": "Far Future Enterprises",
+        "url": "https://farfuture.net"
+      }
+    },
+    {
+      "publication": "Traveller 5.10 Core Rules Book 3 : Worlds and Adventures",
+      "authors": [
+        "Miller, Marc"
+      ],
+      "publisher": {
+        "name": "Far Future Enterprises",
+        "url": "https://farfuture.net"
+      }
+    }
+  ],
+  "tags": [
+    "products",
+    "weapons",
+    "shotgun"
+  ]
+}

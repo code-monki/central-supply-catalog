@@ -1,0 +1,75 @@
+{
+  "sku": "180-001-00006",
+  "type": "vehicles",
+  "subtype": "small craft",
+  "name": "Boat, Fast (BF)",
+  "mfr": "",
+  "cost": 8000000,
+  "displacement": 30,
+  "techLevel": 13,
+  "qrebs": "N/A",
+  "image": "",
+  "description": "<p><!-- Summary Start -->Standard fast boat.<!-- Summary End --></p>",
+  "stats": [
+    {
+      "label": "Speed",
+      "value": 6
+    },
+    {
+      "label": "Load",
+      "value": 14
+    },
+    {
+      "label": "Armor",
+      "value": 30
+    },
+    {
+      "label": "Cage",
+      "value": 10
+    },
+    {
+      "label": "FlashProof",
+      "value": 10
+    },
+    {
+      "label": "RadProof",
+      "value": 10
+    },
+    {
+      "label": "SoundProof",
+      "value": 10
+    },
+    {
+      "label": "PsiShield",
+      "value": 10
+    },
+    {
+      "label": "Insulated",
+      "value": 10
+    },
+    {
+      "label": "Sealed",
+      "value": 20
+    }
+  ],
+  "categories": [
+    "vehicles"
+  ],
+  "sources": [
+    {
+      "publication": "Traveller 5.10 Core Rules Book 3 : Worlds and Adventures",
+      "authors": [
+        "Miller, Marc"
+      ],
+      "publisher": {
+        "name": "Far Future Enterprises",
+        "url": "https://farfuture.net"
+      }
+    }
+  ],
+  "tags": [
+    "products",
+    "vehicles",
+    "small craft"
+  ]
+}

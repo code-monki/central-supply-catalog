@@ -1,0 +1,33 @@
+{
+  "sku": "060-000-00027",
+  "type": "detectors",
+  "subtype": "",
+  "name": "Sentry Kit",
+  "mfr": "",
+  "cost": 1000,
+  "mass": 1,
+  "size": 3,
+  "techLevel": 10,
+  "qrebs": "N/A",
+  "image": "",
+  "description": "<p><!-- Summary Start -->Motion detectors and life form scanners for those more dangerous camp-outs.<!-- Summary End --> The sentry kit lets you sleep in (moderate) peace while it keeps watch. The kit is capable of identifying friend / foe (IFF) and can be programmed to operate weapons that have the &quot;Remote&quot; modified for automated defense.</p>",
+  "categories": [
+    "detectors"
+  ],
+  "sources": [
+    {
+      "publication": "Traveller 5.10 Core Rules Book 3 : Worlds and Adventures",
+      "authors": [
+        "Miller, Marc"
+      ],
+      "publisher": {
+        "name": "Far Future Enterprises",
+        "url": "https://farfuture.net"
+      }
+    }
+  ],
+  "tags": [
+    "products",
+    "detectors"
+  ]
+}

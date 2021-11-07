@@ -1,0 +1,34 @@
+{
+  "sku": "130-003-10048",
+  "type": "protections",
+  "subtype": "units",
+  "name": "Battle Unit, Improved Heavy (ImHBU-14)",
+  "cost": 660000,
+  "mass": 650,
+  "techLevel": 14,
+  "qrebs": "N/A",
+  "image": "",
+  "description": "<p><!-- Summary Start -->Battle units incorporate protections against most dangers, attacks, and threats on the battlefield.<!-- Summary End --></p>",
+  "accessories": [],
+  "categories": [
+    "protections",
+    "units"
+  ],
+  "sources": [
+    {
+      "publication": "Traveller 5.10 Core Rules Book 1 : Characters and Combat",
+      "authors": [
+        "Miller, Marc"
+      ],
+      "publisher": {
+        "name": "Far Future Enterprises",
+        "url": "https://farfuture.net"
+      }
+    }
+  ],
+  "tags": [
+    "products",
+    "protections",
+    "units"
+  ]
+}

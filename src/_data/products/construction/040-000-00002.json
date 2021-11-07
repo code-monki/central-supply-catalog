@@ -1,0 +1,36 @@
+{
+  "sku": "040-000-00002",
+  "type": "construction",
+  "subtype": "artifact",
+  "name": "Eternity Circuit Module",
+  "mfr": "",
+  "cost": 100000000,
+  "mass": 1000,
+  "size": 5,
+  "techLevel": 25,
+  "qrebs": "N/A",
+  "image": "",
+  "description": "<p><!-- Summary Start -->Descended from the Molecular Dissembler, the Eternity Circuit Module (ECM) is a specialized molecular fabrication unit which requires administrative access to the ship's computer.<!-- Summary End --></p><p>It performs three functions:</p></p><ul><li><strong>Installation</strong>. When installed, it studies the ship's systems from the ship's computer, using molecular analysis to record a genetic redundancy circuit for the ship's configuration.</li><li><strong>Scan</strong>. Periodically scans the ship's systems for changes in state. New components are added to the overall configuration.</li><li><strong>Restore</strong>. When a system is damaged, it uses the delta generated from the genetic circuit to gradually restore it to its original state, or as close as possible, via molecular fabrication.</li></ul></p><p>Restoration time is measured by Quality, which maps to the number of damage levels the module can repair in a 1-ton (or less) item in one day. The ECM displaces one ton and requires access to raw materials for its operation.</p>",
+  "categories": [
+    "products",
+    "construction",
+    "artifact"
+  ],
+  "sources": [
+    {
+      "publication": "Traveller 5.10 Core Rules Book 3 : Worlds and Adventures",
+      "authors": [
+        "Miller, Marc"
+      ],
+      "publisher": {
+        "name": "Far Future Enterprises",
+        "url": "https://farfuture.net"
+      }
+    }
+  ],
+  "tags": [
+    "products",
+    "construction",
+    "artifact"
+  ]
+}

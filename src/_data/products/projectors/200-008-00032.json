@@ -1,0 +1,47 @@
+{
+  "sku": "200-008-00032",
+  "type": "weapons",
+  "subtype": "projectors",
+  "name": "Poison Gas Projector, Advanced (APPj-12)",
+  "mfr": "",
+  "cost": 1800,
+  "mass": 0.8,
+  "size": "",
+  "techLevel": 12,
+  "qrebs": "R=4",
+  "damage": "Poison-2, Gas-4",
+  "image": "",
+  "description": "<p><!-- Summary Start -->Advanced version of the poison gas projector.<!-- Summary End --> The poison gas projector projects a cloud of poisonous gas at the target.</p>",
+  "stats": [],
+  "categories": [
+    "weapons",
+    "projectors"
+  ],
+  "sources": [
+    {
+      "publication": "Traveller 5.10 Core Rules Book 1 : Characters and Combat",
+      "authors": [
+        "Miller, Marc"
+      ],
+      "publisher": {
+        "name": "Far Future Enterprises",
+        "url": "https://farfuture.net"
+      }
+    },
+    {
+      "publication": "Traveller 5.10 Core Rules Book 3 : Worlds and Adventures",
+      "authors": [
+        "Miller, Marc"
+      ],
+      "publisher": {
+        "name": "Far Future Enterprises",
+        "url": "https://farfuture.net"
+      }
+    }
+  ],
+  "tags": [
+    "products",
+    "weapons",
+    "projectors"
+  ]
+}

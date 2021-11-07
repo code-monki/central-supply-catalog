@@ -1,0 +1,33 @@
+{
+  "sku": "100-000-00010",
+  "type": "drugs medical",
+  "subtype": "",
+  "name": "Fast Drug",
+  "mfr": "",
+  "cost": 200,
+  "mass": 0,
+  "size": 1,
+  "techLevel": 10,
+  "qrebs": "N/A",
+  "image": "",
+  "description": "<p><!-- Summary Start -->So named because it makes the universe appear, to its user, to move much more quickly.<!-- Summary End --> The drug slows down personal metabolism at a ratio of approximately 60 to 1. Users are extremely vulnerable while living at such a slow rate, but physical aging is also slowed, and the need for consumable supplies is reduced which thus allows conservation of air and food. Fast drug takes effect immediately upon ingestion, one dose lasts for 60 days, making that time appear to be only one day.</p>",
+  "categories": [
+    "drugs medical"
+  ],
+  "sources": [
+    {
+      "publication": "Traveller 5.10 Core Rules Book 3 : Worlds and Adventures",
+      "authors": [
+        "Miller, Marc"
+      ],
+      "publisher": {
+        "name": "Far Future Enterprises",
+        "url": "https://farfuture.net"
+      }
+    }
+  ],
+  "tags": [
+    "products",
+    "drugs medical"
+  ]
+}

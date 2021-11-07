@@ -1,0 +1,58 @@
+{
+  "sku": "130-004-00005",
+  "type": "protections",
+  "subtype": "cyberware",
+  "name": "Cybernetic Lungs",
+  "mfr": "",
+  "cost": 80000,
+  "mass": 1.3,
+  "size": "5 liters",
+  "techLevel": 8,
+  "qrebs": "N/A",
+  "image": "",
+  "description": "<p><!-- Summary Start -->Cybernetic Lungs are paired battery-powered devices that function as a powerful oxygen / carbon dioxide cycling system.<!-- Summary End --> These are connected to the circulatory system, replacing the natural lungs. The internal battery is extremely compact and has a long life, typically measured in decades.</p><p>Cybernetic lungs can be fitted with an integral Filter / Respirator which allow breathing of tainted atmosphere without harmful effects. Early versions rely on extensive pre-lung filters, typically installed within the nasal cavity: individuals with this version must blow their noses regularly to clear the filters.</p>",
+  "categories": [
+    "protections",
+    "cyberware"
+  ],
+  "sources": [
+    {
+      "publication": "Traveller Wiki: Cybernetic Kidneys",
+      "authors": [
+        "Lord (Marquis) and Master Scout Emeritus Adie Alegoric Stewart of the IISS",
+        "Lord (Marquis) and Master of Sophontology Maksim-Smelchak of the Ministry of Science"
+      ],
+      "publisher": {
+        "name": "Traveller Wiki",
+        "url": "https://wiki.travellerrpg.com/Cybernetic_Kidneys"
+      }
+    },
+    {
+      "publication": "Cybernetics",
+      "authors": [
+        "Nash, Pete",
+        "Robinson, Nick"
+      ],
+      "publisher": {
+        "name": "Mongoose Publishing",
+        "url": "https://www.mongoosepublishing.com/"
+      }
+    },
+    {
+      "publication": "Fire, Fusion, & Steel",
+      "authors": [
+        "Chadwick, Frank",
+        "Nilsen, Dave"
+      ],
+      "publisher": {
+        "name": "Game Designers Workshop",
+        "url": ""
+      }
+    }
+  ],
+  "tags": [
+    "products",
+    "protections",
+    "cyberware"
+  ]
+}

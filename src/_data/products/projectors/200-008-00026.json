@@ -1,0 +1,47 @@
+{
+  "sku": "200-008-00026",
+  "type": "weapons",
+  "subtype": "projectors",
+  "name": "Flash Projector, Snub (SnFPj-11)",
+  "mfr": "",
+  "cost": 2250,
+  "mass": 0.3,
+  "size": "",
+  "techLevel": 11,
+  "qrebs": "R=2",
+  "damage": "Flash-4",
+  "image": "",
+  "description": "<p><!-- Summary Start -->Snub version of the flash projector.<!-- Summary End --> The flash projector fires a bright, blinding flash of light.</p>",
+  "stats": [],
+  "categories": [
+    "weapons",
+    "projectors"
+  ],
+  "sources": [
+    {
+      "publication": "Traveller 5.10 Core Rules Book 1 : Characters and Combat",
+      "authors": [
+        "Miller, Marc"
+      ],
+      "publisher": {
+        "name": "Far Future Enterprises",
+        "url": "https://farfuture.net"
+      }
+    },
+    {
+      "publication": "Traveller 5.10 Core Rules Book 3 : Worlds and Adventures",
+      "authors": [
+        "Miller, Marc"
+      ],
+      "publisher": {
+        "name": "Far Future Enterprises",
+        "url": "https://farfuture.net"
+      }
+    }
+  ],
+  "tags": [
+    "products",
+    "weapons",
+    "projectors"
+  ]
+}

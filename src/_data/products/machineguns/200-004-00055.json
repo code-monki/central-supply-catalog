@@ -1,0 +1,47 @@
+{
+  "sku": "200-004-00055",
+  "type": "weapons",
+  "subtype": "machineguns",
+  "name": "Anti-Flyer Machinegun, Crewed, Disposable, Alternate (AltDaFMgC-14)",
+  "mfr": "",
+  "cost": 19800,
+  "mass": 47,
+  "size": "",
+  "techLevel": 14,
+  "qrebs": "R=7",
+  "damage": "Blast-3, Frag-3, Bullet-4",
+  "image": "",
+  "description": "<p><!-- Summary Start -->Alternate version of the disposable crewed anti-flyer machinegun.<!-- Summary End --> This version is constructed of relatively inexpensive materials and has a working lifetime measured in days.</p>",
+  "stats": [],
+  "categories": [
+    "weapons",
+    "machineguns"
+  ],
+  "sources": [
+    {
+      "publication": "Traveller 5.10 Core Rules Book 1 : Characters and Combat",
+      "authors": [
+        "Miller, Marc"
+      ],
+      "publisher": {
+        "name": "Far Future Enterprises",
+        "url": "https://farfuture.net"
+      }
+    },
+    {
+      "publication": "Traveller 5.10 Core Rules Book 3 : Worlds and Adventures",
+      "authors": [
+        "Miller, Marc"
+      ],
+      "publisher": {
+        "name": "Far Future Enterprises",
+        "url": "https://farfuture.net"
+      }
+    }
+  ],
+  "tags": [
+    "products",
+    "weapons",
+    "machineguns"
+  ]
+}

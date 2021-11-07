@@ -1,0 +1,35 @@
+{
+  "sku": "030-001-00004",
+  "type": "computers",
+  "subtype": "computer accessory",
+  "name": "Datalink",
+  "mfr": "",
+  "cost": 25,
+  "mass": 0.01,
+  "size": 1,
+  "techLevel": 8,
+  "qrebs": "N/A",
+  "image": "",
+  "description": "<p><!-- Summary Start -->A short range repeater/data relay device.<!-- Summary End --></p>",
+  "categories": [
+    "computers",
+    "computer accessory"
+  ],
+  "sources": [
+    {
+      "publication": "Traveller 5.10 Core Rules Book 3 : Worlds and Adventures",
+      "authors": [
+        "Miller, Marc"
+      ],
+      "publisher": {
+        "name": "Far Future Enterprises",
+        "url": "https://farfuture.net"
+      }
+    }
+  ],
+  "tags": [
+    "products",
+    "computers",
+    "computer accessory"
+  ]
+}

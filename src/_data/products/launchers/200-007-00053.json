@@ -1,0 +1,47 @@
+{
+  "sku": "200-007-00053",
+  "type": "weapons",
+  "subtype": "launchers",
+  "name": "Fusion Multi-Launcher, Crewed, Improved (ImFmLC-17)",
+  "mfr": "",
+  "cost": 19800,
+  "mass": 23,
+  "size": "",
+  "techLevel": 17,
+  "qrebs": "R=4",
+  "damage": "Pen-4, Burn-6",
+  "image": "",
+  "description": "<p><!-- Summary Start -->Improved version of the crewed fusion multi-launcher.<!-- Summary End --></p>",
+  "stats": [],
+  "categories": [
+    "weapons",
+    "launchers"
+  ],
+  "sources": [
+    {
+      "publication": "Traveller 5.10 Core Rules Book 3 : Worlds and Adventures",
+      "authors": [
+        "Miller, Marc"
+      ],
+      "publisher": {
+        "name": "Far Future Enterprises",
+        "url": "https://farfuture.net"
+      }
+    },
+    {
+      "publication": "Traveller 5.10 Core Rules Book 3 : Worlds and Adventures",
+      "authors": [
+        "Miller, Marc"
+      ],
+      "publisher": {
+        "name": "Far Future Enterprises",
+        "url": "https://farfuture.net"
+      }
+    }
+  ],
+  "tags": [
+    "products",
+    "weapons",
+    "launchers"
+  ]
+}

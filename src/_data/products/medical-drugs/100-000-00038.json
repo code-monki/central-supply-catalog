@@ -1,0 +1,33 @@
+{
+  "sku": "100-000-00038",
+  "type": "drugs medical",
+  "subtype": "",
+  "name": "Low Berth, Ultimate Military Stasis Capsule",
+  "mfr": "",
+  "cost": 3000000,
+  "mass": 1000,
+  "size": 6,
+  "techLevel": 24,
+  "qrebs": "N/A",
+  "image": "",
+  "description": "<p><!-- Summary Start -->A berth for carrying a soldier in a stasis field for extended periods of time.<!-- Summary End --> Also provides suspended animation facilities when medical care or rescue is not immediately available. Displaces 1 ton. Offline power lasts 10,000 years; when connected to a central power supply, can safely preserve contents for perhaps a million years.</p>",
+  "categories": [
+    "drugs medical"
+  ],
+  "sources": [
+    {
+      "publication": "Traveller 5.10 Core Rules Book 3 : Worlds and Adventures",
+      "authors": [
+        "Miller, Marc"
+      ],
+      "publisher": {
+        "name": "Far Future Enterprises",
+        "url": "https://farfuture.net"
+      }
+    }
+  ],
+  "tags": [
+    "products",
+    "drugs medical"
+  ]
+}

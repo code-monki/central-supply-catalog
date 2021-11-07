@@ -1,0 +1,34 @@
+{
+  "sku": "130-003-10052",
+  "type": "protections",
+  "subtype": "units",
+  "name": "Cold Unit, Advanced Vlight (AVlCU-15)",
+  "cost": 48000,
+  "mass": 19,
+  "techLevel": 15,
+  "qrebs": "N/A",
+  "image": "",
+  "description": "<p><!-- Summary Start -->The cold environment unit protects against extreme low environmental temperature.<!-- Summary End --></p>",
+  "accessories": [],
+  "categories": [
+    "protections",
+    "units"
+  ],
+  "sources": [
+    {
+      "publication": "Traveller 5.10 Core Rules Book 1 : Characters and Combat",
+      "authors": [
+        "Miller, Marc"
+      ],
+      "publisher": {
+        "name": "Far Future Enterprises",
+        "url": "https://farfuture.net"
+      }
+    }
+  ],
+  "tags": [
+    "products",
+    "protections",
+    "units"
+  ]
+}

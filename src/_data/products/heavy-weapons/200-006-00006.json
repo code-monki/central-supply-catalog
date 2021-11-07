@@ -1,0 +1,50 @@
+{
+  "sku": "200-006-00006",
+  "type": "weapons",
+  "subtype": "heavy weapons",
+  "name": "Cannon, Heavy, Turret Mounted, Prototype (PHCT-6)",
+  "mfr": "",
+  "cost": 33000,
+  "mass": 494,
+  "size": "",
+  "techLevel": 6,
+  "qrebs": "R=6",
+  "damage": "Pen-5",
+  "image": "",
+  "description": "<p><!-- Summary Start -->A prototype of a turret-mounted heavy cannon.<!-- Summary End --></p>",
+  "stats": [],
+  "accessories": [
+    "200-010-00001"
+  ],
+  "categories": [
+    "weapons",
+    "heavy weapons"
+  ],
+  "sources": [
+    {
+      "publication": "Traveller 5.10 Core Rules Book 1 : Characters and Combat",
+      "authors": [
+        "Miller, Marc"
+      ],
+      "publisher": {
+        "name": "Far Future Enterprises",
+        "url": "https://farfuture.net"
+      }
+    },
+    {
+      "publication": "Traveller 5.10 Core Rules Book 3 : Worlds and Adventures",
+      "authors": [
+        "Miller, Marc"
+      ],
+      "publisher": {
+        "name": "Far Future Enterprises",
+        "url": "https://farfuture.net"
+      }
+    }
+  ],
+  "tags": [
+    "products",
+    "weapons",
+    "heavy weapons"
+  ]
+}

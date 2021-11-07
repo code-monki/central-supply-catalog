@@ -1,0 +1,33 @@
+{
+  "sku": "060-000-00024",
+  "type": "detectors",
+  "subtype": "",
+  "name": "Radiation Detector",
+  "mfr": "",
+  "cost": 800,
+  "mass": 1,
+  "size": 2,
+  "techLevel": 6,
+  "qrebs": "N/A",
+  "image": "",
+  "description": "<p><!-- Summary Start -->The radiation detector indicates the presence and intensity of radioactivity.<!-- Summary End --> The radiation detector can be preset to give a warning signal if the levels of radioactivity rise to dangerous levels. It is a more limited, lower tech equivalent of a neutrino detector. The radiation detector is contained in an ergonomic, handheld case, with a sling for carrying over the shoulder.</p>",
+  "categories": [
+    "detectors"
+  ],
+  "sources": [
+    {
+      "publication": "Traveller 5.10 Core Rules Book 3 : Worlds and Adventures",
+      "authors": [
+        "Miller, Marc"
+      ],
+      "publisher": {
+        "name": "Far Future Enterprises",
+        "url": "https://farfuture.net"
+      }
+    }
+  ],
+  "tags": [
+    "products",
+    "detectors"
+  ]
+}

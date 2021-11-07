@@ -1,0 +1,32 @@
+{
+  "sku": "010-000-00006",
+  "type": "breathing apparatus",
+  "subtype": "",
+  "name": "Breather (TL 7)",
+  "cost": 200,
+  "mass": 2,
+  "size": 3,
+  "techLevel": 7,
+  "qrebs": "N/A",
+  "image": "",
+  "description": "<p><!-- Summary Start -->The breather removes waste gases and recycles breathing gases to the user.<!-- Summary End -->  The breather uses a PowerCell-2 and has a duration of one day, after which it also requires routine maintenance.</p>",
+  "categories": [
+    "breathing-apparatus"
+  ],
+  "sources": [
+    {
+      "publication": "Traveller 5.10 Core Rules Book 3 : Worlds and Adventures",
+      "authors": [
+        "Miller, Marc"
+      ],
+      "publisher": {
+        "name": "Far Future Enterprises",
+        "url": "https://farfuture.net"
+      }
+    }
+  ],
+  "tags": [
+    "products",
+    "breathing-apparatus"
+  ]
+}

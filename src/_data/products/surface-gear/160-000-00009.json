@@ -1,0 +1,33 @@
+{
+  "sku": "160-000-00009",
+  "type": "surface gear",
+  "subtype": "",
+  "name": "Machete",
+  "mfr": "",
+  "cost": 125,
+  "mass": 1,
+  "size": 3,
+  "techLevel": 4,
+  "qrebs": "N/A",
+  "image": "",
+  "description": "<p><!-- Summary Start -->A strong blade used in cutting vegetation to clear paths, campsites, or vegetation. <!-- Summary End --></p>",
+  "categories": [
+    "surface gear"
+  ],
+  "sources": [
+    {
+      "publication": "Traveller 5.10 Core Rules Book 3 : Worlds and Adventures",
+      "authors": [
+        "Miller, Marc"
+      ],
+      "publisher": {
+        "name": "Far Future Enterprises",
+        "url": "https://farfuture.net"
+      }
+    }
+  ],
+  "tags": [
+    "products",
+    "surface gear"
+  ]
+}

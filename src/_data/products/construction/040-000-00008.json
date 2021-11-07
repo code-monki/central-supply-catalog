@@ -1,0 +1,36 @@
+{
+  "sku": "040-000-00008",
+  "type": "construction",
+  "subtype": "artifact",
+  "name": "Molecular Disassmbler",
+  "mfr": "",
+  "cost": 10000000,
+  "mass": 1000,
+  "size": 6,
+  "techLevel": 23,
+  "qrebs": "N/A",
+  "image": "",
+  "description": "<p><!-- Summary Start -->The Molecular Disassembler is a piece of construction equipment which also serves as a combat piece.<!-- Summary End --> This item creates a field of grey goo within the targeted range of the selected volume.</p><p>The basic Molecular Disassembler is a self-contained unit capable of dissembling, assembling or a combination of both up to a Size 6+ object depending on various factors.</p><p>It is composed of a 0.25 ton infrastructure which contains the Control Console with a user friendly interface to program the system. The user, with the assistance of an on-board Ultimate Model/4phoNN-21 Computer driven by an Improved AI-21 OS and extensive package of standard De/Construction Apps, sets parameters or selects a pre-set template with the desired result. (Note: Weaponized versions carry a variety of Apps with exotic methods for offensive use.) Power for the system is provided by an Early AM Battery-23 (a 10 cm cube providing the equivalent of ACS EP 100) allowing for almost unlimited storage of the system.</p><p>The second part of the system is 0.70 ton of programmable De/Constructor Units held in suspension by the 0.05 ton containment vessel. Once the Molecular Disassembler is powered up and programmed the EAMB-23 charges the D/C Units with enough power to begin executing the task they were given (such as convert this broken down Air/Raft into a small shelter). After initialization the EAMB-23 is expended and is used along with the rest of the infrastructure as starting materials by the D/C Units.</p><p>If power for the containment vessel falls below acceptable levels the Computer will engage the failsafe rendering the system completely inert. Once the failsafe protocol has completed the system is basically usable only as raw materials for another Molecular Dissembler.",
+  "categories": [
+    "products",
+    "construction",
+    "artifact"
+  ],
+  "sources": [
+    {
+      "publication": "Traveller 5.10 Core Rules Book 3 : Worlds and Adventures",
+      "authors": [
+        "Miller, Marc"
+      ],
+      "publisher": {
+        "name": "Far Future Enterprises",
+        "url": "https://farfuture.net"
+      }
+    }
+  ],
+  "tags": [
+    "products",
+    "construction",
+    "artifact"
+  ]
+}

@@ -1,0 +1,47 @@
+{
+  "sku": "200-009-00014",
+  "type": "weapons",
+  "subtype": "designators",
+  "name": "Fire Designator, Recoilless (RFD-7)",
+  "mfr": "",
+  "cost": 6000,
+  "mass": 10,
+  "size": "",
+  "techLevel": 7,
+  "qrebs": "R=6",
+  "damage": "Pen-1, Burn-3",
+  "image": "",
+  "description": "<p><!-- Summary Start -->The fire designator projects flame or fire at the target.<!-- Summary End --></p>",
+  "stats": [],
+  "categories": [
+    "weapons",
+    "designators"
+  ],
+  "sources": [
+    {
+      "publication": "Traveller 5.10 Core Rules Book 1 : Characters and Combat",
+      "authors": [
+        "Miller, Marc"
+      ],
+      "publisher": {
+        "name": "Far Future Enterprises",
+        "url": "https://farfuture.net"
+      }
+    },
+    {
+      "publication": "Traveller 5.10 Core Rules Book 3 : Worlds and Adventures",
+      "authors": [
+        "Miller, Marc"
+      ],
+      "publisher": {
+        "name": "Far Future Enterprises",
+        "url": "https://farfuture.net"
+      }
+    }
+  ],
+  "tags": [
+    "products",
+    "weapons",
+    "designators"
+  ]
+}

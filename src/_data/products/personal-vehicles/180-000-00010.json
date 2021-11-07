@@ -1,0 +1,76 @@
+{
+  "sku": "180-000-00010",
+  "type": "vehicles",
+  "subtype": "military",
+  "name": "Attack Flyer, Winged (AF-W)",
+  "mfr": "",
+  "cost": 3300000,
+  "displacement": 13,
+  "techLevel": 9,
+  "qrebs": "N/A",
+  "image": "",
+  "description": "<p><!-- Summary Start -->Atmospheric winged attack fighter.<!-- Summary End --></p>",
+  "stats": [
+    {
+      "label": "Speed",
+      "value": 9
+    },
+    {
+      "label": "Load",
+      "value": 4
+    },
+    {
+      "label": "Armor",
+      "value": 20
+    },
+    {
+      "label": "Cage",
+      "value": 0
+    },
+    {
+      "label": "FlashProof",
+      "value": 20
+    },
+    {
+      "label": "RadProof",
+      "value": 3
+    },
+    {
+      "label": "SoundProof",
+      "value": 23
+    },
+    {
+      "label": "PsiShield",
+      "value": 0
+    },
+    {
+      "label": "Insulated",
+      "value": 13
+    },
+    {
+      "label": "Sealed",
+      "value": 4
+    }
+  ],
+  "categories": [
+    "vehicles",
+    "military"
+  ],
+  "sources": [
+    {
+      "publication": "Traveller 5.10 Core Rules Book 3 : Worlds and Adventures",
+      "authors": [
+        "Miller, Marc"
+      ],
+      "publisher": {
+        "name": "Far Future Enterprises",
+        "url": "https://farfuture.net"
+      }
+    }
+  ],
+  "tags": [
+    "products",
+    "vehicles",
+    "military"
+  ]
+}

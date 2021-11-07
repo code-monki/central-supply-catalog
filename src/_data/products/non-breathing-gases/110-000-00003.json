@@ -1,0 +1,33 @@
+{
+  "sku": "110-000-00003",
+  "type": "non-breathing gases",
+  "subtype": "elemental",
+  "name": "Elemental Gas (Hydrogen-3, Tritium)",
+  "mfr": "",
+  "cost": 100,
+  "mass": 1,
+  "size": 3,
+  "techLevel": 7,
+  "qrebs": "N/A",
+  "image": "",
+  "description": "<p><!-- Summary Start -->The container holds up to 2 liters of compressed gas.<!-- Summary End --></p>",
+  "categories": [
+    "non-breathing gases"
+  ],
+  "sources": [
+    {
+      "publication": "Traveller 5.10 Core Rules Book 3 : Worlds and Adventures",
+      "authors": [
+        "Miller, Marc"
+      ],
+      "publisher": {
+        "name": "Far Future Enterprises",
+        "url": "https://farfuture.net"
+      }
+    }
+  ],
+  "tags": [
+    "products",
+    "non-breathing gases"
+  ]
+}

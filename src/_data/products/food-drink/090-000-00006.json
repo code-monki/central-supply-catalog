@@ -1,0 +1,33 @@
+{
+  "sku": "090-000-00006",
+  "type": "food drink",
+  "subtype": "food",
+  "name": "Rations",
+  "mfr": "",
+  "cost": 2,
+  "mass": 250,
+  "size": 3,
+  "techLevel": 7,
+  "qrebs": "N/A",
+  "image": "",
+  "description": "<p><!-- Summary Start -->Self-heating rations which provide convenient, efficient, proper nutrition at the expense of flavor, texture, style, presentation, or other factors.<!-- Summary End --> Lower TL versions are military- grade MREs, which are not heated, or Combat Rations\n\nEmergency rations also tend to not need heating. Standard rations usually include a heated portion and tend to have the best flavor. Very low TL versions include jerky and hard tack, and may tend to omit vital long-term nutrients but will prevent starvation.</p>",
+  "categories": [
+    "food drink"
+  ],
+  "sources": [
+    {
+      "publication": "Traveller 5.10 Core Rules Book 3 : Worlds and Adventures",
+      "authors": [
+        "Miller, Marc"
+      ],
+      "publisher": {
+        "name": "Far Future Enterprises",
+        "url": "https://farfuture.net"
+      }
+    }
+  ],
+  "tags": [
+    "products",
+    "food drink"
+  ]
+}

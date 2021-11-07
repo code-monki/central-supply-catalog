@@ -1,0 +1,56 @@
+{
+  "sku": "200-002-00043",
+  "type": "weapons",
+  "subtype": "handguns",
+  "name": "Laser Pistol, Light, Alternate (AltLtLP-11)",
+  "mfr": "",
+  "cost": 495,
+  "mass": 1,
+  "size": "",
+  "techLevel": 11,
+  "qrebs": "R=2",
+  "damage": "Pen-2, Burn-4",
+  "image": "",
+  "description": "<p><!-- Summary Start -->Alternate version of the light laser pistol.<!-- Summary End --> This weapon fires a coherent beam of photons and is powered by an on-board cell.</p>",
+  "stats": [],
+  "accessories": [
+    "200-011-00001",
+    "200-011-00002",
+    "200-011-00003",
+    "200-011-00004",
+    "200-011-00005"
+  ],
+  "categories": [
+    "weapons",
+    "handguns",
+    "pistol"
+  ],
+  "sources": [
+    {
+      "publication": "Traveller 5.10 Core Rules Book 1 : Characters and Combat",
+      "authors": [
+        "Miller, Marc"
+      ],
+      "publisher": {
+        "name": "Far Future Enterprises",
+        "url": "https://farfuture.net"
+      }
+    },
+    {
+      "publication": "Traveller 5.10 Core Rules Book 3 : Worlds and Adventures",
+      "authors": [
+        "Miller, Marc"
+      ],
+      "publisher": {
+        "name": "Far Future Enterprises",
+        "url": "https://farfuture.net"
+      }
+    }
+  ],
+  "tags": [
+    "products",
+    "weapons",
+    "handguns",
+    "pistol"
+  ]
+}

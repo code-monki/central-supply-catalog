@@ -1,0 +1,75 @@
+{
+  "sku": "180-001-00016",
+  "type": "vehicles",
+  "subtype": "small craft",
+  "name": "Shuttle, Light (SE)",
+  "mfr": "",
+  "cost": 6000000,
+  "displacement": 35,
+  "techLevel": 10,
+  "qrebs": "N/A",
+  "image": "",
+  "description": "<p><!-- Summary Start -->Passenger and freight transporter capable of landing on worlds. Built to travel between two points (worlds; locations).<!-- Summary End --></p>",
+  "stats": [
+    {
+      "label": "Speed",
+      "value": 5
+    },
+    {
+      "label": "Load",
+      "value": 21
+    },
+    {
+      "label": "Armor",
+      "value": 10
+    },
+    {
+      "label": "Cage",
+      "value": 10
+    },
+    {
+      "label": "FlashProof",
+      "value": 10
+    },
+    {
+      "label": "RadProof",
+      "value": 10
+    },
+    {
+      "label": "SoundProof",
+      "value": 10
+    },
+    {
+      "label": "PsiShield",
+      "value": 10
+    },
+    {
+      "label": "Insulated",
+      "value": 5
+    },
+    {
+      "label": "Sealed",
+      "value": 20
+    }
+  ],
+  "categories": [
+    "vehicles"
+  ],
+  "sources": [
+    {
+      "publication": "Traveller 5.10 Core Rules Book 3 : Worlds and Adventures",
+      "authors": [
+        "Miller, Marc"
+      ],
+      "publisher": {
+        "name": "Far Future Enterprises",
+        "url": "https://farfuture.net"
+      }
+    }
+  ],
+  "tags": [
+    "products",
+    "vehicles",
+    "small craft"
+  ]
+}

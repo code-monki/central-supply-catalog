@@ -1,0 +1,47 @@
+{
+  "sku": "200-009-00038",
+  "type": "weapons",
+  "subtype": "designators",
+  "name": "Stench Designator, Basic (BSD-10)",
+  "mfr": "",
+  "cost": 1680,
+  "mass": 5.2,
+  "size": "",
+  "techLevel": 10,
+  "qrebs": "R=2",
+  "damage": "Stench-2",
+  "image": "",
+  "description": "<p><!-- Summary Start -->The stench designator marks the target with a foul-smelling liquid.<!-- Summary End --></p>",
+  "stats": [],
+  "categories": [
+    "weapons",
+    "designators"
+  ],
+  "sources": [
+    {
+      "publication": "Traveller 5.10 Core Rules Book 1 : Characters and Combat",
+      "authors": [
+        "Miller, Marc"
+      ],
+      "publisher": {
+        "name": "Far Future Enterprises",
+        "url": "https://farfuture.net"
+      }
+    },
+    {
+      "publication": "Traveller 5.10 Core Rules Book 3 : Worlds and Adventures",
+      "authors": [
+        "Miller, Marc"
+      ],
+      "publisher": {
+        "name": "Far Future Enterprises",
+        "url": "https://farfuture.net"
+      }
+    }
+  ],
+  "tags": [
+    "products",
+    "weapons",
+    "designators"
+  ]
+}

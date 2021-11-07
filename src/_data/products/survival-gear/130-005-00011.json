@@ -1,0 +1,33 @@
+{
+  "sku": "130-005-00011",
+  "type": "survival gear",
+  "subtype": "",
+  "name": "Wall Patches",
+  "mfr": "",
+  "cost": 150,
+  "mass": 4,
+  "size": 2,
+  "techLevel": 10,
+  "qrebs": "N/A",
+  "image": "",
+  "description": "<p><!-- Summary Start -->Steel-backed plastic patches faced with adhesive, activated by peeling off a backing and placing the patch over a hole or leak.<!-- Summary End --> These will serve for several days.</p>",
+  "categories": [
+    "survival gear"
+  ],
+  "sources": [
+    {
+      "publication": "Traveller 5.10 Core Rules Book 3 : Worlds and Adventures",
+      "authors": [
+        "Miller, Marc"
+      ],
+      "publisher": {
+        "name": "Far Future Enterprises",
+        "url": "https://farfuture.net"
+      }
+    }
+  ],
+  "tags": [
+    "products",
+    "survival gear"
+  ]
+}

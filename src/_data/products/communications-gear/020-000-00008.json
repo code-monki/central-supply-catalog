@@ -1,0 +1,34 @@
+{
+  "sku": "020-000-00008",
+  "type": "comms",
+  "subtype": "",
+  "name": "Communicator (Vehicle)",
+  "mfr": "",
+  "cost": 50000,
+  "mass": 50,
+  "size": 5,
+  "techLevel": 8,
+  "qrebs": "N/A",
+  "image": "",
+  "description": "<p><!-- Summary Start -->Vehicle-installed communicator with an orbital range<!-- Summary End --></p>",
+  "accessories": [],
+  "categories": [
+    "communications"
+  ],
+  "sources": [
+    {
+      "publication": "Traveller 5.10 Core Rules Book 3 : Worlds and Adventures",
+      "authors": [
+        "Miller, Marc"
+      ],
+      "publisher": {
+        "name": "Far Future Enterprises",
+        "url": "https://farfuture.net"
+      }
+    }
+  ],
+  "tags": [
+    "products",
+    "communications"
+  ]
+}

@@ -1,0 +1,47 @@
+{
+  "sku": "200-007-00040",
+  "type": "weapons",
+  "subtype": "launchers",
+  "name": "Fusion Launcher, Vheavy, Crewed, Early (EVhFLC-13)",
+  "mfr": "",
+  "cost": 14400,
+  "mass": 125,
+  "size": "",
+  "techLevel": 13,
+  "qrebs": "R=4",
+  "damage": "Blast-3, Frag-5",
+  "image": "",
+  "description": "<p><!-- Summary Start -->An early-stage crewed very heavy fusion launcher.<!-- Summary End --></p>",
+  "stats": [],
+  "categories": [
+    "weapons",
+    "launchers"
+  ],
+  "sources": [
+    {
+      "publication": "Traveller 5.10 Core Rules Book 3 : Worlds and Adventures",
+      "authors": [
+        "Miller, Marc"
+      ],
+      "publisher": {
+        "name": "Far Future Enterprises",
+        "url": "https://farfuture.net"
+      }
+    },
+    {
+      "publication": "Traveller 5.10 Core Rules Book 3 : Worlds and Adventures",
+      "authors": [
+        "Miller, Marc"
+      ],
+      "publisher": {
+        "name": "Far Future Enterprises",
+        "url": "https://farfuture.net"
+      }
+    }
+  ],
+  "tags": [
+    "products",
+    "weapons",
+    "launchers"
+  ]
+}

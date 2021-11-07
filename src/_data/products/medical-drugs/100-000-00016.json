@@ -1,0 +1,33 @@
+{
+  "sku": "100-000-00016",
+  "type": "drugs medical",
+  "subtype": "",
+  "name": "Medical Capsule",
+  "mfr": "",
+  "cost": 1000000,
+  "mass": 1000,
+  "size": 6,
+  "techLevel": 11,
+  "qrebs": "N/A",
+  "image": "",
+  "description": "<p><!-- Summary Start -->The medical capsule has a diagnostic computer, a variety of therapeutic medicines, and a database of medical procedures.<!-- Summary End --> Acts as a Doctor with C+S=TL. Aside from the standard Medical and Capsule modifications, also treats severe wounds or trauma; repairs, reattaches, or, if necessary, regrows a damaged or destroyed organ or limb, as a Doctor with C+S=TL. Each treatment puts the patient into suspended animation for 1D x 10 weeks, and injects the patient with tailored regrowth drugs and nutrients costing KCr100 (one dose per treatment).</p>",
+  "categories": [
+    "drugs medical"
+  ],
+  "sources": [
+    {
+      "publication": "Traveller 5.10 Core Rules Book 3 : Worlds and Adventures",
+      "authors": [
+        "Miller, Marc"
+      ],
+      "publisher": {
+        "name": "Far Future Enterprises",
+        "url": "https://farfuture.net"
+      }
+    }
+  ],
+  "tags": [
+    "products",
+    "drugs medical"
+  ]
+}

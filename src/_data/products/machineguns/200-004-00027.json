@@ -1,0 +1,47 @@
+{
+  "sku": "200-004-00027",
+  "type": "weapons",
+  "subtype": "machineguns",
+  "name": "Anti-Designator Machinegun, Crewed, Early (EaDMgC-8)",
+  "mfr": "",
+  "cost": 10800,
+  "mass": 40,
+  "size": "",
+  "techLevel": 8,
+  "qrebs": "R=5",
+  "damage": "Bullet-5",
+  "image": "",
+  "description": "<p><!-- Summary Start -->Early version of the crewed anti-designator machinegun.<!-- Summary End --></p>",
+  "stats": [],
+  "categories": [
+    "weapons",
+    "machineguns"
+  ],
+  "sources": [
+    {
+      "publication": "Traveller 5.10 Core Rules Book 1 : Characters and Combat",
+      "authors": [
+        "Miller, Marc"
+      ],
+      "publisher": {
+        "name": "Far Future Enterprises",
+        "url": "https://farfuture.net"
+      }
+    },
+    {
+      "publication": "Traveller 5.10 Core Rules Book 3 : Worlds and Adventures",
+      "authors": [
+        "Miller, Marc"
+      ],
+      "publisher": {
+        "name": "Far Future Enterprises",
+        "url": "https://farfuture.net"
+      }
+    }
+  ],
+  "tags": [
+    "products",
+    "weapons",
+    "machineguns"
+  ]
+}

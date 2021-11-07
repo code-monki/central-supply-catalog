@@ -1,0 +1,34 @@
+{
+  "sku": "130-002-10041",
+  "type": "protections",
+  "subtype": "suits",
+  "name": "Drop Suit, Standard Oversize (StOsDS-9)",
+  "cost": 30000,
+  "mass": 240,
+  "techLevel": 9,
+  "qrebs": "N/A",
+  "image": "",
+  "description": "<p><!-- Summary Start -->Drop suits are structured to protect against the extreme temperatures of orbital reentry.<!-- Summary End --></p>",
+  "accessories": [],
+  "categories": [
+    "protections",
+    "suits"
+  ],
+  "sources": [
+    {
+      "publication": "Traveller 5.10 Core Rules Book 1 : Characters and Combat",
+      "authors": [
+        "Miller, Marc"
+      ],
+      "publisher": {
+        "name": "Far Future Enterprises",
+        "url": "https://farfuture.net"
+      }
+    }
+  ],
+  "tags": [
+    "products",
+    "protections",
+    "suits"
+  ]
+}

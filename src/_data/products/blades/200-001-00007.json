@@ -1,0 +1,37 @@
+{
+  "sku": "200-001-00007",
+  "type": "weapons",
+  "subtype": "blades",
+  "name": "Cutlass (C)",
+  "mfr": "",
+  "cost": 200,
+  "mass": 1,
+  "size": "",
+  "techLevel": 3,
+  "qrebs": "",
+  "damage": "Cuts-2",
+  "image": "",
+  "description": "<p><!-- Summary Start -->Standard Marine cutlass.<!-- Summary End -->The cutlass is the standard Marine boarding weapon consisting of a short, heavy blade that is meant for close combat situation.</p>",
+  "stats": [],
+  "categories": [
+    "weapons",
+    "blades"
+  ],
+  "sources": [
+    {
+      "publication": "Traveller 5.10 Core Rules Book 3 : Worlds and Adventures",
+      "authors": [
+        "Miller, Marc"
+      ],
+      "publisher": {
+        "name": "Far Future Enterprises",
+        "url": "https://farfuture.net"
+      }
+    }
+  ],
+  "tags": [
+    "products",
+    "weapons",
+    "blades"
+  ]
+}

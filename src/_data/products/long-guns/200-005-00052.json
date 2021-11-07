@@ -1,0 +1,56 @@
+{
+  "sku": "200-005-00052",
+  "type": "weapons",
+  "subtype": "long guns",
+  "name": "Anti-Designator Laser Carbine, Modified (ModaDLC-15)",
+  "mfr": "",
+  "cost": 2880,
+  "mass": 9.7,
+  "size": "",
+  "techLevel": 15,
+  "qrebs": "R=4",
+  "damage": "Pen-2, Burn-5",
+  "image": "",
+  "description": "<p><!-- Summary Start -->Modified version of the anti-designator laser carbine.<!-- Summary End --> The carbine version of the weapon is shorter and lighter than its rifle counterpart.</p>",
+  "stats": [],
+  "accessories": [
+    "200-011-00001",
+    "200-011-00002",
+    "200-011-00003",
+    "200-011-00004",
+    "200-011-00005",
+    "200-011-00006",
+    "200-011-00007"
+  ],
+  "categories": [
+    "weapons",
+    "carbine"
+  ],
+  "sources": [
+    {
+      "publication": "Traveller 5.10 Core Rules Book 1 : Characters and Combat",
+      "authors": [
+        "Miller, Marc"
+      ],
+      "publisher": {
+        "name": "Far Future Enterprises",
+        "url": "https://farfuture.net"
+      }
+    },
+    {
+      "publication": "Traveller 5.10 Core Rules Book 3 : Worlds and Adventures",
+      "authors": [
+        "Miller, Marc"
+      ],
+      "publisher": {
+        "name": "Far Future Enterprises",
+        "url": "https://farfuture.net"
+      }
+    }
+  ],
+  "tags": [
+    "products",
+    "weapons",
+    "carbine"
+  ]
+}

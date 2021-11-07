@@ -1,0 +1,46 @@
+{
+  "sku": "200-007-00007",
+  "type": "weapons",
+  "subtype": "launchers",
+  "name": "Launcher (L-6)",
+  "mfr": "",
+  "cost": 1000,
+  "mass": 8,
+  "size": "",
+  "techLevel": 6,
+  "qrebs": "R=3",
+  "image": "",
+  "description": "<p><!-- Summary Start -->A launcher for grenades, rockets or guided missiles.<!-- Summary End --></p>",
+  "stats": [],
+  "categories": [
+    "weapons",
+    "launchers"
+  ],
+  "sources": [
+    {
+      "publication": "Traveller 5.10 Core Rules Book 3 : Worlds and Adventures",
+      "authors": [
+        "Miller, Marc"
+      ],
+      "publisher": {
+        "name": "Far Future Enterprises",
+        "url": "https://farfuture.net"
+      }
+    },
+    {
+      "publication": "Traveller 5.10 Core Rules Book 3 : Worlds and Adventures",
+      "authors": [
+        "Miller, Marc"
+      ],
+      "publisher": {
+        "name": "Far Future Enterprises",
+        "url": "https://farfuture.net"
+      }
+    }
+  ],
+  "tags": [
+    "products",
+    "weapons",
+    "launchers"
+  ]
+}

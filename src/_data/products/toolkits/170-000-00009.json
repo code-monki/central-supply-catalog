@@ -1,0 +1,33 @@
+{
+  "sku": "170-000-00009",
+  "type": "toolkits",
+  "subtype": "portable",
+  "name": "Metal Craftsman Toolkit (Portable)",
+  "mfr": "",
+  "cost": 150,
+  "mass": 2,
+  "size": 2,
+  "techLevel": 3,
+  "qrebs": "N/A",
+  "image": "",
+  "description": "<p><!-- Summary Start -->All the basic tools necessary to cut, shape, and build with metal.<!-- Summary End --></p>",
+  "categories": [
+    "toolkits"
+  ],
+  "sources": [
+    {
+      "publication": "Traveller 5.10 Core Rules Book 3 : Worlds and Adventures",
+      "authors": [
+        "Miller, Marc"
+      ],
+      "publisher": {
+        "name": "Far Future Enterprises",
+        "url": "https://farfuture.net"
+      }
+    }
+  ],
+  "tags": [
+    "products",
+    "toolkits"
+  ]
+}

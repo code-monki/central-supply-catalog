@@ -1,0 +1,35 @@
+{
+  "sku": "130-000-00016",
+  "type": "protections",
+  "subtype": "armor",
+  "name": "Hazmat Armor, Improved (ImHazA-9)",
+  "mfr": "",
+  "cost": 198000,
+  "mass": 39,
+  "techLevel": 9,
+  "qrebs": "N/A",
+  "image": "",
+  "description": "<p><!-- Summary Start -->HazMat armor includes a variety of protections against hazardous materials in the environment.<!-- Summary End --></p>",
+  "accessories": [],
+  "categories": [
+    "protections",
+    "armor"
+  ],
+  "sources": [
+    {
+      "publication": "Traveller 5.10 Core Rules Book 1 : Characters and Combat",
+      "authors": [
+        "Miller, Marc"
+      ],
+      "publisher": {
+        "name": "Far Future Enterprises",
+        "url": "https://farfuture.net"
+      }
+    }
+  ],
+  "tags": [
+    "products",
+    "protections",
+    "armor"
+  ]
+}

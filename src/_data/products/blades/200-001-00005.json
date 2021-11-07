@@ -1,0 +1,37 @@
+{
+  "sku": "200-001-00005",
+  "type": "weapons",
+  "subtype": "blades",
+  "name": "Spear (Sp)",
+  "mfr": "",
+  "cost": 50,
+  "mass": 2,
+  "size": "",
+  "techLevel": 1,
+  "qrebs": "B= +3",
+  "damage": "Cuts-2",
+  "image": "",
+  "description": "<p><!-- Summary Start -->A long (3000mm) polearm with a pointed  tip, usually of metal. <!-- Summary End --> Often made by the soldier himself, the spear is quite inexpensive.</p>",
+  "stats": [],
+  "categories": [
+    "weapons",
+    "blades"
+  ],
+  "sources": [
+    {
+      "publication": "Traveller 5.10 Core Rules Book 3 : Worlds and Adventures",
+      "authors": [
+        "Miller, Marc"
+      ],
+      "publisher": {
+        "name": "Far Future Enterprises",
+        "url": "https://farfuture.net"
+      }
+    }
+  ],
+  "tags": [
+    "products",
+    "weapons",
+    "blades"
+  ]
+}

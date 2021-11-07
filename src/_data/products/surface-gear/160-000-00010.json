@@ -1,0 +1,33 @@
+{
+  "sku": "160-000-00010",
+  "type": "surface gear",
+  "subtype": "",
+  "name": "Mechanical Wings (Droyne)",
+  "mfr": "",
+  "cost": 100,
+  "mass": 1,
+  "size": 4,
+  "techLevel": 7,
+  "qrebs": "N/A",
+  "image": "",
+  "description": "<p><!-- Summary Start -->Simple, lightweight frameworks with fabric or plastic that will increase the wing span and surface area.<!-- Summary End --> Mechanical wings allow flight on worlds up to two sizes larger than usual atmosphere-based limits (standard atmosphere, up to world size 7; dense atmosphere, up to world size 9).</p><p>al- low flight on worlds up to two sizes larger than usual atmosphere-based limits (standard atmosphere, up to world size 7; dense atmosphere, up to world size 9).</p>",
+  "categories": [
+    "surface gear"
+  ],
+  "sources": [
+    {
+      "publication": "Traveller 5.10 Core Rules Book 3 : Worlds and Adventures",
+      "authors": [
+        "Miller, Marc"
+      ],
+      "publisher": {
+        "name": "Far Future Enterprises",
+        "url": "https://farfuture.net"
+      }
+    }
+  ],
+  "tags": [
+    "products",
+    "surface gear"
+  ]
+}

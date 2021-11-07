@@ -1,0 +1,75 @@
+{
+  "sku": "180-000-00012",
+  "type": "vehicles",
+  "subtype": "",
+  "name": "Utility Flyer, Rotor (UF-R)",
+  "mfr": "",
+  "cost": 7200000,
+  "displacement": 13,
+  "techLevel": 8,
+  "qrebs": "N/A",
+  "image": "",
+  "description": "<p><!-- Summary Start -->Standard rotor utility flyer.<!-- Summary End --></p>",
+  "stats": [
+    {
+      "label": "Speed",
+      "value": 7
+    },
+    {
+      "label": "Load",
+      "value": 1.5
+    },
+    {
+      "label": "Armor",
+      "value": 0
+    },
+    {
+      "label": "Cage",
+      "value": 0
+    },
+    {
+      "label": "FlashProof",
+      "value": 20
+    },
+    {
+      "label": "RadProof",
+      "value": 3
+    },
+    {
+      "label": "SoundProof",
+      "value": 23
+    },
+    {
+      "label": "PsiShield",
+      "value": 0
+    },
+    {
+      "label": "Insulated",
+      "value": 13
+    },
+    {
+      "label": "Sealed",
+      "value": 4
+    }
+  ],
+  "categories": [
+    "vehicles"
+  ],
+  "sources": [
+    {
+      "publication": "Traveller 5.10 Core Rules Book 3 : Worlds and Adventures",
+      "authors": [
+        "Miller, Marc"
+      ],
+      "publisher": {
+        "name": "Far Future Enterprises",
+        "url": "https://farfuture.net"
+      }
+    }
+  ],
+  "tags": [
+    "products",
+    "vehicles",
+    "personal vehicles"
+  ]
+}

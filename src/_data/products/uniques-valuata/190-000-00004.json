@@ -1,0 +1,32 @@
+{
+  "sku": "190-000-00004",
+  "type": "uniques",
+  "subtype": "",
+  "name": "Dagger, Imperial Navy",
+  "mfr": "",
+  "cost": 1700,
+  "size": 3,
+  "techLevel": 15,
+  "qrebs": "N/A",
+  "image": "",
+  "description": "<p><!-- Summary Start -->A ceremonial, jeweled, iridium dagger carried by Imperial naval officers on formal occasions.<!-- Summary End --> The dagger is balanced for throwing, finely crafted, and ornamented.</p>",
+  "categories": [
+    "uniques"
+  ],
+  "sources": [
+    {
+      "publication": "Traveller 5.10 Core Rules Book 3 : Worlds and Adventures",
+      "authors": [
+        "Miller, Marc"
+      ],
+      "publisher": {
+        "name": "Far Future Enterprises",
+        "url": "https://farfuture.net"
+      }
+    }
+  ],
+  "tags": [
+    "products",
+    "uniques"
+  ]
+}

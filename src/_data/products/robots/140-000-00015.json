@@ -1,0 +1,32 @@
+{
+  "sku": "140-000-00015",
+  "type": "robots",
+  "subtype": "",
+  "name": "D9 class Mechanic Robot",
+  "mfr": "008",
+  "cost": 1799563,
+  "mass": 458,
+  "techLevel": 12,
+  "qrebs": "N/A",
+  "image": "",
+  "description": "<p><!-- Summary Start -->The D9 class mechanic robot is a wheel-mounted system that can maintain most vehicles whether they are internal combustion, electric, or gravitic.<!-- Summary End --> Its program interface enables it to select the information module appropriate to the vehicle it must repair, and it can store maintenance and repair information on up to 300 separate vehicles in its internal library. It can accept limited commands from a human foreman or conduct vehicle diagnostic and repair work itself.</p>",
+  "categories": [
+    "robots"
+  ],
+  "sources": [
+    {
+      "publication": "Vampire Fleets",
+      "authors": [
+        "Chadwick, Frank"
+      ],
+      "publisher": {
+        "name": "Games Designer Workshop",
+        "url": ""
+      }
+    }
+  ],
+  "tags": [
+    "products",
+    "robots"
+  ]
+}

@@ -1,0 +1,33 @@
+{
+  "sku": "100-000-00023",
+  "type": "drugs medical",
+  "subtype": "",
+  "name": "Panacea",
+  "mfr": "",
+  "cost": 1000,
+  "mass": 0,
+  "size": 1,
+  "techLevel": 9,
+  "qrebs": "N/A",
+  "image": "",
+  "description": "<p><!-- Summary Start -->Cures most known pathogenic illnesses and accelerates the body's healing process.<!-- Summary End --> Patient is fully recovered in one week's time.</p>",
+  "categories": [
+    "drugs medical"
+  ],
+  "sources": [
+    {
+      "publication": "Traveller 5.10 Core Rules Book 3 : Worlds and Adventures",
+      "authors": [
+        "Miller, Marc"
+      ],
+      "publisher": {
+        "name": "Far Future Enterprises",
+        "url": "https://farfuture.net"
+      }
+    }
+  ],
+  "tags": [
+    "products",
+    "drugs medical"
+  ]
+}

@@ -1,0 +1,46 @@
+{
+  "sku": "130-004-00043",
+  "type": "protections",
+  "subtype": "cyberware",
+  "name": "Cybernetic Eye, Thermal Viewer (TL-16)",
+  "mfr": "",
+  "cost": 1000000,
+  "mass": 0.06,
+  "size": "0.06 liters",
+  "techLevel": 16,
+  "qrebs": "N/A",
+  "image": "",
+  "description": "<p><!-- Summary Start -->The thermal viewer cybernetic eye uses an advanced form of passive infrared (ANI visual bands).<!-- Summary End --> The thermal viewer eye has a range of 400 meters and can clearly see through most forms of smoke, but is affected by rain or snow. This version of the cybernetic eye is single-function eye and looks more like a natural, unaltered eye.</p><p> In all cases, the cyber eye also includes basic visible light vision. For Sophonts with different visual ranges the basic cyber eye will cover their normal visual range.</p><p>The thermal viewer cybernetic eye is also referred to as a high resolution thermal (HRT) cybernetic eye.</p>",
+  "categories": [
+    "protections",
+    "cyberware"
+  ],
+  "sources": [
+    {
+      "publication": "Traveller Wiki: Cybernetic Eye",
+      "authors": [
+        "Traveller Wiki Editorial Team"
+      ],
+      "publisher": {
+        "name": "Traveller Wiki",
+        "url": "https://wiki.travellerrpg.com/Cybernetic_eyes"
+      }
+    },
+    {
+      "publication": "Fire, Fusion, & Steel",
+      "authors": [
+        "Chadwick, Frank",
+        "Nilsen, Dave"
+      ],
+      "publisher": {
+        "name": "Game Designers Workshop",
+        "url": ""
+      }
+    }
+  ],
+  "tags": [
+    "products",
+    "protections",
+    "cyberware"
+  ]
+}

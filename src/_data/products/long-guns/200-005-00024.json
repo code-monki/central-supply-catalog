@@ -1,0 +1,67 @@
+{
+  "sku": "200-005-00024",
+  "type": "weapons",
+  "subtype": "long guns",
+  "name": "Combat Rifle, Heavy, Standard (StdHCR-8)",
+  "mfr": "",
+  "cost": 715,
+  "mass": 4.6,
+  "size": "",
+  "techLevel": 8,
+  "qrebs": "R=4",
+  "damage": "Frag-4, Bullet-2",
+  "image": "",
+  "description": "<p><!-- Summary Start -->Standard version of the heavy combat rifle.<!-- Summary End --> The combat rifle is designed for use in combat by soldiers. It is characterized by an ability to hit person-size targets at relatively short ranges (~150 meters) using explosive projectiles.</p>",
+  "stats": [],
+  "accessories": [
+    "200-011-00001",
+    "200-011-00002",
+    "200-011-00003",
+    "200-011-00004",
+    "200-011-00005",
+    "200-011-00006",
+    "200-011-00007",
+    "200-011-00011",
+    "200-011-00012",
+    "200-011-00013",
+    "200-010-00002",
+    "200-010-00003",
+    "200-010-00004",
+    "200-010-00005",
+    "200-010-00006",
+    "200-010-00007"
+  ],
+  "categories": [
+    "weapons",
+    "long guns",
+    "rifle"
+  ],
+  "sources": [
+    {
+      "publication": "Traveller 5.10 Core Rules Book 1 : Characters and Combat",
+      "authors": [
+        "Miller, Marc"
+      ],
+      "publisher": {
+        "name": "Far Future Enterprises",
+        "url": "https://farfuture.net"
+      }
+    },
+    {
+      "publication": "Traveller 5.10 Core Rules Book 3 : Worlds and Adventures",
+      "authors": [
+        "Miller, Marc"
+      ],
+      "publisher": {
+        "name": "Far Future Enterprises",
+        "url": "https://farfuture.net"
+      }
+    }
+  ],
+  "tags": [
+    "products",
+    "weapons",
+    "long guns",
+    "rifle"
+  ]
+}

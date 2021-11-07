@@ -1,0 +1,36 @@
+{
+  "sku": "040-001-00001",
+  "type": "construction",
+  "subtype": "construction materials",
+  "name": "Gas Torch Tank Refill",
+  "mfr": "",
+  "cost": 50,
+  "mass": 0,
+  "size": 0,
+  "techLevel": 5,
+  "qrebs": "N/A",
+  "image": "",
+  "description": "<p><!-- Summary Start -->A complete refill of the fuel and oxidizer tanks for a gas-powered torch.<!-- Summary End --></p>",
+  "categories": [
+    "products",
+    "construction",
+    "supplies"
+  ],
+  "sources": [
+    {
+      "publication": "Traveller 5.10 Core Rules Book 3 : Worlds and Adventures",
+      "authors": [
+        "Miller, Marc"
+      ],
+      "publisher": {
+        "name": "Far Future Enterprises",
+        "url": "https://farfuture.net"
+      }
+    }
+  ],
+  "tags": [
+    "products",
+    "construction",
+    "supplies"
+  ]
+}

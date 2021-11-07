@@ -1,0 +1,47 @@
+{
+  "sku": "200-009-00042",
+  "type": "weapons",
+  "subtype": "designators",
+  "name": "Psi Amp Designator, (PsiD-11)",
+  "mfr": "",
+  "cost": 18000,
+  "mass": 10,
+  "size": "",
+  "techLevel": 11,
+  "qrebs": "R=5",
+  "damage": "Psi-2",
+  "image": "",
+  "description": "<p><!-- Summary Start -->The Psi amp designator projects a strong psychic marking on the target.<!-- Summary End --></p>",
+  "stats": [],
+  "categories": [
+    "weapons",
+    "designators"
+  ],
+  "sources": [
+    {
+      "publication": "Traveller 5.10 Core Rules Book 1 : Characters and Combat",
+      "authors": [
+        "Miller, Marc"
+      ],
+      "publisher": {
+        "name": "Far Future Enterprises",
+        "url": "https://farfuture.net"
+      }
+    },
+    {
+      "publication": "Traveller 5.10 Core Rules Book 3 : Worlds and Adventures",
+      "authors": [
+        "Miller, Marc"
+      ],
+      "publisher": {
+        "name": "Far Future Enterprises",
+        "url": "https://farfuture.net"
+      }
+    }
+  ],
+  "tags": [
+    "products",
+    "weapons",
+    "designators"
+  ]
+}

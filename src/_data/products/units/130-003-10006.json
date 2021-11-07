@@ -1,0 +1,34 @@
+{
+  "sku": "130-003-10006",
+  "type": "protections",
+  "subtype": "units",
+  "name": "Labor Unit, Heavy (HLU-9)",
+  "cost": 480000,
+  "mass": 182,
+  "techLevel": 9,
+  "qrebs": "N/A",
+  "image": "",
+  "description": "<p><!-- Summary Start -->Labor units provide protection against environmental hazards in environments requiring manual labor.<!-- Summary End --></p>",
+  "accessories": [],
+  "categories": [
+    "protections",
+    "units"
+  ],
+  "sources": [
+    {
+      "publication": "Traveller 5.10 Core Rules Book 1 : Characters and Combat",
+      "authors": [
+        "Miller, Marc"
+      ],
+      "publisher": {
+        "name": "Far Future Enterprises",
+        "url": "https://farfuture.net"
+      }
+    }
+  ],
+  "tags": [
+    "products",
+    "protections",
+    "units"
+  ]
+}

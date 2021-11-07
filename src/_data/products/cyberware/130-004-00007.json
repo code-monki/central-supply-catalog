@@ -1,0 +1,46 @@
+{
+  "sku": "130-004-00007",
+  "type": "protections",
+  "subtype": "cyberware",
+  "name": "Gill Implants",
+  "mfr": "",
+  "cost": 300000,
+  "mass": 2.2,
+  "size": "2 liters",
+  "techLevel": 11,
+  "qrebs": "N/A",
+  "image": "",
+  "description": "<p><!-- Summary Start -->Gill Implants allow the user to extract oxygen from water, an cybernetically implanted version of an Artificial Gill.<!-- Summary End --> Gill implants usually require enlargement of the thoracic cavity, adding slits to the sides of the rib cage. The oxygenated water passes both in and out of slits.</p>",
+  "categories": [
+    "protections",
+    "cyberware"
+  ],
+  "sources": [
+    {
+      "publication": "Traveller Wiki: Gill Implants",
+      "authors": [
+        "Traveller Wiki Editorial Team"
+      ],
+      "publisher": {
+        "name": "Traveller Wiki",
+        "url": "https://wiki.travellerrpg.com/Gill_Implants"
+      }
+    },
+    {
+      "publication": "Fire, Fusion, & Steel",
+      "authors": [
+        "Chadwick, Frank",
+        "Nilsen, Dave"
+      ],
+      "publisher": {
+        "name": "Game Designers Workshop",
+        "url": ""
+      }
+    }
+  ],
+  "tags": [
+    "products",
+    "protections",
+    "cyberware"
+  ]
+}

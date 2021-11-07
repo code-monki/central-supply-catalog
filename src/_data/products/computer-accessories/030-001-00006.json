@@ -1,0 +1,35 @@
+{
+  "sku": "030-001-00006",
+  "type": "computers",
+  "subtype": "computer accessory",
+  "name": "Jump Tape",
+  "mfr": "",
+  "cost": 1000,
+  "mass": 200,
+  "size": 3,
+  "techLevel": 9,
+  "qrebs": "N/A",
+  "image": "",
+  "description": "<p><!-- Summary Start -->An enclosed reel (or corresponding solid-, holo-, or crystalline-state device) containing specific jump coordinates within a set of given systems.<!-- Summary End --> The Jump Tape is slotted into a special reader found on the Astrogator's Console. The Astrogator's Console is connected to the Jump Drive, Power Plant, and Main Computer.</p><p>The Jump Tape runs a calibration routine on the Coils (and Grid if installed), tests the Jump matrix three times against the results. It then compares the Jump solution if any offered by the Astrogator, if they match or the Astrogator merely lets the Computer run the Tape, it will then commence running the Jump Cycle culminating with the transition to Jumpspace and about one week later transition back to Normalspace.</p><p>A Jump Tape can only be safely used one time as they are charted on large computer arrays using the most current data.</p>",
+  "categories": [
+    "computers",
+    "computer accessory"
+  ],
+  "sources": [
+    {
+      "publication": "Traveller 5.10 Core Rules Book 3 : Worlds and Adventures",
+      "authors": [
+        "Miller, Marc"
+      ],
+      "publisher": {
+        "name": "Far Future Enterprises",
+        "url": "https://farfuture.net"
+      }
+    }
+  ],
+  "tags": [
+    "products",
+    "computers",
+    "computer accessory"
+  ]
+}

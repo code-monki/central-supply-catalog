@@ -1,0 +1,47 @@
+{
+  "sku": "200-009-00039",
+  "type": "weapons",
+  "subtype": "designators",
+  "name": "Mag Designator, Improved (ImMD-10)",
+  "mfr": "",
+  "cost": 33000,
+  "mass": 20,
+  "size": "",
+  "techLevel": 10,
+  "qrebs": "R=1",
+  "damage": "EMP-1, Magnetic-5",
+  "image": "",
+  "description": "<p><!-- Summary Start -->The mag designator projects a high frequency magnetic effect to mark a target for attack.<!-- Summary End --> The rapid magnetic pulsing also scrambles electronic circuits and induces temporary disorientation in organic beings. Additionally, the effect shuts down magnetic equipment.</p>",
+  "stats": [],
+  "categories": [
+    "weapons",
+    "designators"
+  ],
+  "sources": [
+    {
+      "publication": "Traveller 5.10 Core Rules Book 1 : Characters and Combat",
+      "authors": [
+        "Miller, Marc"
+      ],
+      "publisher": {
+        "name": "Far Future Enterprises",
+        "url": "https://farfuture.net"
+      }
+    },
+    {
+      "publication": "Traveller 5.10 Core Rules Book 3 : Worlds and Adventures",
+      "authors": [
+        "Miller, Marc"
+      ],
+      "publisher": {
+        "name": "Far Future Enterprises",
+        "url": "https://farfuture.net"
+      }
+    }
+  ],
+  "tags": [
+    "products",
+    "weapons",
+    "designators"
+  ]
+}

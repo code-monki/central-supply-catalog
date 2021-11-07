@@ -1,0 +1,35 @@
+{
+  "sku": "130-000-00017",
+  "type": "protections",
+  "subtype": "armor",
+  "name": "Hostile Environ Armor, Medium (MHEA-9)",
+  "mfr": "",
+  "cost": 160000,
+  "mass": 36,
+  "techLevel": 9,
+  "qrebs": "N/A",
+  "image": "",
+  "description": "<p><!-- Summary Start -->Hostile environment armor includes a variety of protections against extreme envronmental conditions. <!-- Summary End --> Ar 16 (MgT 13).</p>",
+  "accessories": [],
+  "categories": [
+    "protections",
+    "armor"
+  ],
+  "sources": [
+    {
+      "publication": "Traveller 5.10 Core Rules Book 1 : Characters and Combat",
+      "authors": [
+        "Miller, Marc"
+      ],
+      "publisher": {
+        "name": "Far Future Enterprises",
+        "url": "https://farfuture.net"
+      }
+    }
+  ],
+  "tags": [
+    "products",
+    "protections",
+    "armor"
+  ]
+}

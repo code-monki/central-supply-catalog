@@ -1,0 +1,35 @@
+{
+  "sku": "030-001-00003",
+  "type": "computers",
+  "subtype": "computer accessory",
+  "name": "Data Recorder/Relay",
+  "mfr": "",
+  "cost": 400,
+  "mass": 0.1,
+  "size": 1,
+  "techLevel": 11,
+  "qrebs": "N/A",
+  "image": "",
+  "description": "<p><!-- Summary Start --> A miniaturized electronic device capable of receiving voice or radio input, recording it, and transmitting this information either on a given external signal or continuously.<!-- Summary End --> Reception and transmission is on standard voice/data communication bands. Thus, the device can listen for signals and then retransmit them, or it can continuously transmit a pre-recorded message. The 'tape' length is  20 minutes; The transmitter has a range of 50Km and is line of sight (it is blocked by buildings, mountains, and so on).</p>",
+  "categories": [
+    "computers",
+    "computer accessory"
+  ],
+  "sources": [
+    {
+      "publication": "Traveller 5.10 Core Rules Book 3 : Worlds and Adventures",
+      "authors": [
+        "Miller, Marc"
+      ],
+      "publisher": {
+        "name": "Far Future Enterprises",
+        "url": "https://farfuture.net"
+      }
+    }
+  ],
+  "tags": [
+    "products",
+    "computers",
+    "computer accessory"
+  ]
+}

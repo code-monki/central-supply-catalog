@@ -1,0 +1,33 @@
+{
+  "sku": "130-000-00066",
+  "type": "protections",
+  "subtype": "armor",
+  "name": "Mail",
+  "mfr": "",
+  "cost": 400,
+  "mass": 2,
+  "size": 5,
+  "techLevel": 4,
+  "qrebs": "N/A",
+  "image": "",
+  "description": "<p><!-- Summary Start -->A flexible metal shirt providing basic protection against most attacks.<!-- Summary End --></p>",
+  "categories": [
+    "armor"
+  ],
+  "sources": [
+    {
+      "publication": "Traveller 5.10 Core Rules Book 3 : Worlds and Adventures",
+      "authors": [
+        "Miller, Marc"
+      ],
+      "publisher": {
+        "name": "Far Future Enterprises",
+        "url": "https://farfuture.net"
+      }
+    }
+  ],
+  "tags": [
+    "products",
+    "armor"
+  ]
+}

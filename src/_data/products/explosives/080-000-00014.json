@@ -1,0 +1,33 @@
+{
+  "sku": "080-000-00014",
+  "type": "explosives",
+  "subtype": "",
+  "name": "Thermite Lock Pick",
+  "mfr": "",
+  "cost": 50,
+  "mass": 0.1,
+  "size": "0.1 liters",
+  "techLevel": 8,
+  "qrebs": "N/A",
+  "image": "",
+  "description": "<p><!-- Summary Start -->A small coin sized charge of Thermite, designed to open locks by burning them into uselessness.<!-- Summary End --> Thin enough to slide between a door and the jam to cut the locking bolt, or simply attached to the lock itself. Ignition is a simple press of a button on the side, and equipped with a safety to prevent accidental discharge. Counts as an explosive device and restricted or banned on most worlds.</p>",
+  "categories": [
+    "explosives"
+  ],
+  "sources": [
+    {
+      "publication": "Traveller Wiki: Thermite Lock Pick",
+      "authors": [
+        "Traveller Wiki Editorial Team"
+      ],
+      "publisher": {
+        "name": "Traveller Wiki",
+        "url": "https://wiki.travellerrpg.com/Thermite_lock_pick"
+      }
+    }
+  ],
+  "tags": [
+    "products",
+    "explosives"
+  ]
+}

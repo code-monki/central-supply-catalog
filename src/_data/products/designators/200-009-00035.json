@@ -1,0 +1,47 @@
+{
+  "sku": "200-009-00035",
+  "type": "weapons",
+  "subtype": "designators",
+  "name": "Grav Designator, Crewed (GrDC-10)",
+  "mfr": "",
+  "cost": 40000,
+  "mass": 30,
+  "size": "",
+  "techLevel": 10,
+  "qrebs": "R=1",
+  "damage": "Grav-4",
+  "image": "",
+  "description": "<p><!-- Summary Start -->The grav designator projects a gravitic effect to mark a target for attack.<!-- Summary End --> The rapid gravitic pushing and pulling reduces internal structural strength in objects and induces organic damage in beings. Additionally the effect shuts down grav equipment.</p>",
+  "stats": [],
+  "categories": [
+    "weapons",
+    "designators"
+  ],
+  "sources": [
+    {
+      "publication": "Traveller 5.10 Core Rules Book 1 : Characters and Combat",
+      "authors": [
+        "Miller, Marc"
+      ],
+      "publisher": {
+        "name": "Far Future Enterprises",
+        "url": "https://farfuture.net"
+      }
+    },
+    {
+      "publication": "Traveller 5.10 Core Rules Book 3 : Worlds and Adventures",
+      "authors": [
+        "Miller, Marc"
+      ],
+      "publisher": {
+        "name": "Far Future Enterprises",
+        "url": "https://farfuture.net"
+      }
+    }
+  ],
+  "tags": [
+    "products",
+    "weapons",
+    "designators"
+  ]
+}

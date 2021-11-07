@@ -1,0 +1,32 @@
+{
+  "sku": "190-000-00014",
+  "type": "uniques",
+  "subtype": "",
+  "name": "Shrine, Solomani",
+  "mfr": "",
+  "cost": 1000,
+  "size": 5,
+  "techLevel": 6,
+  "qrebs": "N/A",
+  "image": "",
+  "description": "<p><!-- Summary Start -->A culturally-significant shrine or altar by which a sophont species may reflect.<!-- Summary End --> Shrines require a one tone displacement.</p>",
+  "categories": [
+    "uniques"
+  ],
+  "sources": [
+    {
+      "publication": "Traveller 5.10 Core Rules Book 3 : Worlds and Adventures",
+      "authors": [
+        "Miller, Marc"
+      ],
+      "publisher": {
+        "name": "Far Future Enterprises",
+        "url": "https://farfuture.net"
+      }
+    }
+  ],
+  "tags": [
+    "products",
+    "uniques"
+  ]
+}

@@ -1,0 +1,33 @@
+{
+  "sku": "070-000-00006",
+  "type": "emitters",
+  "subtype": "",
+  "name": "Light (Portable)",
+  "mfr": "",
+  "cost": 10,
+  "mass": 0.5,
+  "size": 3,
+  "techLevel": 4,
+  "qrebs": "N/A",
+  "image": "",
+  "description": "<p><!-- Summary Start -->Items such as lamps or torches.<!-- Summary End --> TL1-3 versions burn (via oxidization of a fuel such as wax or oil) and therefore require an atmosphere, and may have reduced duration. TL7+ versions may either be chemical torches, which operate without electrical current, or high-efficiency lighting elements. Typical lamps spread light across a wide angle, and may have shields to direct the beam.</p>",
+  "categories": [
+    "emitters"
+  ],
+  "sources": [
+    {
+      "publication": "Traveller 5.10 Core Rules Book 3 : Worlds and Adventures",
+      "authors": [
+        "Miller, Marc"
+      ],
+      "publisher": {
+        "name": "Far Future Enterprises",
+        "url": "https://farfuture.net"
+      }
+    }
+  ],
+  "tags": [
+    "products",
+    "emitters"
+  ]
+}

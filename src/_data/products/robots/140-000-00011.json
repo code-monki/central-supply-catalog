@@ -1,0 +1,52 @@
+{
+  "sku": "140-000-00011",
+  "type": "robots",
+  "subtype": "",
+  "name": "Vulcan class Factory Robot",
+  "mfr": "",
+  "cost": 526808,
+  "mass": 798.45,
+  "techLevel": 12,
+  "qrebs": "N/A",
+  "image": "",
+  "description": "<p><!-- Summary Start -->Unlike many such robots, the Vulcan is rather generic, with unspecialized tools and a bipedal chassis to permit maximum adaptability. It is a typical robot design of many low stellar Imperial worlds that was used in factories or other large industrial areas.<!-- Summary End --></p><p><h5>History & Background</h5>During the Black War period, factional leaders churned these robots out in the millions to permit quick rebuilding of their shattered industrial infrastructure. Lucan in particular built hundreds of thousands in an effort to amp up manufacturing of his growing robotic armies.</p>",
+  "categories": [
+    "robots"
+  ],
+  "sources": [
+    {
+      "publication": "Traveller Wiki : Vulcan class Factory Robot",
+      "authors": [
+        "Traveller Wiki Editorial Team"
+      ],
+      "publisher": {
+        "name": "Traveller Wiki",
+        "url": "https://wiki.travellerrpg.com/Vulcan_class_Factory_Robot"
+      }
+    },
+    {
+      "publication": "TNE RCES : August 2004",
+      "authors": [
+        "Gray, Peter"
+      ],
+      "publisher": {
+        "name": "TNE RCES",
+        "url": ""
+      }
+    },
+    {
+      "publication": "Traveller Wiki : Vulcan class Factory Robot",
+      "authors": [
+        "Lord (Marquis) and Master of Sophontology Maksim-Smelchak of the Ministry of Science"
+      ],
+      "publisher": {
+        "name": "Traveller Wiki",
+        "url": "https://wiki.travellerrpg.com/Vulcan_class_Factory_Robot"
+      }
+    }
+  ],
+  "tags": [
+    "products",
+    "robots"
+  ]
+}

@@ -1,0 +1,35 @@
+{
+  "sku": "130-000-00063",
+  "type": "protections",
+  "subtype": "armor",
+  "name": "Protected Armor, Advanced (APrA-18)",
+  "mfr": "",
+  "cost": 40000,
+  "mass": 7,
+  "techLevel": 18,
+  "qrebs": "N/A",
+  "image": "",
+  "description": "<p><!-- Summary Start -->Protected armor protects the wearer from most environmental threats.<!-- Summary End --></p>",
+  "accessories": [],
+  "categories": [
+    "protections",
+    "armor"
+  ],
+  "sources": [
+    {
+      "publication": "Traveller 5.10 Core Rules Book 1 : Characters and Combat",
+      "authors": [
+        "Miller, Marc"
+      ],
+      "publisher": {
+        "name": "Far Future Enterprises",
+        "url": "https://farfuture.net"
+      }
+    }
+  ],
+  "tags": [
+    "products",
+    "protections",
+    "armor"
+  ]
+}

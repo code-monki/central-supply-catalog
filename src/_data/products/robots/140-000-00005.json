@@ -1,0 +1,33 @@
+{
+  "sku": "140-000-00005",
+  "type": "robots",
+  "subtype": "",
+  "name": "EGOR",
+  "mfr": "",
+  "cost": 930000,
+  "mass": 410,
+  "size": 0,
+  "techLevel": 15,
+  "qrebs": "N/A",
+  "image": "",
+  "description": "<p><!-- Summary Start -->The <strong>Engineering/Gravitic Operative Robot</strong> (or EGOR for short) was designed with the small merchant in mind.<!-- Summary End --> This relatively inexpensive robot is capable of performing various ship board tasks, from loading cargo to waiting on passengers. Although not technically armed, the laser welder, in conjunction with EGOR's security programming, will allow this robot to perform adequately in a security roll.</p>",
+  "categories": [
+    "robots"
+  ],
+  "sources": [
+    {
+      "publication": "The Traveller Chronicle : No. 1",
+      "authors": [
+        "Stone, Thomas"
+      ],
+      "publisher": {
+        "name": "Sword of the Knight Publications",
+        "url": ""
+      }
+    }
+  ],
+  "tags": [
+    "products",
+    "robots"
+  ]
+}

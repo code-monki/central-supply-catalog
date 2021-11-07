@@ -1,0 +1,47 @@
+{
+  "sku": "200-004-00030",
+  "type": "weapons",
+  "subtype": "machineguns",
+  "name": "Assault Machinegun, Alternate (AltMg-9)",
+  "mfr": "",
+  "cost": 4950,
+  "mass": 7,
+  "size": "",
+  "techLevel": 9,
+  "qrebs": "R=5",
+  "damage": "Bang-1, Blast-4, Bullet-4",
+  "image": "",
+  "description": "<p><!-- Summary Start -->Alternate version of the assault machinegun.<!-- Summary End --></p>",
+  "stats": [],
+  "categories": [
+    "weapons",
+    "machineguns"
+  ],
+  "sources": [
+    {
+      "publication": "Traveller 5.10 Core Rules Book 1 : Characters and Combat",
+      "authors": [
+        "Miller, Marc"
+      ],
+      "publisher": {
+        "name": "Far Future Enterprises",
+        "url": "https://farfuture.net"
+      }
+    },
+    {
+      "publication": "Traveller 5.10 Core Rules Book 3 : Worlds and Adventures",
+      "authors": [
+        "Miller, Marc"
+      ],
+      "publisher": {
+        "name": "Far Future Enterprises",
+        "url": "https://farfuture.net"
+      }
+    }
+  ],
+  "tags": [
+    "products",
+    "weapons",
+    "machineguns"
+  ]
+}
