@@ -93,12 +93,14 @@ header {
         padding: 1rem;
         top: 5.5rem;
         height: 50%;
+        color: $border-color;
         overflow-y: auto;
         position: absolute;
         background-color: $light-color;
         width: auto;
         z-index: 2;
         box-shadow: 2px 2px 2px rgba(0,0,0,0.5);
+        font-size: .9rem;
 
         @include response(md) {
           top: 7rem;
@@ -116,7 +118,7 @@ header {
               display: block;
 
               @include response(md) {
-                font-size: 1rem;
+                // font-size: 1rem;
               }
 
               &:hover {
