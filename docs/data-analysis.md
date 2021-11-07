@@ -8,23 +8,23 @@ This document contains the analyses of the various goods from the Traveller&trad
 
 The following table contains the minimum data required to support the catalog:
 
-| Attribute    | Type              | Description                                       |
-| ------------ | ----------------- | ------------------------------------------------- |
-| prodId       | integer           | Unique identifier                                 |
-| mfrId        | string            | Manufacturer id                                   |
-| shortCode    | string            | Short code to summarize item                      |
-| prodName     | string            | Descriptive product name                          |
-| summary      | string            | Brief summary of product                          |
-| description  | string            | Freeform text area for detailed description       |
-| itemTypeId   | integer           | Item type identifier                              |
-| tech level   | integer           | Minimum tech level                                |
-| cost         | double            | Cost of the item in credits                       |
-| mass         | double            | Weight of item in kilograms                       |
-| accesssories | array of prod ids | List of accessories for the product               |
-| qrebs        | string            | Manufacturing quality basic parameters            |
-| source       | array of objects  | Source of content item (author, publication, etc. |
-| categories   | array of strings  | Product categories                                |
-| tags         | array of strings  | Tags for product                                  |
+| Attribute   | Type              | Description                                       |
+| ----------- | ----------------- | ------------------------------------------------- |
+| prodId      | integer           | Unique identifier                                 |
+| mfrId       | string            | Manufacturer id                                   |
+| shortCode   | string            | Short code to summarize item                      |
+| prodName    | string            | Descriptive product name                          |
+| summary     | string            | Brief summary of product                          |
+| description | string            | Freeform text area for detailed description       |
+| itemTypeId  | integer           | Item type identifier                              |
+| tech level  | integer           | Minimum tech level                                |
+| cost        | double            | Cost of the item in credits                       |
+| mass        | double            | Weight of item in kilograms                       |
+| accessories | array of prod ids | List of accessories for the product               |
+| qrebs       | string            | Manufacturing quality basic parameters            |
+| source      | array of objects  | Source of content item (author, publication, etc. |
+| categories  | array of strings  | Product categories                                |
+| tags        | array of strings  | Tags for product                                  |
 
 #### Holding Room Attributes
 
@@ -142,232 +142,216 @@ The product id shall be used to create the permalink to ensure that urls are uni
     }
 ```
 
+### Categories
+
+#### Breathing Apparatus
+
+| Dept. Code | Description         |
+| ---------- | ------------------- |
+| 010-000    | Breathing Apparatus |
+
+#### Communications Gear
+
+| Dept. Code | Description         |
+| ---------- | ------------------- |
+| 020-000    | Communications Gear |
+
+#### Computer Gear
+
+| Dept. Code | Description          |
+| ---------- | -------------------- |
+| 030-000    | Computers            |
+| 030-001    | Computer Accessories |
+
+#### Construction
+
+| Dept. Code | Description            |
+| ---------- | ---------------------- |
+| 040-000    | Construction           |
+| 040-001    | Construction Materials |
+
+#### Containers
+
+| Dept. Code | Description |
+| ---------- | ----------- |
+| 050-000    | Containers  |
+
+#### Detectors
+
+| Dept. Code | Description |
+| ---------- | ----------- |
+| 060-000    | Detectors   |
+
+#### Emitters
+
+| Dept. Code | Description |
+| ---------- | ----------- |
+| 070-000    | Emitters    |
+
+#### Explosives
+
+| Dept. Code | Description |
+| ---------- | ----------- |
+| 080-000    | Explosives  |
+
+#### Food & Drinks
+
+| Dept. Code | Description   |
+| ---------- | ------------- |
+| 090-000    | Food & Drinks |
+
+#### Medical & Drugs
+
+| Dept. Code | Description     |
+| ---------- | --------------- |
+| 100-000    | Medical & Drugs |
+
+#### Non-Breathing Gases
+
+| Dept. Code | Description         |
+| ---------- | ------------------- |
+| 110-000    | Non-breathing Gases |
+
+#### Power Supplies
+
+| Dept. Code | Description    |
+| ---------- | -------------- |
+| 120-000    | Power Supplies |
+
+#### Protections
+
+| Dept. Code | Description   |
+| ---------- | ------------- |
+| 130-000    | Armor         |
+| 130-001    | Dress         |
+| 130-002    | Suits         |
+| 130-003    | Units         |
+| 130-004    | Cyberware     |
+| 130-005    | Survival Gear |
+
+#### Robotics
+
+| Dept. Code | Description  |
+| ---------- | ------------ |
+| 140-000    | Robots       |
+| 140-001    | Automatons   |
+| 140-002    | Drones       |
+| 140-003    | Strangeforms |
+
+#### Structures & Shelters
+
+| Dept. Code | Description          |
+| ---------- | -------------------- |
+| 150-000    | Structures, Shelters |
+
+#### Surface Gear
+
+| Dept. Code | Description  |
+| ---------- | ------------ |
+| 160-000    | Surface Gear |
+
+#### Toolkits
+
+| Dept. Code | Description |
+| ---------- | ----------- |
+| 170-000    | Toolkits    |
+
+#### Transportation
+
+| Dept. Code | Description       |
+| ---------- | ----------------- |
+| 180-000    | Personal Vehicles |
+| 180-001    | Small Craft       |
+| 180-002    | Space Craft       |
+
+#### Uniques & Valuata
+
+| Dept. Code | Description       |
+| ---------- | ----------------- |
+| 190-000    | Uniques & Valuata |
+
+#### Weapons
+
+| Dept. Code | Description        |
+| ---------- | ------------------ |
+| 200-000    | Melee              |
+| 200-001    | Blades             |
+| 200-002    | Handguns           |
+| 200-003    | Shotguns           |
+| 200-004    | Machineguns        |
+| 200-005    | Long Guns          |
+| 200-006    | Heavy Weapons      |
+| 200-007    | Launchers          |
+| 200-008    | Projectors         |
+| 200-009    | Designators        |
+| 200-010    | Ammunition         |
+| 200-011    | Weapon Accessories |
+
+### Tech Levels
+
+<table>
+  <thead>
+    <tr>
+      <th>Dec</th><th>Hex</th><th>&nbsp;</th>
+      <th>Dec</th><th>Hex</th><th>&nbsp;</th>
+      <th>Dec</th><th>Hex</th><th>&nbsp</th>
+      <th>Dec</th><th>Hex</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>0</td><td>0</td><td>&nbsp;</td>
+      <td>9</td><td>9</td><td>&nbsp;</td>
+      <td>18</td><td>J</td><td>&nbsp;</td>
+      <td>27</td><td>T</td>
+    </tr>
+    <tr>
+      <td>1</td><td>1</td><td>&nbsp;</td>
+      <td>10</td><td>A</td><td>&nbsp;</td>
+      <td>19</td><td>K</td><td>&nbsp;</td>
+      <td>28</td><td>U</td>
+    </tr>
+    <tr>
+      <td>2</td><td>2</td><td>&nbsp;</td>
+      <td>11</td><td>B</td><td>&nbsp;</td>
+      <td>19</td><td>L</td><td>&nbsp;</td>
+      <td>28</td><td>V</td>
+    </tr>
+    <tr>
+      <td>3</td><td>3</td><td>&nbsp;</td>
+      <td>12</td><td>C</td><td>&nbsp;</td>
+      <td>21</td><td>M</td><td>&nbsp;</td>
+      <td>30</td><td>W</td>
+    </tr>
+    <tr>
+      <td>4</td><td>4</td><td>&nbsp;</td>
+      <td>13</td><td>D</td><td>&nbsp;</td>
+      <td>22</td><td>N</td><td>&nbsp;</td>
+      <td>31</td><td>X</td>
+    </tr>
+    <tr>
+      <td>5</td><td>5</td><td>&nbsp;</td>
+      <td>14</td><td>E</td><td>&nbsp;</td>
+      <td>23</td><td>P</td><td>&nbsp;</td>
+      <td>32</td><td>Y</td>
+    </tr>
+    <tr>
+      <td>6</td><td>6</td><td>&nbsp;</td>
+      <td>15</td><td>F</td><td>&nbsp;</td>
+      <td>24</td><td>Q</td><td>&nbsp;</td>
+      <td>33</td><td>Z</td>
+    </tr>
+    <tr>
+      <td>7</td><td>7</td><td>&nbsp;</td>
+      <td>16</td><td>G</td><td>&nbsp;</td>
+      <td>25</td><td>R</td>
+      <td colspan="3" rowspan="2">&nbsp;</td>
+    </tr>
+    <tr>
+      <td>8</td><td>8</td><td>&nbsp;</td>
+      <td>17</td><td>H</td><td>&nbsp;</td>
+      <td>26</td><td>S</td>
+    </tr>
+</table>
+
 **NOTES**
-
-Need to account for:
-
-1. Weapon Classification
-1. Melee
-1. Blade
-1. Short
-1. Medium
-1. Long
-1. Heavy Weapons
-1. Rifles / Carbines
-1. Handguns / Revolvers
-1. Shotguns
-1. Designator
-1. Projections
-1. Launchers
-1. Accessory
-1. Ammunitiion
-
-1. Armor Classification (Armor, Dress)
-
-1. Suit Classification
-
-### Categories
-
-Electronics
-Medical
-Personal Items
-Protections
-Robots
-Vechicles
-Weapons
-
-### Categories
-
-|  Code   | Description            | Status |
-| :-----: | ---------------------- | :----: |
-| 010-000 | Breathing Apparatus    |   X    |
-| 020-000 | Communications Gear    |   X    |
-| 030-000 | Computers              |   X    |
-| 030-001 | Computer Accessories   |   X    |
-| 040-000 | Construction           |   X    |
-| 040-001 | Construction Materials |   X    |
-| 050-000 | Drugs, Medical         |   X    |
-| 060-000 | Emitters               |   X    |
-| 070-000 | Explosives             |   X    |
-| 080-000 | Food & Drinks          |   X    |
-| 090-000 | Power Supplies         |   X    |
-| 100-000 | Protections            |   X    |
-| 100-001 | Armor                  |   X    |
-| 100-002 | Dress                  |   X    |
-| 100-003 | Suits                  |   X    |
-| 100-004 | Units                  |   X    |
-| 100-005 | Cyberware              |   \_   |
-| 110-000 | Robots                 |   X    |
-| 110-001 | Automatons             |   \_   |
-| 110-002 | Drones                 |   X    |
-| 110-003 | Strangeforms           |   \_   |
-| 120-000 | Detectors              |   X    |
-| 130-000 | Structures, Shelters   |   X    |
-| 140-000 | Toolkits               |   X    |
-| 150-000 | Vehicles               |   X    |
-| 150-001 | Small Craft            |   X    |
-| 150-002 | Space Craft            |   \_   |
-| 160-000 | Weapons                |   \_   |
-| 160-001 | Melee                  |   \_   |
-| 160-002 | Blades                 |   \_   |
-| 160-003 | Pistols, Revolvers     |   \_   |
-| 160-004 | Shotguns               |   \_   |
-| 160-005 | Machineguns            |   \_   |
-| 160-006 | Rifles, Carbines       |   \_   |
-| 160-007 | Heavy Weapons          |   \_   |
-| 160-008 | Launchers              |   \_   |
-| 160-009 | Projectors             |   \_   |
-| 160-010 | Designators            |   \_   |
-| 160-011 | Ammunition             |   \_   |
-| 160-012 | Weapon Accessories     |   \_   |
-| 170-000 | Surface Gear           |   X    |
-| 180-000 | Non-breathing Gases    |   X    |
-| 190-000 | Containers             |   X    |
-| 200-000 | Uniques & Valuata      |   X    |
-
-\* Software apparently does not have prices
-
-_Armor Type_
-Dress
-Armor
-Suits
-
-Units
-
-### Weapon Data Layout
-
-prodId
-prodType - Weapons, Protections
-shortCode
-longName
-cost
-mass
-techLevel
-qrebs
-source
-tags
-wpnType - see weapon types
-category ['weapons']
-
-#### Weapon Types
-
-1. Melee
-2. Blade
-3. Short Blade
-4. Medium Blade
-5. Long Blade
-6. Heavy Weapons
-7. Rifles / Carbines
-8. Handguns / Revolvers
-9. Shotguns
-10. Designator
-11. Projections
-12. Launchers
-13. Accessory
-14. Ammunitiion
-
-### Protections Data Layout
-
-prodId
-shortCode
-longName
-cost
-mass
-techlevel
-qrebs
-source
-tags
-protType
-category ['protections']
-
-### Protections
-
-1. Dress
-2. Armor
-3. Suits
-4. Units
-5. Item
-
-0
-1
-2
-3
-4
-5
-6
-7
-8
-9
-10 A
-11 B
-12 C
-13 D
-14 E
-15 F
-16 G
-17 H
-18 J
-19 K
-20 L
-21 M
-22 N
-23 P
-24 Q
-25 R
-26 S
-27 T
-28 U
-29 V
-30 W
-31 X
-32 Y
-33 Z
-
-1 010 Armor
-2 020 Breathing Apparatus
-3 030 Communications Gear
-4 040 Computers
-041 Computer Accessories
-042 Programs
-5 050 Construction Materials
-6 060 Cyberware
-7 070 Drugs
-8 080 Emitters
-9 090 Explosives
-10 100 Food & Drinks
-11 110 Medical Goods
-12 120 Power Supplies
-13 130 Powered Armor
-14 140 Protective Gear
-15 150 Robots
-16 151 Automatons
-17 152 Drones
-18 153 Strangeforms
-19 160 Sensory Aids
-20 170 Shelters
-21 200 Structures
-22 210 Vehicles
-23 180 Small Craft
-24 190 Space Craft
-25 220 Weapons
-221 Ammunition
-222 Weapon Accessories
-
-Electronics Personal Items Robots
-Communications Gear Breathing Apparatus Automatons
-Computers Food & Drinks Drones
-Emitters Construction Materials Robots
-Power Supplies Structures Strangeforms
-Programs
-Sensory Aids
-
-Medical Protections Vehicles
-Cyberware Armor Vehicles
-Medical Goods Protective Gear Small Craft
-Drugs Construction Materials Space Craft
-Shelters
-
-Weapons
-Weapons
-Explosives
-Power Armor
