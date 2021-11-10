@@ -4,6 +4,10 @@
   <main id="main">
     <div class="product-page-content">
       <div class="row summary-row">
+      {% if product.sku.slice(8) == '00000' %}
+
+        <h3>Product Does Not Exist</h3>
+      {% else %}
         <div class="product-image">
           {% if product.image %}
             <img src="{{ product.image | url }}" alt="{{ product.name }}" class="responsive-img" id="prod-img">
@@ -112,6 +116,7 @@
               {% endif %}
             </div>
           </div>
+      {% endif %}
         </div>
       </main>
       {% include '_site-footer.njk' %}
