@@ -170,7 +170,6 @@ module.exports = function (eleventyConfig) {
     let key = sku.slice(0, 7);
 
     // get the name of the data file
-    // let dataSrc = departmentsData.find((item) => (item.id === key ? item.data : ""));
     let deptObj = departmentsData.find((dept) => (dept.id === key ? dept : null));
 
     // let product = null;
@@ -269,8 +268,6 @@ module.exports = function (eleventyConfig) {
         }
 
     });
-
-
 
     text += '</ul>';
 
