@@ -1,8 +1,8 @@
 {
   "sku": "100-000-00033",
   "type": "drugs medical",
-  "subtype": "artifact",
-  "name": "Stasis Capsule, Military",
+  "subtype": "",
+  "name": "Stasis Capsule, Military (artifact)",
   "mfr": "",
   "cost": 100000,
   "mass": 2000,
@@ -11,23 +11,16 @@
   "qrebs": "N/A",
   "image": "",
   "description": "<p><!-- Summary Start -->A berth for carrying one or two individuals in stasis for (typically) up to 90 years off-line, or indefinitely when connected to a reliable power source.<!-- Summary End --></p>",
-  "categories": [
-    "drugs medical"
-  ],
+  "categories": ["drugs medical", "artifact"],
   "sources": [
     {
       "publication": "Traveller 5.10 Core Rules Book 3 : Worlds and Adventures",
-      "authors": [
-        "Miller, Marc"
-      ],
+      "authors": ["Miller, Marc"],
       "publisher": {
         "name": "Far Future Enterprises",
         "url": "https://farfuture.net"
       }
     }
   ],
-  "tags": [
-    "products",
-    "drugs medical"
-  ]
+  "tags": ["products", "drugs medical", "artifact"]
 }

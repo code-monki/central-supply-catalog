@@ -1,8 +1,8 @@
 {
   "sku": "130-005-00008",
-  "type": "survival gear",
-  "subtype": "artifact",
-  "name": "Shimmercube",
+  "type": "protections",
+  "subtype": "survival Gear",
+  "name": "Shimmercube (Artifact)",
   "mfr": "",
   "cost": 100000,
   "mass": 2,
@@ -11,23 +11,16 @@
   "qrebs": "N/A",
   "image": "",
   "description": "<p><!-- Summary Start -->The Shimmercube projects a close field around the holder.<!-- Summary End --> Offers protection from vacuum, pressure, and temperature. It has a one day rebreather capability, and has the properties of Reflec.<!-- Summary End --></p>",
-  "categories": [
-    "survival gear"
-  ],
+  "categories": ["protections", "survival gear"],
   "sources": [
     {
       "publication": "Traveller 5.10 Core Rules Book 3 : Worlds and Adventures",
-      "authors": [
-        "Miller, Marc"
-      ],
+      "authors": ["Miller, Marc"],
       "publisher": {
         "name": "Far Future Enterprises",
         "url": "https://farfuture.net"
       }
     }
   ],
-  "tags": [
-    "products",
-    "survival gear"
-  ]
+  "tags": ["products", "protections", "survival gear"]
 }
