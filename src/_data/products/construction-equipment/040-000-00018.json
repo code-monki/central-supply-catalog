@@ -1,36 +1,26 @@
 {
-  "sku": "040-000-00017",
+  "sku": "040-000-00018",
   "type": "construction",
-  "subtype": "artifact",
-  "name": "Teleport Platforms",
+  "subtype": "construction equipment",
+  "name": "Teleport Platforms (Advanced) (Artifact)",
   "mfr": "",
-  "cost": 200000,
-  "mass": 10,
+  "cost": 400000,
+  "mass": 5,
   "size": 4,
-  "techLevel": 25,
+  "techLevel": 27,
   "qrebs": "QREBS = 0",
   "image": "",
   "description": "<p><!-- Summary Start -->A pair of self-powered, metallic, grav platforms.<!-- Summary End --> Each has four handles around its circular rim and floats at a height of about 50 centimeters. They can be controlled by pulling or pushing and will carry up to 600 kilograms without effort (they resist gravity; inertia still resists to movement).</p>",
-  "categories": [
-    "products",
-    "construction",
-    "artifact"
-  ],
+  "categories": ["products", "construction", "construction equipment", "artifact"],
   "sources": [
     {
       "publication": "Traveller 5.10 Core Rules Book 3 : Worlds and Adventures",
-      "authors": [
-        "Miller, Marc"
-      ],
+      "authors": ["Miller, Marc"],
       "publisher": {
         "name": "Far Future Enterprises",
         "url": "https://farfuture.net"
       }
     }
   ],
-  "tags": [
-    "products",
-    "construction",
-    "artifact"
-  ]
+  "tags": ["products", "construction", "construction equipment", "artifact"]
 }

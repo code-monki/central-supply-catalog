@@ -1,8 +1,8 @@
 {
-  "sku": "040-000-00021",
+  "sku": "040-000-00020",
   "type": "construction",
-  "subtype": "",
-  "name": "Welding Torch (Plasma)",
+  "subtype": "construction equipment",
+  "name": "Welding Torch (Laser)",
   "mfr": "",
   "cost": 150,
   "mass": 3,
@@ -11,24 +11,16 @@
   "qrebs": "N/A",
   "image": "",
   "description": "<p><!-- Summary Start -->A 300 mm long torch good for small repair jobs and spot welding.<!-- Summary End --> The torch can be used continuously for approximately 20 minutes depending on the density setting.</p>",
-  "categories": [
-    "products",
-    "construction"
-  ],
+  "categories": ["products", "construction", "construction equipment"],
   "sources": [
     {
       "publication": "Traveller 5.10 Core Rules Book 3 : Worlds and Adventures",
-      "authors": [
-        "Miller, Marc"
-      ],
+      "authors": ["Miller, Marc"],
       "publisher": {
         "name": "Far Future Enterprises",
         "url": "https://farfuture.net"
       }
     }
   ],
-  "tags": [
-    "products",
-    "construction"
-  ]
+  "tags": ["products", "construction", "construction equipment"]
 }

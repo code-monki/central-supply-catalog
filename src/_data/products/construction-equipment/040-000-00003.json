@@ -1,7 +1,7 @@
 {
   "sku": "040-000-00003",
   "type": "construction",
-  "subtype": "",
+  "subtype": "construction equipment",
   "name": "Hatch",
   "mfr": "",
   "cost": 1000,
@@ -11,24 +11,16 @@
   "qrebs": "N/A",
   "image": "",
   "description": "<p><!-- Summary Start -->Hatches protect the interior against positive pressure.<!-- Summary End --> Its design allows it to open only when the interior pressure is equal to or greater than the exterior pressure.</p>",
-  "categories": [
-    "products",
-    "construction"
-  ],
+  "categories": ["products", "construction", "construction equipment"],
   "sources": [
     {
       "publication": "Traveller 5.10 Core Rules Book 3 : Worlds and Adventures",
-      "authors": [
-        "Miller, Marc"
-      ],
+      "authors": ["Miller, Marc"],
       "publisher": {
         "name": "Far Future Enterprises",
         "url": "https://farfuture.net"
       }
     }
   ],
-  "tags": [
-    "products",
-    "construction"
-  ]
+  "tags": ["products", "construction", "construction equipment"]
 }

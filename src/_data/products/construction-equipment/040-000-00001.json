@@ -1,7 +1,7 @@
 {
   "sku": "040-000-00001",
   "type": "construction",
-  "subtype": "",
+  "subtype": "construction equipment",
   "name": "Cutting Torch",
   "mfr": "",
   "cost": 6000,
@@ -11,24 +11,16 @@
   "qrebs": "N/A",
   "image": "",
   "description": "<p><!-- Summary Start -->Ruggedly-built laser metal cutter designed to work on TL 8 materials or lower.<!-- Summary End --> Good for cutting holes in hulls and performing major repairs. The typical cutting torch power supply provides one day of operation.</p>",
-  "categories": [
-    "products",
-    "construction"
-  ],
+  "categories": ["products", "construction", "construction equipment"],
   "sources": [
     {
       "publication": "Traveller 5.10 Core Rules Book 3 : Worlds and Adventures",
-      "authors": [
-        "Miller, Marc"
-      ],
+      "authors": ["Miller, Marc"],
       "publisher": {
         "name": "Far Future Enterprises",
         "url": "https://farfuture.net"
       }
     }
   ],
-  "tags": [
-    "products",
-    "construction"
-  ]
+  "tags": ["products", "construction", "construction equipment"]
 }

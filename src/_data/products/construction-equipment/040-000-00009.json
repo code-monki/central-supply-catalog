@@ -1,8 +1,8 @@
 {
   "sku": "040-000-00009",
   "type": "construction",
-  "subtype": "artifact",
-  "name": "Planetary Core Tap",
+  "subtype": "construction equipment",
+  "name": "Planetary Core Tap (Artifact)",
   "mfr": "",
   "cost": 1000000000000,
   "mass": 0,
@@ -11,17 +11,11 @@
   "qrebs": "N/A",
   "image": "",
   "description": "A Planetary Core Tap is a technology enabling the production of massive amounts of energy using geothermal technology.",
-  "categories": [
-    "products",
-    "construction",
-    "artifact"
-  ],
+  "categories": ["products", "construction", "construction equipment", "artifact"],
   "sources": [
     {
       "publication": "Shadows / Annic Nova",
-      "authors": [
-        "Miller, Marc"
-      ],
+      "authors": ["Miller, Marc"],
       "publisher": {
         "name": "Game Designers Workshop",
         "url": "https://wiki.travellerrpg.com/Game_Designers_Workshop"
@@ -29,9 +23,7 @@
     },
     {
       "publication": "Dragon Magazine CANARD: A Traveller Adventure",
-      "authors": [
-        "Camino, Roberto"
-      ],
+      "authors": ["Camino, Roberto"],
       "publisher": {
         "name": "TSR (Tactical Studies Rules)",
         "url": ""
@@ -39,9 +31,7 @@
     },
     {
       "publication": "Traveller 5.10 Core Rules Book 3 : Worlds and Adventures",
-      "authors": [
-        "Miller, Marc"
-      ],
+      "authors": ["Miller, Marc"],
       "publisher": {
         "name": "Far Future Enterprises",
         "url": "https://farfuture.net"
@@ -49,18 +39,12 @@
     },
     {
       "publication": "Traveller Wiki - Planetary Core Tap",
-      "authors": [
-        "Maksim-Smelchak"
-      ],
+      "authors": ["Maksim-Smelchak"],
       "publisher": {
         "name": "Traveller Wiki",
         "url": "https://wiki.travellerrpg.com/Planetary_Core_Tap"
       }
     }
   ],
-  "tags": [
-    "products",
-    "construction",
-    "artifact"
-  ]
+  "tags": ["products", "construction", "construction equipment", "artifact"]
 }
