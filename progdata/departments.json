@@ -15,10 +15,10 @@
   },
   {
     "id": "030-000",
-    "label": "Computer",
+    "label": "Computers",
     "shortlabel": "Computers",
     "description": "Devices that provide the ability to store and process information.",
-    "datadir": "src/_data/products/computer-gear"
+    "datadir": "src/_data/products/computers"
   },
   {
     "id": "030-001",
@@ -71,10 +71,10 @@
   },
   {
     "id": "090-000",
-    "label": "Food & Drinks",
-    "shortLabel": "Food & Drinks",
+    "label": "Food and Drinks",
+    "shortLabel": "Food and Drinks",
     "description": "A variety of food and beverage items.",
-    "datadir": "src/_data/products/food-drink"
+    "datadir": "src/_data/products/food-and-drinks"
   },
   {
     "id": "100-000",
@@ -172,7 +172,7 @@
     "label": "Structures, Shelters",
     "shortLabel": "Structures",
     "description": "Permanent and temporary structures",
-    "datadir": ".src/_data/products/structures-shelters"
+    "datadir": "src/_data/products/structures-shelters"
   },
   {
     "id": "160-000",
@@ -190,17 +190,17 @@
   },
   {
     "id": "180-000",
-    "label": "Personal Vehicles",
-    "shortLabel": "Pers Veh",
-    "description": "A collection of personal vehicles.",
-    "datadir": ".src/_data/products/personal-vehicles"
+    "label": "Vehicles",
+    "shortLabel": "Vehicles",
+    "description": "A collection of vehicles.",
+    "datadir": "src/_data/products/vehicles"
   },
   {
     "id": "180-001",
     "label": "Small Craft",
     "shortLabel": "Sm Craft",
     "description": "All manner of small support craft.",
-    "datadir": ".src/_data/products/small-craft"
+    "datadir": "src/_data/products/small-craft"
   },
   {
     "id": "180-002",
