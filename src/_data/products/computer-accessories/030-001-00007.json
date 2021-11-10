@@ -1,7 +1,7 @@
 {
   "sku": "030-001-00007",
-  "type": "computers",
-  "subtype": "computer accessory",
+  "type": "computer equipment",
+  "subtype": "computer accessories",
   "name": "Map Box",
   "mfr": "",
   "cost": 2500,
@@ -12,8 +12,8 @@
   "image": "",
   "description": "<p><!-- Summary Start -->The map box is a compact storage system for computer generated maps of a world.<!-- Summary End --> The map scale may be adjusted. The device measures 250mm x 250mm x 10mm closed and expands to 1000mm x 1000mm x 10mm when open.</p>",
   "categories": [
-    "computers",
-    "computer accessory"
+    "computer equipment",
+    "computer accessories"
   ],
   "sources": [
     {
@@ -29,7 +29,7 @@
   ],
   "tags": [
     "products",
-    "computers",
-    "computer accessory"
+    "computer equipment",
+    "computer accessories"
   ]
 }

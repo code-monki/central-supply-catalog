@@ -1,7 +1,7 @@
 {
   "sku": "140-000-00016",
-  "type": "robots",
-  "subtype": "",
+  "type": "robotics",
+  "subtype": "robots",
   "name": "Shadan class Survey Robot",
   "mfr": "",
   "cost": 410000,
@@ -11,7 +11,7 @@
   "image": "",
   "description": "<p><!-- Summary Start -->The Shadan class Survey Robot is one of the more innovative robot designs from Naasirka. It is a general purpose survey robot, built to survey world surfaces for a variety of purposes.<!-- Summary End --></p><p>The onboard fuel cell provides power for 120 days, half that in an unoxygenated atmosphere. In addition to the normal robot sensors, the Shadan carries a Distant range active/passive EMS array, a neutrino sensor, Densitometer, radiation sensor and a sensitive magnetic sensor.</p>",
   "categories": [
-    "robots"
+    "robotics", "robots"
   ],
   "sources": [
     {
@@ -39,6 +39,7 @@
   ],
   "tags": [
     "products",
+    "robotics",
     "robots"
   ]
 }

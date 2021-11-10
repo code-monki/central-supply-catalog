@@ -1,0 +1,67 @@
+{
+  "sku": "180-000-00007",
+  "type": "transportation",
+  "subtype": "vehicles",
+  "name": "Recon Carrier, Military, Tracked (MCR-T)",
+  "mfr": "vehicles",
+  "cost": 6000000,
+  "displacement": 8,
+  "techLevel": 7,
+  "qrebs": "N/A",
+  "image": "",
+  "description": "<p><!-- Summary Start -->Standard tracked military reconnaissance  Carrier<!-- Summary End --></p>",
+  "stats": [
+    {
+      "label": "Speed",
+      "value": 5
+    },
+    {
+      "label": "Load",
+      "value": 2
+    },
+    {
+      "label": "Armor",
+      "value": 30
+    },
+    {
+      "label": "Cage",
+      "value": 10
+    },
+    {
+      "label": "FlashProof",
+      "value": 10
+    },
+    {
+      "label": "RadProof",
+      "value": 13
+    },
+    {
+      "label": "SoundProof",
+      "value": 23
+    },
+    {
+      "label": "PsiShield",
+      "value": 0
+    },
+    {
+      "label": "Insulated",
+      "value": 23
+    },
+    {
+      "label": "Sealed",
+      "value": 23
+    }
+  ],
+  "categories": ["transportation", "vehicles", "military"],
+  "sources": [
+    {
+      "publication": "Traveller 5.10 Core Rules Book 3 : Worlds and Adventures",
+      "authors": ["Miller, Marc"],
+      "publisher": {
+        "name": "Far Future Enterprises",
+        "url": "https://farfuture.net"
+      }
+    }
+  ],
+  "tags": ["products", "transportation", "vehicles", "military"]
+}

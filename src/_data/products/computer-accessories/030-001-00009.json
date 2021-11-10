@@ -1,7 +1,7 @@
 {
   "sku": "030-001-00009",
-  "type": "computers",
-  "subtype": "computer accessory",
+  "type": "computer equipment",
+  "subtype": "computer accessories",
   "name": "Map Box Insert (Blank)",
   "mfr": "",
   "cost": 30,
@@ -13,7 +13,7 @@
   "description": "<p><!-- Summary Start -->A blank insert for a map box that can contain the data for a single world.<!-- Summary End --></p>",
   "categories": [
     "computers",
-    "computer accessory"
+    "computer accessories"
   ],
   "sources": [
     {
@@ -30,6 +30,6 @@
   "tags": [
     "products",
     "computers",
-    "computer accessory"
+    "computer accessories"
   ]
 }

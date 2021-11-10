@@ -1,7 +1,7 @@
 {
   "sku": "030-001-00014",
-  "type": "computers",
-  "subtype": "computer accessory",
+  "type": "computer equipment",
+  "subtype": "computer accessories",
   "name": "Xmail Wafer",
   "mfr": "",
   "cost": 10,
@@ -12,8 +12,8 @@
   "image": "",
   "description": "<p><!-- Summary Start -->A data container for carrying a single transaction or application across interstellar distances.<!-- Summary End --></p>",
   "categories": [
-    "computers",
-    "computer accessory"
+    "computer equipment",
+    "computer accessories"
   ],
   "sources": [
     {
@@ -29,7 +29,7 @@
   ],
   "tags": [
     "products",
-    "computers",
-    "computer accessory"
+    "computer equipment",
+    "computer accessories"
   ]
 }

@@ -1,6 +1,6 @@
 {
   "sku": "140-002-00001",
-  "type": "robots",
+  "type": "robotics",
   "subtype": "drone",
   "name": "Extra Eye Microdrone (S-variant)",
   "mfr": "",
@@ -11,7 +11,7 @@
   "image": "",
   "description": "<p><!-- Summary Start -->The Extra eye microdrone is a small, cheap, disposable sensor drone used for system survey work.<!-- Summary End --> The drone is a cylinder 320mm long and 57mm in diameter. The core of the drone is a broad spectrum EM sensor with coverage from long range radio to the far ultraviolet. A small computer does basic sensor analysis and navigation. There is a small, very low powered thruster for maneuvering. The primary design (called the S variant) uses a folding solar cell and 1 MWs battery cell to power the drone. The limitations of the solar cell power generation limit its use to the life zone of a system. The S variant has a 0.005G thruster, driving the drone over 1AU in a little over 40 days, and 10 AU in 128 days.</p>",
   "categories": [
-    "robots"
+    "robotics"
   ],
   "sources": [
     {
@@ -27,7 +27,7 @@
   ],
   "tags": [
     "products",
-    "robots",
+    "robotics",
     "drones"
   ]
 }

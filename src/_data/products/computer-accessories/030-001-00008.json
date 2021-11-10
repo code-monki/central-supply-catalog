@@ -1,7 +1,7 @@
 {
   "sku": "030-001-00008",
-  "type": "computers",
-  "subtype": "computer accessory",
+  "type": "computer equipment",
+  "subtype": "computer accessories",
   "name": "Map Box Insert",
   "mfr": "",
   "cost": 150,
@@ -12,8 +12,8 @@
   "image": "",
   "description": "<p><!-- Summary Start -->An insert for a map box that contains the data for a single world.<!-- Summary End --></p>",
   "categories": [
-    "computers",
-    "computer accessory"
+    "computer equipment",
+    "computer accessories"
   ],
   "sources": [
     {
@@ -29,7 +29,7 @@
   ],
   "tags": [
     "products",
-    "computers",
-    "computer accessory"
+    "computer equipment",
+    "computer accessories"
   ]
 }

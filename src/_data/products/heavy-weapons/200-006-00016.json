@@ -1,0 +1,46 @@
+{
+  "sku": "200-006-00016",
+  "type": "weapons",
+  "subtype": "heavy weapons",
+  "name": "Gatling, Crewed, Standard (StdGaC-8)",
+  "mfr": "",
+  "cost": 8000,
+  "mass": 40,
+  "size": "",
+  "techLevel": 8,
+  "qrebs": "R=4",
+  "damage": "Pen-4",
+  "image": "",
+  "description": "<p><!-- Summary Start -->Standard crewed Gatling gun.<!-- Summary End --></p>",
+  "stats": [],
+  "accessories": [
+    "200-010-00001"
+  ],
+  "sources": [
+    {
+      "publication": "Traveller 5.10 Core Rules Book 1 : Characters and Combat",
+      "authors": [
+        "Miller, Marc"
+      ],
+      "publisher": {
+        "name": "Far Future Enterprises",
+        "url": "https://farfuture.net"
+      }
+    },
+    {
+      "publication": "Traveller 5.10 Core Rules Book 3 : Worlds and Adventures",
+      "authors": [
+        "Miller, Marc"
+      ],
+      "publisher": {
+        "name": "Far Future Enterprises",
+        "url": "https://farfuture.net"
+      }
+    }
+  ],
+  "tags": [
+    "products",
+    "weapons",
+    "heavy weapons"
+  ]
+}

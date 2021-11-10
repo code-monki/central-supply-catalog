@@ -1,7 +1,7 @@
 {
   "sku": "030-001-00011",
-  "type": "computers",
-  "subtype": "computer accessory",
+  "type": "computer equipment",
+  "subtype": "computer accessories",
   "name": "Star Chart",
   "mfr": "",
   "cost": 1000,
@@ -12,8 +12,8 @@
   "image": "",
   "description": "<p>A map of nearby systems and trade routes.<!-- Summary End --></p>",
   "categories": [
-    "computers",
-    "computer accessory"
+    "computer equipment",
+    "computer accessories"
   ],
   "sources": [
     {
@@ -29,7 +29,7 @@
   ],
   "tags": [
     "products",
-    "computers",
-    "computer accessory"
+    "computer equipment",
+    "computer accessories"
   ]
 }
