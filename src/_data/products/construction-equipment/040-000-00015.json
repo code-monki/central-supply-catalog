@@ -1,7 +1,7 @@
 {
   "sku": "040-000-00015",
   "type": "construction",
-  "subtype": "",
+  "subtype": "construction equipment",
   "name": "Tape (Slap Tape)",
   "mfr": "",
   "cost": 1,
@@ -11,24 +11,16 @@
   "qrebs": "N/A",
   "image": "",
   "description": "<p><!-- Summary Start -->Electrical, Pressure-Sensitive (Duct)<!-- Summary End --></p>",
-  "categories": [
-    "products",
-    "construction"
-  ],
+  "categories": ["products", "construction", "construction equipment"],
   "sources": [
     {
       "publication": "Traveller 5.10 Core Rules Book 3 : Worlds and Adventures",
-      "authors": [
-        "Miller, Marc"
-      ],
+      "authors": ["Miller, Marc"],
       "publisher": {
         "name": "Far Future Enterprises",
         "url": "https://farfuture.net"
       }
     }
   ],
-  "tags": [
-    "products",
-    "construction"
-  ]
+  "tags": ["products", "construction", "construction equipment"]
 }

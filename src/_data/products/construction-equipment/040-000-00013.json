@@ -1,8 +1,8 @@
 {
   "sku": "040-000-00013",
   "type": "construction",
-  "subtype": "artifact",
-  "name": "Portal Generator",
+  "subtype": "construction equipment",
+  "name": "Portal Generator (Artifact)",
   "mfr": "",
   "cost": 1000000000000,
   "mass": 0,
@@ -11,26 +11,16 @@
   "qrebs": "N/A",
   "image": "",
   "description": "<p><!-- Summary Start -->A portal generator acts as a hub that connects one or more portals.<!-- Summary End --></p>",
-  "categories": [
-    "products",
-    "construction",
-    "artifact"
-  ],
+  "categories": ["products", "construction", "construction equipment", "artifact"],
   "sources": [
     {
       "publication": "Traveller 5.10 Core Rules Book 3 : Worlds and Adventures",
-      "authors": [
-        "Miller, Marc"
-      ],
+      "authors": ["Miller, Marc"],
       "publisher": {
         "name": "Far Future Enterprises",
         "url": "https://farfuture.net"
       }
     }
   ],
-  "tags": [
-    "products",
-    "construction",
-    "artifact"
-  ]
+  "tags": ["products", "construction", "construction equipment", "artifact"]
 }
