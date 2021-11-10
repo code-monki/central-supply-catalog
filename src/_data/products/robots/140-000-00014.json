@@ -1,6 +1,6 @@
 {
   "sku": "140-000-00014",
-  "type": "robots",
+  "type": "robotics",
   "subtype": "",
   "name": "Infodrone class Expert Robot",
   "mfr": "008",
@@ -11,6 +11,7 @@
   "image": "",
   "description": "<p><!-- Summary Start -->An infodrone is an expert robot whose main function is communications and information exchange/processing.<!-- Summary End --> Originally a product of the Imperial megacorporation Naasirka, the infodrone was perfected on Ipadmali/Liasdi (Zarushagar 1527).</p></p>A typical infodrone has a high skill level and is tied into a computer data base. For example, a legal assistance model could be fed the basis for a legal prosecution and construct an appropriate defense based on established legal precedence.</p><h5>History & Background</h5><p>Infodrones are commonly used only by those that can afford them, as the supporting data base can be quite expensive. More often than not, they are bought by corporations and not individuals. The robots are a sign of wealth, power and prestige on many worlds.</p>",
   "categories": [
+    "robotics",
     "robots",
     "drones"
   ],
@@ -30,6 +31,7 @@
   ],
   "tags": [
     "products",
+    "robotics",
     "robots",
     "drones"
   ]

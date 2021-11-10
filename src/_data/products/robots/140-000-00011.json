@@ -1,7 +1,7 @@
 {
   "sku": "140-000-00011",
-  "type": "robots",
-  "subtype": "",
+  "type": "robotics",
+  "subtype": "robots",
   "name": "Vulcan class Factory Robot",
   "mfr": "",
   "cost": 526808,
@@ -11,7 +11,7 @@
   "image": "",
   "description": "<p><!-- Summary Start -->Unlike many such robots, the Vulcan is rather generic, with unspecialized tools and a bipedal chassis to permit maximum adaptability. It is a typical robot design of many low stellar Imperial worlds that was used in factories or other large industrial areas.<!-- Summary End --></p><p><h5>History & Background</h5>During the Black War period, factional leaders churned these robots out in the millions to permit quick rebuilding of their shattered industrial infrastructure. Lucan in particular built hundreds of thousands in an effort to amp up manufacturing of his growing robotic armies.</p>",
   "categories": [
-    "robots"
+    "robotics", "robots"
   ],
   "sources": [
     {
@@ -47,6 +47,7 @@
   ],
   "tags": [
     "products",
+    "robotics",
     "robots"
   ]
 }

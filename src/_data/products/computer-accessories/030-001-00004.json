@@ -1,7 +1,7 @@
 {
   "sku": "030-001-00004",
-  "type": "computers",
-  "subtype": "computer accessory",
+  "type": "computer equipment",
+  "subtype": "computer accessories",
   "name": "Datalink",
   "mfr": "",
   "cost": 25,
@@ -12,8 +12,8 @@
   "image": "",
   "description": "<p><!-- Summary Start -->A short range repeater/data relay device.<!-- Summary End --></p>",
   "categories": [
-    "computers",
-    "computer accessory"
+    "computer equipment",
+    "computer accessories"
   ],
   "sources": [
     {
@@ -29,7 +29,7 @@
   ],
   "tags": [
     "products",
-    "computers",
-    "computer accessory"
+    "computer equipment",
+    "computer accessories"
   ]
 }

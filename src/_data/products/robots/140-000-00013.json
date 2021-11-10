@@ -1,7 +1,7 @@
 {
   "sku": "140-000-00013",
-  "type": "robots",
-  "subtype": "",
+  "type": "robotics",
+  "subtype": "robots",
   "name": "AN-427 class Security Robot",
   "mfr": "015",
   "cost": 1810523,
@@ -11,7 +11,7 @@
   "image": "",
   "description": "<p><!-- Summary Start -->The AN-427 class Security Robot is a security robot.<!-- Summary End --> The ICAM Technology AN-427 security robot was a widely used security robot throughout the Imperium before the Collapse and has survived in considerable numbers due to its rugged reliability. It was programmed to patrol all areas of a sensitive installation, seek out and kill or incapacitate unauthorized intruders. Although it is not as mobile as grav-powered units, it is less expensive to operate, and replacement parts are easier to fabricate. This is a wheeled robot which experiences difficulty negotiating stairs, ladders, and any uneven ground. This robot is powered by internal batteries which require recharging every four days. It is armed with a Laser rifle and a 10mm CPR gun firing tranq rounds.</p>",
   "categories": [
-    "robots"
+    "robotics", "robots"
   ],
   "sources": [
     {
@@ -38,6 +38,7 @@
   ],
   "tags": [
     "products",
+    "robotics",
     "robots"
   ]
 }

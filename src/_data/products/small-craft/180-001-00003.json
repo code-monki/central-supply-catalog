@@ -1,6 +1,6 @@
 {
   "sku": "180-001-00003",
-  "type": "vehicles",
+  "type": "transportation",
   "subtype": "small craft",
   "name": "Gig (G)",
   "mfr": "",
@@ -11,7 +11,7 @@
   "image": "",
   "description": "<p><!-- Summary Start -->Utility craft for passenger and freight transfer between ships.<!-- Summary End --></p>",
   "stats": [
-    {
+    { 
       "label": "Speed",
       "value": 7
     },
@@ -52,24 +52,16 @@
       "value": 20
     }
   ],
-  "categories": [
-    "vehicles"
-  ],
+  "categories": ["transportation"],
   "sources": [
     {
       "publication": "Traveller 5.10 Core Rules Book 3 : Worlds and Adventures",
-      "authors": [
-        "Miller, Marc"
-      ],
+      "authors": ["Miller, Marc"],
       "publisher": {
         "name": "Far Future Enterprises",
         "url": "https://farfuture.net"
       }
     }
   ],
-  "tags": [
-    "products",
-    "vehicles",
-    "small craft"
-  ]
+  "tags": ["products", "transportation", "small craft"]
 }

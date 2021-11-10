@@ -1,6 +1,6 @@
 {
   "sku": "180-001-00008",
-  "type": "vehicles",
+  "type": "transportation",
   "subtype": "small craft",
   "name": "Pinnace, Fast (NF)",
   "mfr": "",
@@ -11,7 +11,7 @@
   "image": "",
   "description": "<p><!-- Summary Start -->Mid-sized utility craft capable of landing on worlds.<!-- Summary End --></p>",
   "categories": [
-    "vehicles"
+    "transportation"
   ],
   "sources": [
     {
@@ -27,7 +27,7 @@
   ],
   "tags": [
     "products",
-    "vehicles",
+    "transportation",
     "small craft"
   ]
 }

@@ -1,8 +1,7 @@
 {
   "sku": "030-000-00003",
-  "categories": "computers",
-  "type": "computers",
-  "subtype": "",
+  "type": "computer equipment",
+  "subtype": "computers",
   "name": "Research Console",
   "mfr": "",
   "cost": 200000,
@@ -12,6 +11,7 @@
   "qrebs": "N/A",
   "image": "",
   "description": "<!-- Summary Start -->A specialized control console used for a single research purpose.<!-- Summary End --> A group of research consoles installed in a dedicated volume is a Laboratory, functioning in the manner of an auxiliary ACS Bridge.\n\nReseaarch consoles are available at multiple technology levels and the mass varies with the technology level.",
+  "categories": ["computer equipment", "computers"],
   "sources": [
     {
       "publication": "Traveller 5.10 Core Rules Book 3 : Worlds and Adventures",
@@ -26,6 +26,7 @@
   ],
   "tags": [
     "products",
+    "computer equipment",
     "computers"
   ]
 }

@@ -1,0 +1,67 @@
+{
+  "sku": "180-000-00015",
+  "type": "transportation",
+  "subtype": "vehicles",
+  "name": "Cargo Flyer, Winged (CF-W)",
+  "mfr": "",
+  "cost": 2700000,
+  "displacement": 13,
+  "techLevel": 7,
+  "qrebs": "N/A",
+  "image": "",
+  "description": "<p><!-- Summary Start -->Atmospheric cargo flyer.<!-- Summary End --></p>",
+  "stats": [
+    {
+      "label": "Speed",
+      "value": 8
+    },
+    {
+      "label": "Load",
+      "value": 4
+    },
+    {
+      "label": "Armor",
+      "value": 5
+    },
+    {
+      "label": "Cage",
+      "value": 0
+    },
+    {
+      "label": "FlashProof",
+      "value": 20
+    },
+    {
+      "label": "RadProof",
+      "value": 3
+    },
+    {
+      "label": "SoundProof",
+      "value": 23
+    },
+    {
+      "label": "PsiShield",
+      "value": 0
+    },
+    {
+      "label": "Insulated",
+      "value": 13
+    },
+    {
+      "label": "Sealed",
+      "value": 4
+    }
+  ],
+  "categories": ["transportation", "vehicles"],
+  "sources": [
+    {
+      "publication": "Traveller 5.10 Core Rules Book 3 : Worlds and Adventures",
+      "authors": ["Miller, Marc"],
+      "publisher": {
+        "name": "Far Future Enterprises",
+        "url": "https://farfuture.net"
+      }
+    }
+  ],
+  "tags": ["products", "transportation", "vehicles"]
+}

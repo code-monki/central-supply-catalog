@@ -1,7 +1,7 @@
 {
   "sku": "030-001-00012",
-  "type": "computers",
-  "subtype": "computer accessory",
+  "type": "computer equipment",
+  "subtype": "computer accessories",
   "name": "Survey Data",
   "mfr": "",
   "cost": 100,
@@ -12,8 +12,8 @@
   "image": "",
   "description": "<p><!-- Summary Start -->A data container (essentially a re-purposed memclip) for carrying detailed survey information for one star system.<!-- Summary End --></p>",
   "categories": [
-    "computers",
-    "computer accessory"
+    "computer equipment",
+    "computer accessories"
   ],
   "sources": [
     {
@@ -29,7 +29,7 @@
   ],
   "tags": [
     "products",
-    "computers",
-    "computer accessory"
+    "computer equipment",
+    "computer accessories"
   ]
 }

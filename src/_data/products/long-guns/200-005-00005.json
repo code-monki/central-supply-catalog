@@ -1,0 +1,61 @@
+{
+  "sku": "200-005-00005",
+  "type": "weapons",
+  "subtype": "long guns",
+  "name": "Battle Rifle, Experimental (XBR-4)",
+  "mfr": "",
+  "cost": 1600,
+  "mass": 8,
+  "size": "",
+  "techLevel": 4,
+  "qrebs": "R=4",
+  "damage": "Bullet-3",
+  "image": "",
+  "description": "<p><!-- Summary Start -->Experimental version of the battle rifle.<!-- Summary End --> Battle rifles are designed for the battlefield by soldiers. It is characterized by an ability to hit person-size targets at the limit of unaided vision (~1000 meters).</p>",
+  "stats": [],
+  "accessories": [
+    "200-011-00001",
+    "200-011-00002",
+    "200-011-00003",
+    "200-011-00004",
+    "200-011-00005",
+    "200-011-00006",
+    "200-011-00007",
+    "200-010-00002",
+    "200-010-00003",
+    "200-010-00004"
+  ],
+  "categories": [
+    "weapons",
+    "long guns",
+    "rifle"
+  ],
+  "sources": [
+    {
+      "publication": "Traveller 5.10 Core Rules Book 1 : Characters and Combat",
+      "authors": [
+        "Miller, Marc"
+      ],
+      "publisher": {
+        "name": "Far Future Enterprises",
+        "url": "https://farfuture.net"
+      }
+    },
+    {
+      "publication": "Traveller 5.10 Core Rules Book 3 : Worlds and Adventures",
+      "authors": [
+        "Miller, Marc"
+      ],
+      "publisher": {
+        "name": "Far Future Enterprises",
+        "url": "https://farfuture.net"
+      }
+    }
+  ],
+  "tags": [
+    "products",
+    "weapons",
+    "long guns",
+    "rifle"
+  ]
+}

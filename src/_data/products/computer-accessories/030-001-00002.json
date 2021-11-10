@@ -1,7 +1,7 @@
 {
   "sku": "030-001-00002",
-  "type": "computers",
-  "subtype": "computer accessory",
+  "type": "computer equipment",
+  "subtype": "computer accessories",
   "name": "Data Display (TL D)",
   "mfr": "",
   "cost": 100,
@@ -12,7 +12,7 @@
   "image": "",
   "description": "<p><!-- Summary Start -->A visual display that provides a visual, tactile, and holographic interface to a computer.<!-- Summary End --></p>",
   "categories": [
-    "computers"
+    "computer equipment", "computer accessories"
   ],
   "sources": [
     {
@@ -28,7 +28,7 @@
   ],
   "tags": [
     "products",
-    "computers",
-    "computer accessory"
+    "computer equipment",
+    "computer accessories"
   ]
 }

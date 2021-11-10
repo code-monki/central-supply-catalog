@@ -1,7 +1,7 @@
 {
   "sku": "140-000-00010",
-  "type": "robots",
-  "subtype": "",
+  "type": "robotics",
+  "subtype": "robots",
   "name": "Sylean Type 1 class Security Robot",
   "mfr": "",
   "cost": 20000,
@@ -11,7 +11,7 @@
   "image": "",
   "description": "<p><!-- Summary Start -->The Sylean Type 1 class Security Robot is a security robot found in the Sylean Federation standard designs database, and manufactured by a number of different manufacturers.<!-- Summary End --> The type 1 is a battery-powered, track driven unit, used for patrol purposes. These are capable of remotely reading laser coded identity badges and accessing central computers for confirmation or change of instructions. They are protected against chemical, obscurement, and electromagnetic disruption, and are armed with a wide angle Blur projector. It is capable of scaled threat response, self-righting behavior, and programmed actions in case of partial malfunction or communication breakdown. It can move at human normal movement rates, and has low-light vision capability.</p>",
   "categories": [
-    "robots"
+    "robotics", "robots"
   ],
   "sources": [
     {
@@ -37,6 +37,7 @@
   ],
   "tags": [
     "products",
+    "robotics",
     "robots"
   ]
 }

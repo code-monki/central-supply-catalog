@@ -1,7 +1,7 @@
 {
   "sku": "140-000-00017",
-  "type": "robots",
-  "subtype": "",
+  "type": "robotics",
+  "subtype": "robots",
   "name": "63MEK49 class Ship Service Bot",
   "mfr": "016",
   "cost": 2103749,
@@ -11,7 +11,7 @@
   "image": "",
   "description": "<p><!-- Summary Start -->The Star Servants model 63MEK49 is a heavy-duty grav-powered model, capable of cutting, welding, and even removing complete hull plates.<!-- Summary End --> It was common in military installations but could be found in many civilian starports as well. Its highly flexible tentacle/arm contains an optic sensor and a light source for detailed repairs inside of electronic components or control assemblies. A cutting/welding torch is built into its right arm.</p>",
   "categories": [
-    "robots"
+    "robotics", "robots"
   ],
   "sources": [
     {
@@ -38,6 +38,7 @@
   ],
   "tags": [
     "products",
+    "robotics",
     "robots"
   ]
 }

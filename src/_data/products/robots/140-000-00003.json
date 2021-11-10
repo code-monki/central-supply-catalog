@@ -1,7 +1,7 @@
 {
   "sku": "140-000-00003",
-  "type": "robots",
-  "subtype": "",
+  "type": "robotics",
+  "subtype": "robots",
   "name": "AD-26 Argus",
   "mfr": "",
   "cost": 4284632,
@@ -11,7 +11,7 @@
   "image": "",
   "description": "<p><!-- Summary Start -->The AD-26 originated with the Imperial Army Command, Vland Sector. It is the most distinctive of the Pre-Civil War robots adopted into standard Imperial service.<!-- Summary End --> A bipedal robot, it deviates from the usual configuration with its unusual weapon configuration. Designers anticipated a mainly urban combat role for this robot, and designed it with three fusion gun turrets to provide all around fire: the first turret is located around a thin \"waist\" in the robots midsection, while the other two turrets are mounted on the end of an extra pair of telescoping arms attached behind the shoulders of the main arms. This latter pair can be elevated or lowered on a straight vertical axis, or can be swiveled around to fire around corners or over obstacles. The robots mass is sufficient to fire all three guns into the same arc at the same time.</p>",
   "categories": [
-    "robots"
+    "robotics", "robots"
   ],
   "sources": [
     {
@@ -37,6 +37,7 @@
   ],
   "tags": [
     "products",
+    "robotics",
     "robots"
   ]
 }
