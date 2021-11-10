@@ -1,8 +1,8 @@
 {
   "sku": "190-000-00005",
   "type": "uniques",
-  "subtype": "artifact",
-  "name": "Jinn",
+  "subtype": "",
+  "name": "Jinn (Artifact)",
   "mfr": "",
   "cost": 250000,
   "size": 3,
@@ -10,23 +10,16 @@
   "qrebs": "N/A",
   "image": "",
   "description": "<p><!-- Summary Start -->A small, portable container (&quot;bottle&quot;) for a semi-organic brain.<!-- Summary End --> At TL R bottles have antimatter power and efficient life support systems, allowing a brain to survive for long periods of time before requiring a recharge. The most common Jinns have psionic brains installed (for example, with Teleport skill), which can act without requiring a body.</p>",
-  "categories": [
-    "uniques"
-  ],
+  "categories": ["uniques", "artifact"],
   "sources": [
     {
       "publication": "Traveller 5.10 Core Rules Book 3 : Worlds and Adventures",
-      "authors": [
-        "Miller, Marc"
-      ],
+      "authors": ["Miller, Marc"],
       "publisher": {
         "name": "Far Future Enterprises",
         "url": "https://farfuture.net"
       }
     }
   ],
-  "tags": [
-    "products",
-    "uniques"
-  ]
+  "tags": ["products", "uniques", "artifact"]
 }

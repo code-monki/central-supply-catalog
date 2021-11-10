@@ -1,7 +1,7 @@
 {
   "sku": "130-005-00004",
-  "type": "survival gear",
-  "subtype": "",
+  "type": "protections",
+  "subtype": "survival gear",
   "name": "Paint",
   "mfr": "",
   "cost": 10,
@@ -11,23 +11,16 @@
   "qrebs": "N/A",
   "image": "",
   "description": "<p><!-- Summary Start -->Artificial pigmentation in various application bases.<!-- Summary End --></p>",
-  "categories": [
-    "survival gear"
-  ],
+  "categories": ["protections", "survival gear"],
   "sources": [
     {
       "publication": "Traveller 5.10 Core Rules Book 3 : Worlds and Adventures",
-      "authors": [
-        "Miller, Marc"
-      ],
+      "authors": ["Miller, Marc"],
       "publisher": {
         "name": "Far Future Enterprises",
         "url": "https://farfuture.net"
       }
     }
   ],
-  "tags": [
-    "products",
-    "survival gear"
-  ]
+  "tags": ["products", "protections", "survival gear"]
 }

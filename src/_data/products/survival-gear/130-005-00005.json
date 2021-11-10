@@ -1,7 +1,7 @@
 {
   "sku": "130-005-00005",
-  "type": "survival gear",
-  "subtype": "",
+  "type": "protections",
+  "subtype": "survival gear",
   "name": "Pestguard",
   "mfr": "",
   "cost": 1,
@@ -11,23 +11,16 @@
   "qrebs": "N/A",
   "image": "",
   "description": "<p><!-- Summary Start -->Various types of insect repellent, keyed to common nuisance creatures found on a particular world.<!-- Summary End --></p>",
-  "categories": [
-    "survival gear"
-  ],
+  "categories": ["protections", "survival gear"],
   "sources": [
     {
       "publication": "Traveller 5.10 Core Rules Book 3 : Worlds and Adventures",
-      "authors": [
-        "Miller, Marc"
-      ],
+      "authors": ["Miller, Marc"],
       "publisher": {
         "name": "Far Future Enterprises",
         "url": "https://farfuture.net"
       }
     }
   ],
-  "tags": [
-    "products",
-    "survival gear"
-  ]
+  "tags": ["products", "protections", "survival gear"]
 }
