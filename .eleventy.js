@@ -81,11 +81,11 @@ module.exports = function (eleventyConfig) {
   
   prodDirectories.forEach(category => {
     eleventyConfig.addCollection(category, (collectionApi) => {
-      // console.log(`Category: ${category}`);
+
       let files = fs.readdirSync(path.join(basedir, category)).filter(file => path.extname(file) === '.json');
       let products = files.flatMap(file => JSON.parse(fs.readFileSync(path.join(basedir, category, file))));
       products.sort((a, b) => (a.name.localeCompare(b.name)));
-      // console.log(products);
+
       return products;
     })
   });
@@ -95,38 +95,26 @@ module.exports = function (eleventyConfig) {
   //-------------------------------------------------------------
 
   // collect rollups (categories with departments)
-  // let rollups = categoriesData.filter(category => category.departments.length > 0);
+  let rollups = categoriesData.filter(category => category.departments.length > 0);
 
-  // rollups.forEach(category => {
-  //   let categoryLabel = category.label.replace(/\s+/g, '');
+  rollups.forEach(category => {
+    let categoryLabel = slugify(category.label, {lower:true, strict: true});
 
-  //   eleventyConfig.addCollection(categoryLabel, (collectionApi) => {
-  //     // get the department data dirs
-  //     let products = [];
-  //     category.departments.forEach(dept => {
-  //       let deptDataDir = departmentsData.find(obj => obj.id === dept).datadir;
-  //       let files = fs.readdirSync(deptDataDir).filter(file => path.extname(file) === '.json');
-  //       let prodArray = files.flatMap(file => JSON.parse(fs.readFileSync(path.join(deptDataDir, file))), products);
+    // build the products array
+    let products = [];
 
-  //       // test for empty collection sentinel value
-
-  //       prodArray.filter(prod => {
-  //         if (!prod.sku.match(/-00000$/g)) {
-  //           products.push(prodArray);
-  //         }
-  //       })
-  //       console.log(products.length);
-
-
-  //     })
-  //     console.log(`${categoryLabel}   Length: ${products.length}`);
-  //     return products
-  //       .flat()
-  //       .sort((a, b) => a.name.localeCompare(b.name));
-  //   })
-  // })
-
-  
+    category.departments.forEach(dept => {
+      let deptDataDir = departmentsData.find(obj => obj.id === dept).datadir;
+      let files = fs.readdirSync(deptDataDir).filter(file => path.extname(file) === '.json');
+      let prodArray = files
+        .flatMap(file => JSON.parse(fs.readFileSync(path.join(deptDataDir, file))), products)
+        .filter(prod => !prod.sku.match(/-00000$/g)); // filter out empty collections 
+      if (prodArray.length > 0) {
+        products = products.concat(prodArray);
+      }
+    })
+    eleventyConfig.addCollection(categoryLabel, (addCollectionApi) => products.sort((a,b) => a.name.localeCompare(b.name)));
+  })  
 
   //-------------------------------------------------------------
   // Convert numeric tech level to alphabetic character
@@ -246,30 +234,6 @@ module.exports = function (eleventyConfig) {
   });
 
   //-------------------------------------------------------------
-  // Build Department cards
-  //-------------------------------------------------------------
-  // eleventyConfig.addShortcode("buildDepartmentCards", () => {
-  //   let text = "";
-  //   departmentsData.forEach((dept) => {
-  //     if (dept.id.substr(-3) === "000") {
-  //       text += `<div class="dept-card">`;
-
-  //       let pageLink = `${basePath}/departments/${slugify(dept.label, {lower: true, strict: true})}`;
-  //       let imgLink = `${basePath}/img/${dept.icon}`;
-
-  //       text += `
-  //         <a href="${pageLink}/">
-  //         <img src="${imgLink}" alt="${dept.label}"><br>${dept.label}
-  //       </a>
-  //     </div>
-  //     `;
-  //     }
-  //   });
-
-  //   return text;
-  // });
-
-  //-------------------------------------------------------------
   // Generate department dropdown list
   //-------------------------------------------------------------
   eleventyConfig.addShortcode("generateDeptList", () => {
@@ -278,11 +242,10 @@ module.exports = function (eleventyConfig) {
     categoriesData
       .sort((a,b) => a.label.localeCompare(b.label))
       .forEach(category => {
-        console.log(`Category: ${slugify(category.label, {lower: true, strict: true})}`);
         if (category.departments.length === 0) {
           text += `<li><a href="/departments/${slugify(category.label, {lower: true, strict: true})}">${category.label}</a></li>`
         } else {
-          text += `<li>${category.label}<ul>`
+          text += `<li><a href="/departments/${slugify(category.label, {lower: true, strict: true})}">${category.label}</a><ul>`
 
           // gather the subdepartment labels
           let deptList = [];
