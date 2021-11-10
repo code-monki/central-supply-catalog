@@ -75,17 +75,58 @@ module.exports = function (eleventyConfig) {
   // Add custom product collections
   //-------------------------------------------------------------
   let basedir = path.join('src', '_data', 'products');
+
   // gather list of product directories
   let prodDirectories = fs.readdirSync(basedir);
   
   prodDirectories.forEach(category => {
     eleventyConfig.addCollection(category, (collectionApi) => {
+      // console.log(`Category: ${category}`);
       let files = fs.readdirSync(path.join(basedir, category)).filter(file => path.extname(file) === '.json');
       let products = files.flatMap(file => JSON.parse(fs.readFileSync(path.join(basedir, category, file))));
       products.sort((a, b) => (a.name.localeCompare(b.name)));
+      // console.log(products);
       return products;
     })
   });
+
+  //-------------------------------------------------------------
+  // Add category rollup collections
+  //-------------------------------------------------------------
+
+  // collect rollups (categories with departments)
+  // let rollups = categoriesData.filter(category => category.departments.length > 0);
+
+  // rollups.forEach(category => {
+  //   let categoryLabel = category.label.replace(/\s+/g, '');
+
+  //   eleventyConfig.addCollection(categoryLabel, (collectionApi) => {
+  //     // get the department data dirs
+  //     let products = [];
+  //     category.departments.forEach(dept => {
+  //       let deptDataDir = departmentsData.find(obj => obj.id === dept).datadir;
+  //       let files = fs.readdirSync(deptDataDir).filter(file => path.extname(file) === '.json');
+  //       let prodArray = files.flatMap(file => JSON.parse(fs.readFileSync(path.join(deptDataDir, file))), products);
+
+  //       // test for empty collection sentinel value
+
+  //       prodArray.filter(prod => {
+  //         if (!prod.sku.match(/-00000$/g)) {
+  //           products.push(prodArray);
+  //         }
+  //       })
+  //       console.log(products.length);
+
+
+  //     })
+  //     console.log(`${categoryLabel}   Length: ${products.length}`);
+  //     return products
+  //       .flat()
+  //       .sort((a, b) => a.name.localeCompare(b.name));
+  //   })
+  // })
+
+  
 
   //-------------------------------------------------------------
   // Convert numeric tech level to alphabetic character
@@ -155,18 +196,17 @@ module.exports = function (eleventyConfig) {
         product.image === "" || product.image === null
           ? `${basePath}/img/products/no-image.png`
           : `${basePath}/img/products/${sku}.png`;
-      let pageURL = `../products/${sku}/`;
 
       text = `
       <div class="row accessory-row">
         <div class="">
-          <a href="${urlSafe(pageURL)}">
+          <a href="/products/${sku}">
             <img src="${imgURL}" alt="${product.name}">
           </a>
         </div>
 
         <div>
-          <a href="${urlSafe(pageURL)}">${product.name}</a>
+          <a href="/products/${sku}">${product.name}</a>
         </div>
 
       </div>
@@ -208,26 +248,26 @@ module.exports = function (eleventyConfig) {
   //-------------------------------------------------------------
   // Build Department cards
   //-------------------------------------------------------------
-  eleventyConfig.addShortcode("buildDepartmentCards", () => {
-    let text = "";
-    departmentsData.forEach((dept) => {
-      if (dept.id.substr(-3) === "000") {
-        text += `<div class="dept-card">`;
+  // eleventyConfig.addShortcode("buildDepartmentCards", () => {
+  //   let text = "";
+  //   departmentsData.forEach((dept) => {
+  //     if (dept.id.substr(-3) === "000") {
+  //       text += `<div class="dept-card">`;
 
-        let pageLink = `${basePath}/departments/${urlSafe(dept.label)}`;
-        let imgLink = `${basePath}/img/${dept.icon}`;
+  //       let pageLink = `${basePath}/departments/${slugify(dept.label, {lower: true, strict: true})}`;
+  //       let imgLink = `${basePath}/img/${dept.icon}`;
 
-        text += `
-          <a href="${pageLink}/">
-          <img src="${imgLink}" alt="${dept.label}"><br>${dept.label}
-        </a>
-      </div>
-      `;
-      }
-    });
+  //       text += `
+  //         <a href="${pageLink}/">
+  //         <img src="${imgLink}" alt="${dept.label}"><br>${dept.label}
+  //       </a>
+  //     </div>
+  //     `;
+  //     }
+  //   });
 
-    return text;
-  });
+  //   return text;
+  // });
 
   //-------------------------------------------------------------
   // Generate department dropdown list
@@ -238,8 +278,9 @@ module.exports = function (eleventyConfig) {
     categoriesData
       .sort((a,b) => a.label.localeCompare(b.label))
       .forEach(category => {
+        console.log(`Category: ${slugify(category.label, {lower: true, strict: true})}`);
         if (category.departments.length === 0) {
-          text += `<li><a href="/departments/${urlSafe(category.label)}">${category.label}</a></li>`
+          text += `<li><a href="/departments/${slugify(category.label, {lower: true, strict: true})}">${category.label}</a></li>`
         } else {
           text += `<li>${category.label}<ul>`
 
@@ -258,7 +299,7 @@ module.exports = function (eleventyConfig) {
           deptList
             .sort((a, b) => a.localeCompare(b))
             .forEach(dept => {
-            text += `<li><a href="/departments/${urlSafe(dept)}">${dept}</a></li>`;
+            text += `<li><a href="/departments/${slugify(dept, {lower: true, strict: true})}">${dept}</a></li>`;
           })
           
           text += `</ul></li>`
@@ -270,7 +311,6 @@ module.exports = function (eleventyConfig) {
 
     text += '</ul>';
 
-    // console.log(text);
     return text;
   });
 
@@ -286,18 +326,6 @@ module.exports = function (eleventyConfig) {
 };
 
 //----------------------------- End of main config function -------------------------------
-
-//-------------------------------------------------------------
-// Strip out any special characters from the URL (for Windows)
-//-------------------------------------------------------------
-const urlSafe = (text) => {
-  let txt = text
-    .replace(/[\,\"\.\*\@\!\?\<\>\&\^\%\$\#\~\`]/g, "")
-    .replace(/\s+/, "-")
-    .toLowerCase();
-
-  return txt;
-};
 
 //-------------------------------------------------------------
 // Extract marked summary from text.
