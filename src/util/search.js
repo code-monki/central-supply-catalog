@@ -30,8 +30,9 @@ let ms = new miniSearch({
     "name",
     "description",
     "cost",
+    "image"
 ],
-  storeFields: ['sku', 'name', 'description', 'cost']
+  storeFields: ['sku', 'name', 'description', 'cost', 'image']
 });
 
 const products = inputFiles.flatMap((file) => JSON.parse(fs.readFileSync(file)));

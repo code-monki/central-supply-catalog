@@ -314,8 +314,8 @@ const performSiteSearch = (params) => {
        */
 
       const miniSearch = new MiniSearch({
-        fields: ["sku", "name", "description", "cost"],
-        storeFields: ["sku", "name", "description", "cost"],
+        fields: ["sku", "name", "description", "cost", "image"],
+        storeFields: ["sku", "name", "description", "cost", "image"],
       });
 
       miniSearch.addAll(data);
@@ -332,6 +332,7 @@ const performSiteSearch = (params) => {
       str += `<div class="container">`;
 
       results.forEach((product) => {
+        console.log(`product: ${product}`)
         img = product.image ? product.image : "/img/products/no-image.png";
         str += `
           <div class="search-result-row">
