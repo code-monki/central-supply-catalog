@@ -38,14 +38,13 @@
         & img {
           height: 5rem;
           width: 5rem;
-          ;
           object-fit: contain;
           border: 1px solid black;
           margin: 1rem 0;
 
           @include response(md) {
-            height: 6rem;
-            width: 6rem;
+            height: 7.5rem;
+            width: 7.5rem;
           }
         }
       }
