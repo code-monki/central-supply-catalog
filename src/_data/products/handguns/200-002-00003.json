@@ -10,7 +10,7 @@
   "techLevel": 3,
   "qrebs": "R=0",
   "damage": "Bullet-0",
-  "image": "",
+  "image": "/img/products/auto-revolver.png",
   "description": "<p><!-- Summary Start -->Prototype version of the light revolver.<!-- Summary End --> This type of firearm uses a multiple chambered cylinder instead of a magazine.</p>",
   "stats": [],
   "accessories": [

@@ -10,7 +10,7 @@
   "techLevel": 8,
   "qrebs": "R=2",
   "damage": "Bullet-1",
-  "image": "",
+  "image": "/img/products/pistol.png",
   "description": "<p><!-- Summary Start -->Disposable version of the pistol.<!-- Summary End --> This version is constructed of relatively inexpensive materials and has a working lifetime measured in days.</p>",
   "stats": [],
   "accessories": [

@@ -10,7 +10,7 @@
   "techLevel": 5,
   "qrebs": "R=5",
   "damage": "Bullet-6",
-  "image": "",
+  "image": "/img/products/pistol.png",
   "description": "<p><!-- Summary Start -->The very heavy pistol is extremely heavy but has a longer range and inflicts more damage.<!-- Summary End --></p>",
   "stats": [],
   "accessories": [

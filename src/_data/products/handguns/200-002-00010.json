@@ -10,7 +10,7 @@
   "techLevel": 5,
   "qrebs": "R=2",
   "damage": "Bullet-1",
-  "image": "",
+  "image": "/img/products/pistol.png",
   "description": "<p><!-- Summary Start -->The pistol is a semi-automatic, magazine-fed handgun.<!-- Summary End --></p>",
   "stats": [],
   "accessories": [

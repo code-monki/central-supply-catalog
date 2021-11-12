@@ -10,7 +10,7 @@
   "techLevel": 4,
   "qrebs": "R=1",
   "damage": "Bullet-2",
-  "image": "",
+  "image": "/img/products/pistol.png",
   "description": "<p><!-- Summary Start -->Experimental version of the snub pistol.<!-- Summary End --> The pistol is a semi-automatic, magazine-fed handgun.</p>",
   "stats": [],
   "accessories": [

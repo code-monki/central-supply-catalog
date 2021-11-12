@@ -10,7 +10,7 @@
   "techLevel": 4,
   "qrebs": "R=2",
   "damage": "Bullet-1",
-  "image": "",
+  "image": "/img/products/auto-revolver.png",
   "description": "<p><!-- Summary Start --> The revolver uses a multiple chambered cylinder instead of a magazine.<!-- Summary End --></p>",
   "stats": [],
   "accessories": [

@@ -10,7 +10,7 @@
   "techLevel": 7,
   "qrebs": "R=3",
   "damage": "Bullet-3",
-  "image": "",
+  "image": "/img/products/pistol.png",
   "description": "<p><!-- Summary Start -->Modified version of the heavy pistol.<!-- Summary End --> The pistol is a semi-automatic, magazine-fed handgun.</p>",
   "stats": [],
   "accessories": [

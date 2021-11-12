@@ -11,7 +11,7 @@
   "qrebs": "R=2",
   "damage": "Bullet-3",
   "image": "",
-  "description": "A magazine-fed, automatic carbine designed to fire pistol ammunition.",
+  "description": "<!-- Summary Start -->A magazine-fed, automatic carbine designed to fire pistol ammunition.<!-- Summary End -->",
   "stats": [],
   "accessories": [
     "200-011-00001",

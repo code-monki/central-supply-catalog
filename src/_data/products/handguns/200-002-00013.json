@@ -10,7 +10,7 @@
   "techLevel": 5,
   "qrebs": "R=2",
   "damage": "Bullet-2",
-  "image": "",
+  "image": "/img/products/pistol.png",
   "description": "<p><!-- Summary Start -->Early version of the magnum pistol.<!-- Summary End --> The magnum pistol uses a heavier round and has a longer range than the standard pistol.</p>",
   "stats": [],
   "accessories": [

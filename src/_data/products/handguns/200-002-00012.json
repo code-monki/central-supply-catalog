@@ -10,7 +10,7 @@
   "techLevel": 5,
   "qrebs": "R=1",
   "damage": "Bullet-0",
-  "image": "",
+  "image": "/img/products/pistol.png",
   "description": "<p><!-- Summary Start -->The light pistol is a semi-automatic, magazine-fed handgun.<!-- Summary End --></p>",
   "stats": [],
   "accessories": [

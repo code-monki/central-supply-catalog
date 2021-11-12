@@ -10,7 +10,7 @@
   "techLevel": 6,
   "qrebs": "R=3",
   "damage": "Bullet-2",
-  "image": "",
+  "image": "/img/products/pistol.png",
   "description": "<p><!-- Summary Start -->The magnum pistol is heavier than the standard pistol, uses more powerful ammunition, and generally has a longer range.<!-- Summary End --></p>",
   "stats": [],
   "accessories": [

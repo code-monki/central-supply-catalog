@@ -10,7 +10,7 @@
   "techLevel": 8,
   "qrebs": "R=2",
   "damage": "Bullet-3",
-  "image": "",
+  "image": "/img/products/pistol.png",
   "description": "<p><!-- Summary Start -->Advanced version of the pistol.<!-- Summary End --> The pistol is a semi-automatic, magazine-fed handgun.</p>",
   "stats": [],
   "accessories": [
