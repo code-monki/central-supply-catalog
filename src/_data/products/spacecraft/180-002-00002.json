@@ -1,0 +1,25 @@
+{
+  "sku": "180-002-00002",
+  "type": "transportation",
+  "subtype": "spacecraft",
+  "name": "Type A Free Trader",
+  "mfr": "",
+  "cost": 32100000,
+  "displacement": 200,
+  "techLevel": 10,
+  "qrebs": "N/A",
+  "image": "/img/products/180-002-00002.png",
+  "description": "<p><!-- Summary Start -->The TL-10 Beowulf-class Free Trader is a short-haul itinerant merchant ship plying the space lanes carrying both cargo and passengers.<!-- Summary End --> The ship is typically capable of Jump-1.</p>",
+  "categories": ["transportation", "spacecraft"],
+  "sources": [
+    {
+      "publication": "Traveller 5.10 Core Rules Book 2 : Starships",
+      "authors": ["Miller, Marc"],
+      "publisher": {
+        "name": "Far Future Enterprises",
+        "url": "https://farfuture.net"
+      }
+    }
+],
+  "tags": ["products", "transportation", "spacecraft"]
+}

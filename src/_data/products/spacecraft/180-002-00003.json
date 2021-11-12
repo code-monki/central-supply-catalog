@@ -1,0 +1,25 @@
+{
+  "sku": "180-002-00003",
+  "type": "transportation",
+  "subtype": "spacecraft",
+  "name": "Type A2 Far Trader",
+  "mfr": "",
+  "cost": 44100000,
+  "displacement": 200,
+  "techLevel": 13,
+  "qrebs": "N/A",
+  "image": "/img/products/180-002-00003.png",
+  "description": "<p><!-- Summary Start -->The Type A2 is a small merchant carrying primarily cargo on unscheduled routes, enhanced by a greater range (that is, Jump-2) than similar ships.<!-- Summary End --> The ship is typically capable of Jump 2.</p>",
+  "categories": ["transportation", "spacecraft"],
+  "sources": [
+    {
+      "publication": "Traveller 5.10 Core Rules Book 2 : Starships",
+      "authors": ["Miller, Marc"],
+      "publisher": {
+        "name": "Far Future Enterprises",
+        "url": "https://farfuture.net"
+      }
+    }
+],
+  "tags": ["products", "transportation", "spacecraft"]
+}

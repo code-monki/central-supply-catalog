@@ -1,0 +1,25 @@
+{
+  "sku": "180-002-00015",
+  "type": "transportation",
+  "subtype": "spacecraft",
+  "name": "Type PG Daring-class Patrol Frigate (PG-DA43)",
+  "mfr": "",
+  "cost": 243100000,
+  "displacement": 400,
+  "techLevel": 14,
+  "qrebs": "N/A",
+  "image": "",
+  "description": "<p><!-- Summary Start -->The Daring-class Type PG Patrol Frigate is an intermediate naval vessel deployed in a offensive role; the ship is tailored for long-term operations (patrol).<!-- Summary End --></p>",
+  "categories": ["transportation", "spacecraft"],
+  "sources": [
+    {
+      "publication": "Traveller 5.10 Core Rules Book 2 : Starships",
+      "authors": ["Miller, Marc"],
+      "publisher": {
+        "name": "Far Future Enterprises",
+        "url": "https://farfuture.net"
+      }
+    }
+],
+  "tags": ["products", "transportation", "spacecraft"]
+}

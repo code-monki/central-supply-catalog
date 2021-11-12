@@ -1,0 +1,25 @@
+{
+  "sku": "180-002-00001",
+  "type": "transportation",
+  "subtype": "spacecraft",
+  "name": "Type S Scout/Courier",
+  "mfr": "",
+  "cost": 34100000,
+  "displacement": 100,
+  "techLevel": 12,
+  "qrebs": "N/A",
+  "image": "/img/products/180-002-00001.png",
+  "description": "<p><!-- Summary Start -->The Type S Scout/Courier is a small Jump-2 exploratory vessel intended for routine system surveys or non-priority courier duties<!-- Summary End --> Many are loaned to retired or reserve duty scout personnel for contractor surveys or courier duties.</p>",
+  "categories": ["transportation", "spacecraft"],
+  "sources": [
+    {
+      "publication": "Traveller 5.10 Core Rules Book 2 : Starships",
+      "authors": ["Miller, Marc"],
+      "publisher": {
+        "name": "Far Future Enterprises",
+        "url": "https://farfuture.net"
+      }
+    }
+  ],
+  "tags": ["products", "transportation", "spacecraft"]
+}

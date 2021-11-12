@@ -1,0 +1,25 @@
+{
+  "sku": "180-002-00009",
+  "type": "transportation",
+  "subtype": "spacecraft",
+  "name": "Type SD System Defense Boat",
+  "mfr": "",
+  "cost": 130000000,
+  "displacement": 400,
+  "techLevel": 15,
+  "qrebs": "N/A",
+  "image": "/img/products/180-002-00009.png",
+  "description": "<p><!-- Summary Start -->The Type SD System Defense is a dedicated system protection ship.<!-- Summary End --> By eschewing a Jump Drive and its associated fuel burden, the ship can substantially increase armor and carry an extensive load of missiles.</p>",
+  "categories": ["transportation", "spacecraft"],
+  "sources": [
+    {
+      "publication": "Traveller 5.10 Core Rules Book 2 : Starships",
+      "authors": ["Miller, Marc"],
+      "publisher": {
+        "name": "Far Future Enterprises",
+        "url": "https://farfuture.net"
+      }
+    }
+],
+  "tags": ["products", "transportation", "spacecraft"]
+}

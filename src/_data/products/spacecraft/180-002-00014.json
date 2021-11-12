@@ -1,0 +1,25 @@
+{
+  "sku": "180-002-00014",
+  "type": "transportation",
+  "subtype": "spacecraft",
+  "name": "Type E Corvette",
+  "mfr": "",
+  "cost": 134000000,
+  "displacement": 400,
+  "techLevel": 14,
+  "qrebs": "N/A",
+  "image": "/img/products/180-002-00014.png",
+  "description": "<p><!-- Summary Start -->The Type E is an intermediate naval vessel deployed in an offensive role, the ship is tailored for long-term operations in a specific area.<!-- Summary End --></p><p>Wings add 20 tons to the Hull. Procedure calls for Fins to be folded (just) before landing on a world surface.</p><p>Based on operational status, this ship is sometimes called a Patrol Cruiser.</p>",
+  "categories": ["transportation", "spacecraft"],
+  "sources": [
+    {
+      "publication": "Traveller 5.10 Core Rules Book 2 : Starships",
+      "authors": ["Miller, Marc"],
+      "publisher": {
+        "name": "Far Future Enterprises",
+        "url": "https://farfuture.net"
+      }
+    }
+],
+  "tags": ["products", "transportation", "spacecraft"]
+}

@@ -1,0 +1,25 @@
+{
+  "sku": "180-002-00016",
+  "type": "transportation",
+  "subtype": "spacecraft",
+  "name": "Type BC Kinunir-class Battle Cruiser",
+  "mfr": "",
+  "cost": 568000000,
+  "displacement": 1200,
+  "techLevel": 14,
+  "qrebs": "N/A",
+  "image": "",
+  "description": "<p><!-- Summary Start -->The Kinunir1-class Type BC Battle Cruiser is an experimental ship design2 intended for power projection by the Empire in its territories.<!-- Summary End --></p>",
+  "categories": ["transportation", "spacecraft"],
+  "sources": [
+    {
+      "publication": "Traveller 5.10 Core Rules Book 2 : Starships",
+      "authors": ["Miller, Marc"],
+      "publisher": {
+        "name": "Far Future Enterprises",
+        "url": "https://farfuture.net"
+      }
+    }
+],
+  "tags": ["products", "transportation", "spacecraft"]
+}

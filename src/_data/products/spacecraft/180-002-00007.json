@@ -1,0 +1,25 @@
+{
+  "sku": "180-002-00007",
+  "type": "transportation",
+  "subtype": "spacecraft",
+  "name": "Type M Subsidized Liner",
+  "mfr": "",
+  "cost": 140000000,
+  "displacement": 600,
+  "techLevel": 12,
+  "qrebs": "N/A",
+  "image": "/img/products/180-002-00007.png",
+  "description": "<p><!-- Summary Start -->The Type M is a small commercial vessel carrying primarily passengers on scheduled routes; local governments subsidize the ship’s expenses to encourage service to specific routes.<!-- Summary End --></p>",
+  "categories": ["transportation", "spacecraft"],
+  "sources": [
+    {
+      "publication": "Traveller 5.10 Core Rules Book 2 : Starships",
+      "authors": ["Miller, Marc"],
+      "publisher": {
+        "name": "Far Future Enterprises",
+        "url": "https://farfuture.net"
+      }
+    }
+],
+  "tags": ["products", "transportation", "spacecraft"]
+}

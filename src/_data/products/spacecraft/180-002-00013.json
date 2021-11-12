@@ -1,0 +1,25 @@
+{
+  "sku": "180-002-00013",
+  "type": "transportation",
+  "subtype": "spacecraft",
+  "name": "Type P Vargr Corsair",
+  "mfr": "",
+  "cost": 124000000,
+  "displacement": 400,
+  "techLevel": 14,
+  "qrebs": "N/A",
+  "image": "/img/products/180-002-00013.png",
+  "description": "<p><!-- Summary Start -->  The Type P is a fighting ship capable of operating independently attacking commercial shipping (specifically to steal its freight or cargo).<!-- Summary End --></p><p>Wings and Fins in extended position add 4 tons to ship tonnage. Procedure calls for Wings to be collapsed and Fins folded before entering Jump (to avoid overtonnage penalties).</p>",
+  "categories": ["transportation", "spacecraft"],
+  "sources": [
+    {
+      "publication": "Traveller 5.10 Core Rules Book 2 : Starships",
+      "authors": ["Miller, Marc"],
+      "publisher": {
+        "name": "Far Future Enterprises",
+        "url": "https://farfuture.net"
+      }
+    }
+],
+  "tags": ["products", "transportation", "spacecraft"]
+}

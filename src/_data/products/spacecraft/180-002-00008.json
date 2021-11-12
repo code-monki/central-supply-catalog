@@ -1,0 +1,25 @@
+{
+  "sku": "180-002-00008",
+  "type": "transportation",
+  "subtype": "spacecraft",
+  "name": "Type K Safari",
+  "mfr": "",
+  "cost": 104000000,
+  "displacement": 200,
+  "techLevel": 11,
+  "qrebs": "N/A",
+  "image": "/img/products/180-002-00008.png",
+  "description": "<p><!-- Summary Start -->The Type K is a commercial vessel specializing in charters to world surfaces for recreation and tourism.<!-- Summary End --></p>",
+  "categories": ["transportation", "spacecraft"],
+  "sources": [
+    {
+      "publication": "Traveller 5.10 Core Rules Book 2 : Starships",
+      "authors": ["Miller, Marc"],
+      "publisher": {
+        "name": "Far Future Enterprises",
+        "url": "https://farfuture.net"
+      }
+    }
+],
+  "tags": ["products", "transportation", "spacecraft"]
+}

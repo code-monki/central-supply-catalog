@@ -1,0 +1,25 @@
+{
+  "sku": "180-002-00004",
+  "type": "transportation",
+  "subtype": "spacecraft",
+  "name": "Type R Subsidized Merchant",
+  "mfr": "",
+  "cost": 55100000,
+  "displacement": 400,
+  "techLevel": 11,
+  "qrebs": "N/A",
+  "image": "/img/products/180-002-00004.png",
+  "description": "<p><!-- Summary Start -->The Type R Subsidized Merchant (colloquially: the Fat Trader) is an increased-payload mixed passenger and car- go trader with Jump-1 drives. Local governments subsidize the ship’s expenses to encourage service to specific routes.<!-- Summary End --></p><p>The Subsidized Merchant (Far Trader) is designed as a clean cargo platform of 200 tons with bow and stern loading doors. Landing Skids restrict the ship to tarmac (or bedrock) landings. Typical landing procedure is to glide approach the landing area, slow to a near stop, and settle on Landing Skids.</p>",
+  "categories": ["transportation", "spacecraft"],
+  "sources": [
+    {
+      "publication": "Traveller 5.10 Core Rules Book 2 : Starships",
+      "authors": ["Miller, Marc"],
+      "publisher": {
+        "name": "Far Future Enterprises",
+        "url": "https://farfuture.net"
+      }
+    }
+],
+  "tags": ["products", "transportation", "spacecraft"]
+}

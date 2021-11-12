@@ -1,0 +1,25 @@
+{
+  "sku": "180-002-00012",
+  "type": "transportation",
+  "subtype": "spacecraft",
+  "name": "Type L Lab Ship",
+  "mfr": "",
+  "cost": 77000000,
+  "displacement": 400,
+  "techLevel": 15,
+  "qrebs": "N/A",
+  "image": "/img/products/180-002-00012.png",
+  "description": "<p><!-- Summary Start -->The Type L is a scientific research vessel devoted to gathering scientific data; it has the ability to process it im- mediately.<!-- Summary End --></p><p>Available space for sensors, weapons, defenses, additional armor, vehicles, crew, cargo, controls, and other details is 212 tons.</p><p>The 40-ton Pinnace is docked to the central spoke.</p><p>The Ship is not equipped to land on a world surface.The ship has two identical Drive Compartments with the two Maneuver Drive-A connected by a Nexus to create Maneuver Drive-A2 (4 tons, MCr8, Potential-1 in this Hull). Similarly, Jump Drive B2 (30 tons, MCr30, Potential-2 in this Hull) and Power Plant-B2 (14 tons, MCr14, Potential-2). [The building Ship Yard acquired the drives as Naval surplus, and probably did not pass the savings on to the buyers].</p>",
+  "categories": ["transportation", "spacecraft"],
+  "sources": [
+    {
+      "publication": "Traveller 5.10 Core Rules Book 2 : Starships",
+      "authors": ["Miller, Marc"],
+      "publisher": {
+        "name": "Far Future Enterprises",
+        "url": "https://farfuture.net"
+      }
+    }
+],
+  "tags": ["products", "transportation", "spacecraft"]
+}

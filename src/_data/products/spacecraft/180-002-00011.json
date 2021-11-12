@@ -1,0 +1,25 @@
+{
+  "sku": "180-002-00011",
+  "type": "transportation",
+  "subtype": "spacecraft",
+  "name": "Type C Mercenary Cruiser",
+  "mfr": "",
+  "cost": 187000000,
+  "displacement": 800,
+  "techLevel": 11,
+  "qrebs": "N/A",
+  "image": "/img/products/180-002-00011.png",
+  "description": "<p><!-- Summary Start -->The Type C is a fighting ship capable of operating in the offensive mode (in both weapons and defenses); it is adapted to carrying a military (mercenary) unit for on-the-ground operations.<!-- Summary End --></p>",
+  "categories": ["transportation", "spacecraft"],
+  "sources": [
+    {
+      "publication": "Traveller 5.10 Core Rules Book 2 : Starships",
+      "authors": ["Miller, Marc"],
+      "publisher": {
+        "name": "Far Future Enterprises",
+        "url": "https://farfuture.net"
+      }
+    }
+],
+  "tags": ["products", "transportation", "spacecraft"]
+}

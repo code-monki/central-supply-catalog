@@ -1,0 +1,25 @@
+{
+  "sku": "180-002-00010",
+  "type": "transportation",
+  "subtype": "spacecraft",
+  "name": "Type U Packet",
+  "mfr": "",
+  "cost": 160000000,
+  "displacement": 400,
+  "techLevel": 12,
+  "qrebs": "N/A",
+  "image": "/img/products/180-002-00010.png",
+  "description": "<p><!-- Summary Start -->The Type U Packet is an itinerant passenger ship specializing in safe passage off the main routes.<!-- Summary End --> Much of its business is corporate charters transporting executives to dangerous worlds, and bringing them back safely.</p>",
+  "categories": ["transportation", "spacecraft"],
+  "sources": [
+    {
+      "publication": "Traveller 5.10 Core Rules Book 2 : Starships",
+      "authors": ["Miller, Marc"],
+      "publisher": {
+        "name": "Far Future Enterprises",
+        "url": "https://farfuture.net"
+      }
+    }
+],
+  "tags": ["products", "transportation", "spacecraft"]
+}

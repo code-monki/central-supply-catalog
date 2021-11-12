@@ -1,0 +1,25 @@
+{
+  "sku": "180-002-00005",
+  "type": "transportation",
+  "subtype": "spacecraft",
+  "name": "Type CE Close Escort",
+  "mfr": "",
+  "cost": 116000000,
+  "displacement": 400,
+  "techLevel": 14,
+  "qrebs": "N/A",
+  "image": "/img/products/180-002-00005.png",
+  "description": "<p><!-- Summary Start -->The Type CE is a minor naval vessel deployed in a defensive role; the ship is tailored to operate in close formation with larger vessels.<!-- Summary End --></p><p>The ship has three modes of operation:<ul><li><strong>Standard with Drop Tanks (400 tons):</strong> Jump Drive H in 400-ton hull produces Jump-4. Maneuver Drive H = 4G.</li><li><strong>Without Drop Tanks (300 tons):</strong> Although Jump Drive-H in a 300-ton hull can produce Jump-5, in-hull fuel tankage restricts the drive effect to Jump-2 (based on 60 tons of fuel). Maneuver Drive-H = 5G.</li><li><strong>Special (300 tons after dropping tanks):</strong> The ship with Drop Tanks and Transfer Pump can process 150 tons of fuel to support Jump-5, with the Drop Tanks shed before Jump initiates.</li></ul></p><p>The 100-ton Drop Tank can support one HardPoint and associated weapon.</p>",
+  "categories": ["transportation", "spacecraft"],
+  "sources": [
+    {
+      "publication": "Traveller 5.10 Core Rules Book 2 : Starships",
+      "authors": ["Miller, Marc"],
+      "publisher": {
+        "name": "Far Future Enterprises",
+        "url": "https://farfuture.net"
+      }
+    }
+],
+  "tags": ["products", "transportation", "spacecraft"]
+}
