@@ -242,7 +242,7 @@ module.exports = function (eleventyConfig) {
       .sort((a,b) => a.label.localeCompare(b.label))
       .forEach(category => {
         if (category.departments.length === 0) {
-          text += `<li><a href="/departments/${slugify(category.label, {lower: true, strict: true})}">${category.label}</a></li>`
+          text += `<li><a href="/departments/${slugify(category.label, {lower: true, strict: true})}" class="menu-item">${category.label}</a></li>`
         } else {
           text += `<li><a href="/departments/${slugify(category.label, {lower: true, strict: true})}">${category.label}</a><ul>`
 
@@ -261,7 +261,7 @@ module.exports = function (eleventyConfig) {
           deptList
             .sort((a, b) => a.localeCompare(b))
             .forEach(dept => {
-            text += `<li><a href="/departments/${slugify(dept, {lower: true, strict: true})}">${dept}</a></li>`;
+            text += `<li><a href="/departments/${slugify(dept, {lower: true, strict: true})}" class="submenu-item">${dept}</a></li>`;
           })
           
           text += `</ul></li>`
