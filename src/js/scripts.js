@@ -452,16 +452,3 @@ window.onclick = (e) => {
   }
 };
 
-// handle touch event outside of dropdown
-// window.addEventListener("touchend", (e) => {
-//   if (e.target.parentElement.matches(".row-2-content")) {
-//     console.log('Clicked inside ');
-//     // e.preventDefault();
-//   } else {
-//     console.log('clicked outside');
-//     let el = document.getElementById("dept-dropdown");
-//     if (el.style.display === 'block') {
-//       el.style.display = 'none';
-//     }
-//   }
-// });
