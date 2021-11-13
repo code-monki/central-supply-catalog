@@ -54,11 +54,11 @@ const extractSummary = (text) => {
 // -------- Get Screen Coordinates of Object ----------
 const getScreenCoordinates = (obj) => {
   var p = {};
-  p.x = obj.offsetLeft;
-  p.y = obj.offsetTop;
+  p.left = obj.offsetLeft;
+  p.top = obj.offsetTop;
   while (obj.offsetParent) {
-    p.x = p.x + obj.offsetParent.offsetLeft;
-    p.y = p.y + obj.offsetParent.offsetTop;
+    p.left = p.left + obj.offsetParent.offsetLeft;
+    p.top = p.top + obj.offsetParent.offsetTop;
     if (obj == document.getElementsByTagName("body")[0]) {
       break;
     } else {
@@ -451,4 +451,28 @@ window.onclick = (e) => {
     }
   }
 };
+
+// touch event listener for dropdown box
+var clientX, clientY;
+window.addEventListener('touchstart', (e) => {
+  // capture the x,y coordinates
+  clientX = e.touches[0].clientX;
+  clientY = e.touches[0].clientY;
+  console.log(`x: ${clientX}\ny: ${clientY}`);
+
+})
+
+window.addEventListener('touchend', (e) => {
+  const el = document.getElementById('dept-dropdown');
+  if (el.style.display === 'block') {
+    const {left, top} = getScreenCoordinates(el);
+    const right = left + el.offsetWidth;
+    const bottom = top + el.offsetHeight;
+    
+    if (clientX < left || clientX > right || clientY < top || clientY > bottom) {
+      el.style.display = 'none';
+    }
+  }
+
+});
 
