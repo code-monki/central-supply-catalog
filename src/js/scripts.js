@@ -382,8 +382,16 @@ if (pager !== null && pager !== undefined) {
 
 // ----------------  Departments Dropdown  -------------------------
 document.getElementById("dept-btn").addEventListener("click", (e) => {
+  console.log('clicking the dep button');
   let dc = document.getElementById("dept-dropdown");
-  dc.style.display = "block";
+  if (dc.style.display === 'block') {
+    // close the dropdown
+    dc.style.display = 'none';
+  } else {
+    // open the dropdown
+    dc.style.display = 'block';
+  }
+  e.preventDefault();
 });
 
 // ------------  End of Departments Dropdown  ----------------------
@@ -433,20 +441,27 @@ window.addEventListener("pageshow", () => {
 
 // handle click event outside of dropdown
 window.onclick = (e) => {
-  if (!e.target.matches(".dept-btn")) {
-    // close the dropdown
-    console.log('Fired click event')
-    document.getElementById("dept-dropdown").style.display = "none";
+  if (e.target.parentElement.matches(".row-2-content")) {
+    console.log(`e.target.parentElement: ${e.target.parentElement.className}`);
+    e.preventDefault();
+  } else {
+    let el = document.getElementById("dept-dropdown");
+    if (el.style.display === 'block') {
+      el.style.display = 'none';
+    }
   }
 };
 
 // handle touch event outside of dropdown
-window.addEventListener("touchend", (e) => {
-  if (!e.target.matches(".dept-btn") &&
-      !e.target.matches(".menu-item") &&
-      !e.target.matches(".submenu-item")) {
-    // close the dropdown
-    console.log('Fired touch event')
-    document.getElementById("dept-dropdown").style.display = "none";
-  }
-});
+// window.addEventListener("touchend", (e) => {
+//   if (e.target.parentElement.matches(".row-2-content")) {
+//     console.log('Clicked inside ');
+//     // e.preventDefault();
+//   } else {
+//     console.log('clicked outside');
+//     let el = document.getElementById("dept-dropdown");
+//     if (el.style.display === 'block') {
+//       el.style.display = 'none';
+//     }
+//   }
+// });
