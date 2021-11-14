@@ -7,13 +7,11 @@
     "doc": "docs"
   },
   "scripts": {
-    "dev": "ELEVENTY_ENV=dev npx @11ty/eleventy --output=build --pathprefix=; sass src/scss:build/css",
-    "prod": "ELEVENTY_ENV=prod npx @11ty/eleventy --output=dist; sass src/scss:dist/css",
+    "dev": "ELEVENTY_ENV=dev npm-run-all sass --parallel watch:*",
     "sass": "sass src/scss:build/css",
     "gen-search-index": "node ./src/util/search.js  ",
     "watch:sass": "npm run sass -- --watch",
     "watch:eleventy": "npx @11ty/eleventy --serve --output=build",
-    "start-no-sass": "ELEVENTY_ENV=dev npm-run-all sass --parallel watch:*",
     "start": "ELEVENTY_ENV=dev npx eleventy --serve"
   },
   "repository": {
