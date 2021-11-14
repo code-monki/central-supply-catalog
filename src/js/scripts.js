@@ -382,6 +382,7 @@ if (pager !== null && pager !== undefined) {
 
 // ----------------  Departments Dropdown  -------------------------
 document.getElementById("dept-btn").addEventListener("click", (e) => {
+  e.preventDefault();
   console.log('clicking the dep button');
   let dc = document.getElementById("dept-dropdown");
   if (dc.style.display === 'block') {
@@ -391,7 +392,6 @@ document.getElementById("dept-btn").addEventListener("click", (e) => {
     // open the dropdown
     dc.style.display = 'block';
   }
-  e.preventDefault();
 });
 
 // ------------  End of Departments Dropdown  ----------------------
@@ -440,9 +440,8 @@ window.addEventListener("pageshow", () => {
 });
 
 // handle click event outside of dropdown
-window.onclick = (e) => {
+document.onclick = (e) => {
   if (e.target.parentElement.matches(".row-2-content")) {
-    console.log(`e.target.parentElement: ${e.target.parentElement.className}`);
     e.preventDefault();
   } else {
     let el = document.getElementById("dept-dropdown");
@@ -451,28 +450,4 @@ window.onclick = (e) => {
     }
   }
 };
-
-// touch event listener for dropdown box
-var clientX, clientY;
-window.addEventListener('touchstart', (e) => {
-  // capture the x,y coordinates
-  clientX = e.touches[0].clientX;
-  clientY = e.touches[0].clientY;
-  console.log(`x: ${clientX}\ny: ${clientY}`);
-
-})
-
-window.addEventListener('touchend', (e) => {
-  const el = document.getElementById('dept-dropdown');
-  if (el.style.display === 'block') {
-    const {left, top} = getScreenCoordinates(el);
-    const right = left + el.offsetWidth;
-    const bottom = top + el.offsetHeight;
-    
-    if (clientX < left || clientX > right || clientY < top || clientY > bottom) {
-      el.style.display = 'none';
-    }
-  }
-
-});
 
