@@ -9,6 +9,12 @@
   "techLevel": 6,
   "qrebs": "",
   "image": "/img/products/200-011-00017.png",
+  "variants": [
+    {"sku": "200-011-00014", "label": "10-Rnd"},
+    {"sku": "200-011-00015", "label": "20-Rnd"},
+    {"sku": "200-011-00016", "label": "30-Rnd"},
+    {"sku": "200-011-00017", "label": "30-Rnd Variant"}
+  ],
   "description": "<p><!-- Summary Start -->6mm assault rifle magazine, 30 round capacity.<!-- Summary End --></p>",
   "categories": [
     "weapons",

@@ -9,6 +9,18 @@
   "techLevel": 6,
   "qrebs": "N/A",
   "image": "",
+  "variants": [
+    { "sku": "200-010-00032", "label": "1D Damage"}, 
+    { "sku": "200-010-00033", "label": "2D Damage"}, 
+    { "sku": "200-010-00034", "label": "3D Damage"}, 
+    { "sku": "200-010-00035", "label": "4D Damage"}, 
+    { "sku": "200-010-00036", "label": "5D Damage"}, 
+    { "sku": "200-010-00037", "label": "6D Damage"}, 
+    { "sku": "200-010-00038", "label": "7D Damage"}, 
+    { "sku": "200-010-00039", "label": "8D Damage"}, 
+    { "sku": "200-010-00040", "label": "9D Damage"}, 
+    { "sku": "200-010-00041", "label": "10D Damage"}
+  ],
   "description": "<p><!-- Summary Start -->Standard 15mm Shotgun round, 8D damage, 100 round box.<!-- Summary End --></p>",
   "categories": [
     "weapons",

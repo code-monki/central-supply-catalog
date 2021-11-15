@@ -9,6 +9,18 @@
   "techLevel": 6,
   "qrebs": "N/A",
   "image": "",
+  "variants": [
+    { "sku": "200-010-00072", "label": "1D Damage"}, 
+    { "sku": "200-010-00073", "label": "2D Damage"}, 
+    { "sku": "200-010-00074", "label": "3D Damage"}, 
+    { "sku": "200-010-00075", "label": "4D Damage"}, 
+    { "sku": "200-010-00076", "label": "5D Damage"}, 
+    { "sku": "200-010-00077", "label": "6D Damage"}, 
+    { "sku": "200-010-00078", "label": "7D Damage"}, 
+    { "sku": "200-010-00079", "label": "8D Damage"}, 
+    { "sku": "200-010-00080", "label": "9D Damage"}, 
+    { "sku": "200-010-00081", "label": "10D Damage"}
+  ],
   "description": "<p><!-- Summary Start -->Standard 3mm Staplegun round, 4D damage, 100 round box.<!-- Summary End --></p>",
   "categories": [
     "weapons",

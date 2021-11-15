@@ -9,6 +9,18 @@
   "techLevel": 6,
   "qrebs": "N/A",
   "image": "",
+  "variants": [
+    { "sku": "200-010-00082", "label": "1D Damage"}, 
+    { "sku": "200-010-00083", "label": "2D Damage"}, 
+    { "sku": "200-010-00084", "label": "3D Damage"}, 
+    { "sku": "200-010-00085", "label": "4D Damage"}, 
+    { "sku": "200-010-00086", "label": "5D Damage"}, 
+    { "sku": "200-010-00087", "label": "6D Damage"}, 
+    { "sku": "200-010-00088", "label": "7D Damage"}, 
+    { "sku": "200-010-00089", "label": "8D Damage"}, 
+    { "sku": "200-010-00090", "label": "9D Damage"}, 
+    { "sku": "200-010-00091", "label": "10D Damage"}
+  ],
   "description": "<p><!-- Summary Start -->Standard 9mm Submachinegun round, 4D damage, 100 round box.<!-- Summary End --></p>",
   "categories": [
     "weapons",

@@ -30,6 +30,11 @@
                 </form>
               </div>
             </div>
+              {% if product.variants %}
+              <div class="product-variants">
+                {% generateVariants product.sku %}
+              </div>
+              {% endif %}
             <div class="row product-description">
               <div class="description-content">
                 <h5>Product Description</h5>

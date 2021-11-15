@@ -9,6 +9,18 @@
   "techLevel": 6,
   "qrebs": "N/A",
   "image": "",
+  "variants": [
+    { "sku": "200-010-00112", "label": "1D Damage"}, 
+    { "sku": "200-010-00113", "label": "2D Damage"}, 
+    { "sku": "200-010-00114", "label": "3D Damage"}, 
+    { "sku": "200-010-00115", "label": "4D Damage"}, 
+    { "sku": "200-010-00116", "label": "5D Damage"}, 
+    { "sku": "200-010-00117", "label": "6D Damage"}, 
+    { "sku": "200-010-00118", "label": "7D Damage"}, 
+    { "sku": "200-010-00119", "label": "8D Damage"}, 
+    { "sku": "200-010-00120", "label": "9D Damage"}, 
+    { "sku": "200-010-00121", "label": "10D Damage"}
+  ],
   "description": "<p><!-- Summary Start -->Standard 25mm VHeavy Carbine round, 8D damage, 100 round box.<!-- Summary End --></p>",
   "categories": [
     "weapons",
