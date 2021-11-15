@@ -9,6 +9,18 @@
   "techLevel": 6,
   "qrebs": "N/A",
   "image": "",
+  "variants": [
+    { "sku": "200-010-00092", "label": "1D Damage"}, 
+    { "sku": "200-010-00093", "label": "2D Damage"}, 
+    { "sku": "200-010-00094", "label": "3D Damage"}, 
+    { "sku": "200-010-00095", "label": "4D Damage"}, 
+    { "sku": "200-010-00096", "label": "5D Damage"}, 
+    { "sku": "200-010-00097", "label": "6D Damage"}, 
+    { "sku": "200-010-00098", "label": "7D Damage"}, 
+    { "sku": "200-010-00099", "label": "8D Damage"}, 
+    { "sku": "200-010-00100", "label": "9D Damage"}, 
+    { "sku": "200-010-00101", "label": "10D Damage"}
+  ],
   "description": "<p><!-- Summary Start -->Standard 13mm Machinegun round, 7D damage, 100 round box.<!-- Summary End --></p>",
   "categories": [
     "weapons",

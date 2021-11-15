@@ -9,6 +9,18 @@
   "techLevel": 6,
   "qrebs": "N/A",
   "image": "",
+  "variants": [
+    { "sku": "200-010-00002", "label": "1D Damage"}, 
+    { "sku": "200-010-00003", "label": "2D Damage"}, 
+    { "sku": "200-010-00004", "label": "3D Damage"}, 
+    { "sku": "200-010-00005", "label": "4D Damage"}, 
+    { "sku": "200-010-00006", "label": "5D Damage"}, 
+    { "sku": "200-010-00007", "label": "6D Damage"}, 
+    { "sku": "200-010-00008", "label": "7D Damage"}, 
+    { "sku": "200-010-00009", "label": "8D Damage"}, 
+    { "sku": "200-010-00010", "label": "9D Damage"}, 
+    { "sku": "200-010-00011", "label": "10D Damage"}
+  ],
   "description": "<p><!-- Summary Start -->Standard 8mm rifle round, 5D damage, 100 round box.<!-- Summary End --></p>",
   "categories": [
     "weapons",

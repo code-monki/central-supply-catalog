@@ -9,6 +9,10 @@
   "techLevel": 6,
   "qrebs": "",
   "image": "/img/products/200-011-00007.png",
+  "variants": [
+    {"sku": "200-011-00006", "label": "Leather Sling"},
+    {"sku": "200-011-00007", "label": "Synthetic Sling"}
+  ],
   "description": "<p><!-- Summary Start -->A rifle sling made of a synthetic material.<!-- Summary End --></p>",
   "categories": [
     "weapons",

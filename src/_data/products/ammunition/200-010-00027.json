@@ -9,6 +9,18 @@
   "techLevel": 6,
   "qrebs": "N/A",
   "image": "",
+  "variants": [
+    { "sku": "200-010-00022", "label": "1D Damage"}, 
+    { "sku": "200-010-00023", "label": "2D Damage"}, 
+    { "sku": "200-010-00024", "label": "3D Damage"}, 
+    { "sku": "200-010-00025", "label": "4D Damage"}, 
+    { "sku": "200-010-00026", "label": "5D Damage"}, 
+    { "sku": "200-010-00027", "label": "6D Damage"}, 
+    { "sku": "200-010-00028", "label": "7D Damage"}, 
+    { "sku": "200-010-00029", "label": "8D Damage"}, 
+    { "sku": "200-010-00030", "label": "9D Damage"}, 
+    { "sku": "200-010-00031", "label": "10D Damage"}
+  ],
   "description": "<p><!-- Summary Start -->Standard 4mm Handgun round, 6D damage, 100 round box.<!-- Summary End --></p>",
   "categories": [
     "weapons",

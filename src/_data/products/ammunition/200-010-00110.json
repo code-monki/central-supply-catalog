@@ -9,6 +9,18 @@
   "techLevel": 6,
   "qrebs": "N/A",
   "image": "",
+  "variants": [
+    { "sku": "200-010-00102", "label": "1D Damage"}, 
+    { "sku": "200-010-00103", "label": "2D Damage"}, 
+    { "sku": "200-010-00104", "label": "3D Damage"}, 
+    { "sku": "200-010-00105", "label": "4D Damage"}, 
+    { "sku": "200-010-00106", "label": "5D Damage"}, 
+    { "sku": "200-010-00107", "label": "6D Damage"}, 
+    { "sku": "200-010-00108", "label": "7D Damage"}, 
+    { "sku": "200-010-00109", "label": "8D Damage"}, 
+    { "sku": "200-010-00110", "label": "9D Damage"}, 
+    { "sku": "200-010-00111", "label": "10D Damage"}
+  ],
   "description": "<p><!-- Summary Start -->Standard 20mm Heavy Machinegun round, 9D damage, 100 round box.<!-- Summary End --></p>",
   "categories": [
     "weapons",

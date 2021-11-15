@@ -9,6 +9,18 @@
   "techLevel": 6,
   "qrebs": "N/A",
   "image": "",
+  "variants": [
+    { "sku": "200-010-00062", "label": "1D Damage"}, 
+    { "sku": "200-010-00063", "label": "2D Damage"}, 
+    { "sku": "200-010-00064", "label": "3D Damage"}, 
+    { "sku": "200-010-00065", "label": "4D Damage"}, 
+    { "sku": "200-010-00066", "label": "5D Damage"}, 
+    { "sku": "200-010-00067", "label": "6D Damage"}, 
+    { "sku": "200-010-00068", "label": "7D Damage"}, 
+    { "sku": "200-010-00069", "label": "8D Damage"}, 
+    { "sku": "200-010-00070", "label": "9D Damage"}, 
+    { "sku": "200-010-00071", "label": "10D Damage"}
+  ],
   "description": "<p><!-- Summary Start -->Standard 6mm Gauss gun round, 6D damage, 100 round box.<!-- Summary End --></p>",
   "categories": [
     "weapons",

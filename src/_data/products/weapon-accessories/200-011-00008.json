@@ -9,6 +9,10 @@
   "techLevel": 6,
   "qrebs": "",
   "image": "/img/products/200-011-00008.png",
+  "variants": [
+    {"sku": "200-011-00008", "label": "Single"},
+    {"sku": "200-011-00009", "label": "Double"}
+  ],
   "description": "<p><!-- Summary Start -->15mm shotgun single magazine.<!-- Summary End --></p>",
   "categories": [
     "weapons",
