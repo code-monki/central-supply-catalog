@@ -8,6 +8,7 @@
   },
   "scripts": {
     "dev": "ELEVENTY_ENV=dev npm-run-all sass --parallel watch:*",
+    "prod": "ELEVENTY_ENV=prod npx @11ty/eleventy --output=dist; sass src/scss:dist/css",
     "sass": "sass src/scss:build/css",
     "gen-search-index": "node ./src/util/search.js  ",
     "watch:sass": "npm run sass -- --watch",
