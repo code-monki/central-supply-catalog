@@ -31,6 +31,6 @@ A portion of the content is governed by the <a href="https://www.d20srd.org/ogl.
 
 ## Contributions
 
-Contributions are welcome with the understanding that the contributor grants permission for the content to be used on the site. Proper attribution will appear in the data files.
+Contributions are welcome with the understanding that the contributor grants permission for the content to be used on the site. Proper attribution will appear in the data files. See the [wiki](https://github.com/cmcknight/central-supply-catalog/wiki) for this project for information.
 
-The source code for the site is governed by the Creative Commons Attribution-ShareAlike 3.0 Unported license.
+The source code for the site is governed by the Creative Commons Attribution-ShareAlike 4.0 International license.
