@@ -11,23 +11,16 @@
   "qrebs": "N/A",
   "image": "",
   "description": "<p><!-- Summary Start -->50 meter length of fine flexible plasteel cable, capable of supporting kup to 250 kilograms.<!-- Summary End --> Rope is a versatile tool that has no real replacement even at higher tech levels. It is the single most important element of a climber's equipment; it can be used to bind prisoners; it can add safety to water or ravine crossings. A variety of types and sizes are available; in general, however, they are all similar in reliability and price within any given tech level.</p>",
-  "categories": [
-    "surface gear"
-  ],
+  "categories": ["surface gear"],
   "sources": [
     {
       "publication": "Traveller 5.10 Core Rules Book 3 : Worlds and Adventures",
-      "authors": [
-        "Miller, Marc"
-      ],
+      "authors": ["Miller, Marc"],
       "publisher": {
         "name": "Far Future Enterprises",
-        "url": "https://farfuture.net"
+        "url": "https://www.farfuture.net"
       }
     }
   ],
-  "tags": [
-    "products",
-    "surface gear"
-  ]
+  "tags": ["products", "surface gear"]
 }

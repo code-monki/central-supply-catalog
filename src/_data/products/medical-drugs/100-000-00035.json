@@ -11,23 +11,16 @@
   "qrebs": "N/A",
   "image": "",
   "description": "<p><!-- Summary Start -->Used to compel individuals to answer interrogation truthfully.<!-- Summary End --> One dose is sufficient to assure truthful answers for approximately two minutes, after which the user experiences one hour of unconsciousness, and suffers 2D in wounds.</p>",
-  "categories": [
-    "drugs medical"
-  ],
+  "categories": ["drugs medical"],
   "sources": [
     {
       "publication": "Traveller 5.10 Core Rules Book 3 : Worlds and Adventures",
-      "authors": [
-        "Miller, Marc"
-      ],
+      "authors": ["Miller, Marc"],
       "publisher": {
         "name": "Far Future Enterprises",
-        "url": "https://farfuture.net"
+        "url": "https://www.farfuture.net"
       }
     }
   ],
-  "tags": [
-    "products",
-    "drugs medical"
-  ]
+  "tags": ["products", "drugs medical"]
 }

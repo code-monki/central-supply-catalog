@@ -11,23 +11,16 @@
   "qrebs": "N/A",
   "image": "",
   "description": "<p><!-- Summary Start -->Basic survival tools.<!-- Summary End --> The portable survival kit includes:\n\n* Canteen\n* Climbing gear (including rope)\n* Compass\n* First aid kit\n* Folding Shovel\n* Salt tablets\n* Knife\n* Signal mirror\n* Sturdy all-terrain boots\n* Water purification tablets\n* Water trap</p>",
-  "categories": [
-    "toolkits"
-  ],
+  "categories": ["toolkits"],
   "sources": [
     {
       "publication": "Traveller 5.10 Core Rules Book 3 : Worlds and Adventures",
-      "authors": [
-        "Miller, Marc"
-      ],
+      "authors": ["Miller, Marc"],
       "publisher": {
         "name": "Far Future Enterprises",
-        "url": "https://farfuture.net"
+        "url": "https://www.farfuture.net"
       }
     }
   ],
-  "tags": [
-    "products",
-    "toolkits"
-  ]
+  "tags": ["products", "toolkits"]
 }

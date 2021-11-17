@@ -11,7 +11,7 @@
   "image": "",
   "description": "<p><!-- Summary Start -->Utility craft for passenger and freight transfer between ships.<!-- Summary End --></p>",
   "stats": [
-    { 
+    {
       "label": "Speed",
       "value": 7
     },
@@ -59,7 +59,7 @@
       "authors": ["Miller, Marc"],
       "publisher": {
         "name": "Far Future Enterprises",
-        "url": "https://farfuture.net"
+        "url": "https://www.farfuture.net"
       }
     }
   ],

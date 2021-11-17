@@ -10,23 +10,16 @@
   "qrebs": "N/A",
   "image": "",
   "description": "<p><!-- Summary Start -->Collect them all! Indeed, all 436 worlds of the Spinward Marches are captured on the wonderful collectible plate series.<!-- Summary End --> Your first plate will be Regina, crown jewel of the March- es, featuring this beautiful world lit by the glow of Assiniboia and surrounded by cameos of: Duke Norris, Gratlina the Amindii, and a cityscape of Regina City. Then, every month, you will receive a new world from the Marches to hold in your hands and admire. These are beautiful works of art and a strictly limited edition, restricted to a mere 120 firing days per plate. order now so you won't be disappointed. Each plate, Cr49 by auto-deduction, plus shipping. Order Now!</p><p>Values may vary online at the Collector's Exchange. Also occasionally found in thrift stores = Cr5.</p>",
-  "categories": [
-    "uniques"
-  ],
+  "categories": ["uniques"],
   "sources": [
     {
       "publication": "Traveller 5.10 Core Rules Book 3 : Worlds and Adventures",
-      "authors": [
-        "Miller, Marc"
-      ],
+      "authors": ["Miller, Marc"],
       "publisher": {
         "name": "Far Future Enterprises",
-        "url": "https://farfuture.net"
+        "url": "https://www.farfuture.net"
       }
     }
   ],
-  "tags": [
-    "products",
-    "uniques"
-  ]
+  "tags": ["products", "uniques"]
 }

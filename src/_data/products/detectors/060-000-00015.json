@@ -11,23 +11,16 @@
   "qrebs": "N/A",
   "image": "",
   "description": "<p><!-- Summary Start -->The metal detector indicates presence of most metals.<!-- Summary End --> The degree of reaction depends on the amount of metal present and its proximity.</p>",
-  "categories": [
-    "detectors"
-  ],
+  "categories": ["detectors"],
   "sources": [
     {
       "publication": "Traveller 5.10 Core Rules Book 3 : Worlds and Adventures",
-      "authors": [
-        "Miller, Marc"
-      ],
+      "authors": ["Miller, Marc"],
       "publisher": {
         "name": "Far Future Enterprises",
-        "url": "https://farfuture.net"
+        "url": "https://www.farfuture.net"
       }
     }
   ],
-  "tags": [
-    "products",
-    "detectors"
-  ]
+  "tags": ["products", "detectors"]
 }

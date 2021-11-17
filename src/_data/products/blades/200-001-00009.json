@@ -13,35 +13,24 @@
   "image": "",
   "description": "<p><!-- Summary Start -->The short sword is a heavy, double-edged blade between 30cm and 60cm in length.<!-- Summary End --></p>",
   "stats": [],
-  "categories": [
-    "weapons",
-    "blades"
-  ],
+  "categories": ["weapons", "blades"],
   "sources": [
     {
       "publication": "Traveller 5.10 Core Rules Book 3 : Worlds and Adventures",
-      "authors": [
-        "Miller, Marc"
-      ],
+      "authors": ["Miller, Marc"],
       "publisher": {
         "name": "Far Future Enterprises",
-        "url": "https://farfuture.net"
+        "url": "https://www.farfuture.net"
       }
     },
     {
       "publication": "Wikipedia : Classification of Swords",
-      "authors": [
-        "Various"
-      ],
+      "authors": ["Various"],
       "publisher": {
         "name": "Wikipedia",
         "url": "https://en.wikipedia.org/wiki/Classification_of_swords"
       }
     }
   ],
-  "tags": [
-    "products",
-    "weapons",
-    "blades"
-  ]
+  "tags": ["products", "weapons", "blades"]
 }

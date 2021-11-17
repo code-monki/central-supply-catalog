@@ -11,23 +11,16 @@
   "qrebs": "N/A",
   "image": "",
   "description": "<p><!-- Summary Start -->Activity Sensors detect thought activity (based on the principles of Perception).<!-- Summary End --> Most of the device is carried via an ergonomic backpack.</p>",
-  "categories": [
-    "detectors"
-  ],
+  "categories": ["detectors"],
   "sources": [
     {
       "publication": "Traveller 5.10 Core Rules Book 3 : Worlds and Adventures",
-      "authors": [
-        "Miller, Marc"
-      ],
+      "authors": ["Miller, Marc"],
       "publisher": {
         "name": "Far Future Enterprises",
-        "url": "https://farfuture.net"
+        "url": "https://www.farfuture.net"
       }
     }
   ],
-  "tags": [
-    "products",
-    "detectors"
-  ]
+  "tags": ["products", "detectors"]
 }

@@ -12,25 +12,16 @@
   "image": "",
   "description": "<p><!-- Summary Start -->Heavy powered personal armor<!-- Summary End -->Battledress is a standard combat uniform worn by soldiers. Over time, the Dress element has become the term for the ultimate in military powered armor. The significant element of Dress is that it is braced against high recoil. AR 45 (MgT 18)</p>",
   "accessories": [],
-  "categories": [
-    "protections",
-    "dress"
-  ],
+  "categories": ["protections", "dress"],
   "sources": [
     {
       "publication": "Traveller 5.10 Core Rules Book 3 : Worlds and Adventures",
-      "authors": [
-        "Miller, Marc"
-      ],
+      "authors": ["Miller, Marc"],
       "publisher": {
         "name": "Far Future Enterprises",
-        "url": "https://farfuture.net"
+        "url": "https://www.farfuture.net"
       }
     }
   ],
-  "tags": [
-    "products",
-    "protections",
-    "dress"
-  ]
+  "tags": ["products", "protections", "dress"]
 }

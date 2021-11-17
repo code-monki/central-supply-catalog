@@ -13,35 +13,24 @@
   "image": "",
   "description": "<p><!-- Summary Start -->Remote-controlled version of the snub grav projector. <!-- Summary End --> The grav projector projects a high frequency gravitic effect onto the target. The rapid gravitic pushing and pulling reduces internal structural strength in objects and induces organic damage in beings. In addition, this weapon effect shuts down grav equipment.</p>",
   "stats": [],
-  "categories": [
-    "weapons",
-    "projectors"
-  ],
+  "categories": ["weapons", "projectors"],
   "sources": [
     {
       "publication": "Traveller 5.10 Core Rules Book 1 : Characters and Combat",
-      "authors": [
-        "Miller, Marc"
-      ],
+      "authors": ["Miller, Marc"],
       "publisher": {
         "name": "Far Future Enterprises",
-        "url": "https://farfuture.net"
+        "url": "https://www.farfuture.net"
       }
     },
     {
       "publication": "Traveller 5.10 Core Rules Book 3 : Worlds and Adventures",
-      "authors": [
-        "Miller, Marc"
-      ],
+      "authors": ["Miller, Marc"],
       "publisher": {
         "name": "Far Future Enterprises",
-        "url": "https://farfuture.net"
+        "url": "https://www.farfuture.net"
       }
     }
   ],
-  "tags": [
-    "products",
-    "weapons",
-    "projectors"
-  ]
+  "tags": ["products", "weapons", "projectors"]
 }

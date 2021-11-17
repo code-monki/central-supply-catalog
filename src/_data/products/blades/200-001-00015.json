@@ -13,25 +13,16 @@
   "image": "",
   "description": "<p><!-- Summary Start -->The knife is a short-bladed weapon.<!-- Summary End --> Knives come in a variety of types (fixed blade, folding blade, locking blade) and are generally carried in a sheath.</p>",
   "stats": [],
-  "categories": [
-    "weapons",
-    "blades"
-  ],
+  "categories": ["weapons", "blades"],
   "sources": [
     {
       "publication": "Traveller 5.10 Core Rules Book 3 : Worlds and Adventures",
-      "authors": [
-        "Miller, Marc"
-      ],
+      "authors": ["Miller, Marc"],
       "publisher": {
         "name": "Far Future Enterprises",
-        "url": "https://farfuture.net"
+        "url": "https://www.farfuture.net"
       }
     }
   ],
-  "tags": [
-    "products",
-    "weapons",
-    "blades"
-  ]
+  "tags": ["products", "weapons", "blades"]
 }

@@ -10,25 +10,16 @@
   "image": "",
   "description": "<p><!-- Summary Start -->Labor units provide protection against environmental hazards in environments requiring manual labor.<!-- Summary End --></p>",
   "accessories": [],
-  "categories": [
-    "protections",
-    "units"
-  ],
+  "categories": ["protections", "units"],
   "sources": [
     {
       "publication": "Traveller 5.10 Core Rules Book 1 : Characters and Combat",
-      "authors": [
-        "Miller, Marc"
-      ],
+      "authors": ["Miller, Marc"],
       "publisher": {
         "name": "Far Future Enterprises",
-        "url": "https://farfuture.net"
+        "url": "https://www.farfuture.net"
       }
     }
   ],
-  "tags": [
-    "products",
-    "protections",
-    "units"
-  ]
+  "tags": ["products", "protections", "units"]
 }

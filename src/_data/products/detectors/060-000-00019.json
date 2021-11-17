@@ -11,23 +11,16 @@
   "qrebs": "N/A",
   "image": "",
   "description": "<p><!-- Summary Start -->The satellite position tracker determines the location in three dimensions based on orbiting satellites. This device will not work underground or in large buildings.<!-- Summary End --></p>",
-  "categories": [
-    "detectors"
-  ],
+  "categories": ["detectors"],
   "sources": [
     {
       "publication": "Traveller 5.10 Core Rules Book 3 : Worlds and Adventures",
-      "authors": [
-        "Miller, Marc"
-      ],
+      "authors": ["Miller, Marc"],
       "publisher": {
         "name": "Far Future Enterprises",
-        "url": "https://farfuture.net"
+        "url": "https://www.farfuture.net"
       }
     }
   ],
-  "tags": [
-    "products",
-    "detectors"
-  ]
+  "tags": ["products", "detectors"]
 }

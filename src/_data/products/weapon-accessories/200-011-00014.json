@@ -10,31 +10,22 @@
   "qrebs": "",
   "image": "/img/products/200-011-00014.png",
   "variants": [
-    {"sku": "200-011-00014", "label": "10-Rnd"},
-    {"sku": "200-011-00015", "label": "20-Rnd"},
-    {"sku": "200-011-00016", "label": "30-Rnd"},
-    {"sku": "200-011-00017", "label": "30-Rnd Variant"}
+    { "sku": "200-011-00014", "label": "10-Rnd" },
+    { "sku": "200-011-00015", "label": "20-Rnd" },
+    { "sku": "200-011-00016", "label": "30-Rnd" },
+    { "sku": "200-011-00017", "label": "30-Rnd Variant" }
   ],
   "description": "<p><!-- Summary Start -->6mm assault rifle magazine, 10 round capacity.<!-- Summary End --></p>",
-  "categories": [
-    "weapons",
-    "weapon accessory"
-  ],
+  "categories": ["weapons", "weapon accessory"],
   "sources": [
     {
       "publication": "Traveller 5.10 Core Rules Book 3 : Worlds and Adventures",
-      "authors": [
-        "Miller, Marc"
-      ],
+      "authors": ["Miller, Marc"],
       "publisher": {
         "name": "Far Future Enterprises",
-        "url": "https://farfuture.net"
+        "url": "https://www.farfuture.net"
       }
     }
   ],
-  "tags": [
-    "products",
-    "weapons",
-    "weapon accessory"
-  ]
+  "tags": ["products", "weapons", "weapon accessory"]
 }

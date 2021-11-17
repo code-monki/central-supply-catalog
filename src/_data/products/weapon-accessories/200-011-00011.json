@@ -10,30 +10,21 @@
   "qrebs": "",
   "image": "/img/products/200-011-00011.png",
   "variants": [
-    {"sku": "200-011-00011", "label": "10-Rnd"},
-    {"sku": "200-011-00012", "label": "20-Rnd"},
-    {"sku": "200-011-00013", "label": "30-Rnd"}
+    { "sku": "200-011-00011", "label": "10-Rnd" },
+    { "sku": "200-011-00012", "label": "20-Rnd" },
+    { "sku": "200-011-00013", "label": "30-Rnd" }
   ],
   "description": "<p><!-- Summary Start -->8mm battle rifle magazine, 10 round capacity.<!-- Summary End --></p>",
-  "categories": [
-    "weapons",
-    "weapon accessory"
-  ],
+  "categories": ["weapons", "weapon accessory"],
   "sources": [
     {
       "publication": "Traveller 5.10 Core Rules Book 3 : Worlds and Adventures",
-      "authors": [
-        "Miller, Marc"
-      ],
+      "authors": ["Miller, Marc"],
       "publisher": {
         "name": "Far Future Enterprises",
-        "url": "https://farfuture.net"
+        "url": "https://www.farfuture.net"
       }
     }
   ],
-  "tags": [
-    "products",
-    "weapons",
-    "weapon accessory"
-  ]
+  "tags": ["products", "weapons", "weapon accessory"]
 }

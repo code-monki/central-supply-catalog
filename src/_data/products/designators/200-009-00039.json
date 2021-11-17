@@ -13,35 +13,24 @@
   "image": "",
   "description": "<p><!-- Summary Start -->The mag designator projects a high frequency magnetic effect to mark a target for attack.<!-- Summary End --> The rapid magnetic pulsing also scrambles electronic circuits and induces temporary disorientation in organic beings. Additionally, the effect shuts down magnetic equipment.</p>",
   "stats": [],
-  "categories": [
-    "weapons",
-    "designators"
-  ],
+  "categories": ["weapons", "designators"],
   "sources": [
     {
       "publication": "Traveller 5.10 Core Rules Book 1 : Characters and Combat",
-      "authors": [
-        "Miller, Marc"
-      ],
+      "authors": ["Miller, Marc"],
       "publisher": {
         "name": "Far Future Enterprises",
-        "url": "https://farfuture.net"
+        "url": "https://www.farfuture.net"
       }
     },
     {
       "publication": "Traveller 5.10 Core Rules Book 3 : Worlds and Adventures",
-      "authors": [
-        "Miller, Marc"
-      ],
+      "authors": ["Miller, Marc"],
       "publisher": {
         "name": "Far Future Enterprises",
-        "url": "https://farfuture.net"
+        "url": "https://www.farfuture.net"
       }
     }
   ],
-  "tags": [
-    "products",
-    "weapons",
-    "designators"
-  ]
+  "tags": ["products", "weapons", "designators"]
 }

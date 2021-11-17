@@ -11,23 +11,16 @@
   "qrebs": "N/A",
   "image": "",
   "description": "<p><!-- Summary Start -->Light wound dressing.<!-- Summary End --> At higher technology levels, bandages include contact medicines to mitigate injury, improve healing, and prevent local bacterial infection</p>",
-  "categories": [
-    "drugs medical"
-  ],
+  "categories": ["drugs medical"],
   "sources": [
     {
       "publication": "Traveller 5.10 Core Rules Book 3 : Worlds and Adventures",
-      "authors": [
-        "Miller, Marc"
-      ],
+      "authors": ["Miller, Marc"],
       "publisher": {
         "name": "Far Future Enterprises",
-        "url": "https://farfuture.net"
+        "url": "https://www.farfuture.net"
       }
     }
   ],
-  "tags": [
-    "products",
-    "drugs medical"
-  ]
+  "tags": ["products", "drugs medical"]
 }

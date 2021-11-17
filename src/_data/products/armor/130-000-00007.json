@@ -12,25 +12,16 @@
   "image": "",
   "description": "<p><!-- Summary Start -->A jacket or body suit made of natural or synthetic leather and reinforced with a lining of flexible metal mesh, similar to chain mail but lighter and stronger.<!-- Summary End --> Ar 10</p>",
   "accessories": [],
-  "categories": [
-    "protections",
-    "armor"
-  ],
+  "categories": ["protections", "armor"],
   "sources": [
     {
       "publication": "Traveller 5.10 Core Rules Book 3 : Worlds and Adventures",
-      "authors": [
-        "Miller, Marc"
-      ],
+      "authors": ["Miller, Marc"],
       "publisher": {
         "name": "Far Future Enterprises",
-        "url": "https://farfuture.net"
+        "url": "https://www.farfuture.net"
       }
     }
   ],
-  "tags": [
-    "products",
-    "protections",
-    "armor"
-  ]
+  "tags": ["products", "protections", "armor"]
 }

@@ -11,26 +11,16 @@
   "qrebs": "N/A",
   "image": "",
   "description": "<p><!-- Summary Start -->A pallet of ceramic blocks.<!-- Summary End --></p>",
-  "categories": [
-    "products",
-    "construction",
-    "construction materials"
-  ],
+  "categories": ["products", "construction", "construction materials"],
   "sources": [
     {
       "publication": "Traveller 5.10 Core Rules Book 3 : Worlds and Adventures",
-      "authors": [
-        "Miller, Marc"
-      ],
+      "authors": ["Miller, Marc"],
       "publisher": {
         "name": "Far Future Enterprises",
-        "url": "https://farfuture.net"
+        "url": "https://www.farfuture.net"
       }
     }
   ],
-  "tags": [
-    "products",
-    "construction",
-    "construction materials"
-  ]
+  "tags": ["products", "construction", "construction materials"]
 }

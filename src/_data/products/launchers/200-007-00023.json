@@ -13,38 +13,25 @@
   "image": "",
   "description": "<p><!-- Summary Start -->Standard rocket-assisted munition (RAM) Grenade launcher.<!-- Summary End --></p>",
   "stats": [],
-  "accessories": [
-    "200-011-00010"
-  ],
-  "categories": [
-    "weapons",
-    "launchers"
-  ],
+  "accessories": ["200-011-00010"],
+  "categories": ["weapons", "launchers"],
   "sources": [
     {
       "publication": "Traveller 5.10 Core Rules Book 3 : Worlds and Adventures",
-      "authors": [
-        "Miller, Marc"
-      ],
+      "authors": ["Miller, Marc"],
       "publisher": {
         "name": "Far Future Enterprises",
-        "url": "https://farfuture.net"
+        "url": "https://www.farfuture.net"
       }
     },
     {
       "publication": "Traveller 5.10 Core Rules Book 3 : Worlds and Adventures",
-      "authors": [
-        "Miller, Marc"
-      ],
+      "authors": ["Miller, Marc"],
       "publisher": {
         "name": "Far Future Enterprises",
-        "url": "https://farfuture.net"
+        "url": "https://www.farfuture.net"
       }
     }
   ],
-  "tags": [
-    "products",
-    "weapons",
-    "launchers"
-  ]
+  "tags": ["products", "weapons", "launchers"]
 }

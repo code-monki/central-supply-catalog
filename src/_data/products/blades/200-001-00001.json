@@ -13,25 +13,16 @@
   "image": "",
   "description": "<p><!-- Summary Start -->The vibro-blade has an extendable blade that uses vibration for increased cutting effect.<!-- Summary End --></p>",
   "stats": [],
-  "categories": [
-    "weapons",
-    "blades"
-  ],
+  "categories": ["weapons", "blades"],
   "sources": [
     {
       "publication": "Traveller 5.10 Core Rules Book 3 : Worlds and Adventures",
-      "authors": [
-        "Miller, Marc"
-      ],
+      "authors": ["Miller, Marc"],
       "publisher": {
         "name": "Far Future Enterprises",
-        "url": "https://farfuture.net"
+        "url": "https://www.farfuture.net"
       }
     }
   ],
-  "tags": [
-    "products",
-    "weapons",
-    "blades"
-  ]
+  "tags": ["products", "weapons", "blades"]
 }

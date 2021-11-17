@@ -25,37 +25,24 @@
     "200-010-00024",
     "200-010-00025"
   ],
-  "categories": [
-    "weapons",
-    "handguns",
-    "pistol"
-  ],
+  "categories": ["weapons", "handguns", "pistol"],
   "sources": [
     {
       "publication": "Traveller 5.10 Core Rules Book 1 : Characters and Combat",
-      "authors": [
-        "Miller, Marc"
-      ],
+      "authors": ["Miller, Marc"],
       "publisher": {
         "name": "Far Future Enterprises",
-        "url": "https://farfuture.net"
+        "url": "https://www.farfuture.net"
       }
     },
     {
       "publication": "Traveller 5.10 Core Rules Book 3 : Worlds and Adventures",
-      "authors": [
-        "Miller, Marc"
-      ],
+      "authors": ["Miller, Marc"],
       "publisher": {
         "name": "Far Future Enterprises",
-        "url": "https://farfuture.net"
+        "url": "https://www.farfuture.net"
       }
     }
   ],
-  "tags": [
-    "products",
-    "weapons",
-    "handguns",
-    "pistol"
-  ]
+  "tags": ["products", "weapons", "handguns", "pistol"]
 }

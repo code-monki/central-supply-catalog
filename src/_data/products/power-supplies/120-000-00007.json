@@ -11,23 +11,16 @@
   "qrebs": "N/A",
   "image": "",
   "description": "<!-- Summary Start -->17 liter sealed energy unit, with a 1-year internal fuel supply.<!-- Summary End --> Powers a Size 6 item for one year, or up to 3 Size 5 items for one year, or up to 10 Size 4 items for one year.</p>",
-  "categories": [
-    "power-supplies"
-  ],
+  "categories": ["power-supplies"],
   "sources": [
     {
       "publication": "Traveller 5.10 Core Rules Book 3 : Worlds and Adventures",
-      "authors": [
-        "Miller, Marc"
-      ],
+      "authors": ["Miller, Marc"],
       "publisher": {
         "name": "Far Future Enterprises",
-        "url": "https://farfuture.net"
+        "url": "https://www.farfuture.net"
       }
     }
   ],
-  "tags": [
-    "products",
-    "power-supplies"
-  ]
+  "tags": ["products", "power-supplies"]
 }

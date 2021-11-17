@@ -11,25 +11,16 @@
   "qrebs": "N/A",
   "image": "",
   "description": "<p><!-- Summary Start -->A blank insert for a map box that can contain the data for a single world.<!-- Summary End --></p>",
-  "categories": [
-    "computers",
-    "computer accessories"
-  ],
+  "categories": ["computers", "computer accessories"],
   "sources": [
     {
       "publication": "Traveller 5.10 Core Rules Book 3 : Worlds and Adventures",
-      "authors": [
-        "Miller, Marc"
-      ],
+      "authors": ["Miller, Marc"],
       "publisher": {
         "name": "Far Future Enterprises",
-        "url": "https://farfuture.net"
+        "url": "https://www.farfuture.net"
       }
     }
   ],
-  "tags": [
-    "products",
-    "computers",
-    "computer accessories"
-  ]
+  "tags": ["products", "computers", "computer accessories"]
 }

@@ -11,23 +11,16 @@
   "qrebs": "N/A",
   "image": "",
   "description": "<p><!-- Summary Start -->Gear for travelling through icy conditions.<!-- Summary End -->  Includes crampons: Special spiked attachments strapped to boots to assist in climbs in icy conditions. Wearing crampons decreases the difficulty of crossing ice. Also includes an ice axe, which is useful in making climbs in snow and ice.</p>",
-  "categories": [
-    "surface gear"
-  ],
+  "categories": ["surface gear"],
   "sources": [
     {
       "publication": "Traveller 5.10 Core Rules Book 3 : Worlds and Adventures",
-      "authors": [
-        "Miller, Marc"
-      ],
+      "authors": ["Miller, Marc"],
       "publisher": {
         "name": "Far Future Enterprises",
-        "url": "https://farfuture.net"
+        "url": "https://www.farfuture.net"
       }
     }
   ],
-  "tags": [
-    "products",
-    "surface gear"
-  ]
+  "tags": ["products", "surface gear"]
 }

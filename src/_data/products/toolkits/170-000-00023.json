@@ -11,23 +11,16 @@
   "qrebs": "N/A",
   "image": "",
   "description": "<p><!-- Summary Start -->Modern medical tools containing drugs, resuscitation equipment, surgical supplies, and diagnostic materials. <!-- Summary End --> The kit is sufficient for both minor and serious wounds, and it can be used for the treatment of animal injuries, radiation burns, chemical burns, poisoning, and drug overdoses. TL 9+ versions include Skin Glue, which stops surface wounds and accelerates the healing process better than antibiotics and bandages.</p><p>All TL9+ medical kits come with a size 2 pocket (micro) med scanner.</p>",
-  "categories": [
-    "toolkits"
-  ],
+  "categories": ["toolkits"],
   "sources": [
     {
       "publication": "Traveller 5.10 Core Rules Book 3 : Worlds and Adventures",
-      "authors": [
-        "Miller, Marc"
-      ],
+      "authors": ["Miller, Marc"],
       "publisher": {
         "name": "Far Future Enterprises",
-        "url": "https://farfuture.net"
+        "url": "https://www.farfuture.net"
       }
     }
   ],
-  "tags": [
-    "products",
-    "toolkits"
-  ]
+  "tags": ["products", "toolkits"]
 }

@@ -13,35 +13,24 @@
   "image": "",
   "description": "<p><!-- Summary Start -->Early version of the turret-mounted anti-flyer machinegun.<!-- Summary End --></p>",
   "stats": [],
-  "categories": [
-    "weapons",
-    "machineguns"
-  ],
+  "categories": ["weapons", "machineguns"],
   "sources": [
     {
       "publication": "Traveller 5.10 Core Rules Book 1 : Characters and Combat",
-      "authors": [
-        "Miller, Marc"
-      ],
+      "authors": ["Miller, Marc"],
       "publisher": {
         "name": "Far Future Enterprises",
-        "url": "https://farfuture.net"
+        "url": "https://www.farfuture.net"
       }
     },
     {
       "publication": "Traveller 5.10 Core Rules Book 3 : Worlds and Adventures",
-      "authors": [
-        "Miller, Marc"
-      ],
+      "authors": ["Miller, Marc"],
       "publisher": {
         "name": "Far Future Enterprises",
-        "url": "https://farfuture.net"
+        "url": "https://www.farfuture.net"
       }
     }
   ],
-  "tags": [
-    "products",
-    "weapons",
-    "machineguns"
-  ]
+  "tags": ["products", "weapons", "machineguns"]
 }

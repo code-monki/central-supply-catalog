@@ -10,23 +10,16 @@
   "qrebs": "N/A",
   "image": "",
   "description": "<p><!-- Summary Start -->The breather removes waste gases and recycles breathing gases to the user.<!-- Summary End -->  The breather uses a PowerCell-2 and has a duration of one day, after which it also requires routine maintenance.</p>",
-  "categories": [
-    "breathing-apparatus"
-  ],
+  "categories": ["breathing-apparatus"],
   "sources": [
     {
       "publication": "Traveller 5.10 Core Rules Book 3 : Worlds and Adventures",
-      "authors": [
-        "Miller, Marc"
-      ],
+      "authors": ["Miller, Marc"],
       "publisher": {
         "name": "Far Future Enterprises",
-        "url": "https://farfuture.net"
+        "url": "https://www.farfuture.net"
       }
     }
   ],
-  "tags": [
-    "products",
-    "breathing-apparatus"
-  ]
+  "tags": ["products", "breathing-apparatus"]
 }

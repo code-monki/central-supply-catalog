@@ -11,23 +11,16 @@
   "qrebs": "N/A",
   "image": "",
   "description": "<p><!-- Summary Start -->The motion sensor detects movement using a matched pair of emitters/receivers.<!-- Summary End --> The size of the unit determines the range and detection arc based on the number of emitter/receiver pairs).</p>",
-  "categories": [
-    "detectors"
-  ],
+  "categories": ["detectors"],
   "sources": [
     {
       "publication": "Traveller 5.10 Core Rules Book 3 : Worlds and Adventures",
-      "authors": [
-        "Miller, Marc"
-      ],
+      "authors": ["Miller, Marc"],
       "publisher": {
         "name": "Far Future Enterprises",
-        "url": "https://farfuture.net"
+        "url": "https://www.farfuture.net"
       }
     }
   ],
-  "tags": [
-    "products",
-    "detectors"
-  ]
+  "tags": ["products", "detectors"]
 }

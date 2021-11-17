@@ -11,23 +11,16 @@
   "qrebs": "N/A",
   "image": "",
   "description": "<p><!-- Summary Start -->Increases Psi by 1 point per hour to a maximum of 15.<!-- Summary End --> After 4 hours at 15, the effect wanes by 1 point per hour until Psi reaches 0. The rarest of psidrugs, special is available only in liquid form and must be taken by injection.</p>",
-  "categories": [
-    "drugs medical"
-  ],
+  "categories": ["drugs medical"],
   "sources": [
     {
       "publication": "Traveller 5.10 Core Rules Book 3 : Worlds and Adventures",
-      "authors": [
-        "Miller, Marc"
-      ],
+      "authors": ["Miller, Marc"],
       "publisher": {
         "name": "Far Future Enterprises",
-        "url": "https://farfuture.net"
+        "url": "https://www.farfuture.net"
       }
     }
   ],
-  "tags": [
-    "products",
-    "drugs medical"
-  ]
+  "tags": ["products", "drugs medical"]
 }

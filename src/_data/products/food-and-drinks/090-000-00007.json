@@ -11,23 +11,16 @@
   "qrebs": "N/A",
   "image": "",
   "description": "<p><!-- Summary Start -->A unit for storing items in stasis.<!-- Summary End --> Battery life is based on device Quality. Unsafe units may cause loss of limbs.</p>",
-  "categories": [
-    "food drink"
-  ],
+  "categories": ["food drink"],
   "sources": [
     {
       "publication": "Traveller 5.10 Core Rules Book 3 : Worlds and Adventures",
-      "authors": [
-        "Miller, Marc"
-      ],
+      "authors": ["Miller, Marc"],
       "publisher": {
         "name": "Far Future Enterprises",
-        "url": "https://farfuture.net"
+        "url": "https://www.farfuture.net"
       }
     }
   ],
-  "tags": [
-    "products",
-    "food drink"
-  ]
+  "tags": ["products", "food drink"]
 }

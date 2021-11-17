@@ -11,23 +11,16 @@
   "qrebs": "N/A",
   "image": "",
   "description": "<p><!-- Summary Start -->A tiny electronic device, camouflaged for covert surveillance.<!-- Summary End --> Earlier versions record audio only. Later versions can record video as well, and may also be able to transmit signals over EM waves. Variants include the Wiretap, which is a Bug attached to a telecommunications cable or RF channel.</p>",
-  "categories": [
-    "emitters"
-  ],
+  "categories": ["emitters"],
   "sources": [
     {
       "publication": "Traveller 5.10 Core Rules Book 3 : Worlds and Adventures",
-      "authors": [
-        "Miller, Marc"
-      ],
+      "authors": ["Miller, Marc"],
       "publisher": {
         "name": "Far Future Enterprises",
-        "url": "https://farfuture.net"
+        "url": "https://www.farfuture.net"
       }
     }
   ],
-  "tags": [
-    "products",
-    "emitters"
-  ]
+  "tags": ["products", "emitters"]
 }

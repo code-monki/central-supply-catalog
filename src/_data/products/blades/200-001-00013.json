@@ -13,35 +13,24 @@
   "image": "",
   "description": "<p><!-- Summary Start -->A trench knife is a combat knife designed to kill or incapacitate an enemy at close quarters.<!-- Summary End --> The trench knife may have a standard, single-edged blade that is suitable for stabbing and slashing or a triangular blade that is only suitable for stabbing. Both variants typically have a handguard that offers protection for the knuckles.</p>",
   "stats": [],
-  "categories": [
-    "weapons",
-    "blades"
-  ],
+  "categories": ["weapons", "blades"],
   "sources": [
     {
       "publication": "Traveller 5.10 Core Rules Book 3 : Worlds and Adventures",
-      "authors": [
-        "Miller, Marc"
-      ],
+      "authors": ["Miller, Marc"],
       "publisher": {
         "name": "Far Future Enterprises",
-        "url": "https://farfuture.net"
+        "url": "https://www.farfuture.net"
       }
     },
     {
       "publication": "Wikipedia : Trench knife",
-      "authors": [
-        "Various"
-      ],
+      "authors": ["Various"],
       "publisher": {
         "name": "Wikipedia",
         "url": "https://en.wikipedia.org/wiki/Trench_knife"
       }
     }
   ],
-  "tags": [
-    "products",
-    "weapons",
-    "blades"
-  ]
+  "tags": ["products", "weapons", "blades"]
 }

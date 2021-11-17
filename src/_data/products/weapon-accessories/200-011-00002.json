@@ -11,32 +11,23 @@
   "qrebs": "R=-1",
   "image": "/img/products/200-011-00002.png",
   "variants": [
-    {"sku": "200-011-00001", "label": "Electronic"},
-    {"sku": "200-011-00002", "label": "Image Enh."},
-    {"sku": "200-011-00003", "label": "Low Light Enh."},
-    {"sku": "200-011-00004", "label": "Img/Low Lgt Enh."},
-    {"sku": "200-011-00005", "label": "Telescopic"}
+    { "sku": "200-011-00001", "label": "Electronic" },
+    { "sku": "200-011-00002", "label": "Image Enh." },
+    { "sku": "200-011-00003", "label": "Low Light Enh." },
+    { "sku": "200-011-00004", "label": "Img/Low Lgt Enh." },
+    { "sku": "200-011-00005", "label": "Telescopic" }
   ],
   "description": "<p><!-- Summary Start -->Electronic sights with image enhancement.<!-- Summary End --> The electronic gunsight increases accuracy, especially at longer ranges. A rifle equipped with such sights decreases apparent distance beyond Long Range by 1 band.</p>",
-  "categories": [
-    "weapons",
-    "weapon accessory"
-  ],
+  "categories": ["weapons", "weapon accessory"],
   "sources": [
     {
       "publication": "Traveller 5.10 Core Rules Book 3 : Worlds and Adventures",
-      "authors": [
-        "Miller, Marc"
-      ],
+      "authors": ["Miller, Marc"],
       "publisher": {
         "name": "Far Future Enterprises",
-        "url": "https://farfuture.net"
+        "url": "https://www.farfuture.net"
       }
     }
   ],
-  "tags": [
-    "products",
-    "weapons",
-    "weapon accessory"
-  ]
+  "tags": ["products", "weapons", "weapon accessory"]
 }

@@ -11,25 +11,16 @@
   "image": "",
   "description": "<p><!-- Summary Start -->Drop armor is structured to protect against extreme temperatures during orbital reentry.<!-- Summary End --></p>",
   "accessories": [],
-  "categories": [
-    "protections",
-    "armor"
-  ],
+  "categories": ["protections", "armor"],
   "sources": [
     {
       "publication": "Traveller 5.10 Core Rules Book 1 : Characters and Combat",
-      "authors": [
-        "Miller, Marc"
-      ],
+      "authors": ["Miller, Marc"],
       "publisher": {
         "name": "Far Future Enterprises",
-        "url": "https://farfuture.net"
+        "url": "https://www.farfuture.net"
       }
     }
   ],
-  "tags": [
-    "products",
-    "protections",
-    "armor"
-  ]
+  "tags": ["products", "protections", "armor"]
 }

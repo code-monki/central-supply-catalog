@@ -11,23 +11,16 @@
   "qrebs": "N/A",
   "image": "",
   "description": "<p><!-- Summary Start -->Adds 1D to the user's Psi rating for 1D hours.<!-- Summary End --> The basic psi-drug, booster is available in small one-dose pills. Booster increases an individual's available psionic strength. Additional doses have no effect if taken by a psionic within an hour. The drug-induced additional psionic strength will wane and disappear at the end of one hour.</p>",
-  "categories": [
-    "drugs medical"
-  ],
+  "categories": ["drugs medical"],
   "sources": [
     {
       "publication": "Traveller 5.10 Core Rules Book 3 : Worlds and Adventures",
-      "authors": [
-        "Miller, Marc"
-      ],
+      "authors": ["Miller, Marc"],
       "publisher": {
         "name": "Far Future Enterprises",
-        "url": "https://farfuture.net"
+        "url": "https://www.farfuture.net"
       }
     }
   ],
-  "tags": [
-    "products",
-    "drugs medical"
-  ]
+  "tags": ["products", "drugs medical"]
 }

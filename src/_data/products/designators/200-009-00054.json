@@ -13,35 +13,24 @@
   "image": "",
   "description": "<p><!-- Summary Start -->The grav designator projects a gravitic effect to mark a target for attack.<!-- Summary End --> The rapid gravitic pushing and pulling reduces internal structural strength in objects and induces organic damage in beings. This version is constructed of relatively inexpensive materials and has a working lifetime measured in days.</p>",
   "stats": [],
-  "categories": [
-    "weapons",
-    "designators"
-  ],
+  "categories": ["weapons", "designators"],
   "sources": [
     {
       "publication": "Traveller 5.10 Core Rules Book 1 : Characters and Combat",
-      "authors": [
-        "Miller, Marc"
-      ],
+      "authors": ["Miller, Marc"],
       "publisher": {
         "name": "Far Future Enterprises",
-        "url": "https://farfuture.net"
+        "url": "https://www.farfuture.net"
       }
     },
     {
       "publication": "Traveller 5.10 Core Rules Book 3 : Worlds and Adventures",
-      "authors": [
-        "Miller, Marc"
-      ],
+      "authors": ["Miller, Marc"],
       "publisher": {
         "name": "Far Future Enterprises",
-        "url": "https://farfuture.net"
+        "url": "https://www.farfuture.net"
       }
     }
   ],
-  "tags": [
-    "products",
-    "weapons",
-    "designators"
-  ]
+  "tags": ["products", "weapons", "designators"]
 }

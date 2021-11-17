@@ -10,29 +10,20 @@
   "qrebs": "",
   "image": "/img/products/200-011-00009.png",
   "variants": [
-    {"sku": "200-011-00008", "label": "Single"},
-    {"sku": "200-011-00009", "label": "Double"}
+    { "sku": "200-011-00008", "label": "Single" },
+    { "sku": "200-011-00009", "label": "Double" }
   ],
   "description": "<p><!-- Summary Start -->15mm shotgun double magazine.<!-- Summary End --></p>",
-  "categories": [
-    "weapons",
-    "weapon accessory"
-  ],
+  "categories": ["weapons", "weapon accessory"],
   "sources": [
     {
       "publication": "Traveller 5.10 Core Rules Book 3 : Worlds and Adventures",
-      "authors": [
-        "Miller, Marc"
-      ],
+      "authors": ["Miller, Marc"],
       "publisher": {
         "name": "Far Future Enterprises",
-        "url": "https://farfuture.net"
+        "url": "https://www.farfuture.net"
       }
     }
   ],
-  "tags": [
-    "products",
-    "weapons",
-    "weapon accessory"
-  ]
+  "tags": ["products", "weapons", "weapon accessory"]
 }

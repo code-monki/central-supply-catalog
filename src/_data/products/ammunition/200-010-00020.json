@@ -10,45 +10,32 @@
   "qrebs": "N/A",
   "image": "",
   "variants": [
-    { "sku": "200-010-00012", "label": "1D Damage"}, 
-    { "sku": "200-010-00013", "label": "2D Damage"}, 
-    { "sku": "200-010-00014", "label": "3D Damage"}, 
-    { "sku": "200-010-00015", "label": "4D Damage"}, 
-    { "sku": "200-010-00016", "label": "5D Damage"}, 
-    { "sku": "200-010-00017", "label": "6D Damage"}, 
-    { "sku": "200-010-00018", "label": "7D Damage"}, 
-    { "sku": "200-010-00019", "label": "8D Damage"}, 
-    { "sku": "200-010-00020", "label": "9D Damage"}, 
-    { "sku": "200-010-00021", "label": "10D Damage"}
+    { "sku": "200-010-00012", "label": "1D Damage" },
+    { "sku": "200-010-00013", "label": "2D Damage" },
+    { "sku": "200-010-00014", "label": "3D Damage" },
+    { "sku": "200-010-00015", "label": "4D Damage" },
+    { "sku": "200-010-00016", "label": "5D Damage" },
+    { "sku": "200-010-00017", "label": "6D Damage" },
+    { "sku": "200-010-00018", "label": "7D Damage" },
+    { "sku": "200-010-00019", "label": "8D Damage" },
+    { "sku": "200-010-00020", "label": "9D Damage" },
+    { "sku": "200-010-00021", "label": "10D Damage" }
   ],
   "description": "<p><!-- Summary Start -->Standard 6mm rifle round, 9D damage, 100 round box.<!-- Summary End --></p>",
-  "categories": [
-    "weapons",
-    "ammunition"
-  ],
+  "categories": ["weapons", "ammunition"],
   "sources": [
     {
       "publication": "Traveller 5.10 Core Rules Book 3 : Worlds and Adventures",
-      "authors": [
-        "Miller, Marc"
-      ],
+      "authors": ["Miller, Marc"],
       "publisher": {
         "name": "Far Future Enterprises",
-        "url": "https://farfuture.net"
+        "url": "https://www.farfuture.net"
       }
     },
     {
       "publication": "Central Supply Catalog Website",
-      "authors": [
-        "Miller, Marc",
-        "Eaglestone, Robert",
-        "McKnight, Charles"
-      ]
+      "authors": ["Miller, Marc", "Eaglestone, Robert", "McKnight, Charles"]
     }
   ],
-  "tags": [
-    "products",
-    "weapons",
-    "ammunition"
-  ]
+  "tags": ["products", "weapons", "ammunition"]
 }

@@ -13,35 +13,24 @@
   "image": "",
   "description": "<p><!-- Summary Start -->The anti-designator rad projector senses the effects of a rad designator.<!-- Summary End --> The weapon can be set to automatically fire at the designator or wait for a manual command.</p>",
   "stats": [],
-  "categories": [
-    "weapons",
-    "projectors"
-  ],
+  "categories": ["weapons", "projectors"],
   "sources": [
     {
       "publication": "Traveller 5.10 Core Rules Book 1 : Characters and Combat",
-      "authors": [
-        "Miller, Marc"
-      ],
+      "authors": ["Miller, Marc"],
       "publisher": {
         "name": "Far Future Enterprises",
-        "url": "https://farfuture.net"
+        "url": "https://www.farfuture.net"
       }
     },
     {
       "publication": "Traveller 5.10 Core Rules Book 3 : Worlds and Adventures",
-      "authors": [
-        "Miller, Marc"
-      ],
+      "authors": ["Miller, Marc"],
       "publisher": {
         "name": "Far Future Enterprises",
-        "url": "https://farfuture.net"
+        "url": "https://www.farfuture.net"
       }
     }
   ],
-  "tags": [
-    "products",
-    "weapons",
-    "projectors"
-  ]
+  "tags": ["products", "weapons", "projectors"]
 }

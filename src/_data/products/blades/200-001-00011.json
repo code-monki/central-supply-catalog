@@ -13,35 +13,24 @@
   "image": "",
   "description": "<p><!-- Summary Start -->The &quot;great big knife&quot; is a large, fixed-blade fighting knife.<!-- Summary End --> This style of knife traces its history back to the &quot;Bowie&quot; knife developed by James Black for Jim Bowie.</p>",
   "stats": [],
-  "categories": [
-    "weapons",
-    "blades"
-  ],
+  "categories": ["weapons", "blades"],
   "sources": [
     {
       "publication": "Traveller 5.10 Core Rules Book 3 : Worlds and Adventures",
-      "authors": [
-        "Miller, Marc"
-      ],
+      "authors": ["Miller, Marc"],
       "publisher": {
         "name": "Far Future Enterprises",
-        "url": "https://farfuture.net"
+        "url": "https://www.farfuture.net"
       }
     },
     {
       "publication": "Wikipedia : Bowie Knife",
-      "authors": [
-        "Various"
-      ],
+      "authors": ["Various"],
       "publisher": {
         "name": "Wikipedia",
         "url": "https://en.wikipedia.org/wiki/Bowie_knife"
       }
     }
   ],
-  "tags": [
-    "products",
-    "weapons",
-    "blades"
-  ]
+  "tags": ["products", "weapons", "blades"]
 }

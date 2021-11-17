@@ -10,24 +10,16 @@
   "qrebs": "N/A",
   "image": "",
   "description": "<p><!-- Summary Start -->Mid-sized utility craft capable of landing on worlds.<!-- Summary End --></p>",
-  "categories": [
-    "transportation"
-  ],
+  "categories": ["transportation"],
   "sources": [
     {
       "publication": "Traveller 5.10 Core Rules Book 3 : Worlds and Adventures",
-      "authors": [
-        "Miller, Marc"
-      ],
+      "authors": ["Miller, Marc"],
       "publisher": {
         "name": "Far Future Enterprises",
-        "url": "https://farfuture.net"
+        "url": "https://www.farfuture.net"
       }
     }
   ],
-  "tags": [
-    "products",
-    "transportation",
-    "small craft"
-  ]
+  "tags": ["products", "transportation", "small craft"]
 }

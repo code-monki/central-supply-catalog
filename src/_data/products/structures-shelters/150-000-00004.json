@@ -10,23 +10,16 @@
   "qrebs": "N/A",
   "image": "",
   "description": "<p><!-- Summary Start -->An advanced system base.<!-- Summary End --> The base of the system is a binary metapolyfoam that comes in a tank, massing 25 Kg. When dispensed the foam creates an insulated, pressurized structure displacing up to 10 tons. Each tank has enough of the foaming agents to create up to ten &quot;1 ton structures&quot; which can be dispensed individually, in groups or all at once. While the foam creates the basic structure, it does not create Life Support, merely shelter. It comes standard with an additional 1 ton package which is contained in membranes and framing which are used after unpacking for airlock doors. Other contents include an advanced Life Support system and a small laser cutter for fine shaping (it does Pen-1 dam- age if used in combat).</p><p>The system may be refilled at certified dealers for Cr 5500.</p>",
-  "categories": [
-    "structures"
-  ],
+  "categories": ["structures"],
   "sources": [
     {
       "publication": "Traveller 5.10 Core Rules Book 3 : Worlds and Adventures",
-      "authors": [
-        "Miller, Marc"
-      ],
+      "authors": ["Miller, Marc"],
       "publisher": {
         "name": "Far Future Enterprises",
-        "url": "https://farfuture.net"
+        "url": "https://www.farfuture.net"
       }
     }
   ],
-  "tags": [
-    "products",
-    "structures"
-  ]
+  "tags": ["products", "structures"]
 }

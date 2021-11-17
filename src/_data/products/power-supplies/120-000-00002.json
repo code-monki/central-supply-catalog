@@ -11,23 +11,16 @@
   "qrebs": "N/A",
   "image": "",
   "description": "<p><!-- Summary Start -->A portable ambient Panel with short-range (R=0, contact) power transmission.<!-- Summary End --> Capable of powering and charging the equivalent of one Size 4 device, carried on one's person.</p>",
-  "categories": [
-    "power-supplies"
-  ],
+  "categories": ["power-supplies"],
   "sources": [
     {
       "publication": "Traveller 5.10 Core Rules Book 3 : Worlds and Adventures",
-      "authors": [
-        "Miller, Marc"
-      ],
+      "authors": ["Miller, Marc"],
       "publisher": {
         "name": "Far Future Enterprises",
-        "url": "https://farfuture.net"
+        "url": "https://www.farfuture.net"
       }
     }
   ],
-  "tags": [
-    "products",
-    "power-supplies"
-  ]
+  "tags": ["products", "power-supplies"]
 }

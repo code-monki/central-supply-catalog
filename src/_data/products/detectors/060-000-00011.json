@@ -11,23 +11,16 @@
   "qrebs": "N/A",
   "image": "",
   "description": "<p><!-- Summary Start -->Sophisticated form of radar.<!-- Summary End --> The EMS senses existing electromagnetic radiation (including emissions by the target, reflected local energy, and occluded background energy. The signals are subjected to aggressive computer analysis for detailed information about the size, distance, and speed of objects in the area.</p>",
-  "categories": [
-    "detectors"
-  ],
+  "categories": ["detectors"],
   "sources": [
     {
       "publication": "Traveller 5.10 Core Rules Book 3 : Worlds and Adventures",
-      "authors": [
-        "Miller, Marc"
-      ],
+      "authors": ["Miller, Marc"],
       "publisher": {
         "name": "Far Future Enterprises",
-        "url": "https://farfuture.net"
+        "url": "https://www.farfuture.net"
       }
     }
   ],
-  "tags": [
-    "products",
-    "detectors"
-  ]
+  "tags": ["products", "detectors"]
 }

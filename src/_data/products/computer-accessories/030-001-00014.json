@@ -11,25 +11,16 @@
   "qrebs": "N/A",
   "image": "/img/products/030-001-00014.png",
   "description": "<p><!-- Summary Start -->A data container for carrying a single transaction or application across interstellar distances.<!-- Summary End --></p>",
-  "categories": [
-    "computer equipment",
-    "computer accessories"
-  ],
+  "categories": ["computer equipment", "computer accessories"],
   "sources": [
     {
       "publication": "Traveller 5.10 Core Rules Book 3 : Worlds and Adventures",
-      "authors": [
-        "Miller, Marc"
-      ],
+      "authors": ["Miller, Marc"],
       "publisher": {
         "name": "Far Future Enterprises",
-        "url": "https://farfuture.net"
+        "url": "https://www.farfuture.net"
       }
     }
   ],
-  "tags": [
-    "products",
-    "computer equipment",
-    "computer accessories"
-  ]
+  "tags": ["products", "computer equipment", "computer accessories"]
 }

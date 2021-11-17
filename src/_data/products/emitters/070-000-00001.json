@@ -11,23 +11,16 @@
   "qrebs": "N/A",
   "image": "",
   "description": "<p><!-- Summary Start -->A combination long-range communicator and signal transponder.<!-- Summary End --> The commlink beacon is a very sophisticated emergency signaling device. The internal transponder monitors common emergency search-and-rescue channels (one at a time). When traffic is picked up on this channel, the device simultaneously emits a shrill warning tone to alert users to the possibility that help is at hand and transmits a coded distress signal under a traditional GK (Gashimeku Kalariin, the Vilani SOS). Some more expensive models have provision for auto-repeat voice, video, and/or data, instead of the automatic code signal. In either event, the commlink beacon serves as a means of establishing contact when there is any search being mounted within 500 kilometers, and then it serves to continue communications after that initial contact. With a size 2 Ambient Panel, it can operate indefinitely.</p>",
-  "categories": [
-    "emitters"
-  ],
+  "categories": ["emitters"],
   "sources": [
     {
       "publication": "Traveller 5.10 Core Rules Book 3 : Worlds and Adventures",
-      "authors": [
-        "Miller, Marc"
-      ],
+      "authors": ["Miller, Marc"],
       "publisher": {
         "name": "Far Future Enterprises",
-        "url": "https://farfuture.net"
+        "url": "https://www.farfuture.net"
       }
     }
   ],
-  "tags": [
-    "products",
-    "emitters"
-  ]
+  "tags": ["products", "emitters"]
 }

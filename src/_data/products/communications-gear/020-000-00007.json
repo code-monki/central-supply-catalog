@@ -12,23 +12,16 @@
   "image": "/img/products/personal-communicator.png",
   "description": "<p><!-- Summary Start -->The ruggedized comm is designed with hazardous duty in mind.<!-- Summary End --> They can endure judicious amounts of punishment and are expected to take a 10 meter fall and still function. They usually have excellent ambient noise cancellation and glare reduction and other optic hardening for any built in video or still cameras installed. Comms such as the T-Del C10r are often rated for brief exposure to vacuum as well as corrosive and insidious atmospheres.</p>",
   "accessories": [],
-  "categories": [
-    "communications"
-  ],
+  "categories": ["communications"],
   "sources": [
     {
       "publication": "Traveller 5.10 Core Rules Book 3 : Worlds and Adventures",
-      "authors": [
-        "Miller, Marc"
-      ],
+      "authors": ["Miller, Marc"],
       "publisher": {
         "name": "Far Future Enterprises",
-        "url": "https://farfuture.net"
+        "url": "https://www.farfuture.net"
       }
     }
   ],
-  "tags": [
-    "products",
-    "communications"
-  ]
+  "tags": ["products", "communications"]
 }

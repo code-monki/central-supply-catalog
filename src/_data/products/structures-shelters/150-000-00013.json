@@ -10,23 +10,16 @@
   "qrebs": "N/A",
   "image": "",
   "description": "<p><!-- Summary Start -->The undersea habitat contains support structures for undersea operations.<!-- Summary End --> The habitat is modular, allowing several units to be joined together to form a larger habitat, and includes a moon pool, a 20-ton vehicle maintenance bay, and 100 extra tons for living space, lab space, etc. The habitat has a 120 ton displacement.</p>",
-  "categories": [
-    "structures"
-  ],
+  "categories": ["structures"],
   "sources": [
     {
       "publication": "Traveller 5.10 Core Rules Book 3 : Worlds and Adventures",
-      "authors": [
-        "Miller, Marc"
-      ],
+      "authors": ["Miller, Marc"],
       "publisher": {
         "name": "Far Future Enterprises",
-        "url": "https://farfuture.net"
+        "url": "https://www.farfuture.net"
       }
     }
   ],
-  "tags": [
-    "products",
-    "structures"
-  ]
+  "tags": ["products", "structures"]
 }

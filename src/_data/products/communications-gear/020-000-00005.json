@@ -12,23 +12,16 @@
   "image": "/img/products/personal-communicator.png",
   "description": "<p><!-- Summary Start -->Superior version of the portable comm.<!-- Summary End --></p>",
   "accessories": [],
-  "categories": [
-    "communications"
-  ],
+  "categories": ["communications"],
   "sources": [
     {
       "publication": "Traveller 5.10 Core Rules Book 3 : Worlds and Adventures",
-      "authors": [
-        "Miller, Marc"
-      ],
+      "authors": ["Miller, Marc"],
       "publisher": {
         "name": "Far Future Enterprises",
-        "url": "https://farfuture.net"
+        "url": "https://www.farfuture.net"
       }
     }
   ],
-  "tags": [
-    "products",
-    "communications"
-  ]
+  "tags": ["products", "communications"]
 }

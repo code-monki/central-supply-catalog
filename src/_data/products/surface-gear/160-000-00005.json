@@ -11,26 +11,17 @@
   "qrebs": "N/A",
   "image": "",
   "description": "<p><!-- Summary Start -->A single lift module configured in a 5-point climbing harness for individual use (it carries up to 200 kg).<!-- Summary End -->  Powered by a Size 3 PowerCell, which provides one day of continuous operation, it can climb up to an altitude of 1 planetary diameter, or roughly 1 diameter from a gravity source. It can be used for limited mobility around the hull of a starship.</p>",
-  "categories": [
-    "surface gear"
-  ],
-  "accessories": [
-    "120-000-00014"
-  ],
+  "categories": ["surface gear"],
+  "accessories": ["120-000-00014"],
   "sources": [
     {
       "publication": "Traveller 5.10 Core Rules Book 3 : Worlds and Adventures",
-      "authors": [
-        "Miller, Marc"
-      ],
+      "authors": ["Miller, Marc"],
       "publisher": {
         "name": "Far Future Enterprises",
-        "url": "https://farfuture.net"
+        "url": "https://www.farfuture.net"
       }
     }
   ],
-  "tags": [
-    "products",
-    "surface gear"
-  ]
+  "tags": ["products", "surface gear"]
 }

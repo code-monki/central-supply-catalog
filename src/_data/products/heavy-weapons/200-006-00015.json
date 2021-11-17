@@ -13,34 +13,24 @@
   "image": "",
   "description": "<p><!-- Summary Start -->A remote-controlled, crewed Gatling gun.<!-- Summary End --></p>",
   "stats": [],
-  "accessories": [
-    "200-010-00001"
-  ],
+  "accessories": ["200-010-00001"],
   "sources": [
     {
       "publication": "Traveller 5.10 Core Rules Book 1 : Characters and Combat",
-      "authors": [
-        "Miller, Marc"
-      ],
+      "authors": ["Miller, Marc"],
       "publisher": {
         "name": "Far Future Enterprises",
-        "url": "https://farfuture.net"
+        "url": "https://www.farfuture.net"
       }
     },
     {
       "publication": "Traveller 5.10 Core Rules Book 3 : Worlds and Adventures",
-      "authors": [
-        "Miller, Marc"
-      ],
+      "authors": ["Miller, Marc"],
       "publisher": {
         "name": "Far Future Enterprises",
-        "url": "https://farfuture.net"
+        "url": "https://www.farfuture.net"
       }
     }
   ],
-  "tags": [
-    "products",
-    "weapons",
-    "heavy weapons"
-  ]
+  "tags": ["products", "weapons", "heavy weapons"]
 }

@@ -12,23 +12,16 @@
   "image": "",
   "description": "<p><!-- Summary Start -->A walkie-talkie or cell-based broadcast communicator with a 5km range.<!-- Summary End --> This device is incapable of beamcast mode.</p>",
   "accessories": [],
-  "categories": [
-    "communications"
-  ],
+  "categories": ["communications"],
   "sources": [
     {
       "publication": "Traveller 5.10 Core Rules Book 3 : Worlds and Adventures",
-      "authors": [
-        "Miller, Marc"
-      ],
+      "authors": ["Miller, Marc"],
       "publisher": {
         "name": "Far Future Enterprises",
-        "url": "https://farfuture.net"
+        "url": "https://www.farfuture.net"
       }
     }
   ],
-  "tags": [
-    "products",
-    "communications"
-  ]
+  "tags": ["products", "communications"]
 }

@@ -11,33 +11,20 @@
   "qrebs": "N/A",
   "image": "",
   "description": "<p><!-- Summary Start -->Standard artillery ordnance. Pallet of 8 rounds.<!-- Summary End --></p>",
-  "categories": [
-    "weapons",
-    "ammunition"
-  ],
+  "categories": ["weapons", "ammunition"],
   "sources": [
     {
       "publication": "Traveller 5.10 Core Rules Book 3 : Worlds and Adventures",
-      "authors": [
-        "Miller, Marc"
-      ],
+      "authors": ["Miller, Marc"],
       "publisher": {
         "name": "Far Future Enterprises",
-        "url": "https://farfuture.net"
+        "url": "https://www.farfuture.net"
       }
     },
     {
       "publication": "Central Supply Catalog Website",
-      "authors": [
-        "Miller, Marc",
-        "Eaglestone, Robert",
-        "McKnight, Charles"
-      ]
+      "authors": ["Miller, Marc", "Eaglestone, Robert", "McKnight, Charles"]
     }
   ],
-  "tags": [
-    "products",
-    "weapons",
-    "ammunition"
-  ]
+  "tags": ["products", "weapons", "ammunition"]
 }

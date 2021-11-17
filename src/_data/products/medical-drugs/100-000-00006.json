@@ -11,23 +11,16 @@
   "qrebs": "N/A",
   "image": "",
   "description": "<p><!-- Summary Start -->This variant of the combat drug increases personal strength and endurance.<!-- Summary End --> The effect begins 30 seconds after being taken and lasts for about 10 minutes.</p>",
-  "categories": [
-    "drugs medical"
-  ],
+  "categories": ["drugs medical"],
   "sources": [
     {
       "publication": "Traveller 5.10 Core Rules Book 3 : Worlds and Adventures",
-      "authors": [
-        "Miller, Marc"
-      ],
+      "authors": ["Miller, Marc"],
       "publisher": {
         "name": "Far Future Enterprises",
-        "url": "https://farfuture.net"
+        "url": "https://www.farfuture.net"
       }
     }
   ],
-  "tags": [
-    "products",
-    "drugs medical"
-  ]
+  "tags": ["products", "drugs medical"]
 }

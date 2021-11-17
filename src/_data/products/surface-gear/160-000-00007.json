@@ -11,23 +11,16 @@
   "qrebs": "N/A",
   "image": "",
   "description": "<p><!-- Summary Start -->A small (10cm x 6 cm x 1 cm) inertial navigation computer which allows the user to backtrack on his path by “remembering movements and turns.<!-- Summary End --> Switched on at the point from which the user sets out, it will allow him to find his way back later from any distance. A simple math function can also allow the user to determine a straight line distance and direction to his starting point no matter where he is.</p>",
-  "categories": [
-    "surface gear"
-  ],
+  "categories": ["surface gear"],
   "sources": [
     {
       "publication": "Traveller 5.10 Core Rules Book 3 : Worlds and Adventures",
-      "authors": [
-        "Miller, Marc"
-      ],
+      "authors": ["Miller, Marc"],
       "publisher": {
         "name": "Far Future Enterprises",
-        "url": "https://farfuture.net"
+        "url": "https://www.farfuture.net"
       }
     }
   ],
-  "tags": [
-    "products",
-    "surface gear"
-  ]
+  "tags": ["products", "surface gear"]
 }

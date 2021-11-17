@@ -11,23 +11,16 @@
   "qrebs": "N/A",
   "image": "",
   "description": "<p><!-- Summary Start -->A simple hand-held mirror which can be used to reflect sunlight and thus catch the attention of a distant observer.<!-- Summary End --> Signal mirrors can be improvised out of any reflective material; specialty mirrors will include a small sighting hole that enables the signaler to direct the flashes of light from the mirror at a particular target such as a passing aircraft.</p>",
-  "categories": [
-    "emitters"
-  ],
+  "categories": ["emitters"],
   "sources": [
     {
       "publication": "Traveller 5.10 Core Rules Book 3 : Worlds and Adventures",
-      "authors": [
-        "Miller, Marc"
-      ],
+      "authors": ["Miller, Marc"],
       "publisher": {
         "name": "Far Future Enterprises",
-        "url": "https://farfuture.net"
+        "url": "https://www.farfuture.net"
       }
     }
   ],
-  "tags": [
-    "products",
-    "emitters"
-  ]
+  "tags": ["products", "emitters"]
 }

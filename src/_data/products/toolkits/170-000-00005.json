@@ -11,23 +11,16 @@
   "qrebs": "N/A",
   "image": "",
   "description": "<p><!-- Summary Start -->All the basic tools necessary to cut, shape, and build with stone.<!-- Summary End --></p>",
-  "categories": [
-    "toolkits"
-  ],
+  "categories": ["toolkits"],
   "sources": [
     {
       "publication": "Traveller 5.10 Core Rules Book 3 : Worlds and Adventures",
-      "authors": [
-        "Miller, Marc"
-      ],
+      "authors": ["Miller, Marc"],
       "publisher": {
         "name": "Far Future Enterprises",
-        "url": "https://farfuture.net"
+        "url": "https://www.farfuture.net"
       }
     }
   ],
-  "tags": [
-    "products",
-    "toolkits"
-  ]
+  "tags": ["products", "toolkits"]
 }
