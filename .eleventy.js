@@ -1,27 +1,28 @@
-const path = require("path");
-const fs = require("fs");
-const markdownIt = require("markdown-it");
-const mfrData = require("./progdata/manufacturers.json");
-const categoriesData = require("./progdata/categories.json");
-const departmentsData = require("./progdata/departments.json");
-const slugify = require("slugify");
-const { config } = require("process");
-const { parse } = require("path");
+const path = require('path');
+const fs = require('fs');
+const markdownIt = require('markdown-it');
+const mfrData = require('./progdata/manufacturers.json');
+const categoriesData = require('./progdata/categories.json');
+const departmentsData = require('./progdata/departments.json');
+const publishers = require('./progdata/publishers.json');
+const slugify = require('slugify');
+const { config } = require('process');
+const { parse } = require('path');
 
-const basePath = "";
+const basePath = '';
 const buildDest = process.env.ELEVENTY_DEST;
 
 module.exports = function (eleventyConfig) {
   const md = new markdownIt({ html: true });
 
-  eleventyConfig.addPassthroughCopy("src/js");
-  eleventyConfig.addPassthroughCopy("src/css");
-  eleventyConfig.addPassthroughCopy("src/_data/*.idx");
-  eleventyConfig.addPassthroughCopy("src/sw.js");
-  eleventyConfig.addPassthroughCopy("src/img");
-  eleventyConfig.addPassthroughCopy("src/audio");
+  eleventyConfig.addPassthroughCopy('src/js');
+  eleventyConfig.addPassthroughCopy('src/css');
+  eleventyConfig.addPassthroughCopy('src/_data/*.idx');
+  eleventyConfig.addPassthroughCopy('src/sw.js');
+  eleventyConfig.addPassthroughCopy('src/img');
+  eleventyConfig.addPassthroughCopy('src/audio');
   eleventyConfig.setQuietMode(true);
-  eleventyConfig.addWatchTarget("./src/scss");
+  eleventyConfig.addWatchTarget('./src/scss');
 
   //-------------------------------------------------------------
   // Use local 404 page
@@ -29,10 +30,10 @@ module.exports = function (eleventyConfig) {
   eleventyConfig.setBrowserSyncConfig({
     callbacks: {
       ready: function (err, bs) {
-        bs.addMiddleware("*", (req, res) => {
-          const content_404 = fs.readFileSync("build/404.html");
+        bs.addMiddleware('*', (req, res) => {
+          const content_404 = fs.readFileSync('build/404.html');
           // Add 404 http status code in request header.
-          res.writeHead(404, { "Content-Type": "text/html; charset=UTF-8" });
+          res.writeHead(404, { 'Content-Type': 'text/html; charset=UTF-8' });
           // Provides the 404 content without redirect.
           res.write(content_404);
           res.end();
@@ -44,9 +45,9 @@ module.exports = function (eleventyConfig) {
   //-------------------------------------------------------------
   // Create the cost label with the appropriate units
   //-------------------------------------------------------------
-  eleventyConfig.addFilter("costLabel", (cost) => {
-    let value = "";
-    let unitLabel = "Cr";
+  eleventyConfig.addFilter('costLabel', (cost) => {
+    let value = '';
+    let unitLabel = 'Cr';
     let modValue = cost;
 
     if (cost > 999999999999) {
@@ -72,14 +73,14 @@ module.exports = function (eleventyConfig) {
   //-------------------------------------------------------------
   // Add custom product collections
   //-------------------------------------------------------------
-  let basedir = path.join("src", "_data", "products");
+  let basedir = path.join('src', '_data', 'products');
 
   // gather list of product directories
   let prodDirectories = fs.readdirSync(basedir);
 
   prodDirectories.forEach((category) => {
     eleventyConfig.addCollection(category, (collectionApi) => {
-      let files = fs.readdirSync(path.join(basedir, category)).filter((file) => path.extname(file) === ".json");
+      let files = fs.readdirSync(path.join(basedir, category)).filter((file) => path.extname(file) === '.json');
       let products = files.flatMap((file) => JSON.parse(fs.readFileSync(path.join(basedir, category, file))));
       products.sort((a, b) => a.name.localeCompare(b.name));
 
@@ -102,7 +103,7 @@ module.exports = function (eleventyConfig) {
 
     category.departments.forEach((dept) => {
       let deptDataDir = departmentsData.find((obj) => obj.id === dept).datadir;
-      let files = fs.readdirSync(deptDataDir).filter((file) => path.extname(file) === ".json");
+      let files = fs.readdirSync(deptDataDir).filter((file) => path.extname(file) === '.json');
       let prodArray = files
         .flatMap((file) => JSON.parse(fs.readFileSync(path.join(deptDataDir, file))), products)
         .filter((prod) => !prod.sku.match(/-00000$/g)); // filter out empty collections
@@ -118,15 +119,15 @@ module.exports = function (eleventyConfig) {
   //-------------------------------------------------------------
   // Convert numeric tech level to alphabetic character
   //-------------------------------------------------------------
-  eleventyConfig.addFilter("convertTL", (techLevel) => {
-    const TL = "0123456789ABCDEFGHJKLMNPQRSTUVWXYZ";
+  eleventyConfig.addFilter('convertTL', (techLevel) => {
+    const TL = '0123456789ABCDEFGHJKLMNPQRSTUVWXYZ';
     return TL[techLevel];
   });
 
   //-------------------------------------------------------------
   // Render the incoming content Markdown fragment as HTML
   //-------------------------------------------------------------
-  eleventyConfig.addFilter("markdown", (content) => {
+  eleventyConfig.addFilter('markdown', (content) => {
     let text = md.render(content);
     return text;
   });
@@ -134,26 +135,26 @@ module.exports = function (eleventyConfig) {
   //-------------------------------------------------------------
   // create shortcode to extract summary
   //-------------------------------------------------------------
-  eleventyConfig.addShortcode("summary", (article) => extractSummary(article));
+  eleventyConfig.addShortcode('summary', (article) => extractSummary(article));
 
   //-------------------------------------------------------------
   // Get the categories
   //-------------------------------------------------------------
-  eleventyConfig.addShortcode("getCategories", function () {
-    let text = "<div><ul>";
+  eleventyConfig.addShortcode('getCategories', function () {
+    let text = '<div><ul>';
     categoriesData.forEach((item) => {
       text += `<li>${item.label}</li>`;
     });
-    text += "</ul></div>";
+    text += '</ul></div>';
     return text;
   });
 
   //-------------------------------------------------------------
   // Get the manufacturer name
   //-------------------------------------------------------------
-  eleventyConfig.addShortcode("getMfr", function (mfrId) {
+  eleventyConfig.addShortcode('getMfr', function (mfrId) {
     const mfr = mfrData.find((obj) => obj.mfrId === mfrId);
-    let res = "N/A";
+    let res = 'N/A';
     if (mfr !== undefined) {
       res = `<a href="${mfr.url}" target="_blank">${mfr.name}</a>`;
     }
@@ -164,7 +165,7 @@ module.exports = function (eleventyConfig) {
   //-------------------------------------------------------------
   // Get Accessory
   //-------------------------------------------------------------
-  eleventyConfig.addShortcode("getAccessory", function (sku) {
+  eleventyConfig.addShortcode('getAccessory', function (sku) {
     let product = getProduct(sku);
     // get the department
     // let key = sku.slice(0, 7);
@@ -179,7 +180,7 @@ module.exports = function (eleventyConfig) {
 
     if (product !== undefined && product !== null) {
       let imgURL =
-        product.image === "" || product.image === null
+        product.image === '' || product.image === null
           ? `${basePath}/img/products/no-image.png`
           : `${basePath}/img/products/${sku}.png`;
 
@@ -206,8 +207,8 @@ module.exports = function (eleventyConfig) {
   //-------------------------------------------------------------
   // build stats table body
   //-------------------------------------------------------------
-  eleventyConfig.addShortcode("buildStatsBody", (stats) => {
-    let text = "  <tbody>";
+  eleventyConfig.addShortcode('buildStatsBody', (stats) => {
+    let text = '  <tbody>';
     let rows = parseInt(stats.length / 2) + (stats.length % 2);
 
     for (let ctr = 0; ctr < rows; ctr++) {
@@ -218,7 +219,7 @@ module.exports = function (eleventyConfig) {
       if (stats[ctr + rows] !== null && stats[ctr + rows] !== undefined) {
         text += `<td><strong>${stats[ctr + rows].label}:</strong> ${stats[ctr + rows].value}</td>`;
       } else {
-        text += "<td></td>";
+        text += '<td></td>';
       }
 
       text += `
@@ -232,10 +233,27 @@ module.exports = function (eleventyConfig) {
   });
 
   //-------------------------------------------------------------
+  // generate Publisher entry
+  //-------------------------------------------------------------
+  eleventyConfig.addShortcode('generatePublisher', (publisherName) => {
+    let text = '';
+    let pub = publishers.find((obj) => obj.name === publisherName);
+
+    if (pub !== null && pub !== undefined) {
+      if (pub.url !== null && pub.url !== undefined) {
+        text += `<a href="${pub.url}" target="_blank">${pub.name}</a>`;
+      } else {
+        text += pub.name;
+      }
+    }
+    return text;
+  });
+
+  //-------------------------------------------------------------
   // Generate department dropdown list
   //-------------------------------------------------------------
-  eleventyConfig.addShortcode("generateDeptList", () => {
-    let text = "<ul>";
+  eleventyConfig.addShortcode('generateDeptList', () => {
+    let text = '<ul>';
 
     categoriesData
       .sort((a, b) => a.label.localeCompare(b.label))
@@ -275,35 +293,35 @@ module.exports = function (eleventyConfig) {
         }
       });
 
-    text += "</ul>";
+    text += '</ul>';
 
     return text;
   });
 
   // generate product variant buttons
-  eleventyConfig.addShortcode("generateVariants", (sku) => {
+  eleventyConfig.addShortcode('generateVariants', (sku) => {
     let text = '';
     let product = getProduct(sku);
-    product.variants.forEach(variant => {
+    product.variants.forEach((variant) => {
       let vp = getProduct(variant.sku);
-      
+
       if (variant.sku === sku) {
         // mark as active page
-        text += `<a class="active-variant">${variant.label}</a>`
+        text += `<a class="active-variant">${variant.label}</a>`;
       } else {
-        text += `<a href="/products/${variant.sku}">${variant.label}</a>`
+        text += `<a href="/products/${variant.sku}">${variant.label}</a>`;
       }
-    })
+    });
 
     return text;
   });
 
   return {
     dir: {
-      input: "src",
-      output: "build",
-      data: "_data",
-      includes: "partials_layouts",
+      input: 'src',
+      output: 'build',
+      data: '_data',
+      includes: 'partials_layouts',
     },
   };
 };
@@ -318,8 +336,8 @@ const extractSummary = (text) => {
 
   // The start and end separators to try and match to extract the summary
   const separatorsList = [
-    { start: "<!-- Summary Start -->", end: "<!-- Summary End -->" },
-    { start: "<p>", end: "</p>" },
+    { start: '<!-- Summary Start -->', end: '<!-- Summary End -->' },
+    { start: '<p>', end: '</p>' },
   ];
 
   separatorsList.some((separators) => {
@@ -353,7 +371,7 @@ const getProduct = (sku) => {
   try {
     product = JSON.parse(fs.readFileSync(prodFileName));
   } catch {
-    console.error(`Product file ${prodFileName} does not exist.`)
+    console.error(`Product file ${prodFileName} does not exist.`);
   }
 
   return product;
