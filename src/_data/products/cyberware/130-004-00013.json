@@ -11,46 +11,24 @@
   "qrebs": "N/A",
   "image": "",
   "description": "<p><!-- Summary Start -->A computer surgically implanted and cybernetically linked to the conscious brain centers.<!-- Summary End --> The lightest of these computers still mass one kilogram and are too large to implant in the skull. Instead, the computer consists of a series of a half dozen or more small sub components which are fused to individual vertebrae of the spine (on the inner sides) in such a way that they do not interfere with articulation. They are linked to each other and the organic brain by way of the spinal cord. Output from the computer can be accessed either by way of an eyeball display, an in-ear speaker, or direct machine-brain interface, if the user also has a neural jack installed.</p><p>The primary use for an implanted computer is recall of detailed technical and background information. The user can query the computer, and the data banks, for specific details. The implanted computer can perform analysis from other implanted cyberware, for example creating maps from the echolocation of sonar systems or monitoring the state of internal power system. Finally, if the user possess a waferjack or data jack, the implanted computer can be used to access or control external equipment. For example, the implant computer can run diagnostics or run equipment where the controlling computer had been damaged or destroyed.</p>",
-  "categories": [
-    "protections",
-    "cyberware"
-  ],
+  "categories": ["protections", "cyberware"],
   "sources": [
     {
-      "publication": "Traveller Wiki: Implanted Computer",
-      "authors": [
-        "Traveller Wiki Editorial Team"
-      ],
-      "publisher": {
-        "name": "Traveller Wiki",
-        "url": "https://wiki.travellerrpg.com/Implanted_computer"
-      }
+      "publication": "Traveller Wiki : Implanted Computer",
+      "url": "https://wiki.travellerrpg.com/Implanted_computer",
+      "authors": ["Traveller Wiki Editorial Team"],
+      "publisher": "Traveller Wiki"
     },
     {
       "publication": "Journal of the Travellers' Aid Society 22: Computer Implant",
-      "authors": [
-        "Wiseman, Loren"
-      ],
-      "publisher": {
-        "name": "Game Designers Workshop",
-        "url": ""
-      }
+      "authors": ["Wiseman, Loren"],
+      "publisher": "Games Designer Workshop"
     },
     {
       "publication": "Fire, Fusion, & Steel",
-      "authors": [
-        "Chadwick, Frank",
-        "Nilsen, Dave"
-      ],
-      "publisher": {
-        "name": "Game Designers Workshop",
-        "url": ""
-      }
+      "authors": ["Chadwick, Frank", "Nilsen, Dave"],
+      "publisher": "Games Designer Workshop"
     }
   ],
-  "tags": [
-    "products",
-    "protections",
-    "cyberware"
-  ]
+  "tags": ["products", "protections", "cyberware"]
 }

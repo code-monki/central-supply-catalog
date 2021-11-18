@@ -11,36 +11,19 @@
   "qrebs": "N/A",
   "image": "",
   "description": "<p><!-- Summary Start -->A full battery-powered Cybernetic Heart designed to pump blood or other internal fluids throughout the body.<!-- Summary End --> The device renders the individual immune to coronary disease and heart attacks. The heart's internal battery is extremely compact and has a very long life, typically measured in decades.</p><p>An early example of a cybernetic heart enhancement is the TL–5 pacemaker, used to treat coronary arrhythmias.</p>",
-  "categories": [
-    "protections",
-    "cyberware"
-  ],
+  "categories": ["protections", "cyberware"],
   "sources": [
     {
-      "publication": "Traveller Wiki: Cybernetic Heart",
-      "authors": [
-        "Lord (Marquis) and Master Scout Emeritus Adie Alegoric Stewart of the IISS"
-      ],
-      "publisher": {
-        "name": "Traveller Wiki",
-        "url": "https://wiki.travellerrpg.com/Cybernetic_Heart"
-      }
+      "publication": "Traveller Wiki : Cybernetic Heart",
+      "url": "https://wiki.travellerrpg.com/Cybernetic_Heart",
+      "authors": ["Lord (Marquis) and Master Scout Emeritus Adie Alegoric Stewart of the IISS"],
+      "publisher": "Traveller Wiki"
     },
     {
       "publication": "Cybernetics",
-      "authors": [
-        "Nash, Pete",
-        "Robinson, Nick"
-      ],
-      "publisher": {
-        "name": "Mongoose Publishing",
-        "url": "https://www.mongoosepublishing.com/"
-      }
+      "authors": ["Nash, Pete", "Robinson, Nick"],
+      "publisher": "Mongoose Publishing"
     }
   ],
-  "tags": [
-    "products",
-    "protections",
-    "cyberware"
-  ]
+  "tags": ["products", "protections", "cyberware"]
 }

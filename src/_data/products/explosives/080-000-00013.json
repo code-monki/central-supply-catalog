@@ -10,24 +10,15 @@
   "techLevel": 10,
   "qrebs": "N/A",
   "image": "",
-  "description": "<p><!-- Summary Start -->Thermeld comes in 15cm long x 5cm wide x 3 cm deep strips of mildly flexible bright pink putty-like material.<!-- Summary End --> It is wrapped in yellow and black striped cellophane-like material and comes with a pull-strip on the base to expose a mildly adhesive base. Each strip is further wrapped in a vacuum-sealed transparent wrapping that also contains two piezo-electric initiator plugs.\n\nThermeld Strips operate in much the same way that Linear burning ropes do, but welding surfaces together in an emergency, rather than cutting them. Thermeld is not a substitute for conventional welding equipment but is a handy emergency substitute.</p>",
-  "categories": [
-    "explosives"
-  ],
+  "description": "<p><!-- Summary Start -->Thermeld comes in 15cm long x 5cm wide x 3 cm deep strips of mildly flexible bright pink putty-like material.<!-- Summary End --> It is wrapped in yellow and black striped cellophane-like material and comes with a pull-strip on the base to expose a mildly adhesive base. Each strip is further wrapped in a vacuum-sealed transparent wrapping that also contains two piezoelectric initiator plugs.\n\nThermeld Strips operate in much the same way that Linear burning ropes do, but welding surfaces together in an emergency, rather than cutting them. Thermeld is not a substitute for conventional welding equipment but is a handy emergency substitute.</p>",
+  "categories": ["explosives"],
   "sources": [
     {
-      "publication": "Traveller Wiki: Thermeld Strip",
-      "authors": [
-        "Traveller Wiki Editorial Team"
-      ],
-      "publisher": {
-        "name": "Traveller Wiki",
-        "url": "https://wiki.travellerrpg.com/Thermeld_Strip"
-      }
+      "publication": "Traveller Wiki : Thermeld Strip",
+      "url": "https://wiki.travellerrpg.com/Thermeld_Strip",
+      "authors": ["Traveller Wiki Editorial Team"],
+      "publisher": "Traveller Wiki"
     }
   ],
-  "tags": [
-    "products",
-    "explosives"
-  ]
+  "tags": ["products", "explosives"]
 }

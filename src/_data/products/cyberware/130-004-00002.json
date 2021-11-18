@@ -11,36 +11,19 @@
   "qrebs": "N/A",
   "image": "",
   "description": "<p><!-- Summary Start -->The Cybernetic Adrenals are replacement for the adrenal glands.<!-- Summary End --> There are two versions, the base model is called a Supercharger, and the more advanced one with greater capacity is a Hypercharger. These produce endorphins and other hormones for dealing with stressful situations and hostile environments. The system either generates small quantities of these hormones or filters the natural ones from the blood. These are then released in measured quantities to in addition to the hormones the system contains an oxygen generator to increase the oxygenation of the blood in the body for these stress situations.</p>",
-  "categories": [
-    "protections",
-    "cyberware"
-  ],
+  "categories": ["protections", "cyberware"],
   "sources": [
     {
-      "publication": "Traveller Wiki: Cybernetic Adrenals",
-      "authors": [
-        "Traveller Wiki Editorial Team"
-      ],
-      "publisher": {
-        "name": "Traveller Wiki",
-        "url": "https://wiki.travellerrpg.com/Cybernetic_Adrenals"
-      }
+      "publication": "Traveller Wiki : Cybernetic Adrenals",
+      "url": "https://wiki.travellerrpg.com/Cybernetic_Adrenals",
+      "authors": ["Traveller Wiki Editorial Team"],
+      "publisher": "Traveller Wiki"
     },
     {
       "publication": "Fire, Fusion, & Steel",
-      "authors": [
-        "Chadwick, Frank",
-        "Nilsen, Dave"
-      ],
-      "publisher": {
-        "name": "Game Designers Workshop",
-        "url": ""
-      }
+      "authors": ["Chadwick, Frank", "Nilsen, Dave"],
+      "publisher": "Games Designer Workshop"
     }
   ],
-  "tags": [
-    "products",
-    "protections",
-    "cyberware"
-  ]
+  "tags": ["products", "protections", "cyberware"]
 }

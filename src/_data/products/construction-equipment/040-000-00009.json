@@ -14,36 +14,25 @@
   "categories": ["products", "construction", "construction equipment", "artifact"],
   "sources": [
     {
-      "publication": "Shadows / Annic Nova",
-      "authors": ["Miller, Marc"],
-      "publisher": {
-        "name": "Game Designers Workshop",
-        "url": "https://wiki.travellerrpg.com/Game_Designers_Workshop"
-      }
-    },
-    {
-      "publication": "Dragon Magazine CANARD: A Traveller Adventure",
-      "authors": ["Camino, Roberto"],
-      "publisher": {
-        "name": "TSR (Tactical Studies Rules)",
-        "url": ""
-      }
+      "publication": "Traveller Wiki - Planetary Core Tap",
+      "url": "https://wiki.travellerrpg.com/Planetary_Core_Tap",
+      "authors": ["Maksim-Smelchak"],
+      "publisher": "Traveller Wiki"
     },
     {
       "publication": "Traveller 5.10 Core Rules Book 3 : Worlds and Adventures",
       "authors": ["Miller, Marc"],
-      "publisher": {
-        "name": "Far Future Enterprises",
-        "url": "https://www.farfuture.net"
-      }
+      "publisher": "Far Future Enterprises"
     },
     {
-      "publication": "Traveller Wiki - Planetary Core Tap",
-      "authors": ["Maksim-Smelchak"],
-      "publisher": {
-        "name": "Traveller Wiki",
-        "url": "https://wiki.travellerrpg.com/Planetary_Core_Tap"
-      }
+      "publication": "Shadows / Annic Nova",
+      "authors": ["Miller, Marc"],
+      "publisher": "Games Designer Workshop"
+    },
+    {
+      "publication": "Dragon Magazine CANARD: A Traveller Adventure",
+      "authors": ["Camino, Roberto"],
+      "publisher": "TSR (Tactical Studies Rules)"
     }
   ],
   "tags": ["products", "construction", "construction equipment", "artifact"]

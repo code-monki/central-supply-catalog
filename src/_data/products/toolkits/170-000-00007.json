@@ -11,23 +11,16 @@
   "qrebs": "N/A",
   "image": "",
   "description": "<p><!-- Summary Start -->Standard toolchest with all of the tools necessary to cut, shape, and build with stone.<!-- Summary End --></p>",
-  "categories": [
-    "toolkits"
-  ],
+  "categories": ["toolkits"],
   "sources": [
     {
-      "publication": "",
-      "authors": [
-        ""
-      ],
+      "publication": "Traveller 5.10 Core Rules Book 3 : Worlds and Adventures",
+      "authors": ["Miller, Marc"],
       "publisher": {
-        "name": "",
-        "url": ""
+        "name": "Far Future Enterprises",
+        "url": "https://farfuture.net"
       }
     }
   ],
-  "tags": [
-    "products",
-    "toolkits"
-  ]
+  "tags": ["products", "toolkits"]
 }

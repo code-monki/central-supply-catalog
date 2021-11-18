@@ -10,34 +10,19 @@
   "qrebs": "N/A",
   "image": "",
   "description": "<p><!-- Summary Start -->The <a href=\"https://wiki.travellerrpg.com/Tukera_Lines\" target=\"_blank\">Tukera Lines</a> model 232_BHR-7 starport mechanic is a track mounted toolbot designed for delicate repair work on electronics and control systems.<!-- Summary End --> Its arms are extremely dexterous but not very strong, and are intended for easy access to restricted work spaces.</p>",
-  "categories": [
-    "robotics", "robots"
-  ],
+  "categories": ["robotics", "robots"],
   "sources": [
     {
       "publication": "Traveller Wiki : 232-BHR-7 class Toolbot",
-      "authors": [
-        "Traveller Wiki Editorial Team"
-      ],
-      "publisher": {
-        "name": "Traveller Wiki",
-        "url": "https://wiki.travellerrpg.com/232-BHR-7_class_Toolbot"
-      }
+      "url": "https://wiki.travellerrpg.com/232-BHR-7_class_Toolbot",
+      "authors": ["Traveller Wiki Editorial Team"],
+      "publisher": "Traveller Wiki"
     },
     {
       "publication": "Traveller: The New Era: Vampire Fleets",
-      "authors": [
-        "Chadwick, Frank"
-      ],
-      "publisher": {
-        "name": "Game Designers Workshop",
-        "url": ""
-      }
+      "authors": ["Chadwick, Frank"],
+      "publisher": "Games Designer Workshop"
     }
   ],
-  "tags": [
-    "products",
-    "robotics",
-    "robots"
-  ]
+  "tags": ["products", "robotics", "robots"]
 }

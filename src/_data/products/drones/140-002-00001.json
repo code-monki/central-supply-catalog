@@ -10,28 +10,18 @@
   "qrebs": "N/A",
   "image": "",
   "variants": [
-    {"sku": "140-002-00001", "label": "S-variant"},
-    {"sku": "140-002-00002", "label": "R-variant"}
+    { "sku": "140-002-00001", "label": "S-variant" },
+    { "sku": "140-002-00002", "label": "R-variant" }
   ],
   "description": "<p><!-- Summary Start -->The Extra eye microdrone is a small, cheap, disposable sensor drone used for system survey work.<!-- Summary End --> The drone is a cylinder 320mm long and 57mm in diameter. The core of the drone is a broad spectrum EM sensor with coverage from long range radio to the far ultraviolet. A small computer does basic sensor analysis and navigation. There is a small, very low powered thruster for maneuvering. The primary design (called the S variant) uses a folding solar cell and 1 MWs battery cell to power the drone. The limitations of the solar cell power generation limit its use to the life zone of a system. The S variant has a 0.005G thruster, driving the drone over 1AU in a little over 40 days, and 10 AU in 128 days.</p>",
-  "categories": [
-    "robotics"
-  ],
+  "categories": ["robotics"],
   "sources": [
     {
       "publication": "Traveller Wiki : Extra Eye Microdrone",
-      "authors": [
-        "Traveller Wiki Editorial Team"
-      ],
-      "publisher": {
-        "name": "Traveller Wiki",
-        "url": "https://wiki.travellerrpg.com/Extra_Eye_Microdrone"
-      }
+      "url": "https://wiki.travellerrpg.com/Extra_Eye_Microdrone",
+      "authors": ["Traveller Wiki Editorial Team"],
+      "publisher": "Traveller Wiki"
     }
   ],
-  "tags": [
-    "products",
-    "robotics",
-    "drones"
-  ]
+  "tags": ["products", "robotics", "drones"]
 }

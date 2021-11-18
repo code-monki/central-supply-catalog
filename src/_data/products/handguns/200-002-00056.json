@@ -19,18 +19,12 @@
     {
       "publication": "Traveller 5.10 Core Rules Book 1 : Characters and Combat",
       "authors": ["Miller, Marc"],
-      "publisher": {
-        "name": "Far Future Enterprises",
-        "url": "https://www.farfuture.net"
-      }
+      "publisher": "Far Future Enterprises"
     },
     {
       "publication": "Traveller 5.10 Core Rules Book 3 : Worlds and Adventures",
       "authors": ["Miller, Marc"],
-      "publisher": {
-        "name": "Far Future Enterprises",
-        "url": "https://www.farfuture.net"
-      }
+      "publisher": "Far Future Enterprises"
     }
   ],
   "tags": ["products", "weapons", "handguns", "revolver"]

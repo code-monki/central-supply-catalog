@@ -10,36 +10,19 @@
   "qrebs": "N/A",
   "image": "",
   "description": "<p><!-- Summary Start -->The Shadan class Survey Robot is one of the more innovative robot designs from Naasirka. It is a general purpose survey robot, built to survey world surfaces for a variety of purposes.<!-- Summary End --></p><p>The onboard fuel cell provides power for 120 days, half that in an unoxygenated atmosphere. In addition to the normal robot sensors, the Shadan carries a Distant range active/passive EMS array, a neutrino sensor, Densitometer, radiation sensor and a sensitive magnetic sensor.</p>",
-  "categories": [
-    "robotics", "robots"
-  ],
+  "categories": ["robotics", "robots"],
   "sources": [
     {
       "publication": "Traveller Wiki : Shadan class Survey Robot",
-      "authors": [
-        "Traveller Wiki Editorial Team"
-      ],
-      "publisher": {
-        "name": "Traveller Wiki",
-        "url": "https://wiki.travellerrpg.com/Shadan_class_Survey_Robot"
-      }
+      "url": "https://wiki.travellerrpg.com/Shadan_class_Survey_Robot",
+      "authors": ["Traveller Wiki Editorial Team"],
+      "publisher": "Traveller Wiki"
     },
     {
       "publication": "Alien - Vilani & Varg",
-      "authors": [
-        "Holden, James",
-        "Fugate Sr., Joe D.",
-        "McInnes, Terrance"
-      ],
-      "publisher": {
-        "name": "Digest Group Publications",
-        "url": ""
-      }
+      "authors": ["Holden, James", "Fugate Sr., Joe D.", "McInnes, Terrance"],
+      "publisher": "Digest Group Publications"
     }
   ],
-  "tags": [
-    "products",
-    "robotics",
-    "robots"
-  ]
+  "tags": ["products", "robotics", "robots"]
 }

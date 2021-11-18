@@ -11,33 +11,22 @@
   "qrebs": "N/A",
   "image": "",
   "description": "<p><!-- Summary Start -->Dyrocellus Cloth is a development of nitrocellulose and has the texture and feel of cotton cloth with the an explosive power equal to a similar amount of nitrocellulose.<!-- Summary End --> Dyrocellus cloth is contraband in the Trelyn Domain, Die Weltbund, and Intercourse/Delta.</p>",
-  "categories": [
-    "explosives"
-  ],
+  "categories": ["explosives"],
   "sources": [
     {
-      "publication": "Traveller Wiki: Dyrocellus Cloth",
-      "authors": [
-        "Traveller Wiki Editorial Team"
-      ],
-      "publisher": {
-        "name": "Traveller Wiki",
-        "url": "https://wiki.travellerrpg.com/Dyrocellus_Cloth"
-      }
+      "publication": "Traveller Wiki : Dyrocellus Cloth",
+      "url": "https://wiki.travellerrpg.com/Dyrocellus_Cloth",
+      "authors": ["Traveller Wiki Editorial Team"],
+      "publisher": "Traveller Wiki"
     },
     {
       "publication": "High Tortuga",
-      "authors": [
-        "Maley, Michael J."
-      ],
+      "authors": ["Maley, Michael J."],
       "publisher": {
-        "name": "",
-        "url": ""
+        "name": "darkhstarr.com",
+        "url": "http://www.darkhstarr.com"
       }
     }
   ],
-  "tags": [
-    "products",
-    "explosives"
-  ]
+  "tags": ["products", "explosives"]
 }

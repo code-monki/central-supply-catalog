@@ -11,28 +11,15 @@
   "qrebs": "N/A",
   "image": "",
   "description": "<p><!-- Summary Start -->The implanted radar mounts an implanted radar emitter and receiver in a band around the user's skull.<!-- Summary End --> The radar is capable of a full 360 degree scan with a range of 20 meters, or can be limited to a 120 degree arc with a range of 100 meters.</p><p>The radar allows sight in complete darkness and can penetrate fog, smoke, rain, and some other forms of light cover. The resolution of the radar doesn't allow resolving individual items or details smaller than 0.5 cm in size. The radar does not work underwater.</p>",
-  "categories": [
-    "protections",
-    "cyberware"
-  ],
-  "accessories": [
-    "130-004-00028"
-  ],
+  "categories": ["protections", "cyberware"],
+  "accessories": ["130-004-00028"],
   "sources": [
     {
-      "publication": "Traveller Wiki: Implanted Inertial Navigation System",
-      "authors": [
-        "Traveller Wiki Editorial Team"
-      ],
-      "publisher": {
-        "name": "Traveller Wiki",
-        "url": "https://wiki.travellerrpg.com/Implanted_inertial_navigation_system"
-      }
+      "publication": "Traveller Wiki : Implanted Inertial Navigation System",
+      "url": "https://wiki.travellerrpg.com/Implanted_radar",
+      "authors": ["Traveller Wiki Editorial Team"],
+      "publisher": "Traveller Wiki"
     }
   ],
-  "tags": [
-    "products",
-    "protections",
-    "cyberware"
-  ]
+  "tags": ["products", "protections", "cyberware"]
 }

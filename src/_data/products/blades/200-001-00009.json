@@ -18,17 +18,15 @@
     {
       "publication": "Traveller 5.10 Core Rules Book 3 : Worlds and Adventures",
       "authors": ["Miller, Marc"],
-      "publisher": {
-        "name": "Far Future Enterprises",
-        "url": "https://www.farfuture.net"
-      }
+      "publisher": "Far Future Enterprises"
     },
     {
       "publication": "Wikipedia : Classification of Swords",
+      "url": "https://en.wikipedia.org/wiki/Classification_of_swords",
       "authors": ["Various"],
       "publisher": {
         "name": "Wikipedia",
-        "url": "https://en.wikipedia.org/wiki/Classification_of_swords"
+        "url": "https://en.wikipedia.org/"
       }
     }
   ],

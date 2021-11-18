@@ -10,29 +10,17 @@
   "qrebs": "",
   "image": "/img/products/200-011-00006.png",
   "variants": [
-    {"sku": "200-011-00006", "label": "Leather Sling"},
-    {"sku": "200-011-00007", "label": "Synthetic Sling"}
+    { "sku": "200-011-00006", "label": "Leather Sling" },
+    { "sku": "200-011-00007", "label": "Synthetic Sling" }
   ],
   "description": "<p><!-- Summary Start -->A rifle sling made of a natural leather product.<!-- Summary End --></p>",
-  "categories": [
-    "weapons",
-    "weapon accessory"
-  ],
+  "categories": ["weapons", "weapon accessory"],
   "sources": [
     {
-      "publication": "Central Supply Catalog : Sling, Leather",
-      "authors": [
-        "Charles McKnight"
-      ],
-      "publisher": {
-        "name": "Central Supply Catalog",
-        "url": "https://trav-csc.com/products/200-011-00006"
-      }
+      "publication": "Central Supply Catalog Website : Sling, Leather",
+      "authors": ["Charles McKnight"],
+      "publisher": "Central Supply Catalog Website"
     }
   ],
-  "tags": [
-    "products",
-    "weapons",
-    "weapon accessory"
-  ]
+  "tags": ["products", "weapons", "weapon accessory"]
 }

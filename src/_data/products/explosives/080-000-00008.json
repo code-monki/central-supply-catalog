@@ -11,26 +11,15 @@
   "qrebs": "N/A",
   "image": "",
   "description": "<p><!-- Summary Start -->Linear Shaped Charge (LSC) is a v-shaped armoured polymer strip packed with blasting putty.<!-- Summary End --> When detonated whilst in contact with a solid object, LSC will cut cleanly through the object, following the principles of the shaped charge theory.</p>",
-  "accessories": [
-    "080-000-00004"
-  ],
-  "categories": [
-    "explosives"
-  ],
+  "accessories": ["080-000-00004"],
+  "categories": ["explosives"],
   "sources": [
     {
-      "publication": "Traveller Wiki: Goods/Explosives",
-      "authors": [
-        "Armson, Morandir"
-      ],
-      "publisher": {
-        "name": "Traveller Wiki",
-        "url": "https://wiki.travellerrpg.com/Linear_Shaped_Charge"
-      }
+      "publication": "Traveller Wiki : Goods/Explosives",
+      "url": "https://wiki.travellerrpg.com/Linear_Shaped_Charge",
+      "authors": ["Armson, Morandir"],
+      "publisher": "Traveller Wiki"
     }
   ],
-  "tags": [
-    "products",
-    "explosives"
-  ]
+  "tags": ["products", "explosives"]
 }

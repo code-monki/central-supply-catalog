@@ -11,76 +11,40 @@
   "qrebs": "N/A",
   "image": "",
   "description": "<p><!-- Summary Start -->Breaching Charges are shaped charges of plastic explosive designed to blow man sized holes in walls.<!-- Summary End --> The charge is the size of a thick notebook; it has a self-adhesive panel on one side and an adjustable chemical time fuse on the other.</p>",
-  "accessories": [
-    "080-000-00004"
-  ],
-  "categories": [
-    "explosives"
-  ],
+  "accessories": ["080-000-00004"],
+  "categories": ["explosives"],
   "sources": [
     {
-      "publication": "Traveller Wiki: Breaching Charge",
-      "authors": [
-        "Traveller Wiki Editorial Team"
-      ],
-      "publisher": {
-        "name": "Traveller Wiki",
-        "url": "https://wiki.travellerrpg.com/Breaching_Charge"
-      }
+      "publication": "Traveller Wiki : Breaching Charge",
+      "url": "https://wiki.travellerrpg.com/Breaching_Charge",
+      "authors": ["Traveller Wiki Editorial Team"],
+      "publisher": "Traveller Wiki"
     },
     {
       "publication": "Challenge 25: Ships Locker",
-      "authors": [
-        "Wiseman, Loren"
-      ],
-      "publisher": {
-        "name": "Game Designers Workshop",
-        "url": ""
-      }
+      "authors": ["Wiseman, Loren"],
+      "publisher": "Games Designer Workshop"
     },
     {
       "publication": "Imperial Encyclopedia",
-      "authors": [
-        "Miller, Marc"
-      ],
-      "publisher": {
-        "name": "Game Designers Workshop",
-        "url": ""
-      }
+      "authors": ["Miller, Marc"],
+      "publisher": "Games Designer Workshop"
     },
     {
       "publication": "Central Supply Catalog",
-      "authors": [
-        "Porter, Greg"
-      ],
-      "publisher": {
-        "name": "Imperium Games",
-        "url": ""
-      }
+      "authors": ["Porter, Greg"],
+      "publisher": "Imperium Games"
     },
     {
       "publication": "Ground Forces",
-      "authors": [
-        "Berry, Douglas E."
-      ],
-      "publisher": {
-        "name": "Steve Jackson Games",
-        "url": "https://sjgames.com"
-      }
+      "authors": ["Berry, Douglas E."],
+      "publisher": "Steve Jackson Games"
     },
     {
       "publication": "Guns, Gadgets and Gear",
-      "authors": [
-        "Dougherty, Martin"
-      ],
-      "publisher": {
-        "name": "Avenger Enterprises",
-        "url": ""
-      }
+      "authors": ["Dougherty, Martin"],
+      "publisher": "Avenger Enterprises"
     }
   ],
-  "tags": [
-    "products",
-    "explosives"
-  ]
+  "tags": ["products", "explosives"]
 }

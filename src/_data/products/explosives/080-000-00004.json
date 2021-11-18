@@ -11,33 +11,19 @@
   "qrebs": "N/A",
   "image": "",
   "description": "<p><!-- Summary Start -->A detonator, frequently a blasting cap, is a device used to trigger an explosive device.<!-- Summary End --></p>",
-  "categories": [
-    "explosives"
-  ],
+  "categories": ["explosives"],
   "sources": [
     {
-      "publication": "Traveller Wiki: Detonator",
-      "authors": [
-        "Traveller Wiki Editorial Team"
-      ],
-      "publisher": {
-        "name": "Traveller Wiki",
-        "url": "https://wiki.travellerrpg.com/Detonator"
-      }
+      "publication": "Traveller Wiki : Detonator",
+      "url": "https://wiki.travellerrpg.com/Detonator",
+      "authors": ["Traveller Wiki Editorial Team"],
+      "publisher": "Traveller Wiki"
     },
     {
       "publication": "Ground Forces",
-      "authors": [
-        "Berry, Douglas E."
-      ],
-      "publisher": {
-        "name": "Steve Jackson Games",
-        "url": "https://sjgames.com"
-      }
+      "authors": ["Berry, Douglas E."],
+      "publisher": "Steve Jackson Games"
     }
   ],
-  "tags": [
-    "products",
-    "explosives"
-  ]
+  "tags": ["products", "explosives"]
 }

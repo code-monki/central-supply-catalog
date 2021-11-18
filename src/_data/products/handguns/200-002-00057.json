@@ -13,43 +13,26 @@
   "image": "/img/products/200-002-00057.png",
   "description": "<p><!-- Summary Start -->The cP859u through x variants are designed as sidearms for non-human Imperium troop who are unable to comfortably handle standard Imperial designs.<!-- Summary End --> These species are usually assigned to secondary roles that do not require front-line armament. The cP859 series is designed to allow field modification so that any known species can adapt it to their special manipulative members. Features of note are the extremely large and adjustable hand guard. a trigger assembly that is electrical and can be placed anywhere on the weapon, and a low recoil force so that even smaller or more fragile species can use it without harm.</p><p>The staple gun is capable of being adjusted for single shot, burst fire or autofire, or having any of these modes locked out to take species preferences into account.</p>",
   "stats": [],
-  "accessories": [
-    "200-011-00023",
-    "200-010-00072",
-    "200-010-00073"
-  ],
-  "categories": [
-    "weapons",
-    "handguns",
-    "pistol"
-  ],
+  "accessories": ["200-011-00023", "200-010-00072", "200-010-00073"],
+  "categories": ["weapons", "handguns", "pistol"],
   "sources": [
     {
       "publication": "Traveller Wiki : Staple Gun",
+      "url": "https://wiki.travellerrpg.com/Staple_Gun",
       "authors": [
         "Traveller Wiki Editorial Team",
         "Lord (Marquis) and Master of Sophontology Maksim-Smelchak of the Ministry of Science"
       ],
-      "publisher": {
-        "name": "Traveller Wiki",
-        "url": "https://wiki.travellerrpg.com/Staple_Gun"
-      }
+      "publisher": "Traveller Wiki"
     },
     {
       "publication": "Emperor's Arsenal",
-      "authors": [
-        "Porter, Greg"
-      ],
+      "authors": ["Porter, Greg"],
       "publisher": {
         "name": "Imperium Games",
         "url": "https://web.archive.org/web/20001010202159/http://imperiumgames.com:80/main.html"
       }
     }
   ],
-  "tags": [
-    "products",
-    "weapons",
-    "handguns",
-    "pistol"
-  ]
+  "tags": ["products", "weapons", "handguns", "pistol"]
 }

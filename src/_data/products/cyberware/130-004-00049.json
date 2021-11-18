@@ -10,40 +10,21 @@
   "techLevel": 15,
   "qrebs": "N/A",
   "image": "",
-  "description": "<p><!-- Summary Start -->The Implanted neural activity sensor is a cybernetic Neural Activity Sensor.<!-- Summary End --></p><p>It remotely detects the electrical activity of a lifeform's central nervous system, classifies it by complexity and activity, and compares it to recorded life forms, especially sophonts. The implanted version has a range of only 5 meters or so, the limit being the mounting of the antenna. The system is too big to implant anywhere but a torso.</p><p><strong>NOTE:</strong>An eyeball display must be installed for the implanted inertial navigation system to show data to the user. The navigation system will display current magnetic bearing and will also show the bearing to any of five previously recorded positions.</p>",
-  "categories": [
-    "protections",
-    "cyberware"
-  ],
-  "accessories": [
-    "130-004-00028"
-  ],
+  "description": "<p><!-- Summary Start -->The Implanted neural activity sensor is a cybernetic Neural Activity Sensor.<!-- Summary End --></p><p>It remotely detects the electrical activity of a life form's central nervous system, classifies it by complexity and activity, and compares it to recorded life forms, especially sophonts. The implanted version has a range of only 5 meters or so, the limit being the mounting of the antenna. The system is too big to implant anywhere but a torso.</p><p><strong>NOTE:</strong>An eyeball display must be installed for the implanted inertial navigation system to show data to the user. The navigation system will display current magnetic bearing and will also show the bearing to any of five previously recorded positions.</p>",
+  "categories": ["protections", "cyberware"],
+  "accessories": ["130-004-00028"],
   "sources": [
     {
-      "publication": "Traveller Wiki: Implanted Inertial Navigation System",
-      "authors": [
-        "Traveller Wiki Editorial Team"
-      ],
-      "publisher": {
-        "name": "Traveller Wiki",
-        "url": "https://wiki.travellerrpg.com/Implanted_inertial_navigation_system"
-      }
+      "publication": "Traveller Wiki : Implanted Inertial Navigation System",
+      "url": "https://wiki.travellerrpg.com/Implanted_neural_activity_sensor",
+      "authors": ["Traveller Wiki Editorial Team"],
+      "publisher": "Traveller Wiki"
     },
     {
       "publication": "Fire, Fusion, & Steel",
-      "authors": [
-        "Chadwick, Frank",
-        "Nilsen, Dave"
-      ],
-      "publisher": {
-        "name": "Game Designers Workshop",
-        "url": ""
-      }
+      "authors": ["Chadwick, Frank", "Nilsen, Dave"],
+      "publisher": "Games Designer Workshop"
     }
   ],
-  "tags": [
-    "products",
-    "protections",
-    "cyberware"
-  ]
+  "tags": ["products", "protections", "cyberware"]
 }

@@ -27,14 +27,13 @@
     {
       "publication": "Traveller 5.10 Core Rules Book 3 : Worlds and Adventures",
       "authors": ["Miller, Marc"],
-      "publisher": {
-        "name": "Far Future Enterprises",
-        "url": "https://www.farfuture.net"
-      }
+      "publisher": "Far Future Enterprises"
     },
     {
-      "publication": "Central Supply Catalog Website",
-      "authors": ["Miller, Marc", "Eaglestone, Robert", "McKnight, Charles"]
+      "publication": "Central Supply Catalog Website : 6mm Machinegun Ammunition (6D Damage)",
+      "url": "https://trav-csc.com/products/200-010-00057",
+      "authors": ["Miller, Marc", "Eaglestone, Robert", "McKnight, Charles"],
+      "publisher": "Central Supply Catalog Website"
     }
   ],
   "tags": ["products", "weapons", "ammunition"]

@@ -10,38 +10,23 @@
   "techLevel": 8,
   "qrebs": "N/A",
   "image": "",
-  "description": "<p><!-- Summary Start -->A Cybernetic Stomach is a flexible expandable sac designed to hold and process ingested nutrients.<!-- Summary End --> The device includes an esophagus connecting to the mouth and an esophageal sphincter, connecting to the intestines. The stomach secretes acid and enzymes that digest food.</p><p>It is powered by tiny thermoelectric generators that produce the needed electrical power from body heat and from chemical reactions within the stomach. It may be connected to a Synthetic G-I Tract and a Synthetic Liver to completely replace an individual's digestive system.</p><p>As an enhancement the system may include a toxin filter, ingested material can be filtered to remove toxins that would cause harm if they were passed into the bloodstream, making the individual immune to all ingested poisons.</p><p>The various parts of the stomach, including elements such as the external sac, the internal lining, microelectronics, and connections to the posterior section of the digestive tract are made with biocompatible materials. These may include metal alloys, carbon nanotubes, silicon gels, and layered polymers.</p><p>Similar devices have been in use since the days of the First Imperium. They reached their modern form through Terran medical advances achieved during the Interstellar Wars period.</p>",
-  "categories": [
-    "protections",
-    "cyberware"
-  ],
+  "description": "<p><!-- Summary Start -->A Cybernetic Stomach is a flexible expandable sac designed to hold and process ingested nutrients.<!-- Summary End --> The device includes an esophagus connecting to the mouth and an esophageal sphincter, connecting to the intestines. The stomach secretes acid and enzymes that digest food.</p><p>It is powered by tiny thermoelectric generators that produce the needed electrical power from body heat and from chemical reactions within the stomach. It may be connected to a Synthetic G-I Tract and a Synthetic Liver to completely replace an individual's digestive system.</p><p>As an enhancement the system may include a toxin filter, ingested material can be filtered to remove toxins that would cause harm if they were passed into the bloodstream, making the individual immune to all ingested poisons.</p><p>The various parts of the stomach, including elements such as the external sac, the internal lining, microelectronics, and connections to the posterior section of the digestive tract are made with bio-compatible materials. These may include metal alloys, carbon nanotubes, silicon gels, and layered polymers.</p><p>Similar devices have been in use since the days of the First Imperium. They reached their modern form through Terran medical advances achieved during the Interstellar Wars period.</p>",
+  "categories": ["protections", "cyberware"],
   "sources": [
     {
-      "publication": "Traveller Wiki: Cybernetic Stomach",
+      "publication": "Traveller Wiki : Cybernetic Stomach",
+      "url": "https://wiki.travellerrpg.com/Cybernetic_Stomach",
       "authors": [
         "Lord (Marquis) and Master Scout Emeritus Adie Alegoric Stewart of the IISS",
         "Lord (Marquis) and Master of Sophontology Maksim-Smelchak of the Ministry of Science"
       ],
-      "publisher": {
-        "name": "Traveller Wiki",
-        "url": "https://wiki.travellerrpg.com/Cybernetic_Stomach"
-      }
+      "publisher": "Traveller Wiki"
     },
     {
       "publication": "Cybernetics",
-      "authors": [
-        "Nash, Pete",
-        "Robinson, Nick"
-      ],
-      "publisher": {
-        "name": "Mongoose Publishing",
-        "url": "https://www.mongoosepublishing.com/"
-      }
+      "authors": ["Nash, Pete", "Robinson, Nick"],
+      "publisher": "Mongoose Publishing"
     }
   ],
-  "tags": [
-    "products",
-    "protections",
-    "cyberware"
-  ]
+  "tags": ["products", "protections", "cyberware"]
 }

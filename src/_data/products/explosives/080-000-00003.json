@@ -10,35 +10,20 @@
   "techLevel": 6,
   "qrebs": "N/A",
   "image": "",
-  "description": "<p><!-- Summary Start -->Detonating cord (also called detonation cord, detacord, det. cord, detcord, primer cord, Primercord, or sun cord) is a thin, flexible plastic tube filled with explosive.<!-- Summary End --> Any common length of detonation cord appears to explode instantaneously. It is a high-speed fuse which explodes, rather than burns, and is suitable for detonating high explosives.</p>",
-  "categories": [
-    "explosives"
-  ],
+  "description": "<p><!-- Summary Start -->Detonating cord (also called detonation cord, detcord, det. cord, detcord, primer cord, Primercord, or sun cord) is a thin, flexible plastic tube filled with explosive.<!-- Summary End --> Any common length of detonation cord appears to explode instantaneously. It is a high-speed fuse which explodes, rather than burns, and is suitable for detonating high explosives.</p>",
+  "categories": ["explosives"],
   "sources": [
     {
-      "publication": "Traveller Wiki: Detonating cord",
-      "authors": [
-        "Traveller Wiki Editorial Team"
-      ],
-      "publisher": {
-        "name": "Traveller Wiki",
-        "url": "https://wiki.travellerrpg.com/Detonating_cord"
-      }
+      "publication": "Traveller Wiki : Detonating cord",
+      "url": "https://wiki.travellerrpg.com/Detonating_cord",
+      "authors": ["Traveller Wiki Editorial Team"],
+      "publisher": "Traveller Wiki"
     },
     {
       "publication": "Traveller: The New Era",
-      "authors": [
-        "Chadwick, Frank",
-        "Nilsen, Dave"
-      ],
-      "publisher": {
-        "name": "Game Designers Workshop",
-        "url": ""
-      }
+      "authors": ["Chadwick, Frank", "Nilsen, Dave"],
+      "publisher": "Games Designer Workshop"
     }
   ],
-  "tags": [
-    "products",
-    "explosives"
-  ]
+  "tags": ["products", "explosives"]
 }

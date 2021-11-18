@@ -11,36 +11,19 @@
   "qrebs": "N/A",
   "image": "",
   "description": "<p><!-- Summary Start -->The recorder cybernetic eye provides the ability to record and play a video.<!-- Summary End --> If the eye is connected to an implanted communicator or an implanted computer, the recording time is only limited by the capacity of the computer. Otherwise, the recorder has an onboard capacity of one hour. The recorded video can be transferred by means of a viewer that fits over the eye. This version of the cybernetic eye has a single-function and is easily recognizable as a mechanical implant.</p><p> In all cases, the cyber eye also includes basic visible light vision. For Sophonts with different visual ranges the basic cyber eye will cover their normal visual range.</p>",
-  "categories": [
-    "protections",
-    "cyberware"
-  ],
+  "categories": ["protections", "cyberware"],
   "sources": [
     {
-      "publication": "Traveller Wiki: Cybernetic Eyes",
-      "authors": [
-        "Traveller Wiki Editorial Team"
-      ],
-      "publisher": {
-        "name": "Traveller Wiki",
-        "url": "https://wiki.travellerrpg.com/Cybernetic_eyes"
-      }
+      "publication": "Traveller Wiki : Cybernetic Eyes",
+      "url": "https://wiki.travellerrpg.com/Cybernetic_eyes",
+      "authors": ["Traveller Wiki Editorial Team"],
+      "publisher": "Traveller Wiki"
     },
     {
       "publication": "Fire, Fusion, & Steel",
-      "authors": [
-        "Chadwick, Frank",
-        "Nilsen, Dave"
-      ],
-      "publisher": {
-        "name": "Game Designers Workshop",
-        "url": ""
-      }
+      "authors": ["Chadwick, Frank", "Nilsen, Dave"],
+      "publisher": "Games Designer Workshop"
     }
   ],
-  "tags": [
-    "products",
-    "protections",
-    "cyberware"
-  ]
+  "tags": ["products", "protections", "cyberware"]
 }

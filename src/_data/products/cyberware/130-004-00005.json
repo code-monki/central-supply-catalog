@@ -11,48 +11,27 @@
   "qrebs": "N/A",
   "image": "",
   "description": "<p><!-- Summary Start -->Cybernetic Lungs are paired battery-powered devices that function as a powerful oxygen / carbon dioxide cycling system.<!-- Summary End --> These are connected to the circulatory system, replacing the natural lungs. The internal battery is extremely compact and has a long life, typically measured in decades.</p><p>Cybernetic lungs can be fitted with an integral Filter / Respirator which allow breathing of tainted atmosphere without harmful effects. Early versions rely on extensive pre-lung filters, typically installed within the nasal cavity: individuals with this version must blow their noses regularly to clear the filters.</p>",
-  "categories": [
-    "protections",
-    "cyberware"
-  ],
+  "categories": ["protections", "cyberware"],
   "sources": [
     {
-      "publication": "Traveller Wiki: Cybernetic Kidneys",
+      "publication": "Traveller Wiki : Cybernetic Kidneys",
+      "url": "https://wiki.travellerrpg.com/Cybernetic_Kidneys",
       "authors": [
         "Lord (Marquis) and Master Scout Emeritus Adie Alegoric Stewart of the IISS",
         "Lord (Marquis) and Master of Sophontology Maksim-Smelchak of the Ministry of Science"
       ],
-      "publisher": {
-        "name": "Traveller Wiki",
-        "url": "https://wiki.travellerrpg.com/Cybernetic_Kidneys"
-      }
+      "publisher": "Traveller Wiki"
     },
     {
       "publication": "Cybernetics",
-      "authors": [
-        "Nash, Pete",
-        "Robinson, Nick"
-      ],
-      "publisher": {
-        "name": "Mongoose Publishing",
-        "url": "https://www.mongoosepublishing.com/"
-      }
+      "authors": ["Nash, Pete", "Robinson, Nick"],
+      "publisher": "Mongoose Publishing"
     },
     {
       "publication": "Fire, Fusion, & Steel",
-      "authors": [
-        "Chadwick, Frank",
-        "Nilsen, Dave"
-      ],
-      "publisher": {
-        "name": "Game Designers Workshop",
-        "url": ""
-      }
+      "authors": ["Chadwick, Frank", "Nilsen, Dave"],
+      "publisher": "Games Designer Workshop"
     }
   ],
-  "tags": [
-    "products",
-    "protections",
-    "cyberware"
-  ]
+  "tags": ["products", "protections", "cyberware"]
 }

@@ -10,35 +10,22 @@
   "qrebs": "N/A",
   "image": "",
   "description": "<p><!-- Summary Start -->The AN-427 class Security Robot is a security robot.<!-- Summary End --> The ICAM Technology AN-427 security robot was a widely used security robot throughout the Imperium before the Collapse and has survived in considerable numbers due to its rugged reliability. It was programmed to patrol all areas of a sensitive installation, seek out and kill or incapacitate unauthorized intruders. Although it is not as mobile as grav-powered units, it is less expensive to operate, and replacement parts are easier to fabricate. This is a wheeled robot which experiences difficulty negotiating stairs, ladders, and any uneven ground. This robot is powered by internal batteries which require recharging every four days. It is armed with a Laser rifle and a 10mm CPR gun firing tranq rounds.</p>",
-  "categories": [
-    "robotics", "robots"
-  ],
+  "categories": ["robotics", "robots"],
   "sources": [
     {
       "publication": "Traveller Wiki : AN-427 class Security Robot",
+      "url": "https://wiki.travellerrpg.com/AN-427_class_Security_Robot",
       "authors": [
         "Traveller Wiki Editorial Team",
         "Lord (Marquis) and Master of Sophontology Maksim-Smelchak of the Ministry of Science"
       ],
-      "publisher": {
-        "name": "Traveller Wiki",
-        "url": "https://wiki.travellerrpg.com/AN-427_class_Security_Robot"
-      }
+      "publisher": "Traveller Wiki"
     },
     {
       "publication": "Vampire Fleets",
-      "authors": [
-        "Chadwick, Frank"
-      ],
-      "publisher": {
-        "name": "Game Designers Workshop",
-        "url": ""
-      }
+      "authors": ["Chadwick, Frank"],
+      "publisher": "Games Designer Workshop"
     }
   ],
-  "tags": [
-    "products",
-    "robotics",
-    "robots"
-  ]
+  "tags": ["products", "robotics", "robots"]
 }

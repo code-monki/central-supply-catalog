@@ -11,36 +11,19 @@
   "qrebs": "N/A",
   "image": "",
   "description": "<p><!-- Summary Start -->The intensifier cybernetic eye magnifies, sharpens focus and contract to improve visual recognition.<!-- Summary End --> Image intensification also includes light-amplification capabilities. This version of the cybernetic eye is single-function eye and looks more like a natural, unaltered eye.</p><p> In all cases, the cyber eye also includes basic visible light vision. For Sophonts with different visual ranges the basic cyber eye will cover their normal visual range.</p>",
-  "categories": [
-    "protections",
-    "cyberware"
-  ],
+  "categories": ["protections", "cyberware"],
   "sources": [
     {
-      "publication": "Traveller Wiki: Cybernetic Eye",
-      "authors": [
-        "Traveller Wiki Editorial Team"
-      ],
-      "publisher": {
-        "name": "Traveller Wiki",
-        "url": "https://wiki.travellerrpg.com/Cybernetic_eyes"
-      }
+      "publication": "Traveller Wiki : Cybernetic Eye",
+      "url": "https://wiki.travellerrpg.com/Cybernetic_eyes",
+      "authors": ["Traveller Wiki Editorial Team"],
+      "publisher": "Traveller Wiki"
     },
     {
       "publication": "Fire, Fusion, & Steel",
-      "authors": [
-        "Chadwick, Frank",
-        "Nilsen, Dave"
-      ],
-      "publisher": {
-        "name": "Game Designers Workshop",
-        "url": ""
-      }
+      "authors": ["Chadwick, Frank", "Nilsen, Dave"],
+      "publisher": "Games Designer Workshop"
     }
   ],
-  "tags": [
-    "products",
-    "protections",
-    "cyberware"
-  ]
+  "tags": ["products", "protections", "cyberware"]
 }

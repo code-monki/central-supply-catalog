@@ -11,46 +11,25 @@
   "qrebs": "N/A",
   "image": "",
   "description": "<p><!-- Summary Start -->A Waferjack (also called a Neural Jack, Data Jack, or Chip socket) is a brain-computer interface, establishing a direct electronic contact between the organic sophont brain and external electronic equipment.<!-- Summary End --> It allows the brain to receive and decode electronic data as well as transmit commands directly to linked equipment.</p><p>The TL–9 version is a simple interface to external computer equipment, adding another method for computer interaction. With ability to implant computers at TL–12, the neural jacks allow the internal computer and brain to directly access external equipment. At TL–13, with the development of Wafertech, the Waferjack allows direct access to the information contained on a Wafer.</p><p>The waferjack allows a user to access information at the speed of thought. It also allows a user to mentally operate a piece of equipment or machinery, (or vehicle) thereby resulting in quicker response times. The first waferjack in civilian use was initially developed and employed in racing circuits, but eventually found more mundane uses.</p>",
-  "categories": [
-    "protections",
-    "cyberware"
-  ],
+  "categories": ["protections", "cyberware"],
   "sources": [
     {
-      "publication": "Traveller Wiki: Waferjack",
-      "authors": [
-        "Traveller Wiki Editorial Team"
-      ],
-      "publisher": {
-        "name": "Traveller Wiki",
-        "url": "https://wiki.travellerrpg.com/Waferjack"
-      }
+      "publication": "Traveller Wiki : Waferjack",
+      "url": "https://wiki.travellerrpg.com/Waferjack",
+      "authors": ["Traveller Wiki Editorial Team"],
+      "publisher": "Traveller Wiki"
     },
     {
       "publication": "Fire, Fusion, & Steel",
-      "authors": [
-        "Chadwick, Frank",
-        "Nilsen, Dave"
-      ],
-      "publisher": {
-        "name": "Game Designers Workshop",
-        "url": ""
-      }
+      "authors": ["Chadwick, Frank", "Nilsen, Dave"],
+      "publisher": "Games Designer Workshop"
     },
     {
       "publication": "Encyclopaedia Dagudashaag",
-      "authors": [
-        "Campbell, Jae"
-      ],
-      "publisher": {
-        "name": "Signal-GK",
-        "url": "https://web.archive.org/web/20120424093957/http://www.dot-communications.org.uk/index.php?id=234"
-      }
+      "url": " https://www.drivethrurpg.com/product/221917/CTX-The-Encyclopedia-of-Dagudashaag",
+      "authors": ["Campbell, Jae"],
+      "publisher": "Signal-GK"
     }
   ],
-  "tags": [
-    "products",
-    "protections",
-    "cyberware"
-  ]
+  "tags": ["products", "protections", "cyberware"]
 }

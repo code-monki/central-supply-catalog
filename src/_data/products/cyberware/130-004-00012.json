@@ -11,25 +11,14 @@
   "qrebs": "N/A",
   "image": "",
   "description": "<p><!-- Summary Start -->Contact interface is an array of sensitive electrodes mounted in a headset providing an computerized interface.<!-- Summary End --> The device interprets the user's neural impulses into computer commands. It then translates the computer output into neural signals the user receives as visual and auditory stimuli. The contact interface provides an efficient and fast interface with no need for physical actions. To function properly the contact interface, and the headset, must remain in place.</p><p>The contact interface is an intermediate step between a normal manual or 3D computer interface and a Waferjack direct neural interface. There is no surgery required to install or use a contact interface. The first time using a new contact interface headset the device needs to adjust to the neural impulses of the wearer. This can take several minutes. Thereafter, connection takes less than a minute to initialize.</p>",
-  "categories": [
-    "protections",
-    "cyberware"
-  ],
+  "categories": ["protections", "cyberware"],
   "sources": [
     {
-      "publication": "Traveller Wiki: Contact Interface",
-      "authors": [
-        "Traveller Wiki Editorial Team"
-      ],
-      "publisher": {
-        "name": "Traveller Wiki",
-        "url": "https://wiki.travellerrpg.com/Contact_interface"
-      }
+      "publication": "Traveller Wiki : Contact Interface",
+      "url": "https://wiki.travellerrpg.com/Contact_interface",
+      "authors": ["Traveller Wiki Editorial Team"],
+      "publisher": "Traveller Wiki"
     }
   ],
-  "tags": [
-    "products",
-    "protections",
-    "cyberware"
-  ]
+  "tags": ["products", "protections", "cyberware"]
 }

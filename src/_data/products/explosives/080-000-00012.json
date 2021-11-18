@@ -11,46 +11,25 @@
   "qrebs": "N/A",
   "image": "",
   "description": "<p><!-- Summary Start -->TDX is a specialized explosive which functions perpendicular to force of gravity.<!-- Summary End --> When detonated, the major force is directed in the horizontal plane. As a result, it is extremely efficient in its blast effects.\n\nCommonly TDX is shipped in 2.5kg bricks, a standard for explosive charges.</p>",
-  "accessories": [
-    "080-000-00004"
-  ],
-  "categories": [
-    "explosives"
-  ],
+  "accessories": ["080-000-00004"],
+  "categories": ["explosives"],
   "sources": [
     {
-      "publication": "Traveller Wiki: TDX",
-      "authors": [
-        "Traveller Wiki Editorial Team"
-      ],
-      "publisher": {
-        "name": "Traveller Wiki",
-        "url": "https://wiki.travellerrpg.com/TDX"
-      }
+      "publication": "Traveller Wiki : TDX",
+      "url": "https://wiki.travellerrpg.com/TDX",
+      "authors": ["Traveller Wiki Editorial Team"],
+      "publisher": "Traveller Wiki"
     },
     {
       "publication": "Journal of the Traveller's Aid Society 01 : Ships Locker",
-      "authors": [
-        "Wiseman, Loren"
-      ],
-      "publisher": {
-        "name": "Game Designers Workshop",
-        "url": ""
-      }
+      "authors": ["Wiseman, Loren"],
+      "publisher": "Games Designer Workshop"
     },
     {
-      "publication": "Core Rule Book",
-      "authors": [
-        "Sprange, Matthew"
-      ],
-      "publisher": {
-        "name": "Mongoose Publishing",
-        "url": "https://www.mongoosepublishing.com/"
-      }
+      "publication": "Traveller Core Rule Book",
+      "authors": ["Sprange, Matthew"],
+      "publisher": "Mongoose Publishing"
     }
   ],
-  "tags": [
-    "products",
-    "explosives"
-  ]
+  "tags": ["products", "explosives"]
 }

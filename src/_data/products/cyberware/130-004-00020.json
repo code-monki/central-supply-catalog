@@ -11,35 +11,22 @@
   "qrebs": "N/A",
   "image": "",
   "description": "<p><!-- Summary Start -->Grav Caps are cybernetics incorporating gravitic lifters designed to help amputees.<!-- Summary End --> The device is generally two caps that fit over the ends of amputated legs allowing a contragrav field to mitigate the consequences of having a lost limb. The devices can be designed with a wide variety of technological capabilities including cyberware aspects. Some versions not only allow practical ped ambulation, but also enable grav-assisted flight.</p><p>The technology doesn't really mature until TL–14. Prototypes are available at earlier TL's, but have technological limitations. Limb regeneration technologies also tend to mature in this period undercutting the market success of this device.</p>",
-  "categories": [
-    "protections",
-    "cyberware"
-  ],
+  "categories": ["protections", "cyberware"],
   "sources": [
     {
-      "publication": "Traveller Wiki: Grav Cap",
-      "authors": [
-        "Lord (Marquis) and Master of Sophontology Maksim-Smelchak of the Ministry of Science"
-      ],
-      "publisher": {
-        "name": "Traveller Wiki",
-        "url": "https://wiki.travellerrpg.com/Grav_Cap"
-      }
+      "publication": "Traveller Wiki : Grav Cap",
+      "url": "https://wiki.travellerrpg.com/Grav_Cap",
+      "authors": ["Lord (Marquis) and Master of Sophontology Maksim-Smelchak of the Ministry of Science"],
+      "publisher": "Traveller Wiki"
     },
     {
       "publication": "Cirque: The Usual Suspects",
-      "authors": [
-        "Lee, Gregory P."
-      ],
+      "authors": ["Lee, Gregory P."],
       "publisher": {
         "name": "Far Future Enterprises",
         "url": "http://farfuture.net"
       }
     }
   ],
-  "tags": [
-    "products",
-    "protections",
-    "cyberware"
-  ]
+  "tags": ["products", "protections", "cyberware"]
 }

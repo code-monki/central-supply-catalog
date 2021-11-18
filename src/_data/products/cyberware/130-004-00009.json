@@ -11,36 +11,19 @@
   "qrebs": "N/A",
   "image": "",
   "description": "<p><!-- Summary Start -->Subdermal armor surgically layers thin synthetic armor protection below the skin surface but over any internal support structures like a skeleton or cartilage.<!-- Summary End --> How many layers of armor depends on the user's desires, but more than one or two can interfere with normal movement. Normally the creature's body is divided into zones (head, torso, individual limbs) for implantation, and each may have a different number of types and layers of armor.</p>",
-  "categories": [
-    "protections",
-    "cyberware"
-  ],
+  "categories": ["protections", "cyberware"],
   "sources": [
     {
-      "publication": "Traveller Wiki: Subdermal Armor",
-      "authors": [
-        "Traveller Wiki Editorial Team"
-      ],
-      "publisher": {
-        "name": "Traveller Wiki",
-        "url": "https://wiki.travellerrpg.com/Subdermal_armor"
-      }
+      "publication": "Traveller Wiki : Subdermal Armor",
+      "url": "https://wiki.travellerrpg.com/Subdermal_armor",
+      "authors": ["Traveller Wiki Editorial Team"],
+      "publisher": "Traveller Wiki"
     },
     {
       "publication": "Fire, Fusion, & Steel",
-      "authors": [
-        "Chadwick, Frank",
-        "Nilsen, Dave"
-      ],
-      "publisher": {
-        "name": "Game Designers Workshop",
-        "url": ""
-      }
+      "authors": ["Chadwick, Frank", "Nilsen, Dave"],
+      "publisher": "Games Designer Workshop"
     }
   ],
-  "tags": [
-    "products",
-    "protections",
-    "cyberware"
-  ]
+  "tags": ["products", "protections", "cyberware"]
 }

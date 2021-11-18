@@ -11,24 +11,22 @@
   "qrebs": "N/A",
   "image": "",
   "description": "<p><!-- Summary Start -->The <strong>Engineering/Gravitic Operative Robot</strong> (or EGOR for short) was designed with the small merchant in mind.<!-- Summary End --> This relatively inexpensive robot is capable of performing various ship board tasks, from loading cargo to waiting on passengers. Although not technically armed, the laser welder, in conjunction with EGOR's security programming, will allow this robot to perform adequately in a security roll.</p>",
-  "categories": [
-    "robotics", "robots"
-  ],
+  "categories": ["robotics", "robots"],
   "sources": [
     {
-      "publication": "The Traveller Chronicle : No. 1",
-      "authors": [
-        "Stone, Thomas"
-      ],
+      "publication": "Traveller Wiki : EGOR",
+      "url": "https://travellerrpg.com/EGOR",
+      "authors": ["Traveller Wiki Editorial Team"],
       "publisher": {
-        "name": "Sword of the Knight Publications",
-        "url": ""
+        "name": "Traveller Wiki",
+        "url": "https://travellerrpg.com"
       }
+    },
+    {
+      "publication": "The Traveller Chronicle : No. 1",
+      "authors": ["Stone, Thomas"],
+      "publisher": "Sword of the Knight Publications"
     }
   ],
-  "tags": [
-    "products",
-    "robotics",
-    "robots"
-  ]
+  "tags": ["products", "robotics", "robots"]
 }

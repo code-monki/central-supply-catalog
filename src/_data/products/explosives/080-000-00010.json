@@ -11,46 +11,25 @@
   "qrebs": "N/A",
   "image": "",
   "description": "<p><!-- Summary Start -->Plastic explosive can be molded to any desired shape and will adhere to nearly any surface.<!-- Summary End --> It does not explode when burned and can only be detonated by another explosion usually provided by a blasting cap. Proper use of the explosive requires the correct skills.</p>",
-  "accessories": [
-    "080-000-00004"
-  ],
-  "categories": [
-    "explosives"
-  ],
+  "accessories": ["080-000-00004"],
+  "categories": ["explosives"],
   "sources": [
     {
-      "publication": "Traveller Wiki: Plastic Explosive",
-      "authors": [
-        "Traveller Wiki Editorial Team"
-      ],
-      "publisher": {
-        "name": "Traveller Wiki",
-        "url": "https://wiki.travellerrpg.com/Plastic_explosive"
-      }
+      "publication": "Traveller Wiki : Plastic Explosive",
+      "url": "https://wiki.travellerrpg.com/Plastic_explosive",
+      "authors": ["Traveller Wiki Editorial Team"],
+      "publisher": "Traveller Wiki"
     },
     {
       "publication": "Marc Miller's Traveller",
-      "authors": [
-        "Miller, Marc"
-      ],
-      "publisher": {
-        "name": "Imperium Games",
-        "url": ""
-      }
+      "authors": ["Miller, Marc"],
+      "publisher": "Imperium Games"
     },
     {
-      "publication": "Core Rule Book",
-      "authors": [
-        "Sprange, Matthew"
-      ],
-      "publisher": {
-        "name": "MOngoose Publishing",
-        "url": "https://www.mongoosepublishing.com/"
-      }
+      "publication": "Traveller Core Rule Book",
+      "authors": ["Sprange, Matthew"],
+      "publisher": "Mongoose Publishing"
     }
   ],
-  "tags": [
-    "products",
-    "explosives"
-  ]
+  "tags": ["products", "explosives"]
 }

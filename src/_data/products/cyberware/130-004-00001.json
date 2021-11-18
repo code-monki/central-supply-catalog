@@ -11,36 +11,19 @@
   "qrebs": "N/A",
   "image": "",
   "description": "<p><!-- Summary Start -->Aquatic skin involves chemical and genetic alteration of the outer skin to a form resembling that of marine mammals (such as dolphins and Orca), which allows prolonged immersion in water without need for a protective wet suit.<!-- Summary End --> Aquatic skin must be kept moist at all times, however, or it will begin to dry and crack, and the user will begin to suffer symptoms of severe dehydration within two or three days, usually dying within a week if access to water is continually denied.</p>",
-  "categories": [
-    "protections",
-    "cyberware"
-  ],
+  "categories": ["protections", "cyberware"],
   "sources": [
     {
-      "publication": "Traveller Wiki: Aquatic Skin",
-      "authors": [
-        "Traveller Wiki Editorial Team"
-      ],
-      "publisher": {
-        "name": "Traveller Wiki",
-        "url": "https://wiki.travellerrpg.com/Aquatic_skin"
-      }
+      "publication": "Traveller Wiki : Aquatic Skin",
+      "url": "https://wiki.travellerrpg.com/Aquatic_skin",
+      "authors": ["Traveller Wiki Editorial Team"],
+      "publisher": "Traveller Wiki"
     },
     {
       "publication": "Fire, Fusion, & Steel",
-      "authors": [
-        "Chadwick, Frank",
-        "Nilsen, Dave"
-      ],
-      "publisher": {
-        "name": "Game Designers Workshop",
-        "url": ""
-      }
+      "authors": ["Chadwick, Frank", "Nilsen, Dave"],
+      "publisher": "Games Designer Workshop"
     }
   ],
-  "tags": [
-    "products",
-    "protections",
-    "cyberware"
-  ]
+  "tags": ["products", "protections", "cyberware"]
 }

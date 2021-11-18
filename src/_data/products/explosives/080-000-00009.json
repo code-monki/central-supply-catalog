@@ -11,26 +11,15 @@
   "qrebs": "N/A",
   "image": "",
   "description": "<p><!-- Summary Start -->Pamex-20 is an explosive compound with extensive industrial and military uses.<!-- Summary End -->  The explosive consists of large grain particles of extruded explosive which are cylindrical in shape, measuring 15 x 20 mm. Pamex-20 is intended for general use with the -20 referring to the specific length of the extrusion in millimeters.</p>",
-  "accessories": [
-    "080-000-00004"
-  ],
-  "categories": [
-    "explosives"
-  ],
+  "accessories": ["080-000-00004"],
+  "categories": ["explosives"],
   "sources": [
     {
-      "publication": "Traveller Wiki: Pamex-20",
-      "authors": [
-        "Khan trav"
-      ],
-      "publisher": {
-        "name": "Traveller Wiki",
-        "url": "https://wiki.travellerrpg.com/Pamex-20"
-      }
+      "publication": "Traveller Wiki : Pamex-20",
+      "url": "https://wiki.travellerrpg.com/Pamex-20",
+      "authors": ["Khan trav"],
+      "publisher": "Traveller Wiki"
     }
   ],
-  "tags": [
-    "products",
-    "explosives"
-  ]
+  "tags": ["products", "explosives"]
 }

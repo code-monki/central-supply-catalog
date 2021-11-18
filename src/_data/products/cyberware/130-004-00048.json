@@ -11,39 +11,20 @@
   "qrebs": "N/A",
   "image": "",
   "description": "<p><!-- Summary Start -->A cybernetically implanted version of the Inertial Locator and Magnetic Compass.<!-- Summary End --></p><p><strong>NOTE:</strong>An eyeball display must be installed for the implanted inertial navigation system to show data to the user. The navigation system will display current magnetic bearing and will also show the bearing to any of five previously recorded positions.</p>",
-  "categories": [
-    "protections",
-    "cyberware"
-  ],
-  "accessories": [
-    "130-004-00028"
-  ],
+  "categories": ["protections", "cyberware"],
+  "accessories": ["130-004-00028"],
   "sources": [
     {
-      "publication": "Traveller Wiki: Implanted Inertial Navigation System",
-      "authors": [
-        "Traveller Wiki Editorial Team"
-      ],
-      "publisher": {
-        "name": "Traveller Wiki",
-        "url": "https://wiki.travellerrpg.com/Implanted_inertial_navigation_system"
-      }
+      "publication": "Traveller Wiki : Implanted Inertial Navigation System",
+      "url": "https://wiki.travellerrpg.com/Implanted_inertial_navigation_system",
+      "authors": ["Traveller Wiki Editorial Team"],
+      "publisher": "Traveller Wiki"
     },
     {
       "publication": "Fire, Fusion, & Steel",
-      "authors": [
-        "Chadwick, Frank",
-        "Nilsen, Dave"
-      ],
-      "publisher": {
-        "name": "Game Designers Workshop",
-        "url": ""
-      }
+      "authors": ["Chadwick, Frank", "Nilsen, Dave"],
+      "publisher": "Games Designer Workshop"
     }
   ],
-  "tags": [
-    "products",
-    "protections",
-    "cyberware"
-  ]
+  "tags": ["products", "protections", "cyberware"]
 }

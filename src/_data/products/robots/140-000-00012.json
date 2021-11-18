@@ -10,34 +10,19 @@
   "qrebs": "N/A",
   "image": "",
   "description": "<p><!-- Summary Start -->The AJ-63 is an extremely popular tracked janitorial robot.<!-- Summary End -->The robot is extremely specialized in function, but many Virus-infected AJ-63s have been modified with grasping and lifting utility arms. Others have been turned into security robots with the addition of weaponry.</p>",
-  "categories": [
-    "robotics", "robots"
-  ],
+  "categories": ["robotics", "robots"],
   "sources": [
     {
       "publication": "Traveller Wiki : AJ-63",
-      "authors": [
-        "Traveller Wiki Editorial Team"
-      ],
-      "publisher": {
-        "name": "Traveller Wiki",
-        "url": "https://wiki.travellerrpg.com/AJ-63"
-      }
+      "url": "https://wiki.travellerrpg.com/AJ-63",
+      "authors": ["Traveller Wiki Editorial Team"],
+      "publisher": "Traveller Wiki"
     },
     {
       "publication": "Vampire Fleets",
-      "authors": [
-        "Chadwick, Frank"
-      ],
-      "publisher": {
-        "name": "Game Designers Workshop",
-        "url": ""
-      }
+      "authors": ["Chadwick, Frank"],
+      "publisher": "Games Designer Workshop"
     }
   ],
-  "tags": [
-    "products",
-    "robotics",
-    "robots"
-  ]
+  "tags": ["products", "robotics", "robots"]
 }
