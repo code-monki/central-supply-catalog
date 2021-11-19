@@ -240,7 +240,7 @@ module.exports = function (eleventyConfig) {
     let pub = publishers.find((obj) => obj.name === publisherName);
 
     if (pub !== null && pub !== undefined) {
-      if (pub.url !== null && pub.url !== undefined) {
+      if (pub.url !== null && pub.url !== undefined && pub.url !== '') {
         text += `<a href="${pub.url}" target="_blank">${pub.name}</a>`;
       } else {
         text += pub.name;
