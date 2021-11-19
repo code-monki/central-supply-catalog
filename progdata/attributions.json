@@ -1,29 +1,1260 @@
 [
   {
-    "id": "t5-b1",
+    "publication": "Alien - Vilani & Varg",
+    "authors": ["Holden, James", "Fugate Sr., Joe D.", "McInnes, Terrance"],
+    "publisher": { "name": "Digest Group Publications", "url": "" }
+  },
+  { "publication": "Annililik Run", "authors": ["Ward, James"], "publisher": { "name": "Imperium Games", "url": "" } },
+  {
+    "publication": "Central Supply Catalog",
+    "authors": ["Porter, Greg"],
+    "publisher": { "name": "Imperium Games", "url": "" }
+  },
+  {
+    "publication": "Central Supply Catalog Website : 13mm Machinegun Ammunition (10D Damage)",
+    "url": "https://trav-csc.com/products/200-010-00101",
+    "authors": ["Miller, Marc", "Eaglestone, Robert", "McKnight, Charles"],
+    "publisher": { "name": "Central Supply Catalog Website", "url": "https://trav-csc.com" }
+  },
+  {
+    "publication": "Central Supply Catalog Website : 13mm Machinegun Ammunition (1D Damage)",
+    "url": "https://trav-csc.com/products/200-010-00092",
+    "authors": ["Miller, Marc", "Eaglestone, Robert", "McKnight, Charles"],
+    "publisher": { "name": "Central Supply Catalog Website", "url": "https://trav-csc.com" }
+  },
+  {
+    "publication": "Central Supply Catalog Website : 13mm Machinegun Ammunition (2D Damage)",
+    "url": "https://trav-csc.com/products/200-010-00093",
+    "authors": ["Miller, Marc", "Eaglestone, Robert", "McKnight, Charles"],
+    "publisher": { "name": "Central Supply Catalog Website", "url": "https://trav-csc.com" }
+  },
+  {
+    "publication": "Central Supply Catalog Website : 13mm Machinegun Ammunition (3D Damage)",
+    "url": "https://trav-csc.com/products/200-010-00094",
+    "authors": ["Miller, Marc", "Eaglestone, Robert", "McKnight, Charles"],
+    "publisher": { "name": "Central Supply Catalog Website", "url": "https://trav-csc.com" }
+  },
+  {
+    "publication": "Central Supply Catalog Website : 13mm Machinegun Ammunition (4D Damage)",
+    "url": "https://trav-csc.com/products/200-010-00095",
+    "authors": ["Miller, Marc", "Eaglestone, Robert", "McKnight, Charles"],
+    "publisher": { "name": "Central Supply Catalog Website", "url": "https://trav-csc.com" }
+  },
+  {
+    "publication": "Central Supply Catalog Website : 13mm Machinegun Ammunition (5D Damage)",
+    "url": "https://trav-csc.com/products/200-010-00096",
+    "authors": ["Miller, Marc", "Eaglestone, Robert", "McKnight, Charles"],
+    "publisher": { "name": "Central Supply Catalog Website", "url": "https://trav-csc.com" }
+  },
+  {
+    "publication": "Central Supply Catalog Website : 13mm Machinegun Ammunition (6D Damage)",
+    "url": "https://trav-csc.com/products/200-010-00097",
+    "authors": ["Miller, Marc", "Eaglestone, Robert", "McKnight, Charles"],
+    "publisher": { "name": "Central Supply Catalog Website", "url": "https://trav-csc.com" }
+  },
+  {
+    "publication": "Central Supply Catalog Website : 13mm Machinegun Ammunition (7D Damage)",
+    "url": "https://trav-csc.com/products/200-010-00098",
+    "authors": ["Miller, Marc", "Eaglestone, Robert", "McKnight, Charles"],
+    "publisher": { "name": "Central Supply Catalog Website", "url": "https://trav-csc.com" }
+  },
+  {
+    "publication": "Central Supply Catalog Website : 13mm Machinegun Ammunition (8D Damage)",
+    "url": "https://trav-csc.com/products/200-010-00099",
+    "authors": ["Miller, Marc", "Eaglestone, Robert", "McKnight, Charles"],
+    "publisher": { "name": "Central Supply Catalog Website", "url": "https://trav-csc.com" }
+  },
+  {
+    "publication": "Central Supply Catalog Website : 13mm Machinegun Ammunition (9D Damage)",
+    "url": "https://trav-csc.com/products/200-010-00100",
+    "authors": ["Miller, Marc", "Eaglestone, Robert", "McKnight, Charles"],
+    "publisher": { "name": "Central Supply Catalog Website", "url": "https://trav-csc.com" }
+  },
+  {
+    "publication": "Central Supply Catalog Website : 15mm Shotgun Ammunition (10D Damage)",
+    "url": "https://trav-csc.com/products/200-010-00041",
+    "authors": ["Miller, Marc", "Eaglestone, Robert", "McKnight, Charles"],
+    "publisher": { "name": "Central Supply Catalog Website", "url": "https://trav-csc.com" }
+  },
+  {
+    "publication": "Central Supply Catalog Website : 15mm Shotgun Ammunition (1D Damage)",
+    "url": "https://trav-csc.com/products/200-010-00032",
+    "authors": ["Miller, Marc", "Eaglestone, Robert", "McKnight, Charles"],
+    "publisher": { "name": "Central Supply Catalog Website", "url": "https://trav-csc.com" }
+  },
+  {
+    "publication": "Central Supply Catalog Website : 15mm Shotgun Ammunition (2D Damage)",
+    "url": "https://trav-csc.com/products/200-010-00033",
+    "authors": ["Miller, Marc", "Eaglestone, Robert", "McKnight, Charles"],
+    "publisher": { "name": "Central Supply Catalog Website", "url": "https://trav-csc.com" }
+  },
+  {
+    "publication": "Central Supply Catalog Website : 15mm Shotgun Ammunition (3D Damage)",
+    "url": "https://trav-csc.com/products/200-010-00034",
+    "authors": ["Miller, Marc", "Eaglestone, Robert", "McKnight, Charles"],
+    "publisher": { "name": "Central Supply Catalog Website", "url": "https://trav-csc.com" }
+  },
+  {
+    "publication": "Central Supply Catalog Website : 15mm Shotgun Ammunition (4D Damage)",
+    "url": "https://trav-csc.com/products/200-010-00035",
+    "authors": ["Miller, Marc", "Eaglestone, Robert", "McKnight, Charles"],
+    "publisher": { "name": "Central Supply Catalog Website", "url": "https://trav-csc.com" }
+  },
+  {
+    "publication": "Central Supply Catalog Website : 15mm Shotgun Ammunition (5D Damage)",
+    "url": "https://trav-csc.com/products/200-010-00036",
+    "authors": ["Miller, Marc", "Eaglestone, Robert", "McKnight, Charles"],
+    "publisher": { "name": "Central Supply Catalog Website", "url": "https://trav-csc.com" }
+  },
+  {
+    "publication": "Central Supply Catalog Website : 15mm Shotgun Ammunition (6D Damage)",
+    "url": "https://trav-csc.com/products/200-010-00037",
+    "authors": ["Miller, Marc", "Eaglestone, Robert", "McKnight, Charles"],
+    "publisher": { "name": "Central Supply Catalog Website", "url": "https://trav-csc.com" }
+  },
+  {
+    "publication": "Central Supply Catalog Website : 15mm Shotgun Ammunition (7D Damage)",
+    "url": "https://trav-csc.com/products/200-010-00038",
+    "authors": ["Miller, Marc", "Eaglestone, Robert", "McKnight, Charles"],
+    "publisher": { "name": "Central Supply Catalog Website", "url": "https://trav-csc.com" }
+  },
+  {
+    "publication": "Central Supply Catalog Website : 15mm Shotgun Ammunition (8D Damage)",
+    "url": "https://trav-csc.com/products/200-010-00039",
+    "authors": ["Miller, Marc", "Eaglestone, Robert", "McKnight, Charles"],
+    "publisher": { "name": "Central Supply Catalog Website", "url": "https://trav-csc.com" }
+  },
+  {
+    "publication": "Central Supply Catalog Website : 15mm Shotgun Ammunition (9D Damage)",
+    "url": "https://trav-csc.com/products/200-010-00040",
+    "authors": ["Miller, Marc", "Eaglestone, Robert", "McKnight, Charles"],
+    "publisher": { "name": "Central Supply Catalog Website", "url": "https://trav-csc.com" }
+  },
+  {
+    "publication": "Central Supply Catalog Website : 20mm Heavy Machinegun Ammunition (10D Damage)",
+    "url": "https://trav-csc.com/products/200-010-00111",
+    "authors": ["Miller, Marc", "Eaglestone, Robert", "McKnight, Charles"],
+    "publisher": { "name": "Central Supply Catalog Website", "url": "https://trav-csc.com" }
+  },
+  {
+    "publication": "Central Supply Catalog Website : 20mm Heavy Machinegun Ammunition (1D Damage)",
+    "url": "https://trav-csc.com/products/200-010-00102",
+    "authors": ["Miller, Marc", "Eaglestone, Robert", "McKnight, Charles"],
+    "publisher": { "name": "Central Supply Catalog Website", "url": "https://trav-csc.com" }
+  },
+  {
+    "publication": "Central Supply Catalog Website : 20mm Heavy Machinegun Ammunition (2D Damage)",
+    "url": "https://trav-csc.com/products/200-010-00103",
+    "authors": ["Miller, Marc", "Eaglestone, Robert", "McKnight, Charles"],
+    "publisher": { "name": "Central Supply Catalog Website", "url": "https://trav-csc.com" }
+  },
+  {
+    "publication": "Central Supply Catalog Website : 20mm Heavy Machinegun Ammunition (3D Damage)",
+    "url": "https://trav-csc.com/products/200-010-00104",
+    "authors": ["Miller, Marc", "Eaglestone, Robert", "McKnight, Charles"],
+    "publisher": { "name": "Central Supply Catalog Website", "url": "https://trav-csc.com" }
+  },
+  {
+    "publication": "Central Supply Catalog Website : 20mm Heavy Machinegun Ammunition (4D Damage)",
+    "url": "https://trav-csc.com/products/200-010-00105",
+    "authors": ["Miller, Marc", "Eaglestone, Robert", "McKnight, Charles"],
+    "publisher": { "name": "Central Supply Catalog Website", "url": "https://trav-csc.com" }
+  },
+  {
+    "publication": "Central Supply Catalog Website : 20mm Heavy Machinegun Ammunition (5D Damage)",
+    "url": "https://trav-csc.com/products/200-010-00106",
+    "authors": ["Miller, Marc", "Eaglestone, Robert", "McKnight, Charles"],
+    "publisher": { "name": "Central Supply Catalog Website", "url": "https://trav-csc.com" }
+  },
+  {
+    "publication": "Central Supply Catalog Website : 20mm Heavy Machinegun Ammunition (6D Damage)",
+    "url": "https://trav-csc.com/products/200-010-00107",
+    "authors": ["Miller, Marc", "Eaglestone, Robert", "McKnight, Charles"],
+    "publisher": { "name": "Central Supply Catalog Website", "url": "https://trav-csc.com" }
+  },
+  {
+    "publication": "Central Supply Catalog Website : 20mm Heavy Machinegun Ammunition (7D Damage)",
+    "url": "https://trav-csc.com/products/200-010-00108",
+    "authors": ["Miller, Marc", "Eaglestone, Robert", "McKnight, Charles"],
+    "publisher": { "name": "Central Supply Catalog Website", "url": "https://trav-csc.com" }
+  },
+  {
+    "publication": "Central Supply Catalog Website : 20mm Heavy Machinegun Ammunition (8D Damage)",
+    "url": "https://trav-csc.com/products/200-010-00109",
+    "authors": ["Miller, Marc", "Eaglestone, Robert", "McKnight, Charles"],
+    "publisher": { "name": "Central Supply Catalog Website", "url": "https://trav-csc.com" }
+  },
+  {
+    "publication": "Central Supply Catalog Website : 20mm Heavy Machinegun Ammunition (9D Damage)",
+    "url": "https://trav-csc.com/products/200-010-00110",
+    "authors": ["Miller, Marc", "Eaglestone, Robert", "McKnight, Charles"],
+    "publisher": { "name": "Central Supply Catalog Website", "url": "https://trav-csc.com" }
+  },
+  {
+    "publication": "Central Supply Catalog Website : 25mm VHeavy Carbine Ammunition (10D Damage)",
+    "url": "https://trav-csc.com/products/200-010-00121",
+    "authors": ["Miller, Marc", "Eaglestone, Robert", "McKnight, Charles"],
+    "publisher": { "name": "Central Supply Catalog Website", "url": "https://trav-csc.com" }
+  },
+  {
+    "publication": "Central Supply Catalog Website : 25mm VHeavy Carbine Ammunition (1D Damage)",
+    "url": "https://trav-csc.com/products/200-010-00112",
+    "authors": ["Miller, Marc", "Eaglestone, Robert", "McKnight, Charles"],
+    "publisher": { "name": "Central Supply Catalog Website", "url": "https://trav-csc.com" }
+  },
+  {
+    "publication": "Central Supply Catalog Website : 25mm VHeavy Carbine Ammunition (2D Damage)",
+    "url": "https://trav-csc.com/products/200-010-00113",
+    "authors": ["Miller, Marc", "Eaglestone, Robert", "McKnight, Charles"],
+    "publisher": { "name": "Central Supply Catalog Website", "url": "https://trav-csc.com" }
+  },
+  {
+    "publication": "Central Supply Catalog Website : 25mm VHeavy Carbine Ammunition (3D Damage)",
+    "url": "https://trav-csc.com/products/200-010-00114",
+    "authors": ["Miller, Marc", "Eaglestone, Robert", "McKnight, Charles"],
+    "publisher": { "name": "Central Supply Catalog Website", "url": "https://trav-csc.com" }
+  },
+  {
+    "publication": "Central Supply Catalog Website : 25mm VHeavy Carbine Ammunition (4D Damage)",
+    "url": "https://trav-csc.com/products/200-010-00115",
+    "authors": ["Miller, Marc", "Eaglestone, Robert", "McKnight, Charles"],
+    "publisher": { "name": "Central Supply Catalog Website", "url": "https://trav-csc.com" }
+  },
+  {
+    "publication": "Central Supply Catalog Website : 25mm VHeavy Carbine Ammunition (5D Damage)",
+    "url": "https://trav-csc.com/products/200-010-00116",
+    "authors": ["Miller, Marc", "Eaglestone, Robert", "McKnight, Charles"],
+    "publisher": { "name": "Central Supply Catalog Website", "url": "https://trav-csc.com" }
+  },
+  {
+    "publication": "Central Supply Catalog Website : 25mm VHeavy Carbine Ammunition (6D Damage)",
+    "url": "https://trav-csc.com/products/200-010-00117",
+    "authors": ["Miller, Marc", "Eaglestone, Robert", "McKnight, Charles"],
+    "publisher": { "name": "Central Supply Catalog Website", "url": "https://trav-csc.com" }
+  },
+  {
+    "publication": "Central Supply Catalog Website : 25mm VHeavy Carbine Ammunition (7D Damage)",
+    "url": "https://trav-csc.com/products/200-010-00118",
+    "authors": ["Miller, Marc", "Eaglestone, Robert", "McKnight, Charles"],
+    "publisher": { "name": "Central Supply Catalog Website", "url": "https://trav-csc.com" }
+  },
+  {
+    "publication": "Central Supply Catalog Website : 25mm VHeavy Carbine Ammunition (8D Damage)",
+    "url": "https://trav-csc.com/products/200-010-00119",
+    "authors": ["Miller, Marc", "Eaglestone, Robert", "McKnight, Charles"],
+    "publisher": { "name": "Central Supply Catalog Website", "url": "https://trav-csc.com" }
+  },
+  {
+    "publication": "Central Supply Catalog Website : 25mm VHeavy Carbine Ammunition (9D Damage)",
+    "url": "https://trav-csc.com/products/200-010-00120",
+    "authors": ["Miller, Marc", "Eaglestone, Robert", "McKnight, Charles"],
+    "publisher": { "name": "Central Supply Catalog Website", "url": "https://trav-csc.com" }
+  },
+  {
+    "publication": "Central Supply Catalog Website : 3mm Staplegun Ammunition (10D Damage)",
+    "url": "https://trav-csc.com/products/200-010-00081",
+    "authors": ["Miller, Marc", "Eaglestone, Robert", "McKnight, Charles"],
+    "publisher": { "name": "Central Supply Catalog Website", "url": "https://trav-csc.com" }
+  },
+  {
+    "publication": "Central Supply Catalog Website : 3mm Staplegun Ammunition (1D Damage)",
+    "url": "https://trav-csc.com/products/200-010-00072",
+    "authors": ["Miller, Marc", "Eaglestone, Robert", "McKnight, Charles"],
+    "publisher": { "name": "Central Supply Catalog Website", "url": "https://trav-csc.com" }
+  },
+  {
+    "publication": "Central Supply Catalog Website : 3mm Staplegun Ammunition (2D Damage)",
+    "url": "https://trav-csc.com/products/200-010-00073",
+    "authors": ["Miller, Marc", "Eaglestone, Robert", "McKnight, Charles"],
+    "publisher": { "name": "Central Supply Catalog Website", "url": "https://trav-csc.com" }
+  },
+  {
+    "publication": "Central Supply Catalog Website : 3mm Staplegun Ammunition (3D Damage)",
+    "url": "https://trav-csc.com/products/200-010-00074",
+    "authors": ["Miller, Marc", "Eaglestone, Robert", "McKnight, Charles"],
+    "publisher": { "name": "Central Supply Catalog Website", "url": "https://trav-csc.com" }
+  },
+  {
+    "publication": "Central Supply Catalog Website : 3mm Staplegun Ammunition (4D Damage)",
+    "url": "https://trav-csc.com/products/200-010-00075",
+    "authors": ["Miller, Marc", "Eaglestone, Robert", "McKnight, Charles"],
+    "publisher": { "name": "Central Supply Catalog Website", "url": "https://trav-csc.com" }
+  },
+  {
+    "publication": "Central Supply Catalog Website : 3mm Staplegun Ammunition (5D Damage)",
+    "url": "https://trav-csc.com/products/200-010-00076",
+    "authors": ["Miller, Marc", "Eaglestone, Robert", "McKnight, Charles"],
+    "publisher": { "name": "Central Supply Catalog Website", "url": "https://trav-csc.com" }
+  },
+  {
+    "publication": "Central Supply Catalog Website : 3mm Staplegun Ammunition (6D Damage)",
+    "url": "https://trav-csc.com/products/200-010-00077",
+    "authors": ["Miller, Marc", "Eaglestone, Robert", "McKnight, Charles"],
+    "publisher": { "name": "Central Supply Catalog Website", "url": "https://trav-csc.com" }
+  },
+  {
+    "publication": "Central Supply Catalog Website : 3mm Staplegun Ammunition (7D Damage)",
+    "url": "https://trav-csc.com/products/200-010-00078",
+    "authors": ["Miller, Marc", "Eaglestone, Robert", "McKnight, Charles"],
+    "publisher": { "name": "Central Supply Catalog Website", "url": "https://trav-csc.com" }
+  },
+  {
+    "publication": "Central Supply Catalog Website : 3mm Staplegun Ammunition (8D Damage)",
+    "url": "https://trav-csc.com/products/200-010-00079",
+    "authors": ["Miller, Marc", "Eaglestone, Robert", "McKnight, Charles"],
+    "publisher": { "name": "Central Supply Catalog Website", "url": "https://trav-csc.com" }
+  },
+  {
+    "publication": "Central Supply Catalog Website : 3mm Staplegun Ammunition (9D Damage)",
+    "url": "https://trav-csc.com/products/200-010-00080",
+    "authors": ["Miller, Marc", "Eaglestone, Robert", "McKnight, Charles"],
+    "publisher": { "name": "Central Supply Catalog Website", "url": "https://trav-csc.com" }
+  },
+  {
+    "publication": "Central Supply Catalog Website : 4mm Handgun Ammunition (10D Damage)",
+    "url": "https://trav-csc.com/products/200-010-00031",
+    "authors": ["Miller, Marc", "Eaglestone, Robert", "McKnight, Charles"],
+    "publisher": { "name": "Central Supply Catalog Website", "url": "https://trav-csc.com" }
+  },
+  {
+    "publication": "Central Supply Catalog Website : 4mm Handgun Ammunition (1D Damage)",
+    "url": "https://trav-csc.com/products/200-010-00022",
+    "authors": ["Miller, Marc", "Eaglestone, Robert", "McKnight, Charles"],
+    "publisher": { "name": "Central Supply Catalog Website", "url": "https://trav-csc.com" }
+  },
+  {
+    "publication": "Central Supply Catalog Website : 4mm Handgun Ammunition (2D Damage)",
+    "url": "https://trav-csc.com/products/200-010-00023",
+    "authors": ["Miller, Marc", "Eaglestone, Robert", "McKnight, Charles"],
+    "publisher": { "name": "Central Supply Catalog Website", "url": "https://trav-csc.com" }
+  },
+  {
+    "publication": "Central Supply Catalog Website : 4mm Handgun Ammunition (3D Damage)",
+    "url": "https://trav-csc.com/products/200-010-00024",
+    "authors": ["Miller, Marc", "Eaglestone, Robert", "McKnight, Charles"],
+    "publisher": { "name": "Central Supply Catalog Website", "url": "https://trav-csc.com" }
+  },
+  {
+    "publication": "Central Supply Catalog Website : 4mm Handgun Ammunition (4D Damage)",
+    "url": "https://trav-csc.com/products/200-010-00025",
+    "authors": ["Miller, Marc", "Eaglestone, Robert", "McKnight, Charles"],
+    "publisher": { "name": "Central Supply Catalog Website", "url": "https://trav-csc.com" }
+  },
+  {
+    "publication": "Central Supply Catalog Website : 4mm Handgun Ammunition (5D Damage)",
+    "url": "https://trav-csc.com/products/200-010-00026",
+    "authors": ["Miller, Marc", "Eaglestone, Robert", "McKnight, Charles"],
+    "publisher": { "name": "Central Supply Catalog Website", "url": "https://trav-csc.com" }
+  },
+  {
+    "publication": "Central Supply Catalog Website : 4mm Handgun Ammunition (6D Damage)",
+    "url": "https://trav-csc.com/products/200-010-00027",
+    "authors": ["Miller, Marc", "Eaglestone, Robert", "McKnight, Charles"],
+    "publisher": { "name": "Central Supply Catalog Website", "url": "https://trav-csc.com" }
+  },
+  {
+    "publication": "Central Supply Catalog Website : 4mm Handgun Ammunition (7D Damage)",
+    "url": "https://trav-csc.com/products/200-010-00028",
+    "authors": ["Miller, Marc", "Eaglestone, Robert", "McKnight, Charles"],
+    "publisher": { "name": "Central Supply Catalog Website", "url": "https://trav-csc.com" }
+  },
+  {
+    "publication": "Central Supply Catalog Website : 4mm Handgun Ammunition (8D Damage)",
+    "url": "https://trav-csc.com/products/200-010-00029",
+    "authors": ["Miller, Marc", "Eaglestone, Robert", "McKnight, Charles"],
+    "publisher": { "name": "Central Supply Catalog Website", "url": "https://trav-csc.com" }
+  },
+  {
+    "publication": "Central Supply Catalog Website : 4mm Handgun Ammunition (9D Damage)",
+    "url": "https://trav-csc.com/products/200-010-00030",
+    "authors": ["Miller, Marc", "Eaglestone, Robert", "McKnight, Charles"],
+    "publisher": { "name": "Central Supply Catalog Website", "url": "https://trav-csc.com" }
+  },
+  {
+    "publication": "Central Supply Catalog Website : 6mm Gauss Gun Ammunition (10D Damage)",
+    "url": "https://trav-csc.com/products/200-010-00071",
+    "authors": ["Miller, Marc", "Eaglestone, Robert", "McKnight, Charles"],
+    "publisher": { "name": "Central Supply Catalog Website", "url": "https://trav-csc.com" }
+  },
+  {
+    "publication": "Central Supply Catalog Website : 6mm Gauss Gun Ammunition (1D Damage)",
+    "url": "https://trav-csc.com/products/200-010-00062",
+    "authors": ["Miller, Marc", "Eaglestone, Robert", "McKnight, Charles"],
+    "publisher": { "name": "Central Supply Catalog Website", "url": "https://trav-csc.com" }
+  },
+  {
+    "publication": "Central Supply Catalog Website : 6mm Gauss Gun Ammunition (2D Damage)",
+    "url": "https://trav-csc.com/products/200-010-00063",
+    "authors": ["Miller, Marc", "Eaglestone, Robert", "McKnight, Charles"],
+    "publisher": { "name": "Central Supply Catalog Website", "url": "https://trav-csc.com" }
+  },
+  {
+    "publication": "Central Supply Catalog Website : 6mm Gauss Gun Ammunition (3D Damage)",
+    "url": "https://trav-csc.com/products/200-010-00064",
+    "authors": ["Miller, Marc", "Eaglestone, Robert", "McKnight, Charles"],
+    "publisher": { "name": "Central Supply Catalog Website", "url": "https://trav-csc.com" }
+  },
+  {
+    "publication": "Central Supply Catalog Website : 6mm Gauss Gun Ammunition (4D Damage)",
+    "url": "https://trav-csc.com/products/200-010-00065",
+    "authors": ["Miller, Marc", "Eaglestone, Robert", "McKnight, Charles"],
+    "publisher": { "name": "Central Supply Catalog Website", "url": "https://trav-csc.com" }
+  },
+  {
+    "publication": "Central Supply Catalog Website : 6mm Gauss Gun Ammunition (5D Damage)",
+    "url": "https://trav-csc.com/products/200-010-00066",
+    "authors": ["Miller, Marc", "Eaglestone, Robert", "McKnight, Charles"],
+    "publisher": { "name": "Central Supply Catalog Website", "url": "https://trav-csc.com" }
+  },
+  {
+    "publication": "Central Supply Catalog Website : 6mm Gauss Gun Ammunition (6D Damage)",
+    "url": "https://trav-csc.com/products/200-010-00067",
+    "authors": ["Miller, Marc", "Eaglestone, Robert", "McKnight, Charles"],
+    "publisher": { "name": "Central Supply Catalog Website", "url": "https://trav-csc.com" }
+  },
+  {
+    "publication": "Central Supply Catalog Website : 6mm Gauss Gun Ammunition (7D Damage)",
+    "url": "https://trav-csc.com/products/200-010-00068",
+    "authors": ["Miller, Marc", "Eaglestone, Robert", "McKnight, Charles"],
+    "publisher": { "name": "Central Supply Catalog Website", "url": "https://trav-csc.com" }
+  },
+  {
+    "publication": "Central Supply Catalog Website : 6mm Gauss Gun Ammunition (8D Damage)",
+    "url": "https://trav-csc.com/products/200-010-00069",
+    "authors": ["Miller, Marc", "Eaglestone, Robert", "McKnight, Charles"],
+    "publisher": { "name": "Central Supply Catalog Website", "url": "https://trav-csc.com" }
+  },
+  {
+    "publication": "Central Supply Catalog Website : 6mm Gauss Gun Ammunition (9D Damage)",
+    "url": "https://trav-csc.com/products/200-010-00070",
+    "authors": ["Miller, Marc", "Eaglestone, Robert", "McKnight, Charles"],
+    "publisher": { "name": "Central Supply Catalog Website", "url": "https://trav-csc.com" }
+  },
+  {
+    "publication": "Central Supply Catalog Website : 6mm Machinegun Ammunition (10D Damage)",
+    "url": "https://trav-csc.com/products/200-010-00061",
+    "authors": ["Miller, Marc", "Eaglestone, Robert", "McKnight, Charles"],
+    "publisher": { "name": "Central Supply Catalog Website", "url": "https://trav-csc.com" }
+  },
+  {
+    "publication": "Central Supply Catalog Website : 6mm Machinegun Ammunition (1D Damage)",
+    "url": "https://trav-csc.com/products/200-010-00052",
+    "authors": ["Miller, Marc", "Eaglestone, Robert", "McKnight, Charles"],
+    "publisher": { "name": "Central Supply Catalog Website", "url": "https://trav-csc.com" }
+  },
+  {
+    "publication": "Central Supply Catalog Website : 6mm Machinegun Ammunition (2D Damage)",
+    "url": "https://trav-csc.com/products/200-010-00053",
+    "authors": ["Miller, Marc", "Eaglestone, Robert", "McKnight, Charles"],
+    "publisher": { "name": "Central Supply Catalog Website", "url": "https://trav-csc.com" }
+  },
+  {
+    "publication": "Central Supply Catalog Website : 6mm Machinegun Ammunition (3D Damage)",
+    "url": "https://trav-csc.com/products/200-010-00054",
+    "authors": ["Miller, Marc", "Eaglestone, Robert", "McKnight, Charles"],
+    "publisher": { "name": "Central Supply Catalog Website", "url": "https://trav-csc.com" }
+  },
+  {
+    "publication": "Central Supply Catalog Website : 6mm Machinegun Ammunition (4D Damage)",
+    "url": "https://trav-csc.com/products/200-010-00055",
+    "authors": ["Miller, Marc", "Eaglestone, Robert", "McKnight, Charles"],
+    "publisher": { "name": "Central Supply Catalog Website", "url": "https://trav-csc.com" }
+  },
+  {
+    "publication": "Central Supply Catalog Website : 6mm Machinegun Ammunition (5D Damage)",
+    "url": "https://trav-csc.com/products/200-010-00056",
+    "authors": ["Miller, Marc", "Eaglestone, Robert", "McKnight, Charles"],
+    "publisher": { "name": "Central Supply Catalog Website", "url": "https://trav-csc.com" }
+  },
+  {
+    "publication": "Central Supply Catalog Website : 6mm Machinegun Ammunition (6D Damage)",
+    "url": "https://trav-csc.com/products/200-010-00057",
+    "authors": ["Miller, Marc", "Eaglestone, Robert", "McKnight, Charles"],
+    "publisher": { "name": "Central Supply Catalog Website", "url": "https://trav-csc.com" }
+  },
+  {
+    "publication": "Central Supply Catalog Website : 6mm Machinegun Ammunition (7D Damage)",
+    "url": "https://trav-csc.com/products/200-010-00058",
+    "authors": ["Miller, Marc", "Eaglestone, Robert", "McKnight, Charles"],
+    "publisher": { "name": "Central Supply Catalog Website", "url": "https://trav-csc.com" }
+  },
+  {
+    "publication": "Central Supply Catalog Website : 6mm Machinegun Ammunition (8D Damage)",
+    "url": "https://trav-csc.com/products/200-010-00059",
+    "authors": ["Miller, Marc", "Eaglestone, Robert", "McKnight, Charles"],
+    "publisher": { "name": "Central Supply Catalog Website", "url": "https://trav-csc.com" }
+  },
+  {
+    "publication": "Central Supply Catalog Website : 6mm Machinegun Ammunition (9D Damage)",
+    "url": "https://trav-csc.com/products/200-010-00060",
+    "authors": ["Miller, Marc", "Eaglestone, Robert", "McKnight, Charles"],
+    "publisher": { "name": "Central Supply Catalog Website", "url": "https://trav-csc.com" }
+  },
+  {
+    "publication": "Central Supply Catalog Website : 6mm Rifle Ammunition (10D Damage)",
+    "url": "https://trav-csc.com/products/200-010-00021",
+    "authors": ["Miller, Marc", "Eaglestone, Robert", "McKnight, Charles"],
+    "publisher": { "name": "Central Supply Catalog Website", "url": "https://trav-csc.com" }
+  },
+  {
+    "publication": "Central Supply Catalog Website : 6mm Rifle Ammunition (1D Damage)",
+    "url": "https://trav-csc.com/products/200-010-00012",
+    "authors": ["Miller, Marc", "Eaglestone, Robert", "McKnight, Charles"],
+    "publisher": { "name": "Central Supply Catalog Website", "url": "https://trav-csc.com" }
+  },
+  {
+    "publication": "Central Supply Catalog Website : 6mm Rifle Ammunition (2D Damage)",
+    "url": "https://trav-csc.com/products/200-010-00013",
+    "authors": ["Miller, Marc", "Eaglestone, Robert", "McKnight, Charles"],
+    "publisher": { "name": "Central Supply Catalog Website", "url": "https://trav-csc.com" }
+  },
+  {
+    "publication": "Central Supply Catalog Website : 6mm Rifle Ammunition (3D Damage)",
+    "url": "https://trav-csc.com/products/200-010-00014",
+    "authors": ["Miller, Marc", "Eaglestone, Robert", "McKnight, Charles"],
+    "publisher": { "name": "Central Supply Catalog Website", "url": "https://trav-csc.com" }
+  },
+  {
+    "publication": "Central Supply Catalog Website : 6mm Rifle Ammunition (4D Damage)",
+    "url": "https://trav-csc.com/products/200-010-00015",
+    "authors": ["Miller, Marc", "Eaglestone, Robert", "McKnight, Charles"]
+  },
+  {
+    "publication": "Central Supply Catalog Website : 6mm Rifle Ammunition (5D Damage)",
+    "url": "https://trav-csc.com/products/200-010-00016",
+    "authors": ["Miller, Marc", "Eaglestone, Robert", "McKnight, Charles"],
+    "publisher": { "name": "Central Supply Catalog Website", "url": "https://trav-csc.com" }
+  },
+  {
+    "publication": "Central Supply Catalog Website : 6mm Rifle Ammunition (6D Damage)",
+    "url": "https://trav-csc.com/products/200-010-00017",
+    "authors": ["Miller, Marc", "Eaglestone, Robert", "McKnight, Charles"],
+    "publisher": { "name": "Central Supply Catalog Website", "url": "https://trav-csc.com" }
+  },
+  {
+    "publication": "Central Supply Catalog Website : 6mm Rifle Ammunition (7D Damage)",
+    "url": "https://trav-csc.com/products/200-010-00018",
+    "authors": ["Miller, Marc", "Eaglestone, Robert", "McKnight, Charles"],
+    "publisher": { "name": "Central Supply Catalog Website", "url": "https://trav-csc.com" }
+  },
+  {
+    "publication": "Central Supply Catalog Website : 6mm Rifle Ammunition (8D Damage)",
+    "url": "https://trav-csc.com/products/200-010-00019",
+    "authors": ["Miller, Marc", "Eaglestone, Robert", "McKnight, Charles"],
+    "publisher": { "name": "Central Supply Catalog Website", "url": "https://trav-csc.com" }
+  },
+  {
+    "publication": "Central Supply Catalog Website : 6mm Rifle Ammunition (9D Damage)",
+    "url": "https://trav-csc.com/products/200-010-00020",
+    "authors": ["Miller, Marc", "Eaglestone, Robert", "McKnight, Charles"],
+    "publisher": { "name": "Central Supply Catalog Website", "url": "https://trav-csc.com" }
+  },
+  {
+    "publication": "Central Supply Catalog Website : 8mm Machinegun Ammunition (10D Damage)",
+    "url": "https://trav-csc.com/products/200-010-00051",
+    "authors": ["Miller, Marc", "Eaglestone, Robert", "McKnight, Charles"],
+    "publisher": { "name": "Central Supply Catalog Website", "url": "https://trav-csc.com" }
+  },
+  {
+    "publication": "Central Supply Catalog Website : 8mm Machinegun Ammunition (1D Damage)",
+    "url": "https://trav-csc.com/products/200-010-00042",
+    "authors": ["Miller, Marc", "Eaglestone, Robert", "McKnight, Charles"],
+    "publisher": { "name": "Central Supply Catalog Website", "url": "https://trav-csc.com" }
+  },
+  {
+    "publication": "Central Supply Catalog Website : 8mm Machinegun Ammunition (2D Damage)",
+    "url": "https://trav-csc.com/products/200-010-00043",
+    "authors": ["Miller, Marc", "Eaglestone, Robert", "McKnight, Charles"],
+    "publisher": { "name": "Central Supply Catalog Website", "url": "https://trav-csc.com" }
+  },
+  {
+    "publication": "Central Supply Catalog Website : 8mm Machinegun Ammunition (3D Damage)",
+    "url": "https://trav-csc.com/products/200-010-00044",
+    "authors": ["Miller, Marc", "Eaglestone, Robert", "McKnight, Charles"],
+    "publisher": { "name": "Central Supply Catalog Website", "url": "https://trav-csc.com" }
+  },
+  {
+    "publication": "Central Supply Catalog Website : 8mm Machinegun Ammunition (4D Damage)",
+    "url": "https://trav-csc.com/products/200-010-00045",
+    "authors": ["Miller, Marc", "Eaglestone, Robert", "McKnight, Charles"],
+    "publisher": { "name": "Central Supply Catalog Website", "url": "https://trav-csc.com" }
+  },
+  {
+    "publication": "Central Supply Catalog Website : 8mm Machinegun Ammunition (5D Damage)",
+    "url": "https://trav-csc.com/products/200-010-00047",
+    "authors": ["Miller, Marc", "Eaglestone, Robert", "McKnight, Charles"],
+    "publisher": { "name": "Central Supply Catalog Website", "url": "https://trav-csc.com" }
+  },
+  {
+    "publication": "Central Supply Catalog Website : 8mm Machinegun Ammunition (6D Damage)",
+    "url": "https://trav-csc.com/products/200-010-00047",
+    "authors": ["Miller, Marc", "Eaglestone, Robert", "McKnight, Charles"],
+    "publisher": { "name": "Central Supply Catalog Website", "url": "https://trav-csc.com" }
+  },
+  {
+    "publication": "Central Supply Catalog Website : 8mm Machinegun Ammunition (7D Damage)",
+    "url": "https://trav-csc.com/products/200-010-00048",
+    "authors": ["Miller, Marc", "Eaglestone, Robert", "McKnight, Charles"],
+    "publisher": { "name": "Central Supply Catalog Website", "url": "https://trav-csc.com" }
+  },
+  {
+    "publication": "Central Supply Catalog Website : 8mm Machinegun Ammunition (8D Damage)",
+    "url": "https://trav-csc.com/products/200-010-00049",
+    "authors": ["Miller, Marc", "Eaglestone, Robert", "McKnight, Charles"],
+    "publisher": { "name": "Central Supply Catalog Website", "url": "https://trav-csc.com" }
+  },
+  {
+    "publication": "Central Supply Catalog Website : 8mm Machinegun Ammunition (9D Damage)",
+    "url": "https://trav-csc.com/products/200-010-00050",
+    "authors": ["Miller, Marc", "Eaglestone, Robert", "McKnight, Charles"],
+    "publisher": { "name": "Central Supply Catalog Website", "url": "https://trav-csc.com" }
+  },
+  {
+    "publication": "Central Supply Catalog Website : 8mm Rifle Ammunition (10D Damage)",
+    "url": "https://trav-csc.com/products/200-010-00011",
+    "authors": ["Miller, Marc", "Eaglestone, Robert", "McKnight, Charles"],
+    "publisher": { "name": "Central Supply Catalog Website", "url": "https://trav-csc.com" }
+  },
+  {
+    "publication": "Central Supply Catalog Website : 8mm Rifle Ammunition (1D Damage)",
+    "url": "https://trav-csc.com/products/200-010-000",
+    "authors": ["Miller, Marc", "Eaglestone, Robert", "McKnight, Charles"],
+    "publisher": { "name": "Central Supply Catalog Website", "url": "https://trav-csc.com" }
+  },
+  {
+    "publication": "Central Supply Catalog Website : 8mm Rifle Ammunition (2D Damage)",
+    "url": "https://trav-csc.com/products/200-010-00003",
+    "authors": ["Miller, Marc", "Eaglestone, Robert", "McKnight, Charles"],
+    "publisher": { "name": "Central Supply Catalog Website", "url": "https://trav-csc.com" }
+  },
+  {
+    "publication": "Central Supply Catalog Website : 8mm Rifle Ammunition (3D Damage)",
+    "url": "https://trav-csc.com/products/200-010-00004",
+    "authors": ["Miller, Marc", "Eaglestone, Robert", "McKnight, Charles"],
+    "publisher": { "name": "Central Supply Catalog Website", "url": "https://trav-csc.com" }
+  },
+  {
+    "publication": "Central Supply Catalog Website : 8mm Rifle Ammunition (4D Damage)",
+    "url": "https://trav-csc.com/products/200-010-00005",
+    "authors": ["Miller, Marc", "Eaglestone, Robert", "McKnight, Charles"],
+    "publisher": { "name": "Central Supply Catalog Website", "url": "https://trav-csc.com" }
+  },
+  {
+    "publication": "Central Supply Catalog Website : 8mm Rifle Ammunition (5D Damage)",
+    "authors": ["Miller, Marc", "Eaglestone, Robert", "McKnight, Charles"],
+    "url": "https://trav-csc.com/products/200-010-00006",
+    "publisher": { "name": "Central Supply Catalog Website", "url": "https://trav-csc.com" }
+  },
+  {
+    "publication": "Central Supply Catalog Website : 8mm Rifle Ammunition (6D Damage)",
+    "authors": ["Miller, Marc", "Eaglestone, Robert", "McKnight, Charles"],
+    "url": "https://trav-csc.com/products/200-010-00007",
+    "publisher": { "name": "Central Supply Catalog Website", "url": "https://trav-csc.com" }
+  },
+  {
+    "publication": "Central Supply Catalog Website : 8mm Rifle Ammunition (7D Damage)",
+    "url": "https://trav-csc.com/products/200-010-00008",
+    "authors": ["Miller, Marc", "Eaglestone, Robert", "McKnight, Charles"],
+    "publisher": { "name": "Central Supply Catalog Website", "url": "https://trav-csc.com" }
+  },
+  {
+    "publication": "Central Supply Catalog Website : 8mm Rifle Ammunition (8D Damage)",
+    "authors": ["Miller, Marc", "Eaglestone, Robert", "McKnight, Charles"],
+    "url": "https://trav-csc.com/products/200-010-00009",
+    "publisher": { "name": "Central Supply Catalog Website", "url": "https://trav-csc.com" }
+  },
+  {
+    "publication": "Central Supply Catalog Website : 8mm Rifle Ammunition (9D Damage)",
+    "url": "https://trav-csc.com/products/200-010-00010",
+    "authors": ["Miller, Marc", "Eaglestone, Robert", "McKnight, Charles"],
+    "publisher": { "name": "Central Supply Catalog Website", "url": "https://trav-csc.com" }
+  },
+  {
+    "publication": "Central Supply Catalog Website : 9mm Submachinegun Ammunition (10D Damage)",
+    "url": "https://trav-csc.com/products/200-010-00091",
+    "authors": ["Miller, Marc", "Eaglestone, Robert", "McKnight, Charles"],
+    "publisher": { "name": "Central Supply Catalog Website", "url": "https://trav-csc.com" }
+  },
+  {
+    "publication": "Central Supply Catalog Website : 9mm Submachinegun Ammunition (1D Damage)",
+    "url": "https://trav-csc.com/products/200-010-00082",
+    "authors": ["Miller, Marc", "Eaglestone, Robert", "McKnight, Charles"],
+    "publisher": { "name": "Central Supply Catalog Website", "url": "https://trav-csc.com" }
+  },
+  {
+    "publication": "Central Supply Catalog Website : 9mm Submachinegun Ammunition (2D Damage)",
+    "url": "https://trav-csc.com/products/200-010-00083",
+    "authors": ["Miller, Marc", "Eaglestone, Robert", "McKnight, Charles"],
+    "publisher": { "name": "Central Supply Catalog Website", "url": "https://trav-csc.com" }
+  },
+  {
+    "publication": "Central Supply Catalog Website : 9mm Submachinegun Ammunition (3D Damage)",
+    "url": "https://trav-csc.com/products/200-010-00084",
+    "authors": ["Miller, Marc", "Eaglestone, Robert", "McKnight, Charles"],
+    "publisher": { "name": "Central Supply Catalog Website", "url": "https://trav-csc.com" }
+  },
+  {
+    "publication": "Central Supply Catalog Website : 9mm Submachinegun Ammunition (4D Damage)",
+    "url": "https://trav-csc.com/products/200-010-00085",
+    "authors": ["Miller, Marc", "Eaglestone, Robert", "McKnight, Charles"],
+    "publisher": { "name": "Central Supply Catalog Website", "url": "https://trav-csc.com" }
+  },
+  {
+    "publication": "Central Supply Catalog Website : 9mm Submachinegun Ammunition (5D Damage)",
+    "url": "https://trav-csc.com/products/200-010-00086",
+    "authors": ["Miller, Marc", "Eaglestone, Robert", "McKnight, Charles"],
+    "publisher": { "name": "Central Supply Catalog Website", "url": "https://trav-csc.com" }
+  },
+  {
+    "publication": "Central Supply Catalog Website : 9mm Submachinegun Ammunition (6D Damage)",
+    "url": "https://trav-csc.com/products/200-010-00087",
+    "authors": ["Miller, Marc", "Eaglestone, Robert", "McKnight, Charles"],
+    "publisher": { "name": "Central Supply Catalog Website", "url": "https://trav-csc.com" }
+  },
+  {
+    "publication": "Central Supply Catalog Website : 9mm Submachinegun Ammunition (7D Damage)",
+    "url": "https://trav-csc.com/products/200-010-00088",
+    "authors": ["Miller, Marc", "Eaglestone, Robert", "McKnight, Charles"],
+    "publisher": { "name": "Central Supply Catalog Website", "url": "https://trav-csc.com" }
+  },
+  {
+    "publication": "Central Supply Catalog Website : 9mm Submachinegun Ammunition (8D Damage)",
+    "url": "https://trav-csc.com/products/200-010-00089",
+    "authors": ["Miller, Marc", "Eaglestone, Robert", "McKnight, Charles"],
+    "publisher": { "name": "Central Supply Catalog Website", "url": "https://trav-csc.com" }
+  },
+  {
+    "publication": "Central Supply Catalog Website : 9mm Submachinegun Ammunition (9D Damage)",
+    "url": "https://trav-csc.com/products/200-010-00090",
+    "authors": ["Miller, Marc", "Eaglestone, Robert", "McKnight, Charles"],
+    "publisher": { "name": "Central Supply Catalog Website", "url": "https://trav-csc.com" }
+  },
+  {
+    "publication": "Central Supply Catalog Website : Artillery rounds (Cannon / Gatling / Gun)",
+    "url": "https://trav-csc.com/products/200-010-00001",
+    "authors": ["Miller, Marc", "Eaglestone, Robert", "McKnight, Charles"],
+    "publisher": { "name": "Central Supply Catalog Website", "url": "https://trav-csc.com" }
+  },
+  {
+    "publication": "Central Supply Catalog Website : Sling, Leather",
+    "authors": ["Charles McKnight"],
+    "publisher": { "name": "Central Supply Catalog Website", "url": "https://trav-csc.com" }
+  },
+  {
+    "publication": "Challenge 25: Ships Locker",
+    "authors": ["Wiseman, Loren"],
+    "publisher": { "name": "Games Designer Workshop", "url": "" }
+  },
+  { "publication": "Cirque: The Usual Suspects", "authors": ["Lee, Gregory P."] },
+  {
+    "publication": "Cybernetics",
+    "authors": ["Nash, Pete", "Robinson, Nick"],
+    "publisher": { "name": "Mongoose Publishing", "url": "https://www.mongoosepublishing.com" }
+  },
+  {
+    "publication": "Dragon Magazine CANARD: A Traveller Adventure",
+    "authors": ["Camino, Roberto"],
+    "publisher": { "name": "TSR (Tactical Studies Rules)", "url": "" }
+  },
+  {
+    "publication": "Emperor's Arsenal",
+    "authors": ["Porter, Greg"],
+    "publisher": { "name": "Imperium Games", "url": "" }
+  },
+  {
+    "publication": "Encyclopaedia Dagudashaag",
+    "url": " https://www.drivethrurpg.com/product/221917/CTX-The-Encyclopedia-of-Dagudashaag",
+    "authors": ["Campbell, Jae"],
+    "publisher": {
+      "name": "Signal-GK",
+      "url": "https://web.archive.org/web/20120424093957/http://www.dot-communications.org.uk/index.php?id=234"
+    }
+  },
+  {
+    "publication": "Fire, Fusion, & Steel",
+    "authors": ["Chadwick, Frank", "Nilsen, Dave"],
+    "publisher": { "name": "Games Designer Workshop", "url": "" }
+  },
+  {
+    "publication": "Ground Forces",
+    "authors": ["Berry, Douglas E."],
+    "publisher": { "name": "Steve Jackson Games", "url": "https://sjgames.com" }
+  },
+  {
+    "publication": "Guns, Gadgets and Gear",
+    "authors": ["Dougherty, Martin"],
+    "publisher": { "name": "Avenger Enterprises", "url": "" }
+  },
+  { "publication": "High Tortuga", "authors": ["Maley, Michael J."] },
+  {
+    "publication": "Imperial Encyclopedia",
+    "authors": ["Miller, Marc"],
+    "publisher": { "name": "Games Designer Workshop", "url": "" }
+  },
+  {
+    "publication": "Journal of the Traveller's Aid Society 01 : Ships Locker",
+    "authors": ["Wiseman, Loren"],
+    "publisher": { "name": "Games Designer Workshop", "url": "" }
+  },
+  {
+    "publication": "Journal of the Travellers' Aid Society 22: Computer Implant",
+    "authors": ["Wiseman, Loren"],
+    "publisher": { "name": "Games Designer Workshop", "url": "" }
+  },
+  {
+    "publication": "Marc Miller's Traveller",
+    "authors": ["Miller, Marc"],
+    "publisher": { "name": "Imperium Games", "url": "" }
+  },
+  {
+    "publication": "Referee's Companion",
+    "authors": ["Miller, Marc"],
+    "publisher": { "name": "Games Designer Workshop", "url": "" }
+  },
+  {
+    "publication": "Shadows / Annic Nova",
+    "authors": ["Miller, Marc"],
+    "publisher": { "name": "Games Designer Workshop", "url": "" }
+  },
+  {
+    "publication": "The Traveller Chronicle : No. 1",
+    "authors": ["Stone, Thomas"],
+    "publisher": { "name": "Sword of the Knight Publications", "url": "" }
+  },
+  { "publication": "TNE RCES - Aug 2004", "authors": ["Gray, Peter"] },
+  {
+    "publication": "TNE RCES : August 2004",
+    "authors": ["Gray, Peter"],
+    "publisher": { "name": "TNE RCES", "url": "" }
+  },
+  {
     "publication": "Traveller 5.10 Core Rules Book 1 : Characters and Combat",
     "authors": ["Miller, Marc"],
-    "publisher": {
-      "name": "Far Future Enterprises",
-      "url": "https://www.farfuture.net"
-    }
+    "publisher": { "name": "Far Future Enterprises", "url": "https://www.farfuture.net" }
   },
   {
-    "id": "t5-b2",
     "publication": "Traveller 5.10 Core Rules Book 2 : Starships",
     "authors": ["Miller, Marc"],
-    "publisher": {
-      "name": "Far Future Enterprises",
-      "url": "https://www.farfuture.net"
-    }
+    "publisher": { "name": "Far Future Enterprises", "url": "https://www.farfuture.net" }
   },
   {
-    "id": "t5-b3",
     "publication": "Traveller 5.10 Core Rules Book 3 : Worlds and Adventures",
     "authors": ["Miller, Marc"],
-    "publisher": {
-      "name": "Far Future Enterprises",
-      "url": "https://www.farfuture.net"
-    }
+    "publisher": { "name": "Far Future Enterprises", "url": "https://www.farfuture.net" }
+  },
+  {
+    "publication": "Traveller Core Rule Book",
+    "authors": ["Sprange, Matthew"],
+    "publisher": { "name": "Mongoose Publishing", "url": "https://www.mongoosepublishing.com" }
+  },
+  {
+    "publication": "Traveller Wiki",
+    "url": "https://wiki.travellerrpg.com/Infodrone_class_Expert_Robot",
+    "authors": [
+      "Videll, Greg",
+      "Traveller Wiki Editorial Team",
+      "Lord (Marquis) and Master of Sophontology Maksim-Smelchak of the Ministry of Science"
+    ],
+    "publisher": { "name": "Traveller Wiki", "url": "https://wiki.travellerrpg.com" }
+  },
+  {
+    "publication": "Traveller Wiki - Planetary Core Tap",
+    "url": "https://wiki.travellerrpg.com/Planetary_Core_Tap",
+    "authors": ["Maksim-Smelchak"],
+    "publisher": { "name": "Traveller Wiki", "url": "https://wiki.travellerrpg.com" }
+  },
+  {
+    "publication": "Traveller Wiki : 232-BHR-7 class Toolbot",
+    "url": "https://wiki.travellerrpg.com/232-BHR-7_class_Toolbot",
+    "authors": ["Traveller Wiki Editorial Team"],
+    "publisher": { "name": "Traveller Wiki", "url": "https://wiki.travellerrpg.com" }
+  },
+  {
+    "publication": "Traveller Wiki : 63MEK49 class Ship Service Bot",
+    "url": "https://wiki.travellerrpg.com/63MEK49_class_Ship_Service_Bot",
+    "authors": [
+      "Traveller Wiki Editorial Team",
+      "Lord (Marquis) and Master of Sophontology Maksim-Smelchak of the Ministry of Science"
+    ],
+    "publisher": { "name": "Traveller Wiki", "url": "https://wiki.travellerrpg.com" }
+  },
+  {
+    "publication": "Traveller Wiki : AD-21 class Urban Combat Robot",
+    "url": "https://wiki.travellerrpg.com/AD-21_class_Urban_Combat_Robot",
+    "authors": [
+      "Traveller Wiki Editorial Team",
+      "Lord (Marquis) and Master of Sophontology Maksim-Smelchak of the Ministry of Science"
+    ],
+    "publisher": { "name": "Traveller Wiki", "url": "https://wiki.travellerrpg.com" }
+  },
+  {
+    "publication": "Traveller Wiki : AD-26 Argus",
+    "url": "https://wiki.travellerrpg.com/AD-26_Argus",
+    "authors": ["Traveller Wiki Editorial Team"],
+    "publisher": { "name": "Traveller Wiki", "url": "https://wiki.travellerrpg.com" }
+  },
+  {
+    "publication": "Traveller Wiki : Advanced Cybernetic Arm",
+    "url": "https://wiki.travellerrpg.com/Advanced_Cybernetic_Arm",
+    "authors": [
+      "Lord (Marquis) and Master Scout Emeritus Adie Alegoric Stewart of the IISS",
+      "Lord (Marquis) and Master of Sophontology Maksim-Smelchak of the Ministry of Science"
+    ],
+    "publisher": { "name": "Traveller Wiki", "url": "https://wiki.travellerrpg.com" }
+  },
+  {
+    "publication": "Traveller Wiki : Advanced Cybernetic Hand",
+    "url": "https://wiki.travellerrpg.com/Advanced_Cybernetic_Hand",
+    "authors": [
+      "Lord (Marquis) and Master Scout Emeritus Adie Alegoric Stewart of the IISS",
+      "Lord (Marquis) and Master of Sophontology Maksim-Smelchak of the Ministry of Science"
+    ],
+    "publisher": { "name": "Traveller Wiki", "url": "https://wiki.travellerrpg.com" }
+  },
+  {
+    "publication": "Traveller Wiki : AJ-63",
+    "url": "https://wiki.travellerrpg.com/AJ-63",
+    "authors": ["Traveller Wiki Editorial Team"],
+    "publisher": { "name": "Traveller Wiki", "url": "https://wiki.travellerrpg.com" }
+  },
+  {
+    "publication": "Traveller Wiki : AN-427 class Security Robot",
+    "url": "https://wiki.travellerrpg.com/AN-427_class_Security_Robot",
+    "authors": [
+      "Traveller Wiki Editorial Team",
+      "Lord (Marquis) and Master of Sophontology Maksim-Smelchak of the Ministry of Science"
+    ],
+    "publisher": { "name": "Traveller Wiki", "url": "https://wiki.travellerrpg.com" }
+  },
+  {
+    "publication": "Traveller Wiki : Aquatic Skin",
+    "url": "https://wiki.travellerrpg.com/Aquatic_skin",
+    "authors": ["Traveller Wiki Editorial Team"],
+    "publisher": { "name": "Traveller Wiki", "url": "https://wiki.travellerrpg.com" }
+  },
+  {
+    "publication": "Traveller Wiki : Basic Cybernetic Arm",
+    "url": "https://wiki.travellerrpg.com/Basic_Cybernetic_Arm",
+    "authors": [
+      "Lord (Marquis) and Master Scout Emeritus Adie Alegoric Stewart of the IISS",
+      "Lord (Marquis) and Master of Sophontology Maksim-Smelchak of the Ministry of Science"
+    ],
+    "publisher": { "name": "Traveller Wiki", "url": "https://wiki.travellerrpg.com" }
+  },
+  {
+    "publication": "Traveller Wiki : Basic Cybernetic Leg",
+    "url": "https://wiki.travellerrpg.com/Basic_Cybernetic_Leg",
+    "authors": [
+      "Lord (Marquis) and Master Scout Emeritus Adie Alegoric Stewart of the IISS",
+      "Lord (Marquis) and Master of Sophontology Maksim-Smelchak of the Ministry of Science"
+    ],
+    "publisher": { "name": "Traveller Wiki", "url": "https://wiki.travellerrpg.com" }
+  },
+  {
+    "publication": "Traveller Wiki : Breaching Charge",
+    "url": "https://wiki.travellerrpg.com/Breaching_Charge",
+    "authors": ["Traveller Wiki Editorial Team"],
+    "publisher": { "name": "Traveller Wiki", "url": "https://wiki.travellerrpg.com" }
+  },
+  {
+    "publication": "Traveller Wiki : C-8",
+    "url": "https://wiki.travellerrpg.com/C-8",
+    "authors": ["Traveller Wiki Editorial Team"],
+    "publisher": { "name": "Traveller Wiki", "url": "https://wiki.travellerrpg.com" }
+  },
+  {
+    "publication": "Traveller Wiki : Combat Hand",
+    "url": "https://wiki.travellerrpg.com/Combat_Hand",
+    "authors": ["Lord (Marquis) and Master Scout Emeritus Adie Alegoric Stewart of the IISS"],
+    "publisher": { "name": "Traveller Wiki", "url": "https://wiki.travellerrpg.com" }
+  },
+  {
+    "publication": "Traveller Wiki : Contact Interface",
+    "url": "https://wiki.travellerrpg.com/Contact_interface",
+    "authors": ["Traveller Wiki Editorial Team"],
+    "publisher": { "name": "Traveller Wiki", "url": "https://wiki.travellerrpg.com" }
+  },
+  {
+    "publication": "Traveller Wiki : Cybernetic Adrenals",
+    "url": "https://wiki.travellerrpg.com/Cybernetic_Adrenals",
+    "authors": ["Traveller Wiki Editorial Team"],
+    "publisher": { "name": "Traveller Wiki", "url": "https://wiki.travellerrpg.com" }
+  },
+  {
+    "publication": "Traveller Wiki : Cybernetic Ears",
+    "url": "https://wiki.travellerrpg.com/Cybernetic_ears",
+    "authors": [
+      "Lord (Marquis) and Master Scout Emeritus Adie Alegoric Stewart of the IISS",
+      "Lord (Marquis) and Master of Sophontology Maksim-Smelchak of the Ministry of Science"
+    ],
+    "publisher": { "name": "Traveller Wiki", "url": "https://wiki.travellerrpg.com" }
+  },
+  {
+    "publication": "Traveller Wiki : Cybernetic Eye",
+    "url": "https://wiki.travellerrpg.com/Cybernetic_eyes",
+    "authors": ["Traveller Wiki Editorial Team"],
+    "publisher": { "name": "Traveller Wiki", "url": "https://wiki.travellerrpg.com" }
+  },
+  {
+    "publication": "Traveller Wiki : Cybernetic Eyes",
+    "url": "https://wiki.travellerrpg.com/Cybernetic_eyes",
+    "authors": ["Traveller Wiki Editorial Team"],
+    "publisher": { "name": "Traveller Wiki", "url": "https://wiki.travellerrpg.com" }
+  },
+  {
+    "publication": "Traveller Wiki : Cybernetic Heart",
+    "url": "https://wiki.travellerrpg.com/Cybernetic_Heart",
+    "authors": ["Lord (Marquis) and Master Scout Emeritus Adie Alegoric Stewart of the IISS"],
+    "publisher": { "name": "Traveller Wiki", "url": "https://wiki.travellerrpg.com" }
+  },
+  {
+    "publication": "Traveller Wiki : Cybernetic Kidneys",
+    "url": "https://wiki.travellerrpg.com/Cybernetic_Kidneys",
+    "authors": [
+      "Lord (Marquis) and Master Scout Emeritus Adie Alegoric Stewart of the IISS",
+      "Lord (Marquis) and Master of Sophontology Maksim-Smelchak of the Ministry of Science"
+    ],
+    "publisher": { "name": "Traveller Wiki", "url": "https://wiki.travellerrpg.com" }
+  },
+  {
+    "publication": "Traveller Wiki : Cybernetic Stomach",
+    "url": "https://wiki.travellerrpg.com/Cybernetic_Stomach",
+    "authors": [
+      "Lord (Marquis) and Master Scout Emeritus Adie Alegoric Stewart of the IISS",
+      "Lord (Marquis) and Master of Sophontology Maksim-Smelchak of the Ministry of Science"
+    ],
+    "publisher": { "name": "Traveller Wiki", "url": "https://wiki.travellerrpg.com" }
+  },
+  {
+    "publication": "Traveller Wiki : D9 class Mechanic Robot",
+    "url": "https://wiki.travellerrpg.com/D9_class_Mechanic_Robot",
+    "authors": ["Traveller Wiki Editorial Team"],
+    "publisher": { "name": "Traveller Wiki", "url": "https://wiki.travellerrpg.com" }
+  },
+  {
+    "publication": "Traveller Wiki : Detonating cord",
+    "url": "https://wiki.travellerrpg.com/Detonating_cord",
+    "authors": ["Traveller Wiki Editorial Team"],
+    "publisher": { "name": "Traveller Wiki", "url": "https://wiki.travellerrpg.com" }
+  },
+  {
+    "publication": "Traveller Wiki : Detonator",
+    "url": "https://wiki.travellerrpg.com/Detonator",
+    "authors": ["Traveller Wiki Editorial Team"],
+    "publisher": { "name": "Traveller Wiki", "url": "https://wiki.travellerrpg.com" }
+  },
+  {
+    "publication": "Traveller Wiki : Dover-Gabe class Courier Robot",
+    "url": "https://wiki.travellerrpg.com/Dover-Gabe_class_Courier_Robot",
+    "authors": ["Traveller Wiki Editorial Team"],
+    "publisher": { "name": "Traveller Wiki", "url": "https://wiki.travellerrpg.com" }
+  },
+  {
+    "publication": "Traveller Wiki : Dyrocellus Cloth",
+    "url": "https://wiki.travellerrpg.com/Dyrocellus_Cloth",
+    "authors": ["Traveller Wiki Editorial Team"],
+    "publisher": { "name": "Traveller Wiki", "url": "https://wiki.travellerrpg.com" }
+  },
+  {
+    "publication": "Traveller Wiki : EGOR",
+    "url": "https://travellerrpg.com/EGOR",
+    "authors": ["Traveller Wiki Editorial Team"],
+    "publisher": { "name": "Traveller Wiki", "url": "https://wiki.travellerrpg.com" }
+  },
+  {
+    "publication": "Traveller Wiki : Extra Eye Microdrone",
+    "url": "https://wiki.travellerrpg.com/Extra_Eye_Microdrone",
+    "authors": ["Traveller Wiki Editorial Team"],
+    "publisher": { "name": "Traveller Wiki", "url": "https://wiki.travellerrpg.com" }
+  },
+  {
+    "publication": "Traveller Wiki : Gill Implants",
+    "url": "https://wiki.travellerrpg.com/Gill_Implants",
+    "authors": ["Traveller Wiki Editorial Team"],
+    "publisher": { "name": "Traveller Wiki", "url": "https://wiki.travellerrpg.com" }
+  },
+  {
+    "publication": "Traveller Wiki : Goods/Explosives",
+    "url": "https://wiki.travellerrpg.com/Dynamite",
+    "authors": ["Traveller Wiki Editorial Team"],
+    "publisher": { "name": "Traveller Wiki", "url": "https://wiki.travellerrpg.com" }
+  },
+  {
+    "publication": "Traveller Wiki : Grav Cap",
+    "url": "https://wiki.travellerrpg.com/Grav_Cap",
+    "authors": ["Lord (Marquis) and Master of Sophontology Maksim-Smelchak of the Ministry of Science"],
+    "publisher": { "name": "Traveller Wiki", "url": "https://wiki.travellerrpg.com" }
+  },
+  {
+    "publication": "Traveller Wiki : Heavy Duty Cybernetic Arm",
+    "url": "https://wiki.travellerrpg.com/Heavy_Duty_Cybernetic_Arm",
+    "authors": [
+      "Lord (Marquis) and Master Scout Emeritus Adie Alegoric Stewart of the IISS",
+      "Lord (Marquis) and Master of Sophontology Maksim-Smelchak of the Ministry of Science"
+    ],
+    "publisher": { "name": "Traveller Wiki", "url": "https://wiki.travellerrpg.com" }
+  },
+  {
+    "publication": "Traveller Wiki : Implanted Computer",
+    "url": "https://wiki.travellerrpg.com/Implanted_computer",
+    "authors": ["Traveller Wiki Editorial Team"],
+    "publisher": { "name": "Traveller Wiki", "url": "https://wiki.travellerrpg.com" }
+  },
+  {
+    "publication": "Traveller Wiki : Implanted Inertial Navigation System",
+    "url": "https://wiki.travellerrpg.com/Implanted_inertial_navigation_system",
+    "authors": ["Traveller Wiki Editorial Team"],
+    "publisher": { "name": "Traveller Wiki", "url": "https://wiki.travellerrpg.com" }
+  },
+  {
+    "publication": "Traveller Wiki : Linear Burning Rope",
+    "url": "https://wiki.travellerrpg.com/Linear_Burning_Rope",
+    "authors": ["Traveller Wiki Editorial Team"],
+    "publisher": { "name": "Traveller Wiki", "url": "https://wiki.travellerrpg.com" }
+  },
+  {
+    "publication": "Traveller Wiki : Neural Sheathing",
+    "url": "https://wiki.travellerrpg.com/Neural_sheathing",
+    "authors": ["Traveller Wiki Editorial Team"],
+    "publisher": { "name": "Traveller Wiki", "url": "https://wiki.travellerrpg.com" }
+  },
+  {
+    "publication": "Traveller Wiki : Pamex-20",
+    "url": "https://wiki.travellerrpg.com/Pamex-20",
+    "authors": ["Khan trav"],
+    "publisher": { "name": "Traveller Wiki", "url": "https://wiki.travellerrpg.com" }
+  },
+  {
+    "publication": "Traveller Wiki : Plastic Explosive",
+    "url": "https://wiki.travellerrpg.com/Plastic_explosive",
+    "authors": ["Traveller Wiki Editorial Team"],
+    "publisher": { "name": "Traveller Wiki", "url": "https://wiki.travellerrpg.com" }
+  },
+  {
+    "publication": "Traveller Wiki : PR-317 class Police Robot",
+    "url": "https://wiki.travellerrpg.com/PR-317_class_Police_Robot",
+    "authors": ["Lord (Marquis) and Master of Sophontology Maksim-Smelchak of the Ministry of Science"],
+    "publisher": { "name": "Traveller Wiki", "url": "https://wiki.travellerrpg.com" }
+  },
+  {
+    "publication": "Traveller Wiki : Scylla Drainage Control Robot",
+    "url": "https://wiki.travellerrpg.com/Scylla_Drainage_Control_Robot",
+    "authors": ["Traveller Wiki Editorial Team"],
+    "publisher": { "name": "Traveller Wiki", "url": "https://wiki.travellerrpg.com" }
+  },
+  {
+    "publication": "Traveller Wiki : Shadan class Survey Robot",
+    "url": "https://wiki.travellerrpg.com/Shadan_class_Survey_Robot",
+    "authors": ["Traveller Wiki Editorial Team"],
+    "publisher": { "name": "Traveller Wiki", "url": "https://wiki.travellerrpg.com" }
+  },
+  {
+    "publication": "Traveller Wiki : Siderote-7",
+    "url": "https://wiki.travellerrpg.com/Siderote-7",
+    "authors": ["Traveller Wiki Editorial Team"],
+    "publisher": { "name": "Traveller Wiki", "url": "https://wiki.travellerrpg.com" }
+  },
+  {
+    "publication": "Traveller Wiki : Staple Gun",
+    "url": "https://wiki.travellerrpg.com/Staple_Gun",
+    "authors": [
+      "Traveller Wiki Editorial Team",
+      "Lord (Marquis) and Master of Sophontology Maksim-Smelchak of the Ministry of Science"
+    ],
+    "publisher": { "name": "Traveller Wiki", "url": "https://wiki.travellerrpg.com" }
+  },
+  {
+    "publication": "Traveller Wiki : Subdermal Armor",
+    "url": "https://wiki.travellerrpg.com/Subdermal_armor",
+    "authors": ["Traveller Wiki Editorial Team"],
+    "publisher": { "name": "Traveller Wiki", "url": "https://wiki.travellerrpg.com" }
+  },
+  {
+    "publication": "Traveller Wiki : Sylean Type 1 class Security Robot",
+    "url": "https://wiki.travellerrpg.com/Sylean_Type_1_class_Security_Robot",
+    "authors": ["Traveller Wiki Editorial Team"],
+    "publisher": { "name": "Traveller Wiki", "url": "https://wiki.travellerrpg.com" }
+  },
+  {
+    "publication": "Traveller Wiki : Synthetic G-I Tract",
+    "url": "https://wiki.travellerrpg.com/Synthetic_G-I_Tract",
+    "authors": ["Lord (Marquis) and Master Scout Emeritus Adie Alegoric Stewart of the IISS"],
+    "publisher": { "name": "Traveller Wiki", "url": "https://wiki.travellerrpg.com" }
+  },
+  {
+    "publication": "Traveller Wiki : TDX",
+    "url": "https://wiki.travellerrpg.com/TDX",
+    "authors": ["Traveller Wiki Editorial Team"],
+    "publisher": { "name": "Traveller Wiki", "url": "https://wiki.travellerrpg.com" }
+  },
+  {
+    "publication": "Traveller Wiki : Thermeld Strip",
+    "url": "https://wiki.travellerrpg.com/Thermeld_Strip",
+    "authors": ["Traveller Wiki Editorial Team"],
+    "publisher": { "name": "Traveller Wiki", "url": "https://wiki.travellerrpg.com" }
+  },
+  {
+    "publication": "Traveller Wiki : Thermite Lock Pick",
+    "url": "https://wiki.travellerrpg.com/Thermite_lock_pick",
+    "authors": ["Traveller Wiki Editorial Team"],
+    "publisher": { "name": "Traveller Wiki", "url": "https://wiki.travellerrpg.com" }
+  },
+  {
+    "publication": "Traveller Wiki : Vacuum Skin",
+    "url": "https://wiki.travellerrpg.com/Vacuum_skin",
+    "authors": ["Traveller Wiki Editorial Team"],
+    "publisher": { "name": "Traveller Wiki", "url": "https://wiki.travellerrpg.com" }
+  },
+  {
+    "publication": "Traveller Wiki : Vulcan class Factory Robot",
+    "url": "https://wiki.travellerrpg.com/Vulcan_class_Factory_Robot",
+    "authors": ["Lord (Marquis) and Master of Sophontology Maksim-Smelchak of the Ministry of Science"],
+    "publisher": { "name": "Traveller Wiki", "url": "https://wiki.travellerrpg.com" }
+  },
+  {
+    "publication": "Traveller Wiki : Waferjack",
+    "url": "https://wiki.travellerrpg.com/Waferjack",
+    "authors": ["Traveller Wiki Editorial Team"],
+    "publisher": { "name": "Traveller Wiki", "url": "https://wiki.travellerrpg.com" }
+  },
+  {
+    "publication": "Traveller: The New Era",
+    "authors": ["Chadwick, Frank", "Nilsen, Dave"],
+    "publisher": { "name": "Games Designer Workshop", "url": "" }
+  },
+  {
+    "publication": "Traveller: The New Era: Vampire Fleets",
+    "authors": ["Chadwick, Frank"],
+    "publisher": { "name": "Games Designer Workshop", "url": "" }
+  },
+  { "publication": "Traveller5 Book 2: Starships", "authors": ["Miller, Marc"] },
+  {
+    "publication": "Vampire Fleets",
+    "authors": ["Chadwick, Frank"],
+    "publisher": { "name": "Games Designer Workshop", "url": "" }
+  },
+  {
+    "publication": "Wikipedia : Bowie Knife",
+    "url": "https://en.wikipedia.org/wiki/Bowie_knife",
+    "authors": ["Various"],
+    "publisher": { "name": "Wikipedia", "url": "https://en.wikipedia.org" }
+  },
+  {
+    "publication": "Wikipedia : Classification of Swords",
+    "url": "https://en.wikipedia.org/wiki/Classification_of_swords",
+    "authors": ["Various"],
+    "publisher": { "name": "Wikipedia", "url": "https://en.wikipedia.org" }
+  },
+  {
+    "publication": "Wikipedia : Mace (bludgeon)",
+    "url": "https://en.wikipedia.org/wiki/Mace_(bludgeon)",
+    "authors": ["various"],
+    "publisher": { "name": "Wikipedia", "url": "https://en.wikipedia.org" }
+  },
+  {
+    "publication": "Wikipedia : Trench knife",
+    "url": "https://en.wikipedia.org/wiki/Trench_knife",
+    "authors": ["Various"],
+    "publisher": { "name": "Wikipedia", "url": "https://en.wikipedia.org" }
   }
 ]
