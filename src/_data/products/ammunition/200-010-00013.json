@@ -33,10 +33,7 @@
       "publication": "Central Supply Catalog Website : 6mm Rifle Ammunition (2D Damage)",
       "url": "https://trav-csc.com/products/200-010-00013",
       "authors": ["Miller, Marc", "Eaglestone, Robert", "McKnight, Charles"],
-      "publisher": {
-        "name": "Central Supply Catalog Website",
-        "url": "https://trav-csc.com/products"
-      }
+      "publisher": "Central Supply Catalog Website"
     }
   ],
   "tags": ["products", "weapons", "ammunition"]

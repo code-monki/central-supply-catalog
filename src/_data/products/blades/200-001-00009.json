@@ -24,10 +24,7 @@
       "publication": "Wikipedia : Classification of Swords",
       "url": "https://en.wikipedia.org/wiki/Classification_of_swords",
       "authors": ["Various"],
-      "publisher": {
-        "name": "Wikipedia",
-        "url": "https://en.wikipedia.org/"
-      }
+      "publisher": "Wikipedia"
     }
   ],
   "tags": ["products", "weapons", "blades"]

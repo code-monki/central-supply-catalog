@@ -24,10 +24,7 @@
       "publication": "Wikipedia : Bowie Knife",
       "url": "https://en.wikipedia.org/wiki/Bowie_knife",
       "authors": ["Various"],
-      "publisher": {
-        "name": "Wikipedia",
-        "url": "https://en.wikipedia.org/"
-      }
+      "publisher": "Wikipedia"
     }
   ],
   "tags": ["products", "weapons", "blades"]

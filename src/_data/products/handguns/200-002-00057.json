@@ -28,10 +28,7 @@
     {
       "publication": "Emperor's Arsenal",
       "authors": ["Porter, Greg"],
-      "publisher": {
-        "name": "Imperium Games",
-        "url": "https://web.archive.org/web/20001010202159/http://imperiumgames.com:80/main.html"
-      }
+      "publisher": "Imperium Games"
     }
   ],
   "tags": ["products", "weapons", "handguns", "pistol"]
