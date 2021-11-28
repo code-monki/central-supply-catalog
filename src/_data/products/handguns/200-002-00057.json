@@ -29,6 +29,12 @@
       "publication": "Emperor's Arsenal",
       "authors": ["Porter, Greg"],
       "publisher": "Imperium Games"
+    },
+    {
+      "publication": "Agent of the Imperium",
+      "url": "https://baen.com/agent-of-the-imperium.html",
+      "authors": ["Miller, Marc"],
+      "publisher": "Baen Books"
     }
   ],
   "tags": ["products", "weapons", "handguns", "pistol"]
