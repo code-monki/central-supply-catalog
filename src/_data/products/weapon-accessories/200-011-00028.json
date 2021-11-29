@@ -1,0 +1,22 @@
+{
+  "sku": "200-011-00028",
+  "type": "weapons",
+  "subtype": "weapon accessory",
+  "name": "4mm Pistol Magazine (20-round)",
+  "mfr": "",
+  "cost": 20,
+  "mass": 1.5,
+  "techLevel": 6,
+  "qrebs": "",
+  "image": "/img/products/200-011-00028.png",
+  "description": "<p><!-- Summary Start -->4mm pistol magazine, 20 round capacity.<!-- Summary End --></p>",
+  "categories": ["weapons", "weapon accessory"],
+  "sources": [
+    {
+      "publication": "Traveller 5.10 Core Rules Book 3 : Worlds and Adventures",
+      "authors": ["Miller, Marc"],
+      "publisher": "Far Future Enterprises"
+    }
+  ],
+  "tags": ["products", "weapons", "weapon accessory"]
+}
