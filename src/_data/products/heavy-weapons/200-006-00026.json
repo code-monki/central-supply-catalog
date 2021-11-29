@@ -10,7 +10,7 @@
   "techLevel": 11,
   "qrebs": "R=5",
   "damage": "Pen-4",
-  "image": "",
+  "image": "/img/products/gatling-gun.png",
   "description": "<p><!-- Summary Start -->A standard, disposable, man-portable Gatling gun.<!-- Summary End --> This version is constructed of relatively inexpensive materials and has a working lifetime measured in days.</p>",
   "stats": [],
   "accessories": ["200-010-00001"],

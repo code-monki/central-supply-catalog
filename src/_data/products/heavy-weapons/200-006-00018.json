@@ -10,8 +10,8 @@
   "techLevel": 9,
   "qrebs": "R=5",
   "damage": "Bang-1, Blast-3, Pen-3",
-  "image": "",
-  "description": "<p><!-- Summary Start -->A man-portable assault Gatling gun.q<!-- Summary End --></p>",
+  "image": "/img/products/gatling-gun.png",
+  "description": "<p><!-- Summary Start -->A man-portable assault Gatling gun.<!-- Summary End --></p>",
   "stats": [],
   "accessories": ["200-010-00001"],
   "sources": [
