@@ -10,7 +10,7 @@
   "techLevel": 14,
   "qrebs": "R=1",
   "damage": "Bullet-4",
-  "image": "",
+  "image": "/img/products/accelerator-pistol.png",
   "description": "<p><!-- Summary Start -->Advanced version of the body accelerator pistol.<!-- Summary End --> The weapon fires a projectile at a low initial velocity; after it leaves the barrel, an internal charge accelerates the bullet to greater velocities. Accelerator weapons have low recoil and are well adapted to zero-G environments.</p>",
   "stats": [],
   "accessories": [
@@ -19,7 +19,6 @@
     "200-011-00003",
     "200-011-00004",
     "200-011-00005",
-    "200-011-00020",
     "200-010-00022",
     "200-010-00023",
     "200-010-00024",
