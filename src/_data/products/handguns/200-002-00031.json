@@ -10,7 +10,7 @@
   "techLevel": 9,
   "qrebs": "R=1",
   "damage": "Pen-2, Burn-3",
-  "image": "",
+  "image": "/img/products/laser-pistol.png",
   "description": "<p><!-- Summary Start -->Early version of the laser pistol.<!-- Summary End --> This weapon fires a coherent beam of photons and is powered by an on-board cell.</p>",
   "stats": [],
   "accessories": ["200-011-00001", "200-011-00002", "200-011-00003", "200-011-00004", "200-011-00005"],

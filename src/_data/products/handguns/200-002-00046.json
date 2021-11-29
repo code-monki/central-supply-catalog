@@ -10,7 +10,7 @@
   "techLevel": 12,
   "qrebs": "R=1",
   "damage": "Pen-2, Burn-3",
-  "image": "",
+  "image": "/img/products/laser-pistol.png",
   "description": "<p><!-- Summary Start -->Prototype version of the disposable laser pistol.<!-- Summary End --> This weapon fires a coherent beam of photons and is powered by an on-board cell. This version is constructed of relatively inexpensive materials and has a working lifetime measured in days.</p>",
   "stats": [],
   "accessories": ["200-011-00001", "200-011-00002", "200-011-00003", "200-011-00004", "200-011-00005"],
