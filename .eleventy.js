@@ -214,10 +214,10 @@ module.exports = function (eleventyConfig) {
     for (let ctr = 0; ctr < rows; ctr++) {
       text += `
         <tr>
-          <td><strong>${stats[ctr].label}:</strong> ${stats[ctr].value}</td>`;
+          <td>${stats[ctr].label}:</td><td>${stats[ctr].value}</td>`;
 
       if (stats[ctr + rows] !== null && stats[ctr + rows] !== undefined) {
-        text += `<td><strong>${stats[ctr + rows].label}:</strong> ${stats[ctr + rows].value}</td>`;
+        text += `<td>${stats[ctr + rows].label}:</td><td>${stats[ctr + rows].value}</td>`;
       } else {
         text += '<td></td>';
       }
