@@ -16,6 +16,7 @@
     padding-bottom: 3rem;
 
     @include response(md) {
+      margin-top: 1rem;
       height: calc(100vh - 20vmax);
     }
 

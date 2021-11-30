@@ -15,11 +15,11 @@
     text-align: center;
 
     @include response(md) {
-      font-size: 1.5rem;
+      font-size: 1.3rem;
     }
 
     @include response(lg) {
-      font-size: 2rem;
+      font-size: 1.5rem;
     }
   }
 
@@ -85,7 +85,7 @@
             font-size: 1.2rem;
           }
 
-          @include response(lg)  {
+          @include response(lg) {
             font-size: 1.4rem;
           }
         }
