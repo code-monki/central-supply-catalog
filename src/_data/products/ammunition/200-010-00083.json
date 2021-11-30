@@ -2,7 +2,7 @@
   "sku": "200-010-00083",
   "type": "weapons",
   "subtype": "ammunition",
-  "name": "9mm Submachinegun Ammunition (2D damage)",
+  "name": "9mm Submachinegun Ammunition -  2D Damage",
   "mfr": "",
   "cost": 200,
   "mass": 0.95,
@@ -30,7 +30,7 @@
       "publisher": "Far Future Enterprises"
     },
     {
-      "publication": "Central Supply Catalog Website : 9mm Submachinegun Ammunition (2D Damage)",
+      "publication": "Central Supply Catalog Website : 9mm Submachinegun Ammunition -  2D Damage",
       "url": "https://trav-csc.com/products/200-010-00083",
       "authors": ["Miller, Marc", "Eaglestone, Robert", "McKnight, Charles"],
       "publisher": "Central Supply Catalog Website"

@@ -2,7 +2,7 @@
   "sku": "200-010-00007",
   "type": "weapons",
   "subtype": "ammunition",
-  "name": "8mm Rifle Ammunition (6D damage)",
+  "name": "8mm Rifle Ammunition -  6D damage",
   "mfr": "",
   "cost": 600,
   "mass": 0.95,
@@ -30,7 +30,7 @@
       "publisher": "Far Future Enterprises"
     },
     {
-      "publication": "Central Supply Catalog Website : 8mm Rifle Ammunition (6D Damage)",
+      "publication": "Central Supply Catalog Website : 8mm Rifle Ammunition -  6D Damage",
       "authors": ["Miller, Marc", "Eaglestone, Robert", "McKnight, Charles"],
       "url": "https://trav-csc.com/products/200-010-00007",
       "publisher": "Central Supply Catalog Website"

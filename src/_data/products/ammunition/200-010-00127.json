@@ -4,7 +4,7 @@
   "subtype": "ammunition",
   "name": "4mm Accelerator Pistol Ammunition -  6D damage",
   "mfr": "",
-  "cost": 100,
+  "cost": 600,
   "mass": 0.95,
   "techLevel": 6,
   "qrebs": "N/A",
@@ -30,7 +30,7 @@
       "publisher": "Far Future Enterprises"
     },
     {
-      "publication": "Central Supply Catalog Website : 20mm Heavy Machinegun Ammunition (1D Damage)",
+      "publication": "Central Supply Catalog Website : 20mm Heavy Machinegun Ammunition -  1D Damage",
       "url": "https://trav-csc.com/products/200-010-00102",
       "authors": ["Miller, Marc", "Eaglestone, Robert", "McKnight, Charles"],
       "publisher": "Central Supply Catalog Website"

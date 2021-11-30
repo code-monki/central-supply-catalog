@@ -2,7 +2,7 @@
   "sku": "200-010-00118",
   "type": "weapons",
   "subtype": "ammunition",
-  "name": "25mm VHeavy Carbine Ammunition (7D damage)",
+  "name": "25mm VHeavy Carbine Ammunition -  7D Damage",
   "mfr": "",
   "cost": 700,
   "mass": 0.95,
@@ -30,7 +30,7 @@
       "publisher": "Far Future Enterprises"
     },
     {
-      "publication": "Central Supply Catalog Website : 25mm VHeavy Carbine Ammunition (7D Damage)",
+      "publication": "Central Supply Catalog Website : 25mm VHeavy Carbine Ammunition -  7D Damage",
       "url": "https://trav-csc.com/products/200-010-00118",
       "authors": ["Miller, Marc", "Eaglestone, Robert", "McKnight, Charles"],
       "publisher": "Central Supply Catalog Website"

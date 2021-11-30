@@ -2,7 +2,7 @@
   "sku": "200-010-00051",
   "type": "weapons",
   "subtype": "ammunition",
-  "name": "8mm Machinegun Ammunition (10D damage)",
+  "name": "8mm Machinegun Ammunition - 10D Damage",
   "mfr": "",
   "cost": 1000,
   "mass": 0.95,
@@ -30,7 +30,7 @@
       "publisher": "Far Future Enterprises"
     },
     {
-      "publication": "Central Supply Catalog Website : 8mm Machinegun Ammunition (10D Damage)",
+      "publication": "Central Supply Catalog Website : 8mm Machinegun Ammunition - 10D Damage",
       "url": "https://trav-csc.com/products/200-010-00051",
       "authors": ["Miller, Marc", "Eaglestone, Robert", "McKnight, Charles"],
       "publisher": "Central Supply Catalog Website"

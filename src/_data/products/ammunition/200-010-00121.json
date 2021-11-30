@@ -2,7 +2,7 @@
   "sku": "200-010-00121",
   "type": "weapons",
   "subtype": "ammunition",
-  "name": "25mm VHeavy Carbine Ammunition (10D damage)",
+  "name": "25mm VHeavy Carbine Ammunition - 10D Damage",
   "mfr": "",
   "cost": 1000,
   "mass": 0.95,
@@ -30,7 +30,7 @@
       "publisher": "Far Future Enterprises"
     },
     {
-      "publication": "Central Supply Catalog Website : 25mm VHeavy Carbine Ammunition (10D Damage)",
+      "publication": "Central Supply Catalog Website : 25mm VHeavy Carbine Ammunition - 10D Damage",
       "url": "https://trav-csc.com/products/200-010-00121",
       "authors": ["Miller, Marc", "Eaglestone, Robert", "McKnight, Charles"],
       "publisher": "Central Supply Catalog Website"

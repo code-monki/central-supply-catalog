@@ -2,7 +2,7 @@
   "sku": "200-010-00036",
   "type": "weapons",
   "subtype": "ammunition",
-  "name": "15mm Shotgun Ammunition (5D damage)",
+  "name": "15mm Shotgun Ammunition -  5D Damage",
   "mfr": "",
   "cost": 500,
   "mass": 0.95,
@@ -30,7 +30,7 @@
       "publisher": "Far Future Enterprises"
     },
     {
-      "publication": "Central Supply Catalog Website : 15mm Shotgun Ammunition (5D Damage)",
+      "publication": "Central Supply Catalog Website : 15mm Shotgun Ammunition -  5D Damage",
       "url": "https://trav-csc.com/products/200-010-00036",
       "authors": ["Miller, Marc", "Eaglestone, Robert", "McKnight, Charles"],
       "publisher": "Central Supply Catalog Website"

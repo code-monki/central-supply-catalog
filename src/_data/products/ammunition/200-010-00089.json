@@ -2,7 +2,7 @@
   "sku": "200-010-00089",
   "type": "weapons",
   "subtype": "ammunition",
-  "name": "9mm Submachinegun Ammunition (8D damage)",
+  "name": "9mm Submachinegun Ammunition -  8D Damage",
   "mfr": "",
   "cost": 800,
   "mass": 0.95,
@@ -30,7 +30,7 @@
       "publisher": "Far Future Enterprises"
     },
     {
-      "publication": "Central Supply Catalog Website : 9mm Submachinegun Ammunition (8D Damage)",
+      "publication": "Central Supply Catalog Website : 9mm Submachinegun Ammunition -  8D Damage",
       "url": "https://trav-csc.com/products/200-010-00089",
       "authors": ["Miller, Marc", "Eaglestone, Robert", "McKnight, Charles"],
       "publisher": "Central Supply Catalog Website"

@@ -2,7 +2,7 @@
   "sku": "200-010-00074",
   "type": "weapons",
   "subtype": "ammunition",
-  "name": "3mm Staplegun Ammunition (3D damage)",
+  "name": "3mm Staplegun Ammunition -  3D Damage",
   "mfr": "",
   "cost": 300,
   "mass": 0.95,
@@ -30,7 +30,7 @@
       "publisher": "Far Future Enterprises"
     },
     {
-      "publication": "Central Supply Catalog Website : 3mm Staplegun Ammunition (3D Damage)",
+      "publication": "Central Supply Catalog Website : 3mm Staplegun Ammunition -  3D Damage",
       "url": "https://trav-csc.com/products/200-010-00074",
       "authors": ["Miller, Marc", "Eaglestone, Robert", "McKnight, Charles"],
       "publisher": "Central Supply Catalog Website"

@@ -2,7 +2,7 @@
   "sku": "200-010-00114",
   "type": "weapons",
   "subtype": "ammunition",
-  "name": "25mm VHeavy Carbine Ammunition (3D damage)",
+  "name": "25mm VHeavy Carbine Ammunition -  3D Damage",
   "mfr": "",
   "cost": 300,
   "mass": 0.95,
@@ -30,7 +30,7 @@
       "publisher": "Far Future Enterprises"
     },
     {
-      "publication": "Central Supply Catalog Website : 25mm VHeavy Carbine Ammunition (3D Damage)",
+      "publication": "Central Supply Catalog Website : 25mm VHeavy Carbine Ammunition -  3D Damage",
       "url": "https://trav-csc.com/products/200-010-00114",
       "authors": ["Miller, Marc", "Eaglestone, Robert", "McKnight, Charles"],
       "publisher": "Central Supply Catalog Website"

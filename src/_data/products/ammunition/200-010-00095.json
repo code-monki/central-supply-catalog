@@ -2,7 +2,7 @@
   "sku": "200-010-00095",
   "type": "weapons",
   "subtype": "ammunition",
-  "name": "13mm Machinegun Ammunition (4D damage)",
+  "name": "13mm Machinegun Ammunition -  4D Damage",
   "mfr": "",
   "cost": 400,
   "mass": 0.95,
@@ -30,7 +30,7 @@
       "publisher": "Far Future Enterprises"
     },
     {
-      "publication": "Central Supply Catalog Website : 13mm Machinegun Ammunition (4D Damage)",
+      "publication": "Central Supply Catalog Website : 13mm Machinegun Ammunition -  4D Damage",
       "url": "https://trav-csc.com/products/200-010-00095",
       "authors": ["Miller, Marc", "Eaglestone, Robert", "McKnight, Charles"],
       "publisher": "Central Supply Catalog Website"
