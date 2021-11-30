@@ -6,7 +6,7 @@
   "mfr": "",
   "cost": 300,
   "mass": 0.95,
-  "techLevel": 6,
+  "techLevel": 9,
   "qrebs": "N/A",
   "image": "",
   "variants": [
@@ -31,7 +31,7 @@
     },
     {
       "publication": "Central Supply Catalog Website : 20mm Heavy Machinegun Ammunition -  1D Damage",
-      "url": "https://trav-csc.com/products/200-010-00102",
+      "url": "https://trav-csc.com/products/200-010-00124",
       "authors": ["Miller, Marc", "Eaglestone, Robert", "McKnight, Charles"],
       "publisher": "Central Supply Catalog Website"
     }

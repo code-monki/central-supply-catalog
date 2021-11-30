@@ -1,0 +1,40 @@
+{
+  "sku": "200-010-00136",
+  "type": "weapons",
+  "subtype": "ammunition",
+  "name": "6mm Accelerator Rifle Ammunition -  5D damage",
+  "mfr": "",
+  "cost": 500,
+  "mass": 0.95,
+  "techLevel": 8,
+  "qrebs": "N/A",
+  "image": "",
+  "variants": [
+    { "sku": "200-010-00132", "label": "1D Damage" },
+    { "sku": "200-010-00133", "label": "2D Damage" },
+    { "sku": "200-010-00134", "label": "3D Damage" },
+    { "sku": "200-010-00135", "label": "4D Damage" },
+    { "sku": "200-010-00136", "label": "5D Damage" },
+    { "sku": "200-010-00137", "label": "6D Damage" },
+    { "sku": "200-010-00138", "label": "7D Damage" },
+    { "sku": "200-010-00139", "label": "8D Damage" },
+    { "sku": "200-010-00140", "label": "9D Damage" },
+    { "sku": "200-010-00141", "label": "10D Damage" }
+  ],
+  "description": "<p><!-- Summary Start -->Standard 6mm Accelerator Rifle round, 5D damage, 100 round box.<!-- Summary End --></p>",
+  "categories": ["weapons", "ammunition"],
+  "sources": [
+    {
+      "publication": "Traveller 5.10 Core Rules Book 3 : Worlds and Adventures",
+      "authors": ["Miller, Marc"],
+      "publisher": "Far Future Enterprises"
+    },
+    {
+      "publication": "Central Supply Catalog Website : 6mm Accelerator Rifle Ammunition -  5D Damage",
+      "url": "https://trav-csc.com/products/200-010-00136",
+      "authors": ["Miller, Marc", "Eaglestone, Robert", "McKnight, Charles"],
+      "publisher": "Central Supply Catalog Website"
+    }
+  ],
+  "tags": ["products", "weapons", "ammunition"]
+}

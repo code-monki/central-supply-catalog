@@ -6,7 +6,7 @@
   "mfr": "",
   "cost": 800,
   "mass": 0.95,
-  "techLevel": 6,
+  "techLevel": 9,
   "qrebs": "N/A",
   "image": "",
   "variants": [
@@ -30,8 +30,8 @@
       "publisher": "Far Future Enterprises"
     },
     {
-      "publication": "Central Supply Catalog Website : 20mm Heavy Machinegun Ammunition -  1D Damage",
-      "url": "https://trav-csc.com/products/200-010-00102",
+      "publication": "Central Supply Catalog Website : 6mm Accelerator Pistol Ammunition -  1D Damage",
+      "url": "https://trav-csc.com/products/200-010-00129",
       "authors": ["Miller, Marc", "Eaglestone, Robert", "McKnight, Charles"],
       "publisher": "Central Supply Catalog Website"
     }
