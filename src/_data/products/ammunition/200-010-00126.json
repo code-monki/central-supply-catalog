@@ -1,0 +1,40 @@
+{
+  "sku": "200-010-00126",
+  "type": "weapons",
+  "subtype": "ammunition",
+  "name": "4mm Accelerator Pistol Ammunition -  5D damage",
+  "mfr": "",
+  "cost": 100,
+  "mass": 0.95,
+  "techLevel": 6,
+  "qrebs": "N/A",
+  "image": "",
+  "variants": [
+    { "sku": "200-010-00122", "label": "1D Damage" },
+    { "sku": "200-010-00123", "label": "2D Damage" },
+    { "sku": "200-010-00124", "label": "3D Damage" },
+    { "sku": "200-010-00125", "label": "4D Damage" },
+    { "sku": "200-010-00126", "label": "5D Damage" },
+    { "sku": "200-010-00127", "label": "6D Damage" },
+    { "sku": "200-010-00128", "label": "7D Damage" },
+    { "sku": "200-010-00129", "label": "8D Damage" },
+    { "sku": "200-010-00130", "label": "9D Damage" },
+    { "sku": "200-010-00131", "label": "10D Damage" }
+  ],
+  "description": "<p><!-- Summary Start -->Standard 4mm Accelerator Pistol round, 5D damage, 100 round box.<!-- Summary End --></p>",
+  "categories": ["weapons", "ammunition"],
+  "sources": [
+    {
+      "publication": "Traveller 5.10 Core Rules Book 3 : Worlds and Adventures",
+      "authors": ["Miller, Marc"],
+      "publisher": "Far Future Enterprises"
+    },
+    {
+      "publication": "Central Supply Catalog Website : 20mm Heavy Machinegun Ammunition (1D Damage)",
+      "url": "https://trav-csc.com/products/200-010-00102",
+      "authors": ["Miller, Marc", "Eaglestone, Robert", "McKnight, Charles"],
+      "publisher": "Central Supply Catalog Website"
+    }
+  ],
+  "tags": ["products", "weapons", "ammunition"]
+}
