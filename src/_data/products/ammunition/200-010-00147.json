@@ -1,0 +1,22 @@
+{
+  "sku": "200-010-00147",
+  "type": "weapons",
+  "subtype": "ammunition",
+  "name": "Laser Rifle Backpack Power Supply (TL D)",
+  "mfr": "",
+  "cost": 3500,
+  "mass": 2.0,
+  "techLevel": 13,
+  "qrebs": "N/A",
+  "image": "/img/products/200-010-00147.png",
+  "description": "<p><!-- Summary Start -->TL D Laser Rifle Backpack Power Supply<!-- Summary End --></p>",
+  "categories": ["weapons", "ammunition"],
+  "sources": [
+    {
+      "publication": "MegaTraveller Imperial Encyclopedia",
+      "authors": ["Miller, Marc W."],
+      "publisher": "Game Designer's Workshop"
+    }
+  ],
+  "tags": ["products", "weapons", "ammunition"]
+}

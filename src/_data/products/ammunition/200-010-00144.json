@@ -1,0 +1,22 @@
+{
+  "sku": "200-010-00144",
+  "type": "weapons",
+  "subtype": "ammunition",
+  "name": "Laser Carbine Backpack Power Supply (TL 8)",
+  "mfr": "",
+  "cost": 1000,
+  "mass": 3.0,
+  "techLevel": 8,
+  "qrebs": "N/A",
+  "image": "/img/products/200-010-00144.png",
+  "description": "<p><!-- Summary Start -->TL 8 Laser Carbine Backpack Power Supply<!-- Summary End --></p>",
+  "categories": ["weapons", "ammunition"],
+  "sources": [
+    {
+      "publication": "MegaTraveller Imperial Encyclopedia",
+      "authors": ["Miller, Marc W."],
+      "publisher": "Game Designer's Workshop"
+    }
+  ],
+  "tags": ["products", "weapons", "ammunition"]
+}

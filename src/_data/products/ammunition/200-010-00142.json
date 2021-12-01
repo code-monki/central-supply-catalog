@@ -1,0 +1,22 @@
+{
+  "sku": "200-010-00142",
+  "type": "weapons",
+  "subtype": "ammunition",
+  "name": "Laser Pistol Backpack Power Supply (TL 9)",
+  "mfr": "",
+  "cost": 1500,
+  "mass": 2.0,
+  "techLevel": 9,
+  "qrebs": "N/A",
+  "image": "/img/products/200-010-00142.png",
+  "description": "<p><!-- Summary Start -->TL 9 Laser Pistol Backpack Power Supply<!-- Summary End --></p>",
+  "categories": ["weapons", "ammunition"],
+  "sources": [
+    {
+      "publication": "MegaTraveller Imperial Encyclopedia",
+      "authors": ["Miller, Marc W."],
+      "publisher": "Game Designers' Workshop"
+    }
+  ],
+  "tags": ["products", "weapons", "ammunition"]
+}

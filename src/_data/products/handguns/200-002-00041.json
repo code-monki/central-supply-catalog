@@ -11,19 +11,19 @@
   "qrebs": "R=2",
   "damage": "Pen-2, Burn-4",
   "image": "/img/products/laser-pistol.png",
-  "description": "<p><!-- Summary Start -->Improved version of the laser pistol.<!-- Summary End --> This weapon fires a coherent beam of photons and is powered by an on-board cell.</p>",
+  "description": "<p><!-- Summary Start -->Improved version of the laser pistol.<!-- Summary End --> This weapon fires a coherent beam of photons.</p>",
   "stats": [],
-  "accessories": ["200-011-00001", "200-011-00002", "200-011-00003", "200-011-00004", "200-011-00005"],
+  "accessories": ["200-011-00001", "200-011-00002", "200-011-00003", "200-011-00004", "200-011-00005", "200-010-00142"],
   "categories": ["weapons", "handguns", "pistol"],
   "sources": [
     {
       "publication": "Traveller 5.10 Core Rules Book 1 : Characters and Combat",
-      "authors": ["Miller, Marc"],
+      "authors": ["Miller, Marc W."],
       "publisher": "Far Future Enterprises"
     },
     {
       "publication": "Traveller 5.10 Core Rules Book 3 : Worlds and Adventures",
-      "authors": ["Miller, Marc"],
+      "authors": ["Miller, Marc W."],
       "publisher": "Far Future Enterprises"
     }
   ],

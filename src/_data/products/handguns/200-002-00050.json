@@ -19,20 +19,20 @@
     "200-011-00003",
     "200-011-00004",
     "200-011-00005",
-    "200-010-00022",
-    "200-010-00023",
-    "200-010-00024"
+    "200-010-00122",
+    "200-010-00123",
+    "200-010-00124"
   ],
   "categories": ["weapons", "handguns", "pistol"],
   "sources": [
     {
       "publication": "Traveller 5.10 Core Rules Book 1 : Characters and Combat",
-      "authors": ["Miller, Marc"],
+      "authors": ["Miller, Marc W."],
       "publisher": "Far Future Enterprises"
     },
     {
       "publication": "Traveller 5.10 Core Rules Book 3 : Worlds and Adventures",
-      "authors": ["Miller, Marc"],
+      "authors": ["Miller, Marc W."],
       "publisher": "Far Future Enterprises"
     }
   ],
