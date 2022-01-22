@@ -1,11 +1,9 @@
 ---
-title: "Small Craft"
-layout: "dept-page.njk"
-permalink: "/departments/{{ title | slug | url }}/{% if pagination.pageNumber > 0 %}{{pagination.pageNumber | plus: 1 }}/{% endif %}"
+title: 'Small Craft'
+layout: 'dept-page.njk'
+permalink: '/departments/{{ title | slugify | url }}/{% if pagination.pageNumber > 0 %}{{pagination.pageNumber | plus: 1 }}/{% endif %}'
 pagination:
-  data: "collections.small-craft"
+  data: 'collections.small-craft'
   size: 25
-  alias: "products"
+  alias: 'products'
 ---
-
-

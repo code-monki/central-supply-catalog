@@ -1,7 +1,7 @@
 ---
 title: Support
 layout: site-page.njk
-permalink: /{{ title | slug }}/
+permalink: /{{ title | slugify }}/
 tags:
   - pages
 ---

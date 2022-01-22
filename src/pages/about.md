@@ -1,7 +1,7 @@
 ---
 title: About the Central Supply Catalog
 layout: site-page.njk
-permalink: /{{ title | slug }}/
+permalink: /{{ title | slugify }}/
 tags:
   - pages
 ---
@@ -46,4 +46,3 @@ The stewards of the <a href="https://wiki.travellerrpg.com/" target="_blank">Tra
 ## Open Gaming License
 
 A portion of the content is governed by the <a href="https://www.d20srd.org/ogl.htm" target="_blank">Open Gaming License v1.0a.</a> As such the author has attempted to make a reasonable effort to ensure compliance with that license for those materials that fall under it.
-

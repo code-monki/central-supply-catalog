@@ -1,11 +1,9 @@
 ---
-title: "Melee Weapons"
-layout: "dept-page.njk"
-permalink: "/departments/{{ title | slug | url }}/{% if pagination.pageNumber > 0 %}{{pagination.pageNumber | plus: 1 }}/{% endif %}"
+title: 'Melee Weapons'
+layout: 'dept-page.njk'
+permalink: '/departments/{{ title | slugify | url }}/{% if pagination.pageNumber > 0 %}{{pagination.pageNumber | plus: 1 }}/{% endif %}'
 pagination:
-  data: "collections.melee-weapons"
+  data: 'collections.melee-weapons'
   size: 25
-  alias: "products"
+  alias: 'products'
 ---
-
-

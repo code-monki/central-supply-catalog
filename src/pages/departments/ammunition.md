@@ -1,11 +1,9 @@
 ---
-title: "Ammunition"
-layout: "dept-page.njk"
-permalink: "/departments/{{ title | slug | url }}/{% if pagination.pageNumber > 0 %}{{pagination.pageNumber | plus: 1 }}/{% endif %}"
+title: 'Ammunition'
+layout: 'dept-page.njk'
+permalink: '/departments/{{ title | slugify | url }}/{% if pagination.pageNumber > 0 %}{{pagination.pageNumber | plus: 1 }}/{% endif %}'
 pagination:
-  data: "collections.ammunition"
+  data: 'collections.ammunition'
   size: 25
-  alias: "products"
+  alias: 'products'
 ---
-
-
