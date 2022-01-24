@@ -8,7 +8,7 @@
   "size": 3,
   "techLevel": 11,
   "qrebs": "N/A",
-  "image": "",
+  "image": "/img/products/010-000-00015.png",
   "description": "<p><!-- Summary Start -->The gill is a breathing apparatus for air breathers which extracts oxygen from water.<!-- Summary End --></p>",
   "categories": ["breathing-apparatus"],
   "sources": [
@@ -16,6 +16,46 @@
       "publication": "Traveller 5.10 Core Rules Book 3 : Worlds and Adventures",
       "authors": ["Miller, Marc W."],
       "publisher": "Far Future Enterprises"
+    },
+    {
+      "publication": "Imperial Encyclopedia",
+      "authors": ["Miller, Marc W."],
+      "publisher": "Game Designers' Workshop"
+    },
+    {
+      "publication": "MegaTraveller Journal 3 : Artificial Gill",
+      "authors": ["Caswell, Rob"],
+      "publisher": "Far Future Enterprises"
+    },
+    {
+      "publication": "Central Supply Catalog",
+      "authors": ["Greg Porter"],
+      "publisher": "Imperium Games"
+    },
+    {
+      "publication": "Star Mercs",
+      "authors": ["Dougherty, Martin, Frier, Neil"],
+      "publisher": "Steve Jackson Games"
+    },
+    {
+      "publication": "Ground Forces",
+      "authors": ["Berry, Douglas E."],
+      "publisher": "Steve Jackson Games"
+    },
+    {
+      "publication": "The Travellers Handbook",
+      "authors": ["Dougherty, Martin, Gordon, Hunter"],
+      "publisher": "QuikLink Interactive"
+    },
+    {
+      "publication": "Guns, Gadgets and Gear",
+      "authors": ["Dougherty, Martin"],
+      "publisher": "Avenger Enterprises"
+    },
+    {
+      "publication": "Core Rule Book",
+      "authors": ["Sprange, Matthew"],
+      "publisher": "Mongoose Publishing"
     }
   ],
   "tags": ["products", "breathing-apparatus"]
