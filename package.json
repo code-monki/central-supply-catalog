@@ -68,6 +68,6 @@
     "xlsx": "^0.18.5"
   },
   "dependencies": {
-    "minisearch": "^5.0.0",
+    "minisearch": "^5.0.0"
   }
 }
