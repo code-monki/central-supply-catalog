@@ -169,7 +169,7 @@ const updateCartUI = () => {
           <div class="row title-and-total-div">
 
             <div class="prod-title">
-                <a href="{{ ../products/${item.name} | url }}" data-sku="${item.sku}" class="item-name">${item.name}</a>
+                <a href="/products/${item.sku}" data-sku="${item.sku}" class="item-name">${item.name}</a>
             </div>
 
             <div class="prod-total">
