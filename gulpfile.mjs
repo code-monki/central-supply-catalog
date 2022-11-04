@@ -1,32 +1,42 @@
-const { src, dest, series, parallel, watch } = require("gulp");
-var sass = require("gulp-sass")(require("node-sass"));
-const path = require("path");
-const cp = require("child_process");
-const cssnano = require("gulp-cssnano");
-const uglify = require("gulp-uglify");
-const rename = require("gulp-rename");
-const imagemin = require("gulp-imagemin");
-const imageminMozjpeg = require("imagemin-mozjpeg");
-const htmlmin = require("gulp-htmlmin");
-const sitemap = require("gulp-sitemap");
-const save = require("gulp-save");
-const removeEmptyLines = require("gulp-remove-empty-lines");
-const autoprefixer = require("gulp-autoprefixer");
-const babel = require("gulp-babel");
-const browserSync = require("browser-sync").create();
-const glob = require("glob");
-const fs = require("fs");
-const del = require("del");
-const miniSearch = require("minisearch");
-const readdirp = require("readdirp");
+import gulp from 'gulp';
+import dartSass from 'sass';
+import gulpSass from 'gulp-sass';
+const sass = gulpSass(dartSass);
+import path from 'path';
+import cp from 'child_process';
+import cssnano from 'gulp-cssnano';
+import uglify from 'gulp-uglify';
+import rename from 'gulp-rename';
+import imagemin from 'gulp-imagemin';
+import imageminJpegtran from 'imagemin-jpegtran';
+import imageminPngquant from 'imagemin-pngquant';
+import imageminSvgo from 'imagemin-svgo';
+import htmlmin from 'gulp-htmlmin';
+import sitemap from 'gulp-sitemap';
+import save from 'gulp-save';
+import removeEmptyLines from 'gulp-remove-empty-lines';
+import autoprefixer from 'gulp-autoprefixer';
+import babel from 'gulp-babel';
+import browserSync from 'browser-sync';
+import glob from 'glob';
+import fs from 'fs';
+import {deleteAsync} from 'del';
+import miniSearch from 'minisearch';
+// import { cbrt } from 'core-js/core/number';
+// import { CLIENT_RENEG_LIMIT } from 'tls';
 
-// determine whether the operating system is Windows or a Unix variant
-const platform = process.platform;
+const paths = {
+  styles: {
+    src: 'src/scss/**/*.scss',
+    dest: 'dist/css'
+  },
+  scripts: {
+    src: 'src/js/**.*.js',
+    dest: 'dist/js'
+  }
+}
 
-// set output directory
 let INDEX_OUTPUT_DIRECTORY = "dist/_data";
-
-// set build type
 
 // Use Eleventy to build the site in the 'build' folder
 const render = (cb) => {
@@ -36,6 +46,7 @@ const render = (cb) => {
   // return cp.spawn("npx", ["eleventy", "--quiet"], { shell: true, stdio: "inherit"});
   cb();
 };
+
 
 const render_prod = (cb) => {
   INDEX_OUTPUT_DIRECTORY = "./dist/_data";
@@ -55,58 +66,67 @@ const render_prod = (cb) => {
 
 // process HTML files (minify)
 const processHTML = () => {
-  return src("dist/**/*.html")
+  return gulp.src("dist/**/*.html")
     .pipe(htmlmin({ collapseWhitespace: true }))
-    .pipe(dest("./dist"));
+    .pipe(gulp.dest("./dist"));
 };
 
 // create SEO sitemap
 const siteMap = () => {
   console.log("Running siteMap");
   return (
-    src("./dist/**/*.html", { read: false })
+    gulp.src("./dist/**/*.html", { read: false })
       .pipe(save("before-sitemap"))
       .pipe(removeEmptyLines())
-      .pipe(dest("./dist"))
+      .pipe(gulp.dest("./dist"))
       .pipe(save.restore("before-sitemap"))
   );
 };
 
 // process SASS files (autoprefix for cross-browser compatibility, minify)
 const processSASS = () => {
-  return src("./src/scss/*.scss")
+  return gulp.src("./src/scss/*.scss")
     .pipe(sass())
     .pipe(autoprefixer())
-    .pipe(dest("./dist/css"))
+    .pipe(gulp.dest("./dist/css"))
     .pipe(rename({ suffix: ".min" }))
     .pipe(cssnano())
-    .pipe(dest("./dist/css"));
+    .pipe(gulp.dest("./dist/css"));
   cb();
 };
 
 // process Javascript files (babel for cross-browser compatiblity, minify)
 const processJavascript = () => {
-  return src(["./src/js/**/*.js", "!./src/utilities/indexer.js"])
+  return gulp.src(["./src/js/**/*.js", "!./src/utilities/indexer.js"])
     .pipe(babel({ presets: ["@babel/env"] }))
     .pipe(uglify())
     .pipe(rename({ suffix: ".min" }))
-    .pipe(dest("./dist/js"));
+    .pipe(gulp.dest("./dist/js"));
 };
 
 // optimize images (reduce image sizes)
 const optimizeImages = () => {
-  return src("./src/img/**/*")
+  return gulp.src("./src/img/**/*")
     .pipe(
       imagemin([
-        imagemin.gifsicle({ interlaced: true }),
-        imageminMozjpeg({ quality: 50, progressive: true }),
-        imagemin.optipng({ optimizationLevel: 5 }),
-        imagemin.svgo({
-          plugins: [{ removeViewBox: true }, { cleanupIDs: false }],
-        }),
+        // imageminGifsicle({ interlaced: true }),
+        imageminJpegtran({ quality: 50, progressive: true }),
+        imageminPngquant({ optimizationLevel: 5 }),
+        imageminSvgo ({
+          plugins: [
+            {
+            name: "removeViewBox",
+            active: true
+            },
+            {
+              name: 'cleanupIDs',
+              active: false
+            }
+          ]
+        })
       ])
     )
-    .pipe(dest("./dist/img"));
+    .pipe(gulp.dest("./dist/img"));
 };
 
 // build the site search index
@@ -121,22 +141,22 @@ const buildSiteIndex = async () => {
 
 // Move the robots.txt files
 const copyRobotsText = () => {
-  return src(["./src/robots*.txt"]).pipe(dest("./dist"));
+  return gulp.src(["./src/robots*.txt"]).pipe(gulp.dest("./dist"));
 };
 
 // Copy the files folder
 const CopyFilesFolder = () => {
-  return src(["./src/files/**/*"]).pipe(dest("./dist/files"));
+  return gulp.src(["./src/files/**/*"]).pipe(gulp.dest("./dist/files"));
 };
 
 // clean the dist folder
 const cleanProd = () => {
-  return del("./dist/**/*");
+  return deleteAsync("./dist/**/*");
 };
 
 // clean the build folder
 const cleanBuild = () => {
-  return del("./build/**/*");
+  return deleteAsync("./build/**/*");
 };
 
 // watch for changes to files
@@ -152,7 +172,7 @@ const monitor = () => {
 // define Gulp Tasks
 
 // build the dist folder contents for localhost
-exports.default = series(
+const build = gulp.series(
   cleanProd,
   render_prod,
   buildSiteIndex,
@@ -165,13 +185,14 @@ exports.default = series(
   CopyFilesFolder
 );
 
+export default build;
+
 // Monitor the site in the dist folder
-exports.monitor = monitor;
+//export {monitor as monitor};
 
 // clear the contents of the dist folder
-exports.clean_prod = cleanProd;
+export {cleanProd as cleanProd};
 
-exports.build_index = buildSiteIndex;
 
 // Build the site index from the HTML files
 const buildIndex = () => {
@@ -208,9 +229,12 @@ const buildIndex = () => {
   });
 };
 
+export {buildSiteIndex as buildSiteIndex};
+
+
 // helper function for building site index file
 const getProductFiles = function (dirPath, arrayOfFiles) {
-  files = fs.readdirSync(dirPath);
+  let files = fs.readdirSync(dirPath);
 
   arrayOfFiles = arrayOfFiles || [];
 
