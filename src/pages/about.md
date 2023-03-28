@@ -25,7 +25,7 @@ A huge thanks and debt of gratitude also goes out to all of those friends and me
 
 <h2 id="disclaimers">Disclaimers</h2>
 
-This application is released under the Creative Commons Attribution-ShareAlike 4.0 International License.l The author makes no claim for any of the content that is owned by others.
+This application is released under the Creative Commons Attribution-ShareAlike 4.0 International License. The author makes no claim for any of the content that is owned by others.
 
 ## Cepheus Engine
 
