@@ -15,6 +15,7 @@ The impetus for creating this application came from a desire to give something b
 This work would not have been made possible without the specific contributions of the following people:
 
 - Marc Miller, Far Future Enterprises, who approved of the project and made artwork available as well as providing valuable connections within the community. In many ways, Marc has been one of my gaming heroes for the last 40+ years.
+- Matthew Sprange, Mongoose Publishing Ltd., for continuing to support the project.
 - Robert Eaglestone, who provided content and feedback during the development of the application.
 - Thomas Jones-Low and the stewards of the Traveller Wiki, who graciously shared their content.
 - Ade Steward and Robert Pearce for their feedback and invaluable insights.
@@ -35,9 +36,13 @@ You may view a complete copy of the Cepheus Engine SRD by clicking this <a href=
 
 ## Far Future Enterprises
 
-The Traveller game in all forms is owned by <a href="https://farfuture.net" target="_blank">Far Future Enterprises</a>. Copyright 1977 - 2008 Far Future Enterprises. Traveller is a registered trademark of Far Future Enterprises. Far Future permits web sites and fanzines for this game, provided it contains this notice, that Far Future is notified, and subject to a withdrawal of permission on 90 days notice. The contents of this site are for personal, non-commercial use only.
+Far Future Enterprises <a href="farfuture.net" target="_blank">Far Future Enterprises, Inc.</a>. Marc Miller's publishing site for the Traveller CD-ROMS.
 
-Any use of Far Future Enterprises's copyrighted material or trademarks anywhere on this web site and its files should not be viewed as a challenge to those copyrights or trademarks. In addition, any program/articles/file on this site cannot be republished or distributed without the consent of the author who contributed it.
+## Mongoose Publishing
+
+The Traveller game in all forms is owned by <a href="https://mongoosepublishing.com" target="_blank">Mongoose Publishing Ltd.</a>. Copyright 1977 - 2024 Mongoose Publishing Ltd. Traveller is a registered trademark of Mongoose Publishing, Ltd. Mongoose Publishing permits web sites and fanzines for this game, provided it contains this notice, that Mongoose Publishing is notified, and subject to a withdrawal of permission on 90 days notice. The contents of this site are for personal, non-commercial use only.
+
+Any use of Mongoose Publishing's copyrighted material or trademarks anywhere on this web site and its files should not be viewed as a challenge to those copyrights or trademarks. In addition, any program/articles/file on this site cannot be republished or distributed without the consent of the author who contributed it.
 
 ## Traveller Wiki
 
