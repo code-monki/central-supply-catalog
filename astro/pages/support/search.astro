@@ -1,7 +1,7 @@
 ---
 import BaseLayout from '../../layouts/BaseLayout.astro';
 import SearchResults from '../../components/SearchResults.vue';
-import { readMarkdownPage, searchIndexVersion } from '../../lib/catalog.js';
+import { readMarkdownPage, searchIndexVersion } from '../../lib/catalog.mjs';
 import noImage from '../../../src/img/products/no-image.png';
 
 const page = readMarkdownPage('src/pages/search.md');

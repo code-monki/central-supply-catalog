@@ -2,7 +2,7 @@ import { defineConfig } from 'astro/config';
 import vue from '@astrojs/vue';
 import fs from 'node:fs';
 import path from 'node:path';
-import { searchDocuments, searchIndexVersion } from './astro/lib/catalog.js';
+import { searchDocuments, searchIndexVersion } from './astro/lib/catalog.mjs';
 
 const copyIfExists = (from, to) => {
   if (!fs.existsSync(from)) return;
