@@ -11,7 +11,9 @@ const documents = searchDocuments();
 <BaseLayout title="Central Supply Catalog">
   <div class="content-container">
     <main id="main">
-      <SearchResults documents={documents} fallbackImage={noImage.src} client:load />
+      <div class="search-results-slot">
+        <SearchResults documents={documents} fallbackImage={noImage.src} client:load />
+      </div>
       <div class="hero-section">
         <div class="hero-image">
           <img src={heroTitle.src} width={heroTitle.width} height={heroTitle.height} alt="Central Supply Catalog" fetchpriority="high">

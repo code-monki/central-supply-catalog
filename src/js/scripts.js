@@ -180,10 +180,10 @@ const updateCartUI = () => {
 
           <div class="row">
             <div class="prod-qty">
-                  <button><i class="fa fa-minus subtract-btn"></i></button>
+                  <button aria-label="Decrease quantity"><span class="icon icon-minus subtract-btn" aria-hidden="true"></span></button>
                   <input type="number" class="qty" value="${item.qty}">
-                  <button><i class="fa fa-plus add-btn"></i></button>
-                  <button class="remove-item"><i class="fa fa-trash"></i></button>
+                  <button aria-label="Increase quantity"><span class="icon icon-plus add-btn" aria-hidden="true"></span></button>
+                  <button class="remove-item" aria-label="Remove item"><span class="icon icon-trash" aria-hidden="true"></span></button>
             </div>
           </div>
         </div>
@@ -277,7 +277,7 @@ if (searchBtn !== null && searchBtn !== undefined) {
     e.preventDefault();
     const searchTerms = document.getElementById("search-input").value.replace(/\s+/g, "+");
 
-    window.location.href = `/?s=${searchTerms}`;
+    window.location.href = `/support/search/?s=${searchTerms}`;
   });
 }
 
@@ -450,4 +450,3 @@ document.onclick = (e) => {
     }
   }
 };
-

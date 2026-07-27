@@ -67,7 +67,7 @@ const addToCart = () => {
 
 <template>
   <form @submit.prevent="addToCart">
-    <h5 id="unit-price" :data-unitprice="props.product.cost">{{ props.formattedCost }}</h5>
+    <div id="unit-price" class="unit-price" :data-unitprice="props.product.cost">{{ props.formattedCost }}</div>
     <div class="input-field quantity">
       <label for="product-qty">Qty:</label>
       <input v-model.number="quantity" type="number" name="qty" id="product-qty" min="0" max="999">

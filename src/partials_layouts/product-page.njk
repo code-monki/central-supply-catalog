@@ -19,7 +19,7 @@
               </div>
               <div class="product-controls">
                 <form>
-                  <h5 id="unit-price" data-unitprice="{{ product.cost }}">{{ product.cost | costLabel }}</h5>
+                  <div id="unit-price" class="unit-price" data-unitprice="{{ product.cost }}">{{ product.cost | costLabel }}</div>
                   <div class="input-field quantity">
                     <label for="product-qty">Qty:</label>
                     <input type="number" name="qty" id="product-qty" min="0" max="999" value="1"></div>
@@ -36,7 +36,7 @@
               {% endif %}
               <div class="row product-description">
                 <div class="description-content">
-                  <h5>Product Description</h5>
+                  <h2>Product Description</h2>
                   {{ product.description | markdown | safe }}
                   {% if product.stats | length > 0 %}
                     {% include '_item-stats.njk' %}
@@ -44,7 +44,7 @@
                 </div>
               </div>
               <div class="row product-details">
-                <h5>Product Details</h5>
+                <h2>Product Details</h2>
                 <table>
                   <tbody>
                     {% if product.mfr %}
@@ -92,7 +92,7 @@
               </div>
               {% if product.accessories | length > 0 %}
                 <div class="product-accessories">
-                  <h5>Accessories</h5>
+                  <h2>Accessories</h2>
                   {% for sku in product.accessories %}
                     {% if loop.index > 1 %}{% endif %}
                     {% getAccessory sku %}
@@ -100,7 +100,7 @@
                 </div>
               {% endif %}
               <div class="row product-source">
-                <h5>Sources</h5>
+                <h2>Sources</h2>
                 {% if product.sources %}
                   {% for src in product.sources %}
                     <p class="source">

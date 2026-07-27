@@ -73,11 +73,11 @@ const details = [
 
       <div class="row product-description">
         <div class="description-content">
-          <h5>Product Description</h5>
+          <h2>Product Description</h2>
           <Fragment set:html={renderMarkdown(product.description)} />
           {statsRows.length > 0 && (
             <div class="stats">
-              <h6>Specifications</h6>
+              <h3>Specifications</h3>
               <div class="stat-table">
                 <table class="striped">
                   <tbody>
@@ -104,7 +104,7 @@ const details = [
       </div>
 
       <div class="row product-details">
-        <h5>Product Details</h5>
+        <h2>Product Details</h2>
         <table>
           <tbody>
             {details.map(([label, value]) => (
@@ -127,7 +127,7 @@ const details = [
 
       {product.sources?.length > 0 && (
         <div class="row product-source">
-          <h5>Sources</h5>
+          <h2>Sources</h2>
           {product.sources.map((source) => {
             const publisher = getPublisher(source.publisher);
             return (

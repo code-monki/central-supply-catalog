@@ -109,7 +109,7 @@ onMounted(readCart);
           <div class="row">
             <div class="prod-qty">
               <button type="button" aria-label="Decrease quantity" @click="adjustQuantity(item.sku, -1)">
-                <i class="fa fa-minus subtract-btn"></i>
+                <span class="icon icon-minus subtract-btn" aria-hidden="true"></span>
               </button>
               <input
                 type="number"
@@ -119,10 +119,10 @@ onMounted(readCart);
                 @change="setQuantity(item.sku, $event.target.value)"
               >
               <button type="button" aria-label="Increase quantity" @click="adjustQuantity(item.sku, 1)">
-                <i class="fa fa-plus add-btn"></i>
+                <span class="icon icon-plus add-btn" aria-hidden="true"></span>
               </button>
               <button type="button" class="remove-item" aria-label="Remove item" @click="removeItem(item.sku)">
-                <i class="fa fa-trash"></i>
+                <span class="icon icon-trash" aria-hidden="true"></span>
               </button>
             </div>
           </div>

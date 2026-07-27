@@ -26,7 +26,7 @@ const updateCartCount = () => {
 
 const submitSearch = () => {
   const terms = searchTerm.value.trim().replace(/\s+/g, '+');
-  if (terms) window.location.href = `/?s=${terms}`;
+  if (terms) window.location.href = `/support/search/?s=${terms}`;
 };
 
 onMounted(() => {
@@ -44,7 +44,7 @@ onBeforeUnmount(() => {
 <template>
   <div class="sidenav-menu" id="sidenav-menu" :style="{ width: isMenuOpen ? '100%' : '0' }">
     <button class="close-sidenav" id="close-sidenav" aria-label="Close navigation" @click="isMenuOpen = false">
-      <i class="fa fa-times"></i>
+      <span class="icon icon-close" aria-hidden="true"></span>
     </button>
     <a href="/">Home</a>
     <a href="/shopping-cart">Shopping Cart</a>
@@ -56,8 +56,8 @@ onBeforeUnmount(() => {
   <header>
     <div class="row header-row-1">
       <div class="menu">
-        <button class="sidenav-trigger show-on-large show-on-extra-large" id="menu-button" aria-label="Open navigation" @click="isMenuOpen = true">
-          <i class="fa fa-bars"></i>
+        <button class="sidenav-trigger" id="menu-button" aria-label="Open navigation" @click="isMenuOpen = true">
+          <span class="icon icon-menu" aria-hidden="true"></span>
         </button>
       </div>
 
@@ -67,7 +67,7 @@ onBeforeUnmount(() => {
 
       <div class="cart" id="shopping-cart">
         <a href="/shopping-cart" aria-label="Shopping cart">
-          <i class="fa fa-shopping-cart"></i>
+          <span class="icon icon-cart" aria-hidden="true"></span>
           <small v-if="visibleBadge" class="badge" id="cart-badge">{{ cartCount }}</small>
         </a>
       </div>
@@ -95,7 +95,7 @@ onBeforeUnmount(() => {
             <label class="visually-hidden" for="search-input">Search catalog</label>
             <input v-model="searchTerm" type="text" name="search" class="search-input" id="search-input">
             <button class="search-btn" id="search-button" type="submit" aria-label="Search catalog">
-              <i class="fa fa-search"></i>
+              <span class="icon icon-search" aria-hidden="true"></span>
             </button>
           </form>
         </div>

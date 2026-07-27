@@ -1,8 +1,8 @@
 <header>
   <div class="row header-row-1">
     <div class="menu">
-      <a href="#" class="sidenav-trigger show-on-large show-on-extra-large" id="menu-button" data-target="slide-out">
-        <i class="fa fa-bars"></i>
+      <a href="#" class="sidenav-trigger" id="menu-button" data-target="slide-out" aria-label="Open navigation">
+        <span class="icon icon-menu" aria-hidden="true"></span>
       </a>
     </div>
 
@@ -11,8 +11,8 @@
     </div>
 
     <div class="cart" id='shopping-cart'>
-      <a href="{{ '/shopping-cart' | url }}">
-        <i class="fa fa-shopping-cart"></i>
+      <a href="{{ '/shopping-cart' | url }}" aria-label="Shopping cart">
+        <span class="icon icon-cart" aria-hidden="true"></span>
           <small class="badge" id="cart-badge">1</small>
       </a>
     </div>
@@ -24,8 +24,9 @@
       <div class="dept-dropdown" id="dept-dropdown">{% generateDeptList %}</div>
       <div class="search-form">
         <form>
+          <label class="visually-hidden" for="search-input">Search catalog</label>
           <input type="text" name="search" class="search-input" id="search-input">
-          <button class="search-btn" id="search-button"><i class="fa fa-search"></i></button>
+          <button class="search-btn" id="search-button" aria-label="Search catalog"><span class="icon icon-search" aria-hidden="true"></span></button>
         </form>
       </div>
     </div>

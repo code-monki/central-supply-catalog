@@ -53,20 +53,28 @@ onMounted(() => {
 <template>
   <div v-if="hasSearch" class="search-results" id="search-results">
     <div class="row results-header">
-      <h6>Search found {{ results.length }} results for: <em>{{ query }}</em></h6>
+      <h2>Search found {{ results.length }} results for: <em>{{ query }}</em></h2>
     </div>
 
     <div class="container">
       <div v-for="product in results" :key="product.sku" class="search-result-row">
         <div class="prod-img">
-          <img :src="product.image || props.fallbackImage" class="thumbnail-img" :alt="product.name">
+          <img
+            :src="product.image || props.fallbackImage"
+            class="thumbnail-img"
+            :alt="product.name"
+            width="120"
+            height="120"
+            loading="lazy"
+            decoding="async"
+          >
         </div>
 
         <div class="product-summary">
-          <a :href="`/products/${product.sku}/`"><h6>{{ product.name }}</h6></a>
+          <a :href="`/products/${product.sku}/`"><h3>{{ product.name }}</h3></a>
           <p>{{ product.summary }}</p>
           <div class="product-cost">
-            <h6 class="right-align">{{ formatCost(product.cost) }}</h6>
+            <div class="right-align">{{ formatCost(product.cost) }}</div>
           </div>
         </div>
       </div>
