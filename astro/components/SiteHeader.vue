@@ -57,7 +57,7 @@ onBeforeUnmount(() => {
     <div class="row header-row-1">
       <div class="menu">
         <button class="sidenav-trigger" id="menu-button" aria-label="Open navigation" @click="isMenuOpen = true">
-          <span class="icon icon-menu" aria-hidden="true"></span>
+          <span class="unicode-icon" aria-hidden="true">≡</span>
         </button>
       </div>
 
@@ -67,7 +67,7 @@ onBeforeUnmount(() => {
 
       <div class="cart" id="shopping-cart">
         <a href="/shopping-cart" aria-label="Shopping cart">
-          <span class="icon icon-cart" aria-hidden="true"></span>
+          <span class="unicode-icon cart-icon" aria-hidden="true">🛒</span>
           <small v-if="visibleBadge" class="badge" id="cart-badge">{{ cartCount }}</small>
         </a>
       </div>

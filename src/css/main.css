@@ -1552,31 +1552,14 @@ button.close-sidenav {
   vertical-align: middle;
 }
 
-.icon-menu,
-.icon-menu::before,
-.icon-menu::after {
-  border-top: 0.16rem solid currentColor;
-}
-
-.icon-menu {
-  height: 0.9rem;
-  margin-top: 0.2rem;
-}
-
-.icon-menu::before,
-.icon-menu::after {
-  content: "";
-  position: absolute;
-  left: 0;
-  width: 100%;
-}
-
-.icon-menu::before {
-  top: 0.32rem;
-}
-
-.icon-menu::after {
-  top: 0.65rem;
+.unicode-icon {
+  color: #bdbdbd;
+  display: inline-block;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 2rem;
+  line-height: 1;
+  text-align: center;
+  width: 2rem;
 }
 
 .icon-close::before,
@@ -1623,34 +1606,8 @@ button.close-sidenav {
   transform: rotate(45deg);
 }
 
-.icon-cart {
-  border: 0.14rem solid currentColor;
-  border-top: 0;
-  border-radius: 0 0 0.12rem 0.12rem;
-  height: 0.7rem;
-  width: 1rem;
-  margin-top: 0.25rem;
-}
-
-.icon-cart::before {
-  content: "";
-  position: absolute;
-  left: -0.12rem;
-  top: -0.28rem;
-  width: 0.85rem;
-  border-top: 0.14rem solid currentColor;
-  transform: rotate(12deg);
-}
-
-.icon-cart::after {
-  content: "";
-  position: absolute;
-  left: 0.08rem;
-  right: 0.08rem;
-  bottom: -0.28rem;
-  height: 0.16rem;
-  border-left: 0.16rem solid currentColor;
-  border-right: 0.16rem solid currentColor;
+.cart-icon {
+  font-size: 1.65rem;
 }
 
 .icon-trash {
