@@ -185,6 +185,17 @@ export const searchDocuments = () =>
     image: productImagePath(product),
   }));
 
+let indexVersion = null;
+
+export const searchIndexVersion = () => {
+  if (indexVersion) return indexVersion;
+
+  const serviceWorker = fs.readFileSync(path.join(rootDir, 'src/sw.js'), 'utf8');
+  const match = serviceWorker.match(/const\s+version\s*=\s*['"]?([^;'"]+)/);
+  indexVersion = match ? match[1].trim() : '1';
+  return indexVersion;
+};
+
 export const productImagePath = (product) => {
   if (product.image) {
     if (!product.image.startsWith('/img/')) return product.image;

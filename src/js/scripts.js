@@ -294,14 +294,42 @@ window.addEventListener("load", (event) => {
 });
 
 const performSiteSearch = (params) => {
-  let searchIndexLocation = "_data/searchindex.idx";
-  fetch(searchIndexLocation, {
-    method: "GET",
-    headers: {
-      "Content-Type": "application/json;charset=UTF-8",
-    },
-  })
-    .then((resp) => resp.json())
+  const searchIndexVersion = "13";
+  const searchIndexKey = `csc-search-index:${searchIndexVersion}`;
+  const searchIndexLocation = `/_data/searchindex.json?v=${searchIndexVersion}`;
+  const cachedIndex = localStorage.getItem(searchIndexKey);
+  let cachedDocuments = null;
+
+  if (cachedIndex) {
+    try {
+      cachedDocuments = JSON.parse(cachedIndex);
+    } catch {
+      localStorage.removeItem(searchIndexKey);
+    }
+  }
+
+  const indexRequest = Array.isArray(cachedDocuments)
+    ? Promise.resolve(cachedDocuments)
+    : fetch(searchIndexLocation, {
+        method: "GET",
+        headers: {
+          "Content-Type": "application/json;charset=UTF-8",
+        },
+      })
+        .then((resp) => resp.json())
+        .then((payload) => {
+          if (!Array.isArray(payload.documents)) {
+            throw new Error("Search index did not include documents.");
+          }
+
+          localStorage.setItem(searchIndexKey, JSON.stringify(payload.documents));
+          Object.keys(localStorage)
+            .filter((key) => key.startsWith("csc-search-index:") && key !== searchIndexKey)
+            .forEach((key) => localStorage.removeItem(key));
+          return payload.documents;
+        });
+
+  indexRequest
     .then((data) => {
       /**
        * Future fields to support filtering
@@ -332,8 +360,7 @@ const performSiteSearch = (params) => {
       str += `<div class="container">`;
 
       results.forEach((product) => {
-        console.log(`product: ${product}`)
-        img = product.image ? product.image : "/img/products/no-image.png";
+        const img = product.image ? product.image : "/img/products/no-image.png";
         str += `
           <div class="search-result-row">
             <div class="prod-img">

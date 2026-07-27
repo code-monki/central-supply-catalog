@@ -1,10 +1,15 @@
 <script setup>
 import MiniSearch from 'minisearch';
 import { computed, onMounted, ref } from 'vue';
+import { loadSearchDocuments } from '../lib/searchIndexClient.js';
 
 const props = defineProps({
-  documents: {
-    type: Array,
+  indexUrl: {
+    type: String,
+    required: true,
+  },
+  indexVersion: {
+    type: String,
     required: true,
   },
   fallbackImage: {
@@ -15,6 +20,8 @@ const props = defineProps({
 
 const query = ref('');
 const results = ref([]);
+const isLoading = ref(false);
+const errorMessage = ref('');
 
 const formatCost = (value) => {
   const amount = Number(value) || 0;
@@ -34,29 +41,44 @@ const formatCost = (value) => {
 
 const hasSearch = computed(() => query.value.length > 0);
 
-onMounted(() => {
+onMounted(async () => {
   const params = new URLSearchParams(window.location.search);
   query.value = (params.get('s') || '').trim();
   if (!query.value) return;
 
-  const miniSearch = new MiniSearch({
-    idField: 'sku',
-    fields: ['sku', 'name', 'description', 'cost'],
-    storeFields: ['sku', 'name', 'summary', 'cost', 'image'],
-  });
+  isLoading.value = true;
 
-  miniSearch.addAll(props.documents);
-  results.value = miniSearch.search(query.value, { prefix: true });
+  try {
+    const documents = await loadSearchDocuments({
+      url: props.indexUrl,
+      version: props.indexVersion,
+    });
+
+    const miniSearch = new MiniSearch({
+      idField: 'sku',
+      fields: ['sku', 'name', 'description', 'cost'],
+      storeFields: ['sku', 'name', 'summary', 'cost', 'image'],
+    });
+
+    miniSearch.addAll(documents);
+    results.value = miniSearch.search(query.value, { prefix: true });
+  } catch {
+    errorMessage.value = 'Search is temporarily unavailable.';
+  } finally {
+    isLoading.value = false;
+  }
 });
 </script>
 
 <template>
   <div v-if="hasSearch" class="search-results" id="search-results">
     <div class="row results-header">
-      <h2>Search found {{ results.length }} results for: <em>{{ query }}</em></h2>
+      <h2 v-if="isLoading">Loading search results for: <em>{{ query }}</em></h2>
+      <h2 v-else-if="errorMessage">{{ errorMessage }}</h2>
+      <h2 v-else>Search found {{ results.length }} results for: <em>{{ query }}</em></h2>
     </div>
 
-    <div class="container">
+    <div v-if="!isLoading && !errorMessage" class="container">
       <div v-for="product in results" :key="product.sku" class="search-result-row">
         <div class="prod-img">
           <img

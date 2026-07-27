@@ -23,4 +23,5 @@ package-lock.json
 .vscode/*
 _data/*
 searchindex.idx
+searchindex.json
 CSC-image-catalog.xlsx

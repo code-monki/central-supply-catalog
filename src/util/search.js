@@ -1,52 +1,56 @@
-const miniSearch = require('minisearch')
 const fs = require('fs');
 const path = require("path");
 
-const getProductFiles = function(dirPath, arrayOfFiles) {
-  files = fs.readdirSync(dirPath);
+const asArray = (value) => (Array.isArray(value) ? value : [value]);
 
-  arrayOfFiles = arrayOfFiles || [];
+const searchIndexVersion = () => {
+  const serviceWorker = fs.readFileSync('src/sw.js', 'utf8');
+  const match = serviceWorker.match(/const\s+version\s*=\s*['"]?([^;'"]+)/);
+  return match ? match[1].trim() : '1';
+};
 
-  files.forEach(function(file) {
-    let fn = path.join(dirPath, file);
-    (fs.statSync(fn).isDirectory()) ?
-      arrayOfFiles = getProductFiles(fn, arrayOfFiles) :
-      arrayOfFiles.push(path.join(dirPath, "/", file));
-  });
+const productImagePath = (product) => {
+  if (product.image) {
+    if (!product.image.startsWith('/img/')) return product.image;
 
-  return arrayOfFiles;
-}
+    const requestedPath = path.join('src', product.image);
+    if (fs.existsSync(requestedPath)) return product.image;
+  }
 
-let arrayOfFiles;
-const inputFiles = 
-  getProductFiles(path.join('src', '_data'), arrayOfFiles)
-      .filter(file => path.extname(file) === '.json');
+  const skuPath = `/img/products/${product.sku}.png`;
+  if (fs.existsSync(path.join('src', skuPath))) return skuPath;
 
-// let idCounter = 0
+  return '';
+};
 
-let ms = new miniSearch({
-  fields: [
-    "sku",
-    "name",
-    "description",
-    "cost",
-    "image"
-],
-  storeFields: ['sku', 'name', 'description', 'cost', 'image']
-});
+const productsDir = path.join('src', '_data', 'products');
+const products = fs
+  .readdirSync(productsDir)
+  .flatMap((category) => {
+    const categoryDir = path.join(productsDir, category);
+    return fs
+      .readdirSync(categoryDir)
+      .filter((file) => path.extname(file) === '.json')
+      .flatMap((file) => asArray(JSON.parse(fs.readFileSync(path.join(categoryDir, file), 'utf8'))));
+  })
+  .filter((product) => product.name && !product.sku.match(/-00000$/g))
+  .sort((a, b) => a.name.localeCompare(b.name))
+  .map((product) => ({
+    sku: product.sku,
+    name: product.name,
+    description: product.description || '',
+    summary: product.description || '',
+    cost: product.cost,
+    image: productImagePath(product),
+  }));
 
-const products = inputFiles.flatMap((file) => JSON.parse(fs.readFileSync(file)));
-
-// add id field
-// let counter = 0;
-products.forEach(product => product.id = products.indexOf(product))
-
-// console.log(products);
-
-// Add all of the products into the search map
-ms.addAll(products);
-
-fs.writeFileSync('src/_data/searchindex.idx', JSON.stringify(products))
+fs.writeFileSync(
+  'src/_data/searchindex.json',
+  JSON.stringify({
+    version: searchIndexVersion(),
+    documents: products,
+  })
+);
 
 // let jsonIdx = fs.readFileSync('src/_data/searchindex.idx', 'utf8');
 

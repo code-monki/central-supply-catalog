@@ -1,9 +1,18 @@
 <script setup>
 import { computed, onBeforeUnmount, onMounted, ref } from 'vue';
+import { warmSearchIndex } from '../lib/searchIndexClient.js';
 
 const props = defineProps({
   menu: {
     type: Array,
+    required: true,
+  },
+  searchIndexUrl: {
+    type: String,
+    required: true,
+  },
+  searchIndexVersion: {
+    type: String,
     required: true,
   },
 });
@@ -31,6 +40,10 @@ const submitSearch = () => {
 
 onMounted(() => {
   updateCartCount();
+  warmSearchIndex({
+    url: props.searchIndexUrl,
+    version: props.searchIndexVersion,
+  });
   window.addEventListener('storage', updateCartCount);
   window.addEventListener('csc-cart-updated', updateCartCount);
 });

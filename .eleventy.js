@@ -11,6 +11,7 @@ const { parse } = require('path');
 
 const basePath = '';
 const buildDest = process.env.ELEVENTY_DEST;
+const asArray = (value) => (Array.isArray(value) ? value : [value]);
 
 module.exports = function (eleventyConfig) {
   const md = new markdownIt({ html: true });
@@ -23,6 +24,65 @@ module.exports = function (eleventyConfig) {
   eleventyConfig.addPassthroughCopy('src/audio');
   eleventyConfig.setQuietMode(true);
   eleventyConfig.addWatchTarget('./src/css');
+
+  const renderMarkdown = (content = '') => md.render(content);
+
+  const productImagePath = (product) => {
+    if (product.image) {
+      if (!product.image.startsWith('/img/')) return product.image;
+
+      const requestedPath = path.join('src', product.image);
+      if (fs.existsSync(requestedPath)) return product.image;
+    }
+
+    const skuPath = `/img/products/${product.sku}.png`;
+    if (fs.existsSync(path.join('src', skuPath))) return skuPath;
+
+    return '';
+  };
+
+  const searchIndexVersion = () => {
+    const serviceWorker = fs.readFileSync('src/sw.js', 'utf8');
+    const match = serviceWorker.match(/const\s+version\s*=\s*['"]?([^;'"]+)/);
+    return match ? match[1].trim() : '1';
+  };
+
+  const searchDocuments = () =>
+    prodDirectories
+      .flatMap((category) => {
+        const categoryDir = path.join(basedir, category);
+        return fs
+          .readdirSync(categoryDir)
+          .filter((file) => path.extname(file) === '.json')
+          .flatMap((file) =>
+            asArray(JSON.parse(fs.readFileSync(path.join(categoryDir, file), 'utf8'))).map((product) => ({
+              ...product,
+              category,
+            }))
+          );
+      })
+      .filter((product) => product.name && !product.sku.match(/-00000$/g))
+      .sort((a, b) => a.name.localeCompare(b.name))
+      .map((product) => ({
+        sku: product.sku,
+        name: product.name,
+        description: product.description || '',
+        summary: extractSummary(renderMarkdown(product.description || '')) || '',
+        cost: product.cost,
+        image: productImagePath(product),
+      }));
+
+  eleventyConfig.on('eleventy.after', ({ directories }) => {
+    const dataDir = path.join(directories.output, '_data');
+    fs.mkdirSync(dataDir, { recursive: true });
+    fs.writeFileSync(
+      path.join(dataDir, 'searchindex.json'),
+      JSON.stringify({
+        version: searchIndexVersion(),
+        documents: searchDocuments(),
+      })
+    );
+  });
 
   //-------------------------------------------------------------
   // Use local 404 page
