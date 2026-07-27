@@ -1,3 +1,6 @@
+@use "../abstract/variables" as *;
+@use "../abstract/mixins" as *;
+
 .dept-cards {
   width: 90vw;
   max-width: 60rem;

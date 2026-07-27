@@ -1,0 +1,35 @@
+---
+import SiteHeader from '../components/SiteHeader.vue';
+import { departmentMenu } from '../lib/catalog.js';
+import '../styles/main.scss';
+import favicon from '../../src/img/favicons/favicon.png';
+
+const { title = 'Central Supply Catalog', pageClass = 'page-container' } = Astro.props;
+const menu = departmentMenu();
+---
+
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Equipment and supplies catalog for Cepheus Engine and Traveller science fiction role-playing games.">
+    <link rel="icon" href={favicon.src} type="image/x-icon">
+    <title>{title}</title>
+    <script src="https://kit.fontawesome.com/98c924c274.js" crossorigin="anonymous"></script>
+  </head>
+  <body>
+    <div class="overlay"></div>
+    <div class={pageClass}>
+      <SiteHeader menu={menu} client:load />
+      <slot />
+      <footer>
+        <div class="copyright-info">
+          <a href="/about-the-central-supply-catalog/#disclaimers">
+            Code and content licensing details
+          </a>.
+        </div>
+      </footer>
+    </div>
+  </body>
+</html>

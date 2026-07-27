@@ -1,3 +1,6 @@
+@use "../abstract/variables" as *;
+@use "../abstract/mixins" as *;
+
 .dept-page {
   height: 100%;
   display: flex;
@@ -12,9 +15,10 @@
     max-width: 60rem;
     height: calc(100vh - 25vmax);
     overflow-y: auto;
+    margin-top: .75rem;
 
     @include response(md) {
-      margin-top: 1rem;
+      margin-top: 1.25rem;
       height: calc(100vh - 20vmax);
     }
 

@@ -1,3 +1,6 @@
+@use "../abstract/variables" as *;
+@use "../abstract/mixins" as *;
+
 .search-results {
   background: $light-color;
   color: $dark-color;

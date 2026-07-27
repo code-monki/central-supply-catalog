@@ -1,3 +1,6 @@
+@use "../abstract/variables" as *;
+@use "../abstract/mixins" as *;
+
 .product-page {
   height: 100%;
   display: flex;
@@ -14,9 +17,10 @@
     height: calc(100vh - 25vmax);
     overflow-y: auto;
     padding-bottom: 3rem;
+    margin-top: .75rem;
 
     @include response(md) {
-      margin-top: 1rem;
+      margin-top: 1.25rem;
       height: calc(100vh - 20vmax);
     }
 

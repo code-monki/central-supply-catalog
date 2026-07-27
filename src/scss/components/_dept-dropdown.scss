@@ -1,3 +1,6 @@
+@use "../abstract/variables" as *;
+@use "../abstract/mixins" as *;
+
 .dept-dropdown {
   position: fixed;
   top: 0;

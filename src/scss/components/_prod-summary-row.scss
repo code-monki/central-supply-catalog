@@ -1,3 +1,6 @@
+@use "../abstract/variables" as *;
+@use "../abstract/mixins" as *;
+
 .product-summary-container {
   margin-bottom: 2rem !important;
 

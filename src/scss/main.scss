@@ -1,26 +1,26 @@
 // abstracts
-@import 'abstract/variables';
-@import 'abstract/mixins';
+@use 'abstract/variables';
+@use 'abstract/mixins';
 
 // base definitions
-@import 'base/base';
+@use 'base/base';
 
 // components
-@import 'components/site-header';
-@import 'components/sidenav';
-@import 'components/content-body';
-@import 'components/category-cards';
-@import 'components/prod-summary-row';
-@import 'components/site-footer';
-@import 'components/search-results';
-@import 'components/product-variants';
-@import 'components/stat-table';
+@use 'components/site-header';
+@use 'components/sidenav';
+@use 'components/content-body';
+@use 'components/category-cards';
+@use 'components/prod-summary-row';
+@use 'components/site-footer';
+@use 'components/search-results';
+@use 'components/product-variants';
+@use 'components/stat-table';
 
 // layouts
-@import 'layout/home-page';
-@import 'layout/product-page';
-@import 'layout/shopping-cart';
-@import 'layout/browse-page';
-@import 'layout/dept-page';
-@import 'layout/site-page';
-@import 'layout/page404'
+@use 'layout/home-page';
+@use 'layout/product-page';
+@use 'layout/shopping-cart';
+@use 'layout/browse-page';
+@use 'layout/dept-page';
+@use 'layout/site-page';
+@use 'layout/page404';

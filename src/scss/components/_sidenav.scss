@@ -1,3 +1,6 @@
+@use "../abstract/variables" as *;
+@use "../abstract/mixins" as *;
+
 .sidenav-menu {
   height: 100%;
   width: 0;

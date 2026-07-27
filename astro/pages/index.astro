@@ -1,0 +1,25 @@
+---
+import BaseLayout from '../layouts/BaseLayout.astro';
+import SearchResults from '../components/SearchResults.vue';
+import { searchDocuments } from '../lib/catalog.js';
+import heroTitle from '../../src/img/hero-title.png';
+import noImage from '../../src/img/products/no-image.png';
+
+const documents = searchDocuments();
+---
+
+<BaseLayout title="Central Supply Catalog">
+  <div class="content-container">
+    <main id="main">
+      <SearchResults documents={documents} fallbackImage={noImage.src} client:load />
+      <div class="hero-section">
+        <div class="hero-image">
+          <img src={heroTitle.src} width={heroTitle.width} height={heroTitle.height} alt="Central Supply Catalog" fetchpriority="high">
+        </div>
+        <div class="hero-text">
+          <p class="subtitle">Equipment and Supplies<br>for the<br>Discerning Traveller</p>
+        </div>
+      </div>
+    </main>
+  </div>
+</BaseLayout>

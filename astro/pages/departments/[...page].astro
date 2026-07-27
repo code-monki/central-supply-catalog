@@ -1,0 +1,84 @@
+---
+import BaseLayout from '../../layouts/BaseLayout.astro';
+import { costLabel, departmentPages, extractSummary, productImagePath, renderMarkdown } from '../../lib/catalog.js';
+import noImage from '../../../src/img/products/no-image.png';
+
+export function getStaticPaths() {
+  const pageSize = 25;
+
+  return departmentPages().flatMap((departmentPage) => {
+    const pageCount = Math.max(Math.ceil(departmentPage.products.length / pageSize), 1);
+
+    return Array.from({ length: pageCount }, (_, index) => {
+      const pageNumber = index + 1;
+      return {
+        params: {
+          page: pageNumber === 1 ? departmentPage.slug : `${departmentPage.slug}/${pageNumber}`,
+        },
+        props: {
+          departmentPage,
+          pageNumber,
+          pageCount,
+          products: departmentPage.products.slice(index * pageSize, index * pageSize + pageSize),
+        },
+      };
+    });
+  });
+}
+
+const { departmentPage, pageNumber, pageCount, products } = Astro.props;
+const pageTitle = `${departmentPage.label} | Central Supply Catalog`;
+const pageHref = (page) => (page === 1 ? `/departments/${departmentPage.slug}/` : `/departments/${departmentPage.slug}/${page}/`);
+---
+
+<BaseLayout title={pageTitle} pageClass="dept-page">
+  <main id="main">
+    <div class="dept-content">
+      <div class="row dept-title">
+        <h1>{departmentPage.label}</h1>
+      </div>
+
+      <div class="prod-summary-container">
+        {products.length === 0 ? (
+          <h3>No products available for this department.</h3>
+        ) : (
+          <>
+            {products.map((product) => {
+              const imageSrc = productImagePath(product) || noImage.src;
+              const summary = extractSummary(renderMarkdown(product.description));
+              return (
+                <div class="prod-summary-row">
+                  <div class="prod-img">
+                    <img src={imageSrc} alt={product.name}>
+                  </div>
+                  <div class="product-summary">
+                    <a href={`/products/${product.sku}/`}>
+                      <h5>{product.name}</h5>
+                    </a>
+                    {summary && <p set:html={summary} />}
+                    <h6>{costLabel(product.cost)}</h6>
+                  </div>
+                </div>
+              );
+            })}
+
+            {pageCount > 1 && (
+              <div class="pager-nav-div row">
+                <nav class="pager-links" aria-label="Department pages">
+                  {Array.from({ length: pageCount }, (_, index) => {
+                    const page = index + 1;
+                    return page === pageNumber ? (
+                      <span aria-current="page">{page}</span>
+                    ) : (
+                      <a href={pageHref(page)}>{page}</a>
+                    );
+                  })}
+                </nav>
+              </div>
+            )}
+          </>
+        )}
+      </div>
+    </div>
+  </main>
+</BaseLayout>
