@@ -7,14 +7,17 @@
     "doc": "docs"
   },
   "scripts": {
-    "dev": "ELEVENTY_ENV=dev npx @11ty/eleventy --serve --output=build",
-    "prod": "ELEVENTY_ENV=prod npx @11ty/eleventy --output=dist",
-    "astro:dev": "ASTRO_TELEMETRY_DISABLED=1 astro dev",
-    "astro:build": "ASTRO_TELEMETRY_DISABLED=1 astro build",
-    "astro:preview": "ASTRO_TELEMETRY_DISABLED=1 astro preview",
+    "dev": "ASTRO_TELEMETRY_DISABLED=1 astro dev",
+    "prod": "ASTRO_TELEMETRY_DISABLED=1 astro build",
+    "preview": "ASTRO_TELEMETRY_DISABLED=1 astro preview",
+    "astro:dev": "npm run dev",
+    "astro:build": "npm run prod",
+    "astro:preview": "npm run preview",
+    "eleventy:dev": "ELEVENTY_ENV=dev npx @11ty/eleventy --serve --output=build",
+    "eleventy:prod": "ELEVENTY_ENV=prod npx @11ty/eleventy --output=eleventy-dist",
     "gen-search-index": "node ./src/util/search.js  ",
-    "watch:eleventy": "npx @11ty/eleventy --serve --output=build",
-    "start": "ELEVENTY_ENV=dev npx eleventy --serve"
+    "watch:eleventy": "npm run eleventy:dev",
+    "start": "npm run dev"
   },
   "repository": {
     "type": "git",

@@ -47,7 +47,7 @@ const legacyPassthrough = () => ({
 
 export default defineConfig({
   srcDir: './astro',
-  outDir: './astro-dist',
+  outDir: './dist',
   integrations: [vue(), legacyPassthrough()],
   vite: {
     server: {
