@@ -108,7 +108,7 @@ onBeforeUnmount(() => {
             <label class="visually-hidden" for="search-input">Search catalog</label>
             <input v-model="searchTerm" type="text" name="search" class="search-input" id="search-input">
             <button class="search-btn" id="search-button" type="submit" aria-label="Search catalog">
-              <span class="icon icon-search" aria-hidden="true"></span>
+              <span aria-hidden="true">🔍</span>
             </button>
           </form>
         </div>

@@ -214,6 +214,11 @@ header .header-row-2 .row-2-content .search-form .search-input {
   border: solid 1px black;
 }
 header .header-row-2 .row-2-content .search-form .search-btn {
+  align-items: center;
+  display: inline-flex;
+  font-size: 1.1rem;
+  justify-content: center;
+  line-height: 1;
   position: absolute;
   right: 0;
   top: 0;
