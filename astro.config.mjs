@@ -9,6 +9,38 @@ const copyIfExists = (from, to) => {
   fs.cpSync(from, to, { recursive: true });
 };
 
+const contentTypes = {
+  '.ico': 'image/x-icon',
+  '.jpg': 'image/jpeg',
+  '.jpeg': 'image/jpeg',
+  '.json': 'application/json; charset=utf-8',
+  '.mp3': 'audio/mpeg',
+  '.png': 'image/png',
+  '.svg': 'image/svg+xml',
+  '.webmanifest': 'application/manifest+json',
+  '.xml': 'application/xml; charset=utf-8',
+};
+
+const serveStaticFile = (sourceDir) => (req, res, next) => {
+  const url = new URL(req.url, 'http://localhost');
+  const relativePath = decodeURIComponent(url.pathname).replace(/^\/+/, '');
+  const filePath = path.resolve(sourceDir, relativePath);
+  const rootPath = path.resolve(sourceDir);
+
+  if (!filePath.startsWith(`${rootPath}${path.sep}`)) {
+    next();
+    return;
+  }
+
+  if (!fs.existsSync(filePath) || !fs.statSync(filePath).isFile()) {
+    next();
+    return;
+  }
+
+  res.setHeader('Content-Type', contentTypes[path.extname(filePath).toLowerCase()] || 'application/octet-stream');
+  fs.createReadStream(filePath).pipe(res);
+};
+
 const legacyPassthrough = () => ({
   name: 'legacy-passthrough',
   hooks: {
@@ -22,6 +54,9 @@ const legacyPassthrough = () => ({
           })
         );
       });
+      server.middlewares.use('/img', serveStaticFile('src/img'));
+      server.middlewares.use('/audio', serveStaticFile('src/audio'));
+      server.middlewares.use('/sw.js', serveStaticFile('src'));
     },
     'astro:build:done': ({ dir }) => {
       const outDir = dir.pathname;
