@@ -7,14 +7,12 @@
     "doc": "docs"
   },
   "scripts": {
-    "dev": "ELEVENTY_ENV=dev concurrently \"npm run sass\" \"npm run watch:sass\" \"npm run watch:eleventy\"",
-    "prod": "ELEVENTY_ENV=prod npx @11ty/eleventy --output=dist; sass src/scss:dist/css",
+    "dev": "ELEVENTY_ENV=dev npx @11ty/eleventy --serve --output=build",
+    "prod": "ELEVENTY_ENV=prod npx @11ty/eleventy --output=dist",
     "astro:dev": "ASTRO_TELEMETRY_DISABLED=1 astro dev",
     "astro:build": "ASTRO_TELEMETRY_DISABLED=1 astro build",
     "astro:preview": "ASTRO_TELEMETRY_DISABLED=1 astro preview",
-    "sass": "sass src/scss:build/css",
     "gen-search-index": "node ./src/util/search.js  ",
-    "watch:sass": "npm run sass -- --watch",
     "watch:eleventy": "npx @11ty/eleventy --serve --output=build",
     "start": "ELEVENTY_ENV=dev npx eleventy --serve"
   },
@@ -36,7 +34,6 @@
     "@babel/core": "^8.0.1",
     "@babel/preset-env": "^8.0.2",
     "astro": "^7.1.4",
-    "concurrently": "^10.0.4",
     "del": "^8.0.1",
     "gulp": "^5.0.1",
     "gulp-autoprefixer": "^10.0.0",
@@ -45,10 +42,8 @@
     "gulp-cli": "^3.1.0",
     "gulp-html-minifier-terser": "^8.0.0",
     "gulp-rename": "^2.0.0",
-    "gulp-sass": "^6.0.1",
     "gulp-uglify": "^3.0.2",
     "markdown-it": "^14.3.0",
-    "sass": "^1.55.0",
     "slugify": "^1.6.5",
     "vue": "^3.5.40"
   },

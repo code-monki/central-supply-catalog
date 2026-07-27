@@ -1,7 +1,4 @@
 import gulp from 'gulp';
-import * as dartSass from 'sass';
-import gulpSass from 'gulp-sass';
-const sass = gulpSass(dartSass);
 import path from 'path';
 import cp from 'child_process';
 import cleanCSS from 'gulp-clean-css';
@@ -18,7 +15,7 @@ import miniSearch from 'minisearch';
 
 const paths = {
   styles: {
-    src: 'src/scss/**/*.scss',
+    src: 'src/css/**/*.css',
     dest: 'dist/css'
   },
   scripts: {
@@ -62,10 +59,9 @@ const processHTML = () => {
     .pipe(gulp.dest("./dist"));
 };
 
-// process SASS files (autoprefix for cross-browser compatibility, minify)
-const processSASS = () => {
-  return gulp.src("./src/scss/*.scss")
-    .pipe(sass())
+// process CSS files (autoprefix for cross-browser compatibility, minify)
+const processCSS = () => {
+  return gulp.src("./src/css/*.css")
     .pipe(autoprefixer())
     .pipe(gulp.dest("./dist/css"))
     .pipe(rename({ suffix: ".min" }))
@@ -127,7 +123,7 @@ const build = gulp.series(
   render_prod,
   buildSiteIndex,
   processHTML,
-  processSASS,
+  processCSS,
   processJavascript,
   copyImages,
   copyRobotsText,

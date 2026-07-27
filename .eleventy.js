@@ -22,7 +22,7 @@ module.exports = function (eleventyConfig) {
   eleventyConfig.addPassthroughCopy('src/img');
   eleventyConfig.addPassthroughCopy('src/audio');
   eleventyConfig.setQuietMode(true);
-  eleventyConfig.addWatchTarget('./src/scss');
+  eleventyConfig.addWatchTarget('./src/css');
 
   //-------------------------------------------------------------
   // Use local 404 page
