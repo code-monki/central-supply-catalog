@@ -1,24 +1,15 @@
 import gulp from 'gulp';
-import dartSass from 'sass';
+import * as dartSass from 'sass';
 import gulpSass from 'gulp-sass';
 const sass = gulpSass(dartSass);
 import path from 'path';
 import cp from 'child_process';
-import cssnano from 'gulp-cssnano';
+import cleanCSS from 'gulp-clean-css';
 import uglify from 'gulp-uglify';
 import rename from 'gulp-rename';
-import imagemin from 'gulp-imagemin';
-import imageminJpegtran from 'imagemin-jpegtran';
-import imageminPngquant from 'imagemin-pngquant';
-import imageminSvgo from 'imagemin-svgo';
-import htmlmin from 'gulp-htmlmin';
-import sitemap from 'gulp-sitemap';
-import save from 'gulp-save';
-import removeEmptyLines from 'gulp-remove-empty-lines';
+import htmlmin from 'gulp-html-minifier-terser';
 import autoprefixer from 'gulp-autoprefixer';
 import babel from 'gulp-babel';
-import browserSync from 'browser-sync';
-import glob from 'glob';
 import fs from 'fs';
 import {deleteAsync} from 'del';
 import miniSearch from 'minisearch';
@@ -71,18 +62,6 @@ const processHTML = () => {
     .pipe(gulp.dest("./dist"));
 };
 
-// create SEO sitemap
-const siteMap = () => {
-  console.log("Running siteMap");
-  return (
-    gulp.src("./dist/**/*.html", { read: false })
-      .pipe(save("before-sitemap"))
-      .pipe(removeEmptyLines())
-      .pipe(gulp.dest("./dist"))
-      .pipe(save.restore("before-sitemap"))
-  );
-};
-
 // process SASS files (autoprefix for cross-browser compatibility, minify)
 const processSASS = () => {
   return gulp.src("./src/scss/*.scss")
@@ -90,9 +69,8 @@ const processSASS = () => {
     .pipe(autoprefixer())
     .pipe(gulp.dest("./dist/css"))
     .pipe(rename({ suffix: ".min" }))
-    .pipe(cssnano())
+    .pipe(cleanCSS())
     .pipe(gulp.dest("./dist/css"));
-  cb();
 };
 
 // process Javascript files (babel for cross-browser compatiblity, minify)
@@ -104,29 +82,10 @@ const processJavascript = () => {
     .pipe(gulp.dest("./dist/js"));
 };
 
-// optimize images (reduce image sizes)
-const optimizeImages = () => {
-  return gulp.src("./src/img/**/*")
-    .pipe(
-      imagemin([
-        // imageminGifsicle({ interlaced: true }),
-        imageminJpegtran({ quality: 50, progressive: true }),
-        imageminPngquant({ optimizationLevel: 5 }),
-        imageminSvgo ({
-          plugins: [
-            {
-            name: "removeViewBox",
-            active: true
-            },
-            {
-              name: 'cleanupIDs',
-              active: false
-            }
-          ]
-        })
-      ])
-    )
-    .pipe(gulp.dest("./dist/img"));
+// Copy images. Image compression should be handled outside the build pipeline
+// to avoid native binary downloader dependencies in production builds.
+const copyImages = () => {
+  return gulp.src("./src/img/**/*").pipe(gulp.dest("./dist/img"));
 };
 
 // build the site search index
@@ -146,6 +105,7 @@ const copyRobotsText = () => {
 
 // Copy the files folder
 const CopyFilesFolder = () => {
+  if (!fs.existsSync("./src/files")) return Promise.resolve();
   return gulp.src(["./src/files/**/*"]).pipe(gulp.dest("./dist/files"));
 };
 
@@ -159,16 +119,6 @@ const cleanBuild = () => {
   return deleteAsync("./build/**/*");
 };
 
-// watch for changes to files
-const monitor = () => {
-  browserSync.init({
-    server: "dist",
-    browser: "Google Chrome",
-  });
-
-  watch(["./dist/**/*"]);
-};
-
 // define Gulp Tasks
 
 // build the dist folder contents for localhost
@@ -179,8 +129,7 @@ const build = gulp.series(
   processHTML,
   processSASS,
   processJavascript,
-  optimizeImages,
-  siteMap,
+  copyImages,
   copyRobotsText,
   CopyFilesFolder
 );
