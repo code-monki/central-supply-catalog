@@ -2,6 +2,7 @@
 import BaseLayout from '../../layouts/BaseLayout.astro';
 import ProductPurchase from '../../components/ProductPurchase.vue';
 import {
+  allProductRecords,
   allProducts,
   convertTL,
   costLabel,
@@ -14,26 +15,26 @@ import {
 import noImage from '../../../src/img/products/no-image.png';
 
 export function getStaticPaths() {
-  return allProducts()
-    .filter((product) => !product.sku.match(/-00000$/g))
-    .map((product) => ({
-      params: { sku: product.sku },
-      props: { product },
-    }));
+  return allProductRecords().map((product) => ({
+    params: { sku: product.sku },
+    props: { product },
+  }));
 }
 
 const { product } = Astro.props;
-const imageSrc = productImagePath(product) || noImage.src;
+const isPlaceholderProduct = product.sku.match(/-00000$/g);
+const productTitle = isPlaceholderProduct ? 'Product Does Not Exist' : product.name;
+const imageSrc = isPlaceholderProduct ? '' : productImagePath(product) || noImage.src;
 
 const statsRows = [];
-if (product.stats?.length > 0) {
+if (!isPlaceholderProduct && product.stats?.length > 0) {
   const rows = parseInt(product.stats.length / 2) + (product.stats.length % 2);
   for (let index = 0; index < rows; index += 1) {
     statsRows.push([product.stats[index], product.stats[index + rows]]);
   }
 }
 
-const details = [
+const details = isPlaceholderProduct ? [] : [
   product.mfr ? ['Mfr:', getManufacturer(product.mfr)] : null,
   ['TL:', convertTL(product.techLevel)],
   product.mass ? ['Mass (Kg):', product.mass] : null,
@@ -42,117 +43,159 @@ const details = [
   product.qrebs ? ['QREBS:', product.qrebs] : null,
   product.damage ? ['Damage Effect(s):', product.damage] : null,
 ].filter(Boolean);
+
+const accessories = isPlaceholderProduct
+  ? []
+  : (product.accessories || []).map((sku) => {
+      const accessory = getProduct(sku);
+      return {
+        sku,
+        product: accessory,
+        imageSrc: accessory ? productImagePath(accessory) || noImage.src : '',
+      };
+    });
 ---
 
-<BaseLayout title={`${product.name} | Central Supply Catalog`} pageClass="product-page">
+<BaseLayout title={`${productTitle} | Central Supply Catalog`} pageClass="product-page">
   <main id="main">
     <div class="product-page-content">
-      <div class="row summary-row">
-        <div class="product-image">
-          <img src={imageSrc} alt={product.name} class="responsive-img" id="prod-img">
+      {isPlaceholderProduct ? (
+        <div class="row summary-row">
+          <h3>Product Does Not Exist</h3>
         </div>
-        <div class="product-summary">
-          <h1 id="product-name" data-sku={product.sku}>{product.name}</h1>
-        </div>
-        <div class="product-controls">
-          <ProductPurchase product={product} formattedCost={costLabel(product.cost)} imageSrc={imageSrc} client:load />
-        </div>
-      </div>
+      ) : (
+        <>
+          <div class="row summary-row">
+            <div class="product-image">
+              <img src={imageSrc} alt={product.name} class="responsive-img" id="prod-img">
+            </div>
+            <div class="product-summary">
+              <h1 id="product-name" data-sku={product.sku}>{product.name}</h1>
+            </div>
+            <div class="product-controls">
+              <ProductPurchase product={product} formattedCost={costLabel(product.cost)} imageSrc={imageSrc} client:load />
+            </div>
+          </div>
 
-      {product.variants?.length > 0 && (
-        <div class="product-variants">
-          {product.variants.map((variant) => {
-            const variantProduct = getProduct(variant.sku);
-            if (!variantProduct) return null;
-            return variant.sku === product.sku
-              ? <a class="active-variant">{variant.label}</a>
-              : <a href={`/products/${variant.sku}`}>{variant.label}</a>;
-          })}
-        </div>
-      )}
-
-      <div class="row product-description">
-        <div class="description-content">
-          <h2>Product Description</h2>
-          <Fragment set:html={renderMarkdown(product.description)} />
-          {statsRows.length > 0 && (
-            <div class="stats">
-              <h3>Specifications</h3>
-              <div class="stat-table">
-                <table class="striped">
-                  <tbody>
-                    {statsRows.map(([left, right]) => (
-                      <tr>
-                        <td>{left.label}:</td>
-                        <td>{left.value}</td>
-                        {right ? (
-                          <>
-                            <td>{right.label}:</td>
-                            <td>{right.value}</td>
-                          </>
-                        ) : (
-                          <td></td>
-                        )}
-                      </tr>
-                    ))}
-                  </tbody>
-                </table>
-              </div>
+          {product.variants?.length > 0 && (
+            <div class="product-variants">
+              {product.variants.map((variant) => {
+                const variantProduct = getProduct(variant.sku);
+                if (!variantProduct) return null;
+                return variant.sku === product.sku
+                  ? <a class="active-variant">{variant.label}</a>
+                  : <a href={`/products/${variant.sku}`}>{variant.label}</a>;
+              })}
             </div>
           )}
-        </div>
-      </div>
 
-      <div class="row product-details">
-        <h2>Product Details</h2>
-        <table>
-          <tbody>
-            {details.map(([label, value]) => (
-              <tr>
-                <td>{label}</td>
-                <td>
-                  {typeof value === 'object' && value?.url ? (
-                    <a href={value.url} target="_blank" rel="noopener noreferrer">{value.name}</a>
-                  ) : typeof value === 'object' && value?.name ? (
-                    value.name
-                  ) : (
-                    value
-                  )}
-                </td>
-              </tr>
-            ))}
-          </tbody>
-        </table>
-      </div>
+          <div class="row product-description">
+            <div class="description-content">
+              <h2>Product Description</h2>
+              <Fragment set:html={renderMarkdown(product.description)} />
+              {statsRows.length > 0 && (
+                <div class="stats">
+                  <h3>Specifications</h3>
+                  <div class="stat-table">
+                    <table class="striped">
+                      <tbody>
+                        {statsRows.map(([left, right]) => (
+                          <tr>
+                            <td>{left.label}:</td>
+                            <td>{left.value}</td>
+                            {right ? (
+                              <>
+                                <td>{right.label}:</td>
+                                <td>{right.value}</td>
+                              </>
+                            ) : (
+                              <td></td>
+                            )}
+                          </tr>
+                        ))}
+                      </tbody>
+                    </table>
+                  </div>
+                </div>
+              )}
+            </div>
+          </div>
 
-      {product.sources?.length > 0 && (
-        <div class="row product-source">
-          <h2>Sources</h2>
-          {product.sources.map((source) => {
-            const publisher = getPublisher(source.publisher);
-            return (
-              <p class="source">
-                {source.url ? (
-                  <a href={source.url} target="_blank" rel="noopener noreferrer"><em>{source.publication}</em></a>
+          <div class="row product-details">
+            <h2>Product Details</h2>
+            <table>
+              <tbody>
+                {details.map(([label, value]) => (
+                  <tr>
+                    <td>{label}</td>
+                    <td>
+                      {typeof value === 'object' && value?.url ? (
+                        <a href={value.url} target="_blank" rel="noopener noreferrer">{value.name}</a>
+                      ) : typeof value === 'object' && value?.name ? (
+                        value.name
+                      ) : (
+                        value
+                      )}
+                    </td>
+                  </tr>
+                ))}
+              </tbody>
+            </table>
+          </div>
+
+          {accessories.length > 0 && (
+            <div class="product-accessories">
+              <h2>Accessories</h2>
+              {accessories.map(({ sku, product: accessory, imageSrc }) => (
+                accessory ? (
+                  <div class="row accessory-row">
+                    <div>
+                      <a href={`/products/${sku}`}>
+                        <img src={imageSrc} alt={accessory.name}>
+                      </a>
+                    </div>
+
+                    <div>
+                      <a href={`/products/${sku}`}>{accessory.name}</a>
+                    </div>
+                  </div>
                 ) : (
-                  <><em>{source.publication}</em></>
-                )}
-                {', '}
-                {source.authors?.join(', ')}
-                {publisher && (
-                  <>
-                    {', '}
-                    {publisher.url ? (
-                      <a href={publisher.url} target="_blank" rel="noopener noreferrer">{publisher.name}</a>
+                  <p>No accessories available</p>
+                )
+              ))}
+            </div>
+          )}
+
+          {product.sources?.length > 0 && (
+            <div class="row product-source">
+              <h2>Sources</h2>
+              {product.sources.map((source) => {
+                const publisher = getPublisher(source.publisher);
+                return (
+                  <p class="source">
+                    {source.url ? (
+                      <a href={source.url} target="_blank" rel="noopener noreferrer"><em>{source.publication}</em></a>
                     ) : (
-                      publisher.name
+                      <><em>{source.publication}</em></>
                     )}
-                  </>
-                )}
-              </p>
-            );
-          })}
-        </div>
+                    {', '}
+                    {source.authors?.join(', ')}
+                    {publisher && (
+                      <>
+                        {', '}
+                        {publisher.url ? (
+                          <a href={publisher.url} target="_blank" rel="noopener noreferrer">{publisher.name}</a>
+                        ) : (
+                          publisher.name
+                        )}
+                      </>
+                    )}
+                  </p>
+                );
+              })}
+            </div>
+          )}
+        </>
       )}
     </div>
   </main>

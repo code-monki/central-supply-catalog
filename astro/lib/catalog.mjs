@@ -91,14 +91,15 @@ export const extractSummary = (text = '') => {
 };
 
 let productCache = null;
+let productRecordCache = null;
 
-export const allProducts = () => {
-  if (productCache) return productCache;
+export const allProductRecords = () => {
+  if (productRecordCache) return productRecordCache;
 
   const productsDir = path.join(rootDir, 'src/_data/products');
   const categoryDirs = fs.readdirSync(productsDir);
 
-  productCache = categoryDirs
+  productRecordCache = categoryDirs
     .flatMap((category) => {
       const categoryDir = path.join(productsDir, category);
       return fs
@@ -109,6 +110,15 @@ export const allProducts = () => {
           category,
         })));
     })
+    .sort((a, b) => (a.name || a.sku).localeCompare(b.name || b.sku));
+
+  return productRecordCache;
+};
+
+export const allProducts = () => {
+  if (productCache) return productCache;
+
+  productCache = allProductRecords()
     .filter((product) => product.name && !product.sku.match(/-00000$/g))
     .sort((a, b) => a.name.localeCompare(b.name));
 
