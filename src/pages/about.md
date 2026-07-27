@@ -1,9 +1,5 @@
 ---
 title: About the Central Supply Catalog
-layout: site-page.njk
-permalink: /{{ title | slugify }}/
-tags:
-  - pages
 ---
 
 The Central Supply Catalog draws on a wealth of information from the various versions of the Traveller Science Fiction Role-Playing Game (SFRPG) that was originally published by the Games Designers Workshop in the late 1970s. Over the years the game has continued to evolve and continues to provide enjoyment for players young and old. It is a testimony to the timelessness and appeal of adventuring in the far reaches of outer space and will hopefully continue to flourish for many years to come.

@@ -1,9 +1,5 @@
 ---
 title: Support
-layout: site-page.njk
-permalink: /{{ title | slugify }}/
-tags:
-  - pages
 ---
 
 Welcome to the Central Supply Catalog Support page!

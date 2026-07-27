@@ -82,13 +82,7 @@ With this in mind, the total number of catalog items is not anticipated to excee
 
 ## Design
 
-The minisearch library will be included into the web application by using the following CDN link:
-
-```html
-<script src="https://cdn.jsdelivr.net/npm/minisearch@3.0.4/dist/umd/index.min.js"></script>
-```
-
-Should the CDN link fail at some point in the future, the libraries will be installed locally in the _src/js_ directory and deployed as part of the site.
+The minisearch library is installed from npm and bundled into the Astro search component by Vite. The Astro build emits the search payload at `/_data/searchindex.json`.
 
 The resulting search index will be stored in the \data folder as an uncompressed text file containing a JSON array. The file is not be compressed as the underlying assumption is that the Github Pages web server has compression turned on.
 

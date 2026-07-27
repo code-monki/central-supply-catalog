@@ -1,9 +1,5 @@
 ---
 title: Search
-layout: site-page.njk
-permalink: /support/{{ title | slugify }}/
-tags:
-  - pages
 ---
 
 ## Searching the Central Supply Catalog
