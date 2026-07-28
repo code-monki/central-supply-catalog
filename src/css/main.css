@@ -393,7 +393,7 @@ header .header-row-2 .row-2-content .search-form .search-btn {
 }
 @media screen and (min-width: 48rem) {
   .product-summary-container .container .prod-summary-row .product-summary h5 {
-    font-size: 1.2rem !important;
+    font-size: 1.1rem !important;
   }
 }
 .product-summary-container .container .prod-summary-row .product-summary h6 {
@@ -402,7 +402,7 @@ header .header-row-2 .row-2-content .search-form .search-btn {
 }
 @media screen and (min-width: 48rem) {
   .product-summary-container .container .prod-summary-row .product-summary h6 {
-    font-size: 1.4rem !important;
+    font-size: 1.05rem !important;
   }
 }
 .product-summary-container .container .prod-summary-row .product-summary p {
@@ -502,12 +502,12 @@ footer .copyright-info a img {
 }
 @media screen and (min-width: 48rem) {
   .search-results h2 {
-    font-size: 1.3rem;
+    font-size: 1.15rem;
   }
 }
 @media screen and (min-width: 64rem) {
   .search-results h2 {
-    font-size: 1.5rem;
+    font-size: 1.25rem;
   }
 }
 .search-results .container {
@@ -554,7 +554,7 @@ footer .copyright-info a img {
 }
 @media screen and (min-width: 48rem) {
   .search-results .container .search-result-row .product-summary h5 {
-    font-size: 1.2rem;
+    font-size: 1.1rem;
   }
 }
 .search-results .container .search-result-row .product-summary h3,
@@ -567,13 +567,13 @@ footer .copyright-info a img {
 @media screen and (min-width: 48rem) {
   .search-results .container .search-result-row .product-summary h3,
   .search-results .container .search-result-row .product-summary .product-cost {
-    font-size: 1.2rem;
+    font-size: 1.05rem;
   }
 }
 @media screen and (min-width: 64rem) {
   .search-results .container .search-result-row .product-summary h3,
   .search-results .container .search-result-row .product-summary .product-cost {
-    font-size: 1.4rem;
+    font-size: 1.1rem;
   }
 }
 .search-results .container .search-result-row .product-summary p {
@@ -1161,7 +1161,7 @@ main .hero-section .subtitle {
 }
 @media screen and (min-width: 48rem) {
   .shopping-cart .cart-items-container .product-data .title-and-total-div .prod-title a {
-    font-size: 1.2rem;
+    font-size: 1.1rem;
   }
 }
 .shopping-cart .cart-items-container .product-data .title-and-total-div .prod-total {
@@ -1172,7 +1172,7 @@ main .hero-section .subtitle {
 }
 @media screen and (min-width: 48rem) {
   .shopping-cart .cart-items-container .product-data .title-and-total-div .prod-total {
-    font-size: 1.2rem;
+    font-size: 1.05rem;
     width: 10rem;
   }
 }
@@ -1270,7 +1270,7 @@ main .hero-section .subtitle {
 }
 @media screen and (min-width: 48rem) {
   .browse-page-container .browse-product-row .prod-info a {
-    font-size: 1.2rem;
+    font-size: 1.1rem;
   }
 }
 .browse-page-container .browse-product-row .prod-info a:hover {
@@ -1427,7 +1427,7 @@ main .hero-section .subtitle {
 }
 @media screen and (min-width: 48rem) {
   .dept-page .dept-content .prod-summary-container .prod-summary-row .product-summary p {
-    font-size: 1rem;
+    font-size: 0.95rem;
   }
 }
 .dept-page .dept-content .prod-summary-container .prod-summary-row .product-summary h5 {
@@ -1435,7 +1435,7 @@ main .hero-section .subtitle {
 }
 @media screen and (min-width: 48rem) {
   .dept-page .dept-content .prod-summary-container .prod-summary-row .product-summary h5 {
-    font-size: 1.2rem;
+    font-size: 1.1rem;
   }
 }
 .dept-page .dept-content .prod-summary-container .prod-summary-row .product-summary h6 {
@@ -1443,7 +1443,7 @@ main .hero-section .subtitle {
 }
 @media screen and (min-width: 48rem) {
   .dept-page .dept-content .prod-summary-container .prod-summary-row .product-summary h6 {
-    font-size: 1rem;
+    font-size: 0.95rem;
   }
 }
 .dept-page .dept-content .prod-summary-container .prod-summary-row .product-summary a {
