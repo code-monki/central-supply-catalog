@@ -1089,14 +1089,14 @@ main .hero-section .subtitle {
   }
 }
 .shopping-cart h1 {
-  font-size: 1.45rem;
+  font-size: 1.3rem;
   text-align: center;
   margin-bottom: 0.5rem;
 }
 @media screen and (min-width: 48rem) {
   .shopping-cart h1 {
-    font-size: 1.65rem;
-    margin-bottom: 1rem;
+    font-size: 1.45rem;
+    margin-bottom: 0.85rem;
   }
 }
 .shopping-cart .total-row {
@@ -1107,7 +1107,7 @@ main .hero-section .subtitle {
 }
 @media screen and (min-width: 48rem) {
   .shopping-cart .total-row {
-    padding: 1rem;
+    padding: 0.85rem 1rem;
   }
 }
 .shopping-cart .total-row .empty-cart-button button {
@@ -1131,7 +1131,7 @@ main .hero-section .subtitle {
 }
 @media screen and (min-width: 48rem) {
   .shopping-cart .cart-items-container .product-row {
-    padding: 1rem;
+    padding: 0.85rem 1rem;
   }
 }
 .shopping-cart .cart-items-container .product-row .prod-img img {
@@ -1163,7 +1163,7 @@ main .hero-section .subtitle {
 }
 @media screen and (min-width: 48rem) {
   .shopping-cart .cart-items-container .product-data .title-and-total-div .prod-title a {
-    font-size: 1rem;
+    font-size: 0.9rem;
   }
 }
 .shopping-cart .cart-items-container .product-data .title-and-total-div .prod-total {
@@ -1174,26 +1174,26 @@ main .hero-section .subtitle {
 }
 @media screen and (min-width: 48rem) {
   .shopping-cart .cart-items-container .product-data .title-and-total-div .prod-total {
-    font-size: 1rem;
+    font-size: 0.95rem;
     width: 10rem;
   }
 }
 .shopping-cart .cart-items-container .product-data .prod-qty {
   align-items: center;
   display: flex;
-  font-size: 0.95rem;
-  gap: 0.35rem;
-  margin-top: 0.85rem;
+  font-size: 0.85rem;
+  gap: 0.3rem;
+  margin-top: 0.75rem;
 }
 .shopping-cart .cart-items-container .product-data .prod-qty input {
   border: 1px solid #9e9e9e;
   border-radius: 0.2rem;
   font: inherit;
-  height: 2rem;
+  height: 1.75rem;
   max-width: none;
   padding: 0 0.35rem;
   text-align: center;
-  width: 3rem;
+  width: 2.5rem;
 }
 .shopping-cart .cart-items-container .product-data .prod-qty button {
   align-items: center;
@@ -1204,12 +1204,12 @@ main .hero-section .subtitle {
   cursor: pointer;
   display: inline-flex;
   font: inherit;
-  font-size: 1rem;
+  font-size: 0.95rem;
   font-weight: 700;
-  height: 2rem;
+  height: 1.75rem;
   justify-content: center;
   line-height: 1;
-  min-width: 2rem;
+  min-width: 1.75rem;
   padding: 0;
 }
 .shopping-cart .cart-items-container .product-data .prod-qty button:hover,
