@@ -7,13 +7,17 @@
     "doc": "docs"
   },
   "scripts": {
-    "dev": "ELEVENTY_ENV=dev concurrently \"npm run sass\" \"npm run watch:sass\" \"npm run watch:eleventy\"",
-    "prod": "ELEVENTY_ENV=prod npx @11ty/eleventy --output=dist; sass src/scss:dist/css",
-    "sass": "sass src/scss:build/css",
-    "gen-search-index": "node ./src/util/search.js  ",
-    "watch:sass": "npm run sass -- --watch",
-    "watch:eleventy": "npx @11ty/eleventy --serve --output=build",
-    "start": "ELEVENTY_ENV=dev npx eleventy --serve"
+    "dev": "ASTRO_TELEMETRY_DISABLED=1 astro dev",
+    "prod": "ASTRO_TELEMETRY_DISABLED=1 astro build",
+    "preview": "ASTRO_TELEMETRY_DISABLED=1 astro preview",
+    "test": "npm run test:browser",
+    "test:install": "playwright install chromium",
+    "test:browser": "playwright test",
+    "test:audit": "node scripts/lighthouse-budget.mjs",
+    "astro:dev": "npm run dev",
+    "astro:build": "npm run prod",
+    "astro:preview": "npm run preview",
+    "start": "npm run dev"
   },
   "repository": {
     "type": "git",
@@ -21,34 +25,22 @@
   },
   "keywords": [],
   "author": "Chuck McKnight",
-  "license": "ISC",
+  "license": "Apache-2.0",
   "bugs": {
     "url": "https://github.com/cmcknight/central-supply-catalog/issues"
   },
   "homepage": "https://github.com/cmcknight/central-supply-catalog#readme",
   "devDependencies": {
-    "@11ty/eleventy": "^3.1.6",
-    "@11ty/eleventy-upgrade-help": "^3.0.2",
-    "@babel/core": "^8.0.1",
-    "@babel/preset-env": "^8.0.2",
-    "concurrently": "^10.0.4",
-    "del": "^8.0.1",
-    "gulp": "^5.0.1",
-    "gulp-autoprefixer": "^10.0.0",
-    "gulp-babel": "^8.0.0",
-    "gulp-clean-css": "^4.3.0",
-    "gulp-cli": "^3.1.0",
-    "gulp-html-minifier-terser": "^8.0.0",
-    "gulp-rename": "^2.0.0",
-    "gulp-sass": "^6.0.1",
-    "gulp-uglify": "^3.0.2",
-    "sass": "^1.55.0",
-    "slugify": "^1.6.5"
+    "@astrojs/vue": "^7.0.1",
+    "@axe-core/playwright": "^4.12.1",
+    "@playwright/test": "^1.62.1",
+    "astro": "^7.1.4",
+    "lighthouse": "^13.4.1",
+    "markdown-it": "^14.3.0",
+    "slugify": "^1.6.5",
+    "vue": "^3.5.40"
   },
   "dependencies": {
     "minisearch": "^7.2.0"
-  },
-  "overrides": {
-    "@11ty/recursive-copy": "^5.0.2"
   }
 }

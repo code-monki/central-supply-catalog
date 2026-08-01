@@ -1,0 +1,10 @@
+---
+import BaseLayout from '../layouts/BaseLayout.astro';
+import ShoppingCart from '../components/ShoppingCart.vue';
+---
+
+<BaseLayout title="Shopping Cart | Central Supply Catalog">
+  <main id="main">
+    <ShoppingCart client:load />
+  </main>
+</BaseLayout>

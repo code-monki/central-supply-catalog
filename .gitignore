@@ -1,22 +1,35 @@
-*.bmpr
-node_modules/*
-_site/*
-.DS_Store
-scratch
-css/*
-ToDos.md
+# Dependencies
+node_modules/
+
+# Build output and generated data
+dist/
+astro-dist/
+build/
+_site/
+.astro/
+reports/
+test-results/
+_data/
+css/
+searchindex.idx
+searchindex.json
+
+# Generated CSS, except the checked-in source entrypoint
 src/css/*
-src/partials_layouts/home_page-old.njk
-scratch
-build/*
+!src/css/
+!src/css/main.css
+
+# Local files
+.DS_Store
+*.bmpr
+*.bak
+*.old
 *bak
 *old
-hold/*
-dist/
+scratch/
+hold/
+ToDos.md
 Todo.md
 settings.json
-package-lock.json
 .vscode/*
-_data/*
-searchindex.idx
 CSC-image-catalog.xlsx

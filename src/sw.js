@@ -1,6 +1,6 @@
 const version = 13;
 const cacheName = `csc-cache-v${version}`;
-const preCache = ['/_data/searchindex.idx'];
+const preCache = ['/_data/searchindex.json'];
 
 this.addEventListener('install', function (ev) {
   ev.waitUntil(
@@ -11,33 +11,49 @@ this.addEventListener('install', function (ev) {
       )
     )
   );
+  self.skipWaiting();
 });
 
 self.addEventListener('activate', (ev) => {
   ev.waitUntil(
     caches.keys().then((keys) => {
       return Promise.all(keys.filter((key) => key != cacheName).map((key) => caches.delete(key)));
-    })
+    }).then(() => self.clients.claim())
   );
   console.log(`Version ${cacheName} activated`);
 });
 
 const BS_MARKER = '/browser-sync/';
 
-self.addEventListener('fetch', async ({ request }) => {
+const resolveRequest = async (request) => {
   if (request.url.indexOf(BS_MARKER) > -1) {
     return await fetch(request);
   }
 
-  const cache = await caches.open(cacheName);
-  const cached = await cache.match(request);
-
-  if (cached) {
-    return cached;
+  if (request.method !== 'GET') {
+    return await fetch(request);
   }
 
-  // console.log(request);
-  const response = await fetch(request);
-  await cache.put(request, response.clone());
-  return response;
+  const cache = await caches.open(cacheName);
+
+  try {
+    const response = await fetch(request);
+
+    if (response.ok) {
+      await cache.put(request, response.clone());
+    }
+
+    return response;
+  } catch {
+    const cached = await cache.match(request);
+    if (cached) {
+      return cached;
+    }
+
+    throw new Error(`Unable to load ${request.url}`);
+  }
+};
+
+self.addEventListener('fetch', (ev) => {
+  ev.respondWith(resolveRequest(ev.request));
 });

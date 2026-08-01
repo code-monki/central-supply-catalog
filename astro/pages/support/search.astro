@@ -1,0 +1,21 @@
+---
+import BaseLayout from '../../layouts/BaseLayout.astro';
+import SearchResults from '../../components/SearchResults.vue';
+import { readMarkdownPage, searchIndexVersion } from '../../lib/catalog.mjs';
+import noImage from '../../../src/img/products/no-image.png';
+
+const page = readMarkdownPage('astro/content/pages/search.md');
+const indexVersion = searchIndexVersion();
+---
+
+<BaseLayout title={`${page.data.title} | Central Supply Catalog`} pageClass="site-page">
+  <main id="main">
+    <div class="site-page-content">
+      <h1>{page.data.title}</h1>
+      <div class="search-results-slot">
+        <SearchResults indexUrl="/_data/searchindex.json" indexVersion={indexVersion} fallbackImage={noImage.src} client:load />
+      </div>
+      <Fragment set:html={page.html} />
+    </div>
+  </main>
+</BaseLayout>

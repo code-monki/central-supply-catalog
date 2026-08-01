@@ -14,7 +14,7 @@ This document contains notes related to the design and implementation of the Cen
 ### Open Game License
 
 
-The Cepheus Engine fallsd under the Open Game License (OGL) version 1.0a. This license requires that all OGL content be identified as such and in a manner that it can be easily identified. Given the nature of the OGL content that will be used, i.e., the descriptions and characterists of goods, each item will have an associate entry indicating the source of the entry in the data files.
+The Cepheus Engine falls under the Open Game License (OGL) version 1.0a. This license requires that all OGL content be identified as such and in a manner that it can be easily identified. Given the nature of the OGL content that will be used, i.e., the descriptions and characteristics of goods, each item will have an associate entry indicating the source of the entry in the data files.
 
 ### Traveller
 
@@ -83,7 +83,7 @@ The different types of goods are arbitrarily placed in "departments" to facilita
 **Survival**
 
 - Cables
-- Const. Matls
+- Construction Materials
 - Fuel
 - Gases
 - Liquids
@@ -103,7 +103,7 @@ The different types of goods are arbitrarily placed in "departments" to facilita
 
 **Weapons**
 
-- Accesories
+- Accessories
 - Ammunition
 - Weapons
 
@@ -126,7 +126,7 @@ The six most common portrait orientation viewport sizes seem to be:
 |  1366 |    768 |
 |  1920 |   1080 |
 
-Rather than re-inventing the wheel, we will use the breakpoints provided by the Bootstrap<a href="#fn1" id="fnote1"><sup>1</suo></a> framework even though we will not be using that framework. To wit,
+Rather than re-inventing the wheel, we will use the breakpoints provided by the Bootstrap<a href="#fn1" id="fnote1"><sup>1</sup></a> framework even though we will not be using that framework. To wit,
 
 | Breakpoint        | Class Infix | Dimensions  |
 | ----------------- | :---------: | ----------- |
@@ -195,4 +195,4 @@ On screens less than 400px, the list will expand to cover the entire horizontal 
 
 
 ----
-<sup>1</sup> [Bootstrap Breakpoints](https://getbootstrap.com/dist/5.0/layout/breakpoints/)
+<sup>1</sup> [Bootstrap Breakpoints](https://getbootstrap.com/docs/5.0/layout/breakpoints/)

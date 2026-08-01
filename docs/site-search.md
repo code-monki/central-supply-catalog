@@ -36,7 +36,7 @@ The product data entries consist of the following format:
 | description | Full-text description of item                                                              |
 | sources     | A collection of objects that provide the author / publication attributions for the product |
 | accessories | A collection of skus to related products                                                   |
-| tags        | A collection of labels used by the Eleventy system to create custom collections            |
+| tags        | A collection of labels used for search and catalog grouping                                |
 
 For the purposes of the search index, the relevant fields to include in the index are:
 
@@ -76,23 +76,15 @@ Search results will be sorted by relevance, sku, and product name.
 
 ## Unique ID Requirement
 
-Minisearch relies upon a unique _id_ element. This element can apparently be anything so long as it is unique. The majority of the site functionality uses the sku as the unique identifier, but for the purposes of the search index, it is more reasonable to inject an artifical numeric id. The rationale is that the search index is generated to a JSON object and persisted to disk on the site. In turn the browser application must download the search index so it is desireable to minimize the size of the search index as much as possible.
-
-With this in mind, the total number of catalog items is not anticipated to exceed 99,999 which results in a maximum of five bytes storage whereas a sku is 13 bytes every time so saving 8 bytes, while not a considerably large savings for a single retrieval becomes more important as the number of users increase. This constraint is also due to the need to minimize operational costs by minimizing the bandwidth and storage used by the application. Ergo sum, every little bit helps.
+MiniSearch relies upon a unique _id_ element. The current Astro search component uses the product `sku` as the MiniSearch `idField`, which keeps search results aligned with product routes and cart records.
 
 ## Design
 
-The minisearch library will be included into the web application by using the following CDN link:
+The minisearch library is installed from npm and bundled into the Astro search component by Vite. The Astro build emits the search payload at `/_data/searchindex.json`.
 
-```html
-<script src="https://cdn.jsdelivr.net/npm/minisearch@3.0.4/dist/umd/index.min.js"></script>
-```
+The resulting search payload is stored at `/_data/searchindex.json` as uncompressed JSON. It contains a version and document array; the browser builds the MiniSearch index at runtime and caches the documents in `localStorage` by version.
 
-Should the CDN link fail at some point in the future, the libraries will be installed locally in the _src/js_ directory and deployed as part of the site.
-
-The resulting search index will be stored in the \data folder as an uncompressed text file containing a JSON array. The file is not be compressed as the underlying assumption is that the Github Pages web server has compression turned on.
-
-The input data for the index is stored in a collection of files in the \data directory that will not be copied to the production \data folder. The _products-manifest.json_ file contains a list of the data files for the indexer to use as its input.
+The input data for the index is stored in `src/_data/products/` and is not copied directly to the production `_data` folder.
 
 The search results will be overlaid on the home page in place of the departments container.
 

@@ -1,0 +1,15 @@
+---
+import BaseLayout from '../layouts/BaseLayout.astro';
+import { readMarkdownPage } from '../lib/catalog.mjs';
+
+const page = readMarkdownPage('astro/content/pages/support.md');
+---
+
+<BaseLayout title={`${page.data.title} | Central Supply Catalog`} pageClass="site-page">
+  <main id="main">
+    <div class="site-page-content">
+      <h1>{page.data.title}</h1>
+      <Fragment set:html={page.html} />
+    </div>
+  </main>
+</BaseLayout>
