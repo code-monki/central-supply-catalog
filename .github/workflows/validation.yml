@@ -40,6 +40,8 @@ jobs:
         run: npm run prod
 
       - name: Run browser regression tests
+        env:
+          SITE_BASE_PATH: /central-supply-catalog
         run: npm test
 
       - name: Run Lighthouse budgets

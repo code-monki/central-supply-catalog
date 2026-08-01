@@ -1,4 +1,4 @@
-const version = 14;
+const version = 15;
 const cacheName = `csc-cache-v${version}`;
 const preCache = ['./_data/searchindex.json'];
 

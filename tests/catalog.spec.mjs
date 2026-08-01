@@ -17,6 +17,9 @@ const sampledProduct = {
   sku: '200-011-00001',
   name: 'Gunsight, Electronic',
 };
+const expectedBasePath = process.env.SITE_BASE_PATH ? `${process.env.SITE_BASE_PATH.replace(/\/+$/, '')}/` : '/';
+const escapedBasePath = expectedBasePath.replace(/[.*+?^${}()|[\]\\]/g, '\\$&');
+const routePath = (route) => `${expectedBasePath.replace(/\/$/, '')}${route}`;
 
 test.describe('route smoke tests', () => {
   for (const route of sampledRoutes) {
@@ -29,7 +32,7 @@ test.describe('route smoke tests', () => {
         if (message.type() === 'error') consoleErrors.push(message.text());
       });
 
-      const response = await page.goto(route);
+      const response = await page.goto(routePath(route));
       expect(response?.ok()).toBe(true);
       await expect(page).toHaveTitle(/Central Supply Catalog/);
       await expect(page.locator('main')).toHaveCount(1);
@@ -40,10 +43,16 @@ test.describe('route smoke tests', () => {
 });
 
 test('search warms and reuses a versioned localStorage cache', async ({ page }) => {
-  await page.goto('/support/search/?s=laser');
+  await page.goto(routePath('/support/search/?s=laser'));
 
   await expect(page.getByRole('heading', { name: /Search found 41 results for:/ })).toBeVisible();
   await expect(page.locator('.search-result-row')).toHaveCount(41);
+  const thumbnailPathnames = await page.locator('.thumbnail-img').evaluateAll((images) =>
+    images.map((image) => new URL(image.src).pathname)
+  );
+  expect(thumbnailPathnames.every((pathname) => pathname.startsWith(expectedBasePath))).toBe(true);
+  expect(thumbnailPathnames[0]).toMatch(new RegExp(`${escapedBasePath}_astro/`));
+  expect(thumbnailPathnames.some((pathname) => pathname.startsWith(`${expectedBasePath}img/products/`))).toBe(true);
 
   const cacheKeys = await page.evaluate(() => Object.keys(localStorage).filter((key) => key.startsWith('csc-search-index:')));
   expect(cacheKeys).toEqual([`csc-search-index:${searchIndexVersion()}`]);
@@ -59,14 +68,14 @@ test('search warms and reuses a versioned localStorage cache', async ({ page }) 
 });
 
 test('product purchase persists to the shopping cart and quantity controls update totals', async ({ page }) => {
-  await page.goto('/products/200-011-00001/');
+  await page.goto(routePath('/products/200-011-00001/'));
 
   await page.getByLabel('Qty:').fill('2');
   await page.getByRole('button', { name: 'Add To Cart' }).click();
   await expect(page.getByRole('status')).toHaveText('Item added to cart');
   await expect(page.locator('#cart-badge')).toHaveText('1');
 
-  await page.goto('/shopping-cart/');
+  await page.goto(routePath('/shopping-cart/'));
   await expect(page.getByRole('link', { name: sampledProduct.name }).first()).toBeVisible();
   await expect(page.getByLabel(`Quantity for ${sampledProduct.name}`)).toHaveValue('2');
   await expect(page.locator('#cart-total')).toContainText('Total:');
@@ -82,7 +91,7 @@ test('product purchase persists to the shopping cart and quantity controls updat
 });
 
 test('keyboard navigation reaches menu, department, search, and cart controls', async ({ page }) => {
-  await page.goto('/');
+  await page.goto(routePath('/'));
 
   await page.getByRole('button', { name: 'Open navigation' }).focus();
   await expect(page.getByRole('button', { name: 'Open navigation' })).toBeFocused();
@@ -108,13 +117,13 @@ test('keyboard navigation reaches menu, department, search, and cart controls', 
   await page.locator('#search-input').focus();
   await page.keyboard.type('laser');
   await page.keyboard.press('Enter');
-  await expect(page).toHaveURL(/\/support\/search\/\?s=laser$/);
+  await expect(page).toHaveURL(new RegExp(`${escapedBasePath}support/search/\\?s=laser$`));
 });
 
 test.describe('accessibility regression checks', () => {
   for (const route of ['/', '/products/200-011-00001/', '/departments/weapons/', '/support/search/?s=laser', '/shopping-cart/']) {
     test(`${route} has no automated axe violations`, async ({ page }) => {
-      await page.goto(route);
+      await page.goto(routePath(route));
       if (route.includes('/support/search/')) {
         await expect(page.getByRole('heading', { name: /Search found/ })).toBeVisible();
       }
