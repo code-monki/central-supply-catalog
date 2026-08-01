@@ -14,9 +14,20 @@ Validation target: local production preview at `http://127.0.0.1:4324/` after `n
 
 - `npm install --package-lock-only`: passed, `0` vulnerabilities.
 - `npm prune`: passed; removed stale extraneous local packages.
+- `npm install --save-dev @playwright/test @axe-core/playwright lighthouse`: passed, `0` vulnerabilities.
+- `npm audit --audit-level=moderate`: passed, `0` vulnerabilities.
 - `npm ls --depth=0`: passed with only declared dependencies.
 - `npm run prod`: passed; generated `1,504` pages.
 - Static route smoke checks: passed for home, support, search, cart, representative department and product pages, search index JSON, service worker, and background image.
+
+## Automated Regression Suite
+
+- `npm test`: passed, `16` Playwright tests.
+- Route smoke coverage samples home, support, search, cart, representative department pages, and a representative product page.
+- Search regression checks verify `laser` returns `41` results and reuses the `csc-search-index:13` localStorage cache without another index request.
+- Cart regression checks verify product add-to-cart, persisted quantity, increment behavior, totals, and removal.
+- Keyboard regression checks verify keyboard activation paths for the side navigation, department menu, search, and header cart controls.
+- axe regression checks pass with `0` violations on the sampled WCAG routes.
 
 ## Browser Parity
 
@@ -32,19 +43,29 @@ Representative Playwright checks passed in headless Chrome:
 
 ## Lighthouse
 
+`npm run test:audit` passed against the production preview with desktop Lighthouse budgets. Reports are generated under `reports/lighthouse/`.
+
 | Route | Performance | Accessibility | Best Practices | SEO |
 | --- | ---: | ---: | ---: | ---: |
-| `/` | 97 | 100 | 100 | 100 |
-| `/products/200-011-00001/` | 96 | 100 | 100 | 100 |
-| `/departments/weapons/` | 95 | 100 | 100 | 100 |
-| `/support/search/?s=laser` | 97 | 100 | 100 | 100 |
-| `/shopping-cart/` | 98 | 100 | 100 | 100 |
+| `/` | 100 | 100 | 100 | 100 |
+| `/products/200-011-00001/` | 100 | 100 | 100 | 100 |
+| `/departments/weapons/` | 100 | 100 | 100 | 100 |
+| `/support/search/?s=laser` | 100 | 100 | 100 | 100 |
+| `/shopping-cart/` | 100 | 100 | 100 | 100 |
 
 Core observations:
 
 - CLS was `0` on all sampled pages.
-- Total blocking time was `0 ms` except search, which measured `50 ms`.
+- Total blocking time was `0 ms` on all sampled desktop Lighthouse routes.
 - Remaining Lighthouse improvement notes are image delivery and render-blocking/network dependency insights. These are optimization opportunities, not failing category scores.
+
+Chrome DevTools MCP home-page trace:
+
+- LCP: `106 ms`.
+- CLS: `0.00`.
+- No console errors.
+- No failed network requests observed.
+- One render-blocking request was identified: `/_astro/BaseLayout.fENgGlhs.css`, total duration `3 ms`, with no estimated savings.
 
 ## WCAG 2.2 AA
 
@@ -81,7 +102,7 @@ No blocking issues were found in a focused heuristic review of the sampled workf
 
 ## Recommended Next Steps
 
-1. Add a committed Playwright test suite covering route smoke tests, search cache behavior, cart workflows, and keyboard navigation.
-2. Add automated axe checks to the test suite as a regression gate.
-3. Add a repeatable Lighthouse CI budget for sampled routes.
-4. Create system documentation for architecture, data model, routing, build/deploy, search indexing, service worker caching, theming, and content licensing.
+1. Wire `npm test` and `npm run test:audit` into CI.
+2. Expand Playwright coverage to mobile viewport navigation and additional high-traffic product/category pages.
+3. Complete the remaining manual WCAG checks before claiming conformance.
+4. Review image optimization opportunities if performance budgets become tighter.

@@ -10,6 +10,9 @@
     "dev": "ASTRO_TELEMETRY_DISABLED=1 astro dev",
     "prod": "ASTRO_TELEMETRY_DISABLED=1 astro build",
     "preview": "ASTRO_TELEMETRY_DISABLED=1 astro preview",
+    "test": "npm run test:browser",
+    "test:browser": "playwright test",
+    "test:audit": "node scripts/lighthouse-budget.mjs",
     "astro:dev": "npm run dev",
     "astro:build": "npm run prod",
     "astro:preview": "npm run preview",
@@ -28,7 +31,10 @@
   "homepage": "https://github.com/cmcknight/central-supply-catalog#readme",
   "devDependencies": {
     "@astrojs/vue": "^7.0.1",
+    "@axe-core/playwright": "^4.12.1",
+    "@playwright/test": "^1.62.1",
     "astro": "^7.1.4",
+    "lighthouse": "^13.4.1",
     "markdown-it": "^14.3.0",
     "slugify": "^1.6.5",
     "vue": "^3.5.40"
