@@ -12,6 +12,7 @@ import {
   productImagePath,
   renderMarkdown,
 } from '../../lib/catalog.mjs';
+import { withBase, withBaseHtml } from '../../lib/paths.mjs';
 import noImage from '../../../src/img/products/no-image.png';
 
 export function getStaticPaths() {
@@ -24,7 +25,7 @@ export function getStaticPaths() {
 const { product } = Astro.props;
 const isPlaceholderProduct = product.sku.match(/-00000$/g);
 const productTitle = isPlaceholderProduct ? 'Product Does Not Exist' : product.name;
-const imageSrc = isPlaceholderProduct ? '' : productImagePath(product) || noImage.src;
+const imageSrc = isPlaceholderProduct ? '' : withBase(productImagePath(product)) || noImage.src;
 
 const statsRows = [];
 if (!isPlaceholderProduct && product.stats?.length > 0) {
@@ -51,7 +52,7 @@ const accessories = isPlaceholderProduct
       return {
         sku,
         product: accessory,
-        imageSrc: accessory ? productImagePath(accessory) || noImage.src : '',
+        imageSrc: accessory ? withBase(productImagePath(accessory)) || noImage.src : '',
       };
     });
 ---
@@ -84,7 +85,7 @@ const accessories = isPlaceholderProduct
                 if (!variantProduct) return null;
                 return variant.sku === product.sku
                   ? <a class="active-variant">{variant.label}</a>
-                  : <a href={`/products/${variant.sku}`}>{variant.label}</a>;
+                  : <a href={withBase(`/products/${variant.sku}`)}>{variant.label}</a>;
               })}
             </div>
           )}
@@ -92,7 +93,7 @@ const accessories = isPlaceholderProduct
           <div class="row product-description">
             <div class="description-content">
               <h2>Product Description</h2>
-              <Fragment set:html={renderMarkdown(product.description)} />
+              <Fragment set:html={withBaseHtml(renderMarkdown(product.description))} />
               {statsRows.length > 0 && (
                 <div class="stats">
                   <h3>Specifications</h3>
@@ -150,13 +151,13 @@ const accessories = isPlaceholderProduct
                 accessory ? (
                   <div class="row accessory-row">
                     <div>
-                      <a href={`/products/${sku}`}>
+                      <a href={withBase(`/products/${sku}`)}>
                         <img src={imageSrc} alt={accessory.name}>
                       </a>
                     </div>
 
                     <div>
-                      <a href={`/products/${sku}`}>{accessory.name}</a>
+                      <a href={withBase(`/products/${sku}`)}>{accessory.name}</a>
                     </div>
                   </div>
                 ) : (

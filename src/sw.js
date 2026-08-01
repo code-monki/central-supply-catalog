@@ -1,6 +1,6 @@
-const version = 13;
+const version = 14;
 const cacheName = `csc-cache-v${version}`;
-const preCache = ['/_data/searchindex.json'];
+const preCache = ['./_data/searchindex.json'];
 
 this.addEventListener('install', function (ev) {
   ev.waitUntil(

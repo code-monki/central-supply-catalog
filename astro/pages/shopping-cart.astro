@@ -5,6 +5,6 @@ import ShoppingCart from '../components/ShoppingCart.vue';
 
 <BaseLayout title="Shopping Cart | Central Supply Catalog">
   <main id="main">
-    <ShoppingCart client:load />
+    <ShoppingCart baseUrl={import.meta.env.BASE_URL} client:load />
   </main>
 </BaseLayout>

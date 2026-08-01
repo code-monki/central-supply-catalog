@@ -16,6 +16,10 @@ const props = defineProps({
     type: String,
     required: true,
   },
+  baseUrl: {
+    type: String,
+    required: true,
+  },
 });
 
 const query = ref('');
@@ -40,6 +44,12 @@ const formatCost = (value) => {
 };
 
 const hasSearch = computed(() => query.value.length > 0);
+const withBase = (path) => {
+  if (!path || /^(?:[a-z]+:)?\/\//i.test(path)) return path;
+  const base = props.baseUrl.endsWith('/') ? props.baseUrl : `${props.baseUrl}/`;
+  if (path === '/') return base;
+  return `${base}${path.replace(/^\/+/, '')}`;
+};
 
 onMounted(async () => {
   const params = new URLSearchParams(window.location.search);
@@ -82,7 +92,7 @@ onMounted(async () => {
       <div v-for="product in results" :key="product.sku" class="search-result-row">
         <div class="prod-img">
           <img
-            :src="product.image || props.fallbackImage"
+            :src="withBase(product.image) || props.fallbackImage"
             class="thumbnail-img"
             :alt="product.name"
             width="120"
@@ -93,7 +103,7 @@ onMounted(async () => {
         </div>
 
         <div class="product-summary">
-          <a :href="`/products/${product.sku}/`"><h3>{{ product.name }}</h3></a>
+          <a :href="withBase(`/products/${product.sku}/`)"><h3>{{ product.name }}</h3></a>
           <p>{{ product.summary }}</p>
           <div class="product-cost">
             <div class="right-align">{{ formatCost(product.cost) }}</div>

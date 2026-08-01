@@ -13,7 +13,7 @@ html {
 
 body {
   font-family: Roboto, Arial, Helvetica, sans-serif;
-  background: rgba(0, 0, 0, 0.5) url("/img/background.jpg") center center;
+  background: rgba(0, 0, 0, 0.5) url("../img/background.jpg") center center;
   background-color: black;
   background-size: cover;
   background-position: center/cover;

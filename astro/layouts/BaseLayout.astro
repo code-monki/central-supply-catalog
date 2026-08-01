@@ -1,12 +1,22 @@
 ---
 import SiteHeader from '../components/SiteHeader.vue';
 import { departmentMenu, searchIndexVersion } from '../lib/catalog.mjs';
+import { withBase } from '../lib/paths.mjs';
 import '../../src/css/main.css';
 import favicon from '../../src/img/favicons/favicon.png';
 
 const { title = 'Central Supply Catalog', pageClass = 'page-container' } = Astro.props;
-const menu = departmentMenu();
+const menu = departmentMenu().map((category) => ({
+  ...category,
+  href: withBase(category.href),
+  departments: category.departments.map((department) => ({
+    ...department,
+    href: withBase(department.href),
+  })),
+}));
 const indexVersion = searchIndexVersion();
+const searchIndexUrl = withBase('/_data/searchindex.json');
+const serviceWorkerUrl = withBase('/sw.js');
 ---
 
 <!doctype html>
@@ -21,20 +31,20 @@ const indexVersion = searchIndexVersion();
   <body>
     <div class="overlay"></div>
     <div class={pageClass}>
-      <SiteHeader menu={menu} searchIndexUrl="/_data/searchindex.json" searchIndexVersion={indexVersion} client:load />
+      <SiteHeader menu={menu} searchIndexUrl={searchIndexUrl} searchIndexVersion={indexVersion} baseUrl={import.meta.env.BASE_URL} client:load />
       <slot />
       <footer>
         <div class="copyright-info">
-          <a href="/about-the-central-supply-catalog/#disclaimers">
+          <a href={withBase('/about-the-central-supply-catalog/#disclaimers')}>
             Code and content licensing details
           </a>.
         </div>
       </footer>
     </div>
-    <script>
+    <script define:vars={{ serviceWorkerUrl }}>
       if ('serviceWorker' in navigator) {
         window.addEventListener('load', () => {
-          navigator.serviceWorker.register('/sw.js').catch(() => {});
+          navigator.serviceWorker.register(serviceWorkerUrl).catch(() => {});
         });
       }
     </script>

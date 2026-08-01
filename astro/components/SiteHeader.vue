@@ -15,6 +15,10 @@ const props = defineProps({
     type: String,
     required: true,
   },
+  baseUrl: {
+    type: String,
+    required: true,
+  },
 });
 
 const isMenuOpen = ref(false);
@@ -23,6 +27,12 @@ const searchTerm = ref('');
 const cartCount = ref(0);
 
 const visibleBadge = computed(() => cartCount.value > 0);
+const withBase = (path) => {
+  if (!path || /^(?:[a-z]+:)?\/\//i.test(path)) return path;
+  const base = props.baseUrl.endsWith('/') ? props.baseUrl : `${props.baseUrl}/`;
+  if (path === '/') return base;
+  return `${base}${path.replace(/^\/+/, '')}`;
+};
 
 const updateCartCount = () => {
   try {
@@ -35,7 +45,7 @@ const updateCartCount = () => {
 
 const submitSearch = () => {
   const terms = searchTerm.value.trim().replace(/\s+/g, '+');
-  if (terms) window.location.href = `/support/search/?s=${terms}`;
+  if (terms) window.location.href = withBase(`/support/search/?s=${terms}`);
 };
 
 onMounted(() => {
@@ -59,11 +69,11 @@ onBeforeUnmount(() => {
     <button class="close-sidenav" id="close-sidenav" aria-label="Close navigation" @click="isMenuOpen = false">
       <span class="icon icon-close" aria-hidden="true"></span>
     </button>
-    <a href="/">Home</a>
-    <a href="/shopping-cart">Shopping Cart</a>
-    <a href="/about-the-central-supply-catalog">About</a>
-    <a href="/about-the-central-supply-catalog#disclaimers">Disclaimers</a>
-    <a href="/support/">Support</a>
+    <a :href="withBase('/')">Home</a>
+    <a :href="withBase('/shopping-cart')">Shopping Cart</a>
+    <a :href="withBase('/about-the-central-supply-catalog')">About</a>
+    <a :href="withBase('/about-the-central-supply-catalog#disclaimers')">Disclaimers</a>
+    <a :href="withBase('/support/')">Support</a>
   </nav>
 
   <header>
@@ -75,11 +85,11 @@ onBeforeUnmount(() => {
       </div>
 
       <div class="site-logo">
-        <a href="/">Central Supply Catalog</a>
+        <a :href="withBase('/')">Central Supply Catalog</a>
       </div>
 
       <div class="cart" id="shopping-cart">
-        <a href="/shopping-cart" aria-label="Shopping cart">
+        <a :href="withBase('/shopping-cart')" aria-label="Shopping cart">
           <span class="unicode-icon cart-icon" aria-hidden="true">🛒</span>
           <small v-if="visibleBadge" class="badge" id="cart-badge">{{ cartCount }}</small>
         </a>

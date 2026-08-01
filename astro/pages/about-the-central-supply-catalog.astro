@@ -1,6 +1,7 @@
 ---
 import BaseLayout from '../layouts/BaseLayout.astro';
 import { readMarkdownPage } from '../lib/catalog.mjs';
+import { withBaseHtml } from '../lib/paths.mjs';
 
 const page = readMarkdownPage('astro/content/pages/about.md');
 ---
@@ -9,7 +10,7 @@ const page = readMarkdownPage('astro/content/pages/about.md');
   <main id="main">
     <div class="site-page-content">
       <h1>{page.data.title}</h1>
-      <Fragment set:html={page.html} />
+      <Fragment set:html={withBaseHtml(page.html)} />
     </div>
   </main>
 </BaseLayout>

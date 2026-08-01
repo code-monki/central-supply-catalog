@@ -35,6 +35,8 @@ jobs:
         run: npm ls --depth=0
 
       - name: Build production site
+        env:
+          SITE_BASE_PATH: /central-supply-catalog
         run: npm run prod
 
       - name: Run browser regression tests
@@ -42,4 +44,6 @@ jobs:
 
       - name: Run Lighthouse budgets
         timeout-minutes: 10
+        env:
+          SITE_BASE_PATH: /central-supply-catalog
         run: npm run test:audit

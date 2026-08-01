@@ -1,6 +1,13 @@
 <script setup>
 import { computed, onMounted, ref } from 'vue';
 
+const props = defineProps({
+  baseUrl: {
+    type: String,
+    required: true,
+  },
+});
+
 const cartKey = 'csc-cart';
 const items = ref([]);
 
@@ -40,6 +47,12 @@ const saveCart = () => {
 const total = computed(() =>
   items.value.reduce((sum, item) => sum + (Number(item.qty) || 0) * (Number(item.unitPrice) || 0), 0)
 );
+const withBase = (path) => {
+  if (!path || /^(?:[a-z]+:)?\/\//i.test(path)) return path;
+  const base = props.baseUrl.endsWith('/') ? props.baseUrl : `${props.baseUrl}/`;
+  if (path === '/') return base;
+  return `${base}${path.replace(/^\/+/, '')}`;
+};
 
 const setQuantity = (sku, quantity) => {
   const item = items.value.find((entry) => entry.sku === sku);
@@ -90,15 +103,15 @@ onMounted(readCart);
 
       <div v-for="item in items" :key="item.sku" class="row product-row">
         <div class="prod-img">
-          <a :href="`/products/${item.sku}/`">
-            <img :src="item.image" class="responsive-img" :alt="item.name">
+          <a :href="withBase(`/products/${item.sku}/`)">
+            <img :src="withBase(item.image)" class="responsive-img" :alt="item.name">
           </a>
         </div>
 
         <div class="product-data">
           <div class="row title-and-total-div">
             <div class="prod-title">
-              <a :href="`/products/${item.sku}/`" :data-sku="item.sku" class="item-name">{{ item.name }}</a>
+              <a :href="withBase(`/products/${item.sku}/`)" :data-sku="item.sku" class="item-name">{{ item.name }}</a>
             </div>
 
             <div class="prod-total">

@@ -2,7 +2,10 @@ import { spawn } from 'node:child_process';
 import fs from 'node:fs/promises';
 import path from 'node:path';
 
-const baseUrl = 'http://127.0.0.1:4324';
+const originUrl = 'http://127.0.0.1:4324';
+const siteBasePath = process.env.SITE_BASE_PATH || '/';
+const normalizedBasePath =
+  siteBasePath === '/' ? '/' : `/${siteBasePath.replace(/^\/+|\/+$/g, '')}/`;
 const reportDir = path.resolve('reports/lighthouse');
 const lighthouseCli = path.resolve('node_modules/lighthouse/cli/index.js');
 
@@ -16,6 +19,8 @@ const budgets = {
 };
 
 const delay = (milliseconds) => new Promise((resolve) => setTimeout(resolve, milliseconds));
+const routeWithBase = (route) =>
+  `${normalizedBasePath}${route === '/' ? '' : route.replace(/^\/+/, '')}`;
 
 const terminateProcess = (child, signal) => {
   if (!child.pid || child.exitCode !== null) return;
@@ -81,7 +86,7 @@ const waitForServer = async () => {
   const deadline = Date.now() + 60_000;
   while (Date.now() < deadline) {
     try {
-      const response = await fetch(baseUrl);
+      const response = await fetch(new URL(normalizedBasePath, originUrl));
       if (response.ok) return;
     } catch {
       // Preview server is still starting.
@@ -89,11 +94,11 @@ const waitForServer = async () => {
     await new Promise((resolve) => setTimeout(resolve, 500));
   }
 
-  throw new Error(`Timed out waiting for ${baseUrl}`);
+  throw new Error(`Timed out waiting for ${new URL(normalizedBasePath, originUrl).toString()}`);
 };
 
 const slugForRoute = (route) => {
-  const url = new URL(route, baseUrl);
+  const url = new URL(routeWithBase(route), originUrl);
   const slug = `${url.pathname}${url.search}`.replace(/[^a-z0-9]+/gi, '-').replace(/^-|-$/g, '') || 'home';
   return slug.toLowerCase();
 };
@@ -111,7 +116,7 @@ try {
   const failures = [];
 
   for (const route of routes) {
-    const url = new URL(route, baseUrl).toString();
+    const url = new URL(routeWithBase(route), originUrl).toString();
     console.log(`Auditing ${url}`);
     const { stdout } = await run(
       process.execPath,

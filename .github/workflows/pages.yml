@@ -36,6 +36,8 @@ jobs:
         run: npm ci
 
       - name: Build production site
+        env:
+          SITE_BASE_PATH: /central-supply-catalog
         run: npm run prod
 
       - name: Upload Pages artifact

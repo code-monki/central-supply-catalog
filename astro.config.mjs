@@ -4,6 +4,10 @@ import fs from 'node:fs';
 import path from 'node:path';
 import { searchDocuments, searchIndexVersion } from './astro/lib/catalog.mjs';
 
+const siteBasePath = process.env.SITE_BASE_PATH || '/';
+const normalizedBasePath =
+  siteBasePath === '/' ? '/' : `/${siteBasePath.replace(/^\/+|\/+$/g, '')}`;
+
 const copyIfExists = (from, to) => {
   if (!fs.existsSync(from)) return;
   fs.cpSync(from, to, { recursive: true });
@@ -84,6 +88,7 @@ const legacyPassthrough = () => ({
 export default defineConfig({
   srcDir: './astro',
   outDir: './dist',
+  base: normalizedBasePath,
   integrations: [vue(), legacyPassthrough()],
   vite: {
     server: {

@@ -2,10 +2,12 @@
 import BaseLayout from '../../layouts/BaseLayout.astro';
 import SearchResults from '../../components/SearchResults.vue';
 import { readMarkdownPage, searchIndexVersion } from '../../lib/catalog.mjs';
+import { withBase, withBaseHtml } from '../../lib/paths.mjs';
 import noImage from '../../../src/img/products/no-image.png';
 
 const page = readMarkdownPage('astro/content/pages/search.md');
 const indexVersion = searchIndexVersion();
+const searchIndexUrl = withBase('/_data/searchindex.json');
 ---
 
 <BaseLayout title={`${page.data.title} | Central Supply Catalog`} pageClass="site-page">
@@ -13,9 +15,9 @@ const indexVersion = searchIndexVersion();
     <div class="site-page-content">
       <h1>{page.data.title}</h1>
       <div class="search-results-slot">
-        <SearchResults indexUrl="/_data/searchindex.json" indexVersion={indexVersion} fallbackImage={noImage.src} client:load />
+        <SearchResults indexUrl={searchIndexUrl} indexVersion={indexVersion} fallbackImage={noImage.src} baseUrl={import.meta.env.BASE_URL} client:load />
       </div>
-      <Fragment set:html={page.html} />
+      <Fragment set:html={withBaseHtml(page.html)} />
     </div>
   </main>
 </BaseLayout>

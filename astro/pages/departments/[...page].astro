@@ -1,6 +1,7 @@
 ---
 import BaseLayout from '../../layouts/BaseLayout.astro';
 import { costLabel, departmentPages, extractSummary, productImagePath, renderMarkdown } from '../../lib/catalog.mjs';
+import { withBase, withBaseHtml } from '../../lib/paths.mjs';
 import noImage from '../../../src/img/products/no-image.png';
 
 export function getStaticPaths() {
@@ -28,7 +29,7 @@ export function getStaticPaths() {
 
 const { departmentPage, pageNumber, pageCount, products } = Astro.props;
 const pageTitle = `${departmentPage.label} | Central Supply Catalog`;
-const pageHref = (page) => (page === 1 ? `/departments/${departmentPage.slug}/` : `/departments/${departmentPage.slug}/${page}/`);
+const pageHref = (page) => withBase(page === 1 ? `/departments/${departmentPage.slug}/` : `/departments/${departmentPage.slug}/${page}/`);
 ---
 
 <BaseLayout title={pageTitle} pageClass="dept-page">
@@ -44,15 +45,15 @@ const pageHref = (page) => (page === 1 ? `/departments/${departmentPage.slug}/` 
         ) : (
           <>
             {products.map((product) => {
-              const imageSrc = productImagePath(product) || noImage.src;
-              const summary = extractSummary(renderMarkdown(product.description));
+              const imageSrc = withBase(productImagePath(product)) || noImage.src;
+              const summary = withBaseHtml(extractSummary(renderMarkdown(product.description)));
               return (
                 <div class="prod-summary-row">
                   <div class="prod-img">
                     <img src={imageSrc} alt={product.name}>
                   </div>
                   <div class="product-summary">
-                    <a href={`/products/${product.sku}/`}>
+                    <a href={withBase(`/products/${product.sku}/`)}>
                       <h2 class="product-name">{product.name}</h2>
                     </a>
                     {summary && <p set:html={summary} />}
