@@ -15,20 +15,44 @@ const budgets = {
   seo: 1,
 };
 
+const delay = (milliseconds) => new Promise((resolve) => setTimeout(resolve, milliseconds));
+
+const terminateProcess = (child, signal) => {
+  if (!child.pid || child.exitCode !== null) return;
+
+  try {
+    process.kill(-child.pid, signal);
+  } catch {
+    child.kill(signal);
+  }
+};
+
+const waitForClose = (child) =>
+  new Promise((resolve) => {
+    if (child.exitCode !== null || child.signalCode !== null) {
+      resolve();
+      return;
+    }
+
+    child.once('close', resolve);
+  });
+
 const run = (command, args, options = {}) =>
   new Promise((resolve, reject) => {
-    const child = spawn(command, args, { stdio: options.capture ? ['ignore', 'pipe', 'pipe'] : 'inherit', ...options });
+    const { capture, timeoutMs, ...spawnOptions } = options;
+    const child = spawn(command, args, { stdio: capture ? ['ignore', 'pipe', 'pipe'] : 'inherit', ...spawnOptions });
     let stdout = '';
     let stderr = '';
     let timedOut = false;
-    const timeout = options.timeoutMs
+    const timeout = timeoutMs
       ? setTimeout(() => {
           timedOut = true;
-          child.kill('SIGTERM');
-        }, options.timeoutMs)
+          terminateProcess(child, 'SIGTERM');
+          setTimeout(() => terminateProcess(child, 'SIGKILL'), 5_000).unref();
+        }, timeoutMs)
       : null;
 
-    if (options.capture) {
+    if (capture) {
       child.stdout.on('data', (chunk) => {
         stdout += chunk;
       });
@@ -41,7 +65,7 @@ const run = (command, args, options = {}) =>
     child.on('close', (code) => {
       if (timeout) clearTimeout(timeout);
       if (timedOut) {
-        reject(new Error(`${command} ${args.join(' ')} timed out after ${options.timeoutMs}ms\n${stderr}`));
+        reject(new Error(`${command} ${args.join(' ')} timed out after ${timeoutMs}ms\n${stderr}`));
         return;
       }
 
@@ -78,6 +102,7 @@ await fs.mkdir(reportDir, { recursive: true });
 await run('npm', ['run', 'prod']);
 
 const preview = spawn('npm', ['run', 'preview', '--', '--host', '127.0.0.1', '--port', '4324'], {
+  detached: true,
   stdio: ['ignore', 'pipe', 'pipe'],
 });
 
@@ -100,7 +125,7 @@ try {
         '--chrome-flags=--headless=new --no-sandbox',
         '--only-categories=performance,accessibility,best-practices,seo',
       ],
-      { capture: true, timeoutMs: 90_000 }
+      { capture: true, detached: true, timeoutMs: 90_000 }
     );
 
     const report = JSON.parse(stdout);
@@ -127,5 +152,10 @@ try {
     throw new Error(`Lighthouse budgets failed:\n${failures.join('\n')}`);
   }
 } finally {
-  preview.kill('SIGTERM');
+  terminateProcess(preview, 'SIGTERM');
+  const closed = await Promise.race([waitForClose(preview).then(() => true), delay(5_000).then(() => false)]);
+  if (!closed) {
+    terminateProcess(preview, 'SIGKILL');
+    await waitForClose(preview);
+  }
 }
