@@ -1,5 +1,6 @@
 import { AxeBuilder } from '@axe-core/playwright';
 import { expect, test } from '@playwright/test';
+import { searchIndexVersion } from '../astro/lib/catalog.mjs';
 
 const sampledRoutes = [
   '/',
@@ -45,7 +46,7 @@ test('search warms and reuses a versioned localStorage cache', async ({ page }) 
   await expect(page.locator('.search-result-row')).toHaveCount(41);
 
   const cacheKeys = await page.evaluate(() => Object.keys(localStorage).filter((key) => key.startsWith('csc-search-index:')));
-  expect(cacheKeys).toEqual(['csc-search-index:13']);
+  expect(cacheKeys).toEqual([`csc-search-index:${searchIndexVersion()}`]);
 
   let searchIndexRequests = 0;
   page.on('request', (request) => {
