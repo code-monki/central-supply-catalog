@@ -2,6 +2,8 @@
 
 This document describes the Astro/Vue implementation that builds and serves the Central Supply Catalog.
 
+For the complete documentation set, see [documentation-index.md](documentation-index.md).
+
 ## Architecture
 
 - Astro owns routing, static generation, layouts, and legacy asset passthrough.

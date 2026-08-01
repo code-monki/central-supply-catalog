@@ -1,6 +1,6 @@
-#Central-Supply-Catalog
+# Central Supply Catalog
 
-### [Default Layout](/!)
+### [Default Layout](./DefaultLayout.svg)
 
 ![img](./DefaultLayout.svg)
 
@@ -89,6 +89,5 @@ Interesect of department id&#44; manufacturer id&#44; product id
 |  | fk_sku_departments | ( deptId ) ref [Default&#46;Departments](#Departments) (id) |  |
 |  | fk_sku_manufacturers | ( mfrId ) ref [Default&#46;Manufacturers](#Manufacturers) (id) |  |
 |  | fk_sku_products | ( productId ) ref [Default&#46;Products](#Products) (id) |  |
-
 
 

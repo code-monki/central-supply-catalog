@@ -33,7 +33,7 @@ Contributions are welcome with the understanding that the contributor grants per
 
 ## Development
 
-The site is built with Astro and Vue islands. See [docs/system.md](docs/system.md) for architecture, data flow, routing, search, cart storage, service worker behavior, and validation details.
+The site is built with Astro and Vue islands. See [docs/documentation-index.md](docs/documentation-index.md) for the documentation set, including requirements, design, architecture, test plan, RTM, system overview, and storage rationale.
 
 Common commands:
 
