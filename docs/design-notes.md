@@ -83,7 +83,7 @@ The different types of goods are arbitrarily placed in "departments" to facilita
 **Survival**
 
 - Cables
-- Const. Matls
+- Construction Materials
 - Fuel
 - Gases
 - Liquids
@@ -103,7 +103,7 @@ The different types of goods are arbitrarily placed in "departments" to facilita
 
 **Weapons**
 
-- Accesories
+- Accessories
 - Ammunition
 - Weapons
 
