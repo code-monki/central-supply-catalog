@@ -126,7 +126,7 @@ The six most common portrait orientation viewport sizes seem to be:
 |  1366 |    768 |
 |  1920 |   1080 |
 
-Rather than re-inventing the wheel, we will use the breakpoints provided by the Bootstrap<a href="#fn1" id="fnote1"><sup>1</suo></a> framework even though we will not be using that framework. To wit,
+Rather than re-inventing the wheel, we will use the breakpoints provided by the Bootstrap<a href="#fn1" id="fnote1"><sup>1</sup></a> framework even though we will not be using that framework. To wit,
 
 | Breakpoint        | Class Infix | Dimensions  |
 | ----------------- | :---------: | ----------- |
@@ -195,4 +195,4 @@ On screens less than 400px, the list will expand to cover the entire horizontal 
 
 
 ----
-<sup>1</sup> [Bootstrap Breakpoints](https://getbootstrap.com/dist/5.0/layout/breakpoints/)
+<sup>1</sup> [Bootstrap Breakpoints](https://getbootstrap.com/docs/5.0/layout/breakpoints/)
