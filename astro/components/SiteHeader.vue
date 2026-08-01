@@ -31,6 +31,7 @@ const withBase = (path) => {
   if (!path || /^(?:[a-z]+:)?\/\//i.test(path)) return path;
   const base = props.baseUrl.endsWith('/') ? props.baseUrl : `${props.baseUrl}/`;
   if (path === '/') return base;
+  if (path.startsWith(base)) return path;
   return `${base}${path.replace(/^\/+/, '')}`;
 };
 

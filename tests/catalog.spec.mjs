@@ -77,6 +77,8 @@ test('product purchase persists to the shopping cart and quantity controls updat
 
   await page.goto(routePath('/shopping-cart/'));
   await expect(page.getByRole('link', { name: sampledProduct.name }).first()).toBeVisible();
+  const cartImagePathname = await page.locator('.shopping-cart .responsive-img').first().evaluate((image) => new URL(image.src).pathname);
+  expect(cartImagePathname).toBe(`${expectedBasePath}img/products/${sampledProduct.sku}.png`);
   await expect(page.getByLabel(`Quantity for ${sampledProduct.name}`)).toHaveValue('2');
   await expect(page.locator('#cart-total')).toContainText('Total:');
 
