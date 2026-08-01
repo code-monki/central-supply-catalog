@@ -41,4 +41,5 @@ jobs:
         run: npm test
 
       - name: Run Lighthouse budgets
+        timeout-minutes: 10
         run: npm run test:audit

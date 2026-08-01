@@ -20,6 +20,13 @@ const run = (command, args, options = {}) =>
     const child = spawn(command, args, { stdio: options.capture ? ['ignore', 'pipe', 'pipe'] : 'inherit', ...options });
     let stdout = '';
     let stderr = '';
+    let timedOut = false;
+    const timeout = options.timeoutMs
+      ? setTimeout(() => {
+          timedOut = true;
+          child.kill('SIGTERM');
+        }, options.timeoutMs)
+      : null;
 
     if (options.capture) {
       child.stdout.on('data', (chunk) => {
@@ -32,6 +39,12 @@ const run = (command, args, options = {}) =>
 
     child.on('error', reject);
     child.on('close', (code) => {
+      if (timeout) clearTimeout(timeout);
+      if (timedOut) {
+        reject(new Error(`${command} ${args.join(' ')} timed out after ${options.timeoutMs}ms\n${stderr}`));
+        return;
+      }
+
       if (code === 0) {
         resolve({ stdout, stderr });
       } else {
@@ -74,6 +87,7 @@ try {
 
   for (const route of routes) {
     const url = new URL(route, baseUrl).toString();
+    console.log(`Auditing ${url}`);
     const { stdout } = await run(
       process.execPath,
       [
@@ -86,7 +100,7 @@ try {
         '--chrome-flags=--headless=new --no-sandbox',
         '--only-categories=performance,accessibility,best-practices,seo',
       ],
-      { capture: true }
+      { capture: true, timeoutMs: 90_000 }
     );
 
     const report = JSON.parse(stdout);
