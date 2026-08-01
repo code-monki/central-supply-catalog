@@ -26,5 +26,5 @@ The Github repository for the Central Supply Catalog has a <a href="https://gith
 
 ## Contact
 
-- Email: <a href="mailto: trav-csc-support@pheonic.com"><i class="fas fa-envelope"></i></a></li>
+- Email: <a href="mailto: codemonki@outlook.com"><i class="fas fa-envelope"></i></a></li>
 - Github: <a href="https://github.com/code-monki"><i class="fab fa-github"></i></a>
