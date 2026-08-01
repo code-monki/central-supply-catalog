@@ -67,6 +67,25 @@ test('search warms and reuses a versioned localStorage cache', async ({ page }) 
   expect(searchIndexRequests).toBe(0);
 });
 
+test('search help content flows after long result lists', async ({ page }) => {
+  await page.goto(routePath('/support/search/?s=Vacc+Suit'));
+
+  await expect(page.getByRole('heading', { name: /Search found 65 results for:/ })).toBeVisible();
+  const layout = await page.evaluate(() => {
+    const results = document.querySelector('#search-results').getBoundingClientRect();
+    const help = [...document.querySelectorAll('.site-page-content h2')]
+      .find((heading) => heading.textContent.includes('Searching the Central Supply Catalog'))
+      .getBoundingClientRect();
+
+    return {
+      resultsBottom: results.bottom,
+      helpTop: help.top,
+    };
+  });
+
+  expect(layout.helpTop).toBeGreaterThanOrEqual(layout.resultsBottom);
+});
+
 test('product purchase persists to the shopping cart and quantity controls update totals', async ({ page }) => {
   await page.goto(routePath('/products/200-011-00001/'));
 

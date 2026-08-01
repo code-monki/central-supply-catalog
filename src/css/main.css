@@ -486,7 +486,11 @@ footer .copyright-info a img {
   max-width: 60rem;
 }
 .site-page .search-results-slot {
-  min-height: 42rem;
+  flex: 0 0 auto;
+  min-height: 0;
+}
+.site-page .search-results-slot astro-island {
+  display: block;
 }
 .search-results .results-header {
   border-bottom: 1px solid grey;
