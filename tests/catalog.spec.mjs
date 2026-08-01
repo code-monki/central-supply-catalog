@@ -89,7 +89,9 @@ test('search help content flows after long result lists', async ({ page }) => {
 test('product purchase persists to the shopping cart and quantity controls update totals', async ({ page }) => {
   await page.goto(routePath('/products/200-011-00001/'));
 
-  await page.getByLabel('Qty:').fill('2');
+  const quantityInput = page.getByLabel('Qty:');
+  await quantityInput.fill('2');
+  await expect(quantityInput).toHaveValue('2');
   await page.getByRole('button', { name: 'Add To Cart' }).click();
   await expect(page.getByRole('status')).toHaveText('Item added to cart');
   await expect(page.locator('#cart-badge')).toHaveText('1');
