@@ -4,16 +4,14 @@ import heroTitle from '../../src/img/hero-title.png';
 ---
 
 <BaseLayout title="Central Supply Catalog">
-  <div class="content-container">
-    <main id="main">
-      <div class="hero-section">
-        <div class="hero-image">
-          <img src={heroTitle.src} width={heroTitle.width} height={heroTitle.height} alt="Central Supply Catalog" fetchpriority="high">
-        </div>
-        <div class="hero-text">
-          <p class="subtitle">Equipment and Supplies<br>for the<br>Discerning Traveller</p>
-        </div>
+  <main id="main" class="content-container" tabindex="0" aria-label="Home content">
+    <div class="hero-section">
+      <div class="hero-image">
+        <img src={heroTitle.src} width={heroTitle.width} height={heroTitle.height} alt="Central Supply Catalog" fetchpriority="high">
       </div>
-    </main>
-  </div>
+      <div class="hero-text">
+        <p class="subtitle">Equipment and Supplies<br>for the<br>Discerning Traveller</p>
+      </div>
+    </div>
+  </main>
 </BaseLayout>

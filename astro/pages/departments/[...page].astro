@@ -53,10 +53,10 @@ const pageHref = (page) => (page === 1 ? `/departments/${departmentPage.slug}/` 
                   </div>
                   <div class="product-summary">
                     <a href={`/products/${product.sku}/`}>
-                      <h5>{product.name}</h5>
+                      <h2 class="product-name">{product.name}</h2>
                     </a>
                     {summary && <p set:html={summary} />}
-                    <h6>{costLabel(product.cost)}</h6>
+                    <div class="product-cost-label">{costLabel(product.cost)}</div>
                   </div>
                 </div>
               );

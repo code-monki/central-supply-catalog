@@ -1112,6 +1112,17 @@ main .hero-section .subtitle {
 .shopping-cart .total-row .cart-total-div {
   align-self: flex-start;
 }
+.shopping-cart .total-row .cart-total {
+  display: block;
+  font-size: 1rem;
+  font-weight: 700;
+  line-height: 1.2;
+}
+@media screen and (min-width: 48rem) {
+  .shopping-cart .total-row .cart-total {
+    font-size: 1.05rem;
+  }
+}
 .shopping-cart .cart-items-container {
   width: 100%;
 }
@@ -1420,19 +1431,21 @@ main .hero-section .subtitle {
     font-size: 0.95rem;
   }
 }
-.dept-page .dept-content .prod-summary-container .prod-summary-row .product-summary h5 {
+.dept-page .dept-content .prod-summary-container .prod-summary-row .product-summary .product-name {
   font-size: 1rem;
+  margin: 0;
 }
 @media screen and (min-width: 48rem) {
-  .dept-page .dept-content .prod-summary-container .prod-summary-row .product-summary h5 {
+  .dept-page .dept-content .prod-summary-container .prod-summary-row .product-summary .product-name {
     font-size: 1rem;
   }
 }
-.dept-page .dept-content .prod-summary-container .prod-summary-row .product-summary h6 {
+.dept-page .dept-content .prod-summary-container .prod-summary-row .product-summary .product-cost-label {
   font-size: 0.8rem;
+  font-weight: 700;
 }
 @media screen and (min-width: 48rem) {
-  .dept-page .dept-content .prod-summary-container .prod-summary-row .product-summary h6 {
+  .dept-page .dept-content .prod-summary-container .prod-summary-row .product-summary .product-cost-label {
     font-size: 0.9rem;
   }
 }

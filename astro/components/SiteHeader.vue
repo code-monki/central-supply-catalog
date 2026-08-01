@@ -55,7 +55,7 @@ onBeforeUnmount(() => {
 </script>
 
 <template>
-  <div class="sidenav-menu" id="sidenav-menu" :style="{ width: isMenuOpen ? '100%' : '0' }">
+  <nav class="sidenav-menu" id="sidenav-menu" aria-label="Main navigation" :style="{ width: isMenuOpen ? '100%' : '0' }">
     <button class="close-sidenav" id="close-sidenav" aria-label="Close navigation" @click="isMenuOpen = false">
       <span class="icon icon-close" aria-hidden="true"></span>
     </button>
@@ -64,7 +64,7 @@ onBeforeUnmount(() => {
     <a href="/about-the-central-supply-catalog">About</a>
     <a href="/about-the-central-supply-catalog#disclaimers">Disclaimers</a>
     <a href="/support/">Support</a>
-  </div>
+  </nav>
 
   <header>
     <div class="row header-row-1">

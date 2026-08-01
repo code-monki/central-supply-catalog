@@ -9,10 +9,10 @@ const md = new MarkdownIt({ html: true });
 const readJson = (relativePath) => JSON.parse(fs.readFileSync(path.join(rootDir, relativePath), 'utf8'));
 const asArray = (value) => (Array.isArray(value) ? value : [value]);
 
-export const manufacturers = readJson('progdata/manufacturers.json');
-export const categories = readJson('progdata/categories.json');
-export const departments = readJson('progdata/departments.json');
-export const publishers = readJson('progdata/publishers.json');
+export const manufacturers = readJson('astro/data/manufacturers.json');
+export const categories = readJson('astro/data/categories.json');
+export const departments = readJson('astro/data/departments.json');
+export const publishers = readJson('astro/data/publishers.json');
 
 export const slug = (value) => slugify(value, { lower: true, strict: true });
 

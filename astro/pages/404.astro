@@ -3,9 +3,8 @@ import BaseLayout from '../layouts/BaseLayout.astro';
 ---
 
 <BaseLayout title="Requested page is missing | Central Supply Catalog">
-  <main>
-    <div class="content-container missing-page">
-      <h3>Requested page is missing...</h3>
+  <main id="main" class="content-container missing-page" tabindex="0" aria-label="Missing page message">
+      <h1>Requested page is missing...</h1>
 
       <p>This is Free Trader Beowulf, calling anyone...</p>
       <p>Mayday, Mayday...</p>
@@ -18,6 +17,5 @@ import BaseLayout from '../layouts/BaseLayout.astro';
       <p>please help...</p>
       <p>This is Free Trader Beowulf...</p>
       <p>Mayday...</p>
-    </div>
   </main>
 </BaseLayout>

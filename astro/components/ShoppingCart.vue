@@ -79,13 +79,13 @@ onMounted(readCart);
       </div>
 
       <div class="cart-total-div">
-        <h3><span id="cart-total" class="cart-total">{{ items.length ? `Total: ${formatCost(total, false)}` : '' }}</span></h3>
+        <span id="cart-total" class="cart-total">{{ items.length ? `Total: ${formatCost(total, false)}` : '' }}</span>
       </div>
     </div>
 
     <div class="cart-items-container">
       <div v-if="items.length === 0" class="row product-row">
-        <h4 class="center">Cart is empty</h4>
+        <p class="center">Cart is empty</p>
       </div>
 
       <div v-for="item in items" :key="item.sku" class="row product-row">
@@ -116,6 +116,7 @@ onMounted(readCart);
                 class="qty"
                 :value="item.qty"
                 min="0"
+                :aria-label="`Quantity for ${item.name}`"
                 @change="setQuantity(item.sku, $event.target.value)"
               >
               <button type="button" class="quantity-btn" aria-label="Increase quantity" @click="adjustQuantity(item.sku, 1)">

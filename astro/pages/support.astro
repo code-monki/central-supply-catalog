@@ -2,7 +2,7 @@
 import BaseLayout from '../layouts/BaseLayout.astro';
 import { readMarkdownPage } from '../lib/catalog.mjs';
 
-const page = readMarkdownPage('src/pages/support.md');
+const page = readMarkdownPage('astro/content/pages/support.md');
 ---
 
 <BaseLayout title={`${page.data.title} | Central Supply Catalog`} pageClass="site-page">

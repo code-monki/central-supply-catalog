@@ -11,7 +11,7 @@
 const FS = require('fs');
 const PATH = require('path');
 const PROCESS = require('process');
-const publishers = require('../../progdata/publishers.json');
+const publishers = require('../../astro/data/publishers.json');
 
 // retrieve data directory from command line
 const dataDirectory = PROCESS.argv[2];
