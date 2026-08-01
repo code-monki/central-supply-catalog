@@ -11,6 +11,7 @@
     "prod": "ASTRO_TELEMETRY_DISABLED=1 astro build",
     "preview": "ASTRO_TELEMETRY_DISABLED=1 astro preview",
     "test": "npm run test:browser",
+    "test:install": "playwright install chromium",
     "test:browser": "playwright test",
     "test:audit": "node scripts/lighthouse-budget.mjs",
     "astro:dev": "npm run dev",

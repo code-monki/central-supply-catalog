@@ -31,6 +31,23 @@ A portion of the content is governed by the <a href="https://www.d20srd.org/ogl.
 
 Contributions are welcome with the understanding that the contributor grants permission for the content to be used on the site. Proper attribution will appear in the data files. See the [wiki](https://github.com/cmcknight/central-supply-catalog/wiki) for this project for information.
 
+## Development
+
+The site is built with Astro and Vue islands. See [docs/system.md](docs/system.md) for architecture, data flow, routing, search, cart storage, service worker behavior, and validation details.
+
+Common commands:
+
+```bash
+npm ci
+npm run test:install
+npm run prod
+npm run preview -- --host 127.0.0.1 --port 4324
+npm test
+npm run test:audit
+```
+
+`npm test` runs Playwright browser regressions and axe accessibility checks. `npm run test:audit` runs desktop Lighthouse budgets against sampled production-preview routes.
+
 ## Licensing
 
 The source code is licensed under the Apache License, Version 2.0. See [LICENSE-CODE.md](LICENSE-CODE.md).

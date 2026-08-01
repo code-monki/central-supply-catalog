@@ -82,6 +82,7 @@ Automated regression coverage:
 
 - `npm test` runs Playwright route smoke tests, search cache checks, cart workflow checks, keyboard navigation basics, and axe WCAG regression checks.
 - `npm run test:audit` builds the site, serves the production preview, runs Lighthouse for sampled routes, and writes JSON reports to `reports/lighthouse/`.
+- `.github/workflows/validation.yml` runs dependency audit, dependency tree checks, production build, browser regression tests, and Lighthouse budgets for pushes and pull requests.
 
 Manual accessibility validation is still required before claiming WCAG 2.2 AA conformance. Cover keyboard-only operation, visible focus order, 200% zoom, text spacing overrides, state contrast, and screen reader behavior for navigation, search, product purchase, and cart totals.
 
