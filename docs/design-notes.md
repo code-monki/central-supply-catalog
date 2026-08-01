@@ -14,7 +14,7 @@ This document contains notes related to the design and implementation of the Cen
 ### Open Game License
 
 
-The Cepheus Engine fallsd under the Open Game License (OGL) version 1.0a. This license requires that all OGL content be identified as such and in a manner that it can be easily identified. Given the nature of the OGL content that will be used, i.e., the descriptions and characterists of goods, each item will have an associate entry indicating the source of the entry in the data files.
+The Cepheus Engine falls under the Open Game License (OGL) version 1.0a. This license requires that all OGL content be identified as such and in a manner that it can be easily identified. Given the nature of the OGL content that will be used, i.e., the descriptions and characteristics of goods, each item will have an associate entry indicating the source of the entry in the data files.
 
 ### Traveller
 
