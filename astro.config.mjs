@@ -63,6 +63,7 @@ const legacyPassthrough = () => ({
       copyIfExists('src/img', path.join(outDir, 'img'));
       copyIfExists('src/audio', path.join(outDir, 'audio'));
       copyIfExists('src/sw.js', path.join(outDir, 'sw.js'));
+      fs.writeFileSync(path.join(outDir, '.nojekyll'), '');
 
       const dataDir = path.join(outDir, '_data');
       fs.mkdirSync(dataDir, { recursive: true });

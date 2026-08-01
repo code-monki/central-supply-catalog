@@ -3,6 +3,7 @@ name: Validation
 on:
   push:
     branches:
+      - master
       - main
       - feature/astro-vue-ui
   pull_request:

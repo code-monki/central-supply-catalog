@@ -8,6 +8,7 @@
 - [Test Plan](test-plan.md)
 - [Requirements Traceability Matrix](rtm.md)
 - [Filesystem and Index Storage Rationale](data-storage-rationale.md)
+- [GitHub Pages Deployment](github-pages-deployment.md)
 - [System Overview](system.md)
 - [Validation Results](validation-2026-08-01.md)
 
@@ -25,4 +26,3 @@
 - [Content License](../LICENSE-CONTENT.md)
 - [Notice](../NOTICE.md)
 - [Open Gaming License](../OGL_1_0a.md)
-
