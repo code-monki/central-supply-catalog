@@ -31,11 +31,11 @@
     },
     {
       "publication": "Central Supply Catalog Website : 6mm Rifle Ammunition -  4D Damage",
-      "url": "https://trav-csc.com/products/200-010-00015",
+      "url": "/products/200-010-00015",
       "authors": ["Miller, Marc W.", "Eaglestone, Robert", "McKnight, Charles"],
       "publisher": {
         "name": "Central Supply Catalog Website",
-        "url": "https://trav-csc.coms"
+        "url": "/s"
       }
     }
   ],

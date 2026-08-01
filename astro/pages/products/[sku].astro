@@ -26,6 +26,11 @@ const { product } = Astro.props;
 const isPlaceholderProduct = product.sku.match(/-00000$/g);
 const productTitle = isPlaceholderProduct ? 'Product Does Not Exist' : product.name;
 const imageSrc = isPlaceholderProduct ? '' : withBase(productImagePath(product)) || noImage.src;
+const isExternalUrl = (url) => /^(?:[a-z]+:)?\/\//i.test(url);
+const sourceHref = (url) => {
+  const href = url.trim();
+  return isExternalUrl(href) ? href : withBase(href);
+};
 
 const statsRows = [];
 if (!isPlaceholderProduct && product.stats?.length > 0) {
@@ -175,7 +180,7 @@ const accessories = isPlaceholderProduct
                 return (
                   <p class="source">
                     {source.url ? (
-                      <a href={source.url} target="_blank" rel="noopener noreferrer"><em>{source.publication}</em></a>
+                      <a href={sourceHref(source.url)} target="_blank" rel="noopener noreferrer"><em>{source.publication}</em></a>
                     ) : (
                       <><em>{source.publication}</em></>
                     )}
@@ -185,7 +190,7 @@ const accessories = isPlaceholderProduct
                       <>
                         {', '}
                         {publisher.url ? (
-                          <a href={publisher.url} target="_blank" rel="noopener noreferrer">{publisher.name}</a>
+                          <a href={sourceHref(publisher.url)} target="_blank" rel="noopener noreferrer">{publisher.name}</a>
                         ) : (
                           publisher.name
                         )}
