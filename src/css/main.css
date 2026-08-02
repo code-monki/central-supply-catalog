@@ -754,11 +754,11 @@ main.home-content {
 .home-departments {
   flex: 1 1 auto;
   min-height: 0;
-  padding: 1rem;
+  padding: 0.75rem 1rem 1rem;
   overflow-y: auto;
 }
 .home-departments h2 {
-  margin-bottom: 0.75rem;
+  margin-bottom: 0.5rem;
   font-size: 1.2rem;
 }
 .home-department-grid {
