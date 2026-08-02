@@ -725,27 +725,18 @@ main.home-content {
   gap: 1rem;
   padding: 1rem;
 }
-.home-search-panel,
+.catalog-stats,
 .home-departments {
   width: 100%;
   color: black;
   background: white;
   border: 1px solid #c7c7c7;
 }
-.home-search-panel {
-  display: grid;
-  gap: 1rem;
-  padding: 1rem;
-}
-.home-search-panel h1 {
-  margin-bottom: 0.75rem;
-  color: var(--csc-red);
-  font-size: 1.5rem;
-}
 .catalog-stats {
   display: flex;
   flex-wrap: wrap;
   gap: 0.75rem;
+  padding: 1rem;
 }
 .catalog-stats div {
   min-width: 8rem;
@@ -758,27 +749,6 @@ main.home-content {
 }
 .catalog-stats dd {
   font-size: 1.3rem;
-  font-weight: 700;
-}
-.home-search-form {
-  display: grid;
-  grid-template-columns: 1fr;
-  align-self: end;
-}
-.home-search-form input {
-  width: 100%;
-  min-height: 2.5rem;
-  padding: 0 0.75rem;
-  border: 2px solid black;
-  font: inherit;
-}
-.home-search-form button {
-  min-height: 2.5rem;
-  padding: 0 1rem;
-  border: 2px solid black;
-  color: black;
-  background: #ffe082;
-  font: inherit;
   font-weight: 700;
 }
 .home-departments {
@@ -797,8 +767,7 @@ main.home-content {
   gap: 0.5rem;
 }
 .home-department-card {
-  display: flex;
-  justify-content: space-between;
+  display: grid;
   gap: 1rem;
   min-height: 3rem;
   padding: 0.65rem 0.75rem;
@@ -807,16 +776,42 @@ main.home-content {
   text-decoration: none;
   background: #fbfbfb;
 }
-.home-department-card:visited {
+.home-department-card-header {
+  display: flex;
+  justify-content: space-between;
+  gap: 1rem;
+}
+.home-department-main-link {
+  color: #0b5f9f;
+  font-weight: 700;
+  text-decoration: none;
+}
+.home-department-main-link:visited {
   color: #0b5f9f;
 }
-.home-department-card:hover,
-.home-department-card:focus-visible {
+.home-department-main-link:hover,
+.home-department-main-link:focus-visible,
+.home-subdepartment-links a:hover,
+.home-subdepartment-links a:focus-visible {
   color: #cc3333;
+}
+.home-department-card:focus-within,
+.home-department-card:hover {
   background: lightgoldenrodyellow;
 }
-.home-department-card span {
-  font-weight: 700;
+.home-subdepartment-links {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.35rem 0.75rem;
+  line-height: 1.35;
+}
+.home-subdepartment-links a {
+  color: #0b5f9f;
+  font-size: 0.9rem;
+  text-decoration: none;
+}
+.home-subdepartment-links a:visited {
+  color: #0b5f9f;
 }
 .home-department-card small {
   flex: 0 0 auto;
@@ -825,16 +820,6 @@ main.home-content {
 @media screen and (min-width: 48rem) {
   main.home-content {
     padding: 1.25rem;
-  }
-  .home-search-panel {
-    grid-template-columns: minmax(14rem, 1fr) minmax(22rem, 2fr);
-    align-items: end;
-  }
-  .home-search-form {
-    grid-template-columns: minmax(0, 1fr) auto;
-  }
-  .home-search-form input {
-    border-right: 0;
   }
   .home-department-grid {
     grid-template-columns: repeat(2, minmax(0, 1fr));

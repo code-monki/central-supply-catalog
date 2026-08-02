@@ -139,7 +139,7 @@ onBeforeUnmount(() => {
         <div class="search-form">
           <form @submit.prevent="submitSearch">
             <label class="visually-hidden" for="search-input">Search catalog</label>
-            <input v-model="searchTerm" type="text" name="search" class="search-input" id="search-input">
+            <input v-model="searchTerm" type="search" name="search" class="search-input" id="search-input">
             <button class="search-btn" id="search-button" type="submit" aria-label="Search catalog">
               <span aria-hidden="true">🔍</span>
             </button>

@@ -61,14 +61,15 @@ test('about and disclaimers pages keep distinct content', async ({ page }) => {
 test('home page presents catalog entry controls', async ({ page }) => {
   await page.goto(routePath('/'));
 
-  await expect(page.getByRole('heading', { name: 'Find Equipment' })).toBeVisible();
-  await expect(page.getByRole('searchbox', { name: 'Search catalog' })).toBeVisible();
+  await expect(page.getByRole('heading', { name: 'Find Equipment' })).toHaveCount(0);
+  await expect(page.getByRole('searchbox', { name: 'Search catalog' })).toHaveCount(1);
   await expect(page.getByRole('heading', { name: 'Departments' })).toBeVisible();
   await expect(page.locator('.home-department-card')).toHaveCount(20);
-  await expect(page.getByRole('link', { name: /Weapons/ })).toBeVisible();
+  await expect(page.getByRole('link', { name: 'Weapons', exact: true })).toBeVisible();
+  await expect(page.getByRole('link', { name: 'Handguns' })).toBeVisible();
 
   await page.getByRole('searchbox', { name: 'Search catalog' }).fill('laser pistol');
-  await page.locator('.home-search-form').getByRole('button', { name: 'Search' }).click();
+  await page.getByRole('button', { name: 'Search catalog' }).click();
   await expect(page).toHaveURL(new RegExp(`${escapedBasePath}support/search/\\?s=laser\\+pistol$`));
 });
 

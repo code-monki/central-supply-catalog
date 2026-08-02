@@ -6,44 +6,46 @@ import { withBase } from '../lib/paths.mjs';
 const departments = departmentMenu().map((department) => ({
   ...department,
   href: withBase(department.href),
+  departments: department.departments.map((subDepartment) => ({
+    ...subDepartment,
+    href: withBase(subDepartment.href),
+  })),
   productCount: getProductsForCategory(department.label).length,
 }));
 const productCount = allProducts().length;
 const departmentCount = departments.length;
-const searchAction = withBase('/support/search/');
 ---
 
 <BaseLayout title="Central Supply Catalog">
   <main id="main" class="content-container home-content" tabindex="0" aria-label="Catalog home">
-    <section class="home-search-panel" aria-labelledby="home-search-title">
+    <dl class="catalog-stats" aria-label="Catalog summary">
       <div>
-        <h1 id="home-search-title">Find Equipment</h1>
-        <dl class="catalog-stats" aria-label="Catalog summary">
-          <div>
-            <dt>Products</dt>
-            <dd>{productCount}</dd>
-          </div>
-          <div>
-            <dt>Departments</dt>
-            <dd>{departmentCount}</dd>
-          </div>
-        </dl>
+        <dt>Products</dt>
+        <dd>{productCount}</dd>
       </div>
-      <form class="home-search-form" action={searchAction} method="get" role="search">
-        <label class="visually-hidden" for="home-search-input">Search catalog</label>
-        <input id="home-search-input" name="s" type="search" placeholder="Search by item, phrase, or SKU" autocomplete="off">
-        <button type="submit">Search</button>
-      </form>
-    </section>
+      <div>
+        <dt>Departments</dt>
+        <dd>{departmentCount}</dd>
+      </div>
+    </dl>
 
     <section class="home-departments" aria-labelledby="home-departments-title">
       <h2 id="home-departments-title">Departments</h2>
       <div class="home-department-grid">
         {departments.map((department) => (
-          <a class="home-department-card" href={department.href}>
-            <span>{department.label}</span>
-            <small>{department.productCount} products</small>
-          </a>
+          <article class="home-department-card">
+            <div class="home-department-card-header">
+              <a class="home-department-main-link" href={department.href}>{department.label}</a>
+              <small>{department.productCount} products</small>
+            </div>
+            {department.departments.length > 0 && (
+              <div class="home-subdepartment-links" aria-label={`${department.label} sub-departments`}>
+                {department.departments.map((subDepartment) => (
+                  <a href={subDepartment.href}>{subDepartment.label}</a>
+                ))}
+              </div>
+            )}
+          </article>
         ))}
       </div>
     </section>
