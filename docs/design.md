@@ -26,9 +26,9 @@ Users open a product detail page by SKU. Product pages show image, description, 
 
 Users add products from product detail pages. Cart contents are persisted in `localStorage`, can be edited on the cart page, and are reflected by the global cart badge.
 
-### Review Support And Licensing
+### Review Help, Support, And Licensing
 
-Users can reach support, about, disclaimer, and licensing content through global navigation and footer links.
+Users can reach help, support, about, disclaimer, and licensing content through global navigation and footer links. The Help page explains browsing, product details, cart behavior, and supported search syntax.
 
 ## Information Architecture
 
@@ -37,9 +37,10 @@ Users can reach support, about, disclaimer, and licensing content through global
 - Product pages: detailed item records.
 - Search page: query result display.
 - Shopping cart: local item summary and quantity controls.
+- Help page: catalog usage and search syntax examples.
 - About page: project background and credits.
 - Disclaimers page: licensing, attribution, publisher notices, and third-party content disclaimers.
-- Support page: help, contact, repository, issue, and discussion links.
+- Support page: contact, repository, issue, discussion, and wiki links.
 
 ## Interaction Design
 

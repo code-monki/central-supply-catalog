@@ -40,6 +40,7 @@ npm run test:audit
 | TST-010 | Dependency audit | Automated | `npm audit --audit-level=moderate` | No vulnerabilities at or above the configured threshold. |
 | TST-011 | Dependency tree | Automated | `npm ls --depth=0` | Only declared dependencies are present. |
 | TST-012 | Generated artifact hygiene | Manual/automated | `git status --short` | Generated output, reports, and local files are ignored and not committed. |
+| TST-013 | Search syntax and help content | Automated | `npm test` | Search regression verifies term, phrase, boolean, and grouped queries; Help documents supported syntax and examples. |
 
 ## Manual Accessibility Checks
 
@@ -69,4 +70,3 @@ Manual checks are required before claiming WCAG conformance:
 - Playwright HTML reports are written to `reports/playwright-html/`.
 - Lighthouse JSON reports are written to `reports/lighthouse/`.
 - Reports are generated artifacts and are ignored by git.
-

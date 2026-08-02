@@ -6,6 +6,7 @@ const sampledRoutes = [
   '/',
   '/about-the-central-supply-catalog/',
   '/disclaimers/',
+  '/help/',
   '/support/',
   '/support/search/?s=laser',
   '/shopping-cart/',
@@ -110,6 +111,19 @@ test('search results page does not render help article content', async ({ page }
   await expect(page.getByText('The search feature allows the user to enter one or more keywords')).toHaveCount(0);
 });
 
+test('help page documents supported catalog search syntax', async ({ page }) => {
+  await page.goto(routePath('/help/'));
+
+  await expect(page.getByRole('heading', { name: 'Help' })).toBeVisible();
+  await expect(page.getByRole('heading', { name: 'Searching the Catalog' })).toBeVisible();
+  await expect(page.getByText('laser pistol', { exact: true }).first()).toBeVisible();
+  await expect(page.getByText('"laser pistol"', { exact: true })).toBeVisible();
+  await expect(page.getByText('laser OR maser', { exact: true })).toBeVisible();
+  await expect(page.getByText('laser NOT rifle', { exact: true })).toBeVisible();
+  await expect(page.getByText('(laser OR maser) AND pistol', { exact: true })).toBeVisible();
+  await expect(page.getByText('Adjacent terms without an operator are treated as')).toBeVisible();
+});
+
 test('product purchase persists to the shopping cart and quantity controls update totals', async ({ page }) => {
   await page.goto(routePath('/products/200-011-00001/'));
 
@@ -168,7 +182,7 @@ test('keyboard navigation reaches menu, department, search, and cart controls', 
 });
 
 test.describe('accessibility regression checks', () => {
-  for (const route of ['/', '/products/200-011-00001/', '/departments/weapons/', '/support/search/?s=laser', '/shopping-cart/']) {
+  for (const route of ['/', '/products/200-011-00001/', '/departments/weapons/', '/help/', '/support/search/?s=laser', '/shopping-cart/']) {
     test(`${route} has no automated axe violations`, async ({ page }) => {
       await page.goto(routePath(route));
       if (route.includes('/support/search/')) {

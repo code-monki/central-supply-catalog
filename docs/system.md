@@ -18,7 +18,7 @@ For the complete documentation set, see [documentation-index.md](documentation-i
 Static routes are defined under `astro/pages/`.
 
 - `/` renders the catalog home page.
-- `/about-the-central-supply-catalog/`, `/disclaimers/`, `/support/`, and `/support/search/` render informational and support content.
+- `/about-the-central-supply-catalog/`, `/disclaimers/`, `/help/`, `/support/`, and `/support/search/` render informational and support content.
 - `/shopping-cart/` renders the Vue cart island.
 - `/departments/[...page]` renders department and paginated department pages from catalog data.
 - `/products/[sku]` renders every product page from catalog data.
@@ -32,7 +32,9 @@ Generated product pages use the product SKU as the stable route key. Department 
 
 ## Search
 
-`astro/lib/catalog.mjs` generates the search document payload at `/_data/searchindex.json`. The client search code lives in `astro/lib/searchIndexClient.js` and `astro/components/SearchResults.vue`.
+`astro/lib/catalog.mjs` generates the search document payload at `/_data/searchindex.json`. The client search code lives in `astro/lib/catalogSearch.mjs`, `astro/lib/searchIndexClient.js`, and `astro/components/SearchResults.vue`.
+
+The search parser supports adjacent terms as `AND`, quoted phrases, `AND`, `OR`, `NOT`, and parenthesized groups. User-facing search syntax is documented on `/help/`; implementation details are documented in [site-search.md](site-search.md).
 
 Search documents are cached in `localStorage` with keys shaped as `csc-search-index:<version>`. The current version is produced by `searchIndexVersion()` in `astro/lib/catalog.mjs`. When a new version is written, stale `csc-search-index:*` keys are removed.
 

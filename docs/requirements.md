@@ -18,8 +18,8 @@ The Central Supply Catalog is a static catalog site for equipment and supplies u
 | FR-001 | Generate a static home page with catalog entry points and global navigation. | TST-001, TST-006 |
 | FR-002 | Generate department and paginated department listing pages from catalog data. | TST-001, TST-006 |
 | FR-003 | Generate one product detail page per product SKU. | TST-001, TST-003, TST-006 |
-| FR-004 | Provide global navigation to home, cart, support, about, departments, and search. | TST-001, TST-005, TST-006 |
-| FR-005 | Provide full-text product search from a generated search payload. | TST-002, TST-006 |
+| FR-004 | Provide global navigation to home, cart, help, support, about, departments, and search. | TST-001, TST-005, TST-006 |
+| FR-005 | Provide deterministic product search from a generated search payload, including terms, quoted phrases, boolean operators, and grouped expressions. | TST-002, TST-006, TST-013 |
 | FR-006 | Cache search documents in browser `localStorage` by version. | TST-002 |
 | FR-007 | Let users add products to a local shopping cart. | TST-003 |
 | FR-008 | Let users view, increment, decrement, remove, and clear cart items. | TST-003 |
@@ -27,6 +27,7 @@ The Central Supply Catalog is a static catalog site for equipment and supplies u
 | FR-010 | Preserve product content attribution and licensing notices. | TST-001, TST-009 |
 | FR-011 | Serve legacy-compatible static asset paths for images, audio, search payload, and service worker. | TST-001, TST-007 |
 | FR-012 | Provide support, about, licensing, and disclaimer content. | TST-001, TST-009 |
+| FR-013 | Provide user help for catalog browsing, product details, cart behavior, and supported search syntax. | TST-001, TST-006, TST-013 |
 
 ## Nonfunctional Requirements
 
@@ -58,4 +59,3 @@ The Central Supply Catalog is a static catalog site for equipment and supplies u
 - Runtime administrative editing UI.
 - Runtime relational querying across user data.
 - Formal WCAG certification by automation alone.
-

@@ -6,7 +6,7 @@ Welcome to the Central Supply Catalog Support page!
 
 ## Searching the Central Supply Catalog
 
-The Central Supply Catalog provides a basic search capability. See the article on [Search](/support/search).
+The Central Supply Catalog provides term, phrase, boolean, and grouped search. See [Help](/help) for usage details and examples.
 
 ## Discussion Group
 

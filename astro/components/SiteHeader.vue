@@ -74,6 +74,7 @@ onBeforeUnmount(() => {
     <a :href="withBase('/shopping-cart')">Shopping Cart</a>
     <a :href="withBase('/about-the-central-supply-catalog')">About</a>
     <a :href="withBase('/disclaimers')">Disclaimers</a>
+    <a :href="withBase('/help')">Help</a>
     <a :href="withBase('/support/')">Support</a>
   </nav>
 

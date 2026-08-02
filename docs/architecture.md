@@ -18,7 +18,7 @@ There is no runtime application server and no runtime database dependency. Brows
 
 | Component | Location | Responsibility |
 | --- | --- | --- |
-| Astro pages | `astro/pages/` | Static route generation for home, support, cart, departments, and products. |
+| Astro pages | `astro/pages/` | Static route generation for home, informational Markdown pages, support, cart, departments, and products. |
 | Base layout | `astro/layouts/BaseLayout.astro` | Shared document shell, global styles, header, and footer. |
 | Catalog library | `astro/lib/catalog.mjs` | Loads catalog files, computes routes, formats records, and builds search documents. |
 | Vue header | `astro/components/SiteHeader.vue` | Side navigation, department menu, search submit, and cart badge. |

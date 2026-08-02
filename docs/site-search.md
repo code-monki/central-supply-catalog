@@ -80,6 +80,8 @@ The browser-side search implementation lives in `astro/lib/catalogSearch.mjs` an
 
 The resulting search payload is stored at `/_data/searchindex.json` as uncompressed JSON. It contains a version and document array; the browser evaluates queries against those documents and caches the documents in `localStorage` by version.
 
+User-facing search syntax and examples are documented on the generated Help page at `/help/`.
+
 The input data for the index is stored in `src/_data/products/` and is not copied directly to the production `_data` folder.
 
 The search results will be overlaid on the home page in place of the departments container.
