@@ -201,7 +201,34 @@ test('editor saves an existing product and bumps the manifest version', async ()
   const nextProduct = {
     ...detail.body.product,
     name: `${detail.body.product.name} Test Save`,
+    mfr: 'Editor Test Manufacturer',
+    mass: '0.2',
+    size: 'compact',
+    damage: 'Test-1',
+    displacement: 0.5,
+    stats: [
+      {
+        label: 'Editor test stat',
+        value: 'present',
+      },
+    ],
+    accessories: ['200-011-00002'],
+    variants: [
+      {
+        sku: '200-011-00001',
+        label: 'Editor Test Variant',
+      },
+    ],
     description: `${detail.body.product.description}\n\nTemporary editor save test.`,
+    categories: ['weapons', 'weapon accessory', 'editor test category'],
+    sources: [
+      {
+        publication: 'Editor Test Fixture',
+        authors: ['Central Supply Catalog'],
+        publisher: 'Central Supply Catalog',
+      },
+    ],
+    tags: ['products', 'weapons', 'weapon accessory', 'editor test'],
   };
 
   const save = await requestJson('/api/products/200-011-00001', {
@@ -216,8 +243,42 @@ test('editor saves an existing product and bumps the manifest version', async ()
   assert.equal(save.body.product.product.name, nextProduct.name);
 
   const savedProduct = JSON.parse(fs.readFileSync(productFile, 'utf8'));
+  const savedProductKeys = Object.keys(savedProduct);
   const savedManifest = JSON.parse(fs.readFileSync(manifestFile, 'utf8'));
   assert.equal(savedProduct.name, nextProduct.name);
+  assert.equal(savedProduct.mfr, 'Editor Test Manufacturer');
+  assert.equal(savedProduct.mass, '0.2');
+  assert.equal(savedProduct.size, 'compact');
+  assert.equal(savedProduct.damage, 'Test-1');
+  assert.equal(savedProduct.displacement, 0.5);
+  assert.deepEqual(savedProduct.stats, nextProduct.stats);
+  assert.deepEqual(savedProduct.accessories, ['200-011-00002']);
+  assert.deepEqual(savedProduct.variants, nextProduct.variants);
+  assert.deepEqual(savedProduct.categories, nextProduct.categories);
+  assert.deepEqual(savedProduct.sources, nextProduct.sources);
+  assert.deepEqual(savedProduct.tags, nextProduct.tags);
+  assert.deepEqual(savedProductKeys.slice(0, 20), [
+    'sku',
+    'type',
+    'subtype',
+    'name',
+    'mfr',
+    'cost',
+    'mass',
+    'size',
+    'techLevel',
+    'qrebs',
+    'damage',
+    'displacement',
+    'image',
+    'description',
+    'stats',
+    'accessories',
+    'variants',
+    'categories',
+    'sources',
+    'tags',
+  ]);
   assert.equal(savedManifest.catalogVersion, expectedVersion);
 });
 

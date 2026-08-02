@@ -84,14 +84,14 @@ npm run editor
 
 The production build writes static output to `dist/`. GitHub Pages or another static host should publish `dist/` with clean URL support for generated `index.html` routes.
 
-`npm run build:search-index` regenerates `dist/_data/searchindex.json` from the source catalog without running a full Astro build. `npm run editor` starts the local catalog editor shell, which can browse current catalog data, edit existing products, create new products with allocated SKUs, manage Department/Sub-department taxonomy, preview product Markdown, run validation, rebuild the search index, preview Git diffs, commit validated changes, and push.
+`npm run build:search-index` regenerates `dist/_data/searchindex.json` from the source catalog without running a full Astro build. `npm run editor` starts the local catalog editor shell, which can browse current catalog data, edit existing products, create new products with allocated SKUs, edit common product metadata, manage list fields and complex JSON fields, manage Department/Sub-department taxonomy, preview product Markdown, run validation, rebuild the search index, preview Git diffs, commit validated changes, and push.
 
 ## Validation
 
 Automated regression coverage:
 
 - `npm test` runs Playwright route smoke tests, search cache checks, cart workflow checks, keyboard navigation basics, axe WCAG regression checks, and editor API tests.
-- `npm run test:editor` verifies editor catalog APIs, Markdown preview, Git workflow status/diff safeguards, taxonomy writes, invalid-save handling, product save writes, next-SKU allocation, invalid department handling, product creation writes, and manifest version bump behavior.
+- `npm run test:editor` verifies editor catalog APIs, Markdown preview, Git workflow status/diff safeguards, taxonomy writes, invalid-save handling, rich product save writes with stable field ordering, next-SKU allocation, invalid department handling, product creation writes, and manifest version bump behavior.
 - `npm run validate:data` validates catalog manifest, metadata, product JSON shape, SKU uniqueness, department-derived file placement, and product cross-references.
 - `npm run build:search-index` verifies that the generated search payload can be rebuilt from source catalog data.
 - `npm run test:audit` builds the site, serves the production preview, runs Lighthouse for sampled routes, and writes JSON reports to `reports/lighthouse/`.

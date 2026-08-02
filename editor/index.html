@@ -205,6 +205,18 @@
                 <input v-model.number="selectedProduct.product.cost" type="number" min="0" step="0.001" required>
               </label>
               <label>
+                Manufacturer
+                <input v-model.trim="selectedProduct.product.mfr" type="text">
+              </label>
+              <label>
+                Mass
+                <input v-model="selectedProduct.product.mass" type="text">
+              </label>
+              <label>
+                Size
+                <input v-model="selectedProduct.product.size" type="text">
+              </label>
+              <label>
                 Image
                 <input v-model.trim="selectedProduct.product.image" type="text" required>
               </label>
@@ -223,6 +235,42 @@
               <label>
                 QREBS
                 <input v-model.trim="selectedProduct.product.qrebs" type="text" required>
+              </label>
+              <label>
+                Damage
+                <input v-model.trim="selectedProduct.product.damage" type="text">
+              </label>
+              <label>
+                Displacement
+                <input v-model="selectedProduct.product.displacement" type="number" min="0" step="0.001">
+              </label>
+            </div>
+            <div class="form-grid text-grid">
+              <label>
+                Tags
+                <textarea v-model="productTagsText" rows="5" required></textarea>
+              </label>
+              <label>
+                Categories
+                <textarea v-model="productCategoriesText" rows="5"></textarea>
+              </label>
+              <label>
+                Accessories
+                <textarea v-model="productAccessoriesText" rows="5"></textarea>
+              </label>
+            </div>
+            <div class="form-grid json-grid">
+              <label>
+                Sources JSON
+                <textarea v-model="productSourcesJson" rows="10" required></textarea>
+              </label>
+              <label>
+                Variants JSON
+                <textarea v-model="productVariantsJson" rows="10"></textarea>
+              </label>
+              <label>
+                Stats JSON
+                <textarea v-model="productStatsJson" rows="10"></textarea>
               </label>
             </div>
             <label>

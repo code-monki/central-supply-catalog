@@ -16,6 +16,12 @@ createApp({
       mode: 'edit',
       navigation: [],
       products: [],
+      productAccessoriesText: '',
+      productCategoriesText: '',
+      productSourcesJson: '[]',
+      productStatsJson: '[]',
+      productTagsText: '',
+      productVariantsJson: '[]',
       query: '',
       saveError: '',
       selectedProduct: null,
@@ -285,6 +291,7 @@ createApp({
       this.createError = '';
       const response = await fetch(`/api/products/${encodeURIComponent(sku)}`);
       this.selectedProduct = await response.json();
+      this.syncProductTextFields();
       await this.updatePreview();
     },
     async startCreateProduct() {
@@ -316,6 +323,7 @@ createApp({
           renderedDescription: '',
           product: allocation.product,
         };
+        this.syncProductTextFields();
         await this.updatePreview();
       } catch (error) {
         this.createError = error instanceof Error ? error.message : String(error);
@@ -325,6 +333,8 @@ createApp({
     },
     async saveProduct() {
       if (!this.selectedProduct?.product) return;
+
+      if (!this.applyProductTextFields()) return;
 
       this.busy = true;
       this.saveError = '';
@@ -346,6 +356,7 @@ createApp({
 
         this.manifest = result.manifest;
         this.selectedProduct = result.product;
+        this.syncProductTextFields();
         const index = this.products.findIndex((product) => product.sku === result.product.sku);
         if (index === -1) {
           this.products.push(result.product);
@@ -378,6 +389,81 @@ createApp({
       });
       const result = await response.json();
       this.selectedProduct.renderedDescription = result.html;
+    },
+    arrayToText(value) {
+      return Array.isArray(value) ? value.join('\n') : '';
+    },
+    textToArray(value) {
+      return String(value || '')
+        .split(/[\n,]/)
+        .map((item) => item.trim())
+        .filter(Boolean);
+    },
+    prettyJson(value, fallback) {
+      return typeof value === 'undefined' ? '' : JSON.stringify(value ?? fallback, null, 2);
+    },
+    parseJsonField(label, value, fallback) {
+      const trimmed = String(value || '').trim();
+      if (!trimmed) return fallback;
+
+      try {
+        return JSON.parse(trimmed);
+      } catch (error) {
+        throw new Error(`${label} must contain valid JSON. ${error instanceof Error ? error.message : String(error)}`);
+      }
+    },
+    setOptionalNumber(product, field) {
+      if (product[field] === '' || product[field] === null || typeof product[field] === 'undefined') {
+        delete product[field];
+        return;
+      }
+
+      const nextValue = Number(product[field]);
+      if (Number.isFinite(nextValue)) product[field] = nextValue;
+    },
+    setOptionalString(product, field) {
+      if (typeof product[field] !== 'string') return;
+      const nextValue = product[field].trim();
+      if (nextValue) {
+        product[field] = nextValue;
+      } else {
+        delete product[field];
+      }
+    },
+    syncProductTextFields() {
+      const product = this.selectedProduct?.product || {};
+      this.productTagsText = this.arrayToText(product.tags);
+      this.productCategoriesText = this.arrayToText(product.categories);
+      this.productAccessoriesText = this.arrayToText(product.accessories);
+      this.productSourcesJson = this.prettyJson(product.sources, []);
+      this.productVariantsJson = this.prettyJson(product.variants, []);
+      this.productStatsJson = this.prettyJson(product.stats, []);
+    },
+    applyProductTextFields() {
+      const product = this.selectedProduct?.product;
+      if (!product) return false;
+
+      this.saveError = '';
+
+      try {
+        product.tags = this.textToArray(this.productTagsText);
+        product.categories = this.textToArray(this.productCategoriesText);
+        product.accessories = this.textToArray(this.productAccessoriesText);
+        product.sources = this.parseJsonField('Sources', this.productSourcesJson, []);
+        product.variants = this.parseJsonField('Variants', this.productVariantsJson, []);
+        product.stats = this.parseJsonField('Stats', this.productStatsJson, []);
+        if (product.categories.length === 0) delete product.categories;
+        if (product.accessories.length === 0) delete product.accessories;
+        if (Array.isArray(product.variants) && product.variants.length === 0) delete product.variants;
+        if (Array.isArray(product.stats) && product.stats.length === 0) delete product.stats;
+        this.setOptionalString(product, 'mfr');
+        this.setOptionalString(product, 'damage');
+        this.setOptionalNumber(product, 'displacement');
+        return true;
+      } catch (error) {
+        this.saveError = error instanceof Error ? error.message : String(error);
+        return false;
+      }
     },
   },
 }).mount('#app');

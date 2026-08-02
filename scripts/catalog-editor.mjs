@@ -49,6 +49,28 @@ const writeJson = (filePath, value) => {
 };
 
 const slug = (value) => slugify(value, { lower: true, strict: true });
+const productFieldOrder = [
+  'sku',
+  'type',
+  'subtype',
+  'name',
+  'mfr',
+  'cost',
+  'mass',
+  'size',
+  'techLevel',
+  'qrebs',
+  'damage',
+  'displacement',
+  'image',
+  'description',
+  'stats',
+  'accessories',
+  'variants',
+  'categories',
+  'sources',
+  'tags',
+];
 let editorCategories = readJson(categoriesPath);
 let editorDepartments = readJson(departmentsPath);
 let editorProducts = allProducts();
@@ -223,6 +245,20 @@ const validateProductRecord = (product) => {
     path: error.instancePath || '/',
     message: error.message,
   }));
+};
+
+const normalizeProductRecord = (product) => {
+  const orderedProduct = {};
+
+  for (const field of productFieldOrder) {
+    if (Object.prototype.hasOwnProperty.call(product, field)) orderedProduct[field] = product[field];
+  }
+
+  for (const [field, value] of Object.entries(product)) {
+    if (!Object.prototype.hasOwnProperty.call(orderedProduct, field)) orderedProduct[field] = value;
+  }
+
+  return orderedProduct;
 };
 
 const productDataDir = path.join(rootDir, 'src/_data/products');
@@ -570,15 +606,16 @@ const handleApi = async (req, res, url) => {
       return;
     }
 
+    const normalizedProduct = normalizeProductRecord(nextProduct);
     fs.mkdirSync(path.dirname(allocation.file), { recursive: true });
-    writeJson(allocation.file, nextProduct);
+    writeJson(allocation.file, normalizedProduct);
     const manifest = body.bumpVersion === false ? currentManifest() : bumpManifestVersion();
-    editorProducts = [...editorProducts, nextProduct].sort((a, b) => a.name.localeCompare(b.name));
+    editorProducts = [...editorProducts, normalizedProduct].sort((a, b) => a.name.localeCompare(b.name));
 
     sendJson(res, 201, {
       ok: true,
       manifest,
-      product: productDetail(nextProduct),
+      product: productDetail(normalizedProduct),
       file: allocation.relativeFile,
     });
     return;
@@ -625,14 +662,15 @@ const handleApi = async (req, res, url) => {
       return;
     }
 
-    writeJson(found.file, nextProduct);
+    const normalizedProduct = normalizeProductRecord(nextProduct);
+    writeJson(found.file, normalizedProduct);
     const manifest = body.bumpVersion === false ? currentManifest() : bumpManifestVersion();
-    editorProducts = editorProducts.map((product) => (product.sku === sku ? nextProduct : product));
+    editorProducts = editorProducts.map((product) => (product.sku === sku ? normalizedProduct : product));
 
     sendJson(res, 200, {
       ok: true,
       manifest,
-      product: productDetail(nextProduct),
+      product: productDetail(normalizedProduct),
       file: path.relative(rootDir, found.file),
     });
     return;
