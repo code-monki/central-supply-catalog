@@ -1,17 +1,51 @@
 ---
 import BaseLayout from '../layouts/BaseLayout.astro';
-import heroTitle from '../../src/img/hero-title.png';
+import { allProducts, departmentMenu, getProductsForCategory } from '../lib/catalog.mjs';
+import { withBase } from '../lib/paths.mjs';
+
+const departments = departmentMenu().map((department) => ({
+  ...department,
+  href: withBase(department.href),
+  productCount: getProductsForCategory(department.label).length,
+}));
+const productCount = allProducts().length;
+const departmentCount = departments.length;
+const searchAction = withBase('/support/search/');
 ---
 
 <BaseLayout title="Central Supply Catalog">
-  <main id="main" class="content-container" tabindex="0" aria-label="Home content">
-    <div class="hero-section">
-      <div class="hero-image">
-        <img src={heroTitle.src} width={heroTitle.width} height={heroTitle.height} alt="Central Supply Catalog" fetchpriority="high">
+  <main id="main" class="content-container home-content" tabindex="0" aria-label="Catalog home">
+    <section class="home-search-panel" aria-labelledby="home-search-title">
+      <div>
+        <h1 id="home-search-title">Find Equipment</h1>
+        <dl class="catalog-stats" aria-label="Catalog summary">
+          <div>
+            <dt>Products</dt>
+            <dd>{productCount}</dd>
+          </div>
+          <div>
+            <dt>Departments</dt>
+            <dd>{departmentCount}</dd>
+          </div>
+        </dl>
       </div>
-      <div class="hero-text">
-        <p class="subtitle">Equipment and Supplies<br>for the<br>Discerning Traveller</p>
+      <form class="home-search-form" action={searchAction} method="get" role="search">
+        <label class="visually-hidden" for="home-search-input">Search catalog</label>
+        <input id="home-search-input" name="s" type="search" placeholder="Search by item, phrase, or SKU" autocomplete="off">
+        <button type="submit">Search</button>
+      </form>
+    </section>
+
+    <section class="home-departments" aria-labelledby="home-departments-title">
+      <h2 id="home-departments-title">Departments</h2>
+      <div class="home-department-grid">
+        {departments.map((department) => (
+          <a class="home-department-card" href={department.href}>
+            <span>{department.label}</span>
+            <small>{department.productCount} products</small>
+          </a>
+        ))}
       </div>
-    </div>
+    </section>
   </main>
 </BaseLayout>

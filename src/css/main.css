@@ -720,57 +720,129 @@ main {
   min-width: 100%;
   min-height: 0;
 }
-main .hero-section {
-  display: flex;
-  flex-direction: column;
-  width: 90%;
-  height: 40vh;
-  margin: 3rem 0;
-  align-items: center;
-  justify-content: space-between;
-}
-@media screen and (min-width: 48rem) {
-  main .hero-section {
-    height: 50vh;
-  }
-}
-main .hero-section .hero-image {
-  border: 4px solid #ccc;
-  background: rgba(0, 0, 0, 0.5);
-  border-radius: 1rem;
+main.home-content {
+  justify-content: flex-start;
+  gap: 1rem;
   padding: 1rem;
 }
+.home-search-panel,
+.home-departments {
+  width: 100%;
+  color: black;
+  background: white;
+  border: 1px solid #c7c7c7;
+}
+.home-search-panel {
+  display: grid;
+  gap: 1rem;
+  padding: 1rem;
+}
+.home-search-panel h1 {
+  margin-bottom: 0.75rem;
+  color: var(--csc-red);
+  font-size: 1.5rem;
+}
+.catalog-stats {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.75rem;
+}
+.catalog-stats div {
+  min-width: 8rem;
+  padding: 0.5rem 0.75rem;
+  border: 1px solid #d7d7d7;
+  background: #f6f6f6;
+}
+.catalog-stats dt {
+  font-size: 0.8rem;
+}
+.catalog-stats dd {
+  font-size: 1.3rem;
+  font-weight: 700;
+}
+.home-search-form {
+  display: grid;
+  grid-template-columns: 1fr;
+  align-self: end;
+}
+.home-search-form input {
+  width: 100%;
+  min-height: 2.5rem;
+  padding: 0 0.75rem;
+  border: 2px solid black;
+  font: inherit;
+}
+.home-search-form button {
+  min-height: 2.5rem;
+  padding: 0 1rem;
+  border: 2px solid black;
+  color: black;
+  background: #ffe082;
+  font: inherit;
+  font-weight: 700;
+}
+.home-departments {
+  flex: 1 1 auto;
+  min-height: 0;
+  padding: 1rem;
+  overflow-y: auto;
+}
+.home-departments h2 {
+  margin-bottom: 0.75rem;
+  font-size: 1.2rem;
+}
+.home-department-grid {
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 0.5rem;
+}
+.home-department-card {
+  display: flex;
+  justify-content: space-between;
+  gap: 1rem;
+  min-height: 3rem;
+  padding: 0.65rem 0.75rem;
+  border: 1px solid #d7d7d7;
+  color: #0b5f9f;
+  text-decoration: none;
+  background: #fbfbfb;
+}
+.home-department-card:visited {
+  color: #0b5f9f;
+}
+.home-department-card:hover,
+.home-department-card:focus-visible {
+  color: #cc3333;
+  background: lightgoldenrodyellow;
+}
+.home-department-card span {
+  font-weight: 700;
+}
+.home-department-card small {
+  flex: 0 0 auto;
+  color: #444;
+}
 @media screen and (min-width: 48rem) {
-  main .hero-section {
-    width: 60%;
+  main.home-content {
+    padding: 1.25rem;
+  }
+  .home-search-panel {
+    grid-template-columns: minmax(14rem, 1fr) minmax(22rem, 2fr);
+    align-items: end;
+  }
+  .home-search-form {
+    grid-template-columns: minmax(0, 1fr) auto;
+  }
+  .home-search-form input {
+    border-right: 0;
+  }
+  .home-department-grid {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
   }
 }
 @media screen and (min-width: 64rem) {
-  main .hero-section {
-    width: 80%;
-  }
-}
-main .hero-section img {
-  width: 100%;
-  height: auto;
-}
-main .hero-section .subtitle {
-  margin-top: 3rem;
-  font-size: 1rem;
-  color: var(--csc-red);
-  background: rgba(0, 0, 0, 0.5);
-  padding: 1rem;
-  text-align: center;
-  font-style: italic;
-  border: 2px solid #ccc;
-  border-radius: 1rem;
-}
-@media screen and (min-width: 48rem) {
-  main .hero-section .subtitle {
-    margin-top: 4rem;
-    font-size: 1.5rem;
-    padding: 2rem;
-    margin-bottom: 5rem;
+  .home-department-grid {
+    grid-template-columns: repeat(3, minmax(0, 1fr));
   }
 }
 

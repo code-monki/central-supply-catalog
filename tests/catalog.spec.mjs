@@ -58,42 +58,18 @@ test('about and disclaimers pages keep distinct content', async ({ page }) => {
   await expect(page.getByRole('heading', { name: 'Credits' })).toHaveCount(0);
 });
 
-test('home page brand red is consistent across header and hero text', async ({ page }) => {
+test('home page presents catalog entry controls', async ({ page }) => {
   await page.goto(routePath('/'));
 
-  const colors = await page.evaluate(async () => {
-    const logo = document.querySelector('.site-logo a');
-    const title = document.querySelector('.hero-image img');
-    const subtitle = document.querySelector('.subtitle');
-    if (!title.complete) await title.decode();
+  await expect(page.getByRole('heading', { name: 'Find Equipment' })).toBeVisible();
+  await expect(page.getByRole('searchbox', { name: 'Search catalog' })).toBeVisible();
+  await expect(page.getByRole('heading', { name: 'Departments' })).toBeVisible();
+  await expect(page.locator('.home-department-card')).toHaveCount(20);
+  await expect(page.getByRole('link', { name: /Weapons/ })).toBeVisible();
 
-    const canvas = document.createElement('canvas');
-    canvas.width = title.naturalWidth;
-    canvas.height = title.naturalHeight;
-    const context = canvas.getContext('2d');
-    context.drawImage(title, 0, 0);
-    const pixels = context.getImageData(0, 0, canvas.width, canvas.height).data;
-    let titleColor = null;
-
-    for (let index = 0; index < pixels.length; index += 4) {
-      if (pixels[index + 3] === 255) {
-        titleColor = `rgb(${pixels[index]}, ${pixels[index + 1]}, ${pixels[index + 2]})`;
-        break;
-      }
-    }
-
-    return {
-      logo: getComputedStyle(logo).color,
-      title: titleColor,
-      subtitle: getComputedStyle(subtitle).color,
-    };
-  });
-
-  expect(colors).toEqual({
-    logo: 'rgb(255, 0, 0)',
-    title: 'rgb(255, 0, 0)',
-    subtitle: 'rgb(255, 0, 0)',
-  });
+  await page.getByRole('searchbox', { name: 'Search catalog' }).fill('laser pistol');
+  await page.locator('.home-search-form').getByRole('button', { name: 'Search' }).click();
+  await expect(page).toHaveURL(new RegExp(`${escapedBasePath}support/search/\\?s=laser\\+pistol$`));
 });
 
 test('search warms and reuses a versioned localStorage cache', async ({ page }) => {
