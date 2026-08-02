@@ -97,6 +97,91 @@ const runCommand = (command, args) =>
     });
   });
 
+const gitCommand = (args) => runCommand('git', args);
+
+const gitStatus = async () => {
+  const [branch, commit, status] = await Promise.all([
+    gitCommand(['rev-parse', '--abbrev-ref', 'HEAD']),
+    gitCommand(['rev-parse', '--short', 'HEAD']),
+    gitCommand(['status', '--porcelain']),
+  ]);
+
+  return {
+    ok: branch.ok && commit.ok && status.ok,
+    branch: branch.stdout.trim(),
+    commit: commit.stdout.trim(),
+    dirty: status.stdout.trim().length > 0,
+    files: status.stdout
+      .split('\n')
+      .filter(Boolean)
+      .map((line) => ({
+        status: line.slice(0, 2).trim() || line.slice(0, 2),
+        file: line.slice(3),
+      })),
+    stderr: [branch.stderr, commit.stderr, status.stderr].filter(Boolean).join('\n'),
+  };
+};
+
+const gitDiff = async () => {
+  const [unstaged, staged] = await Promise.all([
+    gitCommand(['diff', '--', '.']),
+    gitCommand(['diff', '--cached', '--', '.']),
+  ]);
+
+  return {
+    ok: unstaged.ok && staged.ok,
+    stdout: [staged.stdout, unstaged.stdout].filter(Boolean).join('\n'),
+    stderr: [staged.stderr, unstaged.stderr].filter(Boolean).join('\n'),
+  };
+};
+
+const validateBeforeCommit = async () => {
+  const validate = await runCommand('npm', ['run', 'validate:data']);
+  if (!validate.ok) return validate;
+
+  const rebuild = await runCommand('npm', ['run', 'build:search-index']);
+  return {
+    ok: rebuild.ok,
+    code: rebuild.code,
+    stdout: [validate.stdout, rebuild.stdout].filter(Boolean).join('\n'),
+    stderr: [validate.stderr, rebuild.stderr].filter(Boolean).join('\n'),
+  };
+};
+
+const commitChanges = async (message) => {
+  const trimmedMessage = String(message || '').trim();
+  if (!trimmedMessage) {
+    return { ok: false, code: 1, stdout: '', stderr: 'Commit message is required.' };
+  }
+
+  const statusBefore = await gitStatus();
+  if (!statusBefore.ok) {
+    return { ok: false, code: 1, stdout: '', stderr: statusBefore.stderr || 'Could not read git status.' };
+  }
+
+  if (!statusBefore.dirty) {
+    return { ok: false, code: 1, stdout: '', stderr: 'There are no repository changes to commit.' };
+  }
+
+  const validation = await validateBeforeCommit();
+  if (!validation.ok) return validation;
+
+  const add = await gitCommand(['add', '-A']);
+  if (!add.ok) return add;
+
+  const staged = await gitCommand(['diff', '--cached', '--quiet']);
+  if (staged.ok) {
+    return { ok: false, code: 1, stdout: '', stderr: 'There are no staged changes to commit.' };
+  }
+
+  const commit = await gitCommand(['commit', '-m', trimmedMessage]);
+  return {
+    ...commit,
+    stdout: [validation.stdout, add.stdout, commit.stdout].filter(Boolean).join('\n'),
+    stderr: [validation.stderr, add.stderr, commit.stderr].filter(Boolean).join('\n'),
+  };
+};
+
 const currentManifest = () => readJson(manifestPath);
 
 const bumpManifestVersion = () => {
@@ -363,6 +448,33 @@ const handleApi = async (req, res, url) => {
 
   if (req.method === 'POST' && url.pathname === '/api/actions/rebuild-search-index') {
     sendJson(res, 200, await runCommand('npm', ['run', 'build:search-index']));
+    return;
+  }
+
+  if (req.method === 'POST' && url.pathname === '/api/actions/validate-before-commit') {
+    sendJson(res, 200, await validateBeforeCommit());
+    return;
+  }
+
+  if (req.method === 'GET' && url.pathname === '/api/git/status') {
+    sendJson(res, 200, await gitStatus());
+    return;
+  }
+
+  if (req.method === 'GET' && url.pathname === '/api/git/diff') {
+    sendJson(res, 200, await gitDiff());
+    return;
+  }
+
+  if (req.method === 'POST' && url.pathname === '/api/git/commit') {
+    const body = JSON.parse(await readBody(req));
+    const result = await commitChanges(body.message);
+    sendJson(res, result.ok ? 200 : 400, result);
+    return;
+  }
+
+  if (req.method === 'POST' && url.pathname === '/api/git/push') {
+    sendJson(res, 200, await gitCommand(['push']));
     return;
   }
 

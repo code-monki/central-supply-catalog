@@ -68,6 +68,89 @@ button:disabled {
   background: #2c3d55;
 }
 
+.git-panel {
+  display: grid;
+  grid-template-columns: minmax(220px, 320px) minmax(0, 1fr);
+  gap: 16px;
+  padding: 12px 24px;
+  border-bottom: 1px solid #d3d9e0;
+  background: #fff;
+}
+
+.git-panel h2,
+.git-panel p {
+  margin: 0;
+}
+
+.git-panel h2 {
+  font-size: 18px;
+}
+
+.git-panel p {
+  color: #4d5968;
+}
+
+.git-panel strong {
+  display: inline-block;
+  margin-left: 8px;
+  padding: 1px 6px;
+  border-radius: 4px;
+  font-size: 12px;
+}
+
+.git-panel strong.clean {
+  color: #14351f;
+  background: #b9efc8;
+}
+
+.git-panel strong.dirty {
+  color: #4e3700;
+  background: #f3d982;
+}
+
+.git-actions {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
+  align-items: center;
+}
+
+.git-actions button,
+.git-actions input {
+  min-height: 34px;
+  padding: 0 10px;
+  border: 1px solid #aeb7c2;
+  border-radius: 4px;
+}
+
+.git-actions button {
+  background: #edf2f7;
+}
+
+.git-actions input {
+  min-width: 260px;
+}
+
+.git-files {
+  grid-column: 1 / -1;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 6px 12px;
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  color: #4d5968;
+}
+
+.git-files li {
+  display: flex;
+  gap: 6px;
+}
+
+.git-files code {
+  color: #181a1f;
+}
+
 .workspace {
   display: grid;
   grid-template-columns: minmax(280px, 360px) minmax(0, 1fr);
@@ -315,6 +398,7 @@ dd {
 
 @media (max-width: 760px) {
   .topbar,
+  .git-panel,
   .workspace,
   .detail-header,
   .form-grid,
@@ -324,6 +408,16 @@ dd {
 
   .actions {
     margin-top: 12px;
+  }
+
+  .git-actions,
+  .git-files {
+    margin-top: 10px;
+  }
+
+  .git-actions input {
+    width: 100%;
+    min-width: 0;
   }
 
   .sidebar {

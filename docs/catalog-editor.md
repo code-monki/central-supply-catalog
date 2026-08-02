@@ -39,6 +39,7 @@ The current implementation supports read-only browsing, existing-product edits, 
 - Normalized JSON writes for newly created product files.
 - Automatic `catalogVersion` increment in `astro/data/catalog-manifest.json` after a successful product save or create.
 - Local actions for `npm run validate:data` and `npm run build:search-index`.
+- Git workflow controls for repository status, diff preview, validation before commit, commit, and push.
 - Automated editor API tests through `npm run test:editor`.
 
 The editor presents top-level entries from `astro/data/categories.json` as Departments and SKU-bearing records from `astro/data/departments.json` as Sub-departments. The underlying data file names remain unchanged for now.
@@ -48,7 +49,7 @@ The editor presents top-level entries from `astro/data/categories.json` as Depar
 1. Read-only local catalog browser with product filtering and rendered description preview. Complete.
 2. Existing-product edit form with JSON Schema validation and normalized save. Complete.
 3. Create-product wizard with SKU helper, department-derived file placement, and manifest version bump. Complete.
-4. Git workflow controls for dirty-worktree checks, staged diff preview, commit, push, and validation before commit.
+4. Git workflow controls for dirty-worktree checks, diff preview, commit, push, and validation before commit. Complete.
 5. Optional Tauri wrapper if a packaged desktop app is needed.
 
 ## Non-Goals

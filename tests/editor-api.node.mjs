@@ -67,6 +67,31 @@ test('editor previews markdown descriptions', async () => {
   assert.match(preview.body.html, /<strong>Bold<\/strong>/);
 });
 
+test('editor serves git workflow status and diff data', async () => {
+  const status = await requestJson('/api/git/status');
+  assert.equal(status.response.status, 200);
+  assert.equal(typeof status.body.branch, 'string');
+  assert.equal(typeof status.body.commit, 'string');
+  assert.equal(typeof status.body.dirty, 'boolean');
+  assert.ok(Array.isArray(status.body.files));
+
+  const diff = await requestJson('/api/git/diff');
+  assert.equal(diff.response.status, 200);
+  assert.equal(typeof diff.body.stdout, 'string');
+  assert.equal(typeof diff.body.stderr, 'string');
+});
+
+test('editor rejects commit requests without a message', async () => {
+  const commit = await requestJson('/api/git/commit', {
+    method: 'POST',
+    body: JSON.stringify({ message: '   ' }),
+  });
+
+  assert.equal(commit.response.status, 400);
+  assert.equal(commit.body.ok, false);
+  assert.equal(commit.body.stderr, 'Commit message is required.');
+});
+
 test('editor rejects invalid product saves', async () => {
   const detail = await requestJson('/api/products/200-011-00001');
   const invalidProduct = { ...detail.body.product, name: '' };

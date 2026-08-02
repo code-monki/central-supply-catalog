@@ -20,6 +20,9 @@ createApp({
       saveError: '',
       selectedProduct: null,
       selectedSku: '',
+      git: null,
+      gitDiff: '',
+      commitMessage: '',
     };
   },
   computed: {
@@ -57,6 +60,7 @@ createApp({
     this.createDepartmentLabel = this.navigation[0]?.label || '';
     this.createSubdepartmentId = this.selectableSubdepartments[0]?.id || '';
 
+    await this.refreshGitStatus();
     if (this.products.length > 0) await this.selectProduct(this.products[0].sku);
   },
   methods: {
@@ -81,6 +85,62 @@ createApp({
     },
     async runValidation() {
       await this.runAction('Validate Data', '/api/actions/validate');
+    },
+    async runPreCommitValidation() {
+      await this.runAction('Validate Before Commit', '/api/actions/validate-before-commit');
+      await this.refreshGitStatus();
+    },
+    async refreshGitStatus() {
+      const response = await fetch('/api/git/status');
+      this.git = await response.json();
+    },
+    async loadGitDiff() {
+      this.busy = true;
+      this.lastAction = { title: 'Git Diff', ok: true, stdout: 'Loading diff...', stderr: '' };
+
+      try {
+        const response = await fetch('/api/git/diff');
+        const result = await response.json();
+        this.gitDiff = result.stdout || '';
+        this.lastAction = {
+          title: 'Git Diff',
+          ok: result.ok,
+          stdout: this.gitDiff || 'No diff output.',
+          stderr: result.stderr || '',
+        };
+      } catch (error) {
+        this.lastAction = { title: 'Git Diff', ok: false, stdout: '', stderr: error instanceof Error ? error.message : String(error) };
+      } finally {
+        this.busy = false;
+      }
+    },
+    async commitChanges() {
+      this.busy = true;
+      this.lastAction = { title: 'Commit Changes', ok: true, stdout: 'Running validation and committing...', stderr: '' };
+
+      try {
+        const response = await fetch('/api/git/commit', {
+          method: 'POST',
+          headers: { 'Content-Type': 'application/json' },
+          body: JSON.stringify({ message: this.commitMessage }),
+        });
+        const result = await response.json();
+        this.lastAction = { title: 'Commit Changes', ...result };
+
+        if (response.ok) {
+          this.commitMessage = '';
+          this.gitDiff = '';
+          await this.refreshGitStatus();
+        }
+      } catch (error) {
+        this.lastAction = { title: 'Commit Changes', ok: false, stdout: '', stderr: error instanceof Error ? error.message : String(error) };
+      } finally {
+        this.busy = false;
+      }
+    },
+    async pushChanges() {
+      await this.runAction('Push Changes', '/api/git/push');
+      await this.refreshGitStatus();
     },
     async selectProduct(sku) {
       this.mode = 'edit';
@@ -165,6 +225,7 @@ createApp({
           stdout: `${index === -1 ? 'Created' : 'Saved'} ${result.product.sku} at ${result.file}; catalog version is now ${result.manifest.catalogVersion}.`,
           stderr: '',
         };
+        await this.refreshGitStatus();
       } catch (error) {
         this.saveError = error instanceof Error ? error.message : String(error);
       } finally {

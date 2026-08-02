@@ -19,6 +19,30 @@
         </div>
       </header>
 
+      <section class="git-panel" v-if="git">
+        <div>
+          <h2>Version Control</h2>
+          <p>
+            {{ git.branch }} @ {{ git.commit }}
+            <strong :class="git.dirty ? 'dirty' : 'clean'">{{ git.dirty ? 'changes pending' : 'clean' }}</strong>
+          </p>
+        </div>
+        <div class="git-actions">
+          <button type="button" @click="refreshGitStatus" :disabled="busy">Refresh</button>
+          <button type="button" @click="loadGitDiff" :disabled="busy || !git.dirty">Preview Diff</button>
+          <button type="button" @click="runPreCommitValidation" :disabled="busy">Validate Commit</button>
+          <input v-model.trim="commitMessage" type="text" placeholder="Commit message" aria-label="Commit message">
+          <button type="button" @click="commitChanges" :disabled="busy || !git.dirty || !commitMessage">Commit</button>
+          <button type="button" @click="pushChanges" :disabled="busy">Push</button>
+        </div>
+        <ul v-if="git.files.length" class="git-files">
+          <li v-for="file in git.files" :key="`${file.status}-${file.file}`">
+            <code>{{ file.status }}</code>
+            <span>{{ file.file }}</span>
+          </li>
+        </ul>
+      </section>
+
       <main class="workspace">
         <aside class="sidebar">
           <div class="create-panel">
