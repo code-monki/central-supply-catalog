@@ -1,5 +1,5 @@
 <script setup>
-import { computed, ref } from 'vue';
+import { computed, onMounted, ref } from 'vue';
 
 const props = defineProps({
   product: {
@@ -18,6 +18,7 @@ const props = defineProps({
 
 const cartKey = 'csc-cart';
 const quantity = ref(1);
+const ready = ref(false);
 const statusMessage = ref('');
 
 const safeQuantity = computed(() => {
@@ -41,6 +42,7 @@ const saveCart = (cart) => {
 };
 
 const addToCart = () => {
+  if (!ready.value) return;
   const qty = safeQuantity.value;
   if (qty < 1) return;
 
@@ -63,6 +65,10 @@ const addToCart = () => {
   saveCart(cart);
   statusMessage.value = 'Item added to cart';
 };
+
+onMounted(() => {
+  ready.value = true;
+});
 </script>
 
 <template>
@@ -70,10 +76,10 @@ const addToCart = () => {
     <div id="unit-price" class="unit-price" :data-unitprice="props.product.cost">{{ props.formattedCost }}</div>
     <div class="input-field quantity">
       <label for="product-qty">Qty:</label>
-      <input v-model.number="quantity" type="number" name="qty" id="product-qty" min="0" max="999">
+      <input v-model.number="quantity" type="number" name="qty" id="product-qty" min="0" max="999" :disabled="!ready">
     </div>
     <div class="add-products-btn">
-      <button type="submit" class="btn-small amber black-text add-to-cart" id="add-to-cart">Add To Cart</button>
+      <button type="submit" class="btn-small amber black-text add-to-cart" id="add-to-cart" :disabled="!ready">Add To Cart</button>
     </div>
     <p v-if="statusMessage" class="cart-status" role="status">{{ statusMessage }}</p>
   </form>

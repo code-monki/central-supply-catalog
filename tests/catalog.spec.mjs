@@ -128,6 +128,7 @@ test('product purchase persists to the shopping cart and quantity controls updat
   await page.goto(routePath('/products/200-011-00001/'));
 
   const quantityInput = page.getByLabel('Qty:');
+  await expect(quantityInput).toBeEnabled();
   await quantityInput.fill('2');
   await expect(quantityInput).toHaveValue('2');
   await page.getByRole('button', { name: 'Add To Cart' }).click();
