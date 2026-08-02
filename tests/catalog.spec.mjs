@@ -5,6 +5,7 @@ import { searchIndexVersion } from '../astro/lib/catalog.mjs';
 const sampledRoutes = [
   '/',
   '/about-the-central-supply-catalog/',
+  '/disclaimers/',
   '/support/',
   '/support/search/?s=laser',
   '/shopping-cart/',
@@ -40,6 +41,20 @@ test.describe('route smoke tests', () => {
       expect(consoleErrors).toEqual([]);
     });
   }
+});
+
+test('about and disclaimers pages keep distinct content', async ({ page }) => {
+  await page.goto(routePath('/about-the-central-supply-catalog/'));
+  await expect(page.getByRole('heading', { name: 'About the Central Supply Catalog' })).toBeVisible();
+  await expect(page.getByRole('heading', { name: 'Credits' })).toBeVisible();
+  await expect(page.getByRole('heading', { name: 'Disclaimers' })).toHaveCount(0);
+  await expect(page.getByText('The Central Supply Catalog separates software licensing')).toHaveCount(0);
+
+  await page.goto(routePath('/disclaimers/'));
+  await expect(page.getByRole('heading', { name: 'Disclaimers' })).toBeVisible();
+  await expect(page.getByText('The Central Supply Catalog separates software licensing')).toBeVisible();
+  await expect(page.getByRole('heading', { name: 'About the Central Supply Catalog' })).toHaveCount(0);
+  await expect(page.getByRole('heading', { name: 'Credits' })).toHaveCount(0);
 });
 
 test('search warms and reuses a versioned localStorage cache', async ({ page }) => {

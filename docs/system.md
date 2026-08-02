@@ -18,7 +18,7 @@ For the complete documentation set, see [documentation-index.md](documentation-i
 Static routes are defined under `astro/pages/`.
 
 - `/` renders the catalog home page.
-- `/about-the-central-supply-catalog/`, `/support/`, and `/support/search/` render support content.
+- `/about-the-central-supply-catalog/`, `/disclaimers/`, `/support/`, and `/support/search/` render informational and support content.
 - `/shopping-cart/` renders the Vue cart island.
 - `/departments/[...page]` renders department and paginated department pages from catalog data.
 - `/products/[sku]` renders every product page from catalog data.

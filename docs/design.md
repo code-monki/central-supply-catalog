@@ -37,7 +37,9 @@ Users can reach support, about, disclaimer, and licensing content through global
 - Product pages: detailed item records.
 - Search page: query result display.
 - Shopping cart: local item summary and quantity controls.
-- Support/about pages: project information, licensing, disclaimers, and help content.
+- About page: project background and credits.
+- Disclaimers page: licensing, attribution, publisher notices, and third-party content disclaimers.
+- Support page: help, contact, repository, issue, and discussion links.
 
 ## Interaction Design
 
@@ -62,4 +64,3 @@ The project uses custom CSS rather than a component framework. Historical design
 ## Visual Design
 
 The design intentionally preserves the legacy catalog theme. New UI should prefer utilitarian controls, stable dimensions, readable text, and restrained changes over wholesale redesign.
-
