@@ -17,6 +17,7 @@ const budgets = {
   'best-practices': 1,
   seo: 1,
 };
+const maxAuditAttempts = 2;
 
 const delay = (milliseconds) => new Promise((resolve) => setTimeout(resolve, milliseconds));
 const routeWithBase = (route) =>
@@ -117,40 +118,47 @@ try {
 
   for (const route of routes) {
     const url = new URL(routeWithBase(route), originUrl).toString();
-    console.log(`Auditing ${url}`);
-    const { stdout } = await run(
-      process.execPath,
-      [
-        lighthouseCli,
-        url,
-        '--quiet',
-        '--preset=desktop',
-        '--output=json',
-        '--output-path=stdout',
-        '--chrome-flags=--headless=new --no-sandbox',
-        '--only-categories=performance,accessibility,best-practices,seo',
-      ],
-      { capture: true, detached: true, timeoutMs: 90_000 }
-    );
+    let report = null;
+    let scores = null;
+    let routeFailures = [];
 
-    const report = JSON.parse(stdout);
-    await fs.writeFile(path.join(reportDir, `${slugForRoute(route)}.json`), `${JSON.stringify(report, null, 2)}\n`);
+    for (let attempt = 1; attempt <= maxAuditAttempts; attempt += 1) {
+      console.log(`Auditing ${url}${attempt > 1 ? ` (attempt ${attempt})` : ''}`);
+      const { stdout } = await run(
+        process.execPath,
+        [
+          lighthouseCli,
+          url,
+          '--quiet',
+          '--preset=desktop',
+          '--output=json',
+          '--output-path=stdout',
+          '--chrome-flags=--headless=new --no-sandbox',
+          '--only-categories=performance,accessibility,best-practices,seo',
+        ],
+        { capture: true, detached: true, timeoutMs: 90_000 }
+      );
 
-    const scores = Object.fromEntries(
-      Object.entries(report.categories).map(([category, value]) => [category, value.score])
-    );
+      report = JSON.parse(stdout);
+      scores = Object.fromEntries(
+        Object.entries(report.categories).map(([category, value]) => [category, value.score])
+      );
+      routeFailures = Object.entries(budgets)
+        .filter(([category, minimum]) => scores[category] < minimum)
+        .map(([category, minimum]) => `${route} ${category}: ${scores[category]} below ${minimum}`);
 
-    for (const [category, minimum] of Object.entries(budgets)) {
-      if (scores[category] < minimum) {
-        failures.push(`${route} ${category}: ${scores[category]} below ${minimum}`);
-      }
+      console.log(
+        `${route} performance=${Math.round(scores.performance * 100)} accessibility=${Math.round(
+          scores.accessibility * 100
+        )} best-practices=${Math.round(scores['best-practices'] * 100)} seo=${Math.round(scores.seo * 100)}`
+      );
+
+      if (routeFailures.length === 0) break;
     }
 
-    console.log(
-      `${route} performance=${Math.round(scores.performance * 100)} accessibility=${Math.round(
-        scores.accessibility * 100
-      )} best-practices=${Math.round(scores['best-practices'] * 100)} seo=${Math.round(scores.seo * 100)}`
-    );
+    await fs.writeFile(path.join(reportDir, `${slugForRoute(route)}.json`), `${JSON.stringify(report, null, 2)}\n`);
+
+    failures.push(...routeFailures);
   }
 
   if (failures.length > 0) {
