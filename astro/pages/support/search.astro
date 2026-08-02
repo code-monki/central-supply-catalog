@@ -2,7 +2,7 @@
 import BaseLayout from '../../layouts/BaseLayout.astro';
 import SearchResults from '../../components/SearchResults.vue';
 import { readMarkdownPage, searchIndexVersion } from '../../lib/catalog.mjs';
-import { withBase, withBaseHtml } from '../../lib/paths.mjs';
+import { withBase } from '../../lib/paths.mjs';
 import noImage from '../../../src/img/products/no-image.png';
 
 const page = readMarkdownPage('astro/content/pages/search.md');
@@ -17,7 +17,6 @@ const searchIndexUrl = withBase('/_data/searchindex.json');
       <div class="search-results-slot">
         <SearchResults indexUrl={searchIndexUrl} indexVersion={indexVersion} fallbackImage={noImage.src} baseUrl={import.meta.env.BASE_URL} client:load />
       </div>
-      <Fragment set:html={withBaseHtml(page.html)} />
     </div>
   </main>
 </BaseLayout>
