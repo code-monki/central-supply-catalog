@@ -12,6 +12,8 @@ The catalog is mostly read-only at runtime. Product and metadata changes are con
 
 - Product and catalog source data lives in repository files under `src/_data/`.
 - Astro metadata lives in `astro/data/`.
+- `astro/data/catalog-manifest.json` stores the catalog version used for generated search and service-worker cache invalidation.
+- JSON Schema files under `schemas/` define source-data shape, and `npm run validate:data` checks schema validity plus catalog consistency.
 - Build code in `astro/lib/catalog.mjs` loads and normalizes those files.
 - Product and department pages are generated at build time.
 - `/_data/searchindex.json` is generated at build time for browser search.
@@ -64,7 +66,7 @@ Generating an index decouples authoring from runtime search:
 | Tradeoff | Impact | Mitigation |
 | --- | --- | --- |
 | No runtime relational queries | Complex ad hoc filtering is harder. | Add generated indexes or client-side filters for known use cases. |
-| Build-time validation matters more | Bad source data can affect generated pages. | Add schema/data validation tests before publish. |
+| Build-time validation matters more | Bad source data can affect generated pages. | Run JSON Schema and catalog consistency validation before publish. |
 | Large payloads can affect browser performance | Search payload size may grow. | Split indexes by department or prebuild normalized search fields if needed. |
 | No runtime edit UI | Contributors must use repository workflows. | Document contribution process and data schema. |
 | User cart is device-local | Cart does not sync across devices. | Accept as current scope; add accounts only if requirements change. |

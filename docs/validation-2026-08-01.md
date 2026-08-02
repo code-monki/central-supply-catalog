@@ -2,6 +2,8 @@
 
 Validation target: local production preview at `http://127.0.0.1:4324/` after `npm run prod`.
 
+Note: this is a historical validation record. Later changes moved catalog/search cache versioning to `astro/data/catalog-manifest.json`.
+
 ## Cleanup
 
 - Removed tracked Eleventy ignore configuration.

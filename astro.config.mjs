@@ -13,6 +13,9 @@ const copyIfExists = (from, to) => {
   fs.cpSync(from, to, { recursive: true });
 };
 
+const renderServiceWorker = () =>
+  fs.readFileSync('src/sw.js', 'utf8').replaceAll('__CATALOG_VERSION__', searchIndexVersion());
+
 const contentTypes = {
   '.ico': 'image/x-icon',
   '.jpg': 'image/jpeg',
@@ -60,13 +63,16 @@ const legacyPassthrough = () => ({
       });
       server.middlewares.use('/img', serveStaticFile('src/img'));
       server.middlewares.use('/audio', serveStaticFile('src/audio'));
-      server.middlewares.use('/sw.js', serveStaticFile('src'));
+      server.middlewares.use('/sw.js', (_req, res) => {
+        res.setHeader('Content-Type', 'text/javascript; charset=utf-8');
+        res.end(renderServiceWorker());
+      });
     },
     'astro:build:done': ({ dir }) => {
       const outDir = dir.pathname;
       copyIfExists('src/img', path.join(outDir, 'img'));
       copyIfExists('src/audio', path.join(outDir, 'audio'));
-      copyIfExists('src/sw.js', path.join(outDir, 'sw.js'));
+      fs.writeFileSync(path.join(outDir, 'sw.js'), renderServiceWorker());
       fs.writeFileSync(path.join(outDir, '.nojekyll'), '');
 
       const dataDir = path.join(outDir, '_data');

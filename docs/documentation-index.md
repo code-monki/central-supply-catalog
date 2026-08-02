@@ -10,6 +10,7 @@
 - [Filesystem and Index Storage Rationale](data-storage-rationale.md)
 - [GitHub Pages Deployment](github-pages-deployment.md)
 - [System Overview](system.md)
+- [Catalog Editor Direction](catalog-editor.md)
 - [Validation Results](validation-2026-08-01.md)
 
 ## Supporting Notes

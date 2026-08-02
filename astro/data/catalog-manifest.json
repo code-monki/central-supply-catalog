@@ -1,0 +1,5 @@
+{
+  "$schema": "../../schemas/catalog-manifest.schema.json",
+  "catalogVersion": "16",
+  "description": "Version used to invalidate generated catalog search data and service-worker caches."
+}

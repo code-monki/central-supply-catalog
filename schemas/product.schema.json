@@ -1,0 +1,162 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://code-monki.github.io/central-supply-catalog/schemas/product.schema.json",
+  "title": "Central Supply Catalog Product",
+  "type": "object",
+  "required": ["sku", "type", "subtype", "tags"],
+  "additionalProperties": true,
+  "properties": {
+    "sku": {
+      "type": "string",
+      "pattern": "^[0-9]{3}-[0-9]{3}-[0-9]{4,6}$"
+    },
+    "type": {
+      "type": "string",
+      "minLength": 1
+    },
+    "subtype": {
+      "type": "string"
+    },
+    "name": {
+      "type": "string",
+      "minLength": 1
+    },
+    "mfr": {
+      "type": "string"
+    },
+    "cost": {
+      "type": "number",
+      "minimum": 0
+    },
+    "mass": {
+      "type": ["number", "string"]
+    },
+    "size": {
+      "type": ["number", "string"]
+    },
+    "techLevel": {
+      "type": "number",
+      "minimum": 0
+    },
+    "qrebs": {
+      "type": "string"
+    },
+    "damage": {
+      "type": "string"
+    },
+    "image": {
+      "type": "string"
+    },
+    "description": {
+      "type": "string"
+    },
+    "displacement": {
+      "type": "number"
+    },
+    "stats": {
+      "type": "array",
+      "items": {
+        "type": "object"
+      }
+    },
+    "accessories": {
+      "type": "array",
+      "items": {
+        "type": "string",
+        "pattern": "^[0-9]{3}-[0-9]{3}-[0-9]{4,6}$"
+      }
+    },
+    "variants": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "required": ["sku", "label"],
+        "additionalProperties": true,
+        "properties": {
+          "sku": {
+            "type": "string",
+            "pattern": "^[0-9]{3}-[0-9]{3}-[0-9]{4,6}$"
+          },
+          "label": {
+            "type": "string",
+            "minLength": 1
+          }
+        }
+      }
+    },
+    "categories": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      }
+    },
+    "sources": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "required": ["publication", "authors", "publisher"],
+        "additionalProperties": true,
+        "properties": {
+          "publication": {
+            "type": "string",
+            "minLength": 1
+          },
+          "url": {
+            "type": "string"
+          },
+          "authors": {
+            "type": "array",
+            "items": {
+              "type": "string",
+              "minLength": 1
+            }
+          },
+          "publisher": {
+            "anyOf": [
+              {
+                "type": "string",
+                "minLength": 1
+              },
+              {
+                "type": "object",
+                "required": ["name"],
+                "additionalProperties": true,
+                "properties": {
+                  "name": {
+                    "type": "string",
+                    "minLength": 1
+                  },
+                  "url": {
+                    "type": "string"
+                  }
+                }
+              }
+            ]
+          }
+        }
+      }
+    },
+    "tags": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      }
+    }
+  },
+  "allOf": [
+    {
+      "if": {
+        "properties": {
+          "sku": {
+            "pattern": "-00000$"
+          }
+        },
+        "required": ["sku"]
+      },
+      "then": true,
+      "else": {
+        "required": ["name", "cost", "techLevel", "qrebs", "image", "description", "sources"]
+      }
+    }
+  ]
+}

@@ -43,6 +43,7 @@ The Central Supply Catalog is a static catalog site for equipment and supplies u
 | NFR-008 | Product routes, search results, and cart records must use stable SKU identifiers. | TST-002, TST-003 |
 | NFR-009 | Generated artifacts and local reports must remain outside source control. | TST-012 |
 | NFR-010 | The project must remain understandable to contributors using ordinary files, pull requests, and static build commands. | TST-007, TST-009 |
+| NFR-011 | Catalog source files must pass JSON Schema and cross-file consistency validation before publication. | TST-014 |
 
 ## Constraints
 

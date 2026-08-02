@@ -13,6 +13,7 @@ export const manufacturers = readJson('astro/data/manufacturers.json');
 export const categories = readJson('astro/data/categories.json');
 export const departments = readJson('astro/data/departments.json');
 export const publishers = readJson('astro/data/publishers.json');
+export const catalogManifest = readJson('astro/data/catalog-manifest.json');
 
 export const slug = (value) => slugify(value, { lower: true, strict: true });
 
@@ -200,9 +201,7 @@ let indexVersion = null;
 export const searchIndexVersion = () => {
   if (indexVersion) return indexVersion;
 
-  const serviceWorker = fs.readFileSync(path.join(rootDir, 'src/sw.js'), 'utf8');
-  const match = serviceWorker.match(/const\s+version\s*=\s*['"]?([^;'"]+)/);
-  indexVersion = match ? match[1].trim() : '1';
+  indexVersion = String(catalogManifest.catalogVersion || '1');
   return indexVersion;
 };
 

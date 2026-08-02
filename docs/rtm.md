@@ -34,6 +34,7 @@ This matrix maps requirements from [requirements.md](requirements.md) to design,
 | NFR-008 Stable SKU identifiers | `src/_data/`, `astro/lib/catalog.mjs`, Vue cart/search components | TST-002, TST-003 |
 | NFR-009 Generated artifact hygiene | `.gitignore` | TST-012 |
 | NFR-010 Contributor-readable file workflow | `docs/data-storage-rationale.md`, repository file layout | TST-007, TST-009 |
+| NFR-011 Catalog data validation | `schemas/*.schema.json`, `scripts/validate-data.mjs`, `.github/workflows/validation.yml` | TST-014 |
 
 ## Test Case References
 

@@ -78,7 +78,7 @@ Search results are sorted by relevance, product name, and sku. Relevance priorit
 
 The browser-side search implementation lives in `astro/lib/catalogSearch.mjs` and is bundled into the Astro search component by Vite. The Astro build emits the search payload at `/_data/searchindex.json`.
 
-The resulting search payload is stored at `/_data/searchindex.json` as uncompressed JSON. It contains a version and document array; the browser evaluates queries against those documents and caches the documents in `localStorage` by version.
+The resulting search payload is stored at `/_data/searchindex.json` as uncompressed JSON. It contains the `catalogVersion` from `astro/data/catalog-manifest.json` and a document array; the browser evaluates queries against those documents and caches the documents in `localStorage` by version.
 
 User-facing search syntax and examples are documented on the generated Help page at `/help/`.
 
@@ -93,7 +93,7 @@ Each product result will have the same layout that is used by the product displa
 - Product Summary
 - Product Cost
 
-The search payload is retrieved by the application and cached in `localStorage` using a versioned key. When new content is added, the version changes and stale cache entries are removed.
+The search payload is retrieved by the application and cached in `localStorage` using a versioned key. When new content is added, `catalogVersion` changes and stale cache entries are removed.
 
 ## Search Term Parser
 

@@ -34,6 +34,9 @@ jobs:
       - name: Check dependency tree
         run: npm ls --depth=0
 
+      - name: Validate catalog data
+        run: npm run validate:data
+
       - name: Build production site
         env:
           SITE_BASE_PATH: /central-supply-catalog

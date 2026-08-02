@@ -1,0 +1,20 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://code-monki.github.io/central-supply-catalog/schemas/catalog-manifest.schema.json",
+  "title": "Central Supply Catalog Manifest",
+  "type": "object",
+  "required": ["catalogVersion"],
+  "additionalProperties": false,
+  "properties": {
+    "$schema": {
+      "type": "string"
+    },
+    "catalogVersion": {
+      "type": "string",
+      "pattern": "^[0-9]+$"
+    },
+    "description": {
+      "type": "string"
+    }
+  }
+}

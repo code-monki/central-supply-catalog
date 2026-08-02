@@ -20,7 +20,8 @@ There is no runtime application server and no runtime database dependency. Brows
 | --- | --- | --- |
 | Astro pages | `astro/pages/` | Static route generation for home, informational Markdown pages, support, cart, departments, and products. |
 | Base layout | `astro/layouts/BaseLayout.astro` | Shared document shell, global styles, header, and footer. |
-| Catalog library | `astro/lib/catalog.mjs` | Loads catalog files, computes routes, formats records, and builds search documents. |
+| Catalog library | `astro/lib/catalog.mjs` | Loads catalog files and manifest data, computes routes, formats records, and builds search documents. |
+| Catalog manifest | `astro/data/catalog-manifest.json` | Stores the catalog version used for generated search and service-worker cache invalidation. |
 | Vue header | `astro/components/SiteHeader.vue` | Side navigation, department menu, search submit, and cart badge. |
 | Search results | `astro/components/SearchResults.vue`, `astro/lib/catalogSearch.mjs` | Browser-side query parsing, catalog search execution, and result rendering. |
 | Product purchase | `astro/components/ProductPurchase.vue` | Add-to-cart behavior from product pages. |
@@ -32,9 +33,9 @@ There is no runtime application server and no runtime database dependency. Brows
 ## Data Flow
 
 1. Product and metadata files are read from `src/_data/` and `astro/data/`.
-2. `astro/lib/catalog.mjs` normalizes the data for route generation, page props, menu data, attribution lookup, and search documents.
+2. `astro/lib/catalog.mjs` normalizes the data for route generation, page props, menu data, attribution lookup, manifest versioning, and search documents.
 3. Astro generates product and department pages at build time.
-4. The build writes `/_data/searchindex.json` with a version and document array.
+4. The build writes `/_data/searchindex.json` with the manifest version and document array.
 5. The browser loads search documents on demand or during idle warming.
 6. Search documents are cached in `localStorage` under `csc-search-index:<version>`.
 7. Cart entries are stored in `localStorage` under `csc-cart`.
@@ -63,6 +64,7 @@ The catalog uses repository files as the source of truth and generated indexes f
 
 Validation runs through:
 
+- JSON Schema and catalog consistency validation.
 - Production build.
 - Playwright browser regression suite.
 - axe accessibility regression checks.

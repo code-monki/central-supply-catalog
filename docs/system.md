@@ -11,6 +11,7 @@ For the complete documentation set, see [documentation-index.md](documentation-i
 - Catalog source data remains under `src/_data/`.
 - Astro-owned Markdown support content lives under `astro/content/pages/`.
 - Catalog metadata used by Astro helpers lives under `astro/data/`.
+- `astro/data/catalog-manifest.json` stores the catalog version used to invalidate generated search and service-worker caches.
 - Legacy static assets are copied from `src/img/`, `src/audio/`, and `src/sw.js` into `dist/` during `astro:build:done`.
 
 ## Routing
@@ -36,7 +37,7 @@ Generated product pages use the product SKU as the stable route key. Department 
 
 The search parser supports adjacent terms as `AND`, quoted phrases, `AND`, `OR`, `NOT`, and parenthesized groups. User-facing search syntax is documented on `/help/`; implementation details are documented in [site-search.md](site-search.md).
 
-Search documents are cached in `localStorage` with keys shaped as `csc-search-index:<version>`. The current version is produced by `searchIndexVersion()` in `astro/lib/catalog.mjs`. When a new version is written, stale `csc-search-index:*` keys are removed.
+Search documents are cached in `localStorage` with keys shaped as `csc-search-index:<version>`. The current version is read from `catalogVersion` in `astro/data/catalog-manifest.json` through `searchIndexVersion()` in `astro/lib/catalog.mjs`. When a new version is written, stale `csc-search-index:*` keys are removed.
 
 ## Shopping Cart
 
@@ -58,9 +59,9 @@ Each cart entry uses:
 
 ## Service Worker
 
-`src/sw.js` is copied to `/sw.js` during the Astro build. It precaches `/_data/searchindex.json`, cleans up older `csc-cache-v*` caches during activation, and uses a network-first strategy with cache fallback for GET requests.
+`src/sw.js` is rendered to `/sw.js` during the Astro build with the manifest catalog version substituted into the cache name. It precaches `/_data/searchindex.json`, cleans up older `csc-cache-v*` caches during activation, and uses a network-first strategy with cache fallback for GET requests.
 
-The service worker version should be incremented when cached behavior or precached assets change.
+The manifest catalog version should be incremented when product data, search data, cached behavior, or precached assets change.
 
 ## Styling
 
@@ -74,6 +75,7 @@ Common commands:
 npm install
 npm run prod
 npm run preview -- --host 127.0.0.1 --port 4324
+npm run validate:data
 npm test
 npm run test:audit
 ```
@@ -85,8 +87,9 @@ The production build writes static output to `dist/`. GitHub Pages or another st
 Automated regression coverage:
 
 - `npm test` runs Playwright route smoke tests, search cache checks, cart workflow checks, keyboard navigation basics, and axe WCAG regression checks.
+- `npm run validate:data` validates catalog manifest, metadata, product JSON shape, SKU uniqueness, department-derived file placement, and product cross-references.
 - `npm run test:audit` builds the site, serves the production preview, runs Lighthouse for sampled routes, and writes JSON reports to `reports/lighthouse/`.
-- `.github/workflows/validation.yml` runs dependency audit, dependency tree checks, production build, browser regression tests, and Lighthouse budgets for pushes and pull requests.
+- `.github/workflows/validation.yml` runs dependency audit, dependency tree checks, catalog data validation, production build, browser regression tests, and Lighthouse budgets for pushes and pull requests.
 
 Manual accessibility validation is still required before claiming WCAG 2.2 AA conformance. Cover keyboard-only operation, visible focus order, 200% zoom, text spacing overrides, state contrast, and screen reader behavior for navigation, search, product purchase, and cart totals.
 

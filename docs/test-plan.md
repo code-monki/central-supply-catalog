@@ -19,6 +19,7 @@ npm ci
 npm run test:install
 npm audit --audit-level=moderate
 npm ls --depth=0
+npm run validate:data
 npm run prod
 npm test
 npm run test:audit
@@ -29,7 +30,7 @@ npm run test:audit
 | ID | Name | Type | Command / Method | Acceptance Criteria |
 | --- | --- | --- | --- | --- |
 | TST-001 | Route smoke tests | Automated | `npm test` | Sampled static routes return successful responses, have expected titles, one main landmark, no failed requests, and no console errors. |
-| TST-002 | Search cache behavior | Automated | `npm test` | Search for `laser` returns 41 results, writes `csc-search-index:13`, and reload reuses cached documents without another search payload request. |
+| TST-002 | Search cache behavior | Automated | `npm test` | Search for `laser` returns 41 results, writes a `csc-search-index:<catalogVersion>` key, and reload reuses cached documents without another search payload request. |
 | TST-003 | Cart workflow | Automated | `npm test` | Product add-to-cart persists, badge updates, cart quantity increments, total renders, and item removal empties the cart. |
 | TST-004 | Cart storage schema | Automated/manual | `npm test`; inspect `localStorage` | Cart records include SKU, quantity, name, unit price, and image. |
 | TST-005 | Keyboard basics | Automated | `npm test` | Side navigation, department menu, header cart, and search controls can be reached or activated through keyboard-driven operations. |
@@ -41,6 +42,7 @@ npm run test:audit
 | TST-011 | Dependency tree | Automated | `npm ls --depth=0` | Only declared dependencies are present. |
 | TST-012 | Generated artifact hygiene | Manual/automated | `git status --short` | Generated output, reports, and local files are ignored and not committed. |
 | TST-013 | Search syntax and help content | Automated | `npm test` | Search regression verifies term, phrase, boolean, and grouped queries; Help documents supported syntax and examples. |
+| TST-014 | Catalog data validation | Automated | `npm run validate:data` | Manifest, metadata, and product files pass JSON Schema validation; SKUs are unique; product files are in department-derived directories; product references resolve. |
 
 ## Manual Accessibility Checks
 
@@ -61,6 +63,7 @@ Manual checks are required before claiming WCAG conformance:
 - `npm run test:install -- --with-deps`
 - `npm audit --audit-level=moderate`
 - `npm ls --depth=0`
+- `npm run validate:data`
 - `npm run prod`
 - `npm test`
 - `npm run test:audit`

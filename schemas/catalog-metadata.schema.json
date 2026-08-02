@@ -1,0 +1,74 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://code-monki.github.io/central-supply-catalog/schemas/catalog-metadata.schema.json",
+  "title": "Central Supply Catalog Metadata",
+  "definitions": {
+    "category": {
+      "type": "object",
+      "required": ["label", "departments"],
+      "additionalProperties": true,
+      "properties": {
+        "label": { "type": "string", "minLength": 1 },
+        "departments": {
+          "type": "array",
+          "items": { "type": "string", "pattern": "^[0-9]{3}-[0-9]{3}$" }
+        }
+      }
+    },
+    "department": {
+      "type": "object",
+      "required": ["id", "label", "datadir"],
+      "additionalProperties": true,
+      "properties": {
+        "id": { "type": "string", "pattern": "^[0-9]{3}-[0-9]{3}$" },
+        "label": { "type": "string", "minLength": 1 },
+        "shortLabel": { "type": "string" },
+        "shortlabel": { "type": "string" },
+        "description": { "type": "string" },
+        "Description": { "type": "string" },
+        "datadir": { "type": "string", "pattern": "^src/_data/products/" }
+      }
+    },
+    "manufacturer": {
+      "type": "object",
+      "required": ["mfrId", "name", "url"],
+      "additionalProperties": true,
+      "properties": {
+        "mfrId": { "type": "string", "pattern": "^[0-9]{3}$" },
+        "name": { "type": "string", "minLength": 1 },
+        "url": { "type": "string" }
+      }
+    },
+    "publisher": {
+      "type": "object",
+      "required": ["name", "url"],
+      "additionalProperties": true,
+      "properties": {
+        "name": { "type": "string", "minLength": 1 },
+        "url": { "type": "string" }
+      }
+    },
+    "attribution": {
+      "type": "object",
+      "required": ["publication", "authors"],
+      "additionalProperties": true,
+      "properties": {
+        "publication": { "type": "string", "minLength": 1 },
+        "url": { "type": "string" },
+        "authors": {
+          "type": "array",
+          "items": { "type": "string", "minLength": 1 }
+        },
+        "publisher": {
+          "type": "object",
+          "required": ["name"],
+          "additionalProperties": true,
+          "properties": {
+            "name": { "type": "string", "minLength": 1 },
+            "url": { "type": "string" }
+          }
+        }
+      }
+    }
+  }
+}
