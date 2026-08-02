@@ -152,6 +152,18 @@ test('product purchase persists to the shopping cart and quantity controls updat
   await expect(page.getByText('Cart is empty')).toBeVisible();
 });
 
+test('department dropdown closes when clicking outside it', async ({ page }) => {
+  await page.goto(routePath('/'));
+
+  await page.getByRole('button', { name: 'Departments' }).click();
+  await expect(page.locator('#dept-dropdown')).toBeVisible();
+  await expect(page.getByRole('button', { name: 'Departments' })).toHaveAttribute('aria-expanded', 'true');
+
+  await page.locator('#search-input').click();
+  await expect(page.locator('#dept-dropdown')).toBeHidden();
+  await expect(page.getByRole('button', { name: 'Departments' })).toHaveAttribute('aria-expanded', 'false');
+});
+
 test('keyboard navigation reaches menu, department, search, and cart controls', async ({ page }) => {
   await page.goto(routePath('/'));
 
@@ -176,6 +188,7 @@ test('keyboard navigation reaches menu, department, search, and cart controls', 
   await page.locator('#dept-dropdown a').first().focus();
   await expect(page.locator('#dept-dropdown a').first()).toBeFocused();
   await page.keyboard.press('Escape');
+  await expect(page.locator('#dept-dropdown')).toBeHidden();
   await page.locator('#search-input').focus();
   await page.keyboard.type('laser');
   await page.keyboard.press('Enter');

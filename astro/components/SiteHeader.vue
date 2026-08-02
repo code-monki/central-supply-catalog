@@ -23,6 +23,7 @@ const props = defineProps({
 
 const isMenuOpen = ref(false);
 const isDepartmentOpen = ref(false);
+const departmentMenu = ref(null);
 const searchTerm = ref('');
 const cartCount = ref(0);
 
@@ -49,6 +50,20 @@ const submitSearch = () => {
   if (terms) window.location.href = withBase(`/support/search/?s=${terms}`);
 };
 
+const closeDepartmentMenu = () => {
+  isDepartmentOpen.value = false;
+};
+
+const handleDocumentClick = (event) => {
+  if (!isDepartmentOpen.value) return;
+  if (departmentMenu.value?.contains(event.target)) return;
+  closeDepartmentMenu();
+};
+
+const handleDocumentKeydown = (event) => {
+  if (event.key === 'Escape') closeDepartmentMenu();
+};
+
 onMounted(() => {
   updateCartCount();
   warmSearchIndex({
@@ -57,11 +72,15 @@ onMounted(() => {
   });
   window.addEventListener('storage', updateCartCount);
   window.addEventListener('csc-cart-updated', updateCartCount);
+  document.addEventListener('click', handleDocumentClick);
+  document.addEventListener('keydown', handleDocumentKeydown);
 });
 
 onBeforeUnmount(() => {
   window.removeEventListener('storage', updateCartCount);
   window.removeEventListener('csc-cart-updated', updateCartCount);
+  document.removeEventListener('click', handleDocumentClick);
+  document.removeEventListener('keydown', handleDocumentKeydown);
 });
 </script>
 
@@ -100,20 +119,22 @@ onBeforeUnmount(() => {
 
     <div class="row header-row-2">
       <div class="row-2-content">
-        <button class="dept-btn" id="dept-btn" type="button" @click="isDepartmentOpen = !isDepartmentOpen">
-          Departments
-        </button>
-        <div class="dept-dropdown" id="dept-dropdown" :style="{ display: isDepartmentOpen ? 'block' : 'none' }">
-          <ul>
-            <li v-for="category in props.menu" :key="category.label">
-              <a :href="category.href" :class="{ 'menu-item': category.departments.length === 0 }">{{ category.label }}</a>
-              <ul v-if="category.departments.length > 0">
-                <li v-for="department in category.departments" :key="department.label">
-                  <a :href="department.href" class="submenu-item">{{ department.label }}</a>
-                </li>
-              </ul>
-            </li>
-          </ul>
+        <div ref="departmentMenu">
+          <button class="dept-btn" id="dept-btn" type="button" :aria-expanded="isDepartmentOpen" aria-controls="dept-dropdown" @click="isDepartmentOpen = !isDepartmentOpen">
+            Departments
+          </button>
+          <div class="dept-dropdown" id="dept-dropdown" :style="{ display: isDepartmentOpen ? 'block' : 'none' }">
+            <ul>
+              <li v-for="category in props.menu" :key="category.label">
+                <a :href="category.href" :class="{ 'menu-item': category.departments.length === 0 }">{{ category.label }}</a>
+                <ul v-if="category.departments.length > 0">
+                  <li v-for="department in category.departments" :key="department.label">
+                    <a :href="department.href" class="submenu-item">{{ department.label }}</a>
+                  </li>
+                </ul>
+              </li>
+            </ul>
+          </div>
         </div>
         <div class="search-form">
           <form @submit.prevent="submitSearch">
