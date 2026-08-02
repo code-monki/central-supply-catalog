@@ -4,6 +4,7 @@ import { after, before, test } from 'node:test';
 import { createCatalogEditorServer } from '../scripts/catalog-editor.mjs';
 
 const productFile = 'src/_data/products/weapon-accessories/200-011-00001.json';
+const createdProductFile = 'src/_data/products/weapon-accessories/200-011-00029.json';
 const manifestFile = 'astro/data/catalog-manifest.json';
 const originalProduct = fs.readFileSync(productFile, 'utf8');
 const originalManifest = fs.readFileSync(manifestFile, 'utf8');
@@ -24,6 +25,7 @@ const requestJson = async (path, options = {}) => {
 };
 
 before(async () => {
+  fs.rmSync(createdProductFile, { force: true });
   server = createCatalogEditorServer();
   await new Promise((resolve) => server.listen(0, '127.0.0.1', resolve));
   const address = server.address();
@@ -31,6 +33,7 @@ before(async () => {
 });
 
 after(async () => {
+  fs.rmSync(createdProductFile, { force: true });
   fs.writeFileSync(productFile, originalProduct);
   fs.writeFileSync(manifestFile, originalManifest);
 
@@ -101,4 +104,93 @@ test('editor saves an existing product and bumps the manifest version', async ()
   const savedManifest = JSON.parse(fs.readFileSync(manifestFile, 'utf8'));
   assert.equal(savedProduct.name, nextProduct.name);
   assert.equal(savedManifest.catalogVersion, expectedVersion);
+});
+
+test('editor allocates the next product SKU for a department', async () => {
+  const allocation = await requestJson('/api/departments/200-011/next-sku');
+
+  assert.equal(allocation.response.status, 200);
+  assert.equal(allocation.body.departmentId, '200-011');
+  assert.equal(allocation.body.departmentLabel, 'Weapon Accessories');
+  assert.equal(allocation.body.sku, '200-011-00029');
+  assert.equal(allocation.body.file, createdProductFile);
+  assert.equal(allocation.body.product.sku, '200-011-00029');
+});
+
+test('editor rejects SKU allocation for an unknown department', async () => {
+  const allocation = await requestJson('/api/departments/999-999/next-sku');
+
+  assert.equal(allocation.response.status, 404);
+  assert.equal(allocation.body.error, 'Unknown department 999-999');
+});
+
+test('editor rejects create requests that do not use the allocated SKU', async () => {
+  const allocation = await requestJson('/api/departments/200-011/next-sku');
+  const product = {
+    ...allocation.body.product,
+    sku: '200-011-00030',
+    name: 'Temporary Editor Test Product',
+    description: 'Temporary editor create test.',
+    qrebs: 'R=0',
+    sources: [
+      {
+        publication: 'Editor Test Fixture',
+        authors: ['Central Supply Catalog'],
+        publisher: 'Central Supply Catalog'
+      }
+    ],
+  };
+
+  const create = await requestJson('/api/products', {
+    method: 'POST',
+    body: JSON.stringify({ product }),
+  });
+
+  assert.equal(create.response.status, 409);
+  assert.equal(create.body.nextSku, '200-011-00029');
+});
+
+test('editor creates a new product and bumps the manifest version', async () => {
+  const manifestBeforeCreate = JSON.parse(fs.readFileSync(manifestFile, 'utf8'));
+  const allocation = await requestJson('/api/departments/200-011/next-sku');
+  const product = {
+    ...allocation.body.product,
+    name: 'Temporary Editor Test Product',
+    cost: 12,
+    techLevel: 9,
+    qrebs: 'R=0',
+    description: '<p>Temporary editor create test.</p>',
+    categories: ['weapons', 'weapon accessory'],
+    tags: ['products', 'weapons', 'weapon accessory'],
+    sources: [
+      {
+        publication: 'Editor Test Fixture',
+        authors: ['Central Supply Catalog'],
+        publisher: 'Central Supply Catalog'
+      }
+    ],
+  };
+  const expectedVersion = String(Number.parseInt(manifestBeforeCreate.catalogVersion, 10) + 1);
+
+  const create = await requestJson('/api/products', {
+    method: 'POST',
+    body: JSON.stringify({ product }),
+  });
+
+  assert.equal(create.response.status, 201);
+  assert.equal(create.body.ok, true);
+  assert.equal(create.body.file, createdProductFile);
+  assert.equal(create.body.manifest.catalogVersion, expectedVersion);
+
+  const savedProduct = JSON.parse(fs.readFileSync(createdProductFile, 'utf8'));
+  const savedManifest = JSON.parse(fs.readFileSync(manifestFile, 'utf8'));
+  assert.equal(savedProduct.sku, '200-011-00029');
+  assert.equal(savedProduct.name, 'Temporary Editor Test Product');
+  assert.equal(savedManifest.catalogVersion, expectedVersion);
+
+  const duplicate = await requestJson('/api/products', {
+    method: 'POST',
+    body: JSON.stringify({ product }),
+  });
+  assert.equal(duplicate.response.status, 409);
 });

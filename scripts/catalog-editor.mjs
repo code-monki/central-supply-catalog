@@ -135,6 +135,72 @@ const validateProductRecord = (product) => {
   }));
 };
 
+const departmentForId = (departmentId) => departments.find((department) => department.id === departmentId) || null;
+
+const navigationDepartments = () =>
+  categories.map((category) => {
+    const categoryDepartments =
+      category.departments.length > 0
+        ? category.departments.map(departmentForId).filter(Boolean)
+        : departments.filter((department) => department.label === category.label);
+
+    return {
+      label: category.label,
+      subdepartments: categoryDepartments.map((department) => ({
+        id: department.id,
+        label: department.label,
+        datadir: department.datadir,
+      })),
+    };
+  });
+
+const productSuffixPattern = (departmentId) => new RegExp(`^${departmentId.replace(/[.*+?^${}()|[\]\\]/g, '\\$&')}-(\\d+)$`);
+
+const nextSkuForDepartment = (departmentId) => {
+  const department = departmentForId(departmentId);
+  if (!department) return null;
+
+  const suffixPattern = productSuffixPattern(departmentId);
+  const suffixes = editorProducts
+    .map((product) => product.sku.match(suffixPattern)?.[1])
+    .filter(Boolean);
+  const width = Math.max(5, ...suffixes.map((suffix) => suffix.length));
+  const nextNumber = Math.max(0, ...suffixes.map((suffix) => Number.parseInt(suffix, 10))) + 1;
+  const sku = `${departmentId}-${String(nextNumber).padStart(width, '0')}`;
+  const file = path.join(rootDir, department.datadir, `${sku}.json`);
+
+  return {
+    department,
+    sku,
+    file,
+    relativeFile: path.relative(rootDir, file),
+  };
+};
+
+const defaultProductForDepartment = (departmentId) => {
+  const allocation = nextSkuForDepartment(departmentId);
+  if (!allocation) return null;
+
+  return {
+    sku: allocation.sku,
+    type: allocation.department.label,
+    subtype: allocation.department.label,
+    name: '',
+    mfr: '',
+    cost: 0,
+    mass: 0,
+    size: 0,
+    techLevel: 0,
+    qrebs: '',
+    image: '/img/products/no-image.png',
+    variants: [],
+    description: '',
+    categories: [allocation.department.label],
+    sources: [],
+    tags: ['products'],
+  };
+};
+
 const productSummary = (product) => ({
   sku: product.sku,
   name: product.name,
@@ -156,7 +222,76 @@ const handleApi = async (req, res, url) => {
       manifest: currentManifest(),
       categories,
       departments,
+      navigation: navigationDepartments(),
       products: editorProducts.map(productSummary),
+    });
+    return;
+  }
+
+  if (req.method === 'GET' && url.pathname.match(/^\/api\/departments\/[^/]+\/next-sku$/)) {
+    const departmentId = decodeURIComponent(url.pathname.split('/')[3]);
+    const allocation = nextSkuForDepartment(departmentId);
+
+    if (!allocation) {
+      sendJson(res, 404, { error: `Unknown department ${departmentId}` });
+      return;
+    }
+
+    sendJson(res, 200, {
+      departmentId,
+      departmentLabel: allocation.department.label,
+      sku: allocation.sku,
+      file: allocation.relativeFile,
+      product: defaultProductForDepartment(departmentId),
+    });
+    return;
+  }
+
+  if (req.method === 'POST' && url.pathname === '/api/products') {
+    const body = JSON.parse(await readBody(req));
+    const nextProduct = body.product;
+
+    if (!nextProduct || typeof nextProduct !== 'object' || Array.isArray(nextProduct)) {
+      sendJson(res, 400, { error: 'Request body must include a product object.' });
+      return;
+    }
+
+    const departmentId = nextProduct.sku?.split('-').slice(0, 2).join('-');
+    const allocation = departmentId ? nextSkuForDepartment(departmentId) : null;
+    if (!allocation) {
+      sendJson(res, 400, { error: 'Product SKU must use a known department prefix.' });
+      return;
+    }
+
+    if (nextProduct.sku !== allocation.sku) {
+      sendJson(res, 409, {
+        error: `Next available SKU for ${departmentId} is ${allocation.sku}.`,
+        nextSku: allocation.sku,
+      });
+      return;
+    }
+
+    if (productFileForSku(nextProduct.sku)) {
+      sendJson(res, 409, { error: `Product SKU ${nextProduct.sku} already exists.` });
+      return;
+    }
+
+    const validationErrors = validateProductRecord(nextProduct);
+    if (validationErrors.length > 0) {
+      sendJson(res, 422, { error: 'Product failed schema validation.', validationErrors });
+      return;
+    }
+
+    fs.mkdirSync(path.dirname(allocation.file), { recursive: true });
+    writeJson(allocation.file, nextProduct);
+    const manifest = body.bumpVersion === false ? currentManifest() : bumpManifestVersion();
+    editorProducts = [...editorProducts, nextProduct].sort((a, b) => a.name.localeCompare(b.name));
+
+    sendJson(res, 201, {
+      ok: true,
+      manifest,
+      product: productDetail(nextProduct),
+      file: allocation.relativeFile,
     });
     return;
   }

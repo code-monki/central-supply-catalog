@@ -5,10 +5,16 @@ createApp({
     return {
       busy: false,
       categories: [],
+      createDepartmentLabel: '',
+      createError: '',
+      createSubdepartmentId: '',
+      createTargetFile: '',
       departments: [],
       departmentFilter: '',
       lastAction: null,
       manifest: null,
+      mode: 'edit',
+      navigation: [],
       products: [],
       query: '',
       saveError: '',
@@ -32,6 +38,12 @@ createApp({
         return terms.every((term) => haystack.includes(term));
       });
     },
+    selectedNavigationDepartment() {
+      return this.navigation.find((department) => department.label === this.createDepartmentLabel) || null;
+    },
+    selectableSubdepartments() {
+      return this.selectedNavigationDepartment?.subdepartments || [];
+    },
   },
   async mounted() {
     const response = await fetch('/api/catalog');
@@ -40,7 +52,10 @@ createApp({
     this.manifest = catalog.manifest;
     this.categories = catalog.categories;
     this.departments = catalog.departments;
+    this.navigation = catalog.navigation;
     this.products = catalog.products;
+    this.createDepartmentLabel = this.navigation[0]?.label || '';
+    this.createSubdepartmentId = this.selectableSubdepartments[0]?.id || '';
 
     if (this.products.length > 0) await this.selectProduct(this.products[0].sku);
   },
@@ -68,11 +83,49 @@ createApp({
       await this.runAction('Validate Data', '/api/actions/validate');
     },
     async selectProduct(sku) {
+      this.mode = 'edit';
       this.selectedSku = sku;
       this.saveError = '';
+      this.createError = '';
       const response = await fetch(`/api/products/${encodeURIComponent(sku)}`);
       this.selectedProduct = await response.json();
       await this.updatePreview();
+    },
+    async startCreateProduct() {
+      if (!this.createSubdepartmentId) return;
+
+      this.busy = true;
+      this.saveError = '';
+      this.createError = '';
+
+      try {
+        const response = await fetch(`/api/departments/${encodeURIComponent(this.createSubdepartmentId)}/next-sku`);
+        const allocation = await response.json();
+
+        if (!response.ok) {
+          this.createError = allocation.error || 'Could not allocate SKU';
+          return;
+        }
+
+        this.mode = 'create';
+        this.selectedSku = allocation.sku;
+        this.createTargetFile = allocation.file;
+        this.selectedProduct = {
+          sku: allocation.sku,
+          name: allocation.product.name,
+          cost: allocation.product.cost,
+          departmentId: this.createSubdepartmentId,
+          image: allocation.product.image,
+          description: allocation.product.description,
+          renderedDescription: '',
+          product: allocation.product,
+        };
+        await this.updatePreview();
+      } catch (error) {
+        this.createError = error instanceof Error ? error.message : String(error);
+      } finally {
+        this.busy = false;
+      }
     },
     async saveProduct() {
       if (!this.selectedProduct?.product) return;
@@ -81,7 +134,7 @@ createApp({
       this.saveError = '';
 
       try {
-        const response = await fetch(`/api/products/${encodeURIComponent(this.selectedProduct.sku)}`, {
+        const response = await fetch(this.mode === 'create' ? '/api/products' : `/api/products/${encodeURIComponent(this.selectedProduct.sku)}`, {
           method: 'POST',
           headers: { 'Content-Type': 'application/json' },
           body: JSON.stringify({ product: this.selectedProduct.product, bumpVersion: true }),
@@ -98,11 +151,18 @@ createApp({
         this.manifest = result.manifest;
         this.selectedProduct = result.product;
         const index = this.products.findIndex((product) => product.sku === result.product.sku);
-        if (index !== -1) this.products.splice(index, 1, result.product);
+        if (index === -1) {
+          this.products.push(result.product);
+          this.products.sort((a, b) => a.name.localeCompare(b.name));
+        } else {
+          this.products.splice(index, 1, result.product);
+        }
+        this.mode = 'edit';
+        this.createTargetFile = '';
         this.lastAction = {
-          title: 'Save Product',
+          title: index === -1 ? 'Create Product' : 'Save Product',
           ok: true,
-          stdout: `Saved ${result.product.sku} to ${result.file}; catalog version is now ${result.manifest.catalogVersion}.`,
+          stdout: `${index === -1 ? 'Created' : 'Saved'} ${result.product.sku} at ${result.file}; catalog version is now ${result.manifest.catalogVersion}.`,
           stderr: '',
         };
       } catch (error) {

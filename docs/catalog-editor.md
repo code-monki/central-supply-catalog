@@ -25,25 +25,29 @@ The editor should build on these repository-level controls:
 
 ## Current Editor Phase
 
-The current implementation supports read-only browsing plus existing-product edits. It provides:
+The current implementation supports read-only browsing, existing-product edits, and new product creation. It provides:
 
 - Local Node HTTP server at `http://localhost:4322/` by default.
 - Product filtering by name, SKU, and department.
+- Department/Sub-department selection for new product creation.
+- Next-SKU allocation from the selected SKU-bearing sub-department.
+- Department-derived target file placement for new products.
 - Product edit form for name, cost, image path, and description.
 - Product description preview using the same Markdown renderer as the public site.
 - Server-side JSON Schema validation before saving.
 - Normalized JSON writes for existing product files.
-- Automatic `catalogVersion` increment in `astro/data/catalog-manifest.json` after a successful product save.
+- Normalized JSON writes for newly created product files.
+- Automatic `catalogVersion` increment in `astro/data/catalog-manifest.json` after a successful product save or create.
 - Local actions for `npm run validate:data` and `npm run build:search-index`.
 - Automated editor API tests through `npm run test:editor`.
 
-This phase intentionally does not create new product files yet. The next phase can add a create-product wizard with SKU assistance and department-derived file placement.
+The editor presents top-level entries from `astro/data/categories.json` as Departments and SKU-bearing records from `astro/data/departments.json` as Sub-departments. The underlying data file names remain unchanged for now.
 
 ## Proposed Phases
 
 1. Read-only local catalog browser with product filtering and rendered description preview. Complete.
 2. Existing-product edit form with JSON Schema validation and normalized save. Complete.
-3. Create-product wizard with SKU helper, department-derived file placement, and manifest version bump.
+3. Create-product wizard with SKU helper, department-derived file placement, and manifest version bump. Complete.
 4. Git workflow controls for dirty-worktree checks, staged diff preview, commit, push, and validation before commit.
 5. Optional Tauri wrapper if a packaged desktop app is needed.
 

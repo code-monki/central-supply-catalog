@@ -83,6 +83,27 @@ button:disabled {
   background: #fff;
 }
 
+.create-panel {
+  display: grid;
+  gap: 8px;
+  margin-bottom: 12px;
+  padding-bottom: 14px;
+  border-bottom: 1px solid #d3d9e0;
+}
+
+.create-panel h2 {
+  margin: 0;
+  font-size: 18px;
+}
+
+.create-panel button {
+  min-height: 36px;
+  padding: 0 12px;
+  border: 1px solid #806600;
+  border-radius: 4px;
+  background: #f3c431;
+}
+
 .sidebar label {
   font-weight: 700;
 }
@@ -155,6 +176,11 @@ button:disabled {
   margin: 0 0 16px;
 }
 
+.target-file {
+  margin: 12px 0 0;
+  color: #4d5968;
+}
+
 dl {
   display: grid;
   grid-template-columns: repeat(3, minmax(0, 1fr));
@@ -188,7 +214,7 @@ dd {
 
 .form-grid {
   display: grid;
-  grid-template-columns: 2fr 1fr 2fr;
+  grid-template-columns: repeat(3, minmax(0, 1fr));
   gap: 12px;
 }
 

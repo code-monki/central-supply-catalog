@@ -21,6 +21,24 @@
 
       <main class="workspace">
         <aside class="sidebar">
+          <div class="create-panel">
+            <h2>New Product</h2>
+            <label for="create-department">Department</label>
+            <select id="create-department" v-model="createDepartmentLabel" @change="createSubdepartmentId = selectableSubdepartments[0]?.id || ''">
+              <option v-for="department in navigation" :key="department.label" :value="department.label">
+                {{ department.label }}
+              </option>
+            </select>
+            <label for="create-subdepartment">Sub-department</label>
+            <select id="create-subdepartment" v-model="createSubdepartmentId">
+              <option v-for="subdepartment in selectableSubdepartments" :key="subdepartment.id" :value="subdepartment.id">
+                {{ subdepartment.label }}
+              </option>
+            </select>
+            <button type="button" @click="startCreateProduct" :disabled="busy || !createSubdepartmentId">Allocate SKU</button>
+            <pre v-if="createError" class="save-error">{{ createError }}</pre>
+          </div>
+
           <label for="query">Filter products</label>
           <input id="query" v-model="query" type="search" autocomplete="off">
 
@@ -52,7 +70,7 @@
           <div class="detail-header">
             <img :src="selectedProduct.image" :alt="selectedProduct.name">
             <div>
-              <h2>{{ selectedProduct.name }}</h2>
+              <h2>{{ mode === 'create' ? 'New Product' : selectedProduct.name }}</h2>
               <dl>
                 <div>
                   <dt>SKU</dt>
@@ -67,11 +85,16 @@
                   <dd>{{ selectedProduct.cost }}</dd>
                 </div>
               </dl>
+              <p v-if="mode === 'create'" class="target-file">Target file: {{ createTargetFile }}</p>
             </div>
           </div>
 
           <form class="edit-form" @submit.prevent="saveProduct">
             <div class="form-grid">
+              <label>
+                SKU
+                <input v-model.trim="selectedProduct.product.sku" type="text" required readonly>
+              </label>
               <label>
                 Name
                 <input v-model.trim="selectedProduct.product.name" type="text" required>
@@ -84,13 +107,29 @@
                 Image
                 <input v-model.trim="selectedProduct.product.image" type="text" required>
               </label>
+              <label>
+                Type
+                <input v-model.trim="selectedProduct.product.type" type="text" required>
+              </label>
+              <label>
+                Subtype
+                <input v-model.trim="selectedProduct.product.subtype" type="text" required>
+              </label>
+              <label>
+                Tech Level
+                <input v-model.number="selectedProduct.product.techLevel" type="number" min="0" required>
+              </label>
+              <label>
+                QREBS
+                <input v-model.trim="selectedProduct.product.qrebs" type="text" required>
+              </label>
             </div>
             <label>
               Description
               <textarea v-model="selectedProduct.product.description" rows="10" required @input="updatePreview"></textarea>
             </label>
             <div class="form-actions">
-              <button type="submit" :disabled="busy">Save Product</button>
+              <button type="submit" :disabled="busy">{{ mode === 'create' ? 'Create Product' : 'Save Product' }}</button>
               <span>Saving increments the catalog manifest version.</span>
             </div>
             <pre v-if="saveError" class="save-error">{{ saveError }}</pre>
