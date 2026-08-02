@@ -27,13 +27,13 @@ Static routes are defined under `astro/pages/`.
 
 ## Data Model
 
-Product records are loaded from `src/_data/catalog.csv` by `astro/lib/catalog.mjs`. Metadata JSON files in `astro/data/` describe categories, departments, manufacturers, publishers, and attribution records.
+Product records are loaded from JSON files under `src/_data/products/` by `astro/lib/catalog.mjs`. Metadata JSON files in `astro/data/` describe categories, departments, manufacturers, publishers, attribution records, and the catalog manifest.
 
 Generated product pages use the product SKU as the stable route key. Department pages are generated from category and department metadata, with pagination for large product sets.
 
 ## Search
 
-`astro/lib/catalog.mjs` generates the search document payload at `/_data/searchindex.json`. The client search code lives in `astro/lib/catalogSearch.mjs`, `astro/lib/searchIndexClient.js`, and `astro/components/SearchResults.vue`.
+`astro/lib/catalog.mjs` generates search documents, and `astro/lib/generatedCatalogAssets.mjs` serializes the search payload at `/_data/searchindex.json`. The client search code lives in `astro/lib/catalogSearch.mjs`, `astro/lib/searchIndexClient.js`, and `astro/components/SearchResults.vue`.
 
 The search parser supports adjacent terms as `AND`, quoted phrases, `AND`, `OR`, `NOT`, and parenthesized groups. User-facing search syntax is documented on `/help/`; implementation details are documented in [site-search.md](site-search.md).
 
@@ -75,12 +75,16 @@ Common commands:
 npm install
 npm run prod
 npm run preview -- --host 127.0.0.1 --port 4324
+npm run build:search-index
 npm run validate:data
 npm test
 npm run test:audit
+npm run editor
 ```
 
 The production build writes static output to `dist/`. GitHub Pages or another static host should publish `dist/` with clean URL support for generated `index.html` routes.
+
+`npm run build:search-index` regenerates `dist/_data/searchindex.json` from the source catalog without running a full Astro build. `npm run editor` starts the local catalog editor shell, which can browse current catalog data, preview product Markdown, run validation, and rebuild the search index.
 
 ## Validation
 
@@ -88,8 +92,9 @@ Automated regression coverage:
 
 - `npm test` runs Playwright route smoke tests, search cache checks, cart workflow checks, keyboard navigation basics, and axe WCAG regression checks.
 - `npm run validate:data` validates catalog manifest, metadata, product JSON shape, SKU uniqueness, department-derived file placement, and product cross-references.
+- `npm run build:search-index` verifies that the generated search payload can be rebuilt from source catalog data.
 - `npm run test:audit` builds the site, serves the production preview, runs Lighthouse for sampled routes, and writes JSON reports to `reports/lighthouse/`.
-- `.github/workflows/validation.yml` runs dependency audit, dependency tree checks, catalog data validation, production build, browser regression tests, and Lighthouse budgets for pushes and pull requests.
+- `.github/workflows/validation.yml` runs dependency audit, dependency tree checks, catalog data validation, search-index rebuild, production build, browser regression tests, and Lighthouse budgets for pushes and pull requests.
 
 Manual accessibility validation is still required before claiming WCAG 2.2 AA conformance. Cover keyboard-only operation, visible focus order, 200% zoom, text spacing overrides, state contrast, and screen reader behavior for navigation, search, product purchase, and cart totals.
 

@@ -10,6 +10,8 @@
     "dev": "ASTRO_TELEMETRY_DISABLED=1 astro dev",
     "prod": "ASTRO_TELEMETRY_DISABLED=1 astro build",
     "preview": "ASTRO_TELEMETRY_DISABLED=1 astro preview",
+    "editor": "node scripts/catalog-editor.mjs",
+    "build:search-index": "node scripts/build-search-index.mjs",
     "validate:data": "node scripts/validate-data.mjs",
     "test": "npm run test:browser",
     "test:install": "playwright install chromium",

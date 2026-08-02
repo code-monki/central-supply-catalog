@@ -2,7 +2,7 @@ import { defineConfig } from 'astro/config';
 import vue from '@astrojs/vue';
 import fs from 'node:fs';
 import path from 'node:path';
-import { searchDocuments, searchIndexVersion } from './astro/lib/catalog.mjs';
+import { renderServiceWorker, searchIndexJson } from './astro/lib/generatedCatalogAssets.mjs';
 
 const siteBasePath = process.env.SITE_BASE_PATH || '/';
 const normalizedBasePath =
@@ -12,9 +12,6 @@ const copyIfExists = (from, to) => {
   if (!fs.existsSync(from)) return;
   fs.cpSync(from, to, { recursive: true });
 };
-
-const renderServiceWorker = () =>
-  fs.readFileSync('src/sw.js', 'utf8').replaceAll('__CATALOG_VERSION__', searchIndexVersion());
 
 const contentTypes = {
   '.ico': 'image/x-icon',
@@ -54,12 +51,7 @@ const legacyPassthrough = () => ({
     'astro:server:setup': ({ server }) => {
       server.middlewares.use('/_data/searchindex.json', (_req, res) => {
         res.setHeader('Content-Type', 'application/json; charset=utf-8');
-        res.end(
-          JSON.stringify({
-            version: searchIndexVersion(),
-            documents: searchDocuments(),
-          })
-        );
+        res.end(searchIndexJson());
       });
       server.middlewares.use('/img', serveStaticFile('src/img'));
       server.middlewares.use('/audio', serveStaticFile('src/audio'));
@@ -77,13 +69,7 @@ const legacyPassthrough = () => ({
 
       const dataDir = path.join(outDir, '_data');
       fs.mkdirSync(dataDir, { recursive: true });
-      fs.writeFileSync(
-        path.join(dataDir, 'searchindex.json'),
-        JSON.stringify({
-          version: searchIndexVersion(),
-          documents: searchDocuments(),
-        })
-      );
+      fs.writeFileSync(path.join(dataDir, 'searchindex.json'), searchIndexJson());
       for (const file of fs.readdirSync('src/_data').filter((item) => item.endsWith('.idx'))) {
         fs.copyFileSync(path.join('src/_data', file), path.join(dataDir, file));
       }

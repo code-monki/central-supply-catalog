@@ -19,7 +19,20 @@ The editor should build on these repository-level controls:
 - `astro/data/catalog-manifest.json` stores the catalog version used for search and service-worker cache invalidation.
 - `schemas/*.schema.json` define formal source-data schemas.
 - `npm run validate:data` validates manifest, metadata, product shape, SKU uniqueness, department-derived file placement, and product cross-references.
+- `npm run build:search-index` rebuilds the generated search payload from canonical catalog JSON.
+- `npm run editor` starts the local browser-based editor shell.
 - GitHub Actions runs the validator before building and testing the site.
+
+## Current Editor Phase
+
+The first implementation phase is read-only. It provides:
+
+- Local Node HTTP server at `http://localhost:4322/` by default.
+- Product filtering by name, SKU, and department.
+- Product detail preview using the same Markdown renderer as the public site.
+- Local actions for `npm run validate:data` and `npm run build:search-index`.
+
+This phase intentionally does not write product JSON yet. The next phase can add edit/save routes after the read-only catalog loading, preview, and validation/rebuild commands are stable.
 
 ## Proposed Phases
 

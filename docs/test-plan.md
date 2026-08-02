@@ -20,6 +20,7 @@ npm run test:install
 npm audit --audit-level=moderate
 npm ls --depth=0
 npm run validate:data
+npm run build:search-index
 npm run prod
 npm test
 npm run test:audit
@@ -43,6 +44,8 @@ npm run test:audit
 | TST-012 | Generated artifact hygiene | Manual/automated | `git status --short` | Generated output, reports, and local files are ignored and not committed. |
 | TST-013 | Search syntax and help content | Automated | `npm test` | Search regression verifies term, phrase, boolean, and grouped queries; Help documents supported syntax and examples. |
 | TST-014 | Catalog data validation | Automated | `npm run validate:data` | Manifest, metadata, and product files pass JSON Schema validation; SKUs are unique; product files are in department-derived directories; product references resolve. |
+| TST-015 | Search index rebuild | Automated | `npm run build:search-index` | Generated `dist/_data/searchindex.json` is rebuilt from source catalog data with the current manifest version and expected document count. |
+| TST-016 | Local editor smoke test | Manual | `npm run editor` | Editor starts locally, loads products, filters products, previews rendered Markdown, runs validation, and runs the search-index rebuild action. |
 
 ## Manual Accessibility Checks
 
@@ -64,6 +67,7 @@ Manual checks are required before claiming WCAG conformance:
 - `npm audit --audit-level=moderate`
 - `npm ls --depth=0`
 - `npm run validate:data`
+- `npm run build:search-index`
 - `npm run prod`
 - `npm test`
 - `npm run test:audit`

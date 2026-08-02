@@ -37,6 +37,9 @@ jobs:
       - name: Validate catalog data
         run: npm run validate:data
 
+      - name: Rebuild search index
+        run: npm run build:search-index
+
       - name: Build production site
         env:
           SITE_BASE_PATH: /central-supply-catalog

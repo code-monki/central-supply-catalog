@@ -1,0 +1,95 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Catalog Editor</title>
+    <link rel="stylesheet" href="/styles.css">
+  </head>
+  <body>
+    <div id="app">
+      <header class="topbar">
+        <div>
+          <h1>Catalog Editor</h1>
+          <p v-if="manifest">Catalog version {{ manifest.catalogVersion }}</p>
+        </div>
+        <div class="actions">
+          <button type="button" @click="runValidation" :disabled="busy">Validate Data</button>
+          <button type="button" @click="rebuildSearchIndex" :disabled="busy">Rebuild Search Index</button>
+        </div>
+      </header>
+
+      <main class="workspace">
+        <aside class="sidebar">
+          <label for="query">Filter products</label>
+          <input id="query" v-model="query" type="search" autocomplete="off">
+
+          <label for="department">Department</label>
+          <select id="department" v-model="departmentFilter">
+            <option value="">All departments</option>
+            <option v-for="department in departments" :key="department.id" :value="department.id">
+              {{ department.label }}
+            </option>
+          </select>
+
+          <div class="count">{{ filteredProducts.length }} products</div>
+
+          <div class="product-list" role="listbox" aria-label="Products">
+            <button
+              v-for="product in filteredProducts"
+              :key="product.sku"
+              type="button"
+              :class="{ selected: selectedSku === product.sku }"
+              @click="selectProduct(product.sku)"
+            >
+              <span>{{ product.name }}</span>
+              <small>{{ product.sku }}</small>
+            </button>
+          </div>
+        </aside>
+
+        <section class="detail" v-if="selectedProduct">
+          <div class="detail-header">
+            <img :src="selectedProduct.image" :alt="selectedProduct.name">
+            <div>
+              <h2>{{ selectedProduct.name }}</h2>
+              <dl>
+                <div>
+                  <dt>SKU</dt>
+                  <dd>{{ selectedProduct.sku }}</dd>
+                </div>
+                <div>
+                  <dt>Department</dt>
+                  <dd>{{ departmentLabel(selectedProduct.departmentId) }}</dd>
+                </div>
+                <div>
+                  <dt>Cost</dt>
+                  <dd>{{ selectedProduct.cost }}</dd>
+                </div>
+              </dl>
+            </div>
+          </div>
+
+          <div class="preview">
+            <h3>Description Preview</h3>
+            <div v-html="selectedProduct.renderedDescription"></div>
+          </div>
+        </section>
+
+        <section class="detail empty" v-else>
+          <h2>Select a Product</h2>
+        </section>
+      </main>
+
+      <section class="console" v-if="lastAction">
+        <div class="console-header">
+          <h2>{{ lastAction.title }}</h2>
+          <span :class="lastAction.ok ? 'ok' : 'failed'">{{ lastAction.ok ? 'passed' : 'failed' }}</span>
+        </div>
+        <pre>{{ actionOutput }}</pre>
+      </section>
+    </div>
+
+    <script type="module" src="/app.js"></script>
+  </body>
+</html>
