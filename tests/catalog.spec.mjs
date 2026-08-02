@@ -61,14 +61,30 @@ test('about and disclaimers pages keep distinct content', async ({ page }) => {
 test('home page brand red is consistent across header and hero text', async ({ page }) => {
   await page.goto(routePath('/'));
 
-  const colors = await page.evaluate(() => {
+  const colors = await page.evaluate(async () => {
     const logo = document.querySelector('.site-logo a');
-    const title = document.querySelector('.hero-title h1');
+    const title = document.querySelector('.hero-image img');
     const subtitle = document.querySelector('.subtitle');
+    if (!title.complete) await title.decode();
+
+    const canvas = document.createElement('canvas');
+    canvas.width = title.naturalWidth;
+    canvas.height = title.naturalHeight;
+    const context = canvas.getContext('2d');
+    context.drawImage(title, 0, 0);
+    const pixels = context.getImageData(0, 0, canvas.width, canvas.height).data;
+    let titleColor = null;
+
+    for (let index = 0; index < pixels.length; index += 4) {
+      if (pixels[index + 3] === 255) {
+        titleColor = `rgb(${pixels[index]}, ${pixels[index + 1]}, ${pixels[index + 2]})`;
+        break;
+      }
+    }
 
     return {
       logo: getComputedStyle(logo).color,
-      title: getComputedStyle(title).color,
+      title: titleColor,
       subtitle: getComputedStyle(subtitle).color,
     };
   });

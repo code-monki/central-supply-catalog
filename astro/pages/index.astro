@@ -1,12 +1,13 @@
 ---
 import BaseLayout from '../layouts/BaseLayout.astro';
+import heroTitle from '../../src/img/hero-title.png';
 ---
 
 <BaseLayout title="Central Supply Catalog">
   <main id="main" class="content-container" tabindex="0" aria-label="Home content">
     <div class="hero-section">
-      <div class="hero-title">
-        <h1>Central Supply Catalog</h1>
+      <div class="hero-image">
+        <img src={heroTitle.src} width={heroTitle.width} height={heroTitle.height} alt="Central Supply Catalog" fetchpriority="high">
       </div>
       <div class="hero-text">
         <p class="subtitle">Equipment and Supplies<br>for the<br>Discerning Traveller</p>

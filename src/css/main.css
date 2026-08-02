@@ -734,7 +734,7 @@ main .hero-section {
     height: 50vh;
   }
 }
-main .hero-section .hero-title {
+main .hero-section .hero-image {
   border: 4px solid #ccc;
   background: rgba(0, 0, 0, 0.5);
   border-radius: 1rem;
@@ -750,23 +750,9 @@ main .hero-section .hero-title {
     width: 80%;
   }
 }
-main .hero-section .hero-title h1 {
-  color: var(--csc-red);
-  font-family: Roboto, Arial, Helvetica, sans-serif;
-  font-size: 2rem;
-  font-weight: 700;
-  line-height: 1.05;
-  text-align: center;
-}
-@media screen and (min-width: 48rem) {
-  main .hero-section .hero-title h1 {
-    font-size: 3.5rem;
-  }
-}
-@media screen and (min-width: 64rem) {
-  main .hero-section .hero-title h1 {
-    font-size: 5rem;
-  }
+main .hero-section img {
+  width: 100%;
+  height: auto;
 }
 main .hero-section .subtitle {
   margin-top: 3rem;
