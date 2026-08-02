@@ -790,10 +790,14 @@ main.home-content {
   color: #0b5f9f;
 }
 .home-department-main-link:hover,
-.home-department-main-link:focus-visible,
+.home-department-main-link:focus-visible {
+  color: #cc3333;
+}
 .home-subdepartment-links a:hover,
 .home-subdepartment-links a:focus-visible {
-  color: #cc3333;
+  color: white;
+  border-color: #0b5f9f;
+  background: #0b5f9f;
 }
 .home-department-card:focus-within,
 .home-department-card:hover {
