@@ -1,4 +1,8 @@
 @charset "UTF-8";
+:root {
+  --csc-red: red;
+}
+
 html {
   font-size: 16px;
   -webkit-text-size-adjust: 100%;
@@ -117,7 +121,7 @@ header .header-row-1 .site-logo {
   }
 }
 header .header-row-1 .site-logo a {
-  color: red;
+  color: var(--csc-red);
   font-weight: bold;
   text-decoration: none;
 }
@@ -133,7 +137,7 @@ header .header-row-1 .cart {
 header .header-row-1 .cart .badge {
   display: block;
   position: absolute;
-  background: red;
+  background: var(--csc-red);
   color: white;
   right: 1.85rem;
   top: 2.25rem;
@@ -349,7 +353,7 @@ header .header-row-2 .row-2-content .search-form .search-btn {
   margin-bottom: 2rem !important;
 }
 .product-summary-container h1 {
-  color: red;
+  color: var(--csc-red);
   font-weight: 500;
   font-size: 1.75rem;
 }
@@ -448,7 +452,7 @@ header .header-row-2 .row-2-content .search-form .search-btn {
   margin: 0 auto !important;
 }
 .product-summary-container .container .pagenav ul li a {
-  color: red;
+  color: var(--csc-red);
 }
 .product-summary-container .container .pagenav ul li a:hover {
   color: #cc3333;
@@ -623,10 +627,10 @@ footer .copyright-info a img {
   margin: 0 auto;
 }
 .search-results .container .pagenav ul li a {
-  color: red;
+  color: var(--csc-red);
 }
 .search-results .container .pagenav ul li a:visited {
-  color: red;
+  color: var(--csc-red);
 }
 
 .product-variants {
@@ -730,7 +734,7 @@ main .hero-section {
     height: 50vh;
   }
 }
-main .hero-section .hero-image {
+main .hero-section .hero-title {
   border: 4px solid #ccc;
   background: rgba(0, 0, 0, 0.5);
   border-radius: 1rem;
@@ -746,14 +750,28 @@ main .hero-section .hero-image {
     width: 80%;
   }
 }
-main .hero-section img {
-  width: 100%;
-  height: auto;
+main .hero-section .hero-title h1 {
+  color: var(--csc-red);
+  font-family: Roboto, Arial, Helvetica, sans-serif;
+  font-size: 2rem;
+  font-weight: 700;
+  line-height: 1.05;
+  text-align: center;
+}
+@media screen and (min-width: 48rem) {
+  main .hero-section .hero-title h1 {
+    font-size: 3.5rem;
+  }
+}
+@media screen and (min-width: 64rem) {
+  main .hero-section .hero-title h1 {
+    font-size: 5rem;
+  }
 }
 main .hero-section .subtitle {
   margin-top: 3rem;
   font-size: 1rem;
-  color: red;
+  color: var(--csc-red);
   background: rgba(0, 0, 0, 0.5);
   padding: 1rem;
   text-align: center;
@@ -1282,7 +1300,7 @@ main .hero-section .subtitle {
   }
 }
 .browse-page-container .browse-product-row .prod-info a:hover {
-  color: red;
+  color: var(--csc-red);
 }
 @media screen and (min-width: 48rem) {
   .browse-page-container .browse-product-row .prod-info table {

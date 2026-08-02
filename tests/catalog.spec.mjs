@@ -58,6 +58,28 @@ test('about and disclaimers pages keep distinct content', async ({ page }) => {
   await expect(page.getByRole('heading', { name: 'Credits' })).toHaveCount(0);
 });
 
+test('home page brand red is consistent across header and hero text', async ({ page }) => {
+  await page.goto(routePath('/'));
+
+  const colors = await page.evaluate(() => {
+    const logo = document.querySelector('.site-logo a');
+    const title = document.querySelector('.hero-title h1');
+    const subtitle = document.querySelector('.subtitle');
+
+    return {
+      logo: getComputedStyle(logo).color,
+      title: getComputedStyle(title).color,
+      subtitle: getComputedStyle(subtitle).color,
+    };
+  });
+
+  expect(colors).toEqual({
+    logo: 'rgb(255, 0, 0)',
+    title: 'rgb(255, 0, 0)',
+    subtitle: 'rgb(255, 0, 0)',
+  });
+});
+
 test('search warms and reuses a versioned localStorage cache', async ({ page }) => {
   await page.goto(routePath('/support/search/?s=laser'));
 
