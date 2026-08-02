@@ -65,7 +65,7 @@ Generating an index decouples authoring from runtime search:
 | --- | --- | --- |
 | No runtime relational queries | Complex ad hoc filtering is harder. | Add generated indexes or client-side filters for known use cases. |
 | Build-time validation matters more | Bad source data can affect generated pages. | Add schema/data validation tests before publish. |
-| Large payloads can affect browser performance | Search index size may grow. | Split indexes by department or prebuild MiniSearch indexes if needed. |
+| Large payloads can affect browser performance | Search payload size may grow. | Split indexes by department or prebuild normalized search fields if needed. |
 | No runtime edit UI | Contributors must use repository workflows. | Document contribution process and data schema. |
 | User cart is device-local | Cart does not sync across devices. | Accept as current scope; add accounts only if requirements change. |
 
@@ -83,4 +83,3 @@ Revisit this decision if the project needs:
 - Public APIs requiring dynamic queries.
 
 Until those requirements exist, a filesystem source of truth plus generated indexes is the simpler and more appropriate architecture.
-

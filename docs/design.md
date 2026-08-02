@@ -16,7 +16,7 @@ Users land on the home page, open the departments menu, choose a department, and
 
 ### Search Catalog
 
-Users enter a search term in the global search form. The search page loads the generated search payload, builds a MiniSearch index in the browser, displays matching products, and caches the payload by version.
+Users enter a search term in the global search form. The search page loads the generated search payload, evaluates the query with the client-side catalog search parser, displays matching products, and caches the payload by version.
 
 ### Inspect Product
 

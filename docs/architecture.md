@@ -22,7 +22,7 @@ There is no runtime application server and no runtime database dependency. Brows
 | Base layout | `astro/layouts/BaseLayout.astro` | Shared document shell, global styles, header, and footer. |
 | Catalog library | `astro/lib/catalog.mjs` | Loads catalog files, computes routes, formats records, and builds search documents. |
 | Vue header | `astro/components/SiteHeader.vue` | Side navigation, department menu, search submit, and cart badge. |
-| Search results | `astro/components/SearchResults.vue` | Browser-side MiniSearch execution and result rendering. |
+| Search results | `astro/components/SearchResults.vue`, `astro/lib/catalogSearch.mjs` | Browser-side query parsing, catalog search execution, and result rendering. |
 | Product purchase | `astro/components/ProductPurchase.vue` | Add-to-cart behavior from product pages. |
 | Shopping cart | `astro/components/ShoppingCart.vue` | Cart display, quantity editing, removal, and clearing. |
 | Search cache client | `astro/lib/searchIndexClient.js` | Versioned search payload loading and `localStorage` caching. |
@@ -71,4 +71,3 @@ Validation runs through:
 - Declared dependency tree check.
 
 The GitHub Actions workflow in `.github/workflows/validation.yml` runs these gates for pushes and pull requests.
-

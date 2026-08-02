@@ -82,10 +82,30 @@ test('search warms and reuses a versioned localStorage cache', async ({ page }) 
   expect(searchIndexRequests).toBe(0);
 });
 
+test('catalog search matches terms, phrases, and boolean groups', async ({ page }) => {
+  await page.goto(routePath('/support/search/?s=laser+pistol'));
+
+  await expect(page.getByRole('heading', { name: /Search found 17 results for:/ })).toBeVisible();
+  await expect(page.getByRole('link', { name: /Laser Pistol, Early/ })).toBeVisible();
+  await expect(page.getByRole('link', { name: /Laser Rifle/ })).toHaveCount(0);
+
+  await page.goto(routePath('/support/search/?s=%22laser+pistol%22'));
+  await expect(page.getByRole('heading', { name: /Search found 17 results for:/ })).toBeVisible();
+  await expect(page.getByRole('link', { name: /Laser Pistol, Early/ })).toBeVisible();
+
+  await page.goto(routePath('/support/search/?s=laser+NOT+rifle'));
+  await expect(page.getByRole('heading', { name: /Search found 32 results for:/ })).toBeVisible();
+  await expect(page.getByRole('link', { name: /Laser Rifle/ })).toHaveCount(0);
+
+  await page.goto(routePath('/support/search/?s=(laser+OR+maser)+AND+pistol'));
+  await expect(page.getByRole('heading', { name: /Search found 17 results for:/ })).toBeVisible();
+  await expect(page.getByRole('link', { name: /Laser Pistol, Early/ })).toBeVisible();
+});
+
 test('search results page does not render help article content', async ({ page }) => {
   await page.goto(routePath('/support/search/?s=Vacc+Suit'));
 
-  await expect(page.getByRole('heading', { name: /Search found 65 results for:/ })).toBeVisible();
+  await expect(page.getByRole('heading', { name: /Search found 5 results for:/ })).toBeVisible();
   await expect(page.getByRole('heading', { name: 'Searching the Central Supply Catalog' })).toHaveCount(0);
   await expect(page.getByText('The search feature allows the user to enter one or more keywords')).toHaveCount(0);
 });

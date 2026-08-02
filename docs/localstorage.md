@@ -7,7 +7,7 @@ The application provides several features that require some sort of local storag
 
 ## Full Text Search
 
-The full text search will be provided by the minisearch package. This package is also used to generate the search index. The inventory item fields included in the search data are:
+The full text search uses the generated catalog search payload and the browser-side query parser in `astro/lib/catalogSearch.mjs`. The inventory item fields included in the search data are:
 
 * name - Name of inventory item
 * mfr - Name of the manufacturer

@@ -1,6 +1,6 @@
 <script setup>
-import MiniSearch from 'minisearch';
 import { computed, onMounted, ref } from 'vue';
+import { searchCatalogDocuments } from '../lib/catalogSearch.mjs';
 import { loadSearchDocuments } from '../lib/searchIndexClient.js';
 
 const props = defineProps({
@@ -65,14 +65,7 @@ onMounted(async () => {
       version: props.indexVersion,
     });
 
-    const miniSearch = new MiniSearch({
-      idField: 'sku',
-      fields: ['sku', 'name', 'description', 'cost'],
-      storeFields: ['sku', 'name', 'summary', 'cost', 'image'],
-    });
-
-    miniSearch.addAll(documents);
-    results.value = miniSearch.search(query.value, { prefix: true });
+    results.value = searchCatalogDocuments(documents, query.value);
   } catch {
     errorMessage.value = 'Search is temporarily unavailable.';
   } finally {

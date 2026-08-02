@@ -2,7 +2,7 @@
 
 ## Overview
 
-The Central Supply Catalog site search is based upon the [minisearch](https://github.com/lucaong/minisearch) Javascript library. This library produces a small, fast index in JSON format that includes features such as fuzzy search, filters, etc. The search feature uses an index built from the product data entries and is updated when the index file is built.
+The Central Supply Catalog site search uses a generated product payload and a purpose-built browser-side query parser. Search is intended to find catalog records that match the terms, phrases, and boolean operators entered by the user rather than broad related records.
 
 ## Requirements
 
@@ -72,17 +72,13 @@ The following fields are used for filtering:
 - qrebs
 - tags
 
-Search results will be sorted by relevance, sku, and product name.
-
-## Unique ID Requirement
-
-MiniSearch relies upon a unique _id_ element. The current Astro search component uses the product `sku` as the MiniSearch `idField`, which keeps search results aligned with product routes and cart records.
+Search results are sorted by relevance, product name, and sku. Relevance prioritizes product-name phrase matches, product-name term matches, and then summary/description matches.
 
 ## Design
 
-The minisearch library is installed from npm and bundled into the Astro search component by Vite. The Astro build emits the search payload at `/_data/searchindex.json`.
+The browser-side search implementation lives in `astro/lib/catalogSearch.mjs` and is bundled into the Astro search component by Vite. The Astro build emits the search payload at `/_data/searchindex.json`.
 
-The resulting search payload is stored at `/_data/searchindex.json` as uncompressed JSON. It contains a version and document array; the browser builds the MiniSearch index at runtime and caches the documents in `localStorage` by version.
+The resulting search payload is stored at `/_data/searchindex.json` as uncompressed JSON. It contains a version and document array; the browser evaluates queries against those documents and caches the documents in `localStorage` by version.
 
 The input data for the index is stored in `src/_data/products/` and is not copied directly to the production `_data` folder.
 
@@ -95,30 +91,28 @@ Each product result will have the same layout that is used by the product displa
 - Product Summary
 - Product Cost
 
-The search results will provide a pagination feature should the number of results exceed 8. The results will be organized into groups of 8 on large/x-large screens, 3 on tablets, 2 on mobile phones.
-
-The search index will be retrieved by the application and cached in a custom browser application cache. All subsequent calls to retrieve the index will go against the cache. When new content is added, the old cache will be deleted and will be replaced with a new cache. This approach uses a service worker to load the index when the user goes to the site. If the cache is still valid, the call to retrieve the index will go against the application cache. Otherwise, the service worker will retrieve the index from the site and store it in the application cache.
+The search payload is retrieved by the application and cached in `localStorage` using a versioned key. When new content is added, the version changes and stale cache entries are removed.
 
 ## Search Term Parser
 
-Minisearch has recently added the ability to do compound searches. To support this capability the search terms will need to be parsed into the appropriate abstract-syntax tree (AST) structure. The parser will support the following grammar:
+The query parser supports the following grammar:
 
 | Term         | Description                                | Example                        |
 | ------------ | ------------------------------------------ | ------------------------------ |
 | <word>       | Single word search term                    | torch                          |
-| <list>       | List of words - defaults to logical OR     | welding torch                  |
+| <phrase>     | Exact phrase surrounded by double quotes   | "laser pistol"                 |
+| <list>       | List of words - defaults to logical AND    | welding torch                  |
 | <compound>   | Combination of words and logical groupings | (cutting or welding) and torch |
 | <logicalOr>  | List of words searched with a logical OR   | (cutting or welding)           |
 | <logicalAnd> | List of words searched with a logical AND  | (welding and torch)            |
+| <logicalNot> | Excludes records that match a term         | laser not rifle                |
 
----
+Search operators are case-insensitive. Adjacent terms without an explicit operator are treated as `AND`. Terms match normalized product tokens, including prefix matches. Quoted phrases match adjacent words in normalized product fields.
 
-## Project Decision (2 Oct 2021)
+Examples:
 
-For the purposes of getting the site live, the complex search logic will be postponed to the next release.
-
-Notes:
-
-From search bar, treat everything as query parameters
-Add filters entry in menu
-When user click submit button, resubmit search with filter parameters
+- `laser pistol` finds records containing both `laser` and `pistol`.
+- `"laser pistol"` finds records containing the exact phrase `laser pistol`.
+- `laser OR maser` finds records containing either term.
+- `laser NOT rifle` finds records containing `laser` but not `rifle`.
+- `(laser OR maser) AND pistol` finds pistol records that also contain either `laser` or `maser`.
