@@ -802,13 +802,19 @@ main.home-content {
 .home-subdepartment-links {
   display: flex;
   flex-wrap: wrap;
-  gap: 0.35rem 0.75rem;
+  gap: 0.35rem;
   line-height: 1.35;
 }
 .home-subdepartment-links a {
+  display: inline-flex;
+  align-items: center;
+  min-height: 1.75rem;
+  padding: 0.15rem 0.45rem;
+  border: 1px solid #b8c7d3;
   color: #0b5f9f;
   font-size: 0.9rem;
   text-decoration: none;
+  background: white;
 }
 .home-subdepartment-links a:visited {
   color: #0b5f9f;
