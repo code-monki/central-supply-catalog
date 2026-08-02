@@ -7,6 +7,7 @@ html {
   font-size: 16px;
   -webkit-text-size-adjust: 100%;
   text-size-adjust: 100%;
+  overscroll-behavior: none;
 }
 
 * {
@@ -26,6 +27,8 @@ body {
   width: 100%;
   height: 100%;
   position: relative;
+  overflow-x: hidden;
+  overscroll-behavior: none;
   word-break: normal;
 }
 body .overlay {
@@ -46,6 +49,8 @@ body .page-container {
   height: 100vh;
   width: 100vw;
   gap: 0;
+  overflow-x: hidden;
+  overscroll-behavior: none;
 }
 body .page-container .content-container {
   display: flex;
@@ -58,6 +63,7 @@ body .page-container .content-container {
   max-width: 60rem;
   width: 100%;
   overflow-y: auto;
+  overscroll-behavior: contain;
   gap: 0;
   margin-top: 0.75rem;
 }
@@ -722,8 +728,11 @@ main {
 }
 main.home-content {
   justify-content: flex-start;
-  gap: 1rem;
-  padding: 1rem;
+  gap: 0.5rem;
+  padding: 0.5rem 1rem 1rem;
+}
+body .page-container .content-container.home-content {
+  margin-top: 0.5rem;
 }
 .catalog-stats,
 .home-departments {
@@ -830,7 +839,7 @@ main.home-content {
 }
 @media screen and (min-width: 48rem) {
   main.home-content {
-    padding: 1.25rem;
+    padding: 0.5rem 1.25rem 1.25rem;
   }
   .home-department-grid {
     grid-template-columns: repeat(2, minmax(0, 1fr));
