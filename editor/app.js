@@ -11,6 +11,7 @@ createApp({
       manifest: null,
       products: [],
       query: '',
+      saveError: '',
       selectedProduct: null,
       selectedSku: '',
     };
@@ -68,8 +69,58 @@ createApp({
     },
     async selectProduct(sku) {
       this.selectedSku = sku;
+      this.saveError = '';
       const response = await fetch(`/api/products/${encodeURIComponent(sku)}`);
       this.selectedProduct = await response.json();
+      await this.updatePreview();
+    },
+    async saveProduct() {
+      if (!this.selectedProduct?.product) return;
+
+      this.busy = true;
+      this.saveError = '';
+
+      try {
+        const response = await fetch(`/api/products/${encodeURIComponent(this.selectedProduct.sku)}`, {
+          method: 'POST',
+          headers: { 'Content-Type': 'application/json' },
+          body: JSON.stringify({ product: this.selectedProduct.product, bumpVersion: true }),
+        });
+        const result = await response.json();
+
+        if (!response.ok) {
+          this.saveError = result.validationErrors
+            ? result.validationErrors.map((error) => `${error.path}: ${error.message}`).join('\n')
+            : result.error || 'Save failed';
+          return;
+        }
+
+        this.manifest = result.manifest;
+        this.selectedProduct = result.product;
+        const index = this.products.findIndex((product) => product.sku === result.product.sku);
+        if (index !== -1) this.products.splice(index, 1, result.product);
+        this.lastAction = {
+          title: 'Save Product',
+          ok: true,
+          stdout: `Saved ${result.product.sku} to ${result.file}; catalog version is now ${result.manifest.catalogVersion}.`,
+          stderr: '',
+        };
+      } catch (error) {
+        this.saveError = error instanceof Error ? error.message : String(error);
+      } finally {
+        this.busy = false;
+      }
+    },
+    async updatePreview() {
+      if (!this.selectedProduct?.product) return;
+
+      const response = await fetch('/api/preview/markdown', {
+        method: 'POST',
+        headers: { 'Content-Type': 'application/json' },
+        body: JSON.stringify({ markdown: this.selectedProduct.product.description || '' }),
+      });
+      const result = await response.json();
+      this.selectedProduct.renderedDescription = result.html;
     },
   },
 }).mount('#app');

@@ -3,9 +3,9 @@ import fs from 'node:fs';
 import http from 'node:http';
 import path from 'node:path';
 import { fileURLToPath } from 'node:url';
+import Ajv2020 from 'ajv/dist/2020.js';
 import {
   allProducts,
-  catalogManifest,
   categories,
   departments,
   productImagePath,
@@ -15,6 +15,12 @@ import {
 const rootDir = process.cwd();
 const editorDir = path.join(rootDir, 'editor');
 const port = Number(process.env.CSC_EDITOR_PORT || process.env.PORT || 4322);
+const manifestPath = path.join(rootDir, 'astro/data/catalog-manifest.json');
+const productRoot = path.join(rootDir, 'src/_data/products');
+const productSchema = JSON.parse(fs.readFileSync(path.join(rootDir, 'schemas/product.schema.json'), 'utf8'));
+const ajv = new Ajv2020({ allErrors: true, strict: false });
+const validateProduct = ajv.compile(productSchema);
+let editorProducts = allProducts();
 
 const contentTypes = {
   '.css': 'text/css; charset=utf-8',
@@ -35,6 +41,27 @@ const send = (res, status, body, contentType = 'text/plain; charset=utf-8') => {
 const sendJson = (res, status, body) => {
   send(res, status, JSON.stringify(body), 'application/json; charset=utf-8');
 };
+
+const readJson = (filePath) => JSON.parse(fs.readFileSync(filePath, 'utf8'));
+
+const writeJson = (filePath, value) => {
+  fs.writeFileSync(filePath, `${JSON.stringify(value, null, 2)}\n`);
+};
+
+const readBody = (req) =>
+  new Promise((resolve, reject) => {
+    let body = '';
+
+    req.on('data', (chunk) => {
+      body += chunk;
+      if (body.length > 2_000_000) {
+        req.destroy();
+        reject(new Error('Request body is too large'));
+      }
+    });
+    req.on('end', () => resolve(body));
+    req.on('error', reject);
+  });
 
 const safeStaticPath = (baseDir, pathname) => {
   const requestedPath = path.resolve(baseDir, decodeURIComponent(pathname).replace(/^\/+/, ''));
@@ -70,6 +97,44 @@ const runCommand = (command, args) =>
     });
   });
 
+const currentManifest = () => readJson(manifestPath);
+
+const bumpManifestVersion = () => {
+  const manifest = currentManifest();
+  const numericVersion = Number.parseInt(manifest.catalogVersion, 10);
+  manifest.catalogVersion = String(Number.isFinite(numericVersion) ? numericVersion + 1 : 1);
+  writeJson(manifestPath, manifest);
+  return manifest;
+};
+
+const productFileForSku = (sku) => {
+  for (const dirName of fs.readdirSync(productRoot)) {
+    const candidate = path.join(productRoot, dirName, `${sku}.json`);
+    if (fs.existsSync(candidate)) return candidate;
+  }
+
+  return null;
+};
+
+const readProductBySku = (sku) => {
+  const file = productFileForSku(sku);
+  if (!file) return null;
+
+  const product = readJson(file);
+  if (Array.isArray(product)) return null;
+
+  return { file, product };
+};
+
+const validateProductRecord = (product) => {
+  if (validateProduct(product)) return [];
+
+  return (validateProduct.errors || []).map((error) => ({
+    path: error.instancePath || '/',
+    message: error.message,
+  }));
+};
+
 const productSummary = (product) => ({
   sku: product.sku,
   name: product.name,
@@ -82,29 +147,77 @@ const productDetail = (product) => ({
   ...productSummary(product),
   description: product.description || '',
   renderedDescription: renderMarkdown(product.description || ''),
+  product,
 });
 
 const handleApi = async (req, res, url) => {
   if (req.method === 'GET' && url.pathname === '/api/catalog') {
     sendJson(res, 200, {
-      manifest: catalogManifest,
+      manifest: currentManifest(),
       categories,
       departments,
-      products: allProducts().map(productSummary),
+      products: editorProducts.map(productSummary),
     });
     return;
   }
 
   if (req.method === 'GET' && url.pathname.startsWith('/api/products/')) {
     const sku = decodeURIComponent(url.pathname.replace('/api/products/', ''));
-    const product = allProducts().find((item) => item.sku === sku);
+    const found = readProductBySku(sku);
 
-    if (!product) {
+    if (!found) {
       sendJson(res, 404, { error: `Unknown SKU ${sku}` });
       return;
     }
 
-    sendJson(res, 200, productDetail(product));
+    sendJson(res, 200, productDetail(found.product));
+    return;
+  }
+
+  if (req.method === 'POST' && url.pathname.startsWith('/api/products/')) {
+    const sku = decodeURIComponent(url.pathname.replace('/api/products/', ''));
+    const found = readProductBySku(sku);
+
+    if (!found) {
+      sendJson(res, 404, { error: `Unknown SKU ${sku}` });
+      return;
+    }
+
+    const body = JSON.parse(await readBody(req));
+    const nextProduct = body.product;
+
+    if (!nextProduct || typeof nextProduct !== 'object' || Array.isArray(nextProduct)) {
+      sendJson(res, 400, { error: 'Request body must include a product object.' });
+      return;
+    }
+
+    if (nextProduct.sku !== sku) {
+      sendJson(res, 400, { error: 'Product SKU cannot be changed from this editor phase.' });
+      return;
+    }
+
+    const validationErrors = validateProductRecord(nextProduct);
+    if (validationErrors.length > 0) {
+      sendJson(res, 422, { error: 'Product failed schema validation.', validationErrors });
+      return;
+    }
+
+    writeJson(found.file, nextProduct);
+    const manifest = body.bumpVersion === false ? currentManifest() : bumpManifestVersion();
+    editorProducts = editorProducts.map((product) => (product.sku === sku ? nextProduct : product));
+
+    sendJson(res, 200, {
+      ok: true,
+      manifest,
+      product: productDetail(nextProduct),
+      file: path.relative(rootDir, found.file),
+    });
+    return;
+  }
+
+  if (req.method === 'POST' && url.pathname === '/api/preview/markdown') {
+    const body = JSON.parse(await readBody(req));
+    sendJson(res, 200, { html: renderMarkdown(String(body.markdown || '')) });
     return;
   }
 
@@ -121,7 +234,7 @@ const handleApi = async (req, res, url) => {
   sendJson(res, 404, { error: 'Not found' });
 };
 
-const server = http.createServer(async (req, res) => {
+export const createCatalogEditorServer = () => http.createServer(async (req, res) => {
   const url = new URL(req.url || '/', `http://${req.headers.host || 'localhost'}`);
 
   try {
@@ -150,8 +263,10 @@ const server = http.createServer(async (req, res) => {
   }
 });
 
-server.listen(port, () => {
-  const scriptName = path.relative(rootDir, fileURLToPath(import.meta.url));
-  console.log(`Catalog editor listening at http://localhost:${port}/`);
-  console.log(`Started by ${scriptName}; set CSC_EDITOR_PORT to choose another port.`);
-});
+if (process.argv[1] === fileURLToPath(import.meta.url)) {
+  createCatalogEditorServer().listen(port, () => {
+    const scriptName = path.relative(rootDir, fileURLToPath(import.meta.url));
+    console.log(`Catalog editor listening at http://localhost:${port}/`);
+    console.log(`Started by ${scriptName}; set CSC_EDITOR_PORT to choose another port.`);
+  });
+}

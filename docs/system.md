@@ -84,13 +84,14 @@ npm run editor
 
 The production build writes static output to `dist/`. GitHub Pages or another static host should publish `dist/` with clean URL support for generated `index.html` routes.
 
-`npm run build:search-index` regenerates `dist/_data/searchindex.json` from the source catalog without running a full Astro build. `npm run editor` starts the local catalog editor shell, which can browse current catalog data, preview product Markdown, run validation, and rebuild the search index.
+`npm run build:search-index` regenerates `dist/_data/searchindex.json` from the source catalog without running a full Astro build. `npm run editor` starts the local catalog editor shell, which can browse current catalog data, edit existing products, preview product Markdown, run validation, and rebuild the search index.
 
 ## Validation
 
 Automated regression coverage:
 
-- `npm test` runs Playwright route smoke tests, search cache checks, cart workflow checks, keyboard navigation basics, and axe WCAG regression checks.
+- `npm test` runs Playwright route smoke tests, search cache checks, cart workflow checks, keyboard navigation basics, axe WCAG regression checks, and editor API tests.
+- `npm run test:editor` verifies editor catalog APIs, Markdown preview, invalid-save handling, product save writes, and manifest version bump behavior.
 - `npm run validate:data` validates catalog manifest, metadata, product JSON shape, SKU uniqueness, department-derived file placement, and product cross-references.
 - `npm run build:search-index` verifies that the generated search payload can be rebuilt from source catalog data.
 - `npm run test:audit` builds the site, serves the production preview, runs Lighthouse for sampled routes, and writes JSON reports to `reports/lighthouse/`.
