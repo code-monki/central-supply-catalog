@@ -4,10 +4,9 @@ import http from 'node:http';
 import path from 'node:path';
 import { fileURLToPath } from 'node:url';
 import Ajv2020 from 'ajv/dist/2020.js';
+import slugify from 'slugify';
 import {
   allProducts,
-  categories,
-  departments,
   productImagePath,
   renderMarkdown,
 } from '../astro/lib/catalog.mjs';
@@ -16,11 +15,12 @@ const rootDir = process.cwd();
 const editorDir = path.join(rootDir, 'editor');
 const port = Number(process.env.CSC_EDITOR_PORT || process.env.PORT || 4322);
 const manifestPath = path.join(rootDir, 'astro/data/catalog-manifest.json');
+const categoriesPath = path.join(rootDir, 'astro/data/categories.json');
+const departmentsPath = path.join(rootDir, 'astro/data/departments.json');
 const productRoot = path.join(rootDir, 'src/_data/products');
 const productSchema = JSON.parse(fs.readFileSync(path.join(rootDir, 'schemas/product.schema.json'), 'utf8'));
 const ajv = new Ajv2020({ allErrors: true, strict: false });
 const validateProduct = ajv.compile(productSchema);
-let editorProducts = allProducts();
 
 const contentTypes = {
   '.css': 'text/css; charset=utf-8',
@@ -47,6 +47,11 @@ const readJson = (filePath) => JSON.parse(fs.readFileSync(filePath, 'utf8'));
 const writeJson = (filePath, value) => {
   fs.writeFileSync(filePath, `${JSON.stringify(value, null, 2)}\n`);
 };
+
+const slug = (value) => slugify(value, { lower: true, strict: true });
+let editorCategories = readJson(categoriesPath);
+let editorDepartments = readJson(departmentsPath);
+let editorProducts = allProducts();
 
 const readBody = (req) =>
   new Promise((resolve, reject) => {
@@ -220,14 +225,95 @@ const validateProductRecord = (product) => {
   }));
 };
 
-const departmentForId = (departmentId) => departments.find((department) => department.id === departmentId) || null;
+const productDataDir = path.join(rootDir, 'src/_data/products');
+
+const categoryForLabel = (label) => editorCategories.find((category) => category.label === label) || null;
+
+const departmentForId = (departmentId) => editorDepartments.find((department) => department.id === departmentId) || null;
+
+const writeCategories = () => writeJson(categoriesPath, editorCategories);
+
+const writeDepartments = () => writeJson(departmentsPath, editorDepartments);
+
+const normalizeDepartmentIds = (departmentIds) =>
+  Array.isArray(departmentIds) ? departmentIds.map((departmentId) => String(departmentId).trim()).filter(Boolean) : [];
+
+const validateCategoryInput = (category, originalLabel = null) => {
+  const label = String(category?.label || '').trim();
+  const departments = normalizeDepartmentIds(category?.departments);
+  const errors = [];
+
+  if (!label) errors.push('Department label is required.');
+  if (editorCategories.some((item) => item.label === label && item.label !== originalLabel)) {
+    errors.push(`Department label "${label}" already exists.`);
+  }
+
+  for (const departmentId of departments) {
+    if (!departmentForId(departmentId)) errors.push(`Unknown Sub-department ${departmentId}.`);
+  }
+
+  return { label, departments, errors };
+};
+
+const validateDepartmentInput = (department, originalId = null) => {
+  const id = String(department?.id || '').trim();
+  const label = String(department?.label || '').trim();
+  const shortLabel = String(department?.shortLabel || label).trim();
+  const description = String(department?.description || '').trim();
+  const datadir = String(department?.datadir || `src/_data/products/${slug(label)}`).trim();
+  const errors = [];
+
+  if (!/^[0-9]{3}-[0-9]{3}$/.test(id)) errors.push('Sub-department SKU prefix must match ###-###.');
+  if (!label) errors.push('Sub-department label is required.');
+  if (!datadir.startsWith('src/_data/products/')) errors.push('Product data directory must be under src/_data/products/.');
+  if (editorDepartments.some((item) => item.id === id && item.id !== originalId)) {
+    errors.push(`Sub-department SKU prefix ${id} already exists.`);
+  }
+  if (editorDepartments.some((item) => item.label === label && item.id !== originalId)) {
+    errors.push(`Sub-department label "${label}" already exists.`);
+  }
+  if (editorDepartments.some((item) => item.datadir === datadir && item.id !== originalId)) {
+    errors.push(`Product data directory ${datadir} already exists.`);
+  }
+
+  const resolvedDir = path.resolve(rootDir, datadir);
+  if (!resolvedDir.startsWith(`${productDataDir}${path.sep}`)) {
+    errors.push('Product data directory must stay under src/_data/products/.');
+  }
+
+  return {
+    department: {
+      id,
+      label,
+      shortLabel,
+      description,
+      datadir,
+    },
+    errors,
+  };
+};
+
+const assignDepartmentToCategory = (departmentId, categoryLabel) => {
+  if (!categoryLabel) return;
+
+  editorCategories = editorCategories.map((category) => ({
+    ...category,
+    departments: category.departments.filter((id) => id !== departmentId),
+  }));
+
+  editorCategories = editorCategories.map((category) =>
+    category.label === categoryLabel
+      ? { ...category, departments: [...category.departments, departmentId] }
+      : category
+  );
+};
 
 const navigationDepartments = () =>
-  categories.map((category) => {
+  editorCategories.map((category) => {
     const categoryDepartments =
       category.departments.length > 0
         ? category.departments.map(departmentForId).filter(Boolean)
-        : departments.filter((department) => department.label === category.label);
+        : editorDepartments.filter((department) => department.label === category.label);
 
     return {
       label: category.label,
@@ -305,10 +391,127 @@ const handleApi = async (req, res, url) => {
   if (req.method === 'GET' && url.pathname === '/api/catalog') {
     sendJson(res, 200, {
       manifest: currentManifest(),
-      categories,
-      departments,
+      categories: editorCategories,
+      departments: editorDepartments,
       navigation: navigationDepartments(),
       products: editorProducts.map(productSummary),
+    });
+    return;
+  }
+
+  if (req.method === 'GET' && url.pathname === '/api/taxonomy') {
+    sendJson(res, 200, {
+      categories: editorCategories,
+      departments: editorDepartments,
+      navigation: navigationDepartments(),
+    });
+    return;
+  }
+
+  if (req.method === 'POST' && url.pathname === '/api/categories') {
+    const body = JSON.parse(await readBody(req));
+    const { label, departments: departmentIds, errors } = validateCategoryInput(body.category);
+
+    if (errors.length > 0) {
+      sendJson(res, 422, { error: 'Department failed validation.', validationErrors: errors });
+      return;
+    }
+
+    const category = { label, departments: departmentIds };
+    editorCategories = [...editorCategories, category];
+    writeCategories();
+    const manifest = bumpManifestVersion();
+    sendJson(res, 201, { ok: true, manifest, category, categories: editorCategories, navigation: navigationDepartments() });
+    return;
+  }
+
+  if (req.method === 'POST' && url.pathname.startsWith('/api/categories/')) {
+    const originalLabel = decodeURIComponent(url.pathname.replace('/api/categories/', ''));
+    if (!categoryForLabel(originalLabel)) {
+      sendJson(res, 404, { error: `Unknown Department ${originalLabel}` });
+      return;
+    }
+
+    const body = JSON.parse(await readBody(req));
+    const { label, departments: departmentIds, errors } = validateCategoryInput(body.category, originalLabel);
+
+    if (errors.length > 0) {
+      sendJson(res, 422, { error: 'Department failed validation.', validationErrors: errors });
+      return;
+    }
+
+    const category = { label, departments: departmentIds };
+    editorCategories = editorCategories.map((item) => (item.label === originalLabel ? category : item));
+    writeCategories();
+    const manifest = bumpManifestVersion();
+    sendJson(res, 200, { ok: true, manifest, category, categories: editorCategories, navigation: navigationDepartments() });
+    return;
+  }
+
+  if (req.method === 'POST' && url.pathname === '/api/departments') {
+    const body = JSON.parse(await readBody(req));
+    const categoryLabel = String(body.categoryLabel || '').trim();
+    const category = categoryForLabel(categoryLabel);
+    const { department, errors } = validateDepartmentInput(body.department);
+
+    if (!category) errors.push(`Unknown Department ${categoryLabel}.`);
+
+    if (errors.length > 0) {
+      sendJson(res, 422, { error: 'Sub-department failed validation.', validationErrors: errors });
+      return;
+    }
+
+    editorDepartments = [...editorDepartments, department];
+    assignDepartmentToCategory(department.id, category.label);
+    writeDepartments();
+    writeCategories();
+    fs.mkdirSync(path.join(rootDir, department.datadir), { recursive: true });
+    const manifest = bumpManifestVersion();
+    sendJson(res, 201, {
+      ok: true,
+      manifest,
+      department,
+      category: categoryForLabel(category.label),
+      departments: editorDepartments,
+      categories: editorCategories,
+      navigation: navigationDepartments(),
+    });
+    return;
+  }
+
+  if (req.method === 'POST' && url.pathname.startsWith('/api/departments/') && !url.pathname.endsWith('/next-sku')) {
+    const originalId = decodeURIComponent(url.pathname.replace('/api/departments/', ''));
+    if (!departmentForId(originalId)) {
+      sendJson(res, 404, { error: `Unknown Sub-department ${originalId}` });
+      return;
+    }
+
+    const body = JSON.parse(await readBody(req));
+    const categoryLabel = String(body.categoryLabel || '').trim();
+    const category = categoryForLabel(categoryLabel);
+    const { department, errors } = validateDepartmentInput(body.department, originalId);
+
+    if (department.id !== originalId) errors.push('Sub-department SKU prefix cannot be changed.');
+    if (categoryLabel && !category) errors.push(`Unknown Department ${categoryLabel}.`);
+
+    if (errors.length > 0) {
+      sendJson(res, 422, { error: 'Sub-department failed validation.', validationErrors: errors });
+      return;
+    }
+
+    editorDepartments = editorDepartments.map((item) => (item.id === originalId ? department : item));
+    if (category) assignDepartmentToCategory(department.id, category.label);
+    writeDepartments();
+    writeCategories();
+    fs.mkdirSync(path.join(rootDir, department.datadir), { recursive: true });
+    const manifest = bumpManifestVersion();
+    sendJson(res, 200, {
+      ok: true,
+      manifest,
+      department,
+      departments: editorDepartments,
+      categories: editorCategories,
+      navigation: navigationDepartments(),
     });
     return;
   }

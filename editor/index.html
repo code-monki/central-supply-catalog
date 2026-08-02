@@ -63,6 +63,83 @@
             <pre v-if="createError" class="save-error">{{ createError }}</pre>
           </div>
 
+          <div class="create-panel taxonomy-panel">
+            <h2>Taxonomy</h2>
+            <label for="taxonomy-department">Department</label>
+            <select id="taxonomy-department" v-model="taxonomyCategoryLabel" @change="selectTaxonomyCategory">
+              <option v-for="category in categories" :key="category.label" :value="category.label">
+                {{ category.label }}
+              </option>
+            </select>
+            <label>
+              Department Label
+              <input v-model.trim="categoryDraftLabel" type="text">
+            </label>
+            <button type="button" @click="saveCategory" :disabled="busy || !taxonomyCategory">Save Department</button>
+
+            <label>
+              New Department
+              <input v-model.trim="newCategoryLabel" type="text">
+            </label>
+            <button type="button" @click="createCategory" :disabled="busy || !newCategoryLabel">Create Department</button>
+
+            <label for="taxonomy-subdepartment">Sub-department</label>
+            <select id="taxonomy-subdepartment" v-model="taxonomySubdepartmentId" @change="selectTaxonomySubdepartment(taxonomySubdepartmentId)">
+              <option value="">None</option>
+              <option v-for="subdepartment in taxonomySubdepartments" :key="subdepartment.id" :value="subdepartment.id">
+                {{ subdepartment.id }} {{ subdepartment.label }}
+              </option>
+            </select>
+            <div v-if="subdepartmentDraft" class="taxonomy-fields">
+              <label>
+                SKU Prefix
+                <input v-model.trim="subdepartmentDraft.id" type="text" readonly>
+              </label>
+              <label>
+                Label
+                <input v-model.trim="subdepartmentDraft.label" type="text">
+              </label>
+              <label>
+                Short Label
+                <input v-model.trim="subdepartmentDraft.shortLabel" type="text">
+              </label>
+              <label>
+                Data Directory
+                <input v-model.trim="subdepartmentDraft.datadir" type="text">
+              </label>
+              <label>
+                Description
+                <textarea v-model="subdepartmentDraft.description" rows="3"></textarea>
+              </label>
+              <button type="button" @click="saveSubdepartment" :disabled="busy">Save Sub-department</button>
+            </div>
+
+            <div class="taxonomy-fields">
+              <label>
+                New SKU Prefix
+                <input v-model.trim="newSubdepartment.id" type="text" placeholder="201-000">
+              </label>
+              <label>
+                New Label
+                <input v-model.trim="newSubdepartment.label" type="text" @change="updateNewSubdepartmentDatadir">
+              </label>
+              <label>
+                New Short Label
+                <input v-model.trim="newSubdepartment.shortLabel" type="text">
+              </label>
+              <label>
+                New Data Directory
+                <input v-model.trim="newSubdepartment.datadir" type="text">
+              </label>
+              <label>
+                New Description
+                <textarea v-model="newSubdepartment.description" rows="3"></textarea>
+              </label>
+              <button type="button" @click="createSubdepartment" :disabled="busy || !taxonomyCategory || !newSubdepartment.id || !newSubdepartment.label">Create Sub-department</button>
+            </div>
+            <pre v-if="taxonomyError" class="save-error">{{ taxonomyError }}</pre>
+          </div>
+
           <label for="query">Filter products</label>
           <input id="query" v-model="query" type="search" autocomplete="off">
 

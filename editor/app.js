@@ -23,6 +23,19 @@ createApp({
       git: null,
       gitDiff: '',
       commitMessage: '',
+      taxonomyCategoryLabel: '',
+      categoryDraftLabel: '',
+      newCategoryLabel: '',
+      taxonomySubdepartmentId: '',
+      subdepartmentDraft: null,
+      newSubdepartment: {
+        id: '',
+        label: '',
+        shortLabel: '',
+        description: '',
+        datadir: '',
+      },
+      taxonomyError: '',
     };
   },
   computed: {
@@ -47,25 +60,148 @@ createApp({
     selectableSubdepartments() {
       return this.selectedNavigationDepartment?.subdepartments || [];
     },
+    taxonomyCategory() {
+      return this.categories.find((category) => category.label === this.taxonomyCategoryLabel) || null;
+    },
+    taxonomySubdepartments() {
+      if (!this.taxonomyCategory) return [];
+      const ids = new Set(this.taxonomyCategory.departments || []);
+      if (ids.size === 0) return this.departments.filter((department) => department.label === this.taxonomyCategory.label);
+      return this.departments.filter((department) => ids.has(department.id));
+    },
   },
   async mounted() {
     const response = await fetch('/api/catalog');
     const catalog = await response.json();
 
-    this.manifest = catalog.manifest;
-    this.categories = catalog.categories;
-    this.departments = catalog.departments;
-    this.navigation = catalog.navigation;
-    this.products = catalog.products;
-    this.createDepartmentLabel = this.navigation[0]?.label || '';
-    this.createSubdepartmentId = this.selectableSubdepartments[0]?.id || '';
-
+    this.applyCatalog(catalog);
     await this.refreshGitStatus();
     if (this.products.length > 0) await this.selectProduct(this.products[0].sku);
   },
   methods: {
+    applyCatalog(catalog) {
+      this.manifest = catalog.manifest;
+      this.categories = catalog.categories;
+      this.departments = catalog.departments;
+      this.navigation = catalog.navigation;
+      this.products = catalog.products;
+      this.createDepartmentLabel ||= this.navigation[0]?.label || '';
+      this.createSubdepartmentId ||= this.selectableSubdepartments[0]?.id || '';
+      this.taxonomyCategoryLabel ||= this.categories[0]?.label || '';
+      this.categoryDraftLabel = this.taxonomyCategoryLabel;
+      this.selectTaxonomySubdepartment(this.taxonomySubdepartments[0]?.id || '');
+    },
     departmentLabel(departmentId) {
       return this.departments.find((department) => department.id === departmentId)?.label || departmentId;
+    },
+    datadirForLabel(label) {
+      const slug = label.trim().toLowerCase().replace(/[^a-z0-9]+/g, '-').replace(/^-|-$/g, '');
+      return slug ? `src/_data/products/${slug}` : '';
+    },
+    async refreshTaxonomy() {
+      const response = await fetch('/api/taxonomy');
+      const taxonomy = await response.json();
+      this.categories = taxonomy.categories;
+      this.departments = taxonomy.departments;
+      this.navigation = taxonomy.navigation;
+      if (!this.categories.some((category) => category.label === this.taxonomyCategoryLabel)) {
+        this.taxonomyCategoryLabel = this.categories[0]?.label || '';
+      }
+      this.categoryDraftLabel = this.taxonomyCategoryLabel;
+      this.selectTaxonomySubdepartment(this.taxonomySubdepartmentId || this.taxonomySubdepartments[0]?.id || '');
+    },
+    selectTaxonomyCategory() {
+      this.categoryDraftLabel = this.taxonomyCategoryLabel;
+      this.taxonomyError = '';
+      this.selectTaxonomySubdepartment(this.taxonomySubdepartments[0]?.id || '');
+    },
+    selectTaxonomySubdepartment(departmentId) {
+      this.taxonomySubdepartmentId = departmentId || '';
+      const department = this.departments.find((item) => item.id === this.taxonomySubdepartmentId);
+      this.subdepartmentDraft = department ? { ...department, shortLabel: department.shortLabel || department.shortlabel || '' } : null;
+    },
+    async createCategory() {
+      const label = this.newCategoryLabel.trim();
+      if (!label) return;
+
+      const saved = await this.saveTaxonomyRequest('Create Department', '/api/categories', {
+        category: { label, departments: [] },
+      });
+      if (saved) {
+        this.newCategoryLabel = '';
+        this.taxonomyCategoryLabel = label;
+        this.categoryDraftLabel = label;
+      }
+    },
+    async saveCategory() {
+      if (!this.taxonomyCategory) return;
+      const originalLabel = this.taxonomyCategory.label;
+      const nextLabel = this.categoryDraftLabel.trim();
+      const saved = await this.saveTaxonomyRequest('Save Department', `/api/categories/${encodeURIComponent(originalLabel)}`, {
+        category: { label: nextLabel, departments: this.taxonomyCategory.departments },
+      });
+      if (saved) {
+        this.taxonomyCategoryLabel = nextLabel;
+        this.categoryDraftLabel = nextLabel;
+      }
+    },
+    updateNewSubdepartmentDatadir() {
+      if (!this.newSubdepartment.datadir) this.newSubdepartment.datadir = this.datadirForLabel(this.newSubdepartment.label);
+    },
+    async createSubdepartment() {
+      const department = { ...this.newSubdepartment };
+      if (!department.datadir) department.datadir = this.datadirForLabel(department.label);
+
+      const saved = await this.saveTaxonomyRequest('Create Sub-department', '/api/departments', {
+        categoryLabel: this.taxonomyCategoryLabel,
+        department,
+      });
+      if (saved) {
+        this.taxonomySubdepartmentId = department.id;
+        this.selectTaxonomySubdepartment(department.id);
+        this.newSubdepartment = { id: '', label: '', shortLabel: '', description: '', datadir: '' };
+      }
+    },
+    async saveSubdepartment() {
+      if (!this.subdepartmentDraft) return;
+      await this.saveTaxonomyRequest('Save Sub-department', `/api/departments/${encodeURIComponent(this.subdepartmentDraft.id)}`, {
+        categoryLabel: this.taxonomyCategoryLabel,
+        department: this.subdepartmentDraft,
+      });
+    },
+    async saveTaxonomyRequest(title, url, body) {
+      this.busy = true;
+      this.taxonomyError = '';
+
+      try {
+        const response = await fetch(url, {
+          method: 'POST',
+          headers: { 'Content-Type': 'application/json' },
+          body: JSON.stringify(body),
+        });
+        const result = await response.json();
+
+        if (!response.ok) {
+          this.taxonomyError = result.validationErrors ? result.validationErrors.join('\n') : result.error || `${title} failed`;
+          return false;
+        }
+
+        if (result.manifest) this.manifest = result.manifest;
+        await this.refreshTaxonomy();
+        await this.refreshGitStatus();
+        this.lastAction = {
+          title,
+          ok: true,
+          stdout: `${title} updated catalog taxonomy; catalog version is now ${this.manifest?.catalogVersion || 'unchanged'}.`,
+          stderr: '',
+        };
+        return true;
+      } catch (error) {
+        this.taxonomyError = error instanceof Error ? error.message : String(error);
+        return false;
+      } finally {
+        this.busy = false;
+      }
     },
     async runAction(title, url) {
       this.busy = true;

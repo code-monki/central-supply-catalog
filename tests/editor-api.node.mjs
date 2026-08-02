@@ -6,8 +6,13 @@ import { createCatalogEditorServer } from '../scripts/catalog-editor.mjs';
 const productFile = 'src/_data/products/weapon-accessories/200-011-00001.json';
 const createdProductFile = 'src/_data/products/weapon-accessories/200-011-00029.json';
 const manifestFile = 'astro/data/catalog-manifest.json';
+const categoriesFile = 'astro/data/categories.json';
+const departmentsFile = 'astro/data/departments.json';
+const createdDepartmentDir = 'src/_data/products/editor-test-subdepartment';
 const originalProduct = fs.readFileSync(productFile, 'utf8');
 const originalManifest = fs.readFileSync(manifestFile, 'utf8');
+const originalCategories = fs.readFileSync(categoriesFile, 'utf8');
+const originalDepartments = fs.readFileSync(departmentsFile, 'utf8');
 const originalManifestVersion = JSON.parse(originalManifest).catalogVersion;
 let baseUrl;
 let server;
@@ -26,6 +31,7 @@ const requestJson = async (path, options = {}) => {
 
 before(async () => {
   fs.rmSync(createdProductFile, { force: true });
+  fs.rmSync(createdDepartmentDir, { recursive: true, force: true });
   server = createCatalogEditorServer();
   await new Promise((resolve) => server.listen(0, '127.0.0.1', resolve));
   const address = server.address();
@@ -34,8 +40,11 @@ before(async () => {
 
 after(async () => {
   fs.rmSync(createdProductFile, { force: true });
+  fs.rmSync(createdDepartmentDir, { recursive: true, force: true });
   fs.writeFileSync(productFile, originalProduct);
   fs.writeFileSync(manifestFile, originalManifest);
+  fs.writeFileSync(categoriesFile, originalCategories);
+  fs.writeFileSync(departmentsFile, originalDepartments);
 
   if (server) {
     await new Promise((resolve, reject) => {
@@ -92,6 +101,86 @@ test('editor rejects commit requests without a message', async () => {
   assert.equal(commit.body.stderr, 'Commit message is required.');
 });
 
+test('editor creates departments and assigned sub-departments', async () => {
+  const createCategory = await requestJson('/api/categories', {
+    method: 'POST',
+    body: JSON.stringify({ category: { label: 'Editor Test Department', departments: [] } }),
+  });
+
+  assert.equal(createCategory.response.status, 201);
+  assert.equal(createCategory.body.category.label, 'Editor Test Department');
+
+  const duplicateCategory = await requestJson('/api/categories', {
+    method: 'POST',
+    body: JSON.stringify({ category: { label: 'Editor Test Department', departments: [] } }),
+  });
+  assert.equal(duplicateCategory.response.status, 422);
+
+  const createDepartment = await requestJson('/api/departments', {
+    method: 'POST',
+    body: JSON.stringify({
+      categoryLabel: 'Editor Test Department',
+      department: {
+        id: '999-998',
+        label: 'Editor Test Subdepartment',
+        shortLabel: 'Editor Test',
+        description: 'Temporary editor taxonomy test.',
+        datadir: createdDepartmentDir,
+      },
+    }),
+  });
+
+  assert.equal(createDepartment.response.status, 201);
+  assert.equal(createDepartment.body.department.id, '999-998');
+  assert.ok(createDepartment.body.category.departments.includes('999-998'));
+  assert.equal(fs.existsSync(createdDepartmentDir), true);
+
+  const allocation = await requestJson('/api/departments/999-998/next-sku');
+  assert.equal(allocation.response.status, 200);
+  assert.equal(allocation.body.sku, '999-998-00001');
+  assert.equal(allocation.body.file, `${createdDepartmentDir}/999-998-00001.json`);
+});
+
+test('editor updates existing department and sub-department taxonomy', async () => {
+  const updateCategory = await requestJson('/api/categories/Editor%20Test%20Department', {
+    method: 'POST',
+    body: JSON.stringify({ category: { label: 'Editor Test Department Renamed', departments: ['999-998'] } }),
+  });
+
+  assert.equal(updateCategory.response.status, 200);
+  assert.equal(updateCategory.body.category.label, 'Editor Test Department Renamed');
+
+  const updateDepartment = await requestJson('/api/departments/999-998', {
+    method: 'POST',
+    body: JSON.stringify({
+      categoryLabel: 'Editor Test Department Renamed',
+      department: {
+        id: '999-998',
+        label: 'Editor Test Subdepartment Renamed',
+        shortLabel: 'Editor Renamed',
+        description: 'Temporary editor taxonomy update test.',
+        datadir: createdDepartmentDir,
+      },
+    }),
+  });
+
+  assert.equal(updateDepartment.response.status, 200);
+  assert.equal(updateDepartment.body.department.label, 'Editor Test Subdepartment Renamed');
+
+  const invalidDepartment = await requestJson('/api/departments', {
+    method: 'POST',
+    body: JSON.stringify({
+      categoryLabel: 'Editor Test Department Renamed',
+      department: {
+        id: '999-998',
+        label: 'Duplicate Prefix',
+        datadir: 'src/_data/products/duplicate-prefix',
+      },
+    }),
+  });
+  assert.equal(invalidDepartment.response.status, 422);
+});
+
 test('editor rejects invalid product saves', async () => {
   const detail = await requestJson('/api/products/200-011-00001');
   const invalidProduct = { ...detail.body.product, name: '' };
@@ -107,6 +196,7 @@ test('editor rejects invalid product saves', async () => {
 });
 
 test('editor saves an existing product and bumps the manifest version', async () => {
+  const manifestBeforeSave = JSON.parse(fs.readFileSync(manifestFile, 'utf8'));
   const detail = await requestJson('/api/products/200-011-00001');
   const nextProduct = {
     ...detail.body.product,
@@ -118,7 +208,7 @@ test('editor saves an existing product and bumps the manifest version', async ()
     method: 'POST',
     body: JSON.stringify({ product: nextProduct }),
   });
-  const expectedVersion = String(Number.parseInt(originalManifestVersion, 10) + 1);
+  const expectedVersion = String(Number.parseInt(manifestBeforeSave.catalogVersion, 10) + 1);
 
   assert.equal(save.response.status, 200);
   assert.equal(save.body.ok, true);

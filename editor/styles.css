@@ -187,17 +187,41 @@ button:disabled {
   background: #f3c431;
 }
 
+.taxonomy-panel {
+  gap: 10px;
+}
+
+.taxonomy-fields {
+  display: grid;
+  gap: 8px;
+  padding-top: 8px;
+  border-top: 1px solid #e1e6ec;
+}
+
 .sidebar label {
+  display: grid;
+  gap: 4px;
   font-weight: 700;
 }
 
 .sidebar input,
-.sidebar select {
+.sidebar select,
+.sidebar textarea {
   width: 100%;
-  min-height: 36px;
   padding: 6px 8px;
   border: 1px solid #aeb7c2;
   border-radius: 4px;
+}
+
+.sidebar input,
+.sidebar select {
+  min-height: 36px;
+}
+
+.sidebar textarea {
+  min-height: 76px;
+  font: inherit;
+  resize: vertical;
 }
 
 .count {
