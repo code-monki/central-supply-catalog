@@ -15,6 +15,5 @@ This work would not have been made possible without the specific contributions o
 - Robert Eaglestone, who provided content and feedback during the development of the application.
 - Thomas Jones-Low and the stewards of the Traveller Wiki, who graciously shared their content.
 - Ade Steward and Robert Pearce for their feedback and invaluable insights.
-- shivjim on Github for invaluable help in navigating some of Eleventy's trickiness and general Javascript advice.
 
 A huge thanks and debt of gratitude also goes out to all of those friends and members of the community, both present and missing, who have made Traveller the success that it is.
